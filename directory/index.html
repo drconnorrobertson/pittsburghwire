@@ -982,17 +982,17 @@
       </div>
       <div class="hero-stats fade-in" style="animation-delay:.3s">
         <div class="stat">
-          <span class="stat-num" id="totalCount">12</span>
+          <span class="stat-num" id="totalCount">57</span>
           <span class="stat-label">Listed Businesses</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
-          <span class="stat-num">7</span>
+          <span class="stat-num">16</span>
           <span class="stat-label">Neighborhoods</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
-          <span class="stat-num">6</span>
+          <span class="stat-num">8</span>
           <span class="stat-label">Categories</span>
         </div>
       </div>
@@ -1022,6 +1022,7 @@
         <button class="tag" data-cat="trades" onclick="setCategory(this, 'trades')">Trades</button>
         <button class="tag" data-cat="health" onclick="setCategory(this, 'health')">Health</button>
         <button class="tag" data-cat="retail" onclick="setCategory(this, 'retail')">Retail</button>
+        <button class="tag" data-cat="arts" onclick="setCategory(this, 'arts')">Arts &amp; Culture</button>
       </div>
     </div>
   </div>
@@ -1439,6 +1440,327 @@
         thumb: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=70&auto=format',
         desc: "Western Pennsylvania's second-largest health system, anchored by Allegheny General Hospital on Pittsburgh's North Side. Serving the region since 1885.",
         fullDesc: "Allegheny Health Network traces its roots to Allegheny General Hospital, founded in 1885 on Pittsburgh's North Side. Today AHN operates 14 hospitals, hundreds of outpatient facilities, and employs over 21,000 people across western Pennsylvania, making it one of the region's most essential employers and healthcare providers."
+      }
+,
+      {
+        id: 'pamelas-diner', slug: 'pamelas-diner',
+        name: 'Pamela\'s Diner', owner: 'Pamela Cohen & Gail Klingensmith',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '1980', employees: '60+',
+        icon: '🥞', website: 'https://pamelasdiner.com',
+        thumb: 'https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600&q=70&auto=format',
+        desc: "Pittsburgh's beloved breakfast institution, famous for hotcakes that earned a presidential endorsement. A Strip District staple since 1980.",
+        fullDesc: "Pamela Cohen and Gail Klingensmith opened Pamela's Diner in 1980, and it became a breakfast institution almost immediately. The crepe-style hotcakes with crispy, lacy edges drew a presidential endorsement and lines out the door every weekend."
+      },
+      {
+        id: 'morcilla', slug: 'morcilla',
+        name: 'Morcilla', owner: 'Justin Severino & Hilary Prescott Severino',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2016', employees: '25+',
+        icon: '🍷', website: 'https://morcillapittsburgh.com',
+        thumb: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=70&auto=format',
+        desc: "Spanish-inspired small plates and pintxos from James Beard-nominated chef Justin Severino. One of Pittsburgh's most celebrated restaurants.",
+        fullDesc: "Justin Severino opened Morcilla in 2016 on Butler Street in Lawrenceville, bringing Spanish pintxos, conservas, and an exceptional sherry list to Pittsburgh's most exciting dining corridor."
+      },
+      {
+        id: 'cure-restaurant', slug: 'cure-restaurant',
+        name: 'Cure', owner: 'Justin Severino & Hilary Prescott Severino',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2013', employees: '20+',
+        icon: '🥩', website: 'https://curepittsburgh.com',
+        thumb: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=70&auto=format',
+        desc: "James Beard-nominated Italian restaurant specializing in house-cured meats and handmade pasta. A cornerstone of Pittsburgh fine dining.",
+        fullDesc: "Justin Severino opened Cure in 2013 in Lawrenceville with a singular focus on house-cured meats and handmade pastas. Multiple James Beard nominations followed."
+      },
+      {
+        id: 'apteka', slug: 'apteka',
+        name: 'Apteka', owner: 'Kate Lasky & Tomasz Skowronski',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Bloomfield', founded: '2016', employees: '15+',
+        icon: '🌱', website: 'https://aptekapgh.com',
+        thumb: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=70&auto=format',
+        desc: "Vegan Eastern European bar and kitchen in Bloomfield. Apteka reimagines Polish and Central European traditions through a plant-based lens.",
+        fullDesc: "Kate Lasky and Tomasz Skowronski opened Apteka in 2016 in Bloomfield, Pittsburgh's historic Polish neighborhood. The concept: vegan Eastern European food with an outstanding natural wine program."
+      },
+      {
+        id: 'bitter-ends', slug: 'bitter-ends-garden-luncheonette',
+        name: 'Bitter Ends Garden & Luncheonette', owner: 'Megan Lindsey & Drew Anderson',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Bloomfield', founded: '2019', employees: '10+',
+        icon: '🌿', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&q=70&auto=format',
+        desc: "A Bloomfield garden cafe serving seasonal, vegetable-forward dishes in one of Pittsburgh's most charming spaces.",
+        fullDesc: "Bitter Ends opened in 2019 in a converted Bloomfield storefront with a garden patio. Seasonal, locally sourced, vegetable-forward cooking that changes with the farms."
+      },
+      {
+        id: 'poulet-bleu', slug: 'poulet-bleu',
+        name: 'Poulet Bleu', owner: 'Richard DeShantz',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2020', employees: '30+',
+        icon: '🐓', website: 'https://pouletbleupgh.com',
+        thumb: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=70&auto=format',
+        desc: "Classic French bistro in Lawrenceville. Steak frites, roast chicken, and a zinc bar that transports you straight to Paris.",
+        fullDesc: "Richard DeShantz opened Poulet Bleu in 2020, a classic French bistro with roast chicken, steak frites, and a zinc-topped bar. Pittsburgh Magazine's Restaurant of the Year."
+      },
+      {
+        id: 'gi-jin', slug: 'gi-jin',
+        name: 'Gi-Jin', owner: 'Richard DeShantz',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Downtown', founded: '2022', employees: '25+',
+        icon: '🍣', website: 'https://gijinpgh.com',
+        thumb: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&q=70&auto=format',
+        desc: "Upscale Japanese-inspired restaurant and cocktail bar in Downtown Pittsburgh. Omakase, hand rolls, and stunning interior design.",
+        fullDesc: "Gi-Jin opened in 2022, adding sophisticated Japanese-inspired dining to Downtown Pittsburgh with an omakase counter, hand roll bar, and ambitious cocktail program."
+      },
+      {
+        id: 'dianoias', slug: 'dianoias-eatery',
+        name: 'DiAnoia\'s Eatery', owner: 'Dave & Aimee Anoia',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '2017', employees: '35+',
+        icon: '🍝', website: 'https://dianoia.com',
+        thumb: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=70&auto=format',
+        desc: "Italian-American cooking at its finest in the Strip District. Handmade pasta, wood-fired dishes, and some of the best meatballs in Pittsburgh.",
+        fullDesc: "Dave and Aimee Anoia opened DiAnoia's in 2017 in the Strip District. House-made pasta, signature meatballs, and Sunday gravy that honors Pittsburgh's Italian-American heritage."
+      },
+      {
+        id: 'driftwood-oven', slug: 'driftwood-oven',
+        name: 'Driftwood Oven', owner: 'Corey Mazza',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2018', employees: '15+',
+        icon: '🍕', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=70&auto=format',
+        desc: "Wood-fired Neapolitan pizza in Lawrenceville using locally milled flour and seasonal toppings. Some of Pittsburgh's best pies.",
+        fullDesc: "Corey Mazza opened Driftwood Oven in 2018 after years perfecting his dough at pop-ups. Custom wood-fired oven, locally milled flour, and seasonal Neapolitan-style pizza."
+      },
+      {
+        id: 'umami-pgh', slug: 'umami-pittsburgh',
+        name: 'Umami', owner: 'Kevin Sousa',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2013', employees: '20+',
+        icon: '🍜', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=70&auto=format',
+        desc: "Pan-Asian fusion in Lawrenceville blending Japanese, Korean, and Southeast Asian flavors with Pittsburgh's farm-to-table ethos.",
+        fullDesc: "Umami opened in 2013, bringing chef Kevin Sousa's creative pan-Asian cooking to Lawrenceville. Japanese, Korean, and Southeast Asian traditions with local sourcing."
+      },
+      {
+        id: 'superior-motors', slug: 'superior-motors',
+        name: 'Superior Motors', owner: 'Kevin Sousa',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Braddock', founded: '2017', employees: '20+',
+        icon: '🏭', website: 'https://superiormotorspgh.com',
+        thumb: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=70&auto=format',
+        desc: "Fine dining in Braddock from chef Kevin Sousa. Part restaurant, part community project, set in a former auto dealership in Pittsburgh's most storied steel town.",
+        fullDesc: "Kevin Sousa opened Superior Motors in 2017 in Braddock, in a converted 1920s auto dealership. Fine dining as community investment in Pittsburgh's historic steel country."
+      },
+      {
+        id: 'butterjoint', slug: 'butterjoint',
+        name: 'Butterjoint', owner: 'Trevett Hooper',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Oakland', founded: '2012', employees: '20+',
+        icon: '🧈', website: 'https://butterjoint.com',
+        thumb: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600&q=70&auto=format',
+        desc: "Craft cocktail bar and kitchen in Oakland. Butterjoint pairs inventive drinks with refined bar food near the University of Pittsburgh.",
+        fullDesc: "Trevett Hooper opened Butterjoint in 2012 adjacent to Legume in Oakland. Serious craft cocktails and food that goes far beyond typical bar fare."
+      },
+      {
+        id: 'hitchhiker', slug: 'hitchhiker-brewing',
+        name: 'Hitchhiker Brewing', owner: 'Gary Olden & Aaren Simoncini',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Sharpsburg', founded: '2014', employees: '15+',
+        icon: '🍺', website: 'https://hitchhikerbrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1559526642-c3f001ea68ee?w=600&q=70&auto=format',
+        desc: "Innovative craft brewery in Sharpsburg pushing the boundaries of hazy IPAs, sours, and experimental ales.",
+        fullDesc: "Founded in 2014, Hitchhiker Brewing quickly built a reputation for boundary-pushing craft beer: hazy IPAs, fruited sours, and experimental ales from Sharpsburg."
+      },
+      {
+        id: 'dancing-gnome', slug: 'dancing-gnome-beer',
+        name: 'Dancing Gnome Beer', owner: 'Andrew Witchey',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Sharpsburg', founded: '2016', employees: '20+',
+        icon: '🍺', website: 'https://dancinggnomebeer.com',
+        thumb: 'https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=600&q=70&auto=format',
+        desc: "One of Pittsburgh's most acclaimed breweries, known for exceptional IPAs and a loyal following. Based in Sharpsburg.",
+        fullDesc: "Andrew Witchey founded Dancing Gnome in 2016 with a laser focus on hop-forward ales. Can releases sell out in hours and the taproom draws lines on weekends."
+      },
+      {
+        id: 'cinderlands', slug: 'cinderlands-beer-co',
+        name: 'Cinderlands Beer Co.', owner: 'Paul Quigley & Brian Neuhaus',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '2018', employees: '35+',
+        icon: '🍻', website: 'https://cinderlandsbeer.com',
+        thumb: 'https://images.unsplash.com/photo-1532634922-8fe0b757fb13?w=600&q=70&auto=format',
+        desc: "Brewpub and foeder beer project in the Strip District. Cinderlands combines creative brewing with a serious food program.",
+        fullDesc: "Paul Quigley and Brian Neuhaus launched Cinderlands in 2018. Foeder-aged sours, rotating taps, and a food program that operates at restaurant quality."
+      },
+      {
+        id: 'eleventh-hour', slug: 'eleventh-hour-brewing',
+        name: 'Eleventh Hour Brewing', owner: 'Matt & Jen Cox',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2015', employees: '12+',
+        icon: '🍺', website: 'https://eleventhhourbrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1584225064785-c62a8b43d148?w=600&q=70&auto=format',
+        desc: "Neighborhood craft brewery in Lawrenceville with a cozy taproom and balanced, approachable beers.",
+        fullDesc: "Matt and Jen Cox opened Eleventh Hour in 2015 in Lawrenceville. Well-made, balanced beers in a cozy taproom that feels like a neighborhood living room."
+      },
+      {
+        id: 'hop-farm', slug: 'hop-farm-brewing',
+        name: 'Hop Farm Brewing', owner: 'Matt Gouwens',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2016', employees: '15+',
+        icon: '🌾', website: 'https://hopfarmbrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1575037614876-c38a4ca44f13?w=600&q=70&auto=format',
+        desc: "Lawrenceville brewery focused on hop-forward ales and lagers. West Coast brewing sensibility with Pittsburgh neighborhood spirit.",
+        fullDesc: "Matt Gouwens founded Hop Farm in 2016 in Lawrenceville, bringing West Coast-inspired, clean hop-forward ales and well-made lagers to Pittsburgh's brewery corridor."
+      },
+      {
+        id: 'trace-brewing', slug: 'trace-brewing',
+        name: 'Trace Brewing', owner: 'Jordan Heiner',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Bloomfield', founded: '2021', employees: '20+',
+        icon: '🍺', website: 'https://tracebrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?w=600&q=70&auto=format',
+        desc: "Bloomfield brewery, bottle shop, and gathering space. Creative craft beer with curated retail and community events.",
+        fullDesc: "Jordan Heiner opened Trace Brewing in 2021 in Bloomfield. Part brewery, part bottle shop, part community gathering spot in a beautifully renovated industrial space."
+      },
+      {
+        id: 'gecko-robotics', slug: 'gecko-robotics',
+        name: 'Gecko Robotics', owner: 'Jake Loosararian & Troy Demmer',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Lawrenceville', founded: '2016', employees: '500+',
+        icon: '🤖', website: 'https://geckorobotics.com',
+        thumb: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&q=70&auto=format',
+        desc: "Pittsburgh robotics company building wall-climbing inspection robots for industrial infrastructure. A CMU spinout valued at over $1 billion.",
+        fullDesc: "Jake Loosararian and Troy Demmer founded Gecko Robotics in 2016 at Carnegie Mellon. Wall-climbing inspection robots for power plants and refineries, now valued at over $1 billion."
+      },
+      {
+        id: 'carnegie-robotics', slug: 'carnegie-robotics',
+        name: 'Carnegie Robotics', owner: 'John Bares',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Lawrenceville', founded: '2010', employees: '75+',
+        icon: '🦾', website: 'https://carnegierobotics.com',
+        thumb: 'https://images.unsplash.com/photo-1531746790095-e5f382ab290a?w=600&q=70&auto=format',
+        desc: "Industrial robotics and sensing company from Carnegie Mellon's National Robotics Engineering Center. Building perception systems for robots.",
+        fullDesc: "John Bares founded Carnegie Robotics in 2010, commercializing advanced sensing and perception technology for robots in defense, mining, agriculture, and logistics."
+      },
+      {
+        id: 'niche-com', slug: 'niche-dot-com',
+        name: 'Niche.com', owner: 'Luke Skurman',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Downtown', founded: '2002', employees: '200+',
+        icon: '🎓', website: 'https://niche.com',
+        thumb: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=70&auto=format',
+        desc: "Pittsburgh-based platform helping students find the right schools and neighborhoods. Ranks every school, college, and community in America.",
+        fullDesc: "Luke Skurman founded Niche.com in 2002 while at Carnegie Mellon. It now reaches tens of millions of users researching schools, colleges, and neighborhoods."
+      },
+      {
+        id: 'roadrunner', slug: 'roadrunner-recycling',
+        name: 'RoadRunner Recycling', owner: 'Graham Rihn',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Strip District', founded: '2014', employees: '200+',
+        icon: '♻️', website: 'https://roadrunnerwm.com',
+        thumb: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&q=70&auto=format',
+        desc: "Waste management tech company using AI to make commercial recycling smarter and more efficient.",
+        fullDesc: "Graham Rihn founded RoadRunner in 2014 to fix commercial waste management through AI and data analytics. Now serving thousands of locations nationwide from Pittsburgh."
+      },
+      {
+        id: 'buncher', slug: 'the-buncher-company',
+        name: 'The Buncher Company', owner: 'Buncher Family',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'Strip District', founded: '1950', employees: '50+',
+        icon: '🏢', website: 'https://buncher.com',
+        thumb: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70&auto=format',
+        desc: "One of Pittsburgh's most influential real estate developers. Shaping the Strip District and riverfront for over seven decades.",
+        fullDesc: "The Buncher Company was founded in 1950 and has been a driving force in Pittsburgh real estate for over seven decades, transforming the Strip District and Allegheny riverfront."
+      },
+      {
+        id: 'oxford-dev', slug: 'oxford-development',
+        name: 'Oxford Development', owner: 'Edward Lewis & David Lewis',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'Downtown', founded: '1955', employees: '100+',
+        icon: '🏗️', website: 'https://oxforddevelopment.com',
+        thumb: 'https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=600&q=70&auto=format',
+        desc: "Pittsburgh's premier commercial real estate developer. Millions of square feet of office, retail, and mixed-use space.",
+        fullDesc: "Oxford Development was founded in 1955 by the Lewis family. Now one of western Pennsylvania's most respected commercial developers with millions of square feet under management."
+      },
+      {
+        id: 'millcraft', slug: 'millcraft-investments',
+        name: 'Millcraft Investments', owner: 'Anthony Bucci',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'Downtown', founded: '1988', employees: '50+',
+        icon: '🏨', website: 'https://millcraftinvestments.com',
+        thumb: 'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&q=70&auto=format',
+        desc: "The developer reshaping Downtown Pittsburgh with ambitious mixed-use and hospitality projects.",
+        fullDesc: "Anthony Bucci founded Millcraft Investments in 1988. The firm has become one of the most ambitious developers in Downtown Pittsburgh, specializing in large-scale mixed-use projects."
+      },
+      {
+        id: 'carnegie-museums', slug: 'carnegie-museums-pittsburgh',
+        name: 'Carnegie Museums of Pittsburgh', owner: 'Andrew Carnegie (Founded)',
+        category: 'arts', categoryLabel: 'Arts & Culture',
+        neighborhood: 'Oakland', founded: '1895', employees: '1,200+',
+        icon: '🏛️', website: 'https://carnegiemuseums.org',
+        thumb: 'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&q=70&auto=format',
+        desc: "Four world-class museums: Carnegie Museum of Art, Natural History, Science Center, and The Andy Warhol Museum.",
+        fullDesc: "Andrew Carnegie founded the Carnegie Museums in 1895. Today the organization encompasses four museums attracting over 1.5 million visitors annually."
+      },
+      {
+        id: 'warhol-museum', slug: 'andy-warhol-museum',
+        name: 'The Andy Warhol Museum', owner: 'Carnegie Museums of Pittsburgh',
+        category: 'arts', categoryLabel: 'Arts & Culture',
+        neighborhood: 'North Shore', founded: '1994', employees: '100+',
+        icon: '🎨', website: 'https://warhol.org',
+        thumb: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=600&q=70&auto=format',
+        desc: "The largest museum dedicated to a single artist in North America. Seven floors of Warhol's art on Pittsburgh's North Shore.",
+        fullDesc: "The Andy Warhol Museum opened in 1994 on Pittsburgh's North Shore. Seven floors, over 12,000 works, and a deep archive of the city's most famous artistic son."
+      },
+      {
+        id: 'phipps', slug: 'phipps-conservatory',
+        name: 'Phipps Conservatory', owner: 'Henry Phipps (Founded)',
+        category: 'arts', categoryLabel: 'Arts & Culture',
+        neighborhood: 'Oakland', founded: '1893', employees: '300+',
+        icon: '🌺', website: 'https://phipps.conservatory.org',
+        thumb: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=70&auto=format',
+        desc: "Pittsburgh's legendary botanical garden in Schenley Park. A sanctuary of living art and environmental leadership since 1893.",
+        fullDesc: "Henry Phipps gifted the conservatory to Pittsburgh in 1893. Over 130 years later, Phipps is both a horticultural treasure and a global leader in green building."
+      },
+      {
+        id: 'randyland', slug: 'randyland',
+        name: 'Randyland', owner: 'Randy Gilson',
+        category: 'arts', categoryLabel: 'Arts & Culture',
+        neighborhood: 'North Side', founded: '1995', employees: '1',
+        icon: '🎪', website: 'https://randy.land',
+        thumb: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=70&auto=format',
+        desc: "Pittsburgh's most colorful landmark. A free public art installation on the North Side created from salvaged materials and pure joy.",
+        fullDesc: "Randy Gilson started transforming his North Side row house in 1995. Randyland is now one of Pittsburgh's most visited free attractions, drawing over 100,000 visitors a year."
+      },
+      {
+        id: 'upmc', slug: 'upmc',
+        name: 'UPMC', owner: 'University of Pittsburgh Medical Center',
+        category: 'health', categoryLabel: 'Health',
+        neighborhood: 'Oakland', founded: '1893', employees: '95,000+',
+        icon: '🏥', website: 'https://upmc.com',
+        thumb: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=70&auto=format',
+        desc: "Pittsburgh's largest employer and one of the world's leading academic medical centers. 40+ hospitals and nearly 100,000 employees.",
+        fullDesc: "UPMC has grown from its 1893 origins into a $26 billion global health enterprise, Pittsburgh's largest employer, and one of the world's top-ranked academic medical centers."
+      },
+      {
+        id: 'pnc', slug: 'pnc-financial-services',
+        name: 'PNC Financial Services', owner: 'PNC Financial Services Group',
+        category: 'finance', categoryLabel: 'Finance',
+        neighborhood: 'Downtown', founded: '1845', employees: '60,000+',
+        icon: '🏦', website: 'https://pnc.com',
+        thumb: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70&auto=format',
+        desc: "One of the largest banks in the United States, headquartered in Pittsburgh since 1845. A landmark of the city's skyline.",
+        fullDesc: "PNC traces its roots to 1845 and has grown into one of America's largest financial services companies with over $550 billion in assets, headquartered in Downtown Pittsburgh."
+      },
+      {
+        id: 'ppg', slug: 'ppg-industries',
+        name: 'PPG Industries', owner: 'PPG Industries, Inc.',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Downtown', founded: '1883', employees: '50,000+',
+        icon: '🔬', website: 'https://ppg.com',
+        thumb: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=600&q=70&auto=format',
+        desc: "Global paints, coatings, and specialty materials company headquartered in Pittsburgh since 1883. The iconic glass castle towers define the skyline.",
+        fullDesc: "Founded in 1883 as Pittsburgh Plate Glass Company, PPG has evolved into the world's leading paints, coatings, and specialty materials company with operations in over 70 countries."
       }
     ];
 
