@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pittsburgh Wire | Pittsburgh Business, Real Estate & Development News</title>
+  <meta name="description" content="The Pittsburgh Wire covers Pittsburgh business, real estate, economic development, and the people building the city. Positive, forward-looking local journalism." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="The Pittsburgh Wire" />
+  <meta property="og:description" content="Pittsburgh business, real estate, and development news. The good stuff." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pittsburghwire.com" />
+  <link rel="canonical" href="https://pittsburghwire.com" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "The Pittsburgh Wire",
+    "url": "https://pittsburghwire.com",
+    "description": "Pittsburgh business, real estate, and economic development news.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Pittsburgh", "addressRegion": "PA" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0f0e0c;
+      --paper: #f5f0e8;
+      --cream: #ede8dc;
+      --rule: #c8bfad;
+      --accent: #b5001f;
+      --gold: #8a6a00;
+      --smoke: #6b6355;
+      --light-smoke: #a09585;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* TOP BAR */
+    .topbar {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 7px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .topbar-date { color: var(--light-smoke); }
+    .topbar-links { display: flex; gap: 20px; }
+    .topbar-links a { color: #aaa; transition: color 0.15s; }
+    .topbar-links a:hover { color: var(--paper); }
+    .topbar-sister {
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 2px 10px;
+      transition: background 0.15s;
+    }
+    .topbar-sister:hover { background: var(--gold); color: var(--ink); }
+
+    /* MASTHEAD */
+    .masthead {
+      border-bottom: 4px double var(--ink);
+      padding: 32px 28px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .masthead::before, .masthead::after {
+      content: '';
+      position: absolute;
+      left: 28px; right: 28px;
+      height: 1px;
+      background: var(--ink);
+    }
+    .masthead::before { top: 28px; }
+    .masthead::after { display: none; }
+
+    .masthead-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(52px, 9vw, 108px);
+      font-weight: 900;
+      line-height: 0.92;
+      letter-spacing: -2px;
+      color: var(--ink);
+      margin: 16px 0 10px;
+    }
+
+    .masthead-tagline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      margin-bottom: 18px;
+    }
+
+    /* NAV */
+    .nav {
+      border-top: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      background: var(--ink);
+    }
+
+    .nav-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--paper);
+      padding: 11px 22px;
+      display: block;
+      border-right: 1px solid #2a2a2a;
+      transition: background 0.15s, color 0.15s;
+    }
+    .nav a:first-child { border-left: 1px solid #2a2a2a; }
+    .nav a:hover { background: var(--accent); }
+
+    /* LAYOUT */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    /* SECTION HEADERS */
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 36px 0 20px;
+    }
+
+    .section-head-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .section-head-rule {
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* LEAD STORY */
+    .lead-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 0;
+      border: 1px solid var(--rule);
+      border-bottom: none;
+    }
+
+    .lead-main {
+      padding: 36px 40px 36px 36px;
+      border-right: 1px solid var(--rule);
+    }
+
+    .lead-sidebar {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .story-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .lead-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(28px, 4vw, 52px);
+      font-weight: 900;
+      line-height: 1.05;
+      color: var(--ink);
+      margin-bottom: 14px;
+      letter-spacing: -0.5px;
+    }
+
+    .lead-headline a:hover { color: var(--accent); }
+
+    .lead-deck {
+      font-size: 16px;
+      color: var(--smoke);
+      line-height: 1.75;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .byline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--light-smoke);
+    }
+
+    .byline span { color: var(--ink); }
+
+    .lead-img-placeholder {
+      background: linear-gradient(135deg, var(--cream) 0%, #d8d0c0 100%);
+      min-height: 260px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .lead-img-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 20px,
+        rgba(0,0,0,0.03) 20px,
+        rgba(0,0,0,0.03) 21px
+      );
+    }
+
+    .img-caption {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: var(--light-smoke);
+      padding: 8px 16px;
+      border-bottom: 1px solid var(--rule);
+      font-style: italic;
+    }
+
+    /* SIDEBAR STORIES */
+    .sidebar-story {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--rule);
+      flex: 1;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .sidebar-story:hover { background: var(--cream); }
+
+    .sidebar-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 8px;
+      color: var(--ink);
+    }
+    .sidebar-headline:hover { color: var(--accent); }
+
+    .sidebar-deck {
+      font-size: 13px;
+      color: var(--smoke);
+      line-height: 1.65;
+    }
+
+    /* 3-COLUMN GRID */
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0;
+      border: 1px solid var(--rule);
+      border-top: none;
+    }
+
+    .col-story {
+      padding: 24px 28px;
+      border-right: 1px solid var(--rule);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .col-story:last-child { border-right: none; }
+    .col-story:hover { background: var(--cream); }
+
+    .col-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .col-headline:hover { color: var(--accent); }
+
+    .col-deck {
+      font-size: 13px;
+      color: var(--smoke);
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    /* FULL-WIDTH DIVIDER */
+    .rule-full {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 0;
+    }
+
+    .rule-double {
+      border: none;
+      border-top: 4px double var(--rule);
+      margin: 40px 0;
+    }
+
+    /* DEVELOPMENT BELT */
+    .belt {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 36px 28px;
+      margin: 40px 0 0;
+    }
+
+    .belt-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .belt-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .belt-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #333;
+    }
+
+    .belt-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: #2a2a2a;
+    }
+
+    .belt-item {
+      background: var(--ink);
+      padding: 20px 24px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .belt-item:hover { background: #1a1a1a; }
+
+    .belt-cat {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .belt-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--paper);
+    }
+
+    .belt-byline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: #666;
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+
+    /* PEOPLE SECTION */
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule);
+    }
+
+    .person-card {
+      padding: 24px 28px;
+      border-right: 1px solid var(--rule);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .person-card:last-child { border-right: none; }
+    .person-card:hover { background: var(--cream); }
+
+    .person-avatar {
+      width: 56px;
+      height: 56px;
+      background: var(--cream);
+      border: 1px solid var(--rule);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--smoke);
+      margin-bottom: 14px;
+    }
+
+    .person-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .person-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .person-desc {
+      font-size: 13px;
+      color: var(--smoke);
+      line-height: 1.7;
+    }
+
+    /* NEWSLETTER */
+    .newsletter {
+      border: 2px solid var(--ink);
+      padding: 40px;
+      margin: 40px 0;
+      text-align: center;
+      background: var(--cream);
+    }
+
+    .newsletter-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      margin-bottom: 12px;
+    }
+
+    .newsletter-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .newsletter-sub {
+      font-size: 14px;
+      color: var(--smoke);
+      margin-bottom: 24px;
+      font-style: italic;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 0;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .newsletter-input {
+      flex: 1;
+      border: 1px solid var(--ink);
+      border-right: none;
+      background: var(--paper);
+      font-family: 'Source Serif 4', serif;
+      font-size: 14px;
+      padding: 11px 16px;
+      outline: none;
+      color: var(--ink);
+    }
+    .newsletter-input::placeholder { color: var(--light-smoke); }
+
+    .newsletter-btn {
+      background: var(--ink);
+      color: var(--paper);
+      border: 1px solid var(--ink);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 11px 28px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .newsletter-btn:hover { background: var(--accent); border-color: var(--accent); }
+
+    /* FOOTER */
+    .footer {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 48px 28px 28px;
+      margin-top: 40px;
+    }
+
+    .footer-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .footer-masthead {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 42px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 6px;
+    }
+
+    .footer-tagline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #666;
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #222;
+    }
+
+    .footer-cols {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 32px;
+    }
+
+    .footer-col-head {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+
+    .footer-col p {
+      font-size: 13px;
+      color: #888;
+      line-height: 1.8;
+    }
+
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-links-list a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: #888;
+      transition: color 0.15s;
+    }
+    .footer-links-list a:hover { color: var(--paper); }
+
+    .footer-copy {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: #444;
+      padding-top: 20px;
+      border-top: 1px solid #222;
+    }
+
+    /* TICKER */
+    .ticker {
+      background: var(--accent);
+      color: var(--paper);
+      padding: 8px 0;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .ticker-inner {
+      display: inline-block;
+      animation: ticker 35s linear infinite;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .ticker-inner span { margin: 0 40px; opacity: 0.7; }
+    .ticker-inner span::before { content: '◆  '; }
+
+    @keyframes ticker {
+      0% { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .lead-grid { grid-template-columns: 1fr; }
+      .lead-main { border-right: none; border-bottom: 1px solid var(--rule); }
+      .three-col { grid-template-columns: 1fr 1fr; }
+      .belt-grid { grid-template-columns: 1fr 1fr; }
+      .footer-cols { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .three-col { grid-template-columns: 1fr; }
+      .people-grid { grid-template-columns: 1fr; }
+      .belt-grid { grid-template-columns: 1fr; }
+      .masthead-title { font-size: 48px; }
+      .newsletter-form { flex-direction: column; }
+      .newsletter-input { border-right: 1px solid var(--ink); border-bottom: none; }
+      .topbar-links { display: none; }
+      .footer-cols { grid-template-columns: 1fr; }
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <span class="topbar-date">Saturday, April 18, 2026 &nbsp;&bull;&nbsp; Pittsburgh, PA</span>
+    <div class="topbar-links">
+      <a href="/about">About</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
+    </div>
+  </div>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <p class="masthead-tagline">Pittsburgh Business &bull; Real Estate &bull; Development &bull; People</p>
+    <h1 class="masthead-title">The Pittsburgh Wire</h1>
+    <p class="masthead-tagline">Good News, Only. Always Forward.</p>
+  </header>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#business">Business</a>
+      <a href="#real-estate">Real Estate</a>
+      <a href="#development">Development</a>
+      <a href="#people">People</a>
+      <a href="#neighborhoods">Neighborhoods</a>
+      <a href="/directory">Directory</a>
+      <a href="/about">About</a>
+    </div>
+  </nav>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span>Pittsburgh to host 2026 NFL Draft April 23-25</span>
+      <span>Post-Gazette acquired by Venetoulis Institute nonprofit</span>
+      <span>East Liberty sees 12 new business openings in Q1 2026</span>
+      <span>Hazelwood Green development adds 400 tech jobs</span>
+      <span>Pittsburgh ranked top 5 for small business growth nationally</span>
+      <span>New North Shore development breaks ground this spring</span>
+      <span>Pittsburgh to host 2026 NFL Draft April 23-25</span>
+      <span>Post-Gazette acquired by Venetoulis Institute nonprofit</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="container">
+
+      <!-- LEAD STORY -->
+      <div class="section-head" id="business">
+        <span class="section-head-label">Top Story</span>
+        <div class="section-head-rule"></div>
+      </div>
+
+      <div class="lead-grid fade-up">
+        <div class="lead-main">
+          <span class="story-label">Business</span>
+          <h2 class="lead-headline">
+            <a href="/news/post-gazette-acquisition-new-era-pittsburgh-journalism">Pittsburgh's Oldest Newspaper Finds New Life Under Nonprofit Stewardship</a>
+          </h2>
+          <p class="lead-deck">The Venetoulis Institute's acquisition of the Post-Gazette keeps 240 years of Pittsburgh journalism alive and signals a broader national shift toward mission-driven local news ownership.</p>
+          <p class="byline">By <span>The Pittsburgh Wire</span> &nbsp;&bull;&nbsp; April 18, 2026</p>
+        </div>
+        <div class="lead-sidebar">
+          <div class="lead-img-placeholder"></div>
+          <p class="img-caption">The Pittsburgh Post-Gazette building, Downtown Pittsburgh</p>
+          <div class="sidebar-story">
+            <span class="story-label">Real Estate</span>
+            <p class="sidebar-headline"><a href="#">Hazelwood Green's Second Phase Brings 200,000 Sq Ft of Mixed-Use to the Monongahela</a></p>
+            <p class="sidebar-deck">The former LTV Steel site continues its transformation into Pittsburgh's most ambitious urban development project.</p>
+          </div>
+          <div class="sidebar-story">
+            <span class="story-label">Development</span>
+            <p class="sidebar-headline"><a href="#">East Liberty Corridor Lands Three New Anchors in Q1</a></p>
+            <p class="sidebar-deck">A coffee roaster, co-working operator, and regional grocer are set to open on Penn Avenue this summer.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3-COL STORIES -->
+      <div class="three-col fade-up delay-1">
+        <div class="col-story">
+          <span class="story-label">Business</span>
+          <p class="col-headline"><a href="#">Pittsburgh Tech Founders Raise $48M in Q1, Pacing Ahead of 2025</a></p>
+          <p class="col-deck">CMU spinouts and robotics startups led a strong first quarter for local venture activity, with five deals closing above $5M.</p>
+          <p class="byline">April 16, 2026</p>
+        </div>
+        <div class="col-story">
+          <span class="story-label">Neighborhoods</span>
+          <p class="col-headline"><a href="#">Lawrenceville Named One of America's Most Vibrant Small Business Corridors</a></p>
+          <p class="col-deck">Butler Street's density of independent operators earned the neighborhood national recognition from the Institute for Local Self-Reliance.</p>
+          <p class="byline">April 14, 2026</p>
+        </div>
+        <div class="col-story">
+          <span class="story-label">People</span>
+          <p class="col-headline"><a href="#">How One Pittsburgh Founder Turned a Single Van Into a 19-Person HVAC Company</a></p>
+          <p class="col-deck">Mike Battaglia of Three Rivers HVAC built his business on a no-upsell promise. Seventeen years later, it's his biggest competitive advantage.</p>
+          <p class="byline">April 12, 2026</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- DARK BELT: DEVELOPMENT -->
+    <div class="belt" id="development">
+      <div class="belt-inner">
+        <div class="belt-label">Development &amp; Real Estate</div>
+        <div class="belt-grid">
+          <div class="belt-item">
+            <div class="belt-cat">North Shore</div>
+            <p class="belt-headline">New Riverfront District Proposal Would Add 1,200 Residential Units Near Acrisure Stadium</p>
+            <p class="belt-byline">April 17, 2026</p>
+          </div>
+          <div class="belt-item">
+            <div class="belt-cat">Oakland</div>
+            <p class="belt-headline">UPMC's $300M Research Expansion Breaks Ground, Anchoring Oakland's Innovation Corridor</p>
+            <p class="belt-byline">April 15, 2026</p>
+          </div>
+          <div class="belt-item">
+            <div class="belt-cat">Strip District</div>
+            <p class="belt-headline">Strip District Terminal Expansion Adds Local Food Producers to Pittsburgh's Most-Visited Market</p>
+            <p class="belt-byline">April 11, 2026</p>
+          </div>
+          <div class="belt-item">
+            <div class="belt-cat">South Side</div>
+            <p class="belt-headline">South Side Works Phase Three Approved, Bringing 80,000 Sq Ft of Retail and Office Space</p>
+            <p class="belt-byline">April 10, 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- PEOPLE SECTION -->
+      <div class="section-head" id="people">
+        <span class="section-head-label">People of Pittsburgh</span>
+        <div class="section-head-rule"></div>
+      </div>
+
+      <div class="people-grid fade-up delay-2">
+        <div class="person-card">
+          <div class="person-avatar">RO</div>
+          <p class="person-name">Rachel Osei</p>
+          <p class="person-title">Founder, PGH Software Co.</p>
+          <p class="person-desc">Rachel left a New York tech career to build software tools for Pittsburgh's industrial mid-market. Her East Liberty studio now serves a dozen CMU spinouts.</p>
+        </div>
+        <div class="person-card">
+          <div class="person-avatar">DH</div>
+          <p class="person-name">Darnell Hughes</p>
+          <p class="person-title">Founder, Steel City Finance</p>
+          <p class="person-desc">After a decade on Wall Street, Darnell came home to Pittsburgh to bring institutional-grade financial planning to the city's business owners.</p>
+        </div>
+        <div class="person-card">
+          <div class="person-avatar">AF</div>
+          <p class="person-name">Angela Ferraro</p>
+          <p class="person-title">Founder, Pittsburgh Title Partners</p>
+          <p class="person-desc">Angela left a corporate title firm in 2009 to build a local-first alternative. She now closes 800+ transactions a year and is a go-to for complex investor deals.</p>
+        </div>
+      </div>
+
+      <div class="rule-double"></div>
+
+      <!-- NEWSLETTER -->
+      <div class="newsletter fade-up delay-3">
+        <p class="newsletter-label">Stay Connected</p>
+        <h2 class="newsletter-headline">Pittsburgh's Good News, Delivered Weekly.</h2>
+        <p class="newsletter-sub">Business openings, real estate moves, development updates, and the people building Pittsburgh. Every Saturday morning.</p>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+          <input class="newsletter-input" type="email" placeholder="your@email.com" required />
+          <button class="newsletter-btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-masthead">The Pittsburgh Wire</div>
+      <p class="footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col-head">About</p>
+          <p>The Pittsburgh Wire is an independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-head">Coverage</p>
+          <ul class="footer-links-list">
+            <li><a href="#business">Business</a></li>
+            <li><a href="#real-estate">Real Estate</a></li>
+            <li><a href="#development">Development</a></li>
+            <li><a href="#people">People</a></li>
+            <li><a href="#neighborhoods">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-head">More</p>
+          <ul class="footer-links-list">
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="mailto:hello@pittsburghwire.com">Contact</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-head">Sister Publication</p>
+          <ul class="footer-links-list">
+            <li><a href="/directory">Pittsburgh Business Directory</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+    </div>
+  </footer>
+
+  <script>
+    function handleNewsletter(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.newsletter-btn');
+      btn.textContent = 'You\'re in.';
+      btn.style.background = '#2e7d32';
+      setTimeout(() => {
+        btn.textContent = 'Subscribe';
+        btn.style.background = '';
+        e.target.reset();
+      }, 3000);
+    }
+  </script>
+</body>
+</html>

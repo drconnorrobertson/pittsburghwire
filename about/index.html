@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | The Pittsburgh Wire</title>
+  <meta name="description" content="The Pittsburgh Wire is an independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. Good news only." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pittsburghwire.com/about" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0f0e0c; --paper: #f5f0e8; --cream: #ede8dc;
+      --rule: #c8bfad; --accent: #b5001f; --gold: #8a6a00;
+      --smoke: #6b6355; --light-smoke: #a09585;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; line-height: 1.7; }
+    a { color: inherit; text-decoration: none; }
+
+    .topbar { background: var(--ink); color: var(--paper); padding: 7px 28px; display: flex; justify-content: space-between; align-items: center; font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+    .topbar-date { color: var(--light-smoke); }
+    .topbar-links { display: flex; gap: 20px; }
+    .topbar-links a { color: #aaa; transition: color 0.15s; }
+    .topbar-links a:hover { color: var(--paper); }
+    .topbar-sister { color: var(--gold); border: 1px solid var(--gold); padding: 2px 10px; }
+    .topbar-sister:hover { background: var(--gold); color: var(--ink); }
+
+    .masthead { border-bottom: 4px double var(--ink); padding: 32px 28px 20px; text-align: center; }
+    .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(48px, 8vw, 96px); font-weight: 900; line-height: 0.92; letter-spacing: -2px; color: var(--ink); margin: 16px 0 10px; }
+    .masthead-tagline { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 5px; text-transform: uppercase; color: var(--smoke); margin-bottom: 18px; }
+
+    .nav { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); background: var(--ink); }
+    .nav-inner { max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; flex-wrap: wrap; }
+    .nav a { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--paper); padding: 11px 22px; display: block; border-right: 1px solid #2a2a2a; transition: background 0.15s; }
+    .nav a:first-child { border-left: 1px solid #2a2a2a; }
+    .nav a:hover { background: var(--accent); }
+
+    .container { max-width: 840px; margin: 0 auto; padding: 64px 28px; }
+
+    .about-label { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; display: flex; align-items: center; gap: 14px; }
+    .about-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+
+    .about-headline { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(36px, 6vw, 72px); font-weight: 900; line-height: 1.0; letter-spacing: -1px; margin-bottom: 32px; }
+
+    .about-intro { font-size: 20px; font-style: italic; color: var(--smoke); line-height: 1.8; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid var(--rule); }
+
+    .about-body p { font-size: 16px; color: var(--ink); line-height: 1.9; margin-bottom: 24px; }
+    .about-body p strong { color: var(--ink); font-weight: 600; }
+
+    .about-body h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 28px; font-weight: 700; margin: 40px 0 16px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+
+    .principles { display: flex; flex-direction: column; gap: 0; margin: 24px 0 36px; border: 1px solid var(--rule); }
+    .principle { display: grid; grid-template-columns: 40px 1fr; gap: 0; border-bottom: 1px solid var(--rule); }
+    .principle:last-child { border-bottom: none; }
+    .principle-num { background: var(--ink); color: var(--paper); font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+    .principle-content { padding: 18px 22px; }
+    .principle-title { font-family: 'Barlow Condensed', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+    .principle-desc { font-size: 14px; color: var(--smoke); line-height: 1.7; }
+
+    .coverage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 24px 0 36px; }
+    .coverage-item { background: var(--paper); padding: 18px 20px; }
+    .coverage-item-head { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--ink); margin-bottom: 6px; }
+    .coverage-item-desc { font-size: 13px; color: var(--smoke); line-height: 1.6; }
+
+    .contact-box { background: var(--cream); border: 2px solid var(--ink); padding: 36px 40px; margin: 40px 0; }
+    .contact-box-head { font-family: 'Playfair Display', Georgia, serif; font-size: 26px; font-weight: 900; margin-bottom: 10px; }
+    .contact-box p { font-size: 14px; color: var(--smoke); line-height: 1.8; margin-bottom: 20px; }
+    .contact-links { display: flex; flex-direction: column; gap: 10px; }
+    .contact-link { font-family: 'Barlow Condensed', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); display: flex; align-items: center; gap: 10px; }
+    .contact-link::before { content: ''; width: 20px; height: 1px; background: var(--accent); }
+
+    .footer { background: var(--ink); color: var(--paper); padding: 48px 28px 28px; margin-top: 40px; }
+    .footer-inner { max-width: 1400px; margin: 0 auto; }
+    .footer-masthead { font-family: 'Playfair Display', Georgia, serif; font-size: 42px; font-weight: 900; letter-spacing: -1px; margin-bottom: 6px; }
+    .footer-tagline { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: #666; margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid #222; }
+    .footer-copy { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 1px; color: #444; }
+
+    @media (max-width: 640px) {
+      .coverage-grid { grid-template-columns: 1fr; }
+      .topbar-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <span class="topbar-date">Saturday, April 18, 2026 &nbsp;&bull;&nbsp; Pittsburgh, PA</span>
+    <div class="topbar-links">
+      <a href="/">Home</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <p class="masthead-tagline">Pittsburgh Business &bull; Real Estate &bull; Development &bull; People</p>
+    <a href="/"><h1 class="masthead-title">The Pittsburgh Wire</h1></a>
+    <p class="masthead-tagline">Good News, Only. Always Forward.</p>
+  </header>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/">Home</a>
+      <a href="/#business">Business</a>
+      <a href="/#real-estate">Real Estate</a>
+      <a href="/#development">Development</a>
+      <a href="/#people">People</a>
+      <a href="/directory">Directory</a>
+      <a href="/about">About</a>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="about-label">About The Wire</div>
+
+    <h1 class="about-headline">Pittsburgh Has Enough Bad News.<br>We Write the Other Kind.</h1>
+
+    <p class="about-intro">
+      The Pittsburgh Wire is an independent digital publication dedicated to covering Pittsburgh's business community, real estate market, economic development, and the people building the city's future. We publish good news only, always forward-looking, always rooted in the city we love.
+    </p>
+
+    <div class="about-body">
+
+      <p>
+        Pittsburgh is a city in the middle of one of the most remarkable urban reinventions in American history. A place that lost its industrial spine and rebuilt itself around medicine, robotics, education, and entrepreneurship. A city with world-class institutions, a ferociously loyal population, and more authentic neighborhood character per square mile than almost anywhere in the country.
+      </p>
+
+      <p>
+        And yet most local coverage gravitates toward conflict, crisis, and decline. Budget shortfalls. Vacant buildings. Problems without solutions.
+      </p>
+
+      <p>
+        <strong>The Pittsburgh Wire was built to cover the other story.</strong> The founders who are opening businesses, the developers who are betting on neighborhoods, the real estate investors who see what Pittsburgh is becoming, and the professionals who chose to build their careers here when they could have gone anywhere.
+      </p>
+
+      <h2>What We Cover</h2>
+
+      <div class="coverage-grid">
+        <div class="coverage-item">
+          <div class="coverage-item-head">Business</div>
+          <div class="coverage-item-desc">New openings, growth milestones, founder profiles, and the operational stories behind Pittsburgh's best companies.</div>
+        </div>
+        <div class="coverage-item">
+          <div class="coverage-item-head">Real Estate</div>
+          <div class="coverage-item-desc">Development projects, neighborhood investment trends, notable transactions, and the builders shaping Pittsburgh's built environment.</div>
+        </div>
+        <div class="coverage-item">
+          <div class="coverage-item-head">Economic Development</div>
+          <div class="coverage-item-desc">Infrastructure, policy wins, institutional investment, and the long-arc projects transforming Pittsburgh's economic landscape.</div>
+        </div>
+        <div class="coverage-item">
+          <div class="coverage-item-head">People</div>
+          <div class="coverage-item-desc">The owners, founders, operators, and civic leaders who are doing the actual work of building Pittsburgh.</div>
+        </div>
+        <div class="coverage-item">
+          <div class="coverage-item-head">Neighborhoods</div>
+          <div class="coverage-item-desc">Street-level coverage of what is opening, changing, and growing across Pittsburgh's distinct and storied neighborhoods.</div>
+        </div>
+        <div class="coverage-item">
+          <div class="coverage-item-head">Business Directory</div>
+          <div class="coverage-item-desc">Our curated directory spotlights Pittsburgh's best businesses and the people behind them. Editorially selected, never pay-to-play.</div>
+        </div>
+      </div>
+
+      <h2>Our Principles</h2>
+
+      <div class="principles">
+        <div class="principle">
+          <div class="principle-num">1</div>
+          <div class="principle-content">
+            <div class="principle-title">Good News Only</div>
+            <div class="principle-desc">We do not cover crime, political conflict, budget crises, or negativity about the city. There is enough of that elsewhere. We cover what is working, what is growing, and what is coming.</div>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-num">2</div>
+          <div class="principle-content">
+            <div class="principle-title">Always Local</div>
+            <div class="principle-desc">Every story we publish is rooted in Pittsburgh. We are not a wire service aggregating national content. We cover this city and only this city.</div>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-num">3</div>
+          <div class="principle-content">
+            <div class="principle-title">No Pay to Play</div>
+            <div class="principle-desc">Our Business Directory is editorially curated. No business pays to be featured. We list businesses because they deserve to be spotlighted, full stop.</div>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-num">4</div>
+          <div class="principle-content">
+            <div class="principle-title">Real People, Real Stories</div>
+            <div class="principle-desc">We write about actual owners and founders, not faceless companies. Pittsburgh is built by people and we want you to know who they are.</div>
+          </div>
+        </div>
+        <div class="principle">
+          <div class="principle-num">5</div>
+          <div class="principle-content">
+            <div class="principle-title">Long Game</div>
+            <div class="principle-desc">The Pittsburgh Wire is a legacy project. We are not chasing clicks or ad revenue. We are building an honest record of Pittsburgh's forward momentum.</div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Get in Touch</h2>
+
+      <div class="contact-box">
+        <div class="contact-box-head">We Want to Hear From You</div>
+        <p>If you know a Pittsburgh business, founder, or development project that deserves coverage, send us a tip. If you want to be considered for the Business Directory, use the directory submission form. If you just want to say hello, we are here.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:hello@pittsburghwire.com">hello@pittsburghwire.com</a>
+          <a class="contact-link" href="mailto:tips@pittsburghwire.com">tips@pittsburghwire.com</a>
+          <a class="contact-link" href="/directory#submitSection">Submit a Business for the Directory</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-masthead">The Pittsburgh Wire</div>
+      <p class="footer-tagline">Good News, Only. Always Forward.</p>
+      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

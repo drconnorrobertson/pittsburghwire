@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pittsburgh Business Directory | The Steel City's Best</title>
+  <meta name="description" content="The definitive directory of Pittsburgh's best businesses, founders, and owners. Curated spotlights on the people building Pittsburgh." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Pittsburgh Business Directory" />
+  <meta property="og:description" content="The definitive directory of Pittsburgh's best businesses and the owners behind them." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pittsburghwire.com/directory" />
+  <link rel="canonical" href="https://pittsburghwire.com/directory" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pittsburgh Business Directory",
+    "description": "The definitive directory of Pittsburgh's best businesses and the owners behind them.",
+    "url": "https://pittsburghwire.com/directory",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Pittsburgh Wire",
+      "url": "https://pittsburghwire.com"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --black: #0d0d0d;
+      --steel: #1c1c1e;
+      --rust: #c0392b;
+      --gold: #e8a020;
+      --concrete: #2e2e2e;
+      --smoke: #888;
+      --light: #f0ece4;
+      --off-white: #e8e4dc;
+      --border: #333;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--light);
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      cursor: default;
+      overflow-x: hidden;
+    }
+
+    /* NOISE TEXTURE OVERLAY */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.35;
+    }
+
+    /* MASTHEAD */
+    .masthead {
+      background: var(--steel);
+      border-bottom: 3px solid var(--rust);
+      padding: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .masthead-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+
+    .masthead-brand {
+      display: flex;
+      flex-direction: column;
+      padding: 14px 28px;
+      border-right: 2px solid var(--border);
+      text-decoration: none;
+    }
+
+    .masthead-wire {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: var(--smoke);
+      text-transform: uppercase;
+    }
+
+    .masthead-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      color: var(--gold);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+
+    .masthead-nav {
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+
+    .masthead-nav a {
+      display: flex;
+      align-items: center;
+      padding: 0 22px;
+      height: 100%;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      text-decoration: none;
+      border-right: 1px solid var(--border);
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .masthead-nav a:hover { color: var(--gold); background: rgba(232,160,32,0.06); }
+    .masthead-nav a.active { color: var(--gold); }
+
+    .submit-btn {
+      display: flex;
+      align-items: center;
+      padding: 0 26px;
+      background: var(--rust);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.15s;
+      cursor: pointer;
+      border: none;
+    }
+    .submit-btn:hover { background: #a93226; }
+
+    /* HERO BANNER */
+    .hero {
+      background: var(--steel);
+      border-bottom: 1px solid var(--border);
+      padding: 72px 28px 60px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: 'PITTSBURGH';
+      position: absolute;
+      bottom: -30px;
+      right: -20px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 220px;
+      color: rgba(255,255,255,0.02);
+      letter-spacing: -5px;
+      pointer-events: none;
+      line-height: 1;
+    }
+
+    .hero-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: end;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 16px;
+    }
+
+    .hero-headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(56px, 8vw, 110px);
+      line-height: 0.9;
+      letter-spacing: 1px;
+      color: var(--light);
+    }
+
+    .hero-headline span {
+      color: var(--gold);
+      display: block;
+    }
+
+    .hero-sub {
+      margin-top: 24px;
+      font-size: 16px;
+      color: var(--smoke);
+      max-width: 520px;
+      line-height: 1.7;
+    }
+
+    .hero-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 28px 32px;
+      background: var(--black);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      min-width: 180px;
+    }
+
+    .stat { text-align: center; }
+    .stat-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 48px;
+      color: var(--gold);
+      line-height: 1;
+      display: block;
+    }
+    .stat-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--smoke);
+    }
+    .stat-divider {
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* SEARCH + FILTER BAR */
+    .filter-bar {
+      background: var(--concrete);
+      border-bottom: 2px solid var(--border);
+      padding: 18px 28px;
+      position: sticky;
+      top: 73px;
+      z-index: 90;
+    }
+
+    .filter-bar-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--smoke);
+      font-size: 16px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--black);
+      border: 1px solid var(--border);
+      color: var(--light);
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      padding: 10px 14px 10px 40px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-input::placeholder { color: #555; }
+    .search-input:focus { border-color: var(--gold); }
+
+    .filter-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 7px 16px;
+      border: 1px solid var(--border);
+      color: var(--smoke);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .tag:hover { border-color: var(--gold); color: var(--gold); }
+    .tag.active { background: var(--gold); color: var(--black); border-color: var(--gold); font-weight: 700; }
+
+    /* FEATURED SPOTLIGHT */
+    .section {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 60px 28px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+
+    .section-label-text {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: var(--light);
+    }
+
+    .section-label-line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .section-label-tag {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--rust);
+      border: 1px solid var(--rust);
+      padding: 4px 12px;
+    }
+
+    /* FEATURED CARD */
+    .featured-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--steel);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--gold);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .featured-card:hover { transform: translateY(-2px); }
+
+    .featured-img {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      min-height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .featured-img::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255,255,255,0.015) 10px,
+        rgba(255,255,255,0.015) 20px
+      );
+    }
+
+    .featured-img-placeholder {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 96px;
+      color: rgba(232,160,32,0.2);
+      letter-spacing: -2px;
+      line-height: 1;
+      text-align: center;
+      position: relative;
+    }
+
+    .featured-badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: var(--rust);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 5px 14px;
+    }
+
+    .featured-content {
+      padding: 44px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .featured-category {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 12px;
+    }
+
+    .featured-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 58px;
+      line-height: 0.95;
+      color: var(--light);
+      margin-bottom: 8px;
+    }
+
+    .featured-owner {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .featured-desc {
+      font-size: 14px;
+      color: var(--smoke);
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .featured-meta {
+      display: flex;
+      gap: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .meta-item { display: flex; flex-direction: column; gap: 2px; }
+    .meta-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+    }
+    .meta-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--light);
+    }
+
+    /* BUSINESS GRID */
+    .biz-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2px;
+    }
+
+    .biz-card {
+      background: var(--steel);
+      border: 1px solid var(--border);
+      padding: 28px 32px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .biz-card::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 3px;
+      height: 0;
+      background: var(--gold);
+      transition: height 0.2s ease;
+    }
+
+    .biz-card:hover { background: #222; border-color: #444; }
+    .biz-card:hover::after { height: 100%; }
+
+    .biz-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .biz-icon {
+      width: 52px;
+      height: 52px;
+      background: var(--black);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .biz-cat-badge {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      border: 1px solid var(--border);
+      padding: 3px 10px;
+      height: fit-content;
+    }
+
+    .biz-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 30px;
+      line-height: 1;
+      color: var(--light);
+      letter-spacing: 1px;
+    }
+
+    .biz-owner {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--gold);
+    }
+
+    .biz-desc {
+      font-size: 13px;
+      color: var(--smoke);
+      line-height: 1.7;
+      flex: 1;
+    }
+
+    .biz-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .biz-neighborhood {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+    }
+
+    .biz-arrow {
+      font-size: 18px;
+      color: var(--rust);
+      transition: transform 0.15s;
+    }
+    .biz-card:hover .biz-arrow { transform: translateX(4px); }
+
+    /* SUBMIT SECTION */
+    .submit-section {
+      background: var(--steel);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 80px 28px;
+    }
+
+    .submit-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .submit-headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 72px;
+      line-height: 0.95;
+      color: var(--light);
+      margin-bottom: 20px;
+    }
+
+    .submit-headline span { color: var(--gold); }
+
+    .submit-body {
+      font-size: 15px;
+      color: var(--smoke);
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .submit-note {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      border-left: 2px solid var(--rust);
+      padding-left: 14px;
+    }
+
+    /* FORM */
+    .submit-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: var(--black);
+      border: 1px solid var(--border);
+      color: var(--light);
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      padding: 11px 14px;
+      outline: none;
+      transition: border-color 0.15s;
+      appearance: none;
+      width: 100%;
+    }
+
+    .form-input::placeholder, .form-textarea::placeholder { color: #444; }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--gold); }
+
+    .form-textarea { resize: vertical; min-height: 110px; }
+
+    .form-select { cursor: pointer; }
+    .form-select option { background: var(--black); }
+
+    .form-submit {
+      background: var(--rust);
+      color: #fff;
+      border: none;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      letter-spacing: 3px;
+      padding: 16px 36px;
+      cursor: pointer;
+      transition: background 0.15s;
+      align-self: flex-start;
+      margin-top: 4px;
+    }
+    .form-submit:hover { background: #a93226; }
+
+    /* FOOTER */
+    .footer {
+      background: var(--black);
+      border-top: 3px solid var(--rust);
+      padding: 48px 28px 32px;
+    }
+
+    .footer-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .footer-brand {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 36px;
+      color: var(--gold);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+
+    .footer-sub {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      margin-top: 4px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 28px;
+    }
+
+    .footer-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    .footer-copy {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: #444;
+      width: 100%;
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* MODAL OVERLAY */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.85);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--steel);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--gold);
+      max-width: 680px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      animation: slideUp 0.2s ease;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-header {
+      padding: 32px 40px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--smoke);
+      font-size: 24px;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.15s;
+    }
+    .modal-close:hover { color: var(--light); }
+
+    .modal-body { padding: 32px 40px 40px; }
+
+    .modal-cat {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 8px;
+    }
+
+    .modal-biz-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 52px;
+      line-height: 0.95;
+      color: var(--light);
+      margin-bottom: 6px;
+    }
+
+    .modal-owner-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+
+    .modal-description {
+      font-size: 14px;
+      color: var(--smoke);
+      line-height: 1.85;
+      margin-bottom: 28px;
+    }
+
+    .modal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .modal-info-item {
+      padding: 16px 18px;
+      background: var(--black);
+      border: 1px solid var(--border);
+    }
+
+    .modal-info-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 4px;
+    }
+
+    .modal-info-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--light);
+    }
+
+    .modal-cta {
+      display: inline-block;
+      background: var(--rust);
+      color: #fff;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      padding: 13px 32px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .modal-cta:hover { background: #a93226; }
+
+    /* ANIMATIONS */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(16px);
+      animation: fadeIn 0.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .biz-card { animation: fadeIn 0.4s ease both; }
+    .biz-card:nth-child(1) { animation-delay: 0.05s; }
+    .biz-card:nth-child(2) { animation-delay: 0.1s; }
+    .biz-card:nth-child(3) { animation-delay: 0.15s; }
+    .biz-card:nth-child(4) { animation-delay: 0.2s; }
+    .biz-card:nth-child(5) { animation-delay: 0.25s; }
+    .biz-card:nth-child(6) { animation-delay: 0.3s; }
+
+    .no-results {
+      text-align: center;
+      padding: 80px 20px;
+      display: none;
+    }
+    .no-results.visible { display: block; }
+    .no-results-text {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 42px;
+      color: var(--smoke);
+      letter-spacing: 2px;
+    }
+    .no-results-sub {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-stats { flex-direction: row; justify-content: space-around; }
+      .featured-card { grid-template-columns: 1fr; }
+      .featured-img { min-height: 200px; }
+      .submit-inner { grid-template-columns: 1fr; gap: 40px; }
+      .submit-headline { font-size: 52px; }
+      .form-row { grid-template-columns: 1fr; }
+      .modal-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .masthead-nav { display: none; }
+      .hero-headline { font-size: 56px; }
+      .biz-grid { grid-template-columns: 1fr; }
+      .filter-bar-inner { gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="https://pittsburghwire.com" class="masthead-brand">
+        <span class="masthead-wire">The Pittsburgh Wire</span>
+        <span class="masthead-title">Business Directory</span>
+      </a>
+      <nav class="masthead-nav">
+        <a href="#directory" class="active">Directory</a>
+        <a href="#spotlight">Spotlights</a>
+        <a href="https://pittsburghwire.com">News</a>
+        <a href="mailto:directory@pittsburghwire.com">Contact</a>
+      </nav>
+      <button class="submit-btn" onclick="document.getElementById('submitSection').scrollIntoView({behavior:'smooth'})">
+        + List Your Business
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow fade-in">Pittsburgh Business Directory</div>
+        <h1 class="hero-headline fade-in" style="animation-delay:.1s">
+          Built By<br>
+          <span>Pittsburgh.</span>
+        </h1>
+        <p class="hero-sub fade-in" style="animation-delay:.2s">
+          The definitive spotlight on Pittsburgh's best businesses and the people who built them. Curated. Local. Real.
+        </p>
+      </div>
+      <div class="hero-stats fade-in" style="animation-delay:.3s">
+        <div class="stat">
+          <span class="stat-num" id="totalCount">12</span>
+          <span class="stat-label">Listed Businesses</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">7</span>
+          <span class="stat-label">Neighborhoods</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Categories</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH + FILTER -->
+  <div class="filter-bar">
+    <div class="filter-bar-inner">
+      <div class="search-wrap">
+        <span class="search-icon">&#9906;</span>
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search businesses, owners, neighborhoods..."
+          id="searchInput"
+          oninput="filterCards()"
+          aria-label="Search Pittsburgh businesses"
+        />
+      </div>
+      <div class="filter-tags" id="filterTags">
+        <button class="tag active" data-cat="all" onclick="setCategory(this, 'all')">All</button>
+        <button class="tag" data-cat="food" onclick="setCategory(this, 'food')">Food & Drink</button>
+        <button class="tag" data-cat="real-estate" onclick="setCategory(this, 'real-estate')">Real Estate</button>
+        <button class="tag" data-cat="finance" onclick="setCategory(this, 'finance')">Finance</button>
+        <button class="tag" data-cat="tech" onclick="setCategory(this, 'tech')">Tech</button>
+        <button class="tag" data-cat="trades" onclick="setCategory(this, 'trades')">Trades</button>
+        <button class="tag" data-cat="health" onclick="setCategory(this, 'health')">Health</button>
+        <button class="tag" data-cat="retail" onclick="setCategory(this, 'retail')">Retail</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURED SPOTLIGHT -->
+  <section id="spotlight">
+    <div class="section">
+      <div class="section-label">
+        <span class="section-label-text">This Week's Spotlight</span>
+        <div class="section-label-line"></div>
+        <span class="section-label-tag">Featured</span>
+      </div>
+
+      <a class="featured-card fade-in" href="#" onclick="openModal('primanti'); return false;">
+        <div class="featured-img">
+          <div class="featured-badge">&#9733; Business Spotlight</div>
+          <div class="featured-img-placeholder">PB</div>
+        </div>
+        <div class="featured-content">
+          <div class="featured-category">Food & Drink</div>
+          <div class="featured-name">Primanti<br>Brothers</div>
+          <div class="featured-owner">Founded by Joe Primanti &bull; Strip District</div>
+          <p class="featured-desc">
+            Since 1933, Primanti Brothers has been the undisputed temple of Pittsburgh sandwiches. What started as a late-night cart feeding steel workers in the Strip District became a city-wide institution. Their signature: coleslaw and french fries piled inside the sandwich itself, a move born from efficiency and now enshrined as Pittsburgh legend.
+          </p>
+          <div class="featured-meta">
+            <div class="meta-item">
+              <span class="meta-label">Founded</span>
+              <span class="meta-value">1933</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Neighborhood</span>
+              <span class="meta-value">Strip District</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Category</span>
+              <span class="meta-value">Food & Drink</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DIRECTORY GRID -->
+  <section id="directory">
+    <div class="section" style="padding-top:0">
+      <div class="section-label">
+        <span class="section-label-text">All Businesses</span>
+        <div class="section-label-line"></div>
+        <span class="section-label-tag" id="resultCount">12 Listed</span>
+      </div>
+
+      <div class="biz-grid" id="bizGrid">
+        <!-- Cards injected by JS -->
+      </div>
+
+      <div class="no-results" id="noResults">
+        <div class="no-results-text">No Matches Found</div>
+        <p class="no-results-sub">Try a different search or category.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBMIT SECTION -->
+  <section class="submit-section" id="submitSection">
+    <div class="submit-inner">
+      <div>
+        <h2 class="submit-headline">Get Your<br><span>Business</span><br>Listed.</h2>
+        <p class="submit-body">
+          We spotlight the businesses and owners who are building Pittsburgh's future. Every listing is reviewed editorially. We're looking for businesses with a real story, a real owner, and real roots in the city.
+        </p>
+        <p class="submit-note">Editorial review only. No pay-to-play. No ads. Curated by The Pittsburgh Wire.</p>
+      </div>
+      <form class="submit-form" id="submitForm" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="bName">Business Name *</label>
+            <input class="form-input" id="bName" type="text" placeholder="Your business name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="ownerName">Owner Name *</label>
+            <input class="form-input" id="ownerName" type="text" placeholder="Your full name" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address *</label>
+            <input class="form-input" id="email" type="email" placeholder="you@business.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-input" id="phone" type="tel" placeholder="(412) 000-0000" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="category">Category *</label>
+            <select class="form-select" id="category" required>
+              <option value="" disabled selected>Select a category</option>
+              <option>Food & Drink</option>
+              <option>Real Estate</option>
+              <option>Finance</option>
+              <option>Tech</option>
+              <option>Trades</option>
+              <option>Health</option>
+              <option>Retail</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="neighborhood">Neighborhood *</label>
+            <input class="form-input" id="neighborhood" type="text" placeholder="e.g. Lawrenceville" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="website">Website</label>
+          <input class="form-input" id="website" type="url" placeholder="https://yourbusiness.com" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="story">Your Story *</label>
+          <textarea class="form-textarea" id="story" placeholder="Tell us about your business and what makes it worth spotlighting in Pittsburgh..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Submit for Review</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Pittsburgh Wire</div>
+        <div class="footer-sub">Business Directory</div>
+      </div>
+      <nav class="footer-links">
+        <a href="https://pittsburghwire.com">News</a>
+        <a href="#directory">Directory</a>
+        <a href="#submitSection">List a Business</a>
+        <a href="mailto:directory@pittsburghwire.com">Contact</a>
+      </nav>
+      <p class="footer-copy">
+        &copy; 2026 The Pittsburgh Wire. All rights reserved. Serving Pittsburgh business, real estate, and economic development news.
+      </p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModalOnBg(event)">
+    <div class="modal" id="modalBox">
+      <div class="modal-header">
+        <div>
+          <div class="modal-cat" id="mCat"></div>
+          <div class="modal-biz-name" id="mName"></div>
+          <div class="modal-owner-name" id="mOwner"></div>
+        </div>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-description" id="mDesc"></p>
+        <div class="modal-grid" id="mGrid"></div>
+        <a class="modal-cta" id="mCta" href="#" target="_blank">Visit Website &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const BUSINESSES = [
+      {
+        id: 'primanti',
+        name: 'Primanti Brothers',
+        owner: 'Joe Primanti (Founded)',
+        category: 'food',
+        categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District',
+        founded: '1933',
+        employees: '500+',
+        icon: '🥪',
+        website: 'https://primantibros.com',
+        desc: "Pittsburgh's most iconic sandwich shop, serving the legendary coleslaw-and-fries-inside sandwich since 1933. Born in the Strip District to feed night-shift steel workers.",
+        fullDesc: "Since 1933, Primanti Brothers has been the undisputed temple of Pittsburgh sandwiches. What started as a late-night cart feeding steel workers in the Strip District became a city-wide institution. Their signature move: coleslaw and french fries piled inside the sandwich itself, born from efficiency and now enshrined as Pittsburgh legend."
+      },
+      {
+        id: 'alphabet-city',
+        name: 'Alphabet City Coffee',
+        owner: 'Marcus Webb',
+        category: 'food',
+        categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville',
+        founded: '2018',
+        employees: '12',
+        icon: '☕',
+        website: '#',
+        desc: "Third-wave coffee roaster and community anchor in Lawrenceville. Known for single-origin beans and a space that doubles as a gallery.",
+        fullDesc: "Alphabet City started as a pop-up in 2018 and found its permanent home on Butler Street in 2020. Owner Marcus Webb spent years in specialty coffee in New York before returning to Pittsburgh to build something permanent. The shop roasts in-house, sources direct, and the back wall rotates local artist work every six weeks."
+      },
+      {
+        id: 'keystone-build',
+        name: 'Keystone Build Group',
+        owner: 'Sandra & Tom Kowalczyk',
+        category: 'real-estate',
+        categoryLabel: 'Real Estate',
+        neighborhood: 'Squirrel Hill',
+        founded: '2011',
+        employees: '38',
+        icon: '🏗️',
+        website: '#',
+        desc: "Pittsburgh's leading residential renovation contractor specializing in historic home restoration across Squirrel Hill, Shadyside, and Point Breeze.",
+        fullDesc: "Keystone Build Group has restored over 200 historic Pittsburgh homes since 2011. Founded by husband-and-wife team Sandra and Tom Kowalczyk, the firm built its reputation on period-accurate renovation with modern systems. Their portfolio spans Victorian doubles in Squirrel Hill to early 20th-century craftsman bungalows in Point Breeze."
+      },
+      {
+        id: 'steel-city-finance',
+        name: 'Steel City Finance',
+        owner: 'Darnell Hughes',
+        category: 'finance',
+        categoryLabel: 'Finance',
+        neighborhood: 'Downtown',
+        founded: '2015',
+        employees: '22',
+        icon: '💼',
+        website: '#',
+        desc: "Boutique wealth management firm serving Pittsburgh's professional and business-owner community. Specializes in small business exit planning.",
+        fullDesc: "Darnell Hughes founded Steel City Finance after 10 years on Wall Street with a simple premise: Pittsburgh business owners deserve the same caliber of financial planning as Manhattan executives. The firm manages over $180M in assets and has become a go-to resource for Pittsburgh founders planning business exits and generational wealth transfers."
+      },
+      {
+        id: 'pgh-software',
+        name: 'PGH Software Co.',
+        owner: 'Rachel Osei',
+        category: 'tech',
+        categoryLabel: 'Tech',
+        neighborhood: 'East Liberty',
+        founded: '2019',
+        employees: '31',
+        icon: '💻',
+        website: '#',
+        desc: "Custom software development studio building tools for Pittsburgh's manufacturing and logistics sectors.",
+        fullDesc: "Rachel Osei launched PGH Software Co. out of AlphaLab Gear in 2019 with a thesis: the manufacturing companies that made Pittsburgh are being underserved by off-the-shelf software. Her team builds custom operational tools, MES integrations, and logistics dashboards specifically for Pittsburgh's industrial mid-market."
+      },
+      {
+        id: 'three-rivers-hvac',
+        name: 'Three Rivers HVAC',
+        owner: 'Mike Battaglia',
+        category: 'trades',
+        categoryLabel: 'Trades',
+        neighborhood: 'Stanton Heights',
+        founded: '2007',
+        employees: '19',
+        icon: '🔧',
+        website: '#',
+        desc: "Family-owned HVAC company serving residential and light commercial Pittsburgh since 2007. Known for honest pricing and same-day service.",
+        fullDesc: "Mike Battaglia started Three Rivers HVAC with a single van and a promise to answer the phone. Seventeen years later, the company operates across all Pittsburgh neighborhoods with 19 technicians. What sets them apart is an unusual no-upsell policy: technicians are paid hourly, not commission, so customers get honest diagnoses."
+      },
+      {
+        id: 'bodhi-health',
+        name: 'Bodhi Health & Wellness',
+        owner: 'Dr. Priya Menon',
+        category: 'health',
+        categoryLabel: 'Health',
+        neighborhood: 'Shadyside',
+        founded: '2020',
+        employees: '8',
+        icon: '🌿',
+        website: '#',
+        desc: "Integrative medicine practice in Shadyside combining conventional care with functional medicine and nutrition counseling.",
+        fullDesc: "Dr. Priya Menon trained at UPMC before opening Bodhi in 2020. The practice blends evidence-based medicine with functional health approaches: detailed lab analysis, nutrition planning, and root-cause diagnostics. Bodhi operates on a membership model that gives patients direct-access communication with their care team."
+      },
+      {
+        id: 'arsenal-outfitters',
+        name: 'Arsenal Outfitters',
+        owner: 'Chris & Jess Lombardi',
+        category: 'retail',
+        categoryLabel: 'Retail',
+        neighborhood: 'Lawrenceville',
+        founded: '2016',
+        employees: '7',
+        icon: '👕',
+        website: '#',
+        desc: "Pittsburgh-made lifestyle and workwear brand rooted in the city's industrial heritage. Every piece manufactured domestically.",
+        fullDesc: "Arsenal Outfitters started as a Kickstarter campaign in 2016 and never left Lawrenceville. Chris and Jess Lombardi design and sell workwear and lifestyle pieces inspired by Pittsburgh's mill town identity. Everything is cut and sewn domestically. Their flagship shop on Butler Street has become a destination for Pittsburgh-proud buyers from across the region."
+      },
+      {
+        id: 'iron-city-brewing',
+        name: 'Iron City Brewing Co.',
+        owner: 'Pittsburgh Heritage',
+        category: 'food',
+        categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville',
+        founded: '1861',
+        employees: '75',
+        icon: '🍺',
+        website: '#',
+        desc: "One of America's oldest breweries, reborn in Pittsburgh. Iron City is woven into the city's identity across 160+ years of history.",
+        fullDesc: "Iron City Brewing has been part of Pittsburgh's fabric since 1861. After a difficult chapter in the 2000s, the brand was revived and continues to produce the lager that generations of Pittsburgh steelworkers called their own. Its pop-top can was a Pittsburgh invention that changed the entire beer industry."
+      },
+      {
+        id: 'pgh-title',
+        name: 'Pittsburgh Title Partners',
+        owner: 'Angela Ferraro',
+        category: 'real-estate',
+        categoryLabel: 'Real Estate',
+        neighborhood: 'North Shore',
+        founded: '2009',
+        employees: '16',
+        icon: '📋',
+        website: '#',
+        desc: "Independent title and settlement company serving Pittsburgh investors, agents, and home buyers with fast closings and deep local expertise.",
+        fullDesc: "Angela Ferraro left a corporate title company in 2009 to build Pittsburgh Title Partners as a local-first alternative. The firm now closes over 800 transactions annually and is known in the investment community for handling complex simultaneous closings, wholesaler assignments, and portfolio transactions that larger firms won't touch."
+      },
+      {
+        id: 'vector-capital',
+        name: 'Vector Capital Advisors',
+        owner: 'James Park',
+        category: 'finance',
+        categoryLabel: 'Finance',
+        neighborhood: 'Oakland',
+        founded: '2021',
+        employees: '5',
+        icon: '📈',
+        website: '#',
+        desc: "M&A advisory firm focused on Pittsburgh's lower middle market, helping founders sell their businesses to the right buyers.",
+        fullDesc: "James Park founded Vector Capital after two decades in investment banking to serve a segment he felt was underserved: Pittsburgh business owners doing deals between $2M and $30M. The firm handles the full deal process, from valuation to buyer identification to closing, and specializes in manufacturing, distribution, and services businesses."
+      },
+      {
+        id: 'circuit-spark',
+        name: 'CircuitSpark Labs',
+        owner: 'Nia Thompson',
+        category: 'tech',
+        categoryLabel: 'Tech',
+        neighborhood: 'Strip District',
+        founded: '2022',
+        employees: '9',
+        icon: '⚡',
+        website: '#',
+        desc: "Hardware prototyping studio and electronics contract manufacturer serving Pittsburgh's robotics and medtech startup community.",
+        fullDesc: "CircuitSpark Labs fills a gap in Pittsburgh's innovation ecosystem: a fast-turnaround hardware prototyping shop that can take a startup from Gerber files to assembled boards in under two weeks. Nia Thompson built the lab around the robotics ecosystem anchored by Carnegie Mellon, and counts several CMU spinouts among her client base."
+      }
+    ];
+
+    let activeCategory = 'all';
+
+    function renderCards(data) {
+      const grid = document.getElementById('bizGrid');
+      const noResults = document.getElementById('noResults');
+      const count = document.getElementById('resultCount');
+
+      if (data.length === 0) {
+        grid.innerHTML = '';
+        noResults.classList.add('visible');
+        count.textContent = '0 Listed';
+        return;
+      }
+
+      noResults.classList.remove('visible');
+      count.textContent = data.length + ' Listed';
+
+      grid.innerHTML = data.map((b, i) => `
+        <a class="biz-card" href="#" onclick="openModal('${b.id}'); return false;"
+           data-cat="${b.category}"
+           data-name="${b.name.toLowerCase()}"
+           data-owner="${b.owner.toLowerCase()}"
+           data-hood="${b.neighborhood.toLowerCase()}"
+           style="animation-delay:${i * 0.05}s"
+           aria-label="View ${b.name} business profile">
+          <div class="biz-card-top">
+            <div class="biz-icon">${b.icon}</div>
+            <span class="biz-cat-badge">${b.categoryLabel}</span>
+          </div>
+          <div class="biz-name">${b.name}</div>
+          <div class="biz-owner">${b.owner}</div>
+          <p class="biz-desc">${b.desc}</p>
+          <div class="biz-card-footer">
+            <span class="biz-neighborhood">${b.neighborhood}</span>
+            <span class="biz-arrow">&rarr;</span>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    function filterCards() {
+      const query = document.getElementById('searchInput').value.toLowerCase().trim();
+      let filtered = BUSINESSES;
+
+      if (activeCategory !== 'all') {
+        filtered = filtered.filter(b => b.category === activeCategory);
+      }
+
+      if (query) {
+        filtered = filtered.filter(b =>
+          b.name.toLowerCase().includes(query) ||
+          b.owner.toLowerCase().includes(query) ||
+          b.neighborhood.toLowerCase().includes(query) ||
+          b.desc.toLowerCase().includes(query)
+        );
+      }
+
+      renderCards(filtered);
+    }
+
+    function setCategory(el, cat) {
+      document.querySelectorAll('.tag').forEach(t => t.classList.remove('active'));
+      el.classList.add('active');
+      activeCategory = cat;
+      filterCards();
+    }
+
+    function openModal(id) {
+      const b = BUSINESSES.find(x => x.id === id);
+      if (!b) return;
+
+      document.getElementById('mCat').textContent = b.categoryLabel;
+      document.getElementById('mName').textContent = b.name;
+      document.getElementById('mOwner').textContent = b.owner + ' \u2022 ' + b.neighborhood;
+      document.getElementById('mDesc').textContent = b.fullDesc;
+      document.getElementById('mCta').href = b.website !== '#' ? b.website : '#submitSection';
+      document.getElementById('mCta').textContent = b.website !== '#' ? 'Visit Website \u2192' : 'Nominate a Similar Business \u2192';
+
+      document.getElementById('mGrid').innerHTML = `
+        <div class="modal-info-item">
+          <div class="modal-info-label">Founded</div>
+          <div class="modal-info-value">${b.founded}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">Neighborhood</div>
+          <div class="modal-info-value">${b.neighborhood}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">Team Size</div>
+          <div class="modal-info-value">${b.employees} employees</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">Category</div>
+          <div class="modal-info-value">${b.categoryLabel}</div>
+        </div>
+      `;
+
+      document.getElementById('modalOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('modalOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeModalOnBg(e) {
+      if (e.target === document.getElementById('modalOverlay')) closeModal();
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.form-submit');
+      btn.textContent = 'Submitted. We\'ll be in touch.';
+      btn.style.background = '#2e7d32';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = 'Submit for Review';
+        btn.style.background = '';
+        btn.disabled = false;
+        e.target.reset();
+      }, 4000);
+    }
+
+    // Initial render
+    renderCards(BUSINESSES);
+    document.getElementById('totalCount').textContent = BUSINESSES.length;
+  </script>
+</body>
+</html>
