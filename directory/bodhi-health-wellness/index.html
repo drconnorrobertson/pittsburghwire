@@ -128,7 +128,10 @@
     .breadcrumb-sep { color: var(--border); }
 
     /* HERO */
-    .profile-hero {
+    .biz-photo-hero{position:relative;height:400px;overflow:hidden;border-bottom:3px solid var(--rust)}
+.biz-photo-hero img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.85)}
+.biz-photo-overlay{position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(13,13,13,0.5) 65%,rgba(13,13,13,0.92) 100%)}
+.profile-hero {
       background: var(--steel);
       border-bottom: 1px solid var(--border);
     }
@@ -411,7 +414,12 @@
     <span>Bodhi Health & Wellness</span>
   </nav>
 
-  <section class="profile-hero">
+  <div class="biz-photo-hero">
+  <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1400&q=80&auto=format" alt="Bodhi Health Wellness Pittsburgh" loading="lazy" />
+  <div class="biz-photo-overlay"></div>
+</div>
+
+<section class="profile-hero">
     <div class="profile-hero-inner">
       <div>
         <div class="profile-category">&#9670; Health &amp; Wellness</div>

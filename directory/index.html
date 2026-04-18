@@ -488,6 +488,8 @@
       gap: 2px;
     }
 
+    .biz-card-thumb{width:100%;height:140px;object-fit:cover;display:block;border-bottom:1px solid var(--border);filter:brightness(0.8);transition:filter .3s}
+    .biz-card:hover .biz-card-thumb{filter:brightness(1)}
     .biz-card {
       background: var(--steel);
       border: 1px solid var(--border);
@@ -1189,172 +1191,254 @@
   <script>
     const BUSINESSES = [
       {
-        id: 'primanti',
-        name: 'Primanti Brothers',
-        owner: 'Joe Primanti (Founded)',
-        category: 'food',
-        categoryLabel: 'Food & Drink',
-        neighborhood: 'Strip District',
-        founded: '1933',
-        employees: '500+',
-        icon: '🥪',
-        website: 'https://primantibros.com',
-        desc: "Pittsburgh's most iconic sandwich shop, serving the legendary coleslaw-and-fries-inside sandwich since 1933. Born in the Strip District to feed night-shift steel workers.",
-        fullDesc: "Since 1933, Primanti Brothers has been the undisputed temple of Pittsburgh sandwiches. What started as a late-night cart feeding steel workers in the Strip District became a city-wide institution. Their signature move: coleslaw and french fries piled inside the sandwich itself, born from efficiency and now enshrined as Pittsburgh legend."
+        id: 'primanti', slug: 'primanti-brothers',
+        name: 'Primanti Brothers', owner: 'Joe Primanti (Founded)',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '1933', employees: '500+',
+        icon: '🥪', website: 'https://primantibros.com',
+        thumb: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=70&auto=format',
+        desc: "Pittsburgh's most iconic sandwich shop, serving the legendary coleslaw-and-fries-inside sandwich since 1933.",
+        fullDesc: "Since 1933, Primanti Brothers has been the undisputed temple of Pittsburgh sandwiches. What started as a late-night cart feeding steel workers in the Strip District became a city-wide institution."
       },
       {
-        id: 'alphabet-city',
-        name: 'Alphabet City Coffee',
-        owner: 'Marcus Webb',
-        category: 'food',
-        categoryLabel: 'Food & Drink',
-        neighborhood: 'Lawrenceville',
-        founded: '2018',
-        employees: '12',
-        icon: '☕',
-        website: '#',
+        id: 'alphabet-city', slug: 'alphabet-city-coffee',
+        name: 'Alphabet City Coffee', owner: 'Marcus Webb',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '2018', employees: '12',
+        icon: '☕', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=70&auto=format',
         desc: "Third-wave coffee roaster and community anchor in Lawrenceville. Known for single-origin beans and a space that doubles as a gallery.",
-        fullDesc: "Alphabet City started as a pop-up in 2018 and found its permanent home on Butler Street in 2020. Owner Marcus Webb spent years in specialty coffee in New York before returning to Pittsburgh to build something permanent. The shop roasts in-house, sources direct, and the back wall rotates local artist work every six weeks."
+        fullDesc: "Alphabet City started as a pop-up in 2018 and found its permanent home on Butler Street in 2020. Owner Marcus Webb spent years in specialty coffee in New York before returning to Pittsburgh."
       },
       {
-        id: 'keystone-build',
-        name: 'Keystone Build Group',
-        owner: 'Sandra & Tom Kowalczyk',
-        category: 'real-estate',
-        categoryLabel: 'Real Estate',
-        neighborhood: 'Squirrel Hill',
-        founded: '2011',
-        employees: '38',
-        icon: '🏗️',
-        website: '#',
+        id: 'keystone-build', slug: 'keystone-build-group',
+        name: 'Keystone Build Group', owner: 'Sandra & Tom Kowalczyk',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'Squirrel Hill', founded: '2011', employees: '38',
+        icon: '🏗️', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=70&auto=format',
         desc: "Pittsburgh's leading residential renovation contractor specializing in historic home restoration across Squirrel Hill, Shadyside, and Point Breeze.",
-        fullDesc: "Keystone Build Group has restored over 200 historic Pittsburgh homes since 2011. Founded by husband-and-wife team Sandra and Tom Kowalczyk, the firm built its reputation on period-accurate renovation with modern systems. Their portfolio spans Victorian doubles in Squirrel Hill to early 20th-century craftsman bungalows in Point Breeze."
+        fullDesc: "Keystone Build Group has restored over 200 historic Pittsburgh homes since 2011. Founded by husband-and-wife team Sandra and Tom Kowalczyk, the firm built its reputation on period-accurate renovation."
       },
       {
-        id: 'steel-city-finance',
-        name: 'Steel City Finance',
-        owner: 'Darnell Hughes',
-        category: 'finance',
-        categoryLabel: 'Finance',
-        neighborhood: 'Downtown',
-        founded: '2015',
-        employees: '22',
-        icon: '💼',
-        website: '#',
+        id: 'steel-city-finance', slug: 'steel-city-finance',
+        name: 'Steel City Finance', owner: 'Darnell Hughes',
+        category: 'finance', categoryLabel: 'Finance',
+        neighborhood: 'Downtown', founded: '2015', employees: '22',
+        icon: '💼', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70&auto=format',
         desc: "Boutique wealth management firm serving Pittsburgh's professional and business-owner community. Specializes in small business exit planning.",
-        fullDesc: "Darnell Hughes founded Steel City Finance after 10 years on Wall Street with a simple premise: Pittsburgh business owners deserve the same caliber of financial planning as Manhattan executives. The firm manages over $180M in assets and has become a go-to resource for Pittsburgh founders planning business exits and generational wealth transfers."
+        fullDesc: "Darnell Hughes founded Steel City Finance after 10 years on Wall Street with a simple premise: Pittsburgh business owners deserve the same caliber of financial planning as Manhattan executives."
       },
       {
-        id: 'pgh-software',
-        name: 'PGH Software Co.',
-        owner: 'Rachel Osei',
-        category: 'tech',
-        categoryLabel: 'Tech',
-        neighborhood: 'East Liberty',
-        founded: '2019',
-        employees: '31',
-        icon: '💻',
-        website: '#',
+        id: 'pgh-software', slug: 'pgh-software-co',
+        name: 'PGH Software Co.', owner: 'Rachel Osei',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'East Liberty', founded: '2019', employees: '31',
+        icon: '💻', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=70&auto=format',
         desc: "Custom software development studio building tools for Pittsburgh's manufacturing and logistics sectors.",
-        fullDesc: "Rachel Osei launched PGH Software Co. out of AlphaLab Gear in 2019 with a thesis: the manufacturing companies that made Pittsburgh are being underserved by off-the-shelf software. Her team builds custom operational tools, MES integrations, and logistics dashboards specifically for Pittsburgh's industrial mid-market."
+        fullDesc: "Rachel Osei launched PGH Software Co. out of AlphaLab Gear in 2019. Her team builds custom operational tools and MES integrations specifically for Pittsburgh's industrial mid-market."
       },
       {
-        id: 'three-rivers-hvac',
-        name: 'Three Rivers HVAC',
-        owner: 'Mike Battaglia',
-        category: 'trades',
-        categoryLabel: 'Trades',
-        neighborhood: 'Stanton Heights',
-        founded: '2007',
-        employees: '19',
-        icon: '🔧',
-        website: '#',
+        id: 'three-rivers-hvac', slug: 'three-rivers-hvac',
+        name: 'Three Rivers HVAC', owner: 'Mike Battaglia',
+        category: 'trades', categoryLabel: 'Trades',
+        neighborhood: 'Stanton Heights', founded: '2007', employees: '19',
+        icon: '🔧', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&q=70&auto=format',
         desc: "Family-owned HVAC company serving residential and light commercial Pittsburgh since 2007. Known for honest pricing and same-day service.",
-        fullDesc: "Mike Battaglia started Three Rivers HVAC with a single van and a promise to answer the phone. Seventeen years later, the company operates across all Pittsburgh neighborhoods with 19 technicians. What sets them apart is an unusual no-upsell policy: technicians are paid hourly, not commission, so customers get honest diagnoses."
+        fullDesc: "Mike Battaglia started Three Rivers HVAC with a single van and a promise to answer the phone. Seventeen years later, the company operates across all Pittsburgh neighborhoods with 19 technicians."
       },
       {
-        id: 'bodhi-health',
-        name: 'Bodhi Health & Wellness',
-        owner: 'Dr. Priya Menon',
-        category: 'health',
-        categoryLabel: 'Health',
-        neighborhood: 'Shadyside',
-        founded: '2020',
-        employees: '8',
-        icon: '🌿',
-        website: '#',
+        id: 'bodhi-health', slug: 'bodhi-health-wellness',
+        name: 'Bodhi Health & Wellness', owner: 'Dr. Priya Menon',
+        category: 'health', categoryLabel: 'Health',
+        neighborhood: 'Shadyside', founded: '2020', employees: '8',
+        icon: '🌿', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=70&auto=format',
         desc: "Integrative medicine practice in Shadyside combining conventional care with functional medicine and nutrition counseling.",
-        fullDesc: "Dr. Priya Menon trained at UPMC before opening Bodhi in 2020. The practice blends evidence-based medicine with functional health approaches: detailed lab analysis, nutrition planning, and root-cause diagnostics. Bodhi operates on a membership model that gives patients direct-access communication with their care team."
+        fullDesc: "Dr. Priya Menon trained at UPMC before opening Bodhi in 2020. The practice blends evidence-based medicine with functional health approaches: detailed lab analysis, nutrition planning, and root-cause diagnostics."
       },
       {
-        id: 'arsenal-outfitters',
-        name: 'Arsenal Outfitters',
-        owner: 'Chris & Jess Lombardi',
-        category: 'retail',
-        categoryLabel: 'Retail',
-        neighborhood: 'Lawrenceville',
-        founded: '2016',
-        employees: '7',
-        icon: '👕',
-        website: '#',
+        id: 'arsenal-outfitters', slug: 'arsenal-outfitters',
+        name: 'Arsenal Outfitters', owner: 'Chris & Jess Lombardi',
+        category: 'retail', categoryLabel: 'Retail',
+        neighborhood: 'Lawrenceville', founded: '2016', employees: '7',
+        icon: '👕', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=70&auto=format',
         desc: "Pittsburgh-made lifestyle and workwear brand rooted in the city's industrial heritage. Every piece manufactured domestically.",
-        fullDesc: "Arsenal Outfitters started as a Kickstarter campaign in 2016 and never left Lawrenceville. Chris and Jess Lombardi design and sell workwear and lifestyle pieces inspired by Pittsburgh's mill town identity. Everything is cut and sewn domestically. Their flagship shop on Butler Street has become a destination for Pittsburgh-proud buyers from across the region."
+        fullDesc: "Arsenal Outfitters started as a Kickstarter campaign in 2016 and never left Lawrenceville. Chris and Jess Lombardi design and sell workwear and lifestyle pieces inspired by Pittsburgh's mill town identity."
       },
       {
-        id: 'iron-city-brewing',
-        name: 'Iron City Brewing Co.',
-        owner: 'Pittsburgh Heritage',
-        category: 'food',
-        categoryLabel: 'Food & Drink',
-        neighborhood: 'Lawrenceville',
-        founded: '1861',
-        employees: '75',
-        icon: '🍺',
-        website: '#',
+        id: 'iron-city-brewing', slug: 'iron-city-brewing',
+        name: 'Iron City Brewing Co.', owner: 'Pittsburgh Heritage',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '1861', employees: '75',
+        icon: '🍺', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70&auto=format',
         desc: "One of America's oldest breweries, reborn in Pittsburgh. Iron City is woven into the city's identity across 160+ years of history.",
-        fullDesc: "Iron City Brewing has been part of Pittsburgh's fabric since 1861. After a difficult chapter in the 2000s, the brand was revived and continues to produce the lager that generations of Pittsburgh steelworkers called their own. Its pop-top can was a Pittsburgh invention that changed the entire beer industry."
+        fullDesc: "Iron City Brewing has been part of Pittsburgh's fabric since 1861. After a difficult chapter in the 2000s, the brand was revived and continues to produce the lager that generations of Pittsburgh steelworkers called their own."
       },
       {
-        id: 'pgh-title',
-        name: 'Pittsburgh Title Partners',
-        owner: 'Angela Ferraro',
-        category: 'real-estate',
-        categoryLabel: 'Real Estate',
-        neighborhood: 'North Shore',
-        founded: '2009',
-        employees: '16',
-        icon: '📋',
-        website: '#',
+        id: 'pgh-title', slug: 'pittsburgh-title-partners',
+        name: 'Pittsburgh Title Partners', owner: 'Angela Ferraro',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'North Shore', founded: '2009', employees: '16',
+        icon: '📋', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70&auto=format',
         desc: "Independent title and settlement company serving Pittsburgh investors, agents, and home buyers with fast closings and deep local expertise.",
-        fullDesc: "Angela Ferraro left a corporate title company in 2009 to build Pittsburgh Title Partners as a local-first alternative. The firm now closes over 800 transactions annually and is known in the investment community for handling complex simultaneous closings, wholesaler assignments, and portfolio transactions that larger firms won't touch."
+        fullDesc: "Angela Ferraro left a corporate title company in 2009 to build Pittsburgh Title Partners as a local-first alternative. The firm now closes over 800 transactions annually."
       },
       {
-        id: 'vector-capital',
-        name: 'Vector Capital Advisors',
-        owner: 'James Park',
-        category: 'finance',
-        categoryLabel: 'Finance',
-        neighborhood: 'Oakland',
-        founded: '2021',
-        employees: '5',
-        icon: '📈',
-        website: '#',
+        id: 'vector-capital', slug: 'vector-capital-advisors',
+        name: 'Vector Capital Advisors', owner: 'James Park',
+        category: 'finance', categoryLabel: 'Finance',
+        neighborhood: 'Oakland', founded: '2021', employees: '5',
+        icon: '📈', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=70&auto=format',
         desc: "M&A advisory firm focused on Pittsburgh's lower middle market, helping founders sell their businesses to the right buyers.",
-        fullDesc: "James Park founded Vector Capital after two decades in investment banking to serve a segment he felt was underserved: Pittsburgh business owners doing deals between $2M and $30M. The firm handles the full deal process, from valuation to buyer identification to closing, and specializes in manufacturing, distribution, and services businesses."
+        fullDesc: "James Park founded Vector Capital after two decades in investment banking to serve Pittsburgh business owners doing deals between $2M and $30M."
       },
       {
-        id: 'circuit-spark',
-        name: 'CircuitSpark Labs',
-        owner: 'Nia Thompson',
-        category: 'tech',
-        categoryLabel: 'Tech',
-        neighborhood: 'Strip District',
-        founded: '2022',
-        employees: '9',
-        icon: '⚡',
-        website: '#',
+        id: 'circuit-spark', slug: 'circuitspark-labs',
+        name: 'CircuitSpark Labs', owner: 'Nia Thompson',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Strip District', founded: '2022', employees: '9',
+        icon: '⚡', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=70&auto=format',
         desc: "Hardware prototyping studio and electronics contract manufacturer serving Pittsburgh's robotics and medtech startup community.",
-        fullDesc: "CircuitSpark Labs fills a gap in Pittsburgh's innovation ecosystem: a fast-turnaround hardware prototyping shop that can take a startup from Gerber files to assembled boards in under two weeks. Nia Thompson built the lab around the robotics ecosystem anchored by Carnegie Mellon, and counts several CMU spinouts among her client base."
+        fullDesc: "CircuitSpark Labs fills a gap in Pittsburgh's innovation ecosystem: a fast-turnaround hardware prototyping shop that can take a startup from Gerber files to assembled boards in under two weeks."
+      },
+      {
+        id: 'east-end-brewing', slug: 'east-end-brewing',
+        name: 'East End Brewing Company', owner: 'Gary Oliphant',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Larimer', founded: '2004', employees: '30+',
+        icon: '🍺', website: 'https://eastendbrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=600&q=70&auto=format',
+        desc: "Pittsburgh's original modern craft brewery, founded by Gary Oliphant in 2004 in the Larimer neighborhood. Known for Pedal Pale Ale and a deep sustainability commitment.",
+        fullDesc: "Gary Oliphant founded East End Brewing in 2004 in a Larimer warehouse, becoming one of Pittsburgh's first modern craft brewers. The brewery is known for bold, locally inspired beers and a zero-waste ethos."
+      },
+      {
+        id: 'church-brew-works', slug: 'church-brew-works',
+        name: 'The Church Brew Works', owner: 'Sean Casey (Founded)',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Lawrenceville', founded: '1996', employees: '60+',
+        icon: '⛪', website: 'https://churchbrew.com',
+        thumb: 'https://images.unsplash.com/photo-1566633806827-5a2c552c0cd7?w=600&q=70&auto=format',
+        desc: "A former Catholic church transformed into one of Pittsburgh's most celebrated brewpubs. The brew kettles stand where the altar once did.",
+        fullDesc: "Opened in 1996 inside the former St. John the Baptist Church in Lawrenceville, The Church Brew Works is a landmark of adaptive reuse. Stained glass, vaulted ceilings, and handcrafted ales make it one of the most photographed brewpubs in America."
+      },
+      {
+        id: 'klavons-ice-cream', slug: 'klavons-ice-cream',
+        name: "Klavon's Ice Cream Parlor", owner: 'Klavon Family',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '1923', employees: '20+',
+        icon: '🍦', website: 'https://klavons.com',
+        thumb: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&q=70&auto=format',
+        desc: "A Pittsburgh treasure since 1923. The Strip District's vintage soda fountain serves hand-dipped ice cream from a marble counter that has barely changed in a century.",
+        fullDesc: "Klavon's has been scooping ice cream in the Strip District since 1923, making it one of Pittsburgh's oldest continuously operating food businesses. The Art Deco interior, marble counter, and vintage soda fountain are virtually unchanged."
+      },
+      {
+        id: 'duolingo-pittsburgh', slug: 'duolingo-pittsburgh',
+        name: 'Duolingo', owner: 'Luis von Ahn & Severin Hacker',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Oakland', founded: '2011', employees: '700+',
+        icon: '🦉', website: 'https://duolingo.com',
+        thumb: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=70&auto=format',
+        desc: "Pittsburgh's most celebrated tech company. The language-learning app was founded at Carnegie Mellon, went public on Nasdaq in 2021, and now has over 500 million users worldwide.",
+        fullDesc: "Luis von Ahn and Severin Hacker founded Duolingo at Carnegie Mellon in 2011 with a mission to make language education free and accessible globally. Its Pittsburgh HQ on Fifth Avenue anchors the city's tech scene, and its Nasdaq IPO in 2021 was a landmark moment for Pittsburgh tech."
+      },
+      {
+        id: 'aurora-innovation', slug: 'aurora-innovation',
+        name: 'Aurora Innovation', owner: 'Chris Urmson, Sterling Anderson, Drew Bagnell',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Strip District', founded: '2017', employees: '1,500+',
+        icon: '🚗', website: 'https://aurora.tech',
+        thumb: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600&q=70&auto=format',
+        desc: "The autonomous vehicle company that chose Pittsburgh as its testing ground. Aurora's self-driving trucks now operate on commercial routes across the country.",
+        fullDesc: "Founded in 2017 by three of the most accomplished engineers in autonomous vehicles, Aurora chose Pittsburgh for its complex road network and deep talent pool from Carnegie Mellon. The Aurora Driver platform is now powering commercial autonomous trucking across the US."
+      },
+      {
+        id: 'abridge-health', slug: 'abridge-health',
+        name: 'Abridge', owner: 'Dr. Shiv Rao',
+        category: 'tech', categoryLabel: 'Tech',
+        neighborhood: 'Oakland', founded: '2018', employees: '200+',
+        icon: '🏥', website: 'https://abridge.com',
+        thumb: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=70&auto=format',
+        desc: "The Pittsburgh health tech company using AI to eliminate clinical documentation burden. Doctors speak, Abridge listens, and the note writes itself.",
+        fullDesc: "Dr. Shiv Rao founded Abridge in 2018 with a mission to give clinicians back the time they spend on documentation. Its AI listens to doctor-patient conversations and generates structured clinical notes in real time. A landmark UPMC partnership and $150M+ in funding have made Abridge one of Pittsburgh's most important health tech companies."
+      },
+      {
+        id: 'pennsylvania-macaroni', slug: 'pennsylvania-macaroni',
+        name: 'Pennsylvania Macaroni Company', owner: 'Sunseri Family',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '1902', employees: '25+',
+        icon: '🧀', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=70&auto=format',
+        desc: "Four generations of the Sunseri family have run this Strip District landmark since 1902. The go-to source for imported Italian cheeses, cured meats, pasta, and olive oils.",
+        fullDesc: "The Sunseri family has operated Pennsylvania Macaroni Company in Pittsburgh's Strip District for over 120 years, making it one of the oldest Italian food businesses in the region. Today's fourth generation carries on the tradition of hand-selected imports and a store that feels like a step into old Pittsburgh."
+      },
+      {
+        id: 'grist-house-brewery', slug: 'grist-house-brewery',
+        name: 'Grist House Craft Brewery', owner: 'Eric Arner & Patrick Castelli',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Millvale', founded: '2013', employees: '80+',
+        icon: '🍻', website: 'https://gristhousebrewing.com',
+        thumb: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70&auto=format',
+        desc: "Pittsburgh's community brewery. Founded in 2013 in Collier Township and now with multiple taprooms, Grist House has been voted Pittsburgh's best brewery multiple years running.",
+        fullDesc: "Eric Arner and Patrick Castelli founded Grist House Craft Brewery in 2013 with a focus on community over competition. Their Millvale taproom became a Pittsburgh neighborhood anchor, and their beers — from the flagship Grumpus Imperial Stout to seasonal releases — have earned regional and national recognition."
+      },
+      {
+        id: 'pittsburgh-cultural-trust', slug: 'pittsburgh-cultural-trust',
+        name: 'Pittsburgh Cultural Trust', owner: 'Heinz Endowments (Founded)',
+        category: 'arts', categoryLabel: 'Arts & Culture',
+        neighborhood: 'Cultural District', founded: '1984', employees: '200+',
+        icon: '🎭', website: 'https://trustarts.org',
+        thumb: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=70&auto=format',
+        desc: "The organization that transformed 14 blocks of downtown Pittsburgh into a nationally recognized arts and entertainment district, home to Heinz Hall, the Benedum Center, and more.",
+        fullDesc: "Founded in 1984 with support from the Heinz Endowments, the Pittsburgh Cultural Trust turned a struggling downtown corridor into a world-class arts district. Today it manages Heinz Hall, the Benedum Center, the Harris Theater, SPACE gallery, and dozens of public art installations that define Pittsburgh's Cultural District."
+      },
+      {
+        id: 'mascaro-construction', slug: 'mascaro-construction',
+        name: 'Mascaro Construction', owner: 'John Mascaro Jr.',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'North Shore', founded: '1988', employees: '400+',
+        icon: '🏗️', website: 'https://mascaro.com',
+        thumb: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=70&auto=format',
+        desc: "One of Pittsburgh's largest privately held general contractors. Mascaro has built civic landmarks, stadiums, hospitals, and educational facilities that define the city's skyline.",
+        fullDesc: "John Mascaro Jr. built Mascaro Construction into one of western Pennsylvania's most respected general contractors over three decades. The firm's portfolio includes PNC Park, UPMC facilities, Carnegie Mellon University buildings, and dozens of civic projects across the Pittsburgh region."
+      },
+      {
+        id: 'walnut-capital', slug: 'walnut-capital',
+        name: 'Walnut Capital', owner: 'Todd Reidbord',
+        category: 'real-estate', categoryLabel: 'Real Estate',
+        neighborhood: 'Oakland', founded: '2000', employees: '100+',
+        icon: '🏢', website: 'https://walnutcapital.com',
+        thumb: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70&auto=format',
+        desc: "The developer who transformed Bakery Square from a shuttered Nabisco factory into one of Pittsburgh's most vibrant mixed-use neighborhoods.",
+        fullDesc: "Todd Reidbord and Walnut Capital have spent two decades reshaping Pittsburgh's Oakland and East End neighborhoods. Their flagship project, Bakery Living at Bakery Square, converted the former Nabisco baking plant into a thriving campus of apartments, offices, and retail anchored by Google's Pittsburgh headquarters."
+      },
+      {
+        id: 'gaucho-parrilla', slug: 'gaucho-parrilla',
+        name: 'Gaucho Parrilla Argentina', owner: 'Jorge Mandagarán',
+        category: 'food', categoryLabel: 'Food & Drink',
+        neighborhood: 'Strip District', founded: '2011', employees: '30+',
+        icon: '🥩', website: '#',
+        thumb: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=70&auto=format',
+        desc: "Authentic Argentine wood-fired grilling in the heart of Pittsburgh's Strip District. Consistently ranked among Pittsburgh's best restaurants for over a decade.",
+        fullDesc: "Gaucho Parrilla Argentina brought the traditions of Buenos Aires asado to Pittsburgh's Strip District in 2011. Jorge Mandagarán's wood-fired parrilla turns out perfectly char-crusted steaks and empanadas in a warmly lit dining room that has earned a devoted following and consistent recognition as one of Pittsburgh's finest tables."
+      },
+      {
+        id: 'allegheny-health-network', slug: 'allegheny-health-network',
+        name: 'Allegheny Health Network', owner: 'AHN Leadership',
+        category: 'health', categoryLabel: 'Health',
+        neighborhood: 'North Side', founded: '1885', employees: '21,000+',
+        icon: '🏥', website: 'https://ahn.org',
+        thumb: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=70&auto=format',
+        desc: "Western Pennsylvania's second-largest health system, anchored by Allegheny General Hospital on Pittsburgh's North Side. Serving the region since 1885.",
+        fullDesc: "Allegheny Health Network traces its roots to Allegheny General Hospital, founded in 1885 on Pittsburgh's North Side. Today AHN operates 14 hospitals, hundreds of outpatient facilities, and employs over 21,000 people across western Pennsylvania, making it one of the region's most essential employers and healthcare providers."
       }
     ];
 
@@ -1376,13 +1460,14 @@
       count.textContent = data.length + ' Listed';
 
       grid.innerHTML = data.map((b, i) => `
-        <a class="biz-card" href="#" onclick="openModal('${b.id}'); return false;"
+        <a class="biz-card" href="/directory/${b.slug || '#'}"
            data-cat="${b.category}"
            data-name="${b.name.toLowerCase()}"
            data-owner="${b.owner.toLowerCase()}"
            data-hood="${b.neighborhood.toLowerCase()}"
            style="animation-delay:${i * 0.05}s"
            aria-label="View ${b.name} business profile">
+          ${b.thumb ? `<img class="biz-card-thumb" src="${b.thumb}" alt="${b.name}" loading="lazy" />` : ''}
           <div class="biz-card-top">
             <div class="biz-icon">${b.icon}</div>
             <span class="biz-cat-badge">${b.categoryLabel}</span>
