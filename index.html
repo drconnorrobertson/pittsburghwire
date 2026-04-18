@@ -677,6 +677,106 @@
     .delay-1 { animation-delay: 0.1s; }
     .delay-2 { animation-delay: 0.2s; }
     .delay-3 { animation-delay: 0.3s; }
+
+    /* MORE FROM THE WIRE SECTION */
+    .more-section {
+      background: var(--paper);
+      padding: 40px 28px;
+      margin: 40px 0 0;
+    }
+
+    .more-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .section-rule {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 0 0 32px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .section-rule span {
+      white-space: nowrap;
+    }
+
+    .section-rule::before,
+    .section-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .more-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule);
+    }
+
+    .more-card {
+      padding: 24px 28px;
+      border-right: 1px solid var(--rule);
+      cursor: pointer;
+      transition: background 0.1s;
+      display: flex;
+      flex-direction: column;
+    }
+    .more-card:last-child { border-right: none; }
+    .more-card:nth-child(3n) { border-right: none; }
+    .more-card:hover { background: var(--cream); }
+
+    .more-card-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .more-card-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 10px;
+      color: var(--ink);
+      flex-grow: 1;
+    }
+    .more-card-headline a:hover { color: var(--accent); }
+
+    .more-card-date {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--light-smoke);
+      margin-top: 12px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .more-grid { grid-template-columns: repeat(2, 1fr); }
+      .more-card:nth-child(odd) { border-right: 1px solid var(--rule); }
+      .more-card:nth-child(3n) { border-right: 1px solid var(--rule); }
+    }
+
+    @media (max-width: 640px) {
+      .more-grid { grid-template-columns: 1fr; }
+      .more-card { border-right: none; border-bottom: 1px solid var(--rule); }
+      .more-card:last-child { border-bottom: none; }
+    }
   </style>
 </head>
 <body>
@@ -736,25 +836,25 @@
 
       <div class="lead-grid fade-up">
         <div class="lead-main">
-          <span class="story-label">Development</span>
+          <span class="story-label">Business</span>
           <h2 class="lead-headline">
-            <a href="/news/arts-landing-pittsburgh-cultural-district-opens">Pittsburgh's Arts Landing Opens in the Cultural District, Turning Four Downtown Acres Into the City's Civic Front Yard</a>
+            <a href="/news/2026-nfl-draft-pittsburgh-business-impact">Pittsburgh to Host the 2026 NFL Draft. Here Is What It Means for the City's Business Community.</a>
           </h2>
-          <p class="lead-deck">The Pittsburgh Cultural Trust's $31 million civic space has opened just in time for the NFL Draft — delivering a Great Lawn, bandshell, and pickleball courts to the heart of downtown.</p>
-          <p class="byline">By <span>The Pittsburgh Wire</span> &nbsp;&bull;&nbsp; April 18, 2026</p>
+          <p class="lead-deck">Hundreds of thousands of visitors, $200M in economic impact, and a national spotlight on Pittsburgh's resurgent downtown. The Steel City is ready.</p>
+          <p class="byline">By <span>James Coletta</span> &nbsp;&bull;&nbsp; April 18, 2026</p>
         </div>
         <div class="lead-sidebar">
           <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Pittsburgh downtown skyline at dusk" style="width:100%;height:200px;object-fit:cover;display:block;" />
-          <p class="img-caption">Downtown Pittsburgh, home to the new Arts Landing civic space. // Photo: Unsplash</p>
+          <p class="img-caption">Downtown Pittsburgh, ready for the 2026 NFL Draft. // Photo: Unsplash</p>
           <div class="sidebar-story">
-            <span class="story-label">Business</span>
-            <p class="sidebar-headline"><a href="/news/2026-nfl-draft-pittsburgh-business-impact">Pittsburgh to Host the 2026 NFL Draft. Here Is What It Means for the City's Business Community.</a></p>
-            <p class="sidebar-deck">Hundreds of thousands of visitors, $200M in economic impact, and a national spotlight on Pittsburgh's resurgent downtown.</p>
+            <span class="story-label">Development</span>
+            <p class="sidebar-headline"><a href="/news/arts-landing-pittsburgh-cultural-district-opens">Pittsburgh's Arts Landing Opens in the Cultural District</a></p>
+            <p class="sidebar-deck">$31M civic space delivers Great Lawn, bandshell, and pickleball courts to downtown's 8th Street block.</p>
           </div>
           <div class="sidebar-story">
             <span class="story-label">Development</span>
-            <p class="sidebar-headline"><a href="/news/piatt-companies-esplanade-north-side-pittsburgh">Piatt Companies Breaks Ground on $740M Esplanade on Pittsburgh's North Side</a></p>
-            <p class="sidebar-deck">A 200-foot Ferris wheel, 300 apartments, and a 3-story culinary hub are coming to 15 acres along the Allegheny.</p>
+            <p class="sidebar-headline"><a href="/news/market-square-pittsburgh-modernization-reopens">Market Square Reopens With Historic Modernization</a></p>
+            <p class="sidebar-deck">Glass trellis, new dining, and roller skating bring new life to Pittsburgh's historic gathering space.</p>
           </div>
         </div>
       </div>
@@ -763,21 +863,21 @@
       <div class="three-col fade-up delay-1">
         <div class="col-story">
           <span class="story-label">Business</span>
-          <p class="col-headline"><a href="/news/abridge-pittsburgh-ai-healthcare-300-million">Pittsburgh's Abridge Raises $300M at a $5.3B Valuation, Cementing Its Place as a Global Leader in Healthcare AI</a></p>
-          <p class="col-deck">The Pittsburgh-born startup, founded from a UPMC-CMU-Pitt collaboration, is now in 150+ health systems and has won Best in KLAS two years running.</p>
+          <p class="col-headline"><a href="/news/abridge-pittsburgh-ai-healthcare-300-million">Abridge Raises $300M at $5.3B Valuation, Proving Pittsburgh's Health Tech Dominance</a></p>
+          <p class="col-deck">The Pittsburgh-born startup is now in 150+ health systems and has won Best in KLAS two years running, cementing its place as a global leader.</p>
           <p class="byline">April 17, 2026</p>
         </div>
         <div class="col-story">
-          <span class="story-label">Real Estate</span>
-          <p class="col-headline"><a href="/news/wegmans-cranberry-township-pittsburgh-groundbreaking">Wegmans Breaks Ground in Cranberry Township, Bringing the Region's First Location to Pittsburgh's North Suburbs</a></p>
-          <p class="col-deck">Construction has begun on the Pittsburgh area's first Wegmans, with a late-2027 opening expected for the fast-growing Butler County community.</p>
-          <p class="byline">April 14, 2026</p>
-        </div>
-        <div class="col-story">
           <span class="story-label">Business</span>
-          <p class="col-headline"><a href="/news/alphalab-2026-pittsburgh-startup-cohort">Mayor O'Connor Meets With AlphaLab's 2026 Cohort as Pittsburgh's Startup Ecosystem Hits Its Stride</a></p>
+          <p class="col-headline"><a href="/news/alphalab-2026-pittsburgh-startup-cohort">AlphaLab's 2026 Cohort Proves Pittsburgh's Startup Ecosystem is Thriving</a></p>
           <p class="col-deck">Innovation Works' flagship accelerator has helped launch over 100 Pittsburgh companies since 2008 — and this year's class may be its strongest yet.</p>
           <p class="byline">April 13, 2026</p>
+        </div>
+        <div class="col-story">
+          <span class="story-label">Real Estate</span>
+          <p class="col-headline"><a href="/news/wegmans-cranberry-township-pittsburgh-groundbreaking">Wegmans Breaks Ground in Cranberry Township, Bringing Premium Groceries to Pittsburgh Region</a></p>
+          <p class="col-deck">Construction has begun on the Pittsburgh area's first Wegmans, with a late-2027 opening expected for the fast-growing Butler County community.</p>
+          <p class="byline">April 14, 2026</p>
         </div>
       </div>
 
@@ -789,24 +889,24 @@
         <div class="belt-label">Development &amp; Real Estate</div>
         <div class="belt-grid">
           <div class="belt-item">
-            <div class="belt-cat">Cultural District</div>
-            <p class="belt-headline"><a href="/news/arts-landing-pittsburgh-cultural-district-opens" style="color:inherit">Arts Landing Opens — $31M Civic Space Transforms Downtown's 8th Street Block</a></p>
-            <p class="belt-byline">April 18, 2026</p>
-          </div>
-          <div class="belt-item">
             <div class="belt-cat">North Side</div>
-            <p class="belt-headline"><a href="/news/piatt-companies-esplanade-north-side-pittsburgh" style="color:inherit">Piatt Companies' $740M Esplanade Breaks Ground — 200-Foot Ferris Wheel Included</a></p>
+            <p class="belt-headline"><a href="/news/piatt-companies-esplanade-north-side-pittsburgh" style="color:inherit">Piatt Companies Breaks Ground on $740M Esplanade</a></p>
             <p class="belt-byline">April 16, 2026</p>
           </div>
           <div class="belt-item">
             <div class="belt-cat">Downtown</div>
-            <p class="belt-headline"><a href="/news/market-square-pittsburgh-modernization-reopens" style="color:inherit">Market Square Reopens After Modernization — New Glass Trellis, Dining, and Roller Skating</a></p>
+            <p class="belt-headline"><a href="/news/market-square-pittsburgh-modernization-reopens" style="color:inherit">Market Square Reopens With Historic Modernization</a></p>
             <p class="belt-byline">April 15, 2026</p>
           </div>
           <div class="belt-item">
-            <div class="belt-cat">Cranberry Township</div>
-            <p class="belt-headline"><a href="/news/wegmans-cranberry-township-pittsburgh-groundbreaking" style="color:inherit">Pittsburgh Region's First Wegmans Breaks Ground — 400+ Jobs, Late-2027 Opening</a></p>
-            <p class="belt-byline">April 14, 2026</p>
+            <div class="belt-cat">Business</div>
+            <p class="belt-headline"><a href="/news/duolingo-pittsburgh-headquarters-expansion" style="color:inherit">Duolingo Expands Pittsburgh Headquarters with 150,000 Sq Ft</a></p>
+            <p class="belt-byline">April 10, 2026</p>
+          </div>
+          <div class="belt-item">
+            <div class="belt-cat">Business</div>
+            <p class="belt-headline"><a href="/news/aurora-autonomous-vehicles-pittsburgh-expansion" style="color:inherit">Aurora Innovation Expands Pittsburgh Autonomous Vehicle Operations</a></p>
+            <p class="belt-byline">April 6, 2026</p>
           </div>
         </div>
       </div>
@@ -855,6 +955,90 @@
       </div>
 
     </div>
+
+    <!-- MORE FROM THE WIRE -->
+    <section class="more-section">
+      <div class="more-inner">
+        <div class="section-rule"><span>More from The Wire</span></div>
+        <div class="more-grid">
+          <div class="more-card">
+            <span class="more-card-label">Business</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-tech-talent-retention-cmu-pitt">Pittsburgh Retains 58% of CMU and Pitt Computer Science Graduates</a></p>
+            <p class="more-card-date">April 9, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Community</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-food-bank-expansion-new-facility">Greater Pittsburgh Community Food Bank Opens 130,000 Sq Ft Facility</a></p>
+            <p class="more-card-date">April 8, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Real Estate</span>
+            <p class="more-card-headline"><a href="/news/mount-washington-development-pittsburgh">Mount Washington Emerges as Hospitality and Tourism Destination</a></p>
+            <p class="more-card-date">April 7, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Business</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-brewery-scene-expansion-2026">Pittsburgh Craft Brewery Scene Continues Rapid Expansion in 2026</a></p>
+            <p class="more-card-date">April 5, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Community</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-parks-conservancy-millvale-trail">Millvale Riverfront Trail Expansion Complete</a></p>
+            <p class="more-card-date">April 4, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/hazelwood-green-new-tenants-pittsburgh">Hazelwood Green Announces Three Major Tenant Commitments</a></p>
+            <p class="more-card-date">April 3, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-downtown-office-to-residential-conversion">Downtown Pittsburgh Office Buildings Convert to 240 Residential Units</a></p>
+            <p class="more-card-date">April 2, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Technology</span>
+            <p class="more-card-headline"><a href="/news/carnegie-mellon-robotics-lab-expansion">Carnegie Mellon Robotics Institute Expands with $75M Building</a></p>
+            <p class="more-card-date">April 1, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Business</span>
+            <p class="more-card-headline"><a href="/news/strip-district-terminal-new-vendors-2026">Strip District Terminal Welcomes 8 New Food & Retail Vendors</a></p>
+            <p class="more-card-date">March 31, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Hospitality</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-sports-economy-nfl-draft-preview">Pittsburgh Hospitality Sector Prepares for 2026 NFL Draft Economic Boom</a></p>
+            <p class="more-card-date">March 28, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Real Estate</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-housing-market-growth-neighborhoods">Pittsburgh Housing Market Sees Record Activity in Emerging Neighborhoods</a></p>
+            <p class="more-card-date">March 27, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/lawrenceville-development-butler-street-2026">Lawrenceville Butler Street Corridor Adds 340 New Residential Units</a></p>
+            <p class="more-card-date">March 25, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Dining</span>
+            <p class="more-card-headline"><a href="/news/north-shore-restaurant-district-growth-pittsburgh">North Shore Emerges as Year-Round Restaurant and Entertainment Destination</a></p>
+            <p class="more-card-date">March 24, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Business</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-manufacturing-renaissance-2026">Pittsburgh's Advanced Manufacturing Renaissance Accelerates in 2026</a></p>
+            <p class="more-card-date">March 22, 2026</p>
+          </div>
+          <div class="more-card">
+            <span class="more-card-label">Healthcare</span>
+            <p class="more-card-headline"><a href="/news/upmc-expansion-medical-campus-pittsburgh">UPMC Announces $300M Medical Research Tower Expansion</a></p>
+            <p class="more-card-date">March 20, 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- FOOTER -->
