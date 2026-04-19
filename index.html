@@ -543,6 +543,15 @@
       transition: background 0.15s;
     }
     .newsletter-btn:hover { background: var(--accent); border-color: var(--accent); }
+    .newsletter-btn.sending { opacity: 0.7; cursor: wait; }
+    .newsletter-confirm {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 15px;
+      color: #2e7d32;
+      font-style: italic;
+      margin-top: 16px;
+      animation: fadeUp 0.4s ease-out;
+    }
 
     /* FOOTER */
     .footer {
@@ -953,10 +962,11 @@
         <p class="newsletter-label">Stay Connected</p>
         <h2 class="newsletter-headline">Pittsburgh's Good News, Delivered Weekly.</h2>
         <p class="newsletter-sub">Business openings, real estate moves, development updates, and the people building Pittsburgh. Every Saturday morning.</p>
-        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-          <input class="newsletter-input" type="email" placeholder="your@email.com" required />
+        <form class="newsletter-form" id="newsletter-form" action="https://formspree.io/f/xpwddjla" method="POST">
+          <input class="newsletter-input" type="email" name="email" placeholder="your@email.com" required aria-label="Email address" />
           <button class="newsletter-btn" type="submit">Subscribe</button>
         </form>
+        <p class="newsletter-confirm" id="newsletter-confirm" style="display:none;">Thank you for subscribing! Look for Pittsburgh's best news in your inbox every Saturday.</p>
       </div>
 
     </div>
@@ -1087,17 +1097,47 @@
   </footer>
 
   <script>
-    function handleNewsletter(e) {
-      e.preventDefault();
-      const btn = e.target.querySelector('.newsletter-btn');
-      btn.textContent = 'You\'re in.';
-      btn.style.background = '#2e7d32';
-      setTimeout(() => {
-        btn.textContent = 'Subscribe';
-        btn.style.background = '';
-        e.target.reset();
-      }, 3000);
-    }
+    (function() {
+      var form = document.getElementById('newsletter-form');
+      var confirm = document.getElementById('newsletter-confirm');
+      if (!form) return;
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = form.querySelector('.newsletter-btn');
+        var emailInput = form.querySelector('input[name="email"]');
+        var email = emailInput.value;
+
+        btn.textContent = 'Sending...';
+        btn.classList.add('sending');
+        btn.disabled = true;
+
+        fetch(form.action, {
+          method: 'POST',
+          headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email })
+        })
+        .then(function(response) {
+          if (response.ok) {
+            form.style.display = 'none';
+            confirm.style.display = 'block';
+          } else {
+            /* Fallback: open mailto so the signup is not lost */
+            window.location.href = 'mailto:hello@pittsburghwire.com?subject=Newsletter%20Signup&body=Please%20add%20me%20to%20the%20weekly%20newsletter:%20' + encodeURIComponent(email);
+            btn.textContent = 'Subscribe';
+            btn.classList.remove('sending');
+            btn.disabled = false;
+          }
+        })
+        .catch(function() {
+          /* Network error fallback */
+          window.location.href = 'mailto:hello@pittsburghwire.com?subject=Newsletter%20Signup&body=Please%20add%20me%20to%20the%20weekly%20newsletter:%20' + encodeURIComponent(email);
+          btn.textContent = 'Subscribe';
+          btn.classList.remove('sending');
+          btn.disabled = false;
+        });
+      });
+    })();
   </script>
 </body>
 </html>
