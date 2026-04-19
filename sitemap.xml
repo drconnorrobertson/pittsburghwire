@@ -115,4 +115,52 @@
   <url><loc>https://www.thepittsburghwire.com/directory/upmc</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.thepittsburghwire.com/directory/pnc-financial-services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.thepittsburghwire.com/directory/ppg-industries</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/arts-and-culture/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/finance/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/food-and-drink/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/health-and-wellness/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/real-estate/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/retail/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/tech/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/trades-and-services/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

@@ -6,8 +6,8 @@
   <title>Duolingo | Pittsburgh Business Directory</title>
   <meta name="description" content="Duolingo is a Pittsburgh-based language learning company founded in 2011 by Luis von Ahn and Severin Hacker. Headquartered in Oakland, the company went public on Nasdaq in 2021 and serves over 500 million users globally." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.thepittsburghwire.com/directory/duolingo-pittsburgh" />
-  <meta property="og:url" content="https://www.thepittsburghwire.com/directory/duolingo-pittsburgh" />
+  <link rel="canonical" href="https://www.thepittsburghwire.com/directory/duolingo-pittsburgh/" />
+  <meta property="og:url" content="https://www.thepittsburghwire.com/directory/duolingo-pittsburgh/" />
   <meta property="og:title" content="Duolingo | Pittsburgh Business Directory" />
   <meta property="og:description" content="Language learning platform based in Pittsburgh. Founded 2011, Nasdaq-listed, 500M+ users." />
   <meta property="og:type" content="article" />
@@ -393,7 +393,45 @@
       .related-grid { grid-template-columns: 1fr; }
       .masthead-nav { display: none; }
     }
+  
+    .dir-footer { background: var(--steel); border-top: 1px solid var(--border); padding: 32px 28px; }
+    .dir-footer-inner { max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px; }
+    .dir-footer-col h3 { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 2px; color: var(--light); margin-bottom: 12px; }
+    .dir-footer-col a { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 13px; color: var(--smoke); padding: 3px 0; transition: color 0.15s; }
+    .dir-footer-col a:hover { color: var(--gold); }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.thepittsburghwire.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Directory",
+        "item": "https://www.thepittsburghwire.com/directory/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Technology",
+        "item": "https://www.thepittsburghwire.com/directory/tech/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Duolingo",
+        "item": "https://www.thepittsburghwire.com/directory/duolingo-pittsburgh/"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -415,6 +453,8 @@
     <a href="/">The Pittsburgh Wire</a>
     <span class="breadcrumb-sep">/</span>
     <a href="/directory">Directory</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="/directory/tech/">Technology</a>
     <span class="breadcrumb-sep">/</span>
     <span>Duolingo</span>
   </nav>
@@ -483,7 +523,7 @@
         </div>
         <div class="info-row">
           <span class="info-label">Category</span>
-          <span class="info-value">EdTech</span>
+          <span class="info-value">Technology</span>
         </div>
         <div class="info-row">
           <span class="info-label">Neighborhood</span>
@@ -518,25 +558,93 @@
   </div>
 
   <!-- RELATED -->
-  <section class="related-section">
+    <section class="related-section">
     <div class="related-inner">
-      <div class="related-head">More Pittsburgh Businesses</div>
+      <div class="related-head">Related Technology Businesses</div>
       <div class="related-grid">
-        <a class="related-card" href="/directory/abridge-health">
+        <a class="related-card" href="/directory/abridge-health/">
           <div class="related-cat">Technology</div>
           <div class="related-name">Abridge</div>
-          <div class="related-owner">Healthcare AI &bull; Oakland</div>
+          <div class="related-owner">Founded by Dr. Shiv Rao &bull; Oakland</div>
         </a>
-        <a class="related-card" href="/directory/aurora-innovation">
+        <a class="related-card" href="/directory/aurora-innovation/">
           <div class="related-cat">Technology</div>
           <div class="related-name">Aurora Innovation</div>
-          <div class="related-owner">Autonomous Vehicles &bull; Strip District</div>
+          <div class="related-owner">Founded by Chris Urmson, Sterling Anderson &amp;amp; Drew Bagnell &bull; Lawrenceville &amp;amp; Strip District</div>
         </a>
-        <a class="related-card" href="/directory/walnut-capital">
-          <div class="related-cat">Real Estate</div>
-          <div class="related-name">Walnut Capital</div>
-          <div class="related-owner">Development &bull; Oakland</div>
+        <a class="related-card" href="/directory/carnegie-robotics/">
+          <div class="related-cat">Technology</div>
+          <div class="related-name">Carnegie Robotics</div>
+          <div class="related-owner">John Bares &bull; Lawrenceville</div>
         </a>
+        <a class="related-card" href="/directory/butterjoint/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Butterjoint</div>
+          <div class="related-owner">Trevett Hooper &bull; Oakland</div>
+        </a>
+        <a class="related-card" href="/directory/carnegie-museums-pittsburgh/">
+          <div class="related-cat">Arts &amp; Culture</div>
+          <div class="related-name">Carnegie Museums of Pittsburgh</div>
+          <div class="related-owner">Andrew Carnegie (Founded) &bull; Oakland</div>
+        </a>
+      </div>
+      <div class="related-head" style="margin-top:36px">More Businesses in Oakland</div>
+      <div class="related-grid">
+        <a class="related-card" href="/directory/abridge-health/">
+          <div class="related-cat">Technology</div>
+          <div class="related-name">Abridge</div>
+          <div class="related-owner">Founded by Dr. Shiv Rao &bull; Oakland</div>
+        </a>
+        <a class="related-card" href="/directory/butterjoint/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Butterjoint</div>
+          <div class="related-owner">Trevett Hooper &bull; Oakland</div>
+        </a>
+        <a class="related-card" href="/directory/carnegie-museums-pittsburgh/">
+          <div class="related-cat">Arts &amp; Culture</div>
+          <div class="related-name">Carnegie Museums of Pittsburgh</div>
+          <div class="related-owner">Andrew Carnegie (Founded) &bull; Oakland</div>
+        </a>
+        <a class="related-card" href="/directory/phipps-conservatory/">
+          <div class="related-cat">Arts &amp; Culture</div>
+          <div class="related-name">Phipps Conservatory</div>
+          <div class="related-owner">Henry Phipps (Founded) &bull; Oakland</div>
+        </a>
+      </div>
+      <div style="margin-top:24px; text-align:center;">
+        <a href="/directory/tech/" style="font-family:'Barlow Condensed',sans-serif; font-size:13px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:10px 24px; display:inline-block; transition:all 0.15s;">Browse All Technology &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+    <section class="dir-footer">
+    <div class="dir-footer-inner">
+      <div class="dir-footer-col">
+        <h3>Directory</h3>
+        <a href="/directory">All Businesses</a>
+        <a href="/">The Pittsburgh Wire</a>
+      </div>
+      <div class="dir-footer-col">
+        <h3>Categories</h3>
+        <a href="/directory/arts-and-culture/">Arts &amp; Culture (5)</a>
+        <a href="/directory/finance/">Finance (3)</a>
+        <a href="/directory/food-and-drink/">Food &amp; Drink (27)</a>
+        <a href="/directory/health-and-wellness/">Health &amp; Wellness (3)</a>
+        <a href="/directory/real-estate/">Real Estate &amp; Development (9)</a>
+        <a href="/directory/retail/">Retail (1)</a>
+        <a href="/directory/tech/">Technology (10)</a>
+        <a href="/directory/trades-and-services/">Trades &amp; Services (1)</a>
+      </div>
+      <div class="dir-footer-col">
+        <h3>Neighborhoods</h3>
+        <a href="/directory">Browse Lawrenceville (14)</a>
+        <a href="/directory">Browse Strip District (10)</a>
+        <a href="/directory">Browse Downtown (9)</a>
+        <a href="/directory">Browse Oakland (6)</a>
+        <a href="/directory">Browse Bloomfield (5)</a>
+        <a href="/directory">Browse North Side (2)</a>
+        <a href="/directory">Browse North Shore (2)</a>
+        <a href="/directory">Browse Sharpsburg (2)</a>
       </div>
     </div>
   </section>

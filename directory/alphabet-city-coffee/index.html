@@ -6,8 +6,8 @@
   <title>Alphabet City Coffee | Pittsburgh Business Directory</title>
   <meta name="description" content="Alphabet City Coffee is an independent specialty coffee roaster in Bloomfield, Pittsburgh. Roasting single-origin beans and serving pour-over coffee to the neighborhood since 2014." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.thepittsburghwire.com/directory/alphabet-city-coffee" />
-  <meta property="og:url" content="https://www.thepittsburghwire.com/directory/alphabet-city-coffee" />
+  <link rel="canonical" href="https://www.thepittsburghwire.com/directory/alphabet-city-coffee/" />
+  <meta property="og:url" content="https://www.thepittsburghwire.com/directory/alphabet-city-coffee/" />
   <meta property="og:title" content="Alphabet City Coffee | Pittsburgh Business Directory" />
   <meta property="og:description" content="Independent specialty coffee roaster in Bloomfield, Pittsburgh." />
   <meta property="og:type" content="article" />
@@ -394,7 +394,45 @@
       .related-grid { grid-template-columns: 1fr; }
       .masthead-nav { display: none; }
     }
+  
+    .dir-footer { background: var(--steel); border-top: 1px solid var(--border); padding: 32px 28px; }
+    .dir-footer-inner { max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px; }
+    .dir-footer-col h3 { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 2px; color: var(--light); margin-bottom: 12px; }
+    .dir-footer-col a { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 13px; color: var(--smoke); padding: 3px 0; transition: color 0.15s; }
+    .dir-footer-col a:hover { color: var(--gold); }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.thepittsburghwire.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Directory",
+        "item": "https://www.thepittsburghwire.com/directory/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Food & Drink",
+        "item": "https://www.thepittsburghwire.com/directory/food-and-drink/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Alphabet City Coffee",
+        "item": "https://www.thepittsburghwire.com/directory/alphabet-city-coffee/"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -416,6 +454,8 @@
     <a href="/">The Pittsburgh Wire</a>
     <span class="breadcrumb-sep">/</span>
     <a href="/directory">Directory</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="/directory/food-and-drink/">Food &amp; Drink</a>
     <span class="breadcrumb-sep">/</span>
     <span>Alphabet City Coffee</span>
   </nav>
@@ -519,25 +559,93 @@
   </div>
 
   <!-- RELATED -->
-  <section class="related-section">
+    <section class="related-section">
     <div class="related-inner">
-      <div class="related-head">More Pittsburgh Businesses</div>
+      <div class="related-head">Related Food &amp; Drink Businesses</div>
       <div class="related-grid">
-        <a class="related-card" href="/directory/primanti-brothers">
+        <a class="related-card" href="/directory/apteka/">
           <div class="related-cat">Food &amp; Drink</div>
-          <div class="related-name">Primanti Brothers</div>
-          <div class="related-owner">Pittsburgh Icon &bull; Strip District</div>
+          <div class="related-name">Apteka</div>
+          <div class="related-owner">Kate Lasky &amp; Tomasz Skowronski &bull; Bloomfield</div>
         </a>
-        <a class="related-card" href="/directory/iron-city-brewing">
+        <a class="related-card" href="/directory/bitter-ends-garden-luncheonette/">
           <div class="related-cat">Food &amp; Drink</div>
-          <div class="related-name">Iron City Brewing Co.</div>
-          <div class="related-owner">Pittsburgh Heritage &bull; Lawrenceville</div>
+          <div class="related-name">Bitter Ends Garden &amp; Luncheonette</div>
+          <div class="related-owner">Megan Lindsey &amp; Drew Anderson &bull; Bloomfield</div>
         </a>
-        <a class="related-card" href="/directory/arsenal-outfitters">
-          <div class="related-cat">Retail</div>
-          <div class="related-name">Arsenal Outfitters</div>
-          <div class="related-owner">Chris &amp; Jess Lombardi &bull; Lawrenceville</div>
+        <a class="related-card" href="/directory/butterjoint/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Butterjoint</div>
+          <div class="related-owner">Trevett Hooper &bull; Oakland</div>
         </a>
+        <a class="related-card" href="/directory/bodhi-health-wellness/">
+          <div class="related-cat">Health &amp; Wellness</div>
+          <div class="related-name">Bodhi Health &amp;amp; Wellness</div>
+          <div class="related-owner">Founded by Priya Desai &bull; Bloomfield</div>
+        </a>
+        <a class="related-card" href="/directory/trace-brewing/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Trace Brewing</div>
+          <div class="related-owner">Jordan Heiner &bull; Bloomfield</div>
+        </a>
+      </div>
+      <div class="related-head" style="margin-top:36px">More Businesses in Bloomfield</div>
+      <div class="related-grid">
+        <a class="related-card" href="/directory/apteka/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Apteka</div>
+          <div class="related-owner">Kate Lasky &amp; Tomasz Skowronski &bull; Bloomfield</div>
+        </a>
+        <a class="related-card" href="/directory/bitter-ends-garden-luncheonette/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Bitter Ends Garden &amp; Luncheonette</div>
+          <div class="related-owner">Megan Lindsey &amp; Drew Anderson &bull; Bloomfield</div>
+        </a>
+        <a class="related-card" href="/directory/bodhi-health-wellness/">
+          <div class="related-cat">Health &amp; Wellness</div>
+          <div class="related-name">Bodhi Health &amp;amp; Wellness</div>
+          <div class="related-owner">Founded by Priya Desai &bull; Bloomfield</div>
+        </a>
+        <a class="related-card" href="/directory/trace-brewing/">
+          <div class="related-cat">Food &amp; Drink</div>
+          <div class="related-name">Trace Brewing</div>
+          <div class="related-owner">Jordan Heiner &bull; Bloomfield</div>
+        </a>
+      </div>
+      <div style="margin-top:24px; text-align:center;">
+        <a href="/directory/food-and-drink/" style="font-family:'Barlow Condensed',sans-serif; font-size:13px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:10px 24px; display:inline-block; transition:all 0.15s;">Browse All Food &amp; Drink &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+    <section class="dir-footer">
+    <div class="dir-footer-inner">
+      <div class="dir-footer-col">
+        <h3>Directory</h3>
+        <a href="/directory">All Businesses</a>
+        <a href="/">The Pittsburgh Wire</a>
+      </div>
+      <div class="dir-footer-col">
+        <h3>Categories</h3>
+        <a href="/directory/arts-and-culture/">Arts &amp; Culture (5)</a>
+        <a href="/directory/finance/">Finance (3)</a>
+        <a href="/directory/food-and-drink/">Food &amp; Drink (27)</a>
+        <a href="/directory/health-and-wellness/">Health &amp; Wellness (3)</a>
+        <a href="/directory/real-estate/">Real Estate &amp; Development (9)</a>
+        <a href="/directory/retail/">Retail (1)</a>
+        <a href="/directory/tech/">Technology (10)</a>
+        <a href="/directory/trades-and-services/">Trades &amp; Services (1)</a>
+      </div>
+      <div class="dir-footer-col">
+        <h3>Neighborhoods</h3>
+        <a href="/directory">Browse Lawrenceville (14)</a>
+        <a href="/directory">Browse Strip District (10)</a>
+        <a href="/directory">Browse Downtown (9)</a>
+        <a href="/directory">Browse Oakland (6)</a>
+        <a href="/directory">Browse Bloomfield (5)</a>
+        <a href="/directory">Browse North Side (2)</a>
+        <a href="/directory">Browse North Shore (2)</a>
+        <a href="/directory">Browse Sharpsburg (2)</a>
       </div>
     </div>
   </section>
