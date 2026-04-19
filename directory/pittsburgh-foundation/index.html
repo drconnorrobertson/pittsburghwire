@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pittsburgh Foundation | Pittsburgh Business Directory</title>
+  <meta name="description" content="The Pittsburgh Foundation is one of America's oldest community foundations, founded in 1945. With 1.4 billion in assets, it has granted over 850 million to advance equity, education, and community development." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.thepittsburghwire.com/directory/pittsburgh-foundation" />
+  <meta property="og:title" content="The Pittsburgh Foundation | Pittsburgh Business Directory" />
+  <meta property="og:description" content="Leading community foundation. Founded 1945, 1.4B in assets, 850M+ in grants to nonprofits." />
+  <meta property="og:type" content="article" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "The Pittsburgh Foundation",
+    "description": "Historic community foundation advancing equity, education, and community development across Pittsburgh.",
+    "foundingDate": "1945",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "88 Tenth Street",
+      "addressLocality": "Pittsburgh",
+      "addressRegion": "PA",
+      "postalCode": "15222"
+    },
+    "url": "https://pittsburghfoundation.org",
+    "sameAs": ["https://www.thepittsburghwire.com/directory/pittsburgh-foundation"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black: #0d0d0d;
+      --steel: #1c1c1e;
+      --rust: #c0392b;
+      --gold: #e8a020;
+      --concrete: #2e2e2e;
+      --smoke: #888;
+      --light: #f0ece4;
+      --off-white: #e8e4dc;
+      --border: #333;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--black);
+      color: var(--light);
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .masthead {
+      background: var(--steel);
+      border-bottom: 3px solid var(--rust);
+      padding: 0;
+    }
+    .masthead-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+    .masthead-brand {
+      display: flex;
+      flex-direction: column;
+      padding: 14px 28px;
+      border-right: 2px solid var(--border);
+    }
+    .masthead-wire {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: var(--smoke);
+      text-transform: uppercase;
+    }
+    .masthead-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      color: var(--gold);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+    .masthead-nav {
+      display: flex;
+      align-items: center;
+    }
+    .masthead-nav a {
+      display: flex;
+      align-items: center;
+      padding: 0 22px;
+      height: 100%;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      border-right: 1px solid var(--border);
+      transition: color 0.15s;
+    }
+    .masthead-nav a:hover { color: var(--gold); }
+
+    .breadcrumb {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 14px 28px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .breadcrumb a { color: var(--smoke); transition: color 0.15s; }
+    .breadcrumb a:hover { color: var(--gold); }
+    .breadcrumb-sep { color: var(--border); }
+
+    .biz-photo-hero{position:relative;height:400px;overflow:hidden;border-bottom:3px solid var(--rust)}
+    .biz-photo-hero img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.85)}
+    .biz-photo-overlay{position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(13,13,13,0.5) 65%,rgba(13,13,13,0.92) 100%)}
+    .profile-hero {
+      background: var(--steel);
+      border-bottom: 1px solid var(--border);
+    }
+    .profile-hero-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 40px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: end;
+    }
+    .profile-category {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 14px;
+    }
+    .profile-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(52px, 8vw, 96px);
+      line-height: 0.9;
+      letter-spacing: 1px;
+      color: var(--light);
+      margin-bottom: 14px;
+    }
+    .profile-owner {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+    .profile-neighborhood {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--smoke);
+    }
+    .profile-stats-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      min-width: 260px;
+    }
+    .stat-cell {
+      background: var(--black);
+      padding: 18px 22px;
+      text-align: center;
+    }
+    .stat-cell-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 36px;
+      color: var(--gold);
+      line-height: 1;
+      display: block;
+    }
+    .stat-cell-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--smoke);
+    }
+
+    .profile-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .profile-body h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: var(--light);
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .profile-body p {
+      font-size: 15px;
+      color: var(--smoke);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+
+    .profile-body p strong {
+      color: var(--light);
+      font-weight: 500;
+    }
+
+    .profile-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .sidebar-card {
+      background: var(--steel);
+      border: 1px solid var(--border);
+      padding: 20px 22px;
+    }
+
+    .sidebar-card-head {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      color: var(--light);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 9px 0;
+      border-bottom: 1px solid #222;
+      gap: 16px;
+    }
+    .info-row:last-child { border-bottom: none; }
+
+    .info-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      flex-shrink: 0;
+    }
+
+    .info-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--light);
+      text-align: right;
+    }
+
+    .website-btn {
+      display: block;
+      background: var(--rust);
+      color: #fff;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      padding: 14px 20px;
+      text-align: center;
+      transition: background 0.15s;
+      margin-top: 2px;
+    }
+    .website-btn:hover { background: #a93226; }
+
+    .related-section {
+      background: var(--steel);
+      border-top: 1px solid var(--border);
+      padding: 48px 28px;
+    }
+    .related-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .related-head {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: var(--light);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .related-head::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+    .related-card {
+      background: var(--black);
+      border: 1px solid var(--border);
+      padding: 20px 22px;
+      transition: border-color 0.15s;
+    }
+    .related-card:hover { border-color: var(--gold); }
+    .related-cat {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--rust);
+      margin-bottom: 8px;
+    }
+    .related-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      color: var(--light);
+      margin-bottom: 4px;
+      letter-spacing: 1px;
+    }
+    .related-owner {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      color: var(--gold);
+    }
+
+    .footer {
+      background: var(--black);
+      border-top: 3px solid var(--rust);
+      padding: 32px 28px;
+      text-align: center;
+    }
+    .footer-brand {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      color: var(--gold);
+      letter-spacing: 2px;
+    }
+    .footer-copy {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      color: #444;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .profile-hero-inner { grid-template-columns: 1fr; }
+      .profile-content { grid-template-columns: 1fr; }
+      .related-grid { grid-template-columns: 1fr; }
+      .masthead-nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="/directory" class="masthead-brand">
+        <span class="masthead-wire">The Pittsburgh Wire</span>
+        <span class="masthead-title">Business Directory</span>
+      </a>
+      <nav class="masthead-nav">
+        <a href="/directory">All Businesses</a>
+        <a href="/">The Wire</a>
+        <a href="/directory#submitSection">List Your Business</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">The Pittsburgh Wire</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="/directory">Directory</a>
+    <span class="breadcrumb-sep">/</span>
+    <span>The Pittsburgh Foundation</span>
+  </nav>
+
+  <div class="biz-photo-hero">
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1400&q=80&auto=format" alt="The Pittsburgh Foundation office" loading="lazy" />
+    <div class="biz-photo-overlay"></div>
+  </div>
+
+  <section class="profile-hero">
+    <div class="profile-hero-inner">
+      <div>
+        <div class="profile-category">&#9670; Nonprofit</div>
+        <h1 class="profile-name">Pittsburgh<br>Foundation</h1>
+        <p class="profile-owner">President & CEO Lisa Schroeder</p>
+        <p class="profile-neighborhood">Downtown, Pittsburgh PA</p>
+      </div>
+      <div class="profile-stats-box">
+        <div class="stat-cell">
+          <span class="stat-cell-num">1945</span>
+          <span class="stat-cell-label">Founded</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-cell-num">1.4B</span>
+          <span class="stat-cell-label">Assets</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-cell-num">850M+</span>
+          <span class="stat-cell-label">Granted</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-cell-num">50+</span>
+          <span class="stat-cell-label">Staff</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="profile-content">
+    <article class="profile-body">
+      <h2>The Story</h2>
+      <p>
+        The Pittsburgh Foundation was established in 1945 as one of America's oldest and most influential community foundations. With over 1.4 billion in assets, the foundation has granted more than 850 million dollars to regional nonprofits since its founding, making it a defining force in Pittsburgh's civic landscape.
+      </p>
+      <p>
+        The foundation's mission centers on advancing equity, education, and community development across the Pittsburgh region. <strong>By bringing together philanthropic resources from individuals, families, and corporations, the foundation has become a trusted steward of charitable giving, directing resources to the most critical needs in the community</strong>. Its grants have supported education initiatives, healthcare programs, community development projects, and racial equity work.
+      </p>
+      <p>
+        Under President and CEO Lisa Schroeder's leadership, the foundation continues to evolve its grantmaking strategies to address systemic challenges and support grassroots organizations. With 50 staff members and a robust community of donors, the Pittsburgh Foundation remains a vital institution connecting philanthropy to community needs and aspirations.
+      </p>
+      <h2>What Makes It Pittsburgh</h2>
+      <p>
+        The Pittsburgh Foundation is deeply rooted in the city's philanthropic tradition. Born during the post-World War II boom, the foundation reflects Pittsburgh's history of civic leadership and industrial wealth channeled into social good. The foundation's work demonstrates Pittsburgh's commitment to supporting neighbors and building stronger communities.
+      </p>
+      <p>
+        From supporting the Cultural District to funding workforce development, the foundation's grants are woven into Pittsburgh's social fabric. The foundation's focus on equity and community voice reflects modern Pittsburgh values, positioning the city as a leader in values-driven philanthropy focused on systemic change rather than charity alone.
+      </p>
+    </article>
+
+    <aside class="profile-sidebar">
+      <div class="sidebar-card">
+        <div class="sidebar-card-head">Business Details</div>
+        <div class="info-row">
+          <span class="info-label">Founded</span>
+          <span class="info-value">1945</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Category</span>
+          <span class="info-value">Nonprofit</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Neighborhood</span>
+          <span class="info-value">Downtown</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">City</span>
+          <span class="info-value">Pittsburgh, PA</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">CEO</span>
+          <span class="info-value">Lisa Schroeder</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Assets</span>
+          <span class="info-value">1.4 Billion</span>
+        </div>
+      </div>
+      <a class="website-btn" href="https://pittsburghfoundation.org" target="_blank" rel="noopener">
+        Visit Website &rarr;
+      </a>
+      <div class="sidebar-card" style="margin-top:2px">
+        <div class="sidebar-card-head">Know This Organization?</div>
+        <p style="font-size:13px; color:var(--smoke); line-height:1.7">
+          If you work at the Pittsburgh Foundation and want to update this listing, get in touch with The Pittsburgh Wire editorial team.
+        </p>
+        <a href="mailto:directory@pittsburghwire.com" style="display:block; margin-top:14px; font-family:'Barlow Condensed',sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--gold);">
+          Contact Us &rarr;
+        </a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- RELATED -->
+  <section class="related-section">
+    <div class="related-inner">
+      <div class="related-head">More Pittsburgh Businesses</div>
+      <div class="related-grid">
+        <a class="related-card" href="/directory/pittsburgh-cultural-trust">
+          <div class="related-cat">Culture</div>
+          <div class="related-name">Pittsburgh Cultural Trust</div>
+          <div class="related-owner">Arts &amp; Culture &bull; Downtown</div>
+        </a>
+        <a class="related-card" href="/directory/urban-league-pittsburgh">
+          <div class="related-cat">Nonprofit</div>
+          <div class="related-name">Urban League</div>
+          <div class="related-owner">Community &bull; Hill District</div>
+        </a>
+        <a class="related-card" href="/directory/412-food-rescue">
+          <div class="related-cat">Nonprofit</div>
+          <div class="related-name">412 Food Rescue</div>
+          <div class="related-owner">Food Security &bull; East Liberty</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">Pittsburgh Wire Directory</div>
+    <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. Pittsburgh, PA.</p>
+  </footer>
+
+</body>
+</html>

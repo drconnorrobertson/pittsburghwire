@@ -987,17 +987,17 @@
       </div>
       <div class="hero-stats fade-in" style="animation-delay:.3s">
         <div class="stat">
-          <span class="stat-num" id="totalCount">57</span>
+          <span class="stat-num" id="totalCount">37</span>
           <span class="stat-label">Listed Businesses</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
-          <span class="stat-num">16</span>
+          <span class="stat-num">29</span>
           <span class="stat-label">Neighborhoods</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
-          <span class="stat-num">8</span>
+          <span class="stat-num">11</span>
           <span class="stat-label">Categories</span>
         </div>
       </div>
@@ -1027,6 +1027,9 @@
         <button class="tag" data-cat="trades" onclick="setCategory(this, 'trades')">Trades</button>
         <button class="tag" data-cat="health" onclick="setCategory(this, 'health')">Health</button>
         <button class="tag" data-cat="retail" onclick="setCategory(this, 'retail')">Retail</button>
+        <button class="tag" data-cat="education" onclick="setCategory(this, 'education')">Education</button>
+        <button class="tag" data-cat="nonprofit" onclick="setCategory(this, 'nonprofit')">Nonprofit</button>
+        <button class="tag" data-cat="media" onclick="setCategory(this, 'media')">Media</button>
         <button class="tag" data-cat="arts" onclick="setCategory(this, 'arts')">Arts &amp; Culture</button>
       </div>
     </div>
@@ -2056,6 +2059,126 @@
         thumb: 'https://images.unsplash.com/photo-1527224857830-43a7acc85260?w=600&q=70&auto=format',
         desc: "Professional comedy club at the Waterfront. Nationally touring headliners, full bar, and weekend shows.",
         fullDesc: "The Pittsburgh Improv at the Waterfront in Homestead brings nationally touring stand-up comedians to Pittsburgh every week."
+      },
+      {
+        id: 'carnegie-mellon', slug: 'carnegie-mellon-university',
+        name: 'Carnegie Mellon University', owner: 'Farnam Jahanian (President)',
+        category: 'education', categoryLabel: 'Education',
+        neighborhood: 'Oakland', founded: '1900', employees: '5,000+',
+        icon: '🎓', website: 'https://www.cmu.edu',
+        thumb: 'https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=70&auto=format',
+        desc: "World-class research university and the engine behind Pittsburgh's tech ecosystem. Top-ranked programs in CS, robotics, AI, and engineering.",
+        fullDesc: "Founded by Andrew Carnegie in 1900, Carnegie Mellon University is a global research university with seven schools and colleges. Its School of Computer Science and Robotics Institute have been instrumental in making Pittsburgh a world leader in AI, autonomous systems, and software innovation."
+      },
+      {
+        id: 'pitt', slug: 'university-of-pittsburgh',
+        name: 'University of Pittsburgh', owner: 'Joan Gabel (Chancellor)',
+        category: 'education', categoryLabel: 'Education',
+        neighborhood: 'Oakland', founded: '1787', employees: '13,000+',
+        icon: '🏛️', website: 'https://www.pitt.edu',
+        thumb: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=70&auto=format',
+        desc: "One of America's oldest universities, anchored by the iconic Cathedral of Learning. World-class medical research and the backbone of Oakland's academic district.",
+        fullDesc: "Established in 1787, the University of Pittsburgh is one of the oldest institutions of higher education in the United States. Its partnership with UPMC has created a medical research powerhouse, and its Cathedral of Learning remains one of Pittsburgh's most recognizable landmarks."
+      },
+      {
+        id: 'duquesne', slug: 'duquesne-university',
+        name: 'Duquesne University', owner: 'Ken Gormley (President)',
+        category: 'education', categoryLabel: 'Education',
+        neighborhood: 'Bluff/Uptown', founded: '1878', employees: '2,000+',
+        icon: '⛪', website: 'https://www.duq.edu',
+        thumb: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=600&q=70&auto=format',
+        desc: "Top-10 Catholic university in the nation with strong pharmacy, law, and business programs. Hilltop campus overlooking Downtown Pittsburgh.",
+        fullDesc: "Duquesne University has been a pillar of Pittsburgh higher education since 1878. Perched on the Bluff overlooking Downtown, the university serves more than 10,000 students and is consistently ranked among the top Catholic universities in the country."
+      },
+      {
+        id: 'upmc', slug: 'upmc-health-system',
+        name: 'UPMC', owner: 'Leslie Davis (CEO)',
+        category: 'health', categoryLabel: 'Health',
+        neighborhood: 'Oakland', founded: '1893', employees: '95,000+',
+        icon: '🏥', website: 'https://www.upmc.com',
+        thumb: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=70&auto=format',
+        desc: "Western Pennsylvania's largest employer and health system. 40+ hospitals, world-class transplant and cancer programs, and a major research engine.",
+        fullDesc: "UPMC is one of the largest nonprofit health systems in the United States, operating over 40 hospitals and employing 95,000 people. Its research partnerships with the University of Pittsburgh have produced breakthroughs in organ transplantation, cancer treatment, and biomedical engineering."
+      },
+      {
+        id: 'highmark', slug: 'highmark-health',
+        name: 'Highmark Health', owner: 'David Holmberg (CEO)',
+        category: 'health', categoryLabel: 'Health',
+        neighborhood: 'Downtown', founded: '1977', employees: '35,000+',
+        icon: '💙', website: 'https://www.highmarkhealth.org',
+        thumb: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&q=70&auto=format',
+        desc: "Parent company of Allegheny Health Network. One of America's largest Blue Cross Blue Shield organizations, insuring millions across four states.",
+        fullDesc: "Highmark Health is a Pittsburgh-based integrated delivery and financing system that serves millions of members through its health insurance and healthcare operations, including Allegheny Health Network."
+      },
+      {
+        id: 'pgh-foundation', slug: 'pittsburgh-foundation',
+        name: 'The Pittsburgh Foundation', owner: 'Lisa Schroeder (President & CEO)',
+        category: 'nonprofit', categoryLabel: 'Nonprofit',
+        neighborhood: 'Downtown', founded: '1945', employees: '50+',
+        icon: '🤝', website: 'https://pittsburghfoundation.org',
+        thumb: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=70&auto=format',
+        desc: "One of America's oldest community foundations with over $1.4 billion in assets. Has granted $850M+ to regional nonprofits since 1945.",
+        fullDesc: "The Pittsburgh Foundation has been a cornerstone of regional philanthropy since 1945, managing more than $1.4 billion in assets and distributing hundreds of millions of dollars to nonprofits advancing equity, education, and community development."
+      },
+      {
+        id: 'food-rescue', slug: '412-food-rescue',
+        name: '412 Food Rescue', owner: 'Leah Lizarondo (Co-founder & CEO)',
+        category: 'nonprofit', categoryLabel: 'Nonprofit',
+        neighborhood: 'East Liberty', founded: '2015', employees: '30+',
+        icon: '🍎', website: 'https://412foodrescue.org',
+        thumb: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&q=70&auto=format',
+        desc: "Pioneering food rescue nonprofit using technology to redirect surplus food to communities in need. Has rescued 30M+ lbs of food.",
+        fullDesc: "412 Food Rescue uses a technology platform to connect surplus food from retailers and restaurants with communities experiencing food insecurity. The model has been replicated in cities across the United States."
+      },
+      {
+        id: 'urban-league', slug: 'urban-league-pittsburgh',
+        name: 'Urban League of Greater Pittsburgh', owner: 'Community Leadership',
+        category: 'nonprofit', categoryLabel: 'Nonprofit',
+        neighborhood: 'Hill District', founded: '1918', employees: '60+',
+        icon: '✊', website: 'https://ulpgh.org',
+        thumb: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&q=70&auto=format',
+        desc: "Over a century of advancing economic empowerment, education, and civil rights for Pittsburgh's Black community.",
+        fullDesc: "The Urban League of Greater Pittsburgh has served the region for more than 100 years, providing workforce development, housing programs, youth services, and advocacy for economic equity."
+      },
+      {
+        id: 'brunner', slug: 'brunner-agency',
+        name: 'Brunner', owner: 'Independent Agency',
+        category: 'media', categoryLabel: 'Media & Creative',
+        neighborhood: 'Point Breeze', founded: '1989', employees: '120+',
+        icon: '🎨', website: 'https://www.brunnerworks.com',
+        thumb: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=70&auto=format',
+        desc: "One of Pittsburgh's largest independent advertising agencies. Data-driven creative campaigns for national brands.",
+        fullDesc: "Brunner has been a mainstay of Pittsburgh's creative economy since 1989, delivering data-driven advertising and marketing campaigns for national and regional clients across multiple industries."
+      },
+      {
+        id: 'apple-box', slug: 'apple-box-studios',
+        name: 'Apple Box Studios', owner: 'Creative Leadership',
+        category: 'media', categoryLabel: 'Media & Creative',
+        neighborhood: 'Strip District', founded: '2004', employees: '25+',
+        icon: '📹', website: 'https://www.appleboxstudios.com',
+        thumb: 'https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=600&q=70&auto=format',
+        desc: "Full-service marketing and production agency specializing in healthcare, technology, and medtech campaigns.",
+        fullDesc: "Apple Box Studios creates integrated communication campaigns for technology, healthcare, and medtech companies, combining brand strategy with high-end production from their Strip District studio."
+      },
+      {
+        id: 'dicks-sporting', slug: 'dicks-sporting-goods',
+        name: "Dick's Sporting Goods", owner: 'Edward Stack (Executive Chairman)',
+        category: 'retail', categoryLabel: 'Retail',
+        neighborhood: 'Coraopolis', founded: '1948', employees: '50,000+',
+        icon: '⚾', website: 'https://www.dickssportinggoods.com',
+        thumb: 'https://images.unsplash.com/photo-1461896836934-bd45ba9b4d08?w=600&q=70&auto=format',
+        desc: "America's largest sporting goods retailer, headquartered in the Pittsburgh region. Edward Stack grew it from a single bait-and-tackle shop to 850+ locations.",
+        fullDesc: "Dick's Sporting Goods grew from a single bait-and-tackle store into the largest sporting goods retailer in the United States. Headquartered in Coraopolis, the company is a Fortune 500 giant and a major Pittsburgh-area employer."
+      },
+      {
+        id: 'pnc', slug: 'pnc-financial-services',
+        name: 'PNC Financial Services', owner: 'William Demchak (CEO)',
+        category: 'finance', categoryLabel: 'Finance',
+        neighborhood: 'Downtown', founded: '1845', employees: '60,000+',
+        icon: '🏦', website: 'https://www.pnc.com',
+        thumb: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70&auto=format',
+        desc: "One of America's largest banks, headquartered in Pittsburgh since 1845. PNC Park is named after the company. A cornerstone of the city's financial sector.",
+        fullDesc: "PNC Financial Services has been a pillar of Pittsburgh's economy since 1845. One of the largest banks in the United States, PNC remains committed to its hometown, with its name gracing the city's beloved baseball stadium."
       }
     ];
 
