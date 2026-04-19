@@ -5,6 +5,15 @@
   <url><loc>https://www.thepittsburghwire.com/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.thepittsburghwire.com/directory</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
 
+  <!-- Best-Of List Articles -->
+  <url><loc>https://www.thepittsburghwire.com/news/best-restaurants-pittsburgh-2026</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/top-pittsburgh-tech-startups-2026</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/best-breweries-taprooms-pittsburgh</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/must-visit-pittsburgh-attractions</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/best-pittsburgh-neighborhoods-young-professionals</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/best-coffee-shops-pittsburgh-2026</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thepittsburghwire.com/news/top-pittsburgh-real-estate-developments-2026</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
   <!-- News Articles -->
   <url><loc>https://www.thepittsburghwire.com/news/arts-landing-pittsburgh-cultural-district-opens</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.thepittsburghwire.com/news/2026-nfl-draft-pittsburgh-business-impact</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
