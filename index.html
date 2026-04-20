@@ -660,6 +660,16 @@
       100% { transform: translateX(-100%); }
     }
 
+    .more-card-thumb {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--rule);
+      background: linear-gradient(135deg, #d4c5a9 0%, #c8bfad 100%);
+    }
+
     /* RESPONSIVE */
     @media (max-width: 1024px) {
       .lead-grid { grid-template-columns: 1fr; }
@@ -779,6 +789,16 @@
       margin-top: 12px;
     }
 
+    .more-card-thumb {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--rule);
+      background: linear-gradient(135deg, #d4c5a9 0%, #c8bfad 100%);
+    }
+
     /* RESPONSIVE */
     @media (max-width: 1024px) {
       .more-grid { grid-template-columns: repeat(2, 1fr); }
@@ -859,7 +879,7 @@
           <p class="byline">By <span>Megan Strickland</span> &nbsp;&bull;&nbsp; April 19, 2026</p>
         </div>
         <div class="lead-sidebar">
-          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Pittsburgh downtown skyline at dusk" style="width:100%;height:200px;object-fit:cover;display:block;" />
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Pittsburgh downtown skyline at dusk" onerror="this.style.display='none'" style="width:100%;height:200px;object-fit:cover;display:block;" />
           <p class="img-caption">Downtown Pittsburgh, ready for the 2026 NFL Draft. // Photo: Unsplash</p>
           <div class="sidebar-story">
             <span class="story-label">Business</span>
@@ -978,176 +998,281 @@
         <div class="section-rule"><span>More from The Wire</span></div>
         <div class="more-grid">
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/mark-cuban-pittsburgh-ai-showcase-nfl-draft">Mark Cuban Headlines Pittsburgh AI Showcase During NFL Draft Week</a></p>
             <p class="more-card-date">By Megan Strickland - April 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-post-gazette-venetoulis-nonprofit-acquisition">Pittsburgh Post-Gazette Saved from Closure by Nonprofit Stewardship</a></p>
             <p class="more-card-date">By Patrick Kaminski - April 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-venture-capital-148-billion-2025-ai">Pittsburgh Startups Pull In $1.48 Billion in Venture Capital</a></p>
             <p class="more-card-date">By Rachel Osei - April 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/esplanade-north-side-pittsburgh-construction-update">Esplanade Breaks Ground: $740M North Side Development Takes Shape</a></p>
             <p class="more-card-date">By Tony Marchetti - April 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">People</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-billionaires-forbes-richest-list-2026">Three Pittsburgh Billionaires Make Forbes World's Richest List</a></p>
             <p class="more-card-date">By James Coletta - April 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-tech-talent-retention-cmu-pitt">Pittsburgh Retains 58% of CMU and Pitt Computer Science Graduates</a></p>
             <p class="more-card-date">April 9, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Community</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-food-bank-expansion-new-facility">Greater Pittsburgh Community Food Bank Opens 130,000 Sq Ft Facility</a></p>
             <p class="more-card-date">April 8, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/mount-washington-development-pittsburgh">Mount Washington Emerges as Hospitality and Tourism Destination</a></p>
             <p class="more-card-date">April 7, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-brewery-scene-expansion-2026">Pittsburgh Craft Brewery Scene Continues Rapid Expansion in 2026</a></p>
             <p class="more-card-date">April 5, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Community</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-parks-conservancy-millvale-trail">Millvale Riverfront Trail Expansion Complete</a></p>
             <p class="more-card-date">April 4, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/hazelwood-green-new-tenants-pittsburgh">Hazelwood Green Announces Three Major Tenant Commitments</a></p>
             <p class="more-card-date">April 3, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-downtown-office-to-residential-conversion">Downtown Pittsburgh Office Buildings Convert to 240 Residential Units</a></p>
             <p class="more-card-date">April 2, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Technology</span>
             <p class="more-card-headline"><a href="/news/carnegie-mellon-robotics-lab-expansion">Carnegie Mellon Robotics Institute Expands with $75M Building</a></p>
             <p class="more-card-date">April 1, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/strip-district-terminal-new-vendors-2026">Strip District Terminal Welcomes 8 New Food & Retail Vendors</a></p>
             <p class="more-card-date">March 31, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Hospitality</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-sports-economy-nfl-draft-preview">Pittsburgh Hospitality Sector Prepares for 2026 NFL Draft Economic Boom</a></p>
             <p class="more-card-date">March 28, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-housing-market-growth-neighborhoods">Pittsburgh Housing Market Sees Record Activity in Emerging Neighborhoods</a></p>
             <p class="more-card-date">March 27, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/lawrenceville-development-butler-street-2026">Lawrenceville Butler Street Corridor Adds 340 New Residential Units</a></p>
             <p class="more-card-date">March 25, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Dining</span>
             <p class="more-card-headline"><a href="/news/north-shore-restaurant-district-growth-pittsburgh">North Shore Emerges as Year-Round Restaurant and Entertainment Destination</a></p>
             <p class="more-card-date">March 24, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-manufacturing-renaissance-2026">Pittsburgh's Advanced Manufacturing Renaissance Accelerates in 2026</a></p>
             <p class="more-card-date">March 22, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Healthcare</span>
             <p class="more-card-headline"><a href="/news/upmc-expansion-medical-campus-pittsburgh">UPMC Announces $300M Medical Research Tower Expansion</a></p>
             <p class="more-card-date">March 20, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/main-and-main-business-district-renewal-pittsburgh">Mayor Gainey Launches Main and Main Initiative to Revitalize Neighborhood Business Districts</a></p>
             <p class="more-card-date">March 19, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/tambellini-co-brookline-italian-sandwich-shop-pittsburgh">Tambellini and Co. Carries an Italian Legacy Into Brookline</a></p>
             <p class="more-card-date">March 14, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/ura-lower-hill-affordable-housing-plan-pittsburgh">URA Announces Affordable Housing Plan for Lower Hill District Redevelopment</a></p>
             <p class="more-card-date">March 12, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-robotics-network-250-companies-growth">Pittsburgh's Robotics Cluster Hits 250 Companies</a></p>
             <p class="more-card-date">March 8, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/tous-les-jours-east-liberty-korean-bakery-pittsburgh">Tous les Jours Opens First Pittsburgh Location in East Liberty</a></p>
             <p class="more-card-date">March 7, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/hemley-fast-casual-downtown-pittsburgh-opening">Legacy Hospitality Launches Hemley, a Fast-Casual Health Concept Downtown</a></p>
             <p class="more-card-date">March 5, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/city-edge-apartments-southside-pittsburgh">City's Edge Development Set to Open This Fall on the South Side Slopes</a></p>
             <p class="more-card-date">March 2, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/wylie-concert-venue-hill-district-pittsburgh">The Wylie: A New Concert Venue Rising in the Hill District</a></p>
             <p class="more-card-date">February 26, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/pittsburgh-community-land-trusts-affordable-homeownership">Community Land Trusts Expand Across Pittsburgh</a></p>
             <p class="more-card-date">February 20, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/baked-bean-south-hills-coffee-bakery-pittsburgh">The Baked Bean Opens on Valentine's Day, Bringing Artisan Coffee to the South Hills</a></p>
             <p class="more-card-date">February 15, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Development</span>
             <p class="more-card-headline"><a href="/news/fnb-financial-center-lower-hill-pittsburgh">FNB Financial Center Reshapes the Lower Hill District Skyline</a></p>
             <p class="more-card-date">February 12, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/uptown-flats-affordable-housing-pittsburgh">Uptown Flats Opens This Spring, Delivering 34 Affordable Units</a></p>
             <p class="more-card-date">February 6, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Real Estate</span>
             <p class="more-card-headline"><a href="/news/polish-hill-townhomes-herron-avenue-pittsburgh">Polish Hill Approves Herron Avenue Townhome Development</a></p>
             <p class="more-card-date">January 25, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Neighborhoods</span>
             <p class="more-card-headline"><a href="/news/creative-chem-co-bloomfield-coworking-pittsburgh">Inside Creative Chem Co., the Bloomfield Chemical Plant Turned Coworking Space</a></p>
             <p class="more-card-date">January 20, 2026</p>
           </div>
           <div class="more-card">
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
+            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
             <p class="more-card-headline"><a href="/news/isalys-strip-district-reopening-pittsburgh">Isaly's Returns to the Strip District After Decades Away</a></p>
             <p class="more-card-date">January 8, 2026</p>

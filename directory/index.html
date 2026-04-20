@@ -493,8 +493,10 @@
       gap: 2px;
     }
 
-    .biz-card-thumb{width:100%;height:140px;object-fit:cover;display:block;border-bottom:1px solid var(--border);filter:brightness(0.8);transition:filter .3s}
+    .biz-card-thumb{width:100%;height:140px;object-fit:cover;display:block;border-bottom:1px solid var(--border);filter:brightness(0.8);transition:filter .3s;background:linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%)}
     .biz-card:hover .biz-card-thumb{filter:brightness(1)}
+    /* Global fallback for broken images */
+    img[alt="Image unavailable"]{min-height:60px}
     .biz-card {
       background: var(--steel);
       border: 1px solid var(--border);
@@ -2207,7 +2209,7 @@
            data-hood="${b.neighborhood.toLowerCase()}"
            style="animation-delay:${i * 0.05}s"
            aria-label="View ${b.name} business profile">
-          ${b.thumb ? `<img class="biz-card-thumb" src="${b.thumb}" alt="${b.name}" loading="lazy" />` : ''}
+          ${b.thumb ? `<img class="biz-card-thumb" src="${b.thumb}" alt="${b.name}" loading="lazy"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />` : ''}
           <div class="biz-card-top">
             <div class="biz-icon">${b.icon}</div>
             <span class="biz-cat-badge">${b.categoryLabel}</span>
