@@ -86,6 +86,7 @@
 
     /* HERO IMAGE */
     .article-hero { max-width: 840px; margin: 0 auto; }
+    .hero-img{width:100%;height:360px;object-fit:cover;display:block}
     .hero-img-placeholder { background: linear-gradient(135deg, var(--cream) 0%, #cec8b8 100%); height: 420px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
     .hero-img-placeholder::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(0,0,0,0.025) 20px, rgba(0,0,0,0.025) 21px); }
     .hero-img-text { font-family: 'Playfair Display', serif; font-size: 72px; font-weight: 900; color: rgba(0,0,0,0.08); letter-spacing: -2px; position: relative; }
@@ -216,9 +217,7 @@
   </div>
 
   <div class="article-hero">
-    <div class="hero-img-placeholder">
-      <span class="hero-img-text">PITTSBURGH</span>
-    </div>
+    <img class="hero-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Pittsburgh downtown skyline" style="width:100%;height:360px;object-fit:cover;display:block;" />
     <p class="hero-caption" style="padding:10px 28px 0">Acrisure Stadium and the North Shore will serve as the anchor of the 2026 NFL Draft experience. Photo: VisitPittsburgh</p>
   </div>
 
