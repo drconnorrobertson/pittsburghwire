@@ -683,11 +683,24 @@
       .three-col { grid-template-columns: 1fr; }
       .people-grid { grid-template-columns: 1fr; }
       .belt-grid { grid-template-columns: 1fr; }
-      .masthead-title { font-size: 48px; }
+      .masthead-title { font-size: 42px; }
       .newsletter-form { flex-direction: column; }
-      .newsletter-input { border-right: 1px solid var(--ink); border-bottom: none; }
+      .newsletter-input { border-right: 1px solid var(--ink); border-bottom: none; width: 100%; padding: 14px 16px; min-height: 44px; }
+      .newsletter-btn { min-height: 44px; padding: 14px 24px; }
       .topbar-links { display: none; }
+      .topbar { padding: 7px 16px; }
       .footer-cols { grid-template-columns: 1fr; }
+      .container { padding: 0 16px; }
+      .lead-main { padding: 20px 16px; }
+      .lead-sidebar { padding: 16px; }
+      .nav a { min-height: 44px; padding: 14px 16px; }
+      .more-grid { grid-template-columns: 1fr; }
+      .more-card { border-right: none; border-bottom: 1px solid var(--rule); padding: 20px 16px; }
+      .more-card:last-child { border-bottom: none; }
+      
+      /* Image optimization */
+      img { max-width: 100%; height: auto; }
+      .more-card-thumb { height: 200px; }
     }
 
     .fade-up {
@@ -810,6 +823,25 @@
       .more-grid { grid-template-columns: 1fr; }
       .more-card { border-right: none; border-bottom: 1px solid var(--rule); }
       .more-card:last-child { border-bottom: none; }
+    }
+  
+    /* Additional mobile optimizations */
+    @media (max-width: 768px) {
+      body { font-size: 15px; }
+      .masthead { padding: 20px 16px 12px; }
+      .masthead-title { font-size: clamp(36px, 8vw, 64px); }
+      .nav-inner { max-width: 100%; padding: 0; }
+      .container { padding: 0 16px; }
+    }
+    
+    /* Ensure all images are responsive */
+    img { max-width: 100%; height: auto; display: block; }
+    
+    /* Ensure proper text sizing on mobile */
+    @media (max-width: 480px) {
+      body { font-size: 14px; line-height: 1.5; }
+      .masthead-title { font-size: 32px; }
+      .nav a { font-size: 11px; padding: 12px 14px; }
     }
   </style>
 </head>
