@@ -1403,5 +1403,109 @@
       });
     })();
   </script>
+
+<!-- cross-network-section -->
+
+<style>
+.network-crosslinks {
+  background: #ede8dc;
+  border-top: 3px solid #c8bfad;
+  padding: 48px 0 40px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+.network-crosslinks .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.network-crosslinks .section-label {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.7rem;
+  color: #6b6355;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+.network-crosslinks h2 {
+  font-size: 1.5rem;
+  color: #0f0e0c;
+  font-family: 'Georgia', serif;
+  border-bottom: 2px solid #b5001f;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+@media (max-width: 768px) { .network-grid { grid-template-columns: 1fr; } }
+.network-card {
+  background: #f5f0e8;
+  border: 1px solid #c8bfad;
+  padding: 20px 22px;
+  border-radius: 2px;
+}
+.network-card .source-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8a6a00;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #c8bfad;
+  padding-bottom: 4px;
+}
+.network-card h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+.network-card h3 a {
+  color: #0f0e0c;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.network-card h3 a:hover {
+  color: #b5001f;
+  border-bottom-color: #b5001f;
+}
+.network-card p {
+  font-size: 0.85rem;
+  color: #6b6355;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+</style>
+
+<section class="network-crosslinks" id="network-section">
+  <div class="container">
+    <span class="section-label">Around the Network</span>
+    <h2>From Dr. Connor Robertson&#39;s Network</h2>
+    <div class="network-grid">
+    <div class="network-card">
+      <span class="source-tag">Elixir Consulting Group</span>
+      <h3><a href="https://elixirconsultinggroup.com/blog/ai-tools-every-business-owner-should-use-2026/" target="_blank" rel="noopener">AI Tools Every Business Owner Should Be Using in 2026</a></h3>
+      <p>Practical strategies for integrating AI into your business operations in 2026.</p>
+    </div>
+    <div class="network-card">
+      <span class="source-tag">The Prospecting Show</span>
+      <h3><a href="https://prospectingshow.com/blog/ai-tools-transforming-sales-prospecting/" target="_blank" rel="noopener">How AI Is Transforming Sales Prospecting in 2026</a></h3>
+      <p>Discover how top sales teams are leveraging AI to close more deals faster.</p>
+    </div>
+    <div class="network-card">
+      <span class="source-tag">The Grant Finder</span>
+      <h3><a href="https://thegrantfinder.org/blog/pittsburgh-nonprofit-funding/" target="_blank" rel="noopener">Grant Funding for Pittsburgh Nonprofits and Small Businesses</a></h3>
+      <p>A guide to local and federal grant opportunities for Pittsburgh organizations.</p>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- /cross-network-section -->
 </body>
 </html>
