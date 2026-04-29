@@ -915,4 +915,9 @@
   <url><loc>https://www.thepittsburghwire.com/news/pittsburgh-is-craft-initiative-glass-center-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.thepittsburghwire.com/news/skild-ai-pittsburgh-robot-brain-global-factories-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.thepittsburghwire.com/news/pittsburgh-downtown-trid-tax-district-ura-revitalization-2026</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/cmu-forge-to-field-ai-pitch-competition-nfl-draft-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
