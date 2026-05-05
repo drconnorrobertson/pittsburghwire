@@ -892,7 +892,6 @@
     <div class="topbar-links">
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/about">About</a>
-      <a href="/author">Author</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
@@ -914,7 +913,6 @@
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
       <a href="/about">About</a>
-      <a href="/author">Author</a>
     </div>
   </nav>
 
