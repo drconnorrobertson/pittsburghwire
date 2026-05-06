@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Digest Archive | The Pittsburgh Wire</title>
+  <meta name="description" content="Browse past weekly digests from The Pittsburgh Wire. Pittsburgh business, real estate, and development news delivered every Saturday." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.thepittsburghwire.com/weekly" />
+  <meta property="og:title" content="Weekly Digest Archive | The Pittsburgh Wire" />
+  <meta property="og:description" content="Browse past weekly digests from The Pittsburgh Wire. Pittsburgh business, real estate, and development news delivered every Saturday." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink:#0f0e0c; --paper:#f5f0e8; --cream:#ede8dc; --rule:#c8bfad; --accent:#b5001f; --gold:#8a6a00; --smoke:#6b6355; --light-smoke:#a09585; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; line-height: 1.7; }
+    a { color: inherit; text-decoration: none; }
+    .topbar { background: var(--ink); color: var(--paper); padding: 7px 28px; display: flex; justify-content: space-between; align-items: center; font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+    .topbar-date { color: var(--light-smoke); }
+    .topbar-links { display: flex; gap: 20px; }
+    .topbar-links a { color: #aaa; transition: color 0.15s; }
+    .topbar-links a:hover { color: var(--paper); }
+    .topbar-sister { color: var(--gold); border: 1px solid var(--gold); padding: 2px 10px; }
+    .masthead { border-bottom: 4px double var(--ink); padding: 32px 28px 20px; text-align: center; }
+    .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(48px, 8vw, 96px); font-weight: 900; line-height: 0.92; letter-spacing: -2px; color: var(--ink); margin: 16px 0 10px; }
+    .masthead-tagline { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 5px; text-transform: uppercase; color: var(--smoke); }
+    .nav { background: var(--ink); }
+    .nav-inner { max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; flex-wrap: wrap; }
+    .nav a { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--paper); padding: 11px 22px; display: block; border-right: 1px solid #2a2a2a; transition: background 0.15s; }
+    .nav a:first-child { border-left: 1px solid #2a2a2a; }
+    .nav a:hover, .nav a.active { background: var(--accent); }
+    .container { max-width: 840px; margin: 0 auto; padding: 64px 28px; }
+    .page-label { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; display: flex; align-items: center; gap: 14px; }
+    .page-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+    .page-headline { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(32px, 5vw, 56px); font-weight: 900; line-height: 1.05; letter-spacing: -1px; margin-bottom: 20px; }
+    .page-intro { font-size: 18px; font-style: italic; color: var(--smoke); line-height: 1.8; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid var(--rule); }
+    .signup-box { background: var(--ink); color: var(--paper); padding: 36px 40px; margin-bottom: 48px; }
+    .signup-box-head { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 900; margin-bottom: 8px; }
+    .signup-box-sub { font-size: 15px; color: #aaa; line-height: 1.7; margin-bottom: 20px; }
+    .signup-box-form { display: flex; gap: 0; }
+    .signup-box-input { font-family: 'Source Serif 4', Georgia, serif; font-size: 15px; padding: 10px 18px; border: 1px solid #333; border-right: none; background: #1a1a1a; color: var(--paper); outline: none; flex: 1; }
+    .signup-box-input::placeholder { color: #666; }
+    .signup-box-btn { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; background: var(--accent); color: #fff; border: 1px solid var(--accent); padding: 10px 28px; cursor: pointer; white-space: nowrap; }
+    .signup-box-btn:hover { background: #8a0018; }
+    .signup-box-count { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; letter-spacing: 1px; color: var(--gold); margin-top: 12px; }
+    .digest-list { list-style: none; }
+    .digest-item { padding: 28px 0; border-bottom: 1px solid var(--rule); }
+    .digest-item:first-child { padding-top: 0; }
+    .digest-date { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+    .digest-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; line-height: 1.25; margin-bottom: 10px; }
+    .digest-summary { font-size: 15px; color: var(--smoke); line-height: 1.7; }
+    .digest-stories { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .digest-tag { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding: 3px 10px; border: 1px solid var(--rule); color: var(--smoke); }
+    .footer { background: var(--ink); color: var(--paper); padding: 48px 28px 28px; }
+    .footer-inner { max-width: 1400px; margin: 0 auto; }
+    .footer-masthead { font-family: 'Playfair Display', Georgia, serif; font-size: 42px; font-weight: 900; letter-spacing: -1px; margin-bottom: 6px; }
+    .footer-tagline { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: #666; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #222; }
+    .footer-copy { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 1px; color: #444; }
+    @media (max-width: 640px) { .container { padding: 40px 16px; } .signup-box { padding: 24px 20px; } .signup-box-form { flex-direction: column; } .signup-box-input { border-right: 1px solid #333; border-bottom: none; } .topbar-links { display: none; } }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span class="topbar-date">The Pittsburgh Wire</span>
+    <div class="topbar-links">
+      <a href="/about">About</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
+    </div>
+  </div>
+  <header class="masthead">
+    <p class="masthead-tagline">Pittsburgh Business &bull; Real Estate &bull; Development &bull; People</p>
+    <a href="/"><h1 class="masthead-title">The Pittsburgh Wire</h1></a>
+    <p class="masthead-tagline">Good News, Only. Always Forward.</p>
+  </header>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/">Home</a>
+      <a href="/#business">Business</a>
+      <a href="/#real-estate">Real Estate</a>
+      <a href="/#development">Development</a>
+      <a href="/#people">People</a>
+      <a href="/directory">Directory</a>
+      <a href="/about">About</a>
+      <a href="/weekly" class="active">Weekly</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="page-label">Newsletter Archive</div>
+    <h1 class="page-headline">The Weekly Wire</h1>
+    <p class="page-intro">Every Saturday morning, we send the week's best Pittsburgh business, real estate, and development news directly to your inbox. Browse past editions below, or subscribe to never miss an issue.</p>
+    <div class="signup-box">
+      <div class="signup-box-head">Get The Weekly Wire</div>
+      <p class="signup-box-sub">Pittsburgh's best business news, curated and delivered every Saturday. Free, forever.</p>
+      <form class="signup-box-form" action="https://formspree.io/f/xpwddjla" method="POST" onsubmit="this.querySelector('button').textContent='Subscribed!';this.querySelector('button').disabled=true;return true;">
+        <input class="signup-box-input" type="email" name="email" placeholder="your@email.com" required aria-label="Email address" />
+        <button class="signup-box-btn" type="submit">Subscribe Free</button>
+      </form>
+      <p class="signup-box-count">Join 5,000+ readers across Pittsburgh</p>
+    </div>
+    <ul class="digest-list">
+      <li class="digest-item">
+        <div class="digest-date">Saturday, May 3, 2026</div>
+        <h2 class="digest-title">Mondi Opens Findlay Facility, South Side Tech Boom, and Pittsburgh's Startup Surge</h2>
+        <p class="digest-summary">This week: a global packaging giant lands in Allegheny County with 170 new jobs, South Side Works drops below 8% vacancy as tech tenants flood in, and Pittsburgh earns a top-5 national ranking for small business growth.</p>
+        <div class="digest-stories"><span class="digest-tag">Manufacturing</span><span class="digest-tag">Office Market</span><span class="digest-tag">Entrepreneurship</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, April 26, 2026</div>
+        <h2 class="digest-title">NFL Draft Breaks Records, AI Pitch Competition, and Lawrenceville's New Chapter</h2>
+        <p class="digest-summary">Pittsburgh shattered NFL Draft Day One attendance with 320,000 fans. CMU's Forge to Field brought AI startups to the national stage. And Butler Street's next wave of development takes shape.</p>
+        <div class="digest-stories"><span class="digest-tag">Events</span><span class="digest-tag">AI &amp; Tech</span><span class="digest-tag">Development</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, April 19, 2026</div>
+        <h2 class="digest-title">Arts Landing Opens, Steel City Ventures Fund, and Abridge's $300M Milestone</h2>
+        <p class="digest-summary">The Cultural District's newest public space welcomes Pittsburgh. A $40M venture fund backs local startups exclusively. And Abridge's AI healthcare platform hits a major valuation milestone out of the East End.</p>
+        <div class="digest-stories"><span class="digest-tag">Culture</span><span class="digest-tag">Venture Capital</span><span class="digest-tag">Healthcare AI</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, April 12, 2026</div>
+        <h2 class="digest-title">Hazelwood Green Phase Two, Gulf Tower Hotel, and the Strip District Food Hall</h2>
+        <p class="digest-summary">The former steel mill site moves into its next chapter with 200,000 square feet of mixed-use development. Downtown's Gulf Tower announces its luxury hotel conversion. And the Strip gets even more delicious.</p>
+        <div class="digest-stories"><span class="digest-tag">Real Estate</span><span class="digest-tag">Hospitality</span><span class="digest-tag">Food &amp; Drink</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, April 5, 2026</div>
+        <h2 class="digest-title">Carnegie International Returns, Food Bank Expansion, and Mount Washington Development</h2>
+        <p class="digest-summary">The 59th Carnegie International brings global contemporary art back to Pittsburgh. The Greater Pittsburgh Food Bank breaks ground on a new facility. And Mount Washington sees new residential investment.</p>
+        <div class="digest-stories"><span class="digest-tag">Arts</span><span class="digest-tag">Nonprofit</span><span class="digest-tag">Residential</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, March 29, 2026</div>
+        <h2 class="digest-title">AlphaLab's Largest Cohort, Aurora's Expansion, and Downtown's Tax District</h2>
+        <p class="digest-summary">Pittsburgh's premier accelerator accepts 20 startups in its biggest class ever. Aurora Innovation expands its autonomous vehicle operations. And the URA launches a new tax incentive district to revitalize downtown.</p>
+        <div class="digest-stories"><span class="digest-tag">Startups</span><span class="digest-tag">Autonomous Vehicles</span><span class="digest-tag">Urban Development</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, March 22, 2026</div>
+        <h2 class="digest-title">Pittsburgh's Brewery Boom, Best Neighborhoods for YPs, and UPMC's Oakland Expansion</h2>
+        <p class="digest-summary">The city's craft beer scene adds five new taprooms. We ranked the best neighborhoods for young professionals. And UPMC breaks ground on a $300M research campus expansion in Oakland.</p>
+        <div class="digest-stories"><span class="digest-tag">Breweries</span><span class="digest-tag">Neighborhoods</span><span class="digest-tag">Healthcare</span></div>
+      </li>
+      <li class="digest-item">
+        <div class="digest-date">Saturday, March 15, 2026</div>
+        <h2 class="digest-title">First-Time Homebuyer Rankings, Squirrel Hill Restaurant Row, and New Coworking Spaces</h2>
+        <p class="digest-summary">Pittsburgh ranks among the top 5 cities nationally for first-time homebuyers. Squirrel Hill's Murray Avenue sees a restaurant renaissance. And we profiled the best new coworking spaces opening across the city.</p>
+        <div class="digest-stories"><span class="digest-tag">Real Estate</span><span class="digest-tag">Food &amp; Drink</span><span class="digest-tag">Workspace</span></div>
+      </li>
+    </ul>
+  </div>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-masthead">The Pittsburgh Wire</div>
+      <p class="footer-tagline">Good News, Only. Always Forward.</p>
+      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+    </div>
+  </footer>
+</body>
+</html>

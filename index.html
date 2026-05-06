@@ -719,6 +719,43 @@
       .more-card-thumb { height: 200px; }
     }
 
+
+    /* HERO NEWSLETTER BAR */
+    .hero-newsletter { background: var(--ink); border-bottom: 2px solid var(--accent); padding: 18px 28px; }
+    .hero-newsletter-inner { max-width: 1400px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .hero-newsletter-text { font-family: 'Barlow Condensed', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 1px; color: var(--paper); }
+    .hero-newsletter-text strong { color: var(--gold); }
+    .hero-newsletter-form { display: flex; gap: 0; }
+    .hero-newsletter-input { font-family: 'Source Serif 4', Georgia, serif; font-size: 14px; padding: 8px 16px; border: 1px solid #333; border-right: none; background: #1a1a1a; color: var(--paper); outline: none; min-width: 220px; }
+    .hero-newsletter-input::placeholder { color: #666; }
+    .hero-newsletter-input:focus { border-color: var(--accent); }
+    .hero-newsletter-submit { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; background: var(--accent); color: #fff; border: 1px solid var(--accent); padding: 8px 20px; cursor: pointer; transition: background 0.15s; }
+    .hero-newsletter-submit:hover { background: #8a0018; }
+
+    /* STICKY FOOTER NEWSLETTER BAR */
+    .sticky-newsletter { position: fixed; bottom: 0; left: 0; right: 0; background: var(--ink); border-top: 2px solid var(--accent); padding: 12px 28px; z-index: 9998; display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; transform: translateY(100%); transition: transform 0.4s ease; }
+    .sticky-newsletter.visible { transform: translateY(0); }
+    .sticky-newsletter-text { font-family: 'Barlow Condensed', sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 1px; color: var(--paper); }
+    .sticky-newsletter-form { display: flex; gap: 0; }
+    .sticky-newsletter-input { font-family: 'Source Serif 4', Georgia, serif; font-size: 13px; padding: 7px 14px; border: 1px solid #333; border-right: none; background: #1a1a1a; color: var(--paper); outline: none; min-width: 200px; }
+    .sticky-newsletter-input::placeholder { color: #666; }
+    .sticky-newsletter-submit { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; background: var(--accent); color: #fff; border: 1px solid var(--accent); padding: 7px 16px; cursor: pointer; }
+    .sticky-newsletter-close { background: none; border: none; color: #666; font-size: 18px; cursor: pointer; padding: 0 4px; line-height: 1; }
+    .sticky-newsletter-close:hover { color: var(--paper); }
+
+    /* AD ZONES */
+    .ad-zone { background: var(--cream); border: 1px dashed var(--rule); min-height: 90px; display: flex; align-items: center; justify-content: center; font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--light-smoke); margin: 32px 0; }
+    .ad-zone-leaderboard { min-height: 90px; max-width: 728px; margin-left: auto; margin-right: auto; }
+    .ad-zone-banner { min-height: 60px; }
+
+    @media (max-width: 640px) {
+      .hero-newsletter { padding: 14px 16px; }
+      .hero-newsletter-inner { flex-direction: column; text-align: center; gap: 10px; }
+      .hero-newsletter-input { min-width: 160px; }
+      .sticky-newsletter { padding: 10px 16px; gap: 10px; }
+      .sticky-newsletter-input { min-width: 140px; font-size: 12px; }
+    }
+
     .fade-up {
       opacity: 0;
       transform: translateY(12px);
@@ -891,6 +928,7 @@
     <div class="topbar-links">
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/about">About</a>
+      <a href="/weekly">Weekly</a>
       <a href="/author">Author</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
@@ -913,6 +951,7 @@
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
       <a href="/about">About</a>
+      <a href="/weekly">Weekly</a>
       <a href="/author">Author</a>
     </div>
   </nav>
@@ -928,6 +967,17 @@
       <span>Steel City Ventures Closes $40 Million Fund Dedicated Exclusively to Pittsburgh Startups</span>
       <span>Mondi Bags USA Opens 200,000-Square-Foot Facility in Findlay Township, Creating 170 Allegheny County Jobs</span>
       <span>South Side Works Welcomes New Wave of Tech Tenants as Office Vacancy Drops Below 8 Percent</span>
+    </div>
+  </div>
+
+  <!-- HERO NEWSLETTER BAR -->
+  <div class="hero-newsletter">
+    <div class="hero-newsletter-inner">
+      <span class="hero-newsletter-text">Get Pittsburgh's best business news delivered weekly. <strong>Join 5,000+ readers.</strong></span>
+      <form class="hero-newsletter-form" action="https://formspree.io/f/xpwddjla" method="POST" onsubmit="this.querySelector('button').textContent='Subscribed!';this.querySelector('button').disabled=true;return true;">
+        <input class="hero-newsletter-input" type="email" name="email" placeholder="your@email.com" required aria-label="Email address" />
+        <button class="hero-newsletter-submit" type="submit">Subscribe</button>
+      </form>
     </div>
   </div>
 
@@ -1054,6 +1104,9 @@
 
       <div class="rule-double"></div>
 
+      <!-- AD ZONE -->
+      <div class="ad-zone ad-zone-leaderboard"></div>
+
       <!-- NEWSLETTER -->
       <div class="newsletter fade-up delay-3">
         <p class="newsletter-label">Stay Connected</p>
@@ -1067,6 +1120,9 @@
       </div>
 
     </div>
+
+    <!-- AD ZONE -->
+    <div class="ad-zone ad-zone-leaderboard" style="margin:40px auto 0;max-width:1400px;"></div>
 
     <!-- MORE FROM THE WIRE -->
     <section class="more-section">
@@ -1451,5 +1507,28 @@
   </div>
 </section>
 <!-- /cross-network-section -->
+
+  <!-- STICKY NEWSLETTER FOOTER BAR -->
+  <div class="sticky-newsletter" id="sticky-newsletter">
+    <span class="sticky-newsletter-text">Get Pittsburgh's best business news weekly. <strong style="color:var(--gold)">Join 5,000+ readers.</strong></span>
+    <form class="sticky-newsletter-form" action="https://formspree.io/f/xpwddjla" method="POST" onsubmit="this.querySelector('button').textContent='Done!';this.querySelector('button').disabled=true;document.getElementById('sticky-newsletter').style.display='none';return true;">
+      <input class="sticky-newsletter-input" type="email" name="email" placeholder="your@email.com" required aria-label="Email address" />
+      <button class="sticky-newsletter-submit" type="submit">Subscribe</button>
+    </form>
+    <button class="sticky-newsletter-close" onclick="document.getElementById('sticky-newsletter').classList.remove('visible');document.getElementById('sticky-newsletter').style.display='none';" aria-label="Close">&times;</button>
+  </div>
+
+  <script>
+    (function(){
+      var shown = false;
+      window.addEventListener('scroll', function(){
+        if(!shown && window.scrollY > document.body.scrollHeight * 0.4){
+          document.getElementById('sticky-newsletter').classList.add('visible');
+          shown = true;
+        }
+      });
+    })();
+  </script>
+
 </body>
 </html>
