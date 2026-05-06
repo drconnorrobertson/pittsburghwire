@@ -1,0 +1,108 @@
+/* Pittsburgh Wire - Mobile Optimization */
+html, body { overflow-x: hidden; max-width: 100vw; }
+img, video, iframe, embed, object { max-width: 100%; height: auto; }
+table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+
+/* Hamburger button */
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+.hamburger-btn span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--paper, #f5f0e8);
+  margin: 5px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.hamburger-btn.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger-btn.open span:nth-child(2) { opacity: 0; }
+.hamburger-btn.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 768px) {
+  .hamburger-btn { display: block; }
+  .nav { position: relative; }
+  .nav-inner {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+  }
+  .nav-inner.open { display: flex; }
+  .nav a {
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 14px 20px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  .topbar { padding: 7px 16px; }
+  .topbar-links { display: none; }
+  .masthead { padding: 16px 16px 12px; }
+  .masthead-title { font-size: clamp(28px, 8vw, 48px) !important; }
+  .container { padding: 0 16px; }
+  .lead-grid { grid-template-columns: 1fr !important; }
+  .lead-main { border-right: none; border-bottom: 1px solid var(--rule, #c8bfad); padding: 20px 16px; }
+  .three-col { grid-template-columns: 1fr !important; }
+  .col-story { border-right: none !important; border-bottom: 1px solid var(--rule, #c8bfad); }
+  .col-story:last-child { border-bottom: none; }
+  .belt-grid { grid-template-columns: 1fr !important; }
+  .belt { padding: 28px 16px; }
+  .people-grid { grid-template-columns: 1fr !important; }
+  .person-card { border-right: none !important; border-bottom: 1px solid var(--rule, #c8bfad); }
+  .person-card:last-child { border-bottom: none; }
+  .newsletter { padding: 28px 16px; }
+  .newsletter-form { flex-direction: column; }
+  .newsletter-input {
+    border-right: 1px solid var(--ink, #0f0e0c) !important;
+    border-bottom: none;
+    width: 100%;
+    min-height: 48px;
+    padding: 14px 16px;
+    font-size: 16px;
+  }
+  .newsletter-btn { min-height: 48px; padding: 14px 24px; }
+  .newsletter-headline { font-size: 24px; }
+  .footer { padding: 32px 16px 20px; }
+  .footer-cols { grid-template-columns: 1fr !important; gap: 24px; }
+  .footer-masthead { font-size: 28px; }
+  .more-grid { grid-template-columns: 1fr !important; }
+  .more-card { border-right: none !important; border-bottom: 1px solid var(--rule, #c8bfad); }
+  .more-card:last-child { border-bottom: none; }
+  .more-section { padding: 28px 16px; }
+  .ticker { overflow: hidden; }
+  body { font-size: 16px !important; line-height: 1.65; }
+  .topbar-links a, .nav a, .footer-links-list a { min-height: 44px; display: flex; align-items: center; }
+  .article-layout { grid-template-columns: 1fr !important; padding: 0 16px; }
+  .article-body { padding: 28px 0 40px; border-right: none !important; border-bottom: 1px solid var(--rule, #c8bfad); }
+  .article-sidebar { padding: 24px 0; }
+  .article-header { padding: 8px 16px 32px; }
+  .article-headline { font-size: clamp(24px, 7vw, 36px) !important; }
+  .article-deck { font-size: 17px; }
+  .hero-img { height: auto; max-height: 300px; }
+  .hero-caption { padding: 8px 16px 0; }
+  .breadcrumb { padding: 12px 16px; }
+  .article-body p { font-size: 16px; line-height: 1.8; }
+  .article-body h2 { font-size: 22px; }
+  .pullquote-text { font-size: 18px; }
+  .network-grid { grid-template-columns: 1fr !important; }
+  .directory-grid { grid-template-columns: 1fr !important; }
+  .directory-card { border-right: none !important; }
+  .neighborhood-grid { grid-template-columns: 1fr !important; }
+  .best-grid { grid-template-columns: 1fr !important; }
+  .about-content { padding: 0 16px; }
+}
+@media (max-width: 480px) {
+  .masthead-title { font-size: 28px !important; }
+  .lead-headline { font-size: clamp(22px, 6vw, 28px) !important; }
+  .newsletter-headline { font-size: 20px; }
+  .footer-masthead { font-size: 24px; }
+}
