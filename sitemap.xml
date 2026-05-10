@@ -994,4 +994,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/aer-lingus-pittsburgh-dublin-nonstop-flights-launch/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
