@@ -1055,4 +1055,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/gather-ai-pittsburgh-40-million-series-b-warehouse-drones</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
