@@ -1135,4 +1135,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/gray-swan-ai-security-40m-series-a-shadyside</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
