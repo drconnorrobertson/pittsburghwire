@@ -1214,4 +1214,9 @@
   <url><loc>https://www.thepittsburghwire.com/directory/automotive/</loc><lastmod>2026-06-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.thepittsburghwire.com/directory/education/</loc><lastmod>2026-06-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.thepittsburghwire.com/directory/professional-services/</loc><lastmod>2026-06-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/amboy-filipino-restaurant-deutschtown-pittsburgh-rafael-vencio</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
