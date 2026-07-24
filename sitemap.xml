@@ -1371,4 +1371,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/cmu-carnegie-foundry-autonomous-systems-manufacturing-platform-pittsburgh-drones-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
