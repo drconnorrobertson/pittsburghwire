@@ -12,11 +12,9 @@
   <meta property="og:description" content="A terraced apartment complex on the South Side Slopes will feature 700+ public steps and panoramic views across the Monongahela to Downtown Pittsburgh." />
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="2026-03-02" />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1444723121867-ce09059eeffa?w=1200&q=80" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="City's Edge Development Set to Open This Fall on the South Side Slopes | The Pittsburgh Wire" />
   <meta name="twitter:description" content="A terraced apartment complex on the South Side Slopes will feature 700+ public steps and panoramic views across the Monongahela to Downtown Pittsburgh." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1444723121867-ce09059eeffa?w=1200&q=80" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -100,12 +98,6 @@
     .article-reading-time { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--light-smoke); }
 
     /* HERO IMAGE */
-    .article-hero { max-width: 840px; margin: 0 auto; }
-    .hero-img{width:100%;height:360px;object-fit:cover;display:block}
-    .hero-img-placeholder { background: linear-gradient(135deg, var(--cream) 0%, #cec8b8 100%); height: 420px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
-    .hero-img-placeholder::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(0,0,0,0.025) 20px, rgba(0,0,0,0.025) 21px); }
-    .hero-img-text { font-family: 'Playfair Display', serif; font-size: 72px; font-weight: 900; color: rgba(0,0,0,0.08); letter-spacing: -2px; position: relative; }
-    .hero-caption { padding: 10px 0 0; font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 1px; color: var(--light-smoke); font-style: italic; border-top: 1px solid var(--rule); margin-bottom: 0; }
 
     /* ARTICLE LAYOUT */
     .article-layout { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 280px; gap: 0; padding: 0 28px; align-items: start; }
@@ -184,15 +176,21 @@
     }
 
   </style>
-  <link rel="stylesheet" href="../../css/mobile.css">
-  <script src="../../js/mobile-nav.js" defer></script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
 
   <div class="topbar">
-    <span class="topbar-date">Monday, March 02, 2026 &nbsp;&bull;&nbsp; Pittsburgh, PA</span>
+    <span class="topbar-date" data-today>Pittsburgh, Pennsylvania</span>
     <div class="topbar-links">
-      <a href="/about">About</a><a href="/weekly">Weekly</a>
+      <a href="/news/">News</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
+      <a href="/about">About</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
@@ -206,12 +204,15 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/">Home</a>
-      <a href="/#business">Business</a>
-      <a href="/#real-estate">Real Estate</a>
-      <a href="/#development">Development</a>
-      <a href="/#people">People</a>
+      <a href="/news/" class="active">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
+      <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
-      <a href="/about">About</a><a href="/weekly">Weekly</a>
+      <a href="/best/">Best Of</a>
+      <a href="/about">About</a>
     </div>
   </nav>
 
@@ -234,11 +235,7 @@
     </div>
   </div>
 
-  <div class="article-hero">
-    <img class="hero-img" src="https://images.unsplash.com/photo-1444723121867-ce09059eeffa?w=1200&q=80" alt="Modern apartment building exterior" style="width:100%;height:360px;object-fit:cover;display:block;"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-    <p class="hero-caption">City's Edge development on the South Side Slopes // Photo: Unsplash</p>
-  </div>
-
+  
   <div class="article-layout">
 
     <article class="article-body">
@@ -345,11 +342,47 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <p class="footer-tagline">Good News, Only. Always Forward.</p>
-      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
 

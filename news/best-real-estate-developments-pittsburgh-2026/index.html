@@ -257,14 +257,20 @@
     .footer-copy{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:#444}
     @media(max-width:900px){.more-grid{grid-template-columns:1fr}.topbar-links{display:none}}
   </style>
-  <link rel="stylesheet" href="../../css/mobile.css">
-  <script src="../../js/mobile-nav.js" defer></script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
   <div class="topbar">
-    <span class="topbar-date">Monday, May 5, 2026 &bull; Pittsburgh, PA</span>
+    <span class="topbar-date" data-today>Pittsburgh, Pennsylvania</span>
     <div class="topbar-links">
-      <a href="/about">About</a><a href="/weekly">Weekly</a>
+      <a href="/news/">News</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
+      <a href="/about">About</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
@@ -276,18 +282,21 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/">Home</a>
-      <a href="/#business">Business</a>
-      <a href="/#real-estate">Real Estate</a>
-      <a href="/#development">Development</a>
-      <a href="/#people">People</a>
+      <a href="/news/" class="active">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
+      <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
-      <a href="/about">About</a><a href="/weekly">Weekly</a>
+      <a href="/best/">Best Of</a>
+      <a href="/about">About</a>
     </div>
   </nav>
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span style="color:var(--rule)">/</span>
-    <a href="/#neighborhoods">Real Estate</a>
+    <a href="/neighborhoods">Real Estate</a>
     <span style="color:var(--rule)">/</span>
     <span>Best Real Estate Developments in Pittsburgh</span>
   </div>
@@ -410,11 +419,47 @@
       </div>
     </div>
   </section>
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <p class="footer-tagline">Good News, Only. Always Forward.</p>
-      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
   <script src="/js/article-enhancements.js" defer></script>

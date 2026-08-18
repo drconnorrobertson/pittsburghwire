@@ -11,11 +11,9 @@
   <meta property="og:description" content="The Pittsburgh Wire editorial staff and contributors." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.thepittsburghwire.com/about/" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Pittsburgh Wire editorial staff and contributors." />
   <meta name="twitter:description" content="The Pittsburgh Wire editorial staff and contributors." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -103,8 +101,6 @@
     .footer-copy{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:#444}
     @media(max-width:700px){.author-hero{grid-template-columns:1fr}.author-avatar{width:120px;height:120px}}
   </style>
-  <link rel="stylesheet" href="../../css/mobile.css">
-  <script src="../../js/mobile-nav.js" defer></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -165,11 +161,19 @@
   ]
 }
 </script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
   <div class="topbar">
-    <span class="topbar-date">Pittsburgh, PA</span>
+    <span class="topbar-date" data-today>Pittsburgh, Pennsylvania</span>
     <div class="topbar-links">
+      <a href="/news/">News</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
       <a href="/about">About</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
@@ -182,18 +186,20 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/">Home</a>
-      <a href="/#business">Business</a>
-      <a href="/#real-estate">Real Estate</a>
-      <a href="/#development">Development</a>
-      <a href="/#people">People</a>
+      <a href="/news/">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
+      <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
+      <a href="/best/">Best Of</a>
       <a href="/about">About</a>
     </div>
   </nav>
   <div class="author-hero">
     <div class="author-avatar">
-      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face" alt="The Pittsburgh Wire Staff, Founder and Publisher of The Pittsburgh Wire"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-    </div>
+      </div>
     <div>
       <div class="author-label">Founder & Publisher</div>
       <h1 class="author-name">The Pittsburgh Wire Staff</h1>
@@ -254,30 +260,48 @@
       </div>
     </div>
   </div>
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <p class="footer-tagline">Good News, Only. Always Forward.</p>
-      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
-  
-<!-- cross-network-section -->
-<style>
-.network-crosslinks { background: #f7f8fc; padding: 56px 0; }
-.network-crosslinks .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
-.network-crosslinks .eyebrow { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 3px; color: #6c63ff; font-weight: 700; margin-bottom: 8px; display: block; }
-.network-crosslinks h2 { font-size: 1.6rem; color: #1a1a2e; font-weight: 800; margin-bottom: 32px; }
-.network-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-@media (max-width: 768px) { .network-grid { grid-template-columns: 1fr; } }
-.network-card { background: #fff; border: 1px solid #e8e8f0; border-radius: 12px; padding: 24px; transition: box-shadow 0.2s, transform 0.2s; }
-.network-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.08); transform: translateY(-3px); }
-.network-card .source-tag { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 2px; color: #6c63ff; font-weight: 700; margin-bottom: 10px; display: block; }
-.network-card h3 { font-size: 0.97rem; color: #1a1a2e; line-height: 1.45; margin-bottom: 10px; font-weight: 600; }
-.network-card h3 a { color: #1a1a2e; text-decoration: none; }
-.network-card h3 a:hover { color: #6c63ff; }
-.network-card p { font-size: 0.84rem; color: #666; line-height: 1.6; }
-</style>
-
-</footer>
+  </footer>
 </body>
 </html>

@@ -13,11 +13,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.thepittsburghwire.com" />
   <link rel="canonical" href="https://www.thepittsburghwire.com" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="The Pittsburgh Wire | Pittsburgh Business, Real Estate & Development News" />
   <meta name="twitter:description" content="The Pittsburgh Wire covers Pittsburgh business, real estate, economic development, and the people building the city. Positive, forward-looking local journalism." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -336,16 +334,6 @@
       );
     }
 
-    .img-caption {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 10px;
-      letter-spacing: 1px;
-      color: var(--light-smoke);
-      padding: 8px 16px;
-      border-bottom: 1px solid var(--rule);
-      font-style: italic;
-    }
-
     /* SIDEBAR STORIES */
     .sidebar-story {
       padding: 20px 24px;
@@ -526,6 +514,7 @@
       margin-bottom: 14px;
     }
 
+    .person-name a:hover { color: var(--accent); }
     .person-name {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: 18px;
@@ -732,16 +721,6 @@
       100% { transform: translateX(-100%); }
     }
 
-    .more-card-thumb {
-      width: 100%;
-      height: 120px;
-      object-fit: cover;
-      display: block;
-      margin-bottom: 12px;
-      border-bottom: 1px solid var(--rule);
-      background: linear-gradient(135deg, #d4c5a9 0%, #c8bfad 100%);
-    }
-
     /* RESPONSIVE */
     @media (max-width: 1024px) {
       .lead-grid { grid-template-columns: 1fr; }
@@ -772,9 +751,7 @@
       
       /* Image optimization */
       img { max-width: 100%; height: auto; }
-      .more-card-thumb { height: 200px; }
     }
-
 
     /* HERO NEWSLETTER BAR */
     .hero-newsletter { background: var(--ink); border-bottom: 2px solid var(--accent); padding: 18px 28px; }
@@ -911,16 +888,6 @@
       margin-top: 12px;
     }
 
-    .more-card-thumb {
-      width: 100%;
-      height: 120px;
-      object-fit: cover;
-      display: block;
-      margin-bottom: 12px;
-      border-bottom: 1px solid var(--rule);
-      background: linear-gradient(135deg, #d4c5a9 0%, #c8bfad 100%);
-    }
-
     /* RESPONSIVE */
     @media (max-width: 1024px) {
       .more-grid { grid-template-columns: repeat(2, 1fr); }
@@ -953,20 +920,22 @@
       .nav a { font-size: 11px; padding: 12px 14px; }
     }
   </style>
-
-  <link rel="stylesheet" href="css/mobile.css">
-  <script src="js/mobile-nav.js" defer></script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
 
   <!-- TOP BAR -->
   <div class="topbar">
-    <span class="topbar-date">Sunday, April 19, 2026 &nbsp;&bull;&nbsp; Pittsburgh, PA</span>
+    <span class="topbar-date" data-today>Pittsburgh, Pennsylvania</span>
     <div class="topbar-links">
+      <a href="/news/">News</a>
       <a href="/neighborhoods">Neighborhoods</a>
-      <a href="/about">About</a>
+      <a href="/best/">Best Of</a>
       <a href="/weekly">Weekly</a>
-      <a href="/author">Author</a>
+      <a href="/about">About</a>
       <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
@@ -981,29 +950,30 @@
   <!-- NAV -->
   <nav class="nav">
     <div class="nav-inner">
-      <a href="#business">Business</a>
-      <a href="#real-estate">Real Estate</a>
-      <a href="#development">Development</a>
-      <a href="#people">People</a>
+      <a href="/" class="active">Home</a>
+      <a href="/news/">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
+      <a href="/best/">Best Of</a>
       <a href="/about">About</a>
-      <a href="/weekly">Weekly</a>
-      <a href="/author">Author</a>
     </div>
   </nav>
 
   <!-- TICKER -->
   <div class="ticker" aria-hidden="true">
     <div class="ticker-inner">
-      <span>Mondi Bags USA Opens 200,000-Square-Foot Facility in Findlay Township, Creating 170 Allegheny County Jobs</span>
-      <span>South Side Works Welcomes New Wave of Tech Tenants as Office Vacancy Drops Below 8 Percent</span>
-      <span>Pittsburgh Ranked Among America&#x27;s Best Cities for First-Time Homebuyers in 2026</span>
-      <span>Pittsburgh Selects Four Tech Startups for Elite City Innovation Program</span>
-      <span>Pittsburgh Shatters NFL Draft Day One Attendance Record with 320,000 Fans</span>
-      <span>Steel City Ventures Closes $40 Million Fund Dedicated Exclusively to Pittsburgh Startups</span>
-      <span>Mondi Bags USA Opens 200,000-Square-Foot Facility in Findlay Township, Creating 170 Allegheny County Jobs</span>
-      <span>South Side Works Welcomes New Wave of Tech Tenants as Office Vacancy Drops Below 8 Percent</span>
+      <span>NFL Draft Delivered $177M Impact, Studies Find</span>
+      <span>Continuim Closes $548M Fund for Pittsburgh Industry</span>
+      <span>Great Lakes Brewing Opening Bar at Pittsburgh Airport</span>
+      <span>GE Vernova Commits $166 Million to Western Pennsylvania, Adding 700 Manufacturing Jobs</span>
+      <span>Two Pittsburgh Food Favorites Unite at SouthSide Works in a One-of-a-Kind Collaboration</span>
+      <span>Mill 19 Lands $10M Classified Defense Hub, Cementing Hazelwood Green&#x27;s Role in National Security</span>
+      <span>NFL Draft Delivered $177M Impact, Studies Find</span>
+      <span>Continuim Closes $548M Fund for Pittsburgh Industry</span>
     </div>
   </div>
 
@@ -1032,51 +1002,46 @@
         <div class="lead-main">
           <span class="story-label">Business</span>
           <h2 class="lead-headline">
-            <a href="/news/mondi-bags-usa-findlay-township-pittsburgh-manufacturing-170-jobs">Mondi Bags USA Opens 200,000-Square-Foot Facility in Findlay Township, Creating 170 Allegheny County Jobs</a>
+            <a href="/news/nfl-draft-pittsburgh-177-million-economic-impact-studies-2026">NFL Draft Delivered $177M Impact, Studies Find</a>
           </h2>
-          <p class="lead-deck">Global packaging company Mondi opens a new paper bags plant in Pittsburgh&#x27;s western suburbs, bringing 170 manufacturing jobs and 300 million bags of annual capacity to Allegheny County.</p>
-          <p class="byline">April 25, 2026</p>
+          <p class="lead-deck">Two studies released Monday found Pittsburgh&#x27;s NFL Draft delivered $177 million in economic impact and more than $1.5 billion in total economic value.</p>
+          <p class="byline">By The Pittsburgh Wire &bull; August 11, 2026</p>
         </div>
         <div class="lead-sidebar">
-          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" alt="" onerror="this.style.display='none'" style="width:100%;height:200px;object-fit:cover;display:block;" />
-          <p class="img-caption">Photo: Unsplash</p>
           <div class="sidebar-story">
             <span class="story-label">Business</span>
-            <p class="sidebar-headline"><a href="/news/south-side-works-tech-tenants-office-revival-pittsburgh">South Side Works Welcomes New Wave of Tech Tenants as Office Vacancy Drops Below 8 Percent</a></p>
-            <p class="sidebar-deck">South Side Works sees a surge in tech and professional services tenants, dropping commercial vacancy below 8 percent as Pittsburgh&#x27;s secondary office corridors </p>
+            <p class="sidebar-headline"><a href="/news/continuim-equity-partners-548-million-fund-iii-pittsburgh-manufacturing">Continuim Closes $548M Fund for Pittsburgh Industry</a></p>
+            <p class="sidebar-deck">Downtown private equity firm Continuim Equity Partners raised $548 million in 32 days to buy family-run manufacturers, pushing its assets past $1&hellip;</p>
           </div>
           <div class="sidebar-story">
             <span class="story-label">Business</span>
-            <p class="sidebar-headline"><a href="/news/pittsburgh-best-city-first-time-homebuyers-2026">Pittsburgh Ranked Among America&#x27;s Best Cities for First-Time Homebuyers in 2026</a></p>
-            <p class="sidebar-deck">Pittsburgh ranks among the top five U.S. cities for first-time homebuyers in 2026, with median home prices 40 percent below the national average and appreciatio</p>
+            <p class="sidebar-headline"><a href="/news/great-lakes-experience-bar-pittsburgh-international-airport-2026">Great Lakes Brewing Opening Bar at Pittsburgh Airport</a></p>
+            <p class="sidebar-deck">Great Lakes Brewing Co. begins construction this month on a Great Lakes Experience Bar at Pittsburgh International Airport, opening late fall 2026.</p>
           </div>
         </div>
       
-      </div>
-        </div>
       </div>
 
       <!-- 3-COL STORIES -->
       <div class="three-col fade-up delay-1">
         <div class="col-story">
           <span class="story-label">Business</span>
-          <p class="col-headline"><a href="/news/pgh-lab-cohort-11-startups-pittsburgh-2026">Pittsburgh Selects Four Tech Startups for Elite City Innovation Program</a></p>
-          <p class="col-deck">PGH Lab Cohort 11 picks Aquatonomy, Pittsburgh Drone Services, and two others to pilot robotics, drones, AI, and digital twin technology across city departments.</p>
-          <p class="byline">April 24, 2026</p>
+          <p class="col-headline"><a href="/news/ge-vernova-charleroi-166-million-western-pennsylvania-manufacturing">GE Vernova Commits $166 Million to Western Pennsylvania, Adding 700 Manufacturing Jobs</a></p>
+          <p class="col-deck">Global energy company GE Vernova is expanding its Charleroi power transmission plant with a $138 million investment, creating 275 new jobs and cementing Western&hellip;</p>
+          <p class="byline">July 31, 2026</p>
         </div>
         <div class="col-story">
           <span class="story-label">Business</span>
-          <p class="col-headline"><a href="/news/pittsburgh-nfl-draft-attendance-record-2026">Pittsburgh Shatters NFL Draft Day One Attendance Record with 320,000 Fans</a></p>
-          <p class="col-deck">Pittsburgh set a new all-time NFL Draft Round 1 attendance record on Thursday, drawing more than 320,000 fans to the North Shore and downtown â surpassing Detroit&#x27;s previous record</p>
-          <p class="byline">April 24, 2026</p>
+          <p class="col-headline"><a href="/news/speckled-egg-commonplace-coffee-southside-works-pittsburgh-2026">Two Pittsburgh Food Favorites Unite at SouthSide Works in a One-of-a-Kind Collaboration</a></p>
+          <p class="col-deck">The Speckled Egg and Commonplace Coffee opened a shared 6,120-square-foot space on July 26, giving the South Side a brunch and coffee destination unlike anything else in the&hellip;</p>
+          <p class="byline">July 30, 2026</p>
         </div>
         <div class="col-story">
-          <span class="story-label">Business</span>
-          <p class="col-headline"><a href="/news/steel-city-ventures-40-million-pittsburgh-startup-fund">Steel City Ventures Closes $40 Million Fund Dedicated Exclusively to Pittsburgh Startups</a></p>
-          <p class="col-deck">Steel City Ventures closes a $40 million fund to invest exclusively in Pittsburgh startups at the pre-seed and seed stage, targeting enterprise software, health tech, robotics, and</p>
-          <p class="byline">April 23, 2026</p>
+          <span class="story-label">Development</span>
+          <p class="col-headline"><a href="/news/mill-19-hazelwood-green-scif-10-million-defense-facility-pittsburgh-2026">Mill 19 Lands $10M Classified Defense Hub, Cementing Hazelwood Green&#x27;s Role in National Security</a></p>
+          <p class="col-deck">RIDC and Parallax Advanced Research are building an 11,000-square-foot Sensitive Compartmented Information Facility at Mill 19 in Hazelwood Green, funded by the Defense&hellip;</p>
+          <p class="byline">July 30, 2026</p>
         </div>
-      </div>
       </div>
 
     </div>
@@ -1087,24 +1052,24 @@
         <div class="belt-label">Development &amp; Real Estate</div>
         <div class="belt-grid">
           <div class="belt-item">
-            <div class="belt-cat">Business</div>
-            <p class="belt-headline"><a href="/news/mangia-delallo-live-casino-pittsburgh-westmoreland" style="color:inherit">Mangia: DeLallo Brings 76 Years of Italian Heritage to Live! Casino Pittsburgh</a></p>
-            <p class="belt-byline">April 23, 2026</p>
+            <div class="belt-cat">Development</div>
+            <p class="belt-headline"><a href="/news/mill-19-hazelwood-green-scif-10-million-defense-facility-pittsburgh-2026" style="color:inherit">Mill 19 Lands $10M Classified Defense Hub, Cementing Hazelwood Green&#x27;s Role in National Security</a></p>
+            <p class="belt-byline">July 30, 2026</p>
           </div>
           <div class="belt-item">
-            <div class="belt-cat">Business</div>
-            <p class="belt-headline"><a href="/news/efficient-computer-pittsburgh-60-million-series-a-ai-chips" style="color:inherit">Pittsburgh&#x27;s Efficient Computer Raises $60M to Build the AI Chip That Uses 100x Less Power</a></p>
-            <p class="belt-byline">April 23, 2026</p>
+            <div class="belt-cat">Development</div>
+            <p class="belt-headline"><a href="/news/parkway-east-bridge-i376-commercial-street-pittsburgh-2026" style="color:inherit">Pittsburgh&#x27;s Trades Built the Impossible: Parkway East Bridge Opens 8 Days Early</a></p>
+            <p class="belt-byline">July 29, 2026</p>
           </div>
           <div class="belt-item">
-            <div class="belt-cat">Business</div>
-            <p class="belt-headline"><a href="/news/three-rivers-heritage-trail-final-segment-pittsburgh" style="color:inherit">Three Rivers Heritage Trail Breaks Ground on Final Segment, Completing a 33-Mile Riverfront Loop</a></p>
-            <p class="belt-byline">April 23, 2026</p>
+            <div class="belt-cat">Development</div>
+            <p class="belt-headline"><a href="/news/allegheny-county-11-million-community-development-grants-pittsburgh-2026" style="color:inherit">Allegheny County Invests $11.5 Million in Neighborhoods, Blight Removal</a></p>
+            <p class="belt-byline">July 29, 2026</p>
           </div>
           <div class="belt-item">
-            <div class="belt-cat">Business</div>
-            <p class="belt-headline"><a href="/news/titusz-lawrenceville-austrian-hungarian-restaurant" style="color:inherit">Titusz Arrives in Lawrenceville, Honoring Hungarian Heritage</a></p>
-            <p class="belt-byline">April 22, 2026</p>
+            <div class="belt-cat">Real Estate</div>
+            <p class="belt-headline"><a href="/news/strip-district-housing-boom-townhomes-grocery-pittsburgh-2026" style="color:inherit">The Strip District&#x27;s Housing Boom Is Just Getting Started</a></p>
+            <p class="belt-byline">July 22, 2026</p>
           </div>
         </div>
       </div>
@@ -1120,22 +1085,19 @@
 
       <div class="people-grid fade-up delay-2">
         <div class="person-card">
-          <div class="person-avatar">MB</div>
-          <p class="person-name">Mondi Bags</p>
-          <p class="person-title">Business</p>
-          <p class="person-desc">Global packaging company Mondi opens a new paper bags plant in Pittsburgh&#x27;s western suburbs, bringing 170 manufacturing jobs and 300 million bags of annual capacity to Allegheny County.</p>
+          <p class="person-title">People &bull; July 27, 2026</p>
+          <p class="person-name"><a href="/news/michelin-guide-inspectors-pittsburgh-great-lakes-2027">Michelin Guide Inspectors Are Dining Through Pittsburgh Right Now</a></p>
+          <p class="person-desc">Anonymous inspectors from the world's most prestigious food guide are eating through Pittsburgh's neighborhoods ahead of the city's 2027 debut in the Michelin Guide American Great Lakes&hellip;</p>
         </div>
         <div class="person-card">
-          <div class="person-avatar">SS</div>
-          <p class="person-name">South Side</p>
-          <p class="person-title">Business</p>
-          <p class="person-desc">South Side Works sees a surge in tech and professional services tenants, dropping commercial vacancy below 8 percent as Pittsburgh&#x27;s secondary office corridors attract companies seeking mixed-use envi</p>
+          <p class="person-title">People &bull; July 23, 2026</p>
+          <p class="person-name"><a href="/news/the-pitt-emmy-nominations-pittsburgh-2026">Pittsburgh&#x27;s ER Drama &#x27;The Pitt&#x27; Leads All Emmy Nominations With 25 Nods</a></p>
+          <p class="person-desc">HBO Max&#x27;s Pittsburgh-set medical drama sweeps the 2026 Emmy nominations with 25 nods, more than any other show — including 13 acting nominations for its acclaimed ensemble cast.</p>
         </div>
         <div class="person-card">
-          <div class="person-avatar">PR</div>
-          <p class="person-name">Pittsburgh Ranked</p>
-          <p class="person-title">Business</p>
-          <p class="person-desc">Pittsburgh ranks among the top five U.S. cities for first-time homebuyers in 2026, with median home prices 40 percent below the national average and appreciation averaging 6 to 8 percent in key neighb</p>
+          <p class="person-title">People &bull; July 6, 2026</p>
+          <p class="person-name"><a href="/news/restore-22-veterans-coffee-shop-coraopolis-pittsburgh-2026">Restore 22 Coffee Shop Opens in Coraopolis to Serve Veterans</a></p>
+          <p class="person-desc">A Pittsburgh-area nonprofit is opening a veterans-focused coffee shop in Coraopolis this summer, creating a place for former service members to connect, find resources, and rebuild&hellip;</p>
         </div>
       </div>
 
@@ -1167,184 +1129,154 @@
         <div class="section-rule"><span>More from The Wire</span></div>
         <div class="more-grid">
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/mondi-bags-usa-findlay-township-pittsburgh-manufacturing-170-jobs">Mondi Bags USA Opens 200,000-Square-Foot Facility in Findlay Township, Creating 170 Allegheny County Jobs</a></p>
-            <p class="more-card-date">April 25, 2026</p>
+            <span class="more-card-label">People</span>
+            <p class="more-card-headline"><a href="/news/michelin-guide-inspectors-pittsburgh-great-lakes-2027">Michelin Guide Inspectors Are Dining Through Pittsburgh Right Now</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire &bull; July 27, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/south-side-works-tech-tenants-office-revival-pittsburgh">South Side Works Welcomes New Wave of Tech Tenants as Office Vacancy Drops Below 8 Percent</a></p>
-            <p class="more-card-date">April 24, 2026</p>
+            <p class="more-card-headline"><a href="/news/acutronic-pittsburgh-worlds-largest-defense-testing-facility-2026">Pittsburgh to Host World&#x27;s Largest Defense Testing Facility</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 27, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-best-city-first-time-homebuyers-2026">Pittsburgh Ranked Among America&#x27;s Best Cities for First-Time Homebuyers in 2026</a></p>
-            <p class="more-card-date">April 24, 2026</p>
+            <p class="more-card-headline"><a href="/news/cmu-carnegie-foundry-autonomous-systems-manufacturing-platform-pittsburgh-drones-2026">CMU and Carnegie Foundry Launch $50M Drone Manufacturing Platform</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 24, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pgh-lab-cohort-11-startups-pittsburgh-2026">Pittsburgh Selects Four Tech Startups for Elite City Innovation Program</a></p>
-            <p class="more-card-date">April 24, 2026</p>
+            <p class="more-card-headline"><a href="/news/air-govini-pittsburgh-strip-district-450-million-expansion-2026">Air Commits $450 Million to Pittsburgh&#x27;s Strip District in Ten-Year Office Expansion</a></p>
+            <p class="more-card-date">By Marcus Holloway &bull; July 24, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-nfl-draft-attendance-record-2026">Pittsburgh Shatters NFL Draft Day One Attendance Record with 320,000 Fans</a></p>
-            <p class="more-card-date">April 24, 2026</p>
+            <span class="more-card-label">People</span>
+            <p class="more-card-headline"><a href="/news/the-pitt-emmy-nominations-pittsburgh-2026">Pittsburgh&#x27;s ER Drama &#x27;The Pitt&#x27; Leads All Emmy Nominations With 25 Nods</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 23, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/steel-city-ventures-40-million-pittsburgh-startup-fund">Steel City Ventures Closes $40 Million Fund Dedicated Exclusively to Pittsburgh Startups</a></p>
-            <p class="more-card-date">April 23, 2026</p>
+            <p class="more-card-headline"><a href="/news/pittsburgh-ai-startups-raise-70-million-q2-2026">Pittsburgh AI Startups Raise $70M in Q2 2026, Led by CMU Spinout Gray Swan</a></p>
+            <p class="more-card-date">By Rachel Osei, Tech &amp; Innovation Correspondent &bull; July 23, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/mangia-delallo-live-casino-pittsburgh-westmoreland">Mangia: DeLallo Brings 76 Years of Italian Heritage to Live! Casino Pittsburgh</a></p>
-            <p class="more-card-date">April 23, 2026</p>
+            <span class="more-card-label">Real Estate</span>
+            <p class="more-card-headline"><a href="/news/strip-district-housing-boom-townhomes-grocery-pittsburgh-2026">The Strip District&#x27;s Housing Boom Is Just Getting Started</a></p>
+            <p class="more-card-date">By Natalie Cho, Staff Reporter &bull; July 22, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/efficient-computer-pittsburgh-60-million-series-a-ai-chips">Pittsburgh&#x27;s Efficient Computer Raises $60M to Build the AI Chip That Uses 100x Less Power</a></p>
-            <p class="more-card-date">April 23, 2026</p>
+            <p class="more-card-headline"><a href="/news/gecko-robotics-sewickley-manufacturing-facility-2026">Gecko Robotics to Open 10,000-Square-Foot Sewickley Manufacturing Facility</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire &bull; July 22, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/three-rivers-heritage-trail-final-segment-pittsburgh">Three Rivers Heritage Trail Breaks Ground on Final Segment, Completing a 33-Mile Riverfront Loop</a></p>
-            <p class="more-card-date">April 23, 2026</p>
+            <p class="more-card-headline"><a href="/news/spork-island-trading-co-penn-avenue-downtown-pittsburgh-tiki-bar-2026">Spork Island Trading Co. Brings Immersive Tiki Bar to Downtown Pittsburgh</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 21, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/titusz-lawrenceville-austrian-hungarian-restaurant">Titusz Arrives in Lawrenceville, Honoring Hungarian Heritage</a></p>
-            <p class="more-card-date">April 22, 2026</p>
+            <p class="more-card-headline"><a href="/news/gecko-robotics-sewickley-manufacturing-hub-pittsburgh-2026">Gecko Robotics Opens Sewickley Manufacturing Hub, Bringing Defense Tech to Pittsburgh&#x27;s Doorstep</a></p>
+            <p class="more-card-date">By Marcus Delacroix &bull; July 21, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/piatt-esplanade-chateau-pittsburgh-ferris-wheel-development">Piatt Companies Breaks Ground on $740M Esplanade, Bringing a 200-Foot Ferris Wheel to Pittsburgh&#x27;s North Shore</a></p>
-            <p class="more-card-date">April 22, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/reti-energy-hub-pittsburgh-cmu-pitt-nsf-321-million-2026">Pittsburgh Anchors $321M National Energy Innovation Hub with CMU, Pitt, and NSF</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 20, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Penn_Avenue_in_the_Cultural_District%2C_Pittsburgh%2C_2024-10-29.jpg/1280px-Penn_Avenue_in_the_Cultural_District%2C_Pittsburgh%2C_2024-10-29.jpg" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/arts-landing-pittsburgh-cultural-district-opening-2026">Pittsburgh&#x27;s $31 Million Arts Landing Opens in the Cultural District, Just in Time for the NFL Draft</a></p>
-            <p class="more-card-date">April 21, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/pittsburgh-state-grants-29-million-downtown-neighborhoods-arts-2026">Pennsylvania Awards $29.3 Million to Transform Pittsburgh&#x27;s Downtown, Parks, and Neighborhoods</a></p>
+            <p class="more-card-date">By Daniel Park &bull; July 20, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/cork-and-crust-oakland-oaklander-hotel-pittsburgh">James Beard Semifinalist Opens Cork &amp;amp; Crust in Oakland</a></p>
-            <p class="more-card-date">April 21, 2026</p>
+            <p class="more-card-headline"><a href="/news/esplanade-north-shore-pittsburgh-construction-2026">Pittsburgh&#x27;s $740 Million Esplanade Rises on the North Shore</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 20, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/gulf-tower-hotel-bardo-pittsburgh-2026">Gulf Tower&#x27;s Art Deco Revival: Hotel Bardo Brings Luxury to Downtown Pittsburgh</a></p>
-            <p class="more-card-date">April 20, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/omi-building-strip-district-pittsburgh-taglyz-mixed-use">Strip District&#x27;s Vacant OMI Building Set for Mixed-Use Revival</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 15, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-robotics-ai-discovery-day-2026-10-billion-ecosystem">Pittsburgh&#x27;s $10 Billion Robotics Ecosystem Takes Center Stage at Discovery Day 2026</a></p>
-            <p class="more-card-date">April 20, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/strip-district-downtown-pittsburgh-urban-redevelopment-2026">Two Vacant Pittsburgh Properties Land Redevelopment Deals, Breathing New Life Into Strip District and Downtown</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire &bull; July 14, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/best-hair-salons-pittsburgh-2026">Best Hair Salons in Pittsburgh 2026</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside">Pittsburgh&#x27;s Gray Swan AI Closes $40M Series A to Secure the Age of Autonomous Intelligence</a></p>
+            <p class="more-card-date">By Elena Marsh &bull; July 14, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/best-pittsburgh-neighborhoods-young-professionals">Best Pittsburgh Neighborhoods for Young Professionals in 2026</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/squary-ai-pittsburgh-legal-tech-cmu-flat-fee-billing-2026">Pittsburgh&#x27;s Squary AI Is Rewiring How Law Firms Bill — and Business Is Booming</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire &bull; July 13, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/mark-cuban-pittsburgh-ai-showcase-nfl-draft">Mark Cuban Headlines Pittsburgh AI Showcase During NFL Draft Week</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/rachel-carson-ecovillage-allison-park-pennsylvania-first-2026">Pennsylvania&#x27;s First Ecovillage Nears Completion in Pittsburgh&#x27;s North Hills</a></p>
+            <p class="more-card-date">By Margaret Holloway &bull; July 13, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/best-restaurants-pittsburgh-2026">The Best Restaurants in Pittsburgh for 2026: A Neighborhood-by-Neighborhood Guide</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/palm-palm-east-liberty-pittsburgh-coastal-cuisine-2026">Palm Palm Brings Coastal Glamour to East Liberty</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 10, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/best-coffee-shops-pittsburgh-2026">The Best Coffee Shops in Pittsburgh for 2026</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/curtiss-wright-cheswick-80-million-manufacturing-expansion-2026">Curtiss-Wright Commits $80 Million to Expand Cheswick Manufacturing Campus, Adding 150 Jobs</a></p>
+            <p class="more-card-date">By James Callahan, Staff Reporter &bull; July 10, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/top-pittsburgh-real-estate-developments-2026">Top Pittsburgh Real Estate Developments Reshaping the City in 2026</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/cmu-startup-pgh-week-pittsburgh-innovation-2026">Carnegie Mellon Unites 15 Organizations for Pittsburgh&#x27;s Inaugural StartUP PGH Innovation Week</a></p>
+            <p class="more-card-date">By Elena Vasquez &bull; July 9, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/esplanade-north-side-pittsburgh-construction-update">The Esplanade Breaks Ground: $740M North Side Development Takes Shape</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/astrobotic-peregrine-nasa-298-million-moon-2028">Astrobotic Lands $298M in NASA Contracts, Pushing Lunar Funding Past $900M</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 9, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/top-pittsburgh-tech-startups-2026">Top Pittsburgh Tech Startups to Watch in 2026</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">Neighborhoods</span>
+            <p class="more-card-headline"><a href="/news/harvest-on-main-sharpsburg-community-market">Sharpsburg&#x27;s Harvest on Main Ends Decades as a Food Desert</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 8, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1564594326930-fd48f0a4c3f7?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/must-visit-pittsburgh-attractions">Must-Visit Pittsburgh Attractions: The Definitive 2026 Guide</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <p class="more-card-headline"><a href="/news/virtue-signal-brewing-pittsburgh-nonalcoholic-craft-beer">Pittsburgh&#x27;s Virtue Signal Brewing Wants to Make Moderation Cool</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 7, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-billionaires-forbes-richest-list-2026">Three Pittsburgh Billionaires Make Forbes World&#x27;s Richest List</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">People</span>
+            <p class="more-card-headline"><a href="/news/restore-22-veterans-coffee-shop-coraopolis-pittsburgh-2026">Restore 22 Coffee Shop Opens in Coraopolis to Serve Veterans</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 6, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-venture-capital-148-billion-2025-ai">Pittsburgh Startups Pull In $1.48 Billion in Venture Capital as AI Deals Dominate</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/hazelwood-green-cmu-robotics-innovation-center-pittsburgh-tech-hub-2026">How Hazelwood Green Became Pittsburgh&#x27;s Robotics Capital — And What&#x27;s Coming Next</a></p>
+            <p class="more-card-date">By Rachel Novak, The Pittsburgh Wire &bull; July 6, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-post-gazette-venetoulis-nonprofit-acquisition">Pittsburgh Post-Gazette Saved from Closure by Nonprofit Stewardship</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">Neighborhoods</span>
+            <p class="more-card-headline"><a href="/news/muns-pizza-allegheny-city-brewing-brighton-heights">A Brighton Heights Double Opening: Mun&#x27;s Pizza and Allegheny City Brewing</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 3, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/best-breweries-taprooms-pittsburgh">The Best Breweries and Taprooms in Pittsburgh: A Craft Beer Lover&#x27;s Guide</a></p>
-            <p class="more-card-date">April 19, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/downtown-pittsburgh-small-business-vibrancy-initiative-2026">Small Businesses Power Downtown Pittsburgh&#x27;s $90M Revival Push</a></p>
+            <p class="more-card-date">By Rachel Whitmore, Staff Writer &bull; July 3, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
-            <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/pittsburgh-ai-pitch-competition-nfl-draft-week">CMU and Mark Cuban Bring $1.75M AI Pitch Competition to Pittsburgh for NFL Draft Week</a></p>
-            <p class="more-card-date">April 18, 2026</p>
+            <span class="more-card-label">Development</span>
+            <p class="more-card-headline"><a href="/news/heinz-history-center-80-million-expansion-pittsburgh-2026">Heinz History Center Breaks Ground on $80M Expansion</a></p>
+            <p class="more-card-date">By The Pittsburgh Wire Staff &bull; July 2, 2026</p>
           </div>
           <div class="more-card">
-            <img class="more-card-thumb" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="" loading="lazy" onerror="this.style.display='none'" />
             <span class="more-card-label">Business</span>
-            <p class="more-card-headline"><a href="/news/arts-landing-pittsburgh-cultural-district-opens">Pittsburgh&#x27;s Arts Landing Opens in the Cultural District, Turning Four Downtown Acres Into the City&#x27;s Civic Front Yard</a></p>
-            <p class="more-card-date">April 18, 2026</p>
+            <p class="more-card-headline"><a href="/news/commonplace-coffee-shadyside-walnut-street-ninth-location">Commonplace Coffee Brings Its Ninth Cafe and a New Bakery Hub to Shadyside&#x27;s Walnut Street</a></p>
+            <p class="more-card-date">By Marcus Webb &bull; July 2, 2026</p>
           </div>
         </div>
       </div>
@@ -1352,48 +1284,47 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <p class="footer-tagline">Good News, Only. Always Forward.</p>
-      <div class="footer-cols">
-        <div class="footer-col">
-          <p class="footer-col-head">About</p>
-          <p>The Pittsburgh Wire is an independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
         </div>
-        <div class="footer-col">
-          <p class="footer-col-head">Coverage</p>
-          <ul class="footer-links-list">
-            <li><a href="#business">Business</a></li>
-            <li><a href="#real-estate">Real Estate</a></li>
-            <li><a href="#development">Development</a></li>
-            <li><a href="#people">People</a></li>
-            <li><a href="/neighborhoods">Neighborhoods</a></li>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <p class="footer-col-head">More</p>
-          <ul class="footer-links-list">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
             <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
             <li><a href="/neighborhoods">Neighborhoods</a></li>
-            <li><a href="/about">About The Wire</a></li>
-            <li><a href="mailto:hello@pittsburghwire.com">Contact</a></li>
-            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
           </ul>
         </div>
-        <div class="footer-col">
-          <p class="footer-col-head">Neighborhoods</p>
-          <ul class="footer-links-list">
-            <li><a href="/neighborhoods/lawrenceville">Lawrenceville</a></li>
-            <li><a href="/neighborhoods/strip-district">Strip District</a></li>
-            <li><a href="/neighborhoods/east-liberty">East Liberty</a></li>
-            <li><a href="/neighborhoods/oakland">Oakland</a></li>
-            <li><a href="/neighborhoods/downtown">Downtown</a></li>
-            <li><a href="/neighborhoods/shadyside">Shadyside</a></li>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>
-      <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, PA.</p>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
 
@@ -1481,7 +1412,6 @@
   </div>
 </section>
 <!-- /cross-network-section -->
-
 
   <!-- STICKY NEWSLETTER FOOTER BAR -->
   <div class="sticky-newsletter" id="sticky-newsletter">

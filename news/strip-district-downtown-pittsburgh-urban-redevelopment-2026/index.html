@@ -46,11 +46,6 @@
     .article-byline{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ink)}
     .article-date{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--light-smoke)}
     .article-reading-time{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--light-smoke)}
-    .article-hero{max-width:840px;margin:0 auto}
-    .hero-img-placeholder{background:linear-gradient(135deg,var(--cream) 0%,#cec8b8 100%);height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-    .hero-img-placeholder::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 20px,rgba(0,0,0,.025) 20px,rgba(0,0,0,.025) 21px)}
-    .hero-img-text{font-family:'Playfair Display',serif;font-size:72px;font-weight:900;color:rgba(0,0,0,.07);letter-spacing:-2px;position:relative}
-    .hero-caption{padding:10px 28px 0;font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:var(--light-smoke);font-style:italic}
     .article-layout{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 260px;gap:0;padding:0 28px;align-items:start}
     .article-body{padding:40px 48px 60px 0;border-right:1px solid var(--rule)}
     .article-body p{margin-bottom:26px;font-size:17px;line-height:1.85;color:var(--ink)}
@@ -97,15 +92,22 @@
     .footer-copy{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:#444}
     @media(max-width:900px){.article-layout{grid-template-columns:1fr}.article-body{padding:40px 0;border-right:none;border-bottom:1px solid var(--rule)}.article-sidebar{padding:32px 0}.more-grid{grid-template-columns:1fr}.topbar-links{display:none}}
   </style>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
 
   <div class="topbar">
     <div class="topbar-date">Tuesday, July 14, 2026</div>
     <div class="topbar-links">
-      <a href="/">Home</a>
       <a href="/news/">News</a>
-      <a href="/directory/">Directory</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
+      <a href="/about">About</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
 
@@ -118,13 +120,16 @@
 
   <nav class="nav">
     <div class="nav-inner">
-      <a href="/news/">All News</a>
-      <a href="/news/?section=business">Business</a>
-      <a href="/news/?section=real-estate">Real Estate</a>
-      <a href="/news/?section=development">Development</a>
-      <a href="/news/?section=people">People</a>
-      <a href="/news/?section=neighborhoods">Neighborhoods</a>
-      <a href="/directory/">Directory</a>
+      <a href="/">Home</a>
+      <a href="/news/" class="active">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/directory">Directory</a>
+      <a href="/best/">Best Of</a>
+      <a href="/about">About</a>
     </div>
   </nav>
 
@@ -143,13 +148,7 @@
     </div>
   </div>
 
-  <div class="article-hero">
-    <div class="hero-img-placeholder">
-      <span class="hero-img-text">PGH</span>
-    </div>
-    <p class="hero-caption">Redevelopment projects target two long-vacant city-owned properties in the Strip District and Downtown Pittsburgh. (The Pittsburgh Wire)</p>
-  </div>
-
+  
   <div class="article-layout">
     <div class="article-body">
 
@@ -269,11 +268,47 @@
     </div>
   </div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <div class="footer-tagline">Pittsburgh Business, Real Estate &amp; Development News</div>
-      <div class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved.</div>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
 

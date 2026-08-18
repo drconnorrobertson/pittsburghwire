@@ -1,9 +1,23 @@
 #!/usr/bin/env python3
 """
-Pittsburgh Wire Neighborhood Landing Page Generator
-Scans all articles and directory pages, maps them to neighborhoods,
-and generates individual neighborhood pages + hub page.
+DEPRECATED -- DO NOT RUN.
+
+This is the one-off generator that produced the 18 pages under /neighborhoods/.
+It predates the August 2026 redesign and, if run, would overwrite those pages
+with the old dark "steel" theme, the old section-local nav, and Unsplash hero
+photos -- all three of which the site no longer uses.
+
+The Pittsburgh Wire is text-only: no hero photos, no card thumbnails, no stock
+imagery anywhere. Site chrome (dateline bar, masthead, nav, footer) comes from
+css/site.css and is applied uniformly.
+
+Kept only for the neighborhood reference data below (boundaries, stats, business
+lists). To publish a story, use new_post.py. To rebuild derived pages, use
+build_site.py. To change a neighborhood page, edit its HTML directly.
 """
+import sys
+if __name__ == "__main__":
+    sys.exit("generate_neighborhoods.py is deprecated -- see the module docstring.")
 
 import os
 import re

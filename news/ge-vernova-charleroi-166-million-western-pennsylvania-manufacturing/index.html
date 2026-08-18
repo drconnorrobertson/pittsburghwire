@@ -47,11 +47,6 @@
     .article-byline{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ink)}
     .article-date{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--light-smoke)}
     .article-reading-time{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--light-smoke)}
-    .article-hero{max-width:840px;margin:0 auto}
-    .hero-img-placeholder{background:linear-gradient(135deg,var(--cream) 0%,#cec8b8 100%);height:360px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-    .hero-img-placeholder::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent,transparent 20px,rgba(0,0,0,.025) 20px,rgba(0,0,0,.025) 21px)}
-    .hero-img-text{font-family:'Playfair Display',serif;font-size:72px;font-weight:900;color:rgba(0,0,0,.07);letter-spacing:-2px;position:relative}
-    .hero-caption{padding:10px 28px 0;font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:var(--light-smoke);font-style:italic}
     .article-layout{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 260px;gap:0;padding:0 28px;align-items:start}
     .article-body{padding:40px 48px 60px 0;border-right:1px solid var(--rule)}
     .article-body p{margin-bottom:26px;font-size:17px;line-height:1.85;color:var(--ink)}
@@ -98,16 +93,21 @@
     .footer-copy{font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:1px;color:#444}
     @media(max-width:900px){.article-layout{grid-template-columns:1fr}.article-body{padding:40px 0;border-right:none;border-bottom:1px solid var(--rule)}.article-sidebar{padding:32px 0}.more-grid{grid-template-columns:1fr}.topbar-links{display:none}}
   </style>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
   <div class="topbar">
     <div class="topbar-date">Thursday, July 31, 2026</div>
     <div class="topbar-links">
-      <a href="/">Home</a>
-      <a href="/business">Business</a>
-      <a href="/real-estate">Real Estate</a>
-      <a href="/development">Development</a>
-      <a href="/directory" class="topbar-sister">Business Directory</a>
+      <a href="/news/">News</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
+      <a href="/about">About</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
   </div>
   <div class="masthead">
@@ -118,17 +118,20 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/">Home</a>
-      <a href="/business">Business</a>
-      <a href="/real-estate">Real Estate</a>
-      <a href="/development">Development</a>
-      <a href="/people">People</a>
+      <a href="/news/" class="active">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
       <a href="/neighborhoods">Neighborhoods</a>
       <a href="/directory">Directory</a>
+      <a href="/best/">Best Of</a>
+      <a href="/about">About</a>
     </div>
   </nav>
   <div class="breadcrumb">
     <a href="/">Home</a> &rsaquo;
-    <a href="/business">Business</a> &rsaquo;
+    <a href="/news/business/">Business</a> &rsaquo;
     <span>GE Vernova Western Pennsylvania</span>
   </div>
   <div class="article-header">
@@ -141,13 +144,7 @@
       <div class="article-reading-time">4 min read</div>
     </div>
   </div>
-  <div class="article-hero">
-    <div class="hero-img-placeholder">
-      <div class="hero-img-text">GE VERNOVA</div>
-    </div>
-    <div class="hero-caption">GE Vernova's Charleroi facility produces high-voltage circuit breakers, switchgear, and instrument transformers critical to the U.S. electrical grid.</div>
-  </div>
-  <div class="article-layout">
+    <div class="article-layout">
     <div class="article-body">
       <p>Western Pennsylvania has long built the backbone of America and now it is being asked to power it. GE Vernova, the global energy equipment company spun out of General Electric in 2024, announced Wednesday a $138 million expansion of its Power Transmission manufacturing facility in Charleroi that will create approximately 275 new high-skilled jobs by 2028, with additional hiring planned well into 2030. Combined with parallel investments in Findlay Township and Rostraver Township, GE Vernova's total commitment to the region reaches $166 million and more than 700 new Pennsylvania jobs.</p>
       <p>Governor Josh Shapiro attended the announcement at the Charleroi plant, where the company manufactures high-voltage circuit breakers, switchgear products, and instrument transformers. These are the unglamorous but essential hardware pieces that keep electricity flowing from power plants to homes, hospitals, and, increasingly, data centers. The timing is deliberate. Electricity demand in the United States is rising faster than at any point in decades, driven by artificial intelligence infrastructure and the electrification of transportation and industry. Companies racing to build grid capacity need these components, and right now lead times are stretched. GE Vernova is betting that a modernized, expanded Charleroi plant can help close that gap.</p>
@@ -233,11 +230,47 @@
       </div>
     </div>
   </div>
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Pittsburgh Wire</div>
-      <div class="footer-tagline">Pittsburgh's Good-News Publication</div>
-      <div class="footer-copy">&copy; 2026 The Pittsburgh Wire &mdash; Celebrating Business, Real Estate &amp; Development in Pittsburgh, PA</div>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
 </body>

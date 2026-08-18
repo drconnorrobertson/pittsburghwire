@@ -30,25 +30,25 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --black: #0f0e0c;
-      --steel: #0f0e0c;
+      --black: #f5f0e8;
+      --steel: #f5f0e8;
       --rust: #b5001f;
       --gold: #b5001f;
-      --concrete: #2a2a2a;
-      --smoke: #888;
-      --light: #f5f0e8;
-      --off-white: #ede8dc;
-      --border: #333;
+      --concrete: #ded7c8;
+      --smoke: #6b6355;
+      --light: #0f0e0c;
+      --off-white: #3a352c;
+      --border: #c8bfad;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
       background: var(--black);
       color: var(--light);
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Source Serif 4', Georgia, serif;
       font-size: 16px;
       line-height: 1.6;
       overflow-x: hidden;
@@ -86,14 +86,14 @@
       text-decoration: none;
     }
     .masthead-wire {
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Playfair Display', Georgia, serif;
       font-size: 11px;
       letter-spacing: 4px;
       color: var(--smoke);
       text-transform: uppercase;
     }
     .masthead-title {
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Playfair Display', Georgia, serif;
       font-size: 28px;
       color: var(--gold);
       letter-spacing: 2px;
@@ -117,7 +117,7 @@
       border-right: 1px solid var(--border);
       transition: color 0.15s, background 0.15s;
     }
-    .masthead-nav a:hover { color: var(--gold); background: rgba(232,160,32,0.06); }
+    .masthead-nav a:hover { color: var(--gold); background: rgba(181,0,31,0.06); }
     .masthead-nav a.active { color: var(--gold); }
 
     .hero {
@@ -132,9 +132,9 @@
       position: absolute;
       bottom: -20px;
       right: -20px;
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Playfair Display', Georgia, serif;
       font-size: 160px;
-      color: rgba(255,255,255,0.02);
+      color: rgba(0,0,0,0.02);
       letter-spacing: -5px;
       pointer-events: none;
       line-height: 1;
@@ -157,8 +157,8 @@
       margin-bottom: 16px;
     }
     .hero-headline {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(56px, 8vw, 110px);
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(35px, 8vw, 68px);
       line-height: 0.9;
       letter-spacing: 1px;
       color: var(--light);
@@ -183,8 +183,8 @@
     }
     .stat { text-align: center; }
     .stat-num {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 48px;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 38px;
       color: var(--gold);
       line-height: 1;
       display: block;
@@ -214,7 +214,7 @@
     }
     .breadcrumb a { color: var(--smoke); transition: color 0.15s; }
     .breadcrumb a:hover { color: var(--gold); }
-    .breadcrumb .sep { color: #444; }
+    .breadcrumb .sep { color: #c8bfad; }
 
     .content {
       max-width: 1400px;
@@ -235,21 +235,8 @@
       display: flex;
       flex-direction: column;
     }
-    .hood-card:hover { background: #222; border-color: #444; transform: translateY(-2px); }
-    .hood-card-img-wrap {
-      height: 180px;
-      overflow: hidden;
-      position: relative;
-    }
-    .hood-card-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      filter: brightness(0.6);
-      transition: filter 0.3s, transform 0.3s;
-    }
-    .hood-card:hover .hood-card-img { filter: brightness(0.75); transform: scale(1.03); }
+    .hood-card:hover { background: #e3ddce; border-color: #c8bfad; transform: translateY(-2px); }
+    .hood-card:hover
     .hood-card-body {
       padding: 24px 28px;
       display: flex;
@@ -258,8 +245,8 @@
       flex: 1;
     }
     .hood-card-name {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 32px;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 23px;
       line-height: 1;
       color: var(--light);
     }
@@ -280,7 +267,7 @@
       display: flex;
       gap: 8px;
     }
-    .hood-stat-sep { color: #444; }
+    .hood-stat-sep { color: #c8bfad; }
 
     .footer {
       background: var(--steel);
@@ -295,8 +282,8 @@
       gap: 48px;
     }
     .footer-brand {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 24px;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
       color: var(--gold);
       margin-bottom: 8px;
     }
@@ -305,12 +292,12 @@
       font-size: 11px;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: #555;
+      color: #a09585;
       margin-bottom: 16px;
     }
     .footer-copy {
       font-size: 12px;
-      color: #444;
+      color: #c8bfad;
     }
     .footer-heading {
       font-family: 'Barlow Condensed', sans-serif;
@@ -332,7 +319,7 @@
     .footer-links a {
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 13px;
-      color: #666;
+      color: #8a8172;
       letter-spacing: 1px;
       transition: color 0.15s;
     }
@@ -346,24 +333,42 @@
       .footer-inner { grid-template-columns: 1fr; gap: 32px; }
     }
   </style>
-  <link rel="stylesheet" href="../css/mobile.css">
-  <script src="../js/mobile-nav.js" defer></script>
+  <link rel="stylesheet" href="/css/site.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <script src="/js/mobile-nav.js" defer></script>
+  <script src="/js/site.js" defer></script>
 </head>
 <body>
-  <header class="masthead">
-    <div class="masthead-inner">
-      <a href="/" class="masthead-brand">
-        <span class="masthead-wire">The Pittsburgh Wire</span>
-        <span class="masthead-title">Neighborhoods</span>
-      </a>
-      <nav class="masthead-nav">
-        <a href="/">Home</a>
-        <a href="/neighborhoods" class="active">Neighborhoods</a>
-        <a href="/directory">Directory</a>
-        <a href="/about">About</a>
-      </nav>
+    <div class="topbar">
+    <span class="topbar-date" data-today>Pittsburgh, Pennsylvania</span>
+    <div class="topbar-links">
+      <a href="/news/">News</a>
+      <a href="/neighborhoods">Neighborhoods</a>
+      <a href="/best/">Best Of</a>
+      <a href="/weekly">Weekly</a>
+      <a href="/about">About</a>
+      <a href="/directory" class="topbar-sister">&#9670; Business Directory</a>
     </div>
+  </div>
+  <header class="masthead">
+    <p class="masthead-tagline">Pittsburgh Business &bull; Real Estate &bull; Development &bull; People</p>
+    <a href="/"><div class="masthead-title">The Pittsburgh Wire</div></a>
+    <p class="masthead-tagline">Good News, Only. Always Forward.</p>
   </header>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/">Home</a>
+      <a href="/news/">News</a>
+      <a href="/news/business/">Business</a>
+      <a href="/news/real-estate/">Real Estate</a>
+      <a href="/news/development/">Development</a>
+      <a href="/news/people/">People</a>
+      <a href="/neighborhoods" class="active">Neighborhoods</a>
+      <a href="/directory">Directory</a>
+      <a href="/best/">Best Of</a>
+      <a href="/about">About</a>
+    </div>
+  </nav>
 
   <div class="hero">
     <div class="hero-inner">
@@ -401,10 +406,7 @@
     <div class="hood-grid">
 
       <a href="/neighborhoods/bloomfield" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Bloomfield Liberty Avenue in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Bloomfield</div>
           <div class="hood-card-desc">Bloomfield, proudly known as Pittsburgh&#x27;s &quot;Little Italy,&quot; has been the heart of the city&#x27;s Italian-American community for over a century....</div>
           <div class="hood-card-stats">
@@ -415,10 +417,7 @@
         </div>
       </a>
       <a href="/neighborhoods/downtown" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Downtown Pittsburgh skyline at the Golden Triangle"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Downtown / Golden Triangle</div>
           <div class="hood-card-desc">Downtown Pittsburgh, known locally as the Golden Triangle, sits at the confluence of the Allegheny, Monongahela, and Ohio rivers at Point...</div>
           <div class="hood-card-stats">
@@ -429,10 +428,7 @@
         </div>
       </a>
       <a href="/neighborhoods/east-liberty" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80" alt="East Liberty commercial district in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">East Liberty</div>
           <div class="hood-card-desc">East Liberty has emerged as one of Pittsburgh&#x27;s most striking urban comeback stories. Once the city&#x27;s most important commercial district...</div>
           <div class="hood-card-stats">
@@ -443,10 +439,7 @@
         </div>
       </a>
       <a href="/neighborhoods/garfield" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Garfield arts district along Penn Avenue in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Garfield</div>
           <div class="hood-card-desc">Garfield is a neighborhood in transition, where grassroots arts organizations and community development efforts are driving a creative...</div>
           <div class="hood-card-stats">
@@ -457,10 +450,7 @@
         </div>
       </a>
       <a href="/neighborhoods/hazelwood-green" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80" alt="Hazelwood Green development site along the Monongahela River"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Hazelwood Green</div>
           <div class="hood-card-desc">Hazelwood Green represents one of the most ambitious urban redevelopment projects in the United States. This 178-acre site along the...</div>
           <div class="hood-card-stats">
@@ -471,10 +461,7 @@
         </div>
       </a>
       <a href="/neighborhoods/hill-district" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1200&q=80" alt="Hill District neighborhood in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Hill District</div>
           <div class="hood-card-desc">The Hill District holds a singular place in Pittsburgh&#x27;s history and cultural identity. Once known as &quot;Little Harlem&quot; for its thriving jazz...</div>
           <div class="hood-card-stats">
@@ -485,10 +472,7 @@
         </div>
       </a>
       <a href="/neighborhoods/homestead" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80" alt="Homestead waterfront development along the Monongahela River"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Homestead</div>
           <div class="hood-card-desc">Homestead is a borough along the Monongahela River that occupies a pivotal place in American labor and industrial history. The Homestead...</div>
           <div class="hood-card-stats">
@@ -499,10 +483,7 @@
         </div>
       </a>
       <a href="/neighborhoods/lawrenceville" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80" alt="Lawrenceville neighborhood streetscape in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Lawrenceville</div>
           <div class="hood-card-desc">Lawrenceville has become one of Pittsburgh&#x27;s most dynamic neighborhoods, stretching along Butler Street from the 16th Street Bridge to...</div>
           <div class="hood-card-stats">
@@ -513,10 +494,7 @@
         </div>
       </a>
       <a href="/neighborhoods/mt-washington" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=1200&q=80" alt="View from Mt. Washington overlooking downtown Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Mt. Washington</div>
           <div class="hood-card-desc">Mt. Washington sits atop the bluffs overlooking Pittsburgh&#x27;s Golden Triangle, offering what USA Today once called the most beautiful view...</div>
           <div class="hood-card-stats">
@@ -527,10 +505,7 @@
         </div>
       </a>
       <a href="/neighborhoods/north-side" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80" alt="North Shore waterfront and stadiums in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">North Side / North Shore</div>
           <div class="hood-card-desc">Pittsburgh&#x27;s North Side encompasses a collection of historic neighborhoods on the north bank of the Allegheny River, anchored by the North...</div>
           <div class="hood-card-stats">
@@ -541,10 +516,7 @@
         </div>
       </a>
       <a href="/neighborhoods/oakland" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80" alt="Oakland neighborhood with university buildings in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Oakland</div>
           <div class="hood-card-desc">Oakland is Pittsburgh&#x27;s academic and medical powerhouse, home to the University of Pittsburgh, Carnegie Mellon University, and the...</div>
           <div class="hood-card-stats">
@@ -555,10 +527,7 @@
         </div>
       </a>
       <a href="/neighborhoods/point-breeze" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80" alt="Point Breeze residential neighborhood in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Point Breeze</div>
           <div class="hood-card-desc">Point Breeze is one of Pittsburgh&#x27;s most distinguished residential neighborhoods, known for its stately homes, quiet tree-canopied streets,...</div>
           <div class="hood-card-stats">
@@ -569,10 +538,7 @@
         </div>
       </a>
       <a href="/neighborhoods/polish-hill" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80" alt="Polish Hill neighborhood hilltop view in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Polish Hill</div>
           <div class="hood-card-desc">Polish Hill is a small, tight-knit neighborhood perched on a hilltop between Lawrenceville, the Strip District, and the Bloomfield Bridge....</div>
           <div class="hood-card-stats">
@@ -583,10 +549,7 @@
         </div>
       </a>
       <a href="/neighborhoods/regent-square" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80" alt="Regent Square neighborhood in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Regent Square</div>
           <div class="hood-card-desc">Regent Square is a charming, walkable neighborhood straddling the border of the City of Pittsburgh and several adjacent municipalities....</div>
           <div class="hood-card-stats">
@@ -597,10 +560,7 @@
         </div>
       </a>
       <a href="/neighborhoods/shadyside" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80" alt="Shadyside neighborhood tree-lined streets in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Shadyside</div>
           <div class="hood-card-desc">Shadyside is one of Pittsburgh&#x27;s most established and affluent neighborhoods, known for its tree-lined streets, upscale shopping, and...</div>
           <div class="hood-card-stats">
@@ -611,10 +571,7 @@
         </div>
       </a>
       <a href="/neighborhoods/south-side" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80" alt="South Side neighborhood along the Monongahela River in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">South Side</div>
           <div class="hood-card-desc">Pittsburgh&#x27;s South Side stretches along the southern bank of the Monongahela River, centered on East Carson Street, one of the longest...</div>
           <div class="hood-card-stats">
@@ -625,10 +582,7 @@
         </div>
       </a>
       <a href="/neighborhoods/squirrel-hill" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80" alt="Squirrel Hill commercial district in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Squirrel Hill</div>
           <div class="hood-card-desc">Squirrel Hill is one of Pittsburgh&#x27;s most diverse and culturally rich neighborhoods, anchored by two bustling commercial districts along...</div>
           <div class="hood-card-stats">
@@ -639,10 +593,7 @@
         </div>
       </a>
       <a href="/neighborhoods/strip-district" class="hood-card">
-        <div class="hood-card-img-wrap">
-          <img class="hood-card-img" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80" alt="Strip District market area in Pittsburgh"  onerror="this.onerror=null;this.style.background='linear-gradient(135deg, #d4c5a9, #c8bfad)';this.alt='Image unavailable'" />
-        </div>
-        <div class="hood-card-body">
+                <div class="hood-card-body">
           <div class="hood-card-name">Strip District</div>
           <div class="hood-card-desc">The Strip District is Pittsburgh&#x27;s vibrant marketplace neighborhood, running along the Allegheny River from 11th Street to 33rd Street. For...</div>
           <div class="hood-card-stats">
@@ -655,33 +606,47 @@
     </div>
   </div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-brand">The Pittsburgh Wire</div>
-        <p class="footer-tagline">Good News, Only. Always Forward.</p>
-        <p class="footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-masthead"><a href="/">The Pittsburgh Wire</a></div>
+      <p class="site-footer-tagline">Good News, Only. Always Forward.</p>
+      <div class="site-footer-cols">
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">About</p>
+          <p>An independent digital publication covering Pittsburgh business, real estate, economic development, and the people building the city. We publish good news only.</p>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Coverage</p>
+          <ul>
+            <li><a href="/news/">All Stories</a></li>
+            <li><a href="/news/business/">Business</a></li>
+            <li><a href="/news/real-estate/">Real Estate</a></li>
+            <li><a href="/news/development/">Development</a></li>
+            <li><a href="/news/people/">People</a></li>
+            <li><a href="/news/neighborhoods/">Neighborhoods</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Explore</p>
+          <ul>
+            <li><a href="/directory">Business Directory</a></li>
+            <li><a href="/best/">Best of Pittsburgh</a></li>
+            <li><a href="/neighborhoods">Neighborhoods</a></li>
+            <li><a href="/weekly">The Weekly</a></li>
+            <li><a href="/author">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-col">
+          <p class="site-footer-col-head">Contact</p>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="mailto:tips@pittsburghwire.com">Submit a Tip</a></li>
+            <li><a href="/about">About The Wire</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <div class="footer-heading">Sections</div>
-        <ul class="footer-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/neighborhoods">Neighborhoods</a></li>
-          <li><a href="/directory">Business Directory</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </div>
-      <div>
-        <div class="footer-heading">Popular Neighborhoods</div>
-        <ul class="footer-links">
-          <li><a href="/neighborhoods/lawrenceville">Lawrenceville</a></li>
-          <li><a href="/neighborhoods/strip-district">Strip District</a></li>
-          <li><a href="/neighborhoods/east-liberty">East Liberty</a></li>
-          <li><a href="/neighborhoods/oakland">Oakland</a></li>
-          <li><a href="/neighborhoods/downtown">Downtown</a></li>
-          <li><a href="/neighborhoods/shadyside">Shadyside</a></li>
-        </ul>
-      </div>
+      <p class="site-footer-copy">&copy; 2026 The Pittsburgh Wire. All rights reserved. Pittsburgh, Pennsylvania.</p>
     </div>
   </footer>
 </body>

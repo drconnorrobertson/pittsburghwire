@@ -106,3 +106,40 @@ table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; max
   .newsletter-headline { font-size: 20px; }
   .footer-masthead { font-size: 24px; }
 }
+
+/* ---- 2026 cleanup: overflow fixes found by auditing every template at 375px */
+@media (max-width: 768px) {
+  /* grid children default to a min-content floor, which pushes multi-column
+     grids past the viewport on long words -- collapse them to one column */
+  .cat-grid,
+  .biz-grid,
+  .hood-grid,
+  .article-grid,
+  .stories-grid,
+  .card-grid,
+  .dir-hero-stats { grid-template-columns: 1fr !important; }
+
+  .cat-grid > *, .biz-grid > *, .hood-grid > *, .article-grid > *,
+  .stories-grid > *, .card-grid > * { min-width: 0; overflow-wrap: anywhere; }
+
+  /* section rules with nowrap headings */
+  .section-label { flex-wrap: wrap; gap: 10px; }
+  .section-label-text { white-space: normal !important; font-size: 24px !important; }
+  .section-label-line { display: none; }
+
+  /* newsletter signup: stack the field and the button */
+  .hero-newsletter-inner,
+  .hero-newsletter-form,
+  form[action*="formspree"] { flex-wrap: wrap; width: 100%; }
+  form[action*="formspree"] input,
+  form[action*="formspree"] button { width: 100%; max-width: 100%; }
+
+  /* hero banners are text-only now, so let them size to their content */
+  .hero, .page-hero { height: auto !important; }
+  .hero-overlay { position: static !important; padding: 28px 16px !important; }
+  .hero-headline { font-size: clamp(26px, 8vw, 40px) !important; }
+
+  .stat, .hero-stats { flex-wrap: wrap; }
+  .archive, .page-head, .cat-bar { padding-left: 16px !important; padding-right: 16px !important; }
+  table, pre { max-width: 100%; overflow-x: auto; display: block; }
+}

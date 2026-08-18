@@ -1,0 +1,151 @@
+/* The Pittsburgh Wire — shared site chrome.
+   Loaded last on every page, so these rules are the single definition of the
+   dateline bar, masthead, primary nav, and footer. Section templates keep their
+   own body styles; the chrome is identical everywhere. */
+
+/* ---- dateline bar ----------------------------------------------------- */
+.topbar {
+  background: #0f0e0c;
+  color: #f5f0e8;
+  padding: 7px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.topbar-date { color: #a09585; }
+.topbar-links { display: flex; gap: 18px; flex-wrap: wrap; }
+.topbar-links a { color: #aaa; text-decoration: none; transition: color .15s; }
+.topbar-links a:hover { color: #f5f0e8; }
+.topbar-sister { color: #d8a53c; border: 1px solid #8a6a00; padding: 2px 10px; }
+
+/* ---- masthead --------------------------------------------------------- */
+.masthead {
+  background: #f5f0e8;
+  border-bottom: 4px double #0f0e0c;
+  padding: 24px 28px 16px;
+  text-align: center;
+  position: static;
+}
+.masthead a { text-decoration: none; }
+.masthead-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(32px, 6vw, 72px);
+  font-weight: 900;
+  line-height: .92;
+  letter-spacing: -2px;
+  color: #0f0e0c;
+  margin: 12px 0 8px;
+  text-transform: none;
+}
+.masthead-tagline {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #6b6355;
+  margin: 0;
+}
+
+/* ---- primary nav ------------------------------------------------------ */
+.nav { background: #0f0e0c; position: relative; }
+.nav-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav a {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #f5f0e8;
+  text-decoration: none;
+  padding: 11px 18px;
+  display: block;
+  border-right: 1px solid #2a2a2a;
+  transition: background .15s;
+}
+.nav a:first-child { border-left: 1px solid #2a2a2a; }
+.nav a:hover { background: #b5001f; }
+
+/* ---- shared footer ---------------------------------------------------- */
+.site-footer {
+  background: #0f0e0c;
+  color: #f5f0e8;
+  padding: 48px 28px 26px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.7;
+  border-top: 3px solid #b5001f;
+}
+.site-footer a { color: inherit; text-decoration: none; }
+.site-footer-inner { max-width: 1400px; margin: 0 auto; }
+.site-footer-masthead {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(26px, 5vw, 40px);
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #f5f0e8;
+  margin-bottom: 4px;
+}
+.site-footer-tagline {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #6b6355;
+  margin-bottom: 26px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #242424;
+}
+.site-footer-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.site-footer-col-head {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #f5f0e8;
+  margin-bottom: 12px;
+}
+.site-footer-col p { font-size: 14px; line-height: 1.7; color: #8a8a8a; margin: 0; }
+.site-footer-col ul { list-style: none; margin: 0; padding: 0; }
+.site-footer-col li { margin-bottom: 7px; }
+.site-footer-col li a { font-size: 14px; color: #8a8a8a; transition: color .15s; }
+.site-footer-col li a:hover { color: #f5f0e8; }
+.site-footer-copy {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #4a4a4a;
+  padding-top: 20px;
+  border-top: 1px solid #242424;
+  margin: 0;
+}
+
+/* ---- active nav state (works for both nav templates) ------------------- */
+.nav a.active,
+.masthead-nav a.active { background: #b5001f; color: #fff; }
+
+/* ---- tags rendered as plain labels, not dead links --------------------- */
+.tag { cursor: default; }
+
+@media (max-width: 768px) {
+  .site-footer { padding: 34px 16px 22px; }
+  .site-footer-cols { gap: 22px; }
+}
