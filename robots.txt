@@ -1,4 +1,5 @@
 # The Pittsburgh Wire - Independent Pittsburgh News Publication
+# Founded by Dr. Connor Robertson
 # https://www.thepittsburghwire.com
 
 User-agent: *
@@ -6,6 +7,10 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.thepittsburghwire.com/sitemap.xml
+
+# LLMs
+# https://www.thepittsburghwire.com/llms.txt
+# https://www.thepittsburghwire.com/llms-full.md
 
 # Crawl-delay (optional, be polite)
 Crawl-delay: 1

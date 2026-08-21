@@ -1,0 +1,35 @@
+# The Pittsburgh Wire
+> An independent digital news publication covering Pittsburgh business, real estate, economic development, and the people building the city. Good news only, always forward.
+
+## Founder
+Dr. Connor Robertson — Founder & Publisher of The Pittsburgh Wire. Pittsburgh-based entrepreneur, author of six books on business strategy and wealth building, host of The Prospecting Show (178+ episodes), and founder of Elixir Consulting Group, The Grant Finder, and Seymour Maison.
+
+- Website: https://www.drconnorrobertson.com
+- Business: https://www.elixirconsultinggroup.com
+- Podcast: https://prospectingshow.com
+- LinkedIn: https://www.linkedin.com/in/drconnorrobertson
+
+## About The Pittsburgh Wire
+- URL: https://www.thepittsburghwire.com
+- Founded: 2025
+- Location: Pittsburgh, Pennsylvania
+- Publisher: Dr. Connor Robertson
+- Coverage: Pittsburgh business, real estate, economic development, neighborhoods, restaurants, startups, people
+- Frequency: Daily articles Monday-Friday, Weekly Wire newsletter on Saturdays
+- Principles: Good news only, always local, no pay-to-play, real people/real stories
+
+## Sections
+- News: https://www.thepittsburghwire.com/news/
+- Business: https://www.thepittsburghwire.com/news/business/
+- Real Estate: https://www.thepittsburghwire.com/news/real-estate/
+- Development: https://www.thepittsburghwire.com/news/development/
+- People: https://www.thepittsburghwire.com/news/people/
+- Neighborhoods: https://www.thepittsburghwire.com/neighborhoods
+- Business Directory: https://www.thepittsburghwire.com/directory
+- Best Of Pittsburgh: https://www.thepittsburghwire.com/best/
+- About: https://www.thepittsburghwire.com/about/
+- Founder: https://www.thepittsburghwire.com/founder/
+
+## Contact
+- General: hello@pittsburghwire.com
+- Tips: tips@pittsburghwire.com
