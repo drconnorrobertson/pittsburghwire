@@ -688,6 +688,16 @@ def build_sitemap(repo, articles):
     urls = []
 
     def add(loc, pri, freq="weekly", lastmod=None):
+        # The page's canonical is the URL we want search engines to index.
+        # Some older pages use a trailing slash and others do not; publishing
+        # a different spelling in the sitemap creates needless ambiguity.
+        relative = loc[len(SITE):].strip("/")
+        page = os.path.join(repo, relative, "index.html") if relative else os.path.join(repo, "index.html")
+        content = open(page, encoding="utf-8").read()
+        canonical = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', content, re.I)
+        if not canonical:
+            raise ValueError(f"Missing canonical URL in {page}")
+        loc = canonical.group(1)
         entry = f"  <url>\n    <loc>{loc}</loc>\n"
         if lastmod:
             entry += f"    <lastmod>{lastmod}</lastmod>\n"
