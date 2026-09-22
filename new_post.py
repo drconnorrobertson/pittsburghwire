@@ -128,10 +128,11 @@ def main():
     deck = spec["deck"].strip()
     byline = spec.get("byline", "The Pittsburgh Wire Staff").strip()
     iso = spec.get("date") or _date.today().isoformat()
-    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', iso):
-        die("date must be YYYY-MM-DD")
-    y, m, d = iso.split("-")
-    display = "%s %d, %s" % (MONTHS[int(m) - 1], int(d), y)
+    try:
+        published = _date.fromisoformat(iso)
+    except ValueError:
+        die("date must be a valid YYYY-MM-DD date")
+    display = "%s %d, %s" % (MONTHS[published.month - 1], published.day, published.year)
     read_time = spec.get("read_time") or "%d min read" % max(2, round(words / 225))
 
     tags = spec.get("tags") or []
@@ -140,8 +141,21 @@ def main():
     picks = related_stories(slug, section, 6)
 
     tpl = open(os.path.join(REPO, "templates", "article.html"), encoding="utf-8").read()
+    article_url = "https://www.thepittsburghwire.com/news/" + slug
+    structured_data = {
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": headline, "datePublished": iso, "dateModified": iso,
+        "author": {"@type": "Organization", "name": "The Pittsburgh Wire"},
+        "publisher": {"@type": "NewsMediaOrganization",
+                      "@id": "https://www.thepittsburghwire.com/#organization",
+                      "name": "The Pittsburgh Wire", "url": "https://www.thepittsburghwire.com",
+                      "founder": {"@type": "Person", "name": "Dr. Connor Robertson"}},
+        "description": deck, "url": article_url,
+    }
+    json_ld = json.dumps(structured_data, ensure_ascii=True).replace("<", "\\u003c")
     out = tpl
     for token, value in [
+        ("{{ARTICLE_JSON_LD}}", json_ld),
         ("{{SLUG}}", slug),
         ("{{SECTION}}", H.escape(section)),
         ("{{HEADLINE_SHORT}}", H.escape(headline[:58] + ("&hellip;" if len(headline) > 58 else ""))),

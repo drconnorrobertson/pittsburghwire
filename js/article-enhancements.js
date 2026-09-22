@@ -1,5 +1,5 @@
 /* Pittsburgh Wire - Article Page Enhancements
-   Auto-injects: social share buttons, sticky newsletter bar, ad zones */
+   Adds social share buttons and a sticky newsletter bar. */
 (function(){
   /* ---- SOCIAL SHARE BUTTONS ---- */
   var meta = document.querySelector('.article-meta');
@@ -35,23 +35,6 @@
       + '<a href="https://www.linkedin.com/sharing/share-offsite/?url='+url2+'" target="_blank" rel="noopener" style="font-family:Barlow Condensed,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;color:#6b6355;border:1px solid #c8bfad;padding:5px 12px;text-decoration:none;transition:all .15s;">LinkedIn</a>'
       + '<a href="https://www.facebook.com/sharer/sharer.php?u='+url2+'" target="_blank" rel="noopener" style="font-family:Barlow Condensed,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;color:#6b6355;border:1px solid #c8bfad;padding:5px 12px;text-decoration:none;transition:all .15s;">Facebook</a>';
     tags.insertAdjacentElement('afterend', bottomShare);
-  }
-
-  /* ---- AD ZONES ---- */
-  var adStyle = 'background:#ede8dc;border:1px dashed #c8bfad;min-height:90px;display:flex;align-items:center;justify-content:center;font-family:Barlow Condensed,sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#a09585;margin:32px 0;';
-  var sidebar = document.querySelector('.article-sidebar');
-  if(sidebar){
-    var adDiv = document.createElement('div');
-    adDiv.className = 'sidebar-module ad-zone';
-    adDiv.style.cssText = adStyle + 'min-height:250px;';
-    sidebar.appendChild(adDiv);
-  }
-  var moreStories = document.querySelector('.more-stories');
-  if(moreStories){
-    var adDiv2 = document.createElement('div');
-    adDiv2.className = 'ad-zone ad-zone-leaderboard';
-    adDiv2.style.cssText = adStyle + 'max-width:728px;margin:20px auto 0;';
-    moreStories.parentNode.insertBefore(adDiv2, moreStories);
   }
 
   /* ---- STICKY NEWSLETTER BAR ---- */
