@@ -492,7 +492,7 @@ def scan_best(repo):
 
 
 def suppress_unresearched_guides(repo):
-    """Keep placeholder guides accessible while removing them from search results."""
+    """Replace unsupported recommendation pages with an honest archive notice."""
     best_dir = os.path.join(repo, "best")
     for slug in sorted(os.listdir(best_dir)):
         page = os.path.join(best_dir, slug, "index.html")
@@ -501,11 +501,40 @@ def suppress_unresearched_guides(repo):
         content = open(page, encoding="utf-8").read()
         if 'name="wire:curated-guide" content="true"' in content:
             continue
-        updated = content.replace('<meta name="robots" content="index, follow" />',
+        label = slug.replace("-in-", " in ").replace("-", " ").title()
+        body = f'''  <div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/best/">Best Of</a><span>/</span><span>{esc(label)}</span></div>
+  <div class="page-head"><span class="page-eyebrow">Best Of Pittsburgh</span><h1 class="page-title">{esc(label)}</h1><p class="page-deck">This guide is not available.</p></div>
+  <main class="archive"><p>We withdrew this page because it did not contain researched recommendations. Browse the <a href="/best/" style="text-decoration:underline">published local guides</a> for verified places and current links.</p></main>'''
+        updated = page_shell(f"{esc(label)} | Guide unavailable | The Pittsburgh Wire",
+                             "This guide was withdrawn pending research. Browse published Pittsburgh guides instead.",
+                             f"{SITE}/best/{slug}/", body, active_nav="/best/")
+        updated = updated.replace('<meta name="robots" content="index, follow" />',
                                   '<meta name="robots" content="noindex, follow" />', 1)
-        if updated == content and 'name="robots" content="noindex, follow"' not in content:
-            raise ValueError(f"Cannot set noindex on unresearched guide: {page}")
         if updated != content:
+            open(page, "w", encoding="utf-8").write(updated)
+
+
+def withdraw_unverified_profiles(repo):
+    """Keep legacy URLs useful for corrections without publishing unsourced facts."""
+    from directory_index import PENDING_REVIEW
+    for slug in sorted(PENDING_REVIEW):
+        page = os.path.join(repo, "directory", slug, "index.html")
+        content = open(page, encoding="utf-8").read()
+        match = (re.search(r'<h1 class="profile-name">(.*?)</h1>', content, re.S)
+                 or re.search(r'<h1 class="page-title">(.*?)</h1>', content, re.S))
+        if not match:
+            raise ValueError(f"Missing directory profile name: {page}")
+        name = re.sub(r'<[^>]+>', ' ', clean(match.group(1)))
+        name = clean(name)
+        body = f'''  <div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Directory</a><span>/</span><span>{esc(name)}</span></div>
+  <div class="page-head"><span class="page-eyebrow">Directory review</span><h1 class="page-title">{esc(name)}</h1><p class="page-deck">This profile is under editorial review.</p></div>
+  <main class="archive"><p>We withdrew the previous business description because its details have not been checked against a current primary source. The listing is unavailable until we can verify its identity and information.</p><p style="margin-top:20px">If you represent this business or can supply a reliable correction, <a href="/contact" style="text-decoration:underline">contact the editorial team</a>. You can also <a href="/directory/" style="text-decoration:underline">browse sourced directory profiles</a>.</p></main>'''
+        updated = page_shell(f"{esc(name)} | Profile under review | The Pittsburgh Wire",
+                             "This directory profile is under review while its details are verified.",
+                             f"{SITE}/directory/{slug}/", body, active_nav="/directory")
+        updated = updated.replace('<meta name="robots" content="index, follow" />',
+                                  '<meta name="robots" content="noindex, follow" />', 1)
+        if content != updated:
             open(page, "w", encoding="utf-8").write(updated)
 
 
@@ -704,7 +733,7 @@ def update_homepage(repo, articles):
 # SITEMAP
 # ---------------------------------------------------------------------------
 def build_sitemap(repo, articles):
-    from directory_index import ALIASES as DIRECTORY_ALIASES, INACTIVE as INACTIVE_DIRECTORY, UNVERIFIED as UNVERIFIED_DIRECTORY
+    from directory_index import EXCLUDED as EXCLUDED_DIRECTORY
     urls = []
 
     def add(loc, pri, freq="weekly", lastmod=None):
@@ -745,7 +774,7 @@ def build_sitemap(repo, articles):
         d = os.path.join(repo, section)
         for slug in sorted(os.listdir(d)):
             page = os.path.join(d, slug, "index.html")
-            if os.path.isfile(page) and (section != "directory" or slug not in DIRECTORY_ALIASES and slug not in INACTIVE_DIRECTORY and slug not in UNVERIFIED_DIRECTORY) and (section != "best" or
+            if os.path.isfile(page) and (section != "directory" or slug not in EXCLUDED_DIRECTORY) and (section != "best" or
                     'name="wire:curated-guide" content="true"' in open(page, encoding="utf-8").read()):
                 add(f"{SITE}/{section}/{slug}", pri, "monthly")
 
@@ -766,8 +795,11 @@ def build_sitemap(repo, articles):
 def main(repo):
     import curated_guides
     import directory_index
+    import sourced_profiles
     curated_guides.write(repo, page_shell)
     suppress_unresearched_guides(repo)
+    sourced_profiles.write(repo, page_shell)
+    withdraw_unverified_profiles(repo)
     featured, extra, total = directory_index.update(repo)
     print(f"  directory/index.html ({featured} featured + {extra} more = {total} profiles)")
     articles = scan_articles(repo)
