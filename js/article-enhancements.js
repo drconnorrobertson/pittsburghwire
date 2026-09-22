@@ -41,8 +41,8 @@
   var stickyEl = document.createElement('div');
   stickyEl.id = 'sticky-newsletter';
   stickyEl.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#0f0e0c;border-top:2px solid #b5001f;padding:12px 28px;z-index:9998;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;transform:translateY(100%);transition:transform .4s ease;';
-  stickyEl.innerHTML = '<span style="font-family:Barlow Condensed,sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#f5f0e8;">Get Pittsburgh’s best business news weekly. <strong style="color:#8a6a00">Join 5,000+ readers.</strong></span>'
-    + '<form style="display:flex;gap:0;" action="https://formspree.io/f/xpwddjla" method="POST" onsubmit="this.querySelector(\'button\').textContent=\'Done!\';this.querySelector(\'button\').disabled=true;document.getElementById(\'sticky-newsletter\').style.display=\'none\';return true;">'
+  stickyEl.innerHTML = '<span style="font-family:Barlow Condensed,sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;color:#f5f0e8;">Get Pittsburgh business stories in your inbox.</span>'
+    + '<form style="display:flex;gap:0;" action="https://formspree.io/f/xpwddjla" method="POST">'
     + '<input type="email" name="email" placeholder="your@email.com" required style="font-family:Source Serif 4,Georgia,serif;font-size:13px;padding:7px 14px;border:1px solid #333;border-right:none;background:#1a1a1a;color:#f5f0e8;outline:none;min-width:200px;" />'
     + '<button type="submit" style="font-family:Barlow Condensed,sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;background:#b5001f;color:#fff;border:1px solid #b5001f;padding:7px 16px;cursor:pointer;">Subscribe</button>'
     + '</form>'

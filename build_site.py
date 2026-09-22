@@ -474,7 +474,7 @@ def build_category_pages(repo, articles):
 
 
 def scan_best(repo):
-    """Read every /best/<slug>/ page and pull its headline."""
+    """List only guides with checked, named businesses."""
     best_dir = os.path.join(repo, "best")
     items = []
     for slug in sorted(os.listdir(best_dir)):
@@ -482,11 +482,31 @@ def scan_best(repo):
         if not os.path.isfile(p):
             continue
         c = open(p, encoding="utf-8", errors="ignore").read()
+        if 'name="wire:curated-guide" content="true"' not in c:
+            continue
         m = re.search(r'class="hero-headline"[^>]*>([^<]+)<', c) or re.search(r'<title>([^|<]+)', c)
         title = clean(m.group(1)) if m else slug.replace("-", " ").title()
         dm = re.search(r'name="description"\s+content="([^"]*)"', c)
         items.append({"slug": slug, "title": title, "desc": clean(dm.group(1)) if dm else ""})
     return items
+
+
+def suppress_unresearched_guides(repo):
+    """Keep placeholder guides accessible while removing them from search results."""
+    best_dir = os.path.join(repo, "best")
+    for slug in sorted(os.listdir(best_dir)):
+        page = os.path.join(best_dir, slug, "index.html")
+        if not os.path.isfile(page):
+            continue
+        content = open(page, encoding="utf-8").read()
+        if 'name="wire:curated-guide" content="true"' in content:
+            continue
+        updated = content.replace('<meta name="robots" content="index, follow" />',
+                                  '<meta name="robots" content="noindex, follow" />', 1)
+        if updated == content and 'name="robots" content="noindex, follow"' not in content:
+            raise ValueError(f"Cannot set noindex on unresearched guide: {page}")
+        if updated != content:
+            open(page, "w", encoding="utf-8").write(updated)
 
 
 def build_best_index(repo):
@@ -522,8 +542,8 @@ def build_best_index(repo):
   <div class="page-head">
     <span class="page-eyebrow">Best Of Pittsburgh</span>
     <h1 class="page-title">The Best of Pittsburgh</h1>
-    <p class="page-deck">Neighborhood-by-neighborhood guides to the best businesses and services across the Pittsburgh region, researched and maintained by The Pittsburgh Wire.</p>
-    <p class="page-count">{len(items)} guides</p>
+    <p class="page-deck">Local guides with named places, verified locations, and links to check current details before you visit.</p>
+    <p class="page-count">{len(items)} researched guides</p>
   </div>
 
   <main class="archive">
@@ -531,8 +551,7 @@ def build_best_index(repo):
   </main>"""
     out = page_shell(
         "Best of Pittsburgh | The Pittsburgh Wire",
-        "Neighborhood guides to the best businesses and services in Pittsburgh "
-        "— accountants, contractors, restaurants, photographers, and more.",
+        "Researched Pittsburgh neighborhood guides with named businesses, verified locations, and links to current details.",
         f"{SITE}/best/", body, active_nav="/best/")
     open(os.path.join(repo, "best", "index.html"), "w", encoding="utf-8").write(out)
     return len(items)
@@ -724,7 +743,9 @@ def build_sitemap(repo, articles):
     for section, pri in (("best", "0.7"), ("directory", "0.6"), ("neighborhoods", "0.7")):
         d = os.path.join(repo, section)
         for slug in sorted(os.listdir(d)):
-            if os.path.isfile(os.path.join(d, slug, "index.html")):
+            page = os.path.join(d, slug, "index.html")
+            if os.path.isfile(page) and (section != "best" or
+                    'name="wire:curated-guide" content="true"' in open(page, encoding="utf-8").read()):
                 add(f"{SITE}/{section}/{slug}", pri, "monthly")
 
     for slug in sorted(os.listdir(os.path.join(repo, "authors"))):
@@ -742,6 +763,9 @@ def build_sitemap(repo, articles):
 # MAIN
 # ---------------------------------------------------------------------------
 def main(repo):
+    import curated_guides
+    curated_guides.write(repo, page_shell)
+    suppress_unresearched_guides(repo)
     articles = scan_articles(repo)
     if len(articles) < 10:
         print(f"WARNING: only {len(articles)} articles found; aborting.")
