@@ -2026,11 +2026,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.thepittsburghwire.com/directory/construction-junction-retail/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thepittsburghwire.com/directory/controlcore-pilates/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2312,11 +2307,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/gaucho-parrilla/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/gaucho-parrilla-argentina/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2946,11 +2936,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.thepittsburghwire.com/directory/s-and-w-randall-toyes-downtown/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thepittsburghwire.com/directory/s-w-randall-toyes-squirrel-hill/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3222,11 +3207,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/upmc/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/upmc-health-system/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

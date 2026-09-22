@@ -704,6 +704,7 @@ def update_homepage(repo, articles):
 # SITEMAP
 # ---------------------------------------------------------------------------
 def build_sitemap(repo, articles):
+    from directory_index import ALIASES as DIRECTORY_ALIASES
     urls = []
 
     def add(loc, pri, freq="weekly", lastmod=None):
@@ -744,7 +745,7 @@ def build_sitemap(repo, articles):
         d = os.path.join(repo, section)
         for slug in sorted(os.listdir(d)):
             page = os.path.join(d, slug, "index.html")
-            if os.path.isfile(page) and (section != "best" or
+            if os.path.isfile(page) and (section != "directory" or slug not in DIRECTORY_ALIASES) and (section != "best" or
                     'name="wire:curated-guide" content="true"' in open(page, encoding="utf-8").read()):
                 add(f"{SITE}/{section}/{slug}", pri, "monthly")
 
@@ -764,8 +765,11 @@ def build_sitemap(repo, articles):
 # ---------------------------------------------------------------------------
 def main(repo):
     import curated_guides
+    import directory_index
     curated_guides.write(repo, page_shell)
     suppress_unresearched_guides(repo)
+    featured, extra, total = directory_index.update(repo)
+    print(f"  directory/index.html ({featured} featured + {extra} more = {total} profiles)")
     articles = scan_articles(repo)
     if len(articles) < 10:
         print(f"WARNING: only {len(articles)} articles found; aborting.")

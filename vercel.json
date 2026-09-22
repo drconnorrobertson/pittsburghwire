@@ -37,6 +37,46 @@
   ],
   "redirects": [
     {
+      "source": "/directory/construction-junction-retail",
+      "destination": "/directory/construction-junction/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/construction-junction-retail/",
+      "destination": "/directory/construction-junction/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/gaucho-parrilla-argentina",
+      "destination": "/directory/gaucho-parrilla/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/gaucho-parrilla-argentina/",
+      "destination": "/directory/gaucho-parrilla/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/s-and-w-randall-toyes-downtown",
+      "destination": "/directory/sw-randall-toyes/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/s-and-w-randall-toyes-downtown/",
+      "destination": "/directory/sw-randall-toyes/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/upmc-health-system",
+      "destination": "/directory/upmc/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/upmc-health-system/",
+      "destination": "/directory/upmc/",
+      "permanent": true
+    },
+    {
       "source": "/sitemap",
       "destination": "/sitemap.xml",
       "permanent": true
