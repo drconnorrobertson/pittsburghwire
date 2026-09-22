@@ -704,7 +704,7 @@ def update_homepage(repo, articles):
 # SITEMAP
 # ---------------------------------------------------------------------------
 def build_sitemap(repo, articles):
-    from directory_index import ALIASES as DIRECTORY_ALIASES
+    from directory_index import ALIASES as DIRECTORY_ALIASES, INACTIVE as INACTIVE_DIRECTORY
     urls = []
 
     def add(loc, pri, freq="weekly", lastmod=None):
@@ -745,7 +745,7 @@ def build_sitemap(repo, articles):
         d = os.path.join(repo, section)
         for slug in sorted(os.listdir(d)):
             page = os.path.join(d, slug, "index.html")
-            if os.path.isfile(page) and (section != "directory" or slug not in DIRECTORY_ALIASES) and (section != "best" or
+            if os.path.isfile(page) and (section != "directory" or slug not in DIRECTORY_ALIASES and slug not in INACTIVE_DIRECTORY) and (section != "best" or
                     'name="wire:curated-guide" content="true"' in open(page, encoding="utf-8").read()):
                 add(f"{SITE}/{section}/{slug}", pri, "monthly")
 

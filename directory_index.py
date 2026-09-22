@@ -19,6 +19,10 @@ ALIASES = {
     "upmc-health-system": "upmc",
 }
 
+# These former restaurants are retained for historical links, but should not
+# appear among businesses readers can visit today.
+INACTIVE = {"cure-restaurant", "smallman-galley", "superior-motors"}
+
 CARD = re.compile(r'\s*<a class="biz-card" href="/directory/([^/]+)/">.*?</a>', re.S)
 EXTRA_START = "<!-- DIRECTORY_EXTRA_START -->"
 EXTRA_END = "<!-- DIRECTORY_EXTRA_END -->"
@@ -26,7 +30,7 @@ EXTRA_END = "<!-- DIRECTORY_EXTRA_END -->"
 
 def clean_cards(source):
     """Remove repeated profile cards and decode escaped visual line breaks."""
-    source = CARD.sub(lambda m: "" if m.group(1) in ALIASES else m.group(0), source)
+    source = CARD.sub(lambda m: "" if m.group(1) in ALIASES or m.group(1) in INACTIVE else m.group(0), source)
     return source.replace("&lt;br&gt;", "<br>").replace("&amp;amp;", "&amp;")
 
 
@@ -58,7 +62,7 @@ def update(repo):
     profiles = []
     for profile in root.glob("*/index.html"):
         slug = profile.parent.name
-        if slug not in CATEGORIES and slug not in ALIASES:
+        if slug not in CATEGORIES and slug not in ALIASES and slug not in INACTIVE:
             profiles.append((profile_name(profile), slug))
     remaining = sorted(((name, slug) for name, slug in profiles if slug not in featured),
                        key=lambda item: item[0].casefold())
