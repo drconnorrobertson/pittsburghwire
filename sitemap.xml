@@ -1716,11 +1716,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.thepittsburghwire.com/directory/alphabet-city-coffee/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thepittsburghwire.com/directory/amazing-books-records/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1757,11 +1752,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/arsenal-bowl/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/arsenal-outfitters/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1832,11 +1822,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/blawnox-upholstery/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/bodhi-health-wellness/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1967,11 +1952,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/circa-barbershop/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/circuitspark-labs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2706,22 +2686,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.thepittsburghwire.com/directory/pavement-boutique/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thepittsburghwire.com/directory/pennsylvania-macaroni/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/petuum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/pgh-software-co/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2797,11 +2767,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/pittsburgh-symphony/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/pittsburgh-title-partners/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3051,11 +3016,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.thepittsburghwire.com/directory/steel-city-finance/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thepittsburghwire.com/directory/strip-district-meats/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3202,11 +3162,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/usa-professional-karate/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/directory/vector-capital-advisors/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

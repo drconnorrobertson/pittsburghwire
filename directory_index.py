@@ -23,6 +23,14 @@ ALIASES = {
 # appear among businesses readers can visit today.
 INACTIVE = {"cure-restaurant", "smallman-galley", "superior-motors"}
 
+# Their stated websites either fail DNS or resolve to a parked domain, and a
+# Pittsburgh business match was not corroborated. Keep URLs for corrections.
+UNVERIFIED = {
+    "alphabet-city-coffee", "arsenal-outfitters", "bodhi-health-wellness",
+    "circuitspark-labs", "pavement-boutique", "pgh-software-co",
+    "pittsburgh-title-partners", "steel-city-finance", "vector-capital-advisors",
+}
+
 CARD = re.compile(r'\s*<a class="biz-card" href="/directory/([^/]+)/">.*?</a>', re.S)
 EXTRA_START = "<!-- DIRECTORY_EXTRA_START -->"
 EXTRA_END = "<!-- DIRECTORY_EXTRA_END -->"
@@ -30,7 +38,7 @@ EXTRA_END = "<!-- DIRECTORY_EXTRA_END -->"
 
 def clean_cards(source):
     """Remove repeated profile cards and decode escaped visual line breaks."""
-    source = CARD.sub(lambda m: "" if m.group(1) in ALIASES or m.group(1) in INACTIVE else m.group(0), source)
+    source = CARD.sub(lambda m: "" if m.group(1) in ALIASES or m.group(1) in INACTIVE or m.group(1) in UNVERIFIED else m.group(0), source)
     return source.replace("&lt;br&gt;", "<br>").replace("&amp;amp;", "&amp;")
 
 
@@ -62,7 +70,7 @@ def update(repo):
     profiles = []
     for profile in root.glob("*/index.html"):
         slug = profile.parent.name
-        if slug not in CATEGORIES and slug not in ALIASES and slug not in INACTIVE:
+        if slug not in CATEGORIES and slug not in ALIASES and slug not in INACTIVE and slug not in UNVERIFIED:
             profiles.append((profile_name(profile), slug))
     remaining = sorted(((name, slug) for name, slug in profiles if slug not in featured),
                        key=lambda item: item[0].casefold())
@@ -121,4 +129,32 @@ def update(repo):
         source = re.sub(r'(<a href="/directory/' + re.escape(slug) + r'/">[^<]*?) \(\d+\)(</a>)',
                         rf'\g<1> ({count})\2', source, count=1)
     page.write_text(source, encoding="utf-8")
+    # Retired and unverified profiles should not be recommended from another
+    # profile's "related" section, even though their old URLs stay reachable.
+    excluded = set(ALIASES) | INACTIVE | UNVERIFIED
+    related_card = re.compile(r'\s*<a class="related-card" href="/directory/([^/]+)/">.*?</a>', re.S)
+    verified_labels = {
+        "franco-associates": ("Franco Associates", "Commercial masonry and restoration · Pittsburgh area"),
+        "point-breeze-vet": ("Point Breeze Veterinary Clinic", "Founded in 1977 · Point Breeze"),
+        "steel-city-boxing": ("Steel City Boxing Association", "Youth mentoring · Spring Hill"),
+    }
+    for profile in root.glob("*/index.html"):
+        if profile.parent.name in CATEGORIES:
+            continue
+        html = profile.read_text(encoding="utf-8")
+        def related_replacement(match):
+            slug = match.group(1)
+            if slug in excluded:
+                return ""
+            if slug in verified_labels:
+                name, detail = verified_labels[slug]
+                return re.sub(r'(<div class="related-name">).*?(</div>)',
+                              lambda m: m.group(1) + escape(name) + m.group(2),
+                              re.sub(r'(<div class="related-owner">).*?(</div>)',
+                                     lambda m: m.group(1) + escape(detail) + m.group(2),
+                                     match.group(0), count=1, flags=re.S), count=1, flags=re.S)
+            return match.group(0)
+        cleaned = related_card.sub(related_replacement, html)
+        if cleaned != html:
+            profile.write_text(cleaned, encoding="utf-8")
     return len(featured), len(remaining), total
