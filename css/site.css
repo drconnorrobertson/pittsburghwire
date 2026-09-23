@@ -145,6 +145,114 @@
 /* ---- tags rendered as plain labels, not dead links --------------------- */
 .tag { cursor: default; }
 
+/* Editorial refresh: shared across home, archives, articles, and directory. */
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; }
+
+.topbar { padding-block: 8px; letter-spacing: 1.45px; }
+.topbar-date { color: #d4c8b7; }
+.topbar-links a { color: #e2d7c8; }
+.topbar-sister { color: #f0cf82; border-color: #b58b2d; }
+
+.masthead {
+  padding: 17px 28px 14px;
+  border-bottom: 2px solid #b5001f;
+}
+.masthead-title {
+  font-size: clamp(34px, 5.2vw, 64px);
+  letter-spacing: -1.8px;
+  line-height: 1;
+  margin: 8px 0 6px;
+}
+.masthead-tagline { letter-spacing: 2.7px; font-size: 12px; }
+.masthead-tagline a { text-underline-offset: 3px; }
+
+.nav a {
+  font-size: 13px;
+  letter-spacing: 1.65px;
+  padding: 13px 16px;
+}
+.nav a:hover, .nav a:focus-visible { background: #991b2b; color: #fff; }
+
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid #b5001f;
+  outline-offset: 3px;
+}
+.nav a:focus-visible, .site-footer a:focus-visible,
+.topbar a:focus-visible { outline-color: #f0cf82; }
+
+:where(.lead-headline, .article-headline, .page-title, .dir-hero-title,
+       .story-card h2, .section-head, .more-hed, .cat-name, .biz-name) {
+  text-wrap: balance;
+}
+
+.lead-main { border-top: 3px solid #b5001f; }
+.lead-deck, .article-deck { font-style: normal; }
+.lead-headline a, .story-card h2 a, .more-hed a,
+.related-hed a, .person-name a { text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.lead-headline a:hover, .story-card h2 a:hover, .more-hed a:hover,
+.related-hed a:hover, .person-name a:hover { color: #991b2b; text-decoration: underline; }
+
+.article-header { max-width: 880px; padding-bottom: 30px; }
+.article-deck { line-height: 1.55; color: #514a40; }
+.article-body { max-width: 100%; }
+.article-body p { line-height: 1.75; }
+.article-body p:first-child::first-letter {
+  float: none;
+  font: inherit;
+  margin: 0;
+  color: inherit;
+}
+.article-body a[href] { color: #8f1424; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.article-body a[href]:hover { color: #5d0a16; }
+.article-body .source-note {
+  padding: 12px 16px;
+  border-left: 3px solid #b5001f;
+  background: #ede8dc;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.article-body .source-note::first-letter { font: inherit; float: none; margin: 0; color: inherit; }
+.fact-box { border-top-color: #b5001f; }
+.related-story a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.dir-hero { padding-block: 42px; }
+.dir-hero-title { font-size: clamp(46px, 6vw, 68px); letter-spacing: -1.4px; line-height: 1.04; }
+.dir-hero-desc { max-width: 650px; line-height: 1.55; }
+.dir-hero-stats { gap: 26px; }
+.directory-search-shell input { border-width: 2px; }
+
+.story-card, .cat-card, .biz-card, .more-card {
+  transition: background-color .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.story-card:hover, .cat-card:hover, .biz-card:hover, .more-card:hover {
+  background: #f0e9dc;
+  box-shadow: inset 0 3px 0 #b5001f;
+}
+
+.site-footer-col p, .site-footer-col li a { color: #c1b9ad; }
+.site-footer-tagline, .site-footer-copy { color: #a79e91; }
+
+@media (max-width: 768px) {
+  .topbar { font-size: 11px; letter-spacing: 1px; }
+  .masthead { padding: 14px 16px 12px; }
+  .masthead-title { font-size: clamp(30px, 8vw, 42px) !important; letter-spacing: -1px; }
+  .masthead-tagline { font-size: 10px; letter-spacing: 1.5px; }
+  .nav a { letter-spacing: 1.2px; }
+  .lead-main { border-top: 3px solid #b5001f; }
+  .article-header { padding-bottom: 22px; }
+  .article-deck { font-size: 17px; }
+  .article-body p { font-size: 17px; line-height: 1.7; }
+  .dir-hero { padding-block: 32px; }
+  .dir-hero-title { font-size: clamp(39px, 10vw, 54px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
 @media (max-width: 768px) {
   .site-footer { padding: 34px 16px 22px; }
   .site-footer-cols { gap: 22px; }

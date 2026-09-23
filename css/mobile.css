@@ -101,10 +101,34 @@ table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; max
   .about-content { padding: 0 16px; }
 }
 @media (max-width: 480px) {
-  .masthead-title { font-size: 28px !important; }
+  .masthead-title { font-size: clamp(30px, 8vw, 36px) !important; }
   .lead-headline { font-size: clamp(22px, 6vw, 28px) !important; }
   .newsletter-headline { font-size: 20px; }
   .footer-masthead { font-size: 24px; }
+}
+
+@media (max-width: 768px) {
+  .hamburger-btn {
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    padding-left: 16px;
+    text-align: left;
+  }
+  .hamburger-btn::after {
+    content: 'Menu';
+    position: absolute;
+    left: 48px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f5f0e8;
+    font: 700 13px 'Barlow Condensed', sans-serif;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  .hamburger-btn.open::after { content: 'Close'; }
+  .article-body p { font-size: 17px; line-height: 1.7; }
+  .dir-hero { padding-block: 32px !important; }
 }
 
 /* ---- 2026 cleanup: overflow fixes found by auditing every template at 375px */
