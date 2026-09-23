@@ -303,6 +303,8 @@ def scan_articles(repo):
         if not os.path.isfile(fpath):
             continue
         c = open(fpath, encoding="utf-8", errors="ignore").read()
+        if re.search(r'<meta\s+name="robots"\s+content="[^"]*noindex', c, re.I):
+            continue
 
         # date
         m = (re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', c)

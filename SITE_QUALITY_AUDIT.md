@@ -9,8 +9,12 @@
 
 ## Verification
 
-Run `python3 build_site.py` and `python3 quality_check.py` from the repository root. The quality check verifies every sitemap URL against its page canonical and robots tag, parses structured data, checks local links, confirms every sourced profile appears on the hub and its category page, and confirms withdrawn pages stay out of browse and search discovery. The latest local run checked 937 HTML pages, 35,920 local links, and 332 sitemap URLs with no errors. The builder is deterministic on a second run.
+Run `python3 build_site.py` and `python3 quality_check.py` from the repository root. The quality check verifies every sitemap URL against its page canonical and robots tag, parses structured data and checks local links and structured-data URLs, enforces one H1 per content page, confirms every sourced profile appears on the hub and its category page, and confirms withdrawn pages stay out of browse and search discovery. The latest local run checked 935 content pages, 35,887 local links, 1,859 structured-data URLs, and 331 sitemap URLs with no errors.
+
+The publisher logo used by structured data is now a real 600 × 60 PNG at `/images/the-pittsburgh-wire-logo.png`. Broken author and portrait references were corrected. The 104 pages with duplicate H1 headings now use a non-heading masthead wordmark so their page title is the only H1. One article claiming a Kauffman top-five Pittsburgh small-business ranking was withdrawn from publication and promotion pending source review: the cited ranking and business formation figures could not be matched to Kauffman material located during this pass. The original article remains in Git history.
+
+The homepage ticker and nine archive pages had garbled UTF-8 punctuation; those visible characters are repaired. Desktop and 390-pixel mobile previews showed the homepage and withdrawal notice rendering, and the mobile navigation expanded successfully.
 
 ## Remaining editorial work
 
-The legacy news archive has 263 article files, and 253 have no outbound source link. That absence alone does not prove the reporting is wrong, so this pass has not withdrawn those articles. Their claims, dates, and quotations need a separate source review before the archive can be called fully fact checked. Newsletter form delivery and Google Search Console indexing status also remain unverified; IndexNow acceptance only confirms URL submission.
+The legacy news archive has 257 promoted articles plus one withdrawn article, and most published articles have no outbound source link. That absence alone does not prove the reporting is wrong, so this pass has not withdrawn them en masse. Their claims, dates, and quotations still need individual source review before the archive can be called fully fact checked. Newsletter form delivery and Google Search Console indexing status also remain unverified; IndexNow acceptance only confirms URL submission.

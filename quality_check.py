@@ -22,9 +22,12 @@ class Page(HTMLParser):
         self.links = []
         self.jsonld = []
         self._json = None
+        self.h1_count = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "h1":
+            self.h1_count += 1
         if tag == "a":
             self.links.append(attrs.get("href", ""))
         if tag == "link" and attrs.get("rel") == "canonical":
@@ -54,12 +57,37 @@ def check():
     errors = []
     pages = {}
     links_checked = 0
+    schema_urls_checked = 0
+
+    def strings(value):
+        if isinstance(value, dict):
+            for child in value.values():
+                yield from strings(child)
+        elif isinstance(value, list):
+            for child in value:
+                yield from strings(child)
+        elif isinstance(value, str):
+            yield value
+
     for path in ROOT.rglob("*.html"):
         if "templates" in path.parts:
+            continue
+        if path.name.startswith("google") and path.parent == ROOT:
             continue
         try:
             page = parse(path)
             pages[path] = page
+            if page.h1_count != 1:
+                errors.append(f"Expected one H1 in {path.relative_to(ROOT)}, found {page.h1_count}")
+            for obj in page.jsonld:
+                for url in strings(obj):
+                    parsed = urlsplit(url)
+                    if parsed.netloc != "www.thepittsburghwire.com" or not parsed.path:
+                        continue
+                    schema_urls_checked += 1
+                    local = ROOT / unquote(parsed.path).lstrip("/")
+                    if not (local.is_file() or (local / "index.html").is_file()):
+                        errors.append(f"Broken structured-data URL {path.relative_to(ROOT)} -> {url}")
             for href in page.links:
                 if not href.startswith("/") or href.startswith("//"):
                     continue
@@ -80,6 +108,16 @@ def check():
         page = pages.get(path)
         if not page or page.canonical != url or "noindex" in page.robots:
             errors.append(f"Sitemap URL mismatches page: {url}")
+
+    withdrawn_article = "pittsburgh-ranked-top-city-small-business-growth"
+    withdrawn_path = ROOT / "news" / withdrawn_article / "index.html"
+    if "noindex" not in pages[withdrawn_path].robots:
+        errors.append("Unsupported article is indexable")
+    if any(withdrawn_article in url for url in sitemap):
+        errors.append("Unsupported article appears in sitemap")
+    for path, page in pages.items():
+        if path != withdrawn_path and any(withdrawn_article in href for href in page.links):
+            errors.append(f"Unsupported article promoted by {path.relative_to(ROOT)}")
 
     hub = (ROOT / "directory" / "index.html").read_text(encoding="utf-8")
     for slug in VERIFIED:
@@ -108,7 +146,7 @@ def check():
                 errors.append(f"Curated guide not discoverable: {path.parent.name}")
         elif "noindex" not in pages[path].robots or "This guide is not available." not in content:
             errors.append(f"Unresearched guide still published: {path.parent.name}")
-    print(f"Checked {len(pages)} pages, {links_checked} local links, {len(sitemap)} sitemap URLs; "
+    print(f"Checked {len(pages)} pages, {links_checked} local links, {schema_urls_checked} structured-data URLs, {len(sitemap)} sitemap URLs; "
           f"{len(VERIFIED)} sourced profiles, {guide_count} curated guides, {len(errors)} errors")
     for error in errors[:30]:
         print("ERROR:", error)
