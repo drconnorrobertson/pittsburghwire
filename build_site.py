@@ -728,6 +728,7 @@ def update_homepage(repo, articles):
     for pat, content, name in sections:
         html = replace_inner(html, pat, content, name)
 
+    html = "\n".join(line.rstrip(" \t") for line in html.split("\n"))
     open(index_path, "w", encoding="utf-8").write(html)
 
 

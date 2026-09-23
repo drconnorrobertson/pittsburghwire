@@ -3,6 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+import html
 import json
 import re
 import xml.etree.ElementTree as ET
@@ -80,6 +81,19 @@ def check():
             if page.h1_count != 1:
                 errors.append(f"Expected one H1 in {path.relative_to(ROOT)}, found {page.h1_count}")
             for obj in page.jsonld:
+                if isinstance(obj, dict) and obj.get("@type") == "NewsArticle":
+                    for field in ("headline", "description"):
+                        value = obj.get(field, "")
+                        if isinstance(value, str) and html.unescape(value) != value:
+                            errors.append(f"Encoded structured-data {field}: {path.relative_to(ROOT)}")
+                    content = path.read_text(encoding="utf-8")
+                    byline = re.search(r'class="article-byline"[^>]*>\s*By\s*(?:<a[^>]*>)?([^<]+)', content, re.S)
+                    if byline:
+                        visible = " ".join(html.unescape(byline.group(1)).replace("\xa0", " ").split())
+                        visible = re.split(r'\s*[|—]\s*|,', visible)[0].strip()
+                        author = obj.get("author")
+                        if not isinstance(author, dict) or author.get("name") != visible:
+                            errors.append(f"Article byline and structured-data author differ: {path.relative_to(ROOT)}")
                 for url in strings(obj):
                     parsed = urlsplit(url)
                     if parsed.netloc != "www.thepittsburghwire.com" or not parsed.path:
