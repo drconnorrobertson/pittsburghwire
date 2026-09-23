@@ -540,6 +540,28 @@ def withdraw_unverified_profiles(repo):
             open(page, "w", encoding="utf-8").write(updated)
 
 
+WITHDRAWN_NEWS = {
+    "pittsburgh-robotics-startup-funding-cmu-spinout": "Forge Robotics funding story",
+    "steel-city-ventures-40-million-pittsburgh-startup-fund": "Steel City Ventures funding story",
+}
+
+
+def withdraw_unverified_news(repo):
+    """Retain correction URLs but stop publishing uncorroborated reports."""
+    for slug, label in WITHDRAWN_NEWS.items():
+        path = os.path.join(repo, "news", slug, "index.html")
+        body = f'''  <div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/news/">News</a><span>/</span><span>Article unavailable</span></div>
+  <div class="page-head"><span class="page-eyebrow">Editorial review</span><h1 class="page-title">Article unavailable</h1><p class="page-deck">This report has been withdrawn while its claims are reviewed.</p></div>
+  <main class="archive"><p>We withdrew the {esc(label)} because we could not verify its central claims against reliable records. The original report is no longer available. If you have firsthand documentation or a correction, <a href="/contact" style="text-decoration:underline">contact the editorial team</a>.</p><p style="margin-top:20px"><a href="/news/" style="text-decoration:underline">Browse current reporting</a>.</p></main>'''
+        updated = page_shell("Article unavailable | The Pittsburgh Wire",
+                             "This article is unavailable while its claims are reviewed.",
+                             f"{SITE}/news/{slug}/", body, active_nav="/news/")
+        updated = updated.replace('<meta name="robots" content="index, follow" />',
+                                  '<meta name="robots" content="noindex, follow" />', 1)
+        if open(path, encoding="utf-8").read() != updated:
+            open(path, "w", encoding="utf-8").write(updated)
+
+
 def build_best_index(repo):
     items = scan_best(repo)
     # group by category (the part before " in ")
@@ -803,6 +825,7 @@ def main(repo):
     suppress_unresearched_guides(repo)
     sourced_profiles.write(repo, page_shell)
     withdraw_unverified_profiles(repo)
+    withdraw_unverified_news(repo)
     featured, extra, total = directory_index.update(repo)
     print(f"  directory/index.html ({featured} featured + {extra} more = {total} profiles)")
     articles = scan_articles(repo)

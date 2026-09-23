@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 from directory_index import (ALIASES, CATEGORIES, INACTIVE, PENDING_REVIEW,
                              UNVERIFIED, VERIFIED, VERIFIED_CATEGORY)
+from build_site import WITHDRAWN_NEWS
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.thepittsburghwire.com"
@@ -123,15 +124,15 @@ def check():
         if not page or page.canonical != url or "noindex" in page.robots:
             errors.append(f"Sitemap URL mismatches page: {url}")
 
-    withdrawn_article = "pittsburgh-ranked-top-city-small-business-growth"
-    withdrawn_path = ROOT / "news" / withdrawn_article / "index.html"
-    if "noindex" not in pages[withdrawn_path].robots:
-        errors.append("Unsupported article is indexable")
-    if any(withdrawn_article in url for url in sitemap):
-        errors.append("Unsupported article appears in sitemap")
-    for path, page in pages.items():
-        if path != withdrawn_path and any(withdrawn_article in href for href in page.links):
-            errors.append(f"Unsupported article promoted by {path.relative_to(ROOT)}")
+    for withdrawn_article in ("pittsburgh-ranked-top-city-small-business-growth", *WITHDRAWN_NEWS):
+        withdrawn_path = ROOT / "news" / withdrawn_article / "index.html"
+        if "noindex" not in pages[withdrawn_path].robots:
+            errors.append(f"Unsupported article is indexable: {withdrawn_article}")
+        if any(withdrawn_article in url for url in sitemap):
+            errors.append(f"Unsupported article appears in sitemap: {withdrawn_article}")
+        for path, page in pages.items():
+            if path != withdrawn_path and any(withdrawn_article in href for href in page.links):
+                errors.append(f"Unsupported article promoted by {path.relative_to(ROOT)}")
 
     hub = (ROOT / "directory" / "index.html").read_text(encoding="utf-8")
     for slug in VERIFIED:
