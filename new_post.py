@@ -27,7 +27,8 @@ story.json:
 }
 
 Body copy is raw HTML using the house classes: <p>, <h2>, <div class="fact-box">,
-<div class="pullquote">. No images, ever.
+<div class="pullquote">. Include at least one direct outbound source link.
+No images, ever.
 """
 
 import json
@@ -77,6 +78,10 @@ def validate(spec):
     body = spec["body"]
     if "<img" in body.lower() or "unsplash" in body.lower():
         die("The Pittsburgh Wire is text-only: remove the image from the body.")
+    sources = re.findall(r'<a\s+[^>]*href=["\'](https?://[^"\']+)["\']', body, re.I)
+    if not any(not re.match(r'https?://(?:www\.)?thepittsburghwire\.com(?:/|$)', url, re.I)
+               for url in sources):
+        die("article body needs a direct outbound source link for its central claims")
 
     words = len(re.sub(r'<[^>]+>', ' ', body).split())
     if words < 400:
@@ -132,6 +137,8 @@ def main():
         published = _date.fromisoformat(iso)
     except ValueError:
         die("date must be a valid YYYY-MM-DD date")
+    if published > _date.today():
+        die("publication date cannot be in the future")
     display = "%s %d, %s" % (MONTHS[published.month - 1], published.day, published.year)
     read_time = spec.get("read_time") or "%d min read" % max(2, round(words / 225))
 
@@ -145,7 +152,8 @@ def main():
     structured_data = {
         "@context": "https://schema.org", "@type": "NewsArticle",
         "headline": headline, "datePublished": iso, "dateModified": iso,
-        "author": {"@type": "Organization", "name": "The Pittsburgh Wire"},
+        "author": {"@type": "Organization" if byline.startswith("The Pittsburgh Wire") else "Person",
+                   "name": byline},
         "publisher": {"@type": "NewsMediaOrganization",
                       "@id": "https://www.thepittsburghwire.com/#organization",
                       "name": "The Pittsburgh Wire", "url": "https://www.thepittsburghwire.com",

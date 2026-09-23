@@ -7,10 +7,12 @@ import html
 import json
 import re
 import xml.etree.ElementTree as ET
+from datetime import date, timedelta
 
 from directory_index import (ALIASES, CATEGORIES, INACTIVE, PENDING_REVIEW,
                              UNVERIFIED, VERIFIED, VERIFIED_CATEGORY)
 from build_site import WITHDRAWN_NEWS
+from neighborhood_hubs import LOCAL_PROFILES
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.thepittsburghwire.com"
@@ -123,6 +125,35 @@ def check():
         page = pages.get(path)
         if not page or page.canonical != url or "noindex" in page.robots:
             errors.append(f"Sitemap URL mismatches page: {url}")
+
+    news_root = ET.parse(ROOT / "news-sitemap.xml").getroot()
+    recent = set()
+    for entry in news_root:
+        url = entry.find("{*}loc").text
+        published = entry.find("{*}news/{*}publication_date")
+        if published is None or not date.today() - timedelta(days=1) <= date.fromisoformat(published.text) <= date.today():
+            errors.append(f"Stale or missing news sitemap date: {url}")
+        if url not in sitemap or url in recent:
+            errors.append(f"Invalid news sitemap URL: {url}")
+        recent.add(url)
+
+    for page_path in sorted((ROOT / "neighborhoods").glob("*/index.html")):
+        source = page_path.read_text(encoding="utf-8")
+        news_cards = re.findall(r'<a href="/news/([^"/]+)" class="article-card">', source)
+        business_cards = re.findall(r'<a href="/directory/([^"/]+)" class="biz-card">', source)
+        if set(business_cards) != set(LOCAL_PROFILES.get(page_path.parent.name, ())):
+            errors.append(f"Neighborhood business mapping drift: {page_path.relative_to(ROOT)}")
+        for slug in news_cards:
+            article_path = ROOT / "news" / slug / "index.html"
+            if article_path not in pages or "noindex" in pages[article_path].robots:
+                errors.append(f"Neighborhood promotes unavailable article: {page_path.relative_to(ROOT)} -> {slug}")
+        for slug in business_cards:
+            profile_path = ROOT / "directory" / slug / "index.html"
+            if slug not in VERIFIED or profile_path not in pages or "noindex" in pages[profile_path].robots:
+                errors.append(f"Neighborhood promotes unverified profile: {page_path.relative_to(ROOT)} -> {slug}")
+        counts = re.findall(r'<span class="section-label-count">(\d+) (?:Articles?|Business(?:es)?)</span>', source)
+        if len(counts) < 2 or [int(n) for n in counts[:2]] != [len(news_cards), len(business_cards)]:
+            errors.append(f"Neighborhood card counts drift: {page_path.relative_to(ROOT)}")
 
     for withdrawn_article in ("pittsburgh-ranked-top-city-small-business-growth", *WITHDRAWN_NEWS):
         withdrawn_path = ROOT / "news" / withdrawn_article / "index.html"

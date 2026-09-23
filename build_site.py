@@ -25,6 +25,7 @@ import os
 import sys
 import html as html_mod
 from collections import OrderedDict
+from datetime import date, timedelta
 
 SITE = "https://www.thepittsburghwire.com"
 
@@ -54,6 +55,13 @@ CATEGORY_BLURB = {
               "Pittsburgh's momentum.",
     "Neighborhoods": "Block-by-block coverage of the districts that make up "
                      "the city.",
+}
+CATEGORY_SEARCH_TITLE = {
+    "Business": "Pittsburgh Business News",
+    "Real Estate": "Pittsburgh Real Estate News",
+    "Development": "Pittsburgh Development News",
+    "People": "Pittsburgh People and Community",
+    "Neighborhoods": "Pittsburgh Neighborhood News",
 }
 
 # normalise the labels that appear in the wild
@@ -419,7 +427,7 @@ def build_news_index(repo, articles):
 
   <div class="page-head">
     <span class="page-eyebrow">The Archive</span>
-    <h1 class="page-title">All Stories</h1>
+    <h1 class="page-title">Pittsburgh News Archive</h1>
     <p class="page-deck">Every story The Pittsburgh Wire has published &mdash; business, real estate, development, people, and neighborhoods. Newest first.</p>
     <p class="page-count">{len(articles)} stories &bull; updated {articles[0]["display_date"] if articles else ""}</p>
   </div>
@@ -430,7 +438,7 @@ def build_news_index(repo, articles):
 {grouped_archive(articles)}
   </main>"""
     out = page_shell(
-        "All Stories | The Pittsburgh Wire",
+        "Pittsburgh News Archive | The Pittsburgh Wire",
         "Browse every story from The Pittsburgh Wire: Pittsburgh business, real estate, "
         "development, people, and neighborhood news, newest first.",
         f"{SITE}/news/", body, active_nav="/news/")
@@ -453,7 +461,7 @@ def build_category_pages(repo, articles):
 
   <div class="page-head">
     <span class="page-eyebrow">Section</span>
-    <h1 class="page-title">{label}</h1>
+    <h1 class="page-title">{CATEGORY_SEARCH_TITLE[label]}</h1>
     <p class="page-deck">{CATEGORY_BLURB[label]}</p>
     <p class="page-count">{len(subset)} {"story" if len(subset) == 1 else "stories"}</p>
   </div>
@@ -464,7 +472,7 @@ def build_category_pages(repo, articles):
 {flat_archive(subset)}
   </main>"""
         out = page_shell(
-            f"{label} News | The Pittsburgh Wire",
+            f"{CATEGORY_SEARCH_TITLE[label]} | The Pittsburgh Wire",
             f"{CATEGORY_BLURB[label]} Pittsburgh {label.lower()} coverage from The Pittsburgh Wire.",
             f"{SITE}/news/{slug}/", body,
             active_nav=f"/news/{slug}/" if f"/news/{slug}/" in dict(NAV_LINKS) else "/news/")
@@ -768,6 +776,13 @@ def build_sitemap(repo, articles):
         relative = loc[len(SITE):].strip("/")
         page = os.path.join(repo, relative, "index.html") if relative else os.path.join(repo, "index.html")
         content = open(page, encoding="utf-8").read()
+        article_modified = re.search(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})"', content)
+        if article_modified and (not lastmod or article_modified.group(1) > lastmod):
+            lastmod = article_modified.group(1)
+        if not lastmod:
+            modified = re.search(r'<meta name="date-modified" content="(\d{4}-\d{2}-\d{2})"', content)
+            if modified:
+                lastmod = modified.group(1)
         canonical = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', content, re.I)
         if not canonical:
             raise ValueError(f"Missing canonical URL in {page}")
@@ -814,12 +829,43 @@ def build_sitemap(repo, articles):
     return len(urls)
 
 
+def build_news_sitemap(repo, articles, today=None):
+    """Keep only the last two calendar days in Google's news-specific feed."""
+    today = today or date.today()
+    earliest = today - timedelta(days=1)
+    entries = []
+    for article in articles:
+        published = date.fromisoformat(article["date"])
+        if not earliest <= published <= today:
+            continue
+        page = os.path.join(repo, "news", article["slug"], "index.html")
+        content = open(page, encoding="utf-8").read()
+        canonical = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', content, re.I)
+        if not canonical or 'name="robots" content="noindex' in content:
+            continue
+        entries.append(f'''  <url>
+    <loc>{esc(canonical.group(1))}</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>{article["date"]}</news:publication_date>
+      <news:title>{esc(article["title"])}</news:title>
+    </news:news>
+  </url>''')
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+           'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
+           + "\n".join(entries) + "\n</urlset>\n")
+    open(os.path.join(repo, "news-sitemap.xml"), "w", encoding="utf-8").write(xml)
+    return len(entries)
+
+
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
 def main(repo):
     import curated_guides
     import directory_index
+    import neighborhood_hubs
     import sourced_profiles
     curated_guides.write(repo, page_shell)
     suppress_unresearched_guides(repo)
@@ -834,6 +880,9 @@ def main(repo):
         return 1
     print(f"Scanned {len(articles)} articles. Newest: {articles[0]['date']} — {articles[0]['title']}")
 
+    refreshed = neighborhood_hubs.update(repo, articles)
+    print(f"  neighborhoods ({len(refreshed)} hubs refreshed from published pages)")
+
     build_news_index(repo, articles)
     print("  news/index.html")
     for label, n in build_category_pages(repo, articles):
@@ -842,6 +891,7 @@ def main(repo):
     update_homepage(repo, articles)
     print("  index.html (homepage sections refreshed)")
     print(f"  sitemap.xml ({build_sitemap(repo, articles)} urls)")
+    print(f"  news-sitemap.xml ({build_news_sitemap(repo, articles)} recent articles)")
     return 0
 
 
