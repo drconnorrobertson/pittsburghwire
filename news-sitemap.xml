@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thepittsburghwire.com/news/corepower-magnetics-10-million-pittsburgh-manufacturing</loc>
+    <loc>https://www.thepittsburghwire.com/news/strip-district-food-guide-pittsburgh</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-22</news:publication_date>
-      <news:title>CorePower Magnetics Raises $10.6M for Pittsburgh Growth</news:title>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>Strip District Food Guide: Where to Shop and Eat in Pittsburgh&#x27;s Market District</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-small-business-resources-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>Pittsburgh Small Business Resources: A Guide to Free Help, Funding and Support</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-inclines-guide-monongahela-duquesne</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>A Guide to Pittsburgh&#x27;s Inclines: Riding the Monongahela and Duquesne Inclines</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/fall-things-to-do-pittsburgh-2026</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>Fall Things to Do in Pittsburgh: A 2026 Seasonal Guide</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/best-pittsburgh-overlooks-scenic-views</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>The Best Pittsburgh Overlooks and Scenic Views</news:title>
     </news:news>
   </url>
 </urlset>
