@@ -9,6 +9,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ez-permits-small-business-owners-2026</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-25</news:publication_date>
+      <news:title>Pittsburgh Opens Fast Lane for 15 Routine Permits</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/strip-district-food-guide-pittsburgh</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
