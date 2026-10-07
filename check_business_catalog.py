@@ -28,7 +28,7 @@ def check():
         if 'name="robots" content="index, follow"' not in page:errors.append(f'{slug}: not indexable')
         if '<img' in page or 'og:image' in page:errors.append(f'{slug}: contains image')
         if len(r['source_excerpt'].split())>20:errors.append(f'{slug}: excessive source quotation')
-        if urlsplit(r['website']).scheme not in ('http','https'):errors.append(f'{slug}: invalid website')
+        if urlsplit(r['website']).scheme not in ('http','https') or not urlsplit(r['website']).netloc or ' ' in r['website']:errors.append(f'{slug}: invalid website')
         graphs=re.findall(r'<script type="application/ld\+json">(.*?)</script>',page,re.S)
         graph=json.loads(graphs[-1])['@graph']
         web=next(x for x in graph if x.get('@type')=='WebPage')

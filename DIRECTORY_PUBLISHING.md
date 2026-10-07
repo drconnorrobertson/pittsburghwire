@@ -1,6 +1,6 @@
 # Source-backed Pittsburgh business directory
 
-The October 7, 2026 expansion adds 1,000 sourced listings to the 21 previously checked profiles. Listings include Pittsburgh and nearby communities. They are sourced from VisitPITTSBURGH and the Pittsburgh North Regional Chamber, not personal reviews or endorsements. Founder and publisher Dr. Connor Robertson is the author of the new profiles and collections.
+The October 7, 2026 expansion adds 2,647 sourced listings to the 21 previously checked profiles. Listings include Pittsburgh and nearby communities. They are sourced from VisitPITTSBURGH and the Pittsburgh North, Pittsburgh Airport Area, Westmoreland County, and Beaver County chambers, not personal reviews or endorsements. Founder and publisher Dr. Connor Robertson is the author of the new profiles and collections.
 
 `data/businesses.json` holds published business facts and source links. Missing owners, founding dates, staff counts, ratings, prices, and hours are intentionally omitted. The short attributed source excerpt never exceeds 20 words. Keep sources and checked dates current when updating records. Do not assert a storefront is open solely because a mailing address exists.
 

@@ -2,9 +2,9 @@
 
 ## October 7, 2026 execution update
 
-The directory expansion publishes 1,000 additional source-backed listings, for 1,021 total profiles. Coverage includes Pittsburgh mailing addresses and nearby communities; the page always states the listed address. Every added record has a name, category, address, phone, website, source, and checked date. The new profiles, 13 category hubs, and 26 focused service/community collections credit Dr. Connor Robertson. Fifty-four existing news articles now link to relevant profiles, and those profiles link back to the reporting.
+The directory expansion publishes 2,647 source-backed listings alongside 21 earlier profiles, for 2,668 total profiles. Coverage includes Pittsburgh mailing addresses and nearby communities; the page always states the listed address. Every added record has a name, category, address, phone, website, source, and checked date. The new profiles, 13 category hubs, and 61 focused service/community collections credit Dr. Connor Robertson. Seventy-eight existing news articles now link to relevant profiles, and those profiles link back to the reporting.
 
-These are useful directory records, not 1,000 original reported features. The next editorial investment should add primary-source service details, owner interviews, and verified local context to the businesses that readers actually search for. The source listing establishes published contact information, not a review score or proof of a personal visit.
+These are useful directory records, not 2,647 original reported features. The next editorial investment should add primary-source service details, owner interviews, and verified local context to the businesses that readers actually search for. The source listing establishes published contact information, not a review score or proof of a personal visit.
 
 ### Measured starting point
 

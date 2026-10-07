@@ -6,19 +6,19 @@ from business_catalog import DATA, SITE, AUTHOR, shell
 
 SERVICES={
  'accountants-and-bookkeepers':('Accountants & Bookkeepers',r'accounting|bookkeep'),
- 'financial-advisors':('Financial Advisors',r'financial advisors'),
+ 'financial-advisors':('Financial Advisors',r'financial advisors|financial planning|investment services'),
  'insurance':('Insurance Businesses',r'insurance'),
  'law-firms':('Law Firms',r'attorney|law firm'),
  'contractors':('Contractors',r'contractor'),
- 'fitness-centers':('Fitness Centers',r'fitness'),
+ 'fitness-centers':('Fitness Centers',r'fitness|health club|gymnasium'),
  'marketing-and-advertising':('Marketing & Advertising Businesses',r'marketing|advertising|public relations'),
  'consultants':('Business Consultants',r'business.*consult|management.*consult'),
  'caterers':('Caterers',r'catering'),
  'breweries-wineries-and-distilleries':('Breweries, Wineries & Distilleries',r'winer|brewer|distill'),
- 'museums-and-galleries':('Museums & Galleries',r'visual arts and museums|arts, crafts & galleries'),
- 'event-venues':('Event & Meeting Venues',r'event & meeting venues|entertainment venues/districts'),
- 'home-improvement':('Home Improvement Businesses',r'home/home improvement|home improvement|landscape and lawn'),
- 'automotive-dealers':('Automotive Dealers',r'automobile - dealers'),
+ 'museums-and-galleries':('Museums & Galleries',r'visual arts and museums|arts, crafts & galleries|museum|art galleries'),
+ 'event-venues':('Event & Meeting Venues',r'event & meeting venues|entertainment venues/districts|banquet|event facilit|meeting facilit'),
+ 'home-improvement':('Home Improvement Businesses',r'home/home improvement|home improvement|landscape and lawn|landscaping|roofing|plumbing'),
+ 'automotive-dealers':('Automotive Dealers',r'automobile - dealers|automotive dealership|auto.*dealers'),
 }
 def slugify(s):return re.sub('[^a-z0-9]+','-',s.lower()).strip('-')
 def collections():
