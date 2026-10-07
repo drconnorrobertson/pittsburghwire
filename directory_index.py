@@ -9,6 +9,7 @@ CATEGORIES = (
     "food-and-drink", "tech", "health-and-wellness", "real-estate",
     "arts-and-culture", "retail", "professional-services",
     "trades-and-services", "education", "finance", "automotive",
+    "hotels-and-lodging", "nonprofit-and-community",
 )
 
 # Old profile URLs stay available through permanent redirects in vercel.json.
@@ -56,6 +57,9 @@ VERIFIED_CATEGORY = {
     "sw-randall-toyes": "retail", "upmc": "health-and-wellness",
     "walnut-capital": "real-estate",
 }
+from business_catalog import DATA as CATALOG_DATA
+VERIFIED.update(CATALOG_DATA)
+VERIFIED_CATEGORY.update({slug: item['category'] for slug, item in CATALOG_DATA.items()})
 PENDING_REVIEW = {
     p.parent.name for p in (Path(__file__).resolve().parent / "directory").glob("*/index.html")
     if p.parent.name not in set(CATEGORIES) | set(ALIASES) | INACTIVE | UNVERIFIED | VERIFIED

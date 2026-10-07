@@ -803,6 +803,7 @@ def build_sitemap(repo, articles):
     add(f"{SITE}/best/", "0.8", "weekly")
     add(f"{SITE}/weekly", "0.7", "weekly")
     add(f"{SITE}/about", "0.6", "monthly")
+    add(f"{SITE}/founder/", "0.6", "monthly")
     add(f"{SITE}/author", "0.5", "monthly")
     add(f"{SITE}/contact", "0.5", "monthly")
     add(f"{SITE}/privacy", "0.3", "yearly")
@@ -810,8 +811,10 @@ def build_sitemap(repo, articles):
     for a in articles:
         add(f"{SITE}/news/{a['slug']}", "0.9", "monthly", a["date"])
 
-    for section, pri in (("best", "0.7"), ("directory", "0.6"), ("neighborhoods", "0.7")):
+    for section, pri in (("best", "0.7"), ("directory", "0.6"), ("neighborhoods", "0.7"), ("services", "0.6"), ("locations", "0.6")):
         d = os.path.join(repo, section)
+        if not os.path.isdir(d):
+            continue
         for slug in sorted(os.listdir(d)):
             page = os.path.join(d, slug, "index.html")
             if os.path.isfile(page) and (section != "directory" or slug not in EXCLUDED_DIRECTORY) and (section != "best" or
@@ -870,15 +873,21 @@ def main(repo):
     curated_guides.write(repo, page_shell)
     suppress_unresearched_guides(repo)
     sourced_profiles.write(repo, page_shell)
+    import business_catalog
+    business_catalog.write(repo, page_shell)
     withdraw_unverified_profiles(repo)
     withdraw_unverified_news(repo)
     featured, extra, total = directory_index.update(repo)
+    business_catalog.browse(repo, page_shell)
     print(f"  directory/index.html ({featured} featured + {extra} more = {total} profiles)")
     articles = scan_articles(repo)
     if len(articles) < 10:
         print(f"WARNING: only {len(articles)} articles found; aborting.")
         return 1
     print(f"Scanned {len(articles)} articles. Newest: {articles[0]['date']} — {articles[0]['title']}")
+    import business_discovery
+    print(f"  business discovery ({business_discovery.write(repo, page_shell)} service and community collections)")
+    print(f"  news-directory links ({business_discovery.link_news(repo, articles)} articles linked)")
 
     refreshed = neighborhood_hubs.update(repo, articles)
     print(f"  neighborhoods ({len(refreshed)} hubs refreshed from published pages)")

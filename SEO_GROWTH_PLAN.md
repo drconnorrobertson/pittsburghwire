@@ -1,5 +1,48 @@
 # Pittsburgh Wire search growth plan — September 22, 2026
 
+## October 7, 2026 execution update
+
+The directory expansion publishes 1,000 additional source-backed listings, for 1,021 total profiles. Coverage includes Pittsburgh mailing addresses and nearby communities; the page always states the listed address. Every added record has a name, category, address, phone, website, source, and checked date. The new profiles, 13 category hubs, and 26 focused service/community collections credit Dr. Connor Robertson. Fifty-four existing news articles now link to relevant profiles, and those profiles link back to the reporting.
+
+These are useful directory records, not 1,000 original reported features. The next editorial investment should add primary-source service details, owner interviews, and verified local context to the businesses that readers actually search for. The source listing establishes published contact information, not a review score or proof of a personal visit.
+
+### Measured starting point
+
+Connected Google Search Console data for September 7–October 4, 2026 shows:
+
+| Query | Clicks | Impressions | Average position |
+| --- | ---: | ---: | ---: |
+| opal grand buffet | 62 | 2,839 | 5.89 |
+| opal grand buffet price | 35 | 173 | 1.55 |
+| badamos sandwich shop | 9 | 150 | 4.48 |
+| giulia pittsburgh | 9 | 89 | 3.29 |
+| hotel bardo pittsburgh | 8 | 37 | 2.35 |
+
+These are average positions across the reported period, not fixed current ranks. Google URL Inspection confirms the directory homepage was submitted and indexed; its last recorded crawl was October 5. That does not establish indexing of the new profiles.
+
+### A practical route to broader Pittsburgh visibility
+
+1. **Business-name searches:** Keep one accurate profile per distinct business/location. Improve contact details, service specifics, official booking/menu links, and related reporting. Preserve existing articles already receiving search traffic. Expand current source checks before calling a planned opening operational.
+2. **Service discovery:** Maintain focused collections of real providers with explicit source categories. Prioritize accountants/bookkeepers, financial advisors, contractors, law firms, catering, and marketing. Add information that helps a reader compare providers; do not rank them without a documented basis.
+3. **Neighborhood discovery:** Strengthen the existing neighborhood hubs with verified neighborhood assignments, current openings, independent shops, and original reporting. Mailing ZIP codes alone cannot establish a neighborhood. Community collections use the source's named mailing locality.
+4. **Business and development news:** Maintain dated opening and development trackers with direct business announcements, permit records, and project-status distinctions. Build on the Wire's existing restaurant-opening search demand.
+5. **Local authority:** Give businesses a useful, accurate profile they can choose to link to. Publish original interviews and factual project timelines that local organizations can cite. Outreach is a separate action requiring explicit messaging authorization; none is sent in this release.
+6. **Measurement:** Compare non-overlapping 28-day windows. Track directory impressions/clicks, number of profiles receiving impressions, business-name query positions, service/community query positions, and sampled indexing verdicts. Flag pages with impressions but weak click-through for title/snippet improvements; investigate documented crawl/indexing failures before publishing more variants.
+
+### Next 90 days: priorities, not scheduled commitments
+
+**First 14 days:** Verify the release and sitemap receipt; inspect a representative sample after Google has time to crawl. Review the strongest existing business-name pages for source freshness and correct opening status. Add richer facts to the first 25 profiles with demonstrated demand.
+
+**Days 15–45:** Produce 20 original owner/business features connected to the directory and location hubs. Maintain one restaurant-opening tracker and one development tracker. Seek voluntary local citations through useful reporting and accurate profiles.
+
+**Days 46–90:** Expand the sectors and communities that show real demand. Refresh weak or stale entries and improve the comparison detail in service collections. Measure increases in search visibility and qualified readers; do not describe a first-place goal as an achieved rank.
+
+### Indexing implementation
+
+The full sitemap and directory sitemap expose every eligible profile. Both are declared in robots.txt. The IndexNow key is connected and its live file validated. The submission script waits for Vercel's current static content and submits sitemap URLs to IndexNow. An optional automatic workflow is prepared but not installed because the saved token lacks workflow scope. Google receives the live sitemaps through Search Console. Submission acceptance is not an indexing or ranking guarantee; ordinary business pages do not qualify for Google's restricted Indexing API.
+
+The September assessment below is retained as historical context; its URL/profile counts and statement about unavailable Search Console query data predate this release.
+
 ## Positioning
 
 Win useful Pittsburgh searches through original, source-checked reporting on local business, real estate, development, and neighborhoods. “All things Pittsburgh” is a long-term editorial ambition, not a keyword target or an indexation guarantee. Publishing many lightly researched pages would weaken the site's credibility. Google's [people-first guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) favors useful, reliable work with a clear audience.
