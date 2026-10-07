@@ -21,6 +21,16 @@ def check():
         name=re.sub('[^a-z0-9]','',r['name'].lower())
         if name in names:errors.append(f'{slug}: duplicate business name')
         names.add(name)
+        research=r.get('official_research',{})
+        if research.get('status')=='corroborated':
+            host=urlsplit(research['url']).hostname
+            links=list(research.get('links',{}).values())+research.get('topics',[])
+            for link in links:
+                if urlsplit(link['url']).hostname!=host:errors.append(f'{slug}: official evidence link leaves corroborated host')
+                if link in research.get('topics',[]) and link['url'].replace('&','&amp;') not in page:errors.append(f'{slug}: sourced topic link missing from output')
+            words=len(research.get('description_excerpt','').split())+sum(len(x['label'].split()) for x in research.get('topics',[]))
+            if words>25:errors.append(f'{slug}: source excerpt budget exceeded')
+        if 'source-directory classification' not in page:errors.append(f'{slug}: missing category qualification')
         if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
         sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
@@ -33,6 +43,11 @@ def check():
         graph=json.loads(graphs[-1])['@graph']
         web=next(x for x in graph if x.get('@type')=='WebPage')
         if web['author']['@id']!=SITE+'/#founder':errors.append(f'{slug}: invalid structured author')
+    original_file=ROOT/'data/original-businesses.json'
+    if original_file.exists():
+        for slug in json.loads(original_file.read_text()):
+            markup=(ROOT/'directory'/slug/'index.html').read_text()
+            if markup.count('<!-- ORIGINAL_DEPTH_START -->')!=1:errors.append(f'{slug}: missing or duplicated original profile guide')
     print(f'{len(DATA)} catalog records; {len(VERIFIED)} published profiles; {len(urls)} directory sitemap URLs; {len(errors)} errors')
     for error in errors[:30]:print('ERROR',error)
     return not errors

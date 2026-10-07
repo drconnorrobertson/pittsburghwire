@@ -889,6 +889,9 @@ def main(repo):
     print(f"  business discovery ({business_discovery.write(repo, page_shell)} service and community collections)")
     print(f"  news-directory links ({business_discovery.link_news(repo, articles)} articles linked)")
 
+    import original_profile_depth
+    print(f"  original directory depth ({original_profile_depth.write(repo)} profiles)")
+
     refreshed = neighborhood_hubs.update(repo, articles)
     print(f"  neighborhoods ({len(refreshed)} hubs refreshed from published pages)")
 

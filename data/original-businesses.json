@@ -1,0 +1,611 @@
+{
+  "baum-boulevard-automotive": {
+    "name": "Baum Boulevard Automotive",
+    "website": "https://www.baumblvdauto.com/",
+    "source": "https://www.baumblvdauto.com/about",
+    "address": "4741 Baum Boulevard, Pittsburgh, PA 15213",
+    "city": "Pittsburgh",
+    "category": "automotive",
+    "source_category": "Automotive",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.baumblvdauto.com/",
+      "title": "Auto Repair in Pittsburgh | Auto Mechanics | Baum Boulevard Automotive",
+      "description_excerpt": "Looking for the best auto repair shop in Pittsburgh? Call the certified Pittsburgh auto mechanics…",
+      "links": {
+        "about": {
+          "url": "https://www.baumblvdauto.com/about",
+          "label": "about"
+        },
+        "services": {
+          "url": "https://www.baumblvdauto.com/services",
+          "label": "services"
+        },
+        "careers": {
+          "url": "https://www.baumblvdauto.com/careers",
+          "label": "careers"
+        },
+        "contact": {
+          "url": "https://www.baumblvdauto.com/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "baum",
+        "automotive",
+        "boulevard"
+      ]
+    }
+  },
+  "carnegie-robotics": {
+    "name": "Carnegie Robotics",
+    "website": "https://www.carnegierobotics.com/",
+    "source": "https://www.carnegierobotics.com/about",
+    "address": "4501 Hatfield Street, Pittsburgh, PA 15201",
+    "city": "Pittsburgh",
+    "category": "tech",
+    "source_category": "Technology",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.carnegierobotics.com/",
+      "title": "Carnegie Robotics | Autonomous Vehicle Solutions",
+      "description_excerpt": "Carnegie Robotics stands as a leading provider of advanced autonomy, safety-focused robotics sensors and platforms.…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "carnegie",
+        "robotics"
+      ]
+    }
+  },
+  "chatham-university": {
+    "name": "Chatham University",
+    "website": "https://www.chatham.edu/",
+    "source": "https://www.chatham.edu/about-us/",
+    "address": "107 Woodland Road, Pittsburgh, PA 15232",
+    "city": "Pittsburgh",
+    "category": "education",
+    "source_category": "Education",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.chatham.edu/",
+      "title": "Chatham University - Pittsburgh, PA",
+      "description_excerpt": "Chatham University is a nationally ranked institution offering undergraduate, graduate, and integrated business, health sciences,…",
+      "links": {
+        "locations": {
+          "url": "https://www.chatham.edu/locations/index.html",
+          "label": "locations"
+        },
+        "contact": {
+          "url": "https://www.chatham.edu/contact/index.html",
+          "label": "contact us"
+        },
+        "about": {
+          "url": "https://www.chatham.edu/about-us/index.html",
+          "label": "about us"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "chatham",
+        "university"
+      ]
+    }
+  },
+  "de-fer-coffee": {
+    "name": "De Fer Coffee & Tea",
+    "website": "https://www.defer.coffee/",
+    "source": "https://www.defer.coffee/strip-district",
+    "address": "2002 Smallman Street, Pittsburgh, PA 15222",
+    "city": "Pittsburgh",
+    "category": "food-and-drink",
+    "source_category": "Food & Drink",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.defer.coffee/",
+      "title": "De Fer Coffee & Tea | Specialty Coffee Café & Roastery",
+      "description_excerpt": "De Fer Coffee & Tea is an employee owned and operated specialty coffee company with…",
+      "links": {
+        "locations": {
+          "url": "https://www.defer.coffee/locations",
+          "label": "locations"
+        },
+        "contact": {
+          "url": "https://www.defer.coffee/contact-us",
+          "label": "contact"
+        },
+        "careers": {
+          "url": "https://www.defer.coffee/de-fer-careers",
+          "label": "careers"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://www.defer.coffee/shop-all/gift-cards",
+          "label": "gift cards"
+        }
+      ],
+      "identity_tokens": [
+        "coffee"
+      ]
+    }
+  },
+  "dollar-bank": {
+    "name": "Dollar Bank",
+    "website": "https://dollar.bank/",
+    "source": "https://locations.dollar.bank/headquarters/pittsburgh-headquarters",
+    "address": "20 Stanwix Street, Pittsburgh, PA 15222",
+    "city": "Pittsburgh",
+    "category": "finance",
+    "source_category": "Finance",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://dollar.bank/personal",
+      "title": "Dollar Bank: Serving Pennsylvania, Ohio, and Virginia since 1855x-logo",
+      "description_excerpt": "Dollar Bank's personal banking solutions include checking and savings accounts with free online banking, mortgages,…",
+      "links": {
+        "about": {
+          "url": "https://dollar.bank/about",
+          "label": "about"
+        },
+        "careers": {
+          "url": "https://dollar.bank/about/careers",
+          "label": "careers"
+        },
+        "contact": {
+          "url": "https://dollar.bank/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://dollar.bank/personal/banking/checking",
+          "label": "checking"
+        },
+        {
+          "url": "https://dollar.bank/personal/banking/savings",
+          "label": "savings"
+        },
+        {
+          "url": "https://dollar.bank/personal/borrowing/mortgages",
+          "label": "mortgages"
+        }
+      ],
+      "identity_tokens": [
+        "dollar"
+      ]
+    }
+  },
+  "franco-associates": {
+    "name": "Franco Associates",
+    "website": "https://francoassoc.com/",
+    "source": "https://francoassoc.com/",
+    "address": "1501 Ardmore Boulevard, Suite 100, Pittsburgh, PA 15221",
+    "city": "Pittsburgh",
+    "category": "professional-services",
+    "source_category": "Professional Services",
+    "official_research": {
+      "status": "unavailable",
+      "checked": "2026-10-07"
+    }
+  },
+  "gecko-robotics": {
+    "name": "Gecko Robotics",
+    "website": "https://www.geckorobotics.com/",
+    "source": "https://www.geckorobotics.com/contact",
+    "address": "100 S Commons, Suite 145, Pittsburgh, PA 15212",
+    "city": "Pittsburgh",
+    "category": "tech",
+    "source_category": "Technology",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.geckorobotics.com/",
+      "title": "Gecko Robotics",
+      "description_excerpt": "Gecko transforms how organizations build, operate, and maintain their most critical infrastructure by fusing AI…",
+      "links": {
+        "about": {
+          "url": "https://www.geckorobotics.com/about-us",
+          "label": "about"
+        },
+        "careers": {
+          "url": "https://www.geckorobotics.com/careers",
+          "label": "careers"
+        },
+        "contact": {
+          "url": "https://www.geckorobotics.com/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "robotics",
+        "gecko"
+      ]
+    }
+  },
+  "pamelas-diner": {
+    "name": "P&G Pamela's Diner",
+    "website": "https://pamelasdiner.com/",
+    "source": "https://pamelasdiner.com/",
+    "address": "60 21st Street, Pittsburgh, PA 15222 (Strip District location)",
+    "city": "Pittsburgh",
+    "category": "food-and-drink",
+    "source_category": "Food & Drink",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://pamelasdiner.com/",
+      "title": "P&G Pamela's Diner | P&G Pamela's Diner, Strip District, Shadyside & Mt. Lebanon",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "pamela",
+        "diner"
+      ]
+    }
+  },
+  "pennsylvania-macaroni": {
+    "name": "Pennsylvania Macaroni Company",
+    "website": "https://www.pennmac.com/",
+    "source": "https://www.pennmac.com/page/451/contact-us",
+    "address": "2010 Penn Avenue, Pittsburgh, PA 15222",
+    "city": "Pittsburgh",
+    "category": "food-and-drink",
+    "source_category": "Food & Drink",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.pennmac.com/",
+      "title": "PennMac Home",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.pennmac.com/page/4/italian-imports-shop-modern-italian-food-store",
+          "label": "about"
+        },
+        "contact": {
+          "url": "https://www.pennmac.com/page/451/contact-us",
+          "label": "contact"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://www.pennmac.com/page/407/gourmet-food-gift-cards",
+          "label": "gift cards"
+        }
+      ],
+      "identity_tokens": [
+        "macaroni",
+        "pennsylvania"
+      ]
+    }
+  },
+  "petuum": {
+    "name": "Petuum",
+    "website": "https://www.linkedin.com/company/petuum",
+    "source": "https://www.linkedin.com/company/petuum",
+    "address": "40 24th Street, Pittsburgh, PA 15222",
+    "city": "Pittsburgh",
+    "category": "tech",
+    "source_category": "Technology",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.linkedin.com/company/petuum",
+      "title": "Petuum | LinkedIn",
+      "description_excerpt": "Petuum | 6,943 followers on LinkedIn. Unlocking the Future of AI for Organizations Everywhere |…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "petuum"
+      ]
+    }
+  },
+  "pittsburgh-cultural-trust": {
+    "name": "Pittsburgh Cultural Trust",
+    "website": "https://trustarts.org/",
+    "source": "https://trustarts.org/pct_home/about",
+    "address": "Pittsburgh Cultural District, Downtown Pittsburgh",
+    "city": "Pittsburgh",
+    "category": "arts-and-culture",
+    "source_category": "Arts, Entertainment & Recreation",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://trustarts.org/",
+      "title": "The Pittsburgh Cultural Trust",
+      "description_excerpt": "Official site for Benedum Center and Byham Theater, presenting PNC Broadway Across America, Trust Presents,…",
+      "links": {
+        "about": {
+          "url": "https://trustarts.org/pct_home/about",
+          "label": "about"
+        },
+        "contact": {
+          "url": "https://trustarts.org/contact",
+          "label": "contact us"
+        },
+        "events": {
+          "url": "https://trustarts.org/pct_home/events",
+          "label": "events"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://trustarts.org/pct_home/events",
+          "label": "tickets"
+        }
+      ],
+      "identity_tokens": [
+        "trust",
+        "cultural"
+      ]
+    }
+  },
+  "pj-dick": {
+    "name": "PJ Dick",
+    "website": "https://pjdick.com/",
+    "source": "https://pjdick.com/about",
+    "address": "30 Isabella Street, Suite 500, Pittsburgh, PA 15212",
+    "city": "Pittsburgh",
+    "category": "trades-and-services",
+    "source_category": "Trades & Services",
+    "official_research": {
+      "status": "identity-unconfirmed",
+      "checked": "2026-10-07"
+    }
+  },
+  "pnc-financial-services": {
+    "name": "PNC Financial Services",
+    "website": "https://www.pnc.com/",
+    "source": "https://investor.pnc.com/company-information/faqs",
+    "address": "300 Fifth Avenue, Pittsburgh, PA 15222",
+    "city": "Pittsburgh",
+    "category": "finance",
+    "source_category": "Finance",
+    "official_research": {
+      "status": "identity-unconfirmed",
+      "checked": "2026-10-07"
+    }
+  },
+  "point-breeze-vet": {
+    "name": "Point Breeze Veterinary Clinic",
+    "website": "https://www.pointbreezevet.com/",
+    "source": "https://www.pointbreezevet.com/about/about-point-breeze-vet",
+    "address": "6742 Reynolds Street, Pittsburgh, PA 15206",
+    "city": "Pittsburgh",
+    "category": "health-and-wellness",
+    "source_category": "Health & Wellness",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.pointbreezevet.com/",
+      "title": "Point Breeze Veterinary Clinic | Best Pet Care in Pittsburgh",
+      "description_excerpt": "Our dedicated staff is educated and experienced in giving the best care for your pet,…",
+      "links": {
+        "about": {
+          "url": "https://www.pointbreezevet.com/about/about-point-breeze-vet",
+          "label": "about us"
+        },
+        "services": {
+          "url": "https://www.pointbreezevet.com/services",
+          "label": "services"
+        },
+        "contact": {
+          "url": "https://www.pointbreezevet.com/contact-us",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "breeze",
+        "point",
+        "clinic",
+        "veterinary"
+      ]
+    }
+  },
+  "primanti-brothers": {
+    "name": "Primanti Bros.",
+    "website": "https://primantibros.com/",
+    "source": "https://restaurants.primantibros.com/locations/pa/pittsburgh",
+    "address": "46 18th Street, Pittsburgh, PA 15222 (Strip District location)",
+    "city": "Pittsburgh",
+    "category": "food-and-drink",
+    "source_category": "Food & Drink",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://primantibros.com/",
+      "title": "Almost Famous, Always A Favorite. Since 1933 | Primanti Bros.",
+      "description_excerpt": "The First Primanti Bros. Restaurant wasn’t a restaurant at all. It was a cart. That’s…",
+      "links": {
+        "careers": {
+          "url": "https://primantibros.com/careers",
+          "label": "careers"
+        },
+        "about": {
+          "url": "https://primantibros.com/our-story",
+          "label": "our story"
+        },
+        "contact": {
+          "url": "https://primantibros.com/contact-us",
+          "label": "contact us"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "primanti",
+        "bros"
+      ]
+    }
+  },
+  "walnut-capital": {
+    "name": "Walnut Capital",
+    "website": "https://www.walnutcapital.com/",
+    "source": "https://www.walnutcapital.com/contact",
+    "address": "5500 Walnut Street, Suite 300, Pittsburgh, PA 15232",
+    "city": "Pittsburgh",
+    "category": "real-estate",
+    "source_category": "Real Estate",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.walnutcapital.com/",
+      "title": "Pittsburgh Apartments | Walnut Capital",
+      "description_excerpt": "Walnut Capital offers a variety of Pittsburgh apartments and townhomes for rent in Pittsburgh's most…",
+      "links": {
+        "about": {
+          "url": "https://www.walnutcapital.com/rental-companies-pittsburgh",
+          "label": "about us"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "capital",
+        "walnut"
+      ]
+    }
+  },
+  "sw-randall-toyes": {
+    "name": "S.W. Randall Toyes & Giftes",
+    "website": "https://swrandalltoys.com/",
+    "source": "https://swrandalltoys.com/",
+    "address": "",
+    "city": "Pittsburgh",
+    "category": "retail",
+    "source_category": "Retail",
+    "official_research": {
+      "status": "identity-unconfirmed",
+      "checked": "2026-10-07"
+    }
+  },
+  "steel-city-boxing": {
+    "name": "Steel City Boxing Association",
+    "website": "",
+    "source": "https://pittsburgh.legistar.com/LegislationDetail.aspx?GUID=60DE91C0-985A-48F9-94AD-55D18A6C6700&ID=7760274&Options=&Search=",
+    "address": "",
+    "city": "Pittsburgh",
+    "category": "health-and-wellness",
+    "source_category": "Health & Wellness",
+    "official_research": {
+      "status": "unavailable",
+      "checked": "2026-10-07"
+    }
+  },
+  "construction-junction": {
+    "name": "Construction Junction",
+    "website": "https://cjreuse.org/",
+    "source": "https://cjreuse.org/",
+    "address": "",
+    "city": "Pittsburgh",
+    "category": "retail",
+    "source_category": "Retail",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://cjreuse.org/",
+      "title": "Home - Construction Junction",
+      "description_excerpt": "The Annual Cee Jay Awards & Fundraiser Join us on October 29th, 2026 on the…",
+      "links": {
+        "contact": {
+          "url": "https://cjreuse.org/contact/",
+          "label": "contact us"
+        },
+        "careers": {
+          "url": "https://cjreuse.org/about/jobs/",
+          "label": "careers"
+        },
+        "events": {
+          "url": "https://cjreuse.org/events/",
+          "label": "events"
+        },
+        "about": {
+          "url": "https://cjreuse.org/about/",
+          "label": "about us"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://cjreuse.org/product-category/plumbing-and-bath/",
+          "label": "plumbing"
+        }
+      ],
+      "identity_tokens": [
+        "junction",
+        "construction"
+      ]
+    }
+  },
+  "upmc": {
+    "name": "UPMC",
+    "website": "https://upmc.com",
+    "source": "https://upmc.com",
+    "address": "",
+    "city": "Pittsburgh",
+    "category": "health-and-wellness",
+    "source_category": "Health & Wellness",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-07",
+      "url": "https://www.upmc.com/",
+      "title": "UPMC: #1 Ranked Hospital in Pittsburgh",
+      "description_excerpt": "Find a doctor or request an appointment at UPMC, ranked the #1 hospital in Pittsburgh…",
+      "links": {
+        "about": {
+          "url": "https://www.upmc.com/about",
+          "label": "about us"
+        },
+        "contact": {
+          "url": "https://www.upmc.com/contact",
+          "label": "contact us"
+        },
+        "appointments": {
+          "url": "https://www.upmc.com/contact/appointments",
+          "label": "schedule an appointment"
+        },
+        "locations": {
+          "url": "https://www.upmc.com/locations",
+          "label": "locations"
+        },
+        "services": {
+          "url": "https://www.upmc.com/services",
+          "label": "services"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://www.upmc.com/services/primary-care",
+          "label": "primary care"
+        },
+        {
+          "url": "https://www.upmc.com/services/rehab/crs/locations",
+          "label": "physical therapy"
+        }
+      ],
+      "identity_tokens": [
+        "upmc"
+      ]
+    }
+  },
+  "gaucho-parrilla": {
+    "name": "Gaucho Parrilla Argentina",
+    "website": "https://eatgaucho.com",
+    "source": "https://eatgaucho.com",
+    "address": "",
+    "city": "Pittsburgh",
+    "category": "food-and-drink",
+    "source_category": "Food & Drink",
+    "official_research": {
+      "status": "identity-unconfirmed",
+      "checked": "2026-10-07"
+    }
+  }
+}

@@ -3,6 +3,7 @@ import re
 from html import escape, unescape
 from pathlib import Path
 from business_catalog import DATA, SITE, AUTHOR, shell
+from business_depth import collection_depth, article_body_span
 
 SERVICES={
  'accountants-and-bookkeepers':('Accountants & Bookkeepers',r'accounting|bookkeep'),
@@ -39,8 +40,9 @@ def write(repo,page_shell):
         desc=f'Explore {len(slugs)} source-checked business profiles. Compare listed categories, addresses, websites, and contact details in The Pittsburgh Wire directory.'
         cards=''.join(f'<a class="biz-card" href="/directory/{s}/"><div class="biz-name">{escape(DATA[s]["name"])}</div><div class="biz-owner">{escape(DATA[s]["source_category"])}<br>{escape(DATA[s]["address"])}</div></a>' for s in slugs)
         text=('These businesses share the listed service categories shown below. Categories come from their source listings; compare each provider’s services and contact the business directly about the work you need.' if section=='services' else 'These profiles use the city or community shown in the source address. A Pittsburgh mailing address can also cover nearby suburbs; check the map and full address for the actual location.')
-        body=f'<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><span>{escape(title)}</span></div><header class="page-head"><span class="page-eyebrow">Find a local business</span><h1 class="page-title">{escape(title)}</h1><p class="page-deck">{escape(desc)}</p><p class="profile-byline">By <a href="/founder/" rel="author">Dr. Connor Robertson</a></p></header><main class="archive"><p>{text}</p><p class="catalog-note">Listings are alphabetical. Each profile links to its sources and business website.</p><div class="biz-grid">{cards}</div><a class="directory-back" href="/directory/">Search the complete Pittsburgh business directory →</a></main>'
-        graph=[AUTHOR,{'@type':'CollectionPage','name':title,'url':url,'author':{'@id':AUTHOR['@id']},'mainEntity':{'@type':'ItemList','numberOfItems':len(slugs),'itemListElement':[{'@type':'ListItem','position':i+1,'name':DATA[s]['name'],'url':SITE+'/directory/'+s+'/'} for i,s in enumerate(slugs)]}}]
+        depth=collection_depth(section,slugs,DATA)
+        body=f'<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><span>{escape(title)}</span></div><header class="page-head"><span class="page-eyebrow">Find a local business</span><h1 class="page-title">{escape(title)}</h1><p class="page-deck">{escape(desc)}</p><p class="profile-byline">By <a href="/founder/" rel="author">Dr. Connor Robertson</a></p></header><main class="archive"><p>{text}</p>{depth}<p class="catalog-note">Listings are alphabetical. Each profile links to its sources and business website.</p><div class="biz-grid">{cards}</div><a class="directory-back" href="/directory/">Search the complete Pittsburgh business directory →</a></main>'
+        graph=[AUTHOR,{'@type':'CollectionPage','dateModified':'2026-10-07','name':title,'url':url,'author':{'@id':AUTHOR['@id']},'mainEntity':{'@type':'ItemList','numberOfItems':len(slugs),'itemListElement':[{'@type':'ListItem','position':i+1,'name':DATA[s]['name'],'url':SITE+'/directory/'+s+'/'} for i,s in enumerate(slugs)]}}]
         p=root/section/slug/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(shell(page_shell,title+' | The Pittsburgh Wire',desc,url,body,graph))
     # Visible navigation exposes the collections without requiring JavaScript.
     hub=root/'directory'/'index.html';markup=hub.read_text()
@@ -59,16 +61,22 @@ def link_news(repo,articles):
     def normalize(s):return re.sub(r'[^a-z0-9]+',' ',unescape(s).lower()).strip()
     for a in articles:
         p=root/'news'/a['slug']/'index.html';markup=p.read_text();original=markup
-        markup=re.sub(r'\s*<!-- BUSINESS_LINKS_START -->.*?<!-- BUSINESS_LINKS_END -->\s*(?=</article>)','\n',markup,flags=re.S)
-        body=re.search(r'<article class="article-body">(.*?)</article>',markup,re.S)
-        if not body:continue
-        plain=' '+normalize(re.sub('<[^>]+>',' ',body.group(1)))+' '
+        markup=re.sub(r'\s*<!-- BUSINESS_LINKS_START -->.*?<!-- BUSINESS_LINKS_END -->','\n',markup,flags=re.S)
+        span=article_body_span(markup)
+        if not span:continue
+        plain=' '+normalize(re.sub('<[^>]+>',' ',markup[span[0]:span[1]]))+' '
         slugs=[s for s,r in DATA.items() if len(normalize(r['name']))>=9 and len(normalize(r['name']).split())>=2 and ' '+normalize(r['name'])+' ' in plain]
         if slugs:
-            links=' · '.join(f'<a href="/directory/{s}/">{escape(DATA[s]["name"])}</a>' for s in slugs[:5])
-            block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>Find location, website, and contact details in the Pittsburgh Wire directory: {links}.</p></section><!-- BUSINESS_LINKS_END -->'
-            markup=re.sub(r'\s*</article>',lambda _: '\n'+block+'\n</article>',markup,count=1);count+=1
+            links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(DATA[s]["address"])}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
+            block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>For current contact research, these related directory records provide source-linked locations and official websites. This directory context was checked October 7, 2026; it does not change the reporting date or establish that a past project or announcement has since been completed.</p><ul>{links}</ul></section><!-- BUSINESS_LINKS_END -->'
+            markup=markup[:span[1]].rstrip()+'\n'+block+'\n'+markup[span[1]:];count+=1
+            markup=re.sub(r'("dateModified"\s*:\s*")[^"]+(")',lambda m:m[1]+'2026-10-07'+m[2],markup)
             for s in slugs[:5]:matched.setdefault(s,[]).append(a)
+        span=article_body_span(markup)
+        if span:
+            words=len(re.sub('<[^>]+>',' ',markup[span[0]:span[1]]).split())
+            reading=max(1,(words+219)//220)
+            markup=re.sub(r'(<span class="article-reading-time">)[^<]*(</span>)',lambda m:m[1]+str(reading)+' min read'+m[2],markup)
         if markup!=original:p.write_text(re.sub(r'[ \t]+\n','\n',markup))
     for s,news in matched.items():
         p=root/'directory'/s/'index.html';markup=p.read_text()
