@@ -65,7 +65,7 @@ def link_news(repo,articles):
         span=article_body_span(markup)
         if not span:continue
         plain=' '+normalize(re.sub('<[^>]+>',' ',markup[span[0]:span[1]]))+' '
-        slugs=[s for s,r in DATA.items() if len(normalize(r['name']))>=9 and len(normalize(r['name']).split())>=2 and ' '+normalize(r['name'])+' ' in plain]
+        slugs=[s for s,r in DATA.items() if normalize(r['name']) not in {'the center','the corner','steel city','the terminal','courtyard by marriott'} and len(normalize(r['name']))>=9 and len(normalize(r['name']).split())>=2 and ' '+normalize(r['name'])+' ' in plain]
         if slugs:
             links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(DATA[s]["address"])}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
             block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>For current contact research, these related directory records provide source-linked locations and official websites. This directory context was checked October 7, 2026; it does not change the reporting date or establish that a past project or announcement has since been completed.</p><ul>{links}</ul></section><!-- BUSINESS_LINKS_END -->'
