@@ -5949,8 +5949,31 @@
     "source_excerpt": "Pittsburgh's oldest and largest independently owned producer of fine handmade pottery located on Pittsburgh's South Side, just minutes from Downtown…",
     "description": "Fireborn Studios: Visual Arts and Museums in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://fireborn.com",
+      "title": "Fireborn Studios - Fireborn StudiosFireborn Studios and Gallery where you will find Hand Made Pottery, Hand Blown Glass and potterty classes for adults.",
+      "description_excerpt": "Visit Us On Pittsburgh’s South Side Gallery open Thursday, Friday and Saturday, Noon to 5…",
+      "links": {
+        "about": {
+          "url": "https://fireborn.com/about/",
+          "label": "about"
+        },
+        "contact": {
+          "url": "https://fireborn.com/contact-us/",
+          "label": "contact us"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://fireborn.com/dashboard/",
+          "label": "classes"
+        }
+      ],
+      "identity_tokens": [
+        "fireborn",
+        "studios"
+      ]
     }
   },
   "fish-nor-fowl": {
@@ -34305,8 +34328,19 @@
     "source_excerpt_name": "the business website",
     "description": "Full Throttle Adrenaline Park: Entertainment & Event Planning in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://gofullthrottle.com/",
+      "title": "Full Throttle Adrenaline Park | Indoor Go-Kart Racing, Axe Throwing & More",
+      "description_excerpt": "High-speed indoor go-kart racing, axe throwing, rage rooms, VR and more at Full Throttle Adrenaline…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "park",
+        "full",
+        "throttle",
+        "adrenaline"
+      ]
     }
   },
   "funcy-decor": {
@@ -35917,8 +35951,40 @@
     "source_excerpt": "",
     "description": "Powdermill Nature Reserve: Education Facility in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://carnegiemnh.org/visit-powdermill/",
+      "title": "Powdermill Nature Reserve",
+      "description_excerpt": "",
+      "links": {
+        "events": {
+          "url": "https://carnegiemnh.org/events/",
+          "label": "events"
+        },
+        "about": {
+          "url": "https://carnegiemnh.org/explore/about/",
+          "label": "about"
+        },
+        "contact": {
+          "url": "https://carnegiemnh.org/contact/",
+          "label": "contact"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://carnegiemnh.org/explore/explore/exhibitions/",
+          "label": "exhibitions"
+        },
+        {
+          "url": "https://carnegiemnh.org/carnegie-museum-of-natural-history-gift-cards/",
+          "label": "gift cards"
+        }
+      ],
+      "identity_tokens": [
+        "reserve",
+        "nature",
+        "powdermill"
+      ]
     }
   },
   "reserve-at-southpointe": {
@@ -36758,8 +36824,26 @@
     "source_excerpt": "",
     "description": "Purlieu.tech: Computer Services, Networking & Consulting in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://purlieu.tech/",
+      "title": "FF&E Project & Procurement Software for Commercial Interiors | Purlieu",
+      "description_excerpt": "Purlieu is FF&E project and procurement software for commercial interior design and procurement teams, connecting…",
+      "links": {
+        "about": {
+          "url": "https://purlieu.tech/about",
+          "label": "about"
+        },
+        "contact": {
+          "url": "https://purlieu.tech/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "purlieu",
+        "tech"
+      ]
     }
   },
   "piatt-sotheby-s-international-realty": {
@@ -42711,8 +42795,29 @@
     "source_excerpt": "",
     "description": "Cintas Corporation: Business Services in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://www.cintas.com",
+      "title": "Uniforms and Workwear for Any Job Imaginable | Cintas",
+      "description_excerpt": "Cintas has uniforms and workwear for almost any job imaginable. Weekly laundering and delivery included.…",
+      "links": {
+        "about": {
+          "url": "https://www.cintas.com/company",
+          "label": "who we are"
+        },
+        "careers": {
+          "url": "https://www.cintas.com/careers",
+          "label": "careers"
+        },
+        "locations": {
+          "url": "https://www.cintas.com/location-finder",
+          "label": "locations"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cintas"
+      ]
     }
   },
   "courtyard-by-marriott-pittsburgh-airport": {
@@ -58172,8 +58277,26 @@
     "source_excerpt": "",
     "description": "Waterfall Catering: Caterers in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://www.thewaterfallcafe.com",
+      "title": "Waterfall Catering, Pittsburgh Catering",
+      "description_excerpt": "Specializing in FRESH Catering for Pittsburgh, PA, Providing exceptional food experiences for business & private…",
+      "links": {
+        "about": {
+          "url": "https://www.thewaterfallcafe.com/about-us",
+          "label": "about us"
+        },
+        "contact": {
+          "url": "https://www.thewaterfallcafe.com/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "catering",
+        "waterfall"
+      ]
     }
   },
   "world-affairs-council-of-pittsburgh": {
@@ -63271,8 +63394,31 @@
     "source_excerpt": "",
     "description": "Cintas Corporation, The Uniform People: Professional Cleaning Services in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://www.cintas.com/",
+      "title": "Uniforms and Workwear for Any Job Imaginable | Cintas",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.cintas.com/company",
+          "label": "who we are"
+        },
+        "careers": {
+          "url": "https://www.cintas.com/careers",
+          "label": "careers"
+        },
+        "locations": {
+          "url": "https://www.cintas.com/location-finder",
+          "label": "locations"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "people",
+        "uniform",
+        "cintas"
+      ]
     }
   },
   "keytex-energy": {
@@ -72497,8 +72643,17 @@
     "source_excerpt": "",
     "description": "AllSource Lounge/Gym/Grocery: Bars & Nightlife, Health & Wellness, Grocery-Convenience-Department Stores in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://allsource.app/",
+      "title": "AllSource — At-Cost Market, Gym & Lounge in Export, PA",
+      "description_excerpt": "AllSource is an all-in-one community hub in Export, PA: an at-cost grocery market, full gym,…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "allsource",
+        "lounge"
+      ]
     }
   },
   "pm-international-nutrition-cosmetics-inc": {
@@ -73815,8 +73970,32 @@
     "source_excerpt": "",
     "description": "Loriann Fetter Counseling & Psychotherapy: Psychologists & Counseling Services in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://loriannfetterlpc.com/",
+      "title": "Loriann Fetter Counseling & Psychotherapy — Greensburg, PA",
+      "description_excerpt": "Compassionate therapy for individuals, couples, families, and children in Greensburg, PA. In-person and telehealth available.",
+      "links": {
+        "about": {
+          "url": "https://loriannfetterlpc.com/about",
+          "label": "about"
+        },
+        "services": {
+          "url": "https://loriannfetterlpc.com/services",
+          "label": "services"
+        },
+        "contact": {
+          "url": "https://loriannfetterlpc.com/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "loriann",
+        "fetter",
+        "psychotherapy",
+        "counseling"
+      ]
     }
   },
   "hempfield-manor-nursing-rehabilitation-center": {
@@ -82308,8 +82487,17 @@
     "source_excerpt": "",
     "description": "Uncommon Threads: Clothing & Accessories, Clothing & Accessories in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://uncommonthreadsboutique.com/",
+      "title": "Uncommon Threads Boutique",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "uncommon",
+        "threads"
+      ]
     }
   },
   "the-pawn-and-jewelry-exchange": {
@@ -83711,8 +83899,27 @@
     "source_excerpt": "",
     "description": "Beaver Area Heritage Foundation: Arts, Culture & Entertainment, Community, Family & Civic Organizations, Historic Destinations, Non Profit in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://beaverheritage.org/",
+      "title": "Home - Beaver Area Heritage Foundation",
+      "description_excerpt": "",
+      "links": {
+        "events": {
+          "url": "https://beaverheritage.org/exhibit-and-event-schedules/",
+          "label": "events"
+        },
+        "contact": {
+          "url": "https://beaverheritage.org/contact/",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "heritage",
+        "beaver",
+        "foundation"
+      ]
     }
   },
   "beaver-area-memorial-library": {
@@ -84692,8 +84899,16 @@
     "source_excerpt": "",
     "description": "Comcast: Computers & Telecommunications in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://business.comcast.com/",
+      "title": "Official Site | Comcast Business",
+      "description_excerpt": "Discover Comcast Business solutions for small business, enterprise, and public sector. Find the right solution…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "comcast"
+      ]
     }
   },
   "cafe-kolache": {
@@ -93003,8 +93218,17 @@
     "source_excerpt": "",
     "description": "Walmart - Chippewa: Shopping and Retail in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://www.walmart.com/store/3223-beaver-falls-pa",
+      "title": "Walmart Supercenter in Beaver Falls, PA | Grocery, Electronics, Toys | Serving 15010 | Store 3223",
+      "description_excerpt": "Get Walmart hours, driving directions and check out weekly specials at your Beaver Falls in…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "walmart",
+        "chippewa"
+      ]
     }
   },
   "walmart-monaca": {
@@ -93021,8 +93245,17 @@
     "source_excerpt": "",
     "description": "Walmart - Monaca: Shopping and Retail in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://www.walmart.com/store/1883-monaca-pa",
+      "title": "Walmart Supercenter in Monaca, PA | Grocery, Electronics, Toys | Serving 15061 | Store 1883",
+      "description_excerpt": "Get Walmart hours, driving directions and check out weekly specials at your Monaca in Monaca,…",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "walmart",
+        "monaca"
+      ]
     }
   },
   "washington-co-council-on-econ-devt": {
