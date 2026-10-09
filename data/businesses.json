@@ -105,7 +105,7 @@
   },
   "321blink-llc": {
     "name": "321Blink, LLC.",
-    "website": "http://www.321blink.com",
+    "website": "https://321blink.com/",
     "source": "https://www.visitpittsburgh.com/directory/321blink-llc/",
     "source_name": "VisitPITTSBURGH",
     "address": "1881 Main St. Pittsburgh, Pennsylvania 15215",
@@ -117,13 +117,27 @@
     "source_excerpt": "321Blink is a close-knit group of inventive, energetic people who love finding creative marketing solutions that help our clients succeed.…",
     "description": "321Blink, LLC.: Advertising/Public Relations in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://321blink.com/contact/",
+      "title": "Blink Advertising Agency",
+      "description_excerpt": "Pittsburgh",
+      "links": {
+        "contact": {
+          "url": "https://321blink.com/contact/",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "321blink"
+      ],
+      "evidence_method": "Official website content and location corroboration"
     }
   },
   "3rep-audiovideolighting": {
     "name": "3REP Audio·Video·Lighting",
-    "website": "https://3rep.com",
+    "website": "https://3rep.com/",
     "source": "https://www.visitpittsburgh.com/directory/3rep-audio-video-lighting/",
     "source_name": "VisitPITTSBURGH",
     "address": "1028 Saw Mill Run Blvd. Pittsburgh, Pennsylvania 15220",
@@ -135,8 +149,22 @@
     "source_excerpt": "Our team will make sure that every aspect of your event is perfectly planned and produced with first-class entertainment and…",
     "description": "3REP Audio·Video·Lighting: A/V Services/Video Production in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://3rep.com/contact-us/",
+      "title": "3REP Audio Visual & Lighting",
+      "description_excerpt": "1028 Saw Mill Run Boulevard",
+      "links": {
+        "contact": {
+          "url": "https://3rep.com/contact-us/",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "3rep"
+      ],
+      "evidence_method": "Official website and public search retrieval; 3REP direct retrieval was blocked, search-indexed official contact text corroborates identity."
     }
   },
   "solidcore": {
@@ -429,7 +457,7 @@
   },
   "alihan-s-mediterranean-cuisine": {
     "name": "Alihan's Mediterranean Cuisine",
-    "website": "http://www.alihanscuisine.com",
+    "website": "https://alihanscuisine.com/",
     "source": "https://www.visitpittsburgh.com/directory/alihans-mediterranean-cuisine/",
     "source_name": "VisitPITTSBURGH",
     "address": "124 6th St. Pittsburgh, Pennsylvania 15222",
@@ -441,8 +469,26 @@
     "source_excerpt": "Alihan's brings a piece of Turkey to Downtown Pittsburgh, offers a relaxing atmosphere with flavorful meals of Turkish and Middle-Eastern…",
     "description": "Alihan's Mediterranean Cuisine: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://alihanscuisine.com/",
+      "title": "Alihan’s Mediterranean Cuisine",
+      "description_excerpt": "Family-owned Mediterranean restaurant",
+      "links": {
+        "contact": {
+          "url": "https://alihanscuisine.com/page/contact-us",
+          "label": "contact"
+        },
+        "about": {
+          "url": "https://alihanscuisine.com/story",
+          "label": "our story"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "alihan"
+      ],
+      "evidence_method": "Official website content and location corroboration"
     }
   },
   "all-india-authentic-cuisine": {
@@ -2316,7 +2362,7 @@
   },
   "cafe-momentum-pittsburgh": {
     "name": "Cafe Momentum Pittsburgh",
-    "website": "https://cafe-momentum-pittsburgh.goto-restaurants.com/",
+    "website": "https://cafemomentum.org/restaurant/pittsburgh/",
     "source": "https://www.visitpittsburgh.com/directory/cafe-momentum-pittsburgh-dining-nightlife/",
     "source_name": "VisitPITTSBURGH",
     "address": "268 Forbes Ave. Pittsburgh, Pennsylvania 15222",
@@ -2328,8 +2374,26 @@
     "source_excerpt": "Cafe Momentum Pittsburgh is more than a restaurant - it's a movement. As a nonprofit, we provide paid internships to…",
     "description": "Cafe Momentum Pittsburgh: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
-      "status": "unavailable",
-      "checked": "2026-10-07"
+      "status": "corroborated",
+      "checked": "2026-10-09",
+      "url": "https://cafemomentum.org/restaurant/pittsburgh/",
+      "title": "Cafe Momentum Pittsburgh",
+      "description_excerpt": "268 Forbes Avenue",
+      "links": {
+        "about": {
+          "url": "https://cafemomentum.org/restaurant/pittsburgh/",
+          "label": "Pittsburgh restaurant"
+        },
+        "menu": {
+          "url": "https://cafemomentum.org/wp-content/uploads/2024/12/PGH-LUNCH-MENU-LEGAL-July-2025.pdf",
+          "label": "linked menu PDF"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cafe"
+      ],
+      "evidence_method": "Official website content and location corroboration"
     }
   },
   "caliente-pizza-draft-house-bloomfield": {

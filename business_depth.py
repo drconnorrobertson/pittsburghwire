@@ -1,6 +1,7 @@
 """Useful profile context built from sourced facts and corroborated official links."""
 from html import escape
 from collections import Counter
+from datetime import date
 
 QUESTIONS={
 'food-and-drink':('Plan a meal or gathering', ['Which menu is available for the date and location you have in mind?', 'Does the business accept reservations, offer takeout, or handle group orders?', 'Ask about dietary requirements directly; a category listing does not establish allergen handling.']),
@@ -23,6 +24,7 @@ def profile_depth(row,data):
  e=escape;name=e(row['name']);city=e(row['city']);d=row.get('official_research',{});parts=[]
  if d.get('status')=='corroborated':
   url=e(d['url'],quote=True)
+  checked=e(date.fromisoformat(d['checked']).strftime('%B %d, %Y').replace(' 0',' '))
   topics=d.get('topics',[])
   if topics:
    links=', '.join(f'<a href="{e(t["url"],quote=True)}" rel="noopener noreferrer">{e(t["label"])}</a>' for t in topics)
@@ -31,7 +33,7 @@ def profile_depth(row,data):
   useful=[(typ,v) for typ,v in links.items() if typ!='careers'][:6]
   if useful:
    items=''.join(f'<li><a href="{e(v["url"],quote=True)}" rel="noopener noreferrer">{NAV_LABELS[typ]}</a></li>' for typ,v in useful)
-   parts.append(f'<h2>Useful pages from {name}</h2><p>Go directly to the business’s published information rather than relying on a directory category alone:</p><ul>{items}</ul><p>These official links were checked on October 7, 2026. Details on the business’s website can change independently of this profile.</p>')
+   parts.append(f'<h2>Useful pages from {name}</h2><p>Go directly to the business’s published information rather than relying on a directory category alone:</p><ul>{items}</ul><p>These official links were checked on {checked}. Details on the business’s website can change independently of this profile.</p>')
  heading,questions=QUESTIONS.get(row['category'],QUESTIONS['professional-services'])
  parts.append(f'<h2>{e(heading)} with {name}</h2><p>Use the listed category, <strong>{e(row["source_category"])}</strong>, as a starting point for your enquiry. It is a source-directory classification, so it does not establish every service offered at this address.</p><ul>'+''.join('<li>'+e(q)+'</li>' for q in questions)+'</ul>')
  same=[x for x in data.values() if x['city']==row['city'] and x['category']==row['category']]
