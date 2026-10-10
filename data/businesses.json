@@ -93993,5 +93993,38 @@
         }
       ]
     }
+  },
+  "evolve-wellness-spa": {
+    "name": "Evolve Wellness Spa",
+    "website": "https://www.evolvewellnessspa.com/",
+    "source": "https://www.evolvewellnessspa.com/",
+    "source_name": "Official business website",
+    "address": "228 S Highland Ave, Pittsburgh, PA 15206",
+    "phone": "4124410860",
+    "source_category": "Day Spa",
+    "checked": "2026-10-10",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Evolve Wellness Spa is in Shadyside at 228 South Highland Avenue. Use its official booking page to check appointments, cancellation terms and room arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.evolvewellnessspa.com/",
+      "title": "Evolve Wellness Spa",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.evolvewellnessspa.com/contact",
+          "label": "contact"
+        }
+      },
+      "topics": [
+        {
+          "url": "https://www.evolvewellnessspa.com/book-your-service",
+          "label": "appointment booking and policies"
+        }
+      ]
+    }
   }
 }
