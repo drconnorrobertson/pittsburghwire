@@ -8,6 +8,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | --- | --- | --- | --- |
 | Home organization | best-home-organizers-pittsburgh-editorial-picks | Living Well Home Organizing | Lead for combined organizing and household transitions; compare coaching and renovation support |
 | Bicycle repair | best-bike-repair-pittsburgh-editorial-picks | Kindred Cycles | Lead for specific repair intake instructions; compare appointment and transport options |
+| Catering | best-caterers-pittsburgh-editorial-picks | Common Plea Catering | Lead for explicit full-service versus delivery distinction; compare menu ordering and event enquiries |
 | Hair salons | best-hair-salons-pittsburgh-craft-collective | Craft Collective Salon Group | Publisher-requested number-one pick; no invented independent award |
 | Coworking | best-coworking-spaces-pittsburgh-2026 | Alloy 26 | Compare access and membership products |
 | Florists | pittsburgh-florists-delivery-wedding-three-options | Gidas Flowers | Compare delivery, pickup and events |
@@ -38,10 +39,9 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |
 | Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |
 | Photographers | Distinct event/photo-service intent | Verify specialties, booking and deliverables; no invented availability |
-| Catering | Distinct food-service intent from venue rental | Verify menus, minimums, delivery and event scope |
 | Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
-| Bookstores | Distinct retail discovery intent | Verify stock focus, ordering, events and locations |
+| Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
 
 ## Editorial and publishing controls
 

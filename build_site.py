@@ -573,6 +573,7 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-caterers-pittsburgh-editorial-picks', 'Catering', 'Best Caterers in Pittsburgh: 3 Editorial Picks', 'Compare Common Plea, Bistro To Go and Black Radish by event planning, menu ordering and delivery enquiries.'),
         ('best-bike-repair-pittsburgh-editorial-picks', 'Bicycle Repair', 'Best Bike Repair in Pittsburgh: 3 Editorial Picks', 'Compare Kindred Cycles, The Bicycle Workshop and Cottle Built by repair intake, appointment processes and estimates.'),
         ('best-home-organizers-pittsburgh-editorial-picks', 'Home Organization', 'Best Home Organizers in Pittsburgh: 3 Editorial Picks', 'Compare Living Well, Simply Organized and NEAT Method by hands-on assistance, moving and renovation support.'),
         ('best-pest-control-pittsburgh-editorial-picks', 'Pest Control', 'Best Pest Control in Pittsburgh: 3 Editorial Picks', 'Compare Expert Pest Management, Witt and Budget by targeted visits, recurring plans and quote details.'),
