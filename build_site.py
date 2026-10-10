@@ -573,6 +573,7 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-commercial-cleaners-pittsburgh-editorial-picks', 'Commercial Cleaning', 'Best Commercial Cleaners in Pittsburgh: 3 Picks', 'Compare OMEX, Jani-King and JAN-PRO by office tasks, quotation processes and account communication.'),
         ('best-day-spas-pittsburgh-editorial-picks', 'Day Spas', 'Best Day Spas in Pittsburgh: 3 Editorial Picks', 'Compare Evolve, Spa Jema and The Sewickley Spa by booking details, room arrangements and service menus.'),
         ('best-landscapers-pittsburgh-editorial-picks', 'Landscaping', 'Best Landscapers in Pittsburgh: 3 Editorial Picks', 'Compare Local Roots, Kimicata Brothers and RJK by design, installation, irrigation and aftercare.'),
         ('best-roofing-contractors-pittsburgh-editorial-picks', 'Roofing', 'Best Roofers in Pittsburgh: 3 Editorial Picks', 'Compare Resnick Roofing, Buccos Roofing and McClellands by services and estimate processes.'),

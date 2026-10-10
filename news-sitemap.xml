@@ -225,6 +225,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/best-commercial-cleaners-pittsburgh-editorial-picks</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>Best Commercial Cleaners in Pittsburgh: 3 Picks</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/best-auto-repair-pittsburgh-editorial-picks</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
