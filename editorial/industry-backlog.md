@@ -15,6 +15,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Auto repair | best-auto-repair-pittsburgh-editorial-picks | Baum Boulevard Automotive | Lead city option for maintenance and diagnostics |
 | Gyms | best-gyms-pittsburgh-editorial-picks | Union Fitness | Lead for published equipment/class tier comparison |
 | Plumbing | best-plumbers-pittsburgh-editorial-picks | 412 Plumbing | Lead South Hills selection; compare scope and confirmed availability |
+| HVAC | best-hvac-companies-pittsburgh-editorial-picks | A-Comfort Service | Lead for equipment-specific service menu; compare residential/commercial scope and controls |
 | Commercial cleaning | best-commercial-cleaners-pittsburgh-editorial-picks | OMEX | Lead for published office-maintenance menu; compare regional enquiry and account processes |
 | Day spas | best-day-spas-pittsburgh-editorial-picks | Evolve Wellness Spa | Lead for published individual-booking details; compare room arrangements and service combinations |
 | Landscaping | best-landscapers-pittsburgh-editorial-picks | Local Roots Landscaping | Lead for combined design, installation and care; compare irrigation and design-only options |
@@ -30,7 +31,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| HVAC | Distinct heating/cooling buying intent | Verify maintenance, installation, emergency contact and service areas |
 | Electricians | Distinct service buying intent | Verify scope and enquiry details; check qualifications directly where claimed |
 | Pest control | Distinct property-service intent | Verify service categories and areas; no unsupported efficacy promises |
 | Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |

@@ -193,6 +193,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/best-hvac-companies-pittsburgh-editorial-picks</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>Best HVAC Companies in Pittsburgh: 3 Editorial Picks</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/best-hair-salons-pittsburgh-craft-collective</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
