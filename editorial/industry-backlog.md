@@ -15,6 +15,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Auto repair | best-auto-repair-pittsburgh-editorial-picks | Baum Boulevard Automotive | Lead city option for maintenance and diagnostics |
 | Gyms | best-gyms-pittsburgh-editorial-picks | Union Fitness | Lead for published equipment/class tier comparison |
 | Plumbing | best-plumbers-pittsburgh-editorial-picks | 412 Plumbing | Lead South Hills selection; compare scope and confirmed availability |
+| Pest control | best-pest-control-pittsburgh-editorial-picks | Expert Pest Management | Lead for targeted/monthly/quarterly distinction; compare plan inclusions and follow-up |
 | Electricians | best-electricians-pittsburgh-editorial-picks | CW Electrical Services | Lead for specific residential menu; distinguish facility maintenance and commercial construction |
 | HVAC | best-hvac-companies-pittsburgh-editorial-picks | A-Comfort Service | Lead for equipment-specific service menu; compare residential/commercial scope and controls |
 | Commercial cleaning | best-commercial-cleaners-pittsburgh-editorial-picks | OMEX | Lead for published office-maintenance menu; compare regional enquiry and account processes |
@@ -32,7 +33,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| Pest control | Distinct property-service intent | Verify service categories and areas; no unsupported efficacy promises |
 | Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |
 | Home organization | Distinct household-service intent | Verify consultation, scope, service area and pricing structure |
 | Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |

@@ -573,6 +573,7 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-pest-control-pittsburgh-editorial-picks', 'Pest Control', 'Best Pest Control in Pittsburgh: 3 Editorial Picks', 'Compare Expert Pest Management, Witt and Budget by targeted visits, recurring plans and quote details.'),
         ('best-electricians-pittsburgh-editorial-picks', 'Electricians', 'Best Electricians in Pittsburgh: 3 Editorial Picks', 'Compare CW Electrical Services, Allegheny City Electric and Hanlon by property type and project scope.'),
         ('best-hvac-companies-pittsburgh-editorial-picks', 'HVAC', 'Best HVAC Companies in Pittsburgh: 3 Editorial Picks', 'Compare A-Comfort, J.A. Sauer and Boehmer by equipment, service requests and project scope.'),
         ('best-commercial-cleaners-pittsburgh-editorial-picks', 'Commercial Cleaning', 'Best Commercial Cleaners in Pittsburgh: 3 Picks', 'Compare OMEX, Jani-King and JAN-PRO by office tasks, quotation processes and account communication.'),
