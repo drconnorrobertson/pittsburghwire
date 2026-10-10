@@ -41,6 +41,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/habitat-homewood-tioga-street-three-homes</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-09</news:publication_date>
+      <news:title>Habitat Pittsburgh Announces Three New Homes on Tioga Street in Homewood</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/cafe-raymond-brentwood-brownsville-road-october-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
