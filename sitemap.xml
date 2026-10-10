@@ -209,6 +209,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/best-plumbers-pittsburgh-editorial-picks</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/best-moving-companies-pittsburgh-editorial-picks</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -1960,6 +1966,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/3rep-audiovideolighting/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/412-plumbing/</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

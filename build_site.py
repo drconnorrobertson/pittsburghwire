@@ -573,6 +573,7 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-plumbers-pittsburgh-editorial-picks', 'Plumbing', 'Best Plumbers in Pittsburgh: 3 Editorial Picks', '412 Plumbing leads a sourced comparison of service areas, repair enquiries and specialist plumbing work.'),
         ('best-event-venues-pittsburgh-editorial-picks', 'Event Venues', 'Best Event Venues in Pittsburgh: 3 Editorial Picks', 'Phipps leads a comparison of garden, museum and Aviary event settings with official planning details.'),
         ('best-auto-repair-pittsburgh-editorial-picks', 'Auto Repair', 'Best Auto Repair in Pittsburgh: 3 Editorial Picks', 'Baum Boulevard Automotive leads a comparison with Lou Iezzi & Sons Auto and Import Motorcar Service.'),
         ('best-gyms-pittsburgh-editorial-picks', 'Gyms', 'Best Gyms in Pittsburgh: 3 Editorial Picks to Compare', 'Union Fitness leads a comparison of gym tiers, overnight access and climbing-focused training.'),

@@ -93938,5 +93938,32 @@
         "movers"
       ]
     }
+  },
+  "412-plumbing": {
+    "name": "412 Plumbing",
+    "website": "https://www.412plumbing.com/",
+    "source": "https://www.412plumbing.com/",
+    "source_name": "Official business website",
+    "address": "7031 Highland Creek Drive, Bridgeville, PA 15017",
+    "phone": "412-320-1700",
+    "source_category": "Residential and Commercial Plumbing",
+    "checked": "2026-10-10",
+    "category": "trades-and-services",
+    "city": "Bridgeville",
+    "source_excerpt": "",
+    "description": "412 Plumbing serves the South Hills and Greater Pittsburgh area with residential and commercial plumbing services. Contact the business to confirm service at your address.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.412plumbing.com/",
+      "title": "South Hills Plumbers | 412 Plumbing",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "412",
+        "plumbing"
+      ]
+    }
   }
 }

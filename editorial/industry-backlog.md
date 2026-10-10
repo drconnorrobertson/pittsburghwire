@@ -14,6 +14,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Event venues | best-event-venues-pittsburgh-editorial-picks | Phipps | Lead for garden settings; compare layouts and packages |
 | Auto repair | best-auto-repair-pittsburgh-editorial-picks | Baum Boulevard Automotive | Lead city option for maintenance and diagnostics |
 | Gyms | best-gyms-pittsburgh-editorial-picks | Union Fitness | Lead for published equipment/class tier comparison |
+| Plumbing | best-plumbers-pittsburgh-editorial-picks | 412 Plumbing | Lead South Hills selection; compare scope and confirmed availability |
 | Moving companies | best-moving-companies-pittsburgh-editorial-picks | South Hills Movers | Lead regional comparison; separate transport and labor |
 
 AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
@@ -24,7 +25,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
-| Plumbing | 412 Plumbing business-name/address queries show a few impressions | Verify scope, service area, emergency booking and contact details for three providers |
 | Roofing | Resnick Roofing name/address query: 2 impressions | Verify actual services, service area and estimate process; no invented warranties |
 | Landscaping | Local Roots name/address query: 2 impressions | Distinguish design, installation and maintenance; verify seasonal availability |
 | Bakeries | Paddy Cake name/address queries appear | Verify ordering, pickup, cake lead times and dietary information |
