@@ -573,6 +573,7 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-roofing-contractors-pittsburgh-editorial-picks', 'Roofing', 'Best Roofers in Pittsburgh: 3 Editorial Picks', 'Compare Resnick Roofing, Buccos Roofing and McClellands by services and estimate processes.'),
         ('best-plumbers-pittsburgh-editorial-picks', 'Plumbing', 'Best Plumbers in Pittsburgh: 3 Editorial Picks', '412 Plumbing leads a sourced comparison of service areas, repair enquiries and specialist plumbing work.'),
         ('best-event-venues-pittsburgh-editorial-picks', 'Event Venues', 'Best Event Venues in Pittsburgh: 3 Editorial Picks', 'Phipps leads a comparison of garden, museum and Aviary event settings with official planning details.'),
         ('best-auto-repair-pittsburgh-editorial-picks', 'Auto Repair', 'Best Auto Repair in Pittsburgh: 3 Editorial Picks', 'Baum Boulevard Automotive leads a comparison with Lou Iezzi & Sons Auto and Import Motorcar Service.'),

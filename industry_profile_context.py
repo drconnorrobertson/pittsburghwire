@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 
 CONTEXT = {
+    'resnick-roofing': ('Roofing and exterior project enquiries', 'Resnick lists roof repair, replacement, siding and gutter services. Its North Hills location is 5320 William Flynn Highway, Gibsonia, PA 15044; call 412-307-9809. The website limits its free-quote offer to full replacements, so confirm any repair assessment charge before booking.', 'https://www.resnickroof.com/', 'best-roofing-contractors-pittsburgh-editorial-picks'),
     '412-plumbing': ('Plan a plumbing enquiry', 'Confirm the service area, diagnostic charges and the scope of the first visit. Explain whether the property is residential or commercial and request a confirmed appointment window.', 'https://www.412plumbing.com/', 'best-plumbers-pittsburgh-editorial-picks'),
     'phipps-conservatory-and-botanical-gardens': ('Event planning at Phipps', 'Phipps lists garden and conservatory event settings and a separate Garden Center in Mellon Park. Its pricing page currently directs enquiries to the events team. Confirm the exact venue and request current terms.', 'https://www.phipps.conservatory.org/plan-your-event/', 'best-event-venues-pittsburgh-editorial-picks'),
     'baum-boulevard-automotive': ('Maintenance and diagnostic enquiries', 'Baum Boulevard Automotive publishes preventive maintenance, breakdown repair and diagnostics, with an online appointment option. Call 412-682-1866 to confirm the work and drop-off arrangements for your vehicle.', 'https://www.baumblvdauto.com/', 'best-auto-repair-pittsburgh-editorial-picks'),
