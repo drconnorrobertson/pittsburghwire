@@ -57,6 +57,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/fort-pitt-park-garfield-500000-rehabilitation-grant</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-09</news:publication_date>
+      <news:title>Fort Pitt Park in Garfield Receives $500,000 State Grant</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/cafe-raymond-brentwood-brownsville-road-october-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
