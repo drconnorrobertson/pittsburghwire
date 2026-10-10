@@ -93873,5 +93873,70 @@
         }
       ]
     }
+  },
+  "union-fitness": {
+    "name": "Union Fitness",
+    "website": "https://unionfitness.com/new-memberships/",
+    "source": "https://unionfitness.com/new-memberships/",
+    "source_name": "Official business website",
+    "address": "100 South Commons, Suite 180, Pittsburgh, PA 15212",
+    "phone": "412-799-1358",
+    "source_category": "Fitness memberships",
+    "checked": "2026-10-10",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Union Fitness at Nova Place offers equipment and class membership options. Compare published tiers and contact the gym for current terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://unionfitness.com/new-memberships/",
+      "title": "Union Fitness",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://unionfitness.com/new-memberships/",
+          "label": "Services and enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "union",
+        "fitness"
+      ]
+    }
+  },
+  "south-hills-movers": {
+    "name": "South Hills Movers",
+    "website": "https://www.southhillsmovers.com/",
+    "source": "https://www.southhillsmovers.com/",
+    "source_name": "Official business website",
+    "address": "3132 Industrial Boulevard, Bethel Park, PA 15102",
+    "phone": "412-835-8600",
+    "source_category": "Moving services",
+    "checked": "2026-10-10",
+    "category": "trades-and-services",
+    "city": "Bethel Park",
+    "source_excerpt": "",
+    "description": "South Hills Movers offers local and long-distance moving, office moving and employee relocation. Request a proposal for the specific route and scope.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.southhillsmovers.com/",
+      "title": "South Hills Movers",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.southhillsmovers.com/",
+          "label": "Services and enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "south",
+        "hills",
+        "movers"
+      ]
+    }
   }
 }

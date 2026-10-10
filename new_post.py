@@ -10,7 +10,7 @@ The Pittsburgh Wire is a text-only publication. This script never emits an
 <img> tag and refuses any body copy that contains one.
 
 Usage:
-    python3 new_post.py story.json
+    python3 new_post.py story.json [--defer-build]
     cat story.json | python3 new_post.py -
 
 story.json:
@@ -191,8 +191,11 @@ def main():
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
     print("wrote news/%s/index.html  (%d words, %s)" % (slug, words, read_time))
 
-    print("rebuilding derived pages...")
-    subprocess.run([sys.executable, os.path.join(REPO, "build_site.py"), REPO], check=True)
+    if "--defer-build" in sys.argv:
+        print("Derived build deferred; run build_site.py after completing the batch.")
+    else:
+        print("rebuilding derived pages...")
+        subprocess.run([sys.executable, os.path.join(REPO, "build_site.py"), REPO], check=True)
 
 
 if __name__ == "__main__":

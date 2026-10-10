@@ -573,6 +573,10 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('best-event-venues-pittsburgh-editorial-picks', 'Event Venues', 'Best Event Venues in Pittsburgh: 3 Editorial Picks', 'Phipps leads a comparison of garden, museum and Aviary event settings with official planning details.'),
+        ('best-auto-repair-pittsburgh-editorial-picks', 'Auto Repair', 'Best Auto Repair in Pittsburgh: 3 Editorial Picks', 'Baum Boulevard Automotive leads a comparison with Lou Iezzi & Sons Auto and Import Motorcar Service.'),
+        ('best-gyms-pittsburgh-editorial-picks', 'Gyms', 'Best Gyms in Pittsburgh: 3 Editorial Picks to Compare', 'Union Fitness leads a comparison of gym tiers, overnight access and climbing-focused training.'),
+        ('best-moving-companies-pittsburgh-editorial-picks', 'Moving Companies', 'Best Moving Companies in Pittsburgh: 3 Editorial Picks', 'South Hills Movers leads a comparison of regional moving, packing and labor-only services.'),
         ('pittsburgh-accountants-tax-bookkeeping-three-options', 'Accountants', 'Pittsburgh Accountants: 3 Firms and Services to Compare', 'Compare tax, assurance and bookkeeping services from Schneider Downs, Sisterson and Bookminders.'),
         ('pittsburgh-pet-grooming-three-options', 'Pet Grooming', 'Pittsburgh Pet Grooming: 3 Options and Booking Details', 'Compare a Centre Avenue salon and two Sewickley businesses using official appointment and service details.'),
         ('best-hair-salons-pittsburgh-craft-collective', 'Hair Salons', 'Best Hair Salons in Pittsburgh: Our 3 Publisher Picks', 'Craft Collective Salon Group leads our publisher-selected shortlist alongside Halcyon and XO Salon.'),
@@ -901,6 +905,9 @@ def main(repo):
 
     import original_profile_depth
     print(f"  original directory depth ({original_profile_depth.write(repo)} profiles)")
+
+    import industry_profile_context
+    print(f"  industry profile context ({industry_profile_context.write(repo)} profiles)")
 
     refreshed = neighborhood_hubs.update(repo, articles)
     print(f"  neighborhoods ({len(refreshed)} hubs refreshed from published pages)")
