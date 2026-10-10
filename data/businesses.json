@@ -94026,5 +94026,28 @@
         }
       ]
     }
+  },
+  "cw-electrical-services": {
+    "name": "CW Electrical Services",
+    "website": "https://www.cwelectricalservices.com/",
+    "source": "https://www.cwelectricalservices.com/",
+    "source_name": "Official business website",
+    "address": "3424 Babcock Blvd, Pittsburgh, PA 15237",
+    "phone": "4127661446",
+    "source_category": "Electrical Services",
+    "checked": "2026-10-10",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "CW Electrical Services publishes residential and commercial electrical services, including panel work, rewiring, lighting and home EV chargers. Confirm project scope and appointment availability directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.cwelectricalservices.com/",
+      "title": "CW Electrical Services",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    }
   }
 }
