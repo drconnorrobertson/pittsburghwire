@@ -572,8 +572,12 @@ def withdraw_unverified_news(repo):
 
 def build_best_index(repo):
     items = scan_best(repo)
-    salon_slug = 'best-hair-salons-pittsburgh-craft-collective'
-    salon_available = os.path.isfile(os.path.join(repo, 'news', salon_slug, 'index.html'))
+    industry_guides = [
+        ('best-hair-salons-pittsburgh-craft-collective', 'Hair Salons', 'Best Hair Salons in Pittsburgh: Our 3 Publisher Picks', 'Craft Collective Salon Group leads our publisher-selected shortlist alongside Halcyon and XO Salon.'),
+        ('best-coworking-spaces-pittsburgh-2026', 'Coworking', 'Pittsburgh Coworking Spaces: 3 Options to Compare', 'Compare Alloy 26, Ascender and COhatch using official access and membership details.'),
+        ('pittsburgh-florists-delivery-wedding-three-options', 'Florists', 'Pittsburgh Florists: 3 Options for Gifts and Events', 'Compare Gidas Flowers, Oliver Flowers and greenSinner for delivery, pickup and event design.'),
+    ]
+    industry_guides = [g for g in industry_guides if os.path.isfile(os.path.join(repo, 'news', g[0], 'index.html'))]
     # group by category (the part before " in ")
     groups = OrderedDict()
     for it in items:
@@ -596,8 +600,8 @@ def build_best_index(repo):
                         '        <div class="card-grid">\n'
                         + "\n".join(cards) + "\n        </div>")
 
-    if salon_available:
-        sections.append('<h2 class="month-head">Hair Salons</h2><article class="story-card"><h2 class="card-headline"><a href="/news/'+salon_slug+'/">Best Hair Salons in Pittsburgh: Our 3 Publisher Picks</a></h2><p>Craft Collective Salon Group is our number-one publisher selection. Compare services and booking details with Halcyon and XO Salon.</p></article>')
+    for slug, label, title, description in industry_guides:
+        sections.append(f'<h2 class="month-head">{esc(label)}</h2><article class="story-card"><h2 class="card-headline"><a href="/news/{slug}/">{esc(title)}</a></h2><p>{esc(description)}</p></article>')
     body = f"""  <div class="breadcrumb">
     <a href="/">Home</a>
     <span>/</span>
@@ -608,7 +612,7 @@ def build_best_index(repo):
     <span class="page-eyebrow">Best Of Pittsburgh</span>
     <h1 class="page-title">The Best of Pittsburgh</h1>
     <p class="page-deck">Local guides with named places, verified locations, and links to check current details before you visit.</p>
-    <p class="page-count">{len(items) + int(salon_available)} researched guides</p>
+    <p class="page-count">{len(items) + len(industry_guides)} researched guides</p>
   </div>
 
   <main class="archive">
