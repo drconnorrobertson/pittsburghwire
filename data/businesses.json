@@ -93965,5 +93965,33 @@
         "plumbing"
       ]
     }
+  },
+  "local-roots-landscaping": {
+    "name": "Local Roots Landscaping",
+    "website": "https://www.localrootslandscaping.com/home/",
+    "source": "https://www.localrootslandscaping.com/contact/contact-maintenance/",
+    "source_name": "Official business website",
+    "address": "6101 Penn Ave #201, Pittsburgh, PA 15206",
+    "phone": "4129774616",
+    "source_category": "Landscaping",
+    "checked": "2026-10-10",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Local Roots Landscaping publishes design, installation and maintenance services for Pittsburgh-area properties. Contact the team to confirm project scope and service area.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.localrootslandscaping.com/home/",
+      "title": "Local Roots Landscaping",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [
+        {
+          "url": "https://www.localrootslandscaping.com/contact/contact-maintenance/",
+          "label": "maintenance appointments"
+        }
+      ]
+    }
   }
 }
