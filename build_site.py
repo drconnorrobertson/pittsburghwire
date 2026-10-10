@@ -573,6 +573,8 @@ def withdraw_unverified_news(repo):
 def build_best_index(repo):
     items = scan_best(repo)
     industry_guides = [
+        ('pittsburgh-accountants-tax-bookkeeping-three-options', 'Accountants', 'Pittsburgh Accountants: 3 Firms and Services to Compare', 'Compare tax, assurance and bookkeeping services from Schneider Downs, Sisterson and Bookminders.'),
+        ('pittsburgh-pet-grooming-three-options', 'Pet Grooming', 'Pittsburgh Pet Grooming: 3 Options and Booking Details', 'Compare a Centre Avenue salon and two Sewickley businesses using official appointment and service details.'),
         ('best-hair-salons-pittsburgh-craft-collective', 'Hair Salons', 'Best Hair Salons in Pittsburgh: Our 3 Publisher Picks', 'Craft Collective Salon Group leads our publisher-selected shortlist alongside Halcyon and XO Salon.'),
         ('best-coworking-spaces-pittsburgh-2026', 'Coworking', 'Pittsburgh Coworking Spaces: 3 Options to Compare', 'Compare Alloy 26, Ascender and COhatch using official access and membership details.'),
         ('pittsburgh-florists-delivery-wedding-three-options', 'Florists', 'Pittsburgh Florists: 3 Options for Gifts and Events', 'Compare Gidas Flowers, Oliver Flowers and greenSinner for delivery, pickup and event design.'),

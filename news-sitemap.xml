@@ -41,6 +41,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-pet-grooming-three-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>Pittsburgh Pet Grooming: 3 Options and Booking Details</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-halloween-2026-decorating-contest-trick-or-treat</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -110,6 +118,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-10</news:publication_date>
       <news:title>3 Pittsburgh-Area Theaters for Art and Classic Films</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-accountants-tax-bookkeeping-three-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>Pittsburgh Accountants: 3 Firms and Services to Compare</news:title>
     </news:news>
   </url>
   <url>
