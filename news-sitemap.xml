@@ -33,6 +33,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/chick-fil-a-western-pennsylvania-nine-restaurants-expansion</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>Chick-fil-A Plans Nine Western Pennsylvania Restaurants</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/sarris-penn-avenue-market-district-scoop-shop-announcement</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
