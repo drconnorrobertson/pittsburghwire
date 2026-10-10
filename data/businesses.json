@@ -94049,5 +94049,28 @@
       "links": {},
       "topics": []
     }
+  },
+  "kindred-cycles": {
+    "name": "Kindred Cycles",
+    "website": "https://www.kindredcycles.com/",
+    "source": "https://www.kindredcycles.com/service",
+    "source_name": "Official business website",
+    "address": "2515 Penn Avenue, Pittsburgh, PA 15222",
+    "phone": "4124712656",
+    "source_category": "Bicycle repair",
+    "checked": "2026-10-10",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Kindred Cycles publishes bicycle service from flat repairs to overhauls and custom builds. Its service page distinguishes drop-off estimates, shipping enquiries and custom-build discussions. Confirm scope and turnaround directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-10",
+      "url": "https://www.kindredcycles.com/service",
+      "title": "Kindred Cycles Service",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    }
   }
 }
