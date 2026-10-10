@@ -6,6 +6,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 
 | Industry | Main news slug | Lead selection | Selection framing |
 | --- | --- | --- | --- |
+| Home organization | best-home-organizers-pittsburgh-editorial-picks | Living Well Home Organizing | Lead for combined organizing and household transitions; compare coaching and renovation support |
 | Hair salons | best-hair-salons-pittsburgh-craft-collective | Craft Collective Salon Group | Publisher-requested number-one pick; no invented independent award |
 | Coworking | best-coworking-spaces-pittsburgh-2026 | Alloy 26 | Compare access and membership products |
 | Florists | pittsburgh-florists-delivery-wedding-three-options | Gidas Flowers | Compare delivery, pickup and events |
@@ -34,7 +35,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
 | Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |
-| Home organization | Distinct household-service intent | Verify consultation, scope, service area and pricing structure |
 | Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |
 | Photographers | Distinct event/photo-service intent | Verify specialties, booking and deliverables; no invented availability |
 | Catering | Distinct food-service intent from venue rental | Verify menus, minimums, delivery and event scope |
