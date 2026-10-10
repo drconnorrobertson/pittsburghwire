@@ -70,7 +70,8 @@ def link_news(repo,articles):
             links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(DATA[s]["address"])}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
             block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>For current contact research, these related directory records provide source-linked locations and official websites. This directory context was checked October 7, 2026; it does not change the reporting date or establish that a past project or announcement has since been completed.</p><ul>{links}</ul></section><!-- BUSINESS_LINKS_END -->'
             markup=markup[:span[1]].rstrip()+'\n'+block+'\n'+markup[span[1]:];count+=1
-            markup=re.sub(r'("dateModified"\s*:\s*")[^"]+(")',lambda m:m[1]+'2026-10-07'+m[2],markup)
+            # Directory context must never backdate a newer article revision.
+            markup=re.sub(r'("dateModified"\s*:\s*")([^"]+)(")',lambda m:m[1]+max('2026-10-07',m[2])+m[3],markup)
             for s in slugs[:5]:matched.setdefault(s,[]).append(a)
         span=article_body_span(markup)
         if span:
