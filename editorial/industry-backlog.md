@@ -7,6 +7,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Industry | Main news slug | Lead selection | Selection framing |
 | --- | --- | --- | --- |
 | Home organization | best-home-organizers-pittsburgh-editorial-picks | Living Well Home Organizing | Lead for combined organizing and household transitions; compare coaching and renovation support |
+| Bicycle repair | best-bike-repair-pittsburgh-editorial-picks | Kindred Cycles | Lead for specific repair intake instructions; compare appointment and transport options |
 | Hair salons | best-hair-salons-pittsburgh-craft-collective | Craft Collective Salon Group | Publisher-requested number-one pick; no invented independent award |
 | Coworking | best-coworking-spaces-pittsburgh-2026 | Alloy 26 | Compare access and membership products |
 | Florists | pittsburgh-florists-delivery-wedding-three-options | Gidas Flowers | Compare delivery, pickup and events |
@@ -41,7 +42,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
 | Bookstores | Distinct retail discovery intent | Verify stock focus, ordering, events and locations |
-| Bicycle repair | Distinct repair intent from automotive | Verify service types, booking and turnaround policies |
 
 ## Editorial and publishing controls
 
