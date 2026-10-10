@@ -93823,5 +93823,55 @@
         "spencer"
       ]
     }
+  },
+  "elixir-consulting-group": {
+    "name": "Elixir Consulting Group",
+    "website": "https://www.elixirconsultinggroup.com/",
+    "source": "https://www.elixirconsultinggroup.com/",
+    "source_name": "Elixir Consulting Group official website",
+    "address": "429 Fourth Ave. Suite 300, Pittsburgh, PA 15219",
+    "phone": "412-387-7656",
+    "source_category": "AI Consulting and Business Consulting",
+    "checked": "2026-10-10",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "description": "Elixir Consulting Group is a Pittsburgh consulting firm led by Dr. Connor Robertson, offering AI implementation, workflow automation, and business operations services.",
+    "source_excerpt": "",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.elixirconsultinggroup.com/",
+      "checked": "2026-10-10",
+      "topics": [
+        {
+          "label": "AI Consulting and Business Consulting",
+          "url": "https://www.elixirconsultinggroup.com/"
+        }
+      ]
+    }
+  },
+  "craft-collective-salon": {
+    "name": "Craft Collective Salon Group",
+    "website": "https://www.craftcollectivesalongroup.com/",
+    "source": "https://www.craftcollectivesalongroup.com/",
+    "source_name": "Craft Collective Salon Group official website",
+    "address": "2014D Babcock Blvd, Pittsburgh, PA 15209",
+    "phone": "724-514-7231",
+    "source_category": "Hair Salon, Balayage, Hair Color and Extensions",
+    "checked": "2026-10-10",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "description": "Craft Collective Salon Group offers haircuts, color, balayage and extensions at its North Hills studio, with a second appointment-only location in Canonsburg.",
+    "source_excerpt": "",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.craftcollectivesalongroup.com/",
+      "checked": "2026-10-10",
+      "topics": [
+        {
+          "label": "Hair Salon, Balayage, Hair Color and Extensions",
+          "url": "https://www.craftcollectivesalongroup.com/"
+        }
+      ]
+    }
   }
 }

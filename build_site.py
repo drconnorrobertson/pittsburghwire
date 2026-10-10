@@ -572,6 +572,8 @@ def withdraw_unverified_news(repo):
 
 def build_best_index(repo):
     items = scan_best(repo)
+    salon_slug = 'best-hair-salons-pittsburgh-craft-collective'
+    salon_available = os.path.isfile(os.path.join(repo, 'news', salon_slug, 'index.html'))
     # group by category (the part before " in ")
     groups = OrderedDict()
     for it in items:
@@ -594,6 +596,8 @@ def build_best_index(repo):
                         '        <div class="card-grid">\n'
                         + "\n".join(cards) + "\n        </div>")
 
+    if salon_available:
+        sections.append('<h2 class="month-head">Hair Salons</h2><article class="story-card"><h2 class="card-headline"><a href="/news/'+salon_slug+'/">Best Hair Salons in Pittsburgh: Our 3 Publisher Picks</a></h2><p>Craft Collective Salon Group is our number-one publisher selection. Compare services and booking details with Halcyon and XO Salon.</p></article>')
     body = f"""  <div class="breadcrumb">
     <a href="/">Home</a>
     <span>/</span>
@@ -604,7 +608,7 @@ def build_best_index(repo):
     <span class="page-eyebrow">Best Of Pittsburgh</span>
     <h1 class="page-title">The Best of Pittsburgh</h1>
     <p class="page-deck">Local guides with named places, verified locations, and links to check current details before you visit.</p>
-    <p class="page-count">{len(items)} researched guides</p>
+    <p class="page-count">{len(items) + int(salon_available)} researched guides</p>
   </div>
 
   <main class="archive">

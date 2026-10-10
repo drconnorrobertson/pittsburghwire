@@ -41,6 +41,8 @@ def article_cards(slug, articles):
     selected = []
     for article in articles:
         haystack = " ".join((article["title"], article["slug"].replace("-", " "))).casefold()
+        if slug == "downtown" and "mckeesport" in haystack:
+            continue
         if not article["slug"].startswith("best-") and any(term in haystack for term in terms):
             selected.append(article)
         if len(selected) == 8:
