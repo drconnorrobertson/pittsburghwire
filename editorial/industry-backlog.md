@@ -27,6 +27,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Roofing | best-roofing-contractors-pittsburgh-editorial-picks | Resnick Roofing & Contracting | Lead for combined roof and exterior enquiries; compare estimates and materials |
 | Moving companies | best-moving-companies-pittsburgh-editorial-picks | South Hills Movers | Lead regional comparison; separate transport and labor |
 | Buffets | pittsburgh-buffet-restaurants-three-options | Hokkaido Seafood Buffet | Lead for clearly posted meal pricing and hours; compare Japanese AYCE and family buffet formats |
+| Handyman services | pittsburgh-handyman-services-home-repairs-five-options | Pittsburgh Area Handyman | Lead for published breadth across repairs, maintenance, aging-in-place and rental-property work; compare estimate and project processes |
 
 AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
 
@@ -37,7 +38,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |
 | Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |
 | Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
