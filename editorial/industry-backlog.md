@@ -38,7 +38,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
 | Handyman services | Distinct small-project intent | Verify accepted work and estimate process; distinguish licensed trades |
 | Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |
-| Photographers | Distinct event/photo-service intent | Verify specialties, booking and deliverables; no invented availability |
 | Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
 | Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
