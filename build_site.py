@@ -594,6 +594,7 @@ def build_best_index(repo):
         ('best-coworking-spaces-pittsburgh-2026', 'Coworking', 'Pittsburgh Coworking Spaces: 3 Options to Compare', 'Compare Alloy 26, Ascender and COhatch using official access and membership details.'),
         ('pittsburgh-florists-delivery-wedding-three-options', 'Florists', 'Pittsburgh Florists: 3 Options for Gifts and Events', 'Compare Gidas Flowers, Oliver Flowers and greenSinner for delivery, pickup and event design.'),
         ('best-wedding-photographers-pittsburgh-editorial-picks', 'Wedding Photography', 'Pittsburgh Wedding Photographers: 3 Editorial Picks', 'Compare Alex K. Studios, Ben Murray Creative and Linnea Marie Photography by packages, coverage and delivery.'),
+        ('pittsburgh-buffet-restaurants-three-options', 'Buffet Restaurants', 'Pittsburgh Buffets: 3 Places to Compare', 'Compare Hokkaido Seafood Buffet, Umiya AYCE and Golden Corral by meal formats, posted prices and hours.'),
     ]
     industry_guides = [g for g in industry_guides if os.path.isfile(os.path.join(repo, 'news', g[0], 'index.html'))]
     # group by category (the part before " in ")

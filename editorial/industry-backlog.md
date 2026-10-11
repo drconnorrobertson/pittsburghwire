@@ -26,6 +26,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Landscaping | best-landscapers-pittsburgh-editorial-picks | Local Roots Landscaping | Lead for combined design, installation and care; compare irrigation and design-only options |
 | Roofing | best-roofing-contractors-pittsburgh-editorial-picks | Resnick Roofing & Contracting | Lead for combined roof and exterior enquiries; compare estimates and materials |
 | Moving companies | best-moving-companies-pittsburgh-editorial-picks | South Hills Movers | Lead regional comparison; separate transport and labor |
+| Buffets | pittsburgh-buffet-restaurants-three-options | Hokkaido Seafood Buffet | Lead for clearly posted meal pricing and hours; compare Japanese AYCE and family buffet formats |
 
 AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
 
