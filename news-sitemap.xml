@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/delanies-coffee-opens-pitt-big-idea-center-oakland</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-11</news:publication_date>
+      <news:title>Delanie’s Coffee Opens at Pitt’s Big Idea Center</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/wigle-bad-omen-bar-strip-district-october-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -310,110 +318,6 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-10</news:publication_date>
       <news:title>Best Auto Repair in Pittsburgh: 3 Editorial Picks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/sarris-penn-avenue-market-district-scoop-shop-announcement</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>Sarris Announces Penn Avenue Market District Scoop Shop</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-record-stores-three-vinyl-shopping-stops</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>3 Pittsburgh-Area Record Stores for a Vinyl-Shopping Day</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-museums-rainy-day-five-options</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>5 Pittsburgh Museums for a Rainy-Day Outing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-gardens-park-spaces-five-city-stops</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>5 Pittsburgh Gardens and Park Spaces for a City Break</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-craft-classes-glass-clay-fiber-three-studios</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>3 Pittsburgh Places to Try Glass, Clay and Craft Classes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bakeries-bread-pastries-cake-five-stops</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>5 Pittsburgh-Area Bakeries for Bread, Pastries and Cake</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-area-pinball-arcade-games-three-venues</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>3 Pittsburgh-Area Spots for Pinball and Arcade Games</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-area-chocolate-shops-five-gift-stops</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>5 Pittsburgh-Area Chocolate Shops for Gifts and Treats</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/independent-bookstores-pittsburgh-area-five-stops</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>5 Independent Bookstores Around Pittsburgh to Explore</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/habitat-homewood-tioga-street-three-homes</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>Habitat Pittsburgh Announces Three New Homes on Tioga Street in Homewood</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/fort-pitt-park-garfield-500000-rehabilitation-grant</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>Fort Pitt Park in Garfield Receives $500,000 State Grant</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/cafe-raymond-brentwood-brownsville-road-october-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>Cafe Raymond Plans October Opening in Brentwood</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/ae-works-union-trust-building-downtown-office-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-09</news:publication_date>
-      <news:title>AE Works Opens Downtown Office in the Union Trust Building</news:title>
     </news:news>
   </url>
 </urlset>
