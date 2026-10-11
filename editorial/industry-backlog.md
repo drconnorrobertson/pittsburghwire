@@ -29,6 +29,7 @@ Updated October 11, 2026. One main guide per industry/search intent; refresh it 
 | Buffets | pittsburgh-buffet-restaurants-three-options | Hokkaido Seafood Buffet | Lead for clearly posted meal pricing and hours; compare Japanese AYCE and family buffet formats |
 | Handyman services | pittsburgh-handyman-services-home-repairs-five-options | Pittsburgh Area Handyman | Lead for published breadth across repairs, maintenance, aging-in-place and rental-property work; compare estimate and project processes |
 | Self-storage | pittsburgh-self-storage-options-access-climate-drive-up | Five-option comparison | Compare access hours, climate control, loading and geography; editorial guide, not paid ranking |
+| Printing and signs | pittsburgh-print-and-sign-shops-business-projects | KDC | Lead for documented breadth across commercial printing, signage, design, finishing and direct mail; compare walk-in print and sign-project workflows |
 
 AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
 
@@ -39,7 +40,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
 | Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
 
