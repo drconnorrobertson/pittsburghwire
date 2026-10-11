@@ -41,6 +41,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-childrens-museum-fred-rogers-exhibit-2026</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-11</news:publication_date>
+      <news:title>Pittsburgh Children’s Museum Opens New Fred Rogers Exhibit</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/mccandless-restaurant-week-2026-specials-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
