@@ -6,6 +6,7 @@ Updated October 11, 2026. One main guide per industry/search intent; refresh it 
 
 | Industry | Main news slug | Lead selection | Selection framing |
 | --- | --- | --- | --- |
+| Web/design agencies | pittsburgh-web-design-agencies-small-business-guide | Joyce, Inc. | Lead for documented overlap of website design, custom development and marketing; compare custom builds, WordPress maintenance and small-team offerings |
 | Home organization | best-home-organizers-pittsburgh-editorial-picks | Living Well Home Organizing | Lead for combined organizing and household transitions; compare coaching and renovation support |
 | Bicycle repair | best-bike-repair-pittsburgh-editorial-picks | Kindred Cycles | Lead for specific repair intake instructions; compare appointment and transport options |
 | Catering | best-caterers-pittsburgh-editorial-picks | Common Plea Catering | Lead for explicit full-service versus delivery distinction; compare menu ordering and event enquiries |
@@ -40,7 +41,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
 | Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
 
 ## Editorial and publishing controls
