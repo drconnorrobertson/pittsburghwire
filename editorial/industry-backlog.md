@@ -1,6 +1,6 @@
 # Pittsburgh industry guide program
 
-Updated October 10, 2026. One main guide per industry/search intent; refresh it instead of publishing keyword or neighborhood variants. The aim is useful category discovery and stronger business profiles. No position or indexing guarantees.
+Updated October 11, 2026. One main guide per industry/search intent; refresh it instead of publishing keyword or neighborhood variants. The aim is useful category discovery and stronger business profiles. No position or indexing guarantees.
 
 ## Published core guides
 
@@ -28,6 +28,7 @@ Updated October 10, 2026. One main guide per industry/search intent; refresh it 
 | Moving companies | best-moving-companies-pittsburgh-editorial-picks | South Hills Movers | Lead regional comparison; separate transport and labor |
 | Buffets | pittsburgh-buffet-restaurants-three-options | Hokkaido Seafood Buffet | Lead for clearly posted meal pricing and hours; compare Japanese AYCE and family buffet formats |
 | Handyman services | pittsburgh-handyman-services-home-repairs-five-options | Pittsburgh Area Handyman | Lead for published breadth across repairs, maintenance, aging-in-place and rental-property work; compare estimate and project processes |
+| Self-storage | pittsburgh-self-storage-options-access-climate-drive-up | Five-option comparison | Compare access hours, climate control, loading and geography; editorial guide, not paid ranking |
 
 AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
 
@@ -38,7 +39,6 @@ Search Console window: September 10–October 7, 2026. These are this property's
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
 | Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
-| Storage | Distinct self-storage intent from moving services | Verify locations, unit access, fees and booking terms |
 | Print/sign shops | Distinct business-service buying intent | Verify print products, design services, ordering and pickup |
 | Web/design agencies | Distinct business-service intent | Verify actual services, portfolios and enquiry process |
 | Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
