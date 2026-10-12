@@ -932,6 +932,9 @@ def main(repo):
     refreshed = neighborhood_hubs.update(repo, articles)
     print(f"  neighborhoods ({len(refreshed)} hubs refreshed from published pages)")
 
+    import search_pathways
+    print(f"  search pathways ({search_pathways.write(repo)} articles)")
+
     build_news_index(repo, articles)
     print("  news/index.html")
     for label, n in build_category_pages(repo, articles):
