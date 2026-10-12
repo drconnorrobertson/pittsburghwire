@@ -571,7 +571,9 @@ def withdraw_unverified_news(repo):
 
 
 def build_best_index(repo):
-    items = scan_best(repo)
+    import comparison_hubs
+    topic_cards, extra_guides = comparison_hubs.write(repo, page_shell, scan_articles(repo))
+    items = [it for it in scan_best(repo) if it["slug"] not in comparison_hubs.TOPICS]
     industry_guides = [
         ('best-caterers-pittsburgh-editorial-picks', 'Catering', 'Best Caterers in Pittsburgh: 3 Editorial Picks', 'Compare Common Plea, Bistro To Go and Black Radish by event planning, menu ordering and delivery enquiries.'),
         ('best-bike-repair-pittsburgh-editorial-picks', 'Bicycle Repair', 'Best Bike Repair in Pittsburgh: 3 Editorial Picks', 'Compare Kindred Cycles, The Bicycle Workshop and Cottle Built by repair intake, appointment processes and estimates.'),
@@ -597,6 +599,11 @@ def build_best_index(repo):
         ('pittsburgh-buffet-restaurants-three-options', 'Buffet Restaurants', 'Pittsburgh Buffets: 3 Places to Compare', 'Compare Hokkaido Seafood Buffet, Umiya AYCE and Golden Corral by meal formats, posted prices and hours.'),
     ]
     industry_guides = [g for g in industry_guides if os.path.isfile(os.path.join(repo, 'news', g[0], 'index.html'))]
+    known = {g[0] for g in industry_guides}
+    for guide in extra_guides:
+        if guide[0] not in known:
+            industry_guides.append(guide)
+            known.add(guide[0])
     # group by category (the part before " in ")
     groups = OrderedDict()
     for it in items:
@@ -604,7 +611,7 @@ def build_best_index(repo):
         cat = (m.group(1) if m else it["slug"]).replace("-", " ").title()
         groups.setdefault(cat, []).append(it)
 
-    sections = []
+    sections = [topic_cards]
     for cat in sorted(groups):
         cards = []
         for it in sorted(groups[cat], key=lambda x: x["title"]):
@@ -629,7 +636,7 @@ def build_best_index(repo):
 
   <div class="page-head">
     <span class="page-eyebrow">Best Of Pittsburgh</span>
-    <h1 class="page-title">The Best of Pittsburgh</h1>
+    <h1 class="page-title">Best of Pittsburgh: Local Lists &amp; Comparisons</h1>
     <p class="page-deck">Local guides with named places, verified locations, and links to check current details before you visit.</p>
     <p class="page-count">{len(items) + len(industry_guides)} researched guides</p>
   </div>
@@ -638,7 +645,7 @@ def build_best_index(repo):
 {chr(10).join(sections)}
   </main>"""
     out = page_shell(
-        "Best of Pittsburgh | The Pittsburgh Wire",
+        "Best of Pittsburgh: Local Lists & Comparisons | The Pittsburgh Wire",
         "Researched Pittsburgh neighborhood guides with named businesses, verified locations, and links to current details.",
         f"{SITE}/best/", body, active_nav="/best/")
     open(os.path.join(repo, "best", "index.html"), "w", encoding="utf-8").write(out)
