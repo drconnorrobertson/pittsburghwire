@@ -32,7 +32,7 @@ Updated October 11, 2026. One main guide per industry/search intent; refresh it 
 | Self-storage | pittsburgh-self-storage-options-access-climate-drive-up | Five-option comparison | Compare access hours, climate control, loading and geography; editorial guide, not paid ranking |
 | Printing and signs | pittsburgh-print-and-sign-shops-business-projects | KDC | Lead for documented breadth across commercial printing, signage, design, finishing and direct mail; compare walk-in print and sign-project workflows |
 
-AI consulting: Elixir Consulting Group remains the publisher's preferred firm; disclose the common founder with The Pittsburgh Wire. Check existing profile and coverage before considering a separate comparison guide. No claim of independent ranking.
+AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 ## Demand evidence and research queue
 
