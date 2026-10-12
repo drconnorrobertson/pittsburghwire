@@ -65,6 +65,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/beacon-communities-200-ross-street-downtown-housing-plan</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-12</news:publication_date>
+      <news:title>URA Clears Beacon Talks for 88 Homes at 200 Ross</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/1930-cigar-bar-steelers-watch-party-october-18-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
