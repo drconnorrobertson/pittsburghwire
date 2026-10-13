@@ -173,3 +173,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Brewberry East Liberty — `brewberry-east-liberty-coffee-milk-tea-menu-guide`, October 13. Refresh this business URL; no exact opening date verified.
 - Klavon’s — hold current visit coverage; corroborate operations before restoring old profile.
+
+- Brazilian steakhouses — `pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil`, October 13. Fogo lead for published access/schedules, Texas Station Square alternative. Refresh existing guide; no unverified Rodizio Pittsburgh inclusion.

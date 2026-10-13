@@ -95713,5 +95713,41 @@
         "brewberry"
       ]
     }
+  },
+  "texas-de-brazil-pittsburgh": {
+    "name": "Texas de Brazil Pittsburgh",
+    "website": "https://texasdebrazil.com/locations/pittsburgh/",
+    "source": "https://texasdebrazil.com/locations/pittsburgh/",
+    "source_name": "Official Pittsburgh location page",
+    "address": "240 West Station Square Drive, Suite D1, Pittsburgh, PA 15219",
+    "phone": "412-230-3816",
+    "source_category": "Brazilian Steakhouse",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare the Station Square location’s posted lunch, dinner and salad-area formats. Confirm the applicable meal period, included service and additional charges directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://texasdebrazil.com/locations/pittsburgh/",
+      "title": "Texas de Brazil Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://texasdebrazil.com/menu/",
+          "label": "Official menu information"
+        },
+        "contact": {
+          "url": "https://texasdebrazil.com/locations/pittsburgh/",
+          "label": "Official local contact and visit information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "texas",
+        "brazil"
+      ]
+    }
   }
 }
