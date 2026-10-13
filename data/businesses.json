@@ -96192,5 +96192,43 @@
         "studio"
       ]
     }
+  },
+  "7-brew-natrona-heights": {
+    "name": "7 Brew Natrona Heights",
+    "website": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+    "source": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+    "source_name": "Official local stand and chain support information",
+    "address": "1421 Freeport Road, Natrona Heights, PA 15065",
+    "phone": "479-358-9274",
+    "source_category": "Drive-Thru Coffee",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Natrona Heights",
+    "source_excerpt": "",
+    "description": "Confirm the Freeport Road stand’s current hours and selected drink price directly. App ordering is offered at participating locations, with payment and check-in completed at the drive-thru under the chain’s published process.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+      "title": "7 Brew Coffee Natrona Heights",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://7brew.com/menu",
+          "label": "Official drink menu"
+        },
+        "contact": {
+          "url": "https://7brew.com/support",
+          "label": "Official ordering and ingredient information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "7",
+        "brew",
+        "natrona",
+        "heights"
+      ]
+    }
   }
 }

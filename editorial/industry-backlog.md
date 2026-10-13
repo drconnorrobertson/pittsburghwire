@@ -204,3 +204,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Eichenlaub studio — `eichenlaub-millvale-studio-landscape-planning-guide`, October13. Business-name planning intent; no competing general landscaper ranking.
 - Westmoreland Cleanways — `westmoreland-cleanways-recycling-drop-off-fees-guide`, October13. Current center/HHW/fees route; refresh for policy changes instead of creating material/location variants.
+
+- 7 Brew Natrona Heights — `7-brew-natrona-heights-freeport-road-opening-guide`, October13. Established September28 opening, FreeportRoad local hours and app participation details. Update this URL; Collier still requires fresh opening confirmation.
