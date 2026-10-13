@@ -95965,5 +95965,41 @@
         "cleaning"
       ]
     }
+  },
+  "chimney-cricket-pittsburgh": {
+    "name": "Chimney Cricket",
+    "website": "https://chimneycricketpgh.com/",
+    "source": "https://chimneycricketpgh.com/",
+    "source_name": "Official service and contact information",
+    "address": "PO Box 15891, Pittsburgh, PA 15244 (mailing address only)",
+    "phone": "412-279-9288",
+    "source_category": "Chimney Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Ask what is included in the proposed examination, sweeping and any repair work. The operator defines a visual inspection around visible and accessible areas; the listed PO box is a mailing address.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://chimneycricketpgh.com/",
+      "title": "Chimney Cricket Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://chimneycricketpgh.com/what-is-a-visual-chimney-inspection/",
+          "label": "Official visual-inspection scope"
+        },
+        "contact": {
+          "url": "https://chimneycricketpgh.com/",
+          "label": "Official service and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "chimney",
+        "cricket"
+      ]
+    }
   }
 }

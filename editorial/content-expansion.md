@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the nineteenth additional-100 batch: 421; 16 additions remain to the first checkpoint and 579 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twentieth additional-100 batch: 422; 15 additions remain to the first checkpoint and 578 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 36 of 100 additional articles; 64 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 37 of 100 additional articles; 63 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -239,3 +239,10 @@ Seventeenth batch verified live at Production commit ea9b6325 with both articles
 - `pittsburgh-gutter-cleaning-two-service-options`: distinct gutter-cleaning comparison, PEC lead for documented clearing/flushing/checks versus ClearTech ground-access-limited vacuum and opening check. PEC price discrepancy explicitly flagged, not silently resolved. ATL BAR excluded due mixed geographic template content. No invented ClearTech street/phone. Reciprocal sourced PEC profile.
 
 Eighteenth batch verified live at Production commit 695eb9876de8aaa61ab666759da68b458ce99d00 with both articles, maps and reciprocal profiles.
+
+## Additional-100 batch 20 — October 13
+
+- `pittsburgh-chimney-services-three-scope-options`: distinct chimney-service purchasing comparison. Chimney Cricket lead for explicit visible/accessible inspection scope and sweeping process; Advance camera-versus-visual scope and D&G service-category alternatives. Contractor legal real-estate inspection claim excluded as unverified; no invented certifications, safety clearance, emergency availability guarantee or service prices. PO box explicitly mailing-only; sourced reciprocal lead profile.
+- Dog daycare/boarding already covered by `pittsburgh-dog-daycare-boarding-five-options`; refresh that URL instead of a competing guide.
+
+Nineteenth batch verified live at Production commit 665d8960c5ad2c29fe9ffe991275aae8fb483b5a with both guides, maps and reciprocal profiles. Daily settled News visibility remains on the established cadence; no repeated unchanged same-day submission.
