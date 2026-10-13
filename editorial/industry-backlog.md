@@ -211,3 +211,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Indoor climbing — `pittsburgh-indoor-climbing-two-first-visit-options`, October13. ASCEND terrain lead/Iron City bouldering, actual local pricing and first-visit rules. No duplicate branch variants; FA requires usable current primary source before inclusion.
 
 - Yarn shops — `pittsburgh-yarn-shops-two-project-class-options`, October13. Oakmont lead for class-policy clarity, Yarn Bits and Bobs alternative; refresh calendar and hours, no competing neighborhood variants.
+
+- Black Dog Wood Fired Ambridge — `black-dog-wood-fired-ambridge-orders-event-guide`, October13. Restaurant pickup versus event quote; refresh current catering conflict and stalehomepage rather than generating variants.
+- Computer repair — `pittsburgh-computer-repair-three-intake-options`, October13. Tekton lead for explicit diagnostic/quote intake; Bloomfield chain and restrictedPitt alternatives. Refresh scope/fees, no competing neighborhood variants.

@@ -96308,5 +96308,81 @@
         "collaborative"
       ]
     }
+  },
+  "black-dog-wood-fired-ambridge": {
+    "name": "Black Dog Wood Fired Ambridge",
+    "website": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
+    "source": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
+    "source_name": "Official local service and intake information",
+    "address": "916 Merchant Street, Ambridge, PA 15003",
+    "phone": "724-293-4111",
+    "source_category": "Pizza Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Ambridge",
+    "source_excerpt": "",
+    "description": "Confirm the Ambridge restaurant pickup order separately from a private food-truck event. Ask for current availability and a written event quote because published catering service-time descriptions differ.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
+      "title": "Black Dog Wood Fired Ambridge",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
+          "label": "Official local menu or service information"
+        },
+        "contact": {
+          "url": "https://blackdogwoodfired.com/contact-us/",
+          "label": "Official enquiry route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "black",
+        "dog",
+        "wood",
+        "fired",
+        "ambridge"
+      ]
+    }
+  },
+  "tekton-innovations-brookline": {
+    "name": "Tekton Innovations Brookline",
+    "website": "https://www.tektoninnovationsllc.com/computer-repair-pittsburgh/",
+    "source": "https://www.tektoninnovationsllc.com/computer-repair-pittsburgh/",
+    "source_name": "Official local service and intake information",
+    "address": "532 Brookline Boulevard, Pittsburgh, PA 15226",
+    "phone": "412-668-0256",
+    "source_category": "Computer Repair",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Bring the actual computer model and symptoms, confirm the free diagnostic and quote process, and request the approved scope, total charge and expected completion date before authorizing work.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.tektoninnovationsllc.com/computer-repair-pittsburgh/",
+      "title": "Tekton Innovations Brookline",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.tektoninnovationsllc.com/computer-repair-pittsburgh/",
+          "label": "Official local menu or service information"
+        },
+        "contact": {
+          "url": "https://www.tektoninnovationsllc.com/contact/",
+          "label": "Official enquiry route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "tekton",
+        "innovations",
+        "brookline"
+      ]
+    }
   }
 }
