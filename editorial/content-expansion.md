@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the first batch, barber comparison and library-room guide: 369; 68 additions remain to the first checkpoint and 631 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the library-room and GED enrollment guides: 370; 67 additions remain to the first checkpoint and 630 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -12,6 +12,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 
 - pittsburgh-library-meeting-room-reservations-guide — public-room reservation intent, distinct from paid coworking and event venues; CLP LibCal, Allegheny branch calendar and law-library reservation page checked October 13. Existing services, not a new announcement.
 
+- pittsburgh-free-ged-classes-enrollment-guide — adult-education enrollment, orientation, tutoring waitlists and conditional test-fee help; Literacy Pittsburgh and CCAC official sources checked October 13. Covers existing programs and flags inconsistent service-area descriptions. No measured query-volume claim.
+
 ## Coverage priorities from direct Search Console
 
 Direct signed-in Google Search Console access works. GSC Wizard remains blocked by its subscription, not a demonstrated loss of Google property access. Use the browser UI when needed; never purchase a subscription without specific authorization.
@@ -22,6 +24,8 @@ Keep business-name coverage current instead of publishing competing variants. De
 
 Google Search News-tab baseline for the same period: 1 click, 2 impressions, average position 51.5. Two page rows: /news/development/ (1 click, 1 impression, position 100) and /news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside (0 clicks, 1 impression, position 3). This is evidence of limited News-tab appearances, not broad Google News app/site distribution. Query rows are unavailable in this tiny sample. Do not infer a site-wide News ranking or a penalty.
 
+Latest direct News-tab recheck October 13, after the library-room guide: the same September 13–October 10 settled window still shows 1 click, 2 impressions and position 51.5; query rows remain unavailable. No measured change and no inference from recent publication.
+
 Full private CSV exports are local at /Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/reports/gsc-2026-10-13. Compare equivalent settled windows; record web and news separately. Direct Search Console reported 2,640 indexed and 1,736 not-indexed URLs across the entire property, including non-news URLs. Investigate specific reasons and examples before treating every excluded URL as an error.
 
 ## Deduplicated research queue
@@ -31,7 +35,6 @@ These are research candidates, not verified stories or promised publication slot
 | Distinct reader need | Source to investigate | Publication condition |
 | --- | --- | --- |
 | Pittsburgh e-waste disposal and booking | City Environmental Services, Noble Environmental, PRC | Verify current costs, materials and appointment routes; distinguish from junk removal |
-| Adult GED and literacy enrollment | Literacy Pittsburgh and CCAC | Verify program availability, eligibility, costs and intake; no outcome promises |
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
 | Local cooking classes | Official teaching kitchens and schools | Compare hands-on versus demonstration, class age and booking terms |
