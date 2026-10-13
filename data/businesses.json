@@ -94301,5 +94301,37 @@
         "rugs"
       ]
     }
+  },
+  "global-wordsmiths": {
+    "name": "Global Wordsmiths",
+    "website": "https://www.globalwordsmiths.com/",
+    "source": "https://www.globalwordsmiths.com/",
+    "source_name": "Official business website",
+    "address": "6587 Hamilton Avenue, Pittsburgh, PA 15206",
+    "phone": "412-228-0240",
+    "source_category": "Translation and language services",
+    "checked": "2026-10-13",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Global Wordsmiths lists translation, interpreting, localization, training and consulting. Published office hours are Monday–Friday, 8:30 a.m.–5 p.m.; closed weekends. Contact info@globalwordsmiths.com to discuss project needs and appointment arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.globalwordsmiths.com/",
+      "title": "Global Wordsmiths",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.globalwordsmiths.com/translation",
+          "label": "Translation quote instructions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "global",
+        "wordsmiths"
+      ]
+    }
   }
 }

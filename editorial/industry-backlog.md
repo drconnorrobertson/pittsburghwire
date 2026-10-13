@@ -45,6 +45,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Area rug cleaning | pittsburgh-area-rug-cleaning-three-options | World of Rugs | Lead for documented drop-off/pickup and repair scope; compare transport eligibility, inspection and estimate processes |
 
+| Translation and language services | pittsburgh-translation-services-three-providers-compare | Global Wordsmiths | Lead for quote checklist and broad local language-service scope; compare enterprise workflows and Japanese specialization |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
