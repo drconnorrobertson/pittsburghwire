@@ -69,3 +69,7 @@ Search Console window: September 10–October 7, 2026. These are this property's
 Research all entries from fresh reliable primary sources. Explain a specific reason for the lead choice. Numbering is editorial navigation unless an explicit publisher order is disclosed. Do not invent review scores, awards, testing, interviews or personal visits. Use 500–700 words and practical details rather than generic descriptions. Link sources and relevant verified profiles. Confirm indexability, canonical URLs, main and news sitemap inclusion, and live deployment. Submit only changed reachable sitemaps. Keep pricing dated and qualified. Do not contact businesses without explicit user authorization.
 
 Existing leisure and food coverage must also be checked for overlap. Consolidate or refresh coffee, restaurants, bowling, escape rooms, cinemas, craft classes, tours and market guides where the intent is already served.
+
+## Recent distinct business coverage
+
+- Rivian Bethel Park Service + Demo Center — `rivian-bethel-park-service-demo-center`, October 13, 2026. Official location confirms 1700 Oxford Drive, visitor/service hours and booking routes. Regional service and demo-drive intent; update this page rather than create a competing center guide.
