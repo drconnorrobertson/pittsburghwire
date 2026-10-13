@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the PGH Candle Downtown update: 378; 59 additions remain to the first checkpoint and 622 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the garage-door comparison: 379; 58 additions remain to the first checkpoint and 621 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -30,6 +30,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 
 - pgh-candle-downtown-studio-fall-visit-guide — established March 2026 expansion, current fall activities, reservation formats and location distinctions; operator and tourism sources checked October 13. Clearly dated background, not a new opening claim.
 
+- pittsburgh-garage-door-service-three-options — showroom, online-design and in-home enquiry comparison with repair-versus-replacement scope; official sources checked October 13. No measured query-volume claim.
+
 ## Coverage priorities from direct Search Console
 
 Direct signed-in Google Search Console access works. GSC Wizard remains blocked by its subscription, not a demonstrated loss of Google property access. Use the browser UI when needed; never purchase a subscription without specific authorization.
@@ -54,7 +56,6 @@ These are research candidates, not verified stories or promised publication slot
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
-| Garage-door repair and installation | Official service firms | Explain repair versus replacement and written quotes; no invented emergency availability |
 | Fence installation | Official local contractors | Verify materials, territory and estimate scope; link city permit sources without legal conclusions |
 | Home inspection | Official local inspectors | Verify credentials independently, report scope and booking; no invented quality ranking |
 | Radon testing service comparison | PA DEP and official providers | Check current certification and service boundaries; no medical advice |

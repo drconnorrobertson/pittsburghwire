@@ -94686,5 +94686,40 @@
         "henne"
       ]
     }
+  },
+  "installation-services-modern-day-garage": {
+    "name": "Installation Services Inc. by Modern Day Garage",
+    "website": "https://pittsburgh.moderndaygarage.com/",
+    "source": "https://pittsburgh.moderndaygarage.com/residential-garage-doors/",
+    "source_name": "Official residential service and contact information",
+    "address": "1412 Parkway View Drive, Pittsburgh, PA 15205",
+    "phone": "412-830-8275",
+    "source_category": "Garage Door Installation and Repair",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Garage-door installation, repair and maintenance provider. Confirm showroom access, service coverage and the complete estimate before booking.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburgh.moderndaygarage.com/",
+      "title": "Installation Services Inc. by Modern Day Garage",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburgh.moderndaygarage.com/residential-garage-doors/",
+          "label": "Residential doors and showroom"
+        },
+        "contact": {
+          "url": "https://pittsburgh.moderndaygarage.com/contact/",
+          "label": "Office and service enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "installation services"
+      ]
+    }
   }
 }
