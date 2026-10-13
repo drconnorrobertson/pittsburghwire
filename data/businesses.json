@@ -96038,5 +96038,43 @@
         "place"
       ]
     }
+  },
+  "british-swim-school-monroeville": {
+    "name": "British Swim School at Residence Inn–Monroeville",
+    "website": "https://britishswimschool.com/pittsburgh/",
+    "source": "https://britishswimschool.com/pittsburgh/location/residence-inn-monroeville/",
+    "source_name": "Official Pittsburgh pool and adult-program information",
+    "address": "3455 William Penn Highway, Pittsburgh, PA 15235",
+    "phone": "724-241-8602",
+    "source_category": "Swimming Lessons",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare the adult-specific program with the actual pool schedule and confirm an available class, group size and recurring fee directly. The operator lists this Residence Inn pool separately from its office hours.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://britishswimschool.com/pittsburgh/",
+      "title": "British Swim School of Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://britishswimschool.com/pittsburgh/programs/adult/",
+          "label": "Official adult swim program"
+        },
+        "contact": {
+          "url": "https://britishswimschool.com/pittsburgh/location/residence-inn-monroeville/",
+          "label": "Official pool location and schedule"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "british",
+        "swim",
+        "school",
+        "monroeville"
+      ]
+    }
   }
 }

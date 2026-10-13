@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-third additional-100 batch: 426; 11 additions remain to the first checkpoint and 574 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-fourth additional-100 batch: 427; 10 additions remain to the first checkpoint and 573 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 41 of 100 additional articles; 59 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 42 of 100 additional articles; 58 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -266,3 +266,9 @@ Twenty-first batch verified live at Production commit 15ab7e72 with both article
 - Refresh only: `amboy-filipino-restaurant-deutschtown-pittsburgh-rafael-vencio`. Replaced unsupported first-restaurant claim, summer-opening certainty, unsourced quotes and speculative Michelin commentary. Official homepage still under construction/fall plan; current Soju event page, history and May19 PublicSource/Courier background cited. OriginalJune22 publication retained, October13 modification and visible correction. Not an addition. Local recoverable original saved outside repo.
 
 Twenty-second batch verified live at Production commit 9768069c099c0f42f322cd00e239b48a27716b06 with guide, maps and reciprocal profile.
+
+## Additional-100 batch 24 — October 13
+
+- `pittsburgh-adult-swim-lessons-three-options`: distinct adult swimming instruction comparison; no existing swim News guide found. British Swim adult-specific progression and max-four lead, YMCA group/private formats, JCC levels/private waitlist and member/nonmember restrictions. All official local sources; no unsupported search-volume claim, safety outcome guarantee, stale PDF schedule or opening claim. Current class availability, fees and generic versus program-specific ratios qualified. Sourced reciprocal British Swim pool profile.
+
+Twenty-third batch verified live at Production commit 1a0c4335ea5835ff53db48ba01c63ff15f735027: Tusca guide/maps/profile and Amboy original publication plus correction.

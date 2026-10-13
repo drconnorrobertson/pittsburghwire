@@ -194,3 +194,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Tusca’s Beaver — `tuscas-pizzeria-beaver-menu-ordering-guide`, October 13. Refresh business guide; preserve regional location distinction.
 - Amboy — existing URL corrected October13, not new addition. Under construction/fall target; Soju October18 listing requires availability confirmation.
+
+- Adult swim lessons — `pittsburgh-adult-swim-lessons-three-options`, October 13. British Swim lead for published adult progression and program ratio, YMCA and JCC alternatives. Refresh actual pool/class availability rather than adding neighborhood variants.
