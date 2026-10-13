@@ -96604,5 +96604,42 @@
         "garfield"
       ]
     }
+  },
+  "foundations-property-inspection-jefferson-hills": {
+    "name": "Foundations Property Inspection",
+    "website": "https://foundationspropertyinspection.com/",
+    "source": "https://foundationspropertyinspection.com/pricing/",
+    "source_name": "Official inspection scope, pricing and contact pages",
+    "address": "1377 Route 51, Jefferson Hills, PA 15025",
+    "phone": "",
+    "source_category": "Home Inspection",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Jefferson Hills",
+    "source_excerpt": "",
+    "description": "Ask for a property-specific quote separating the general home inspection from additional testing. Published price ranges vary by size, location and service distance. The operator describes a non-invasive examination and says the report does not warrant future system performance.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://foundationspropertyinspection.com/",
+      "title": "Foundations Property Inspection",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://foundationspropertyinspection.com/home-inspection/",
+          "label": "Official home inspection scope"
+        },
+        "contact": {
+          "url": "https://foundationspropertyinspection.com/contact/",
+          "label": "Official service enquiry form"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "foundations",
+        "property",
+        "inspection"
+      ]
+    }
   }
 }

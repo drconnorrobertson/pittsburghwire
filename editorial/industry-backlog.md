@@ -232,3 +232,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - The Soft Spot Garfield — `soft-spot-garfield-cafe-calendar-food-community-guide`, October13. Established café variable-calendar visit intent; official pages browser verified. Update same URL as service/programming changes, no competing opening variant.
 
 - Action For Animals Latrobe — `action-for-animals-latrobe-adoption-fees-visit-guide`, October13. Distinct business-name adoption application/fees/intake intent; update existing guide for policy changes. Existing profile strengthened.
+
+- Residential home inspections — `pittsburgh-home-inspectors-three-quote-options`, October13. Foundations lead for published base/add-on scope, Griffin size-tier/Clarity reporting alternatives. Refresh this comparison; no competing neighborhood or test variants.

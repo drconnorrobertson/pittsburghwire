@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fortieth additional-100 batch: 446; the numeric archive checkpoint of 437 is exceeded, with 554 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-first additional-100 batch: 447; the numeric archive checkpoint of 437 is exceeded, with 553 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 61 of 100 additional articles; 39 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 62 of 100 additional articles; 38 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -371,3 +371,9 @@ Thirty-eighth batch verified live at Production commit a0f0c6fb22d9c293744170a69
 - `action-for-animals-latrobe-adoption-fees-visit-guide`: observed business-name demand67plus11historical private impressions, not volume/current rank. Official application, fee and intake pages; no-out-of-state rule freshly observed, age/document/puppy sequence,2026cardcharge and separate space-limited intake. No animal availability, approval or health guarantee. Existing sourced profile strengthened.
 
 Thirty-ninth batch verified live at Production commit 249920450f632898dd3e356e57559a16ddffe9d5: Soft Spot guide/maps/profile.
+
+## Additional-100 batch 41 — October 13
+
+- `pittsburgh-home-inspectors-three-quote-options`: distinct residential inspection quote comparison, Foundations lead for published base/addon clarity, Griffin size tiers/thirdpartytesting and Clarity report-followup alternatives. Private historical Foundations queries26plus4impressions guided research, not volume/current rank. No unverified licensing, awards, technical test, defect detection or financial/legal guarantee. New sourced reciprocal lead profile.
+
+Fortieth batch verified live at Production commit 38ef89a582a0d9d480c438198d829869bbb9da9f: adoption guide/maps/profile.
