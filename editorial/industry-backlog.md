@@ -189,3 +189,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Vogel Disposal — `vogel-disposal-collection-calendar-bulk-dumpster-guide`, October 13. Refresh business service guide; municipality-specific calendar/acceptance, no competing local variants.
 - Hazelwood Volpatt reuse pilot — `hazelwood-volpatt-construction-junction-material-reuse-pilot`, October 13. Refresh this project background as actual program results become available; arithmetic discrepancy remains attributed and flagged.
+
+- Adult foreign-language classes — `pittsburgh-adult-language-classes-three-options`, October 13. Spanish Place lead for published small-group/placement route, French Alliance and Italian private tutoring alternatives. Refresh current session information; no competing language/location variants.

@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-first additional-100 batch: 424; 13 additions remain to the first checkpoint and 576 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-second additional-100 batch: 425; 12 additions remain to the first checkpoint and 575 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 39 of 100 additional articles; 61 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 40 of 100 additional articles; 60 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -253,3 +253,9 @@ Nineteenth batch verified live at Production commit 665d8960c5ad2c29fe9ffe991275
 - `hazelwood-volpatt-construction-junction-material-reuse-pilot`: Volpatt business-name demand (64 historical Web impressions/zero clicks) leads to distinct Hazelwood reuse project background. March pilot and June owner ceremony clearly dated; 2025 start, 35-home program versus one-home measured figures separated. Release arithmetic discrepancy 71% versus $8023/$9722=82.5% explicitly described, not silently corrected; no invoice audit or final-program-savings claim. CJ current inventory context. No duplicate Carnegie Music Hall story.
 
 Twentieth batch verified live at Production commit 6258b46bc0ca3db7ff6366b98e701a3e453a6211 with guide, maps and reciprocal profile.
+
+## Additional-100 batch 22 — October 13
+
+- `pittsburgh-adult-language-classes-three-options`: distinct adult foreign-language learning comparison, not competing free GED/tutoring guide. Spanish Place lead for published small-group/placement and Oct14/Jan11 schedule. Early-bird rate explicitly conditional, mixed venue descriptions flagged, no seat availability guarantee. French homepage supports formats/contact only (deeper page unavailable); Italian current private-tutoring page used instead of obsolete catalog dates. Sourced reciprocal Spanish Place profile.
+
+Twenty-first batch verified live at Production commit 15ab7e72 with both articles, maps and reciprocal Vogel profile.

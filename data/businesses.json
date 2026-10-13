@@ -96001,5 +96001,42 @@
         "cricket"
       ]
     }
+  },
+  "pittsburgh-spanish-place": {
+    "name": "Pittsburgh Spanish Place",
+    "website": "https://pittsburghspanishplace.com/",
+    "source": "https://pittsburghspanishplace.com/get-in-touch/",
+    "source_name": "Official local class and contact information",
+    "address": "1378 Freeport Road, Suite 2B, Pittsburgh, PA 15238",
+    "phone": "412-805-5159",
+    "source_category": "Language Classes",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the placement route and confirm the selected session, fee and venue directly. The operator lists small adult groups and separate in-person and live online formats; current places are not guaranteed by a schedule listing.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburghspanishplace.com/",
+      "title": "Pittsburgh Spanish Place",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburghspanishplace.com/adult-classes/adult-group-classes/",
+          "label": "Official adult group classes"
+        },
+        "contact": {
+          "url": "https://pittsburghspanishplace.com/get-in-touch/",
+          "label": "Official local contact and venue information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh",
+        "spanish",
+        "place"
+      ]
+    }
   }
 }
