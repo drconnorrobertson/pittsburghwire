@@ -224,3 +224,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Compass Point Coffee Millvale — `compass-point-coffee-millvale-grant-street-plans-guide`, October13. Operating Evergreen shop versus undated Grant Street plan, retail/subscription/wholesale distinctions. Refresh same URL when opening confirmed; no competing location variant.
 
 - Toy shopping formats — `pittsburgh-area-toy-stores-three-shopping-options`, October13. Playthings Butler lead versus Learning Express Galleria/Shadyside Variety. Refresh comparison rather than neighborhood variants. Hold S.W.Randall: linked About page unrelated gambling content observed October13; verify operator-controlled reliable route before new coverage.
+
+- Caliente ordering/menu/event enquiry — `caliente-pizza-aspinwall-ordering-menu-party-guide`, October13. Aspinwall demand served with branch and shared menu distinctions; refresh this URL, no competing thin branch variants. Existing Aspinwall profile strengthened.
