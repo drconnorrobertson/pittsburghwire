@@ -1,19 +1,24 @@
 {
-  "status": "pending_access",
-  "reason": "GSC Wizard returned payment_required; user notified on 2026-10-13 at prior publishing run",
+  "status": "submitted",
+  "reason": "Submitted directly through the verified Google Search Console property on October 13, 2026; all three submissions confirmed successfully. GSC Wizard connector remains payment_required.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "a40df854b3dcb9a74b41dcdfea7f4ea21ef5b5531b7785f306741c9607d795f5"
+      "sha256": "a40df854b3dcb9a74b41dcdfea7f4ea21ef5b5531b7785f306741c9607d795f5",
+      "accepted": true
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "2cec86eecdb5d6a680f0f8a9928843bffce9e0220d0a0dd36b5faf82a9c69e53"
+      "sha256": "2cec86eecdb5d6a680f0f8a9928843bffce9e0220d0a0dd36b5faf82a9c69e53",
+      "accepted": true
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
-      "sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051"
+      "sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051",
+      "accepted": true
     }
-  ]
+  ],
+  "method": "Google Search Console browser UI",
+  "submitted_date": "2026-10-13"
 }
