@@ -96384,5 +96384,42 @@
         "brookline"
       ]
     }
+  },
+  "capozolis-south-side": {
+    "name": "Capozoli’s Trattoria Ristorante",
+    "website": "https://capozolis.com/",
+    "source": "https://capozolis.com/",
+    "source_name": "Official restaurant website and linked menu",
+    "address": "2516 East Carson Street, Pittsburgh, PA 15203",
+    "phone": "412-230-4480",
+    "source_category": "Italian Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Confirm current seating, menu availability and BYOB charges directly. The official-linked menu and Toast listing display different corkage amounts; the online checkout status does not establish dining-room availability.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://capozolis.com/",
+      "title": "Capozoli’s",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://drive.google.com/file/d/1VbmOAWVLqKduxlAigsKcqspyhx7cppQo/view",
+          "label": "Menu linked by the official restaurant website"
+        },
+        "about": {
+          "url": "https://www.toasttab.com/local/order/capozolis-2516-east-carson-street/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef",
+          "label": "Operator-managed Toast listing"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "capozolis",
+        "south",
+        "side"
+      ]
+    }
   }
 }

@@ -214,3 +214,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Black Dog Wood Fired Ambridge — `black-dog-wood-fired-ambridge-orders-event-guide`, October13. Restaurant pickup versus event quote; refresh current catering conflict and stalehomepage rather than generating variants.
 - Computer repair — `pittsburgh-computer-repair-three-intake-options`, October13. Tekton lead for explicit diagnostic/quote intake; Bloomfield chain and restrictedPitt alternatives. Refresh scope/fees, no competing neighborhood variants.
+
+- Capozoli’s South Side — `capozolis-south-side-menu-corkage-visit-guide`, October13. Current menu/visit details with corkage and ingredient-label ambiguity; refresh same URL when clarified. No competing new-opening variants.

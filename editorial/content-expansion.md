@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-first additional-100 batch: 437; the numeric archive checkpoint of 437 is reached, with 563 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-second additional-100 batch: 438; the numeric archive checkpoint of 437 is exceeded, with 562 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 52 of 100 additional articles; 48 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 53 of 100 additional articles; 47 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -317,3 +317,9 @@ Twenty-ninth batch verified live at Production commit e6267d2f491f55796eac6fbdd3
 - `pittsburgh-computer-repair-three-intake-options`: distinct computer-repair intake comparison, Tekton free-diagnostic/walk-in lead; uBreakiFix actual Bloomfield branch; Pitt affiliate-only software versus hardware diagnostic distinction. No technical skill test, same-day guarantee or data-recovery promise. New sourced reciprocal lead profile.
 
 Thirtieth batch verified live at Production commit 421dc0b74b5d290ba603bebd0a9bde0f4ad10fc8 with yarn guide/maps/profile. Numerical archive checkpoint reached; this does not certify that all legacy pages are substantive and distinct. Continue the additional-100 request and full distinctness audit before completion or a 1,000-page milestone claim.
+
+## Additional-100 batch 32 — October 13
+
+- `capozolis-south-side-menu-corkage-visit-guide`: established June2025 SouthSide opening background explicitly dated; official website-linked GoogleDrive PDF downloaded publicly and visually checked with pypdfium2, plus current operatorToast listing. Menu10corkage versusToast7 discrepancy and vegetarian-symbol/prosciutto ambiguity flagged for direct clarification. No invented weekly hours, seating guarantee, current opening or personal tasting claim. Sourced reciprocal profile.
+
+Thirty-first batch verified live at Production commit 765bfd0bd7c874f903e17f03874e0c31e7472118: both articles/maps/profiles.
