@@ -96493,5 +96493,43 @@
         "park"
       ]
     }
+  },
+  "compass-point-coffee-millvale": {
+    "name": "Compass Point Coffee — Millvale",
+    "website": "https://www.compasspointcoffee.com/",
+    "source": "https://www.compasspointcoffee.com/",
+    "source_name": "Official operator location, coffee product and wholesale pages",
+    "address": "1149 Evergreen Avenue, Millvale, PA",
+    "phone": "",
+    "source_category": "Coffee Shop and Roaster",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Millvale",
+    "source_excerpt": "",
+    "description": "Use the operating Evergreen Avenue shop schedule for visit planning. The operator separately advertises 301 Grant Street as coming soon without a confirmed opening date. Review the selected coffee product’s one-time or recurring plan and grind choices before ordering.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.compasspointcoffee.com/",
+      "title": "Compass Point Coffee",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.compasspointcoffee.com/subscriptions",
+          "label": "Official coffee subscription catalogue"
+        },
+        "about": {
+          "url": "https://www.compasspointcoffee.com/wholesale",
+          "label": "Official wholesale enquiry information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "compass",
+        "point",
+        "coffee",
+        "millvale"
+      ]
+    }
   }
 }

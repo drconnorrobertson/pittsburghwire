@@ -220,3 +220,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Clothing resale intake — `pittsburgh-clothing-resale-two-selling-options`, October13. Avalon Squirrel Hill lead, Style Encore North Hills alternative; update this comparison rather than adding neighborhood/payout variants.
 
 - Crispy Cones Allison Park — `crispy-cones-allison-park-menu-visit-guide`, October13. Established business/menu formats; verify local weekday schedule and dated specials when refreshing, no competing opening variant.
+
+- Compass Point Coffee Millvale — `compass-point-coffee-millvale-grant-street-plans-guide`, October13. Operating Evergreen shop versus undated Grant Street plan, retail/subscription/wholesale distinctions. Refresh same URL when opening confirmed; no competing location variant.
