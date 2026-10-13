@@ -527,6 +527,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/body-by-design-pittsburgh-booking-membership-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/bela-east-liberty-vietnamese-menu-visit-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -4530,6 +4536,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/board-brush-pittsburgh-north/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/body-by-design-perry-highway/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

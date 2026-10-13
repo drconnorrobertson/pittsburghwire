@@ -96113,5 +96113,46 @@
         "northland"
       ]
     }
+  },
+  "body-by-design-perry-highway": {
+    "name": "Body By Design",
+    "website": "https://bodybydesignpgh.com/",
+    "source": "https://bodybydesignpgh.com/connect/",
+    "source_name": "Official local booking and policy information",
+    "address": "9576 Perry Highway, Suite 201, Pittsburgh, PA 15237",
+    "phone": "412-536-8258",
+    "source_category": "Massage and Spa",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Book before visiting; walk-ins are not accepted. Confirm the selected appointment or payment plan and request clarification of conflicting membership suspension wording directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://bodybydesignpgh.com/",
+      "title": "Body By Design Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://bodybydesignpgh.com/memberships/",
+          "label": "Official membership and package information"
+        },
+        "contact": {
+          "url": "https://bodybydesignpgh.com/connect/",
+          "label": "Official location and appointment information"
+        },
+        "about": {
+          "url": "https://bodybydesignpgh.com/policies/",
+          "label": "Official booking and payment policies"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "body",
+        "by",
+        "design"
+      ]
+    }
   }
 }

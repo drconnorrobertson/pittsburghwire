@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-fifth additional-100 batch: 428; 9 additions remain to the first checkpoint and 572 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-sixth additional-100 batch: 429; 8 additions remain to the first checkpoint and 571 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 43 of 100 additional articles; 57 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 44 of 100 additional articles; 56 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -278,3 +278,9 @@ Twenty-third batch verified live at Production commit 1a0c4335ea5835ff53db48ba01
 - `commonplace-coffee-northland-library-cafe-visit-guide`: distinct Northland café business/location intent, not competing Shadyside or SouthSideWorks articles. Confirmed December19,2025 library expansion clearly dated background; current operator/library café-hour agreement versus later library closing times, food/seating, access and no-solicitation rules. No present-day opening claim or search-volume claim. Sourced reciprocal café profile.
 
 Twenty-fourth batch verified live at Production commit 791e1a3eb20526e848e16983dd16ff2b2317ea50: adult swim guide/maps/profile.
+
+## Additional-100 batch 26 — October 13
+
+- `body-by-design-pittsburgh-booking-membership-guide`: business-name demand (54 historical private GSC Web impressions, not volume/current-rank guarantee). Official connect, policies and memberships; established appointments-only location, cancellation/intake, recurring versus package/gift rules. Explicitly flags suspension wording conflict rather than resolving a contract. No health efficacy claim or recommendation. Sourced reciprocal profile.
+
+Twenty-fifth batch verified live at Production commit 7268fcaa6de835a2e9c60f5e8a8c28315a6ad59a: dated Northland café guide/maps/profile.

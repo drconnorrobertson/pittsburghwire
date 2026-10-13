@@ -199,3 +199,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Commonplace Northland — `commonplace-coffee-northland-library-cafe-visit-guide`, October 13. Established December2025 McCandless café, counter/library hours and visit planning. Refresh this URL for venue updates.
 - Hold: Lula La Chula official location pages remain inconsistent with September TABLE Etna forecast and contain placeholder contact data. Await reliable current location/status confirmation before a standalone opening report.
+
+- Body By Design — `body-by-design-pittsburgh-booking-membership-guide`, October 13. Booking and payment-plan intent from private business-name baseline; refresh this URL when policy discrepancies are clarified. No treatment-efficacy claims.
