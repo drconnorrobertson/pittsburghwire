@@ -234,3 +234,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Action For Animals Latrobe — `action-for-animals-latrobe-adoption-fees-visit-guide`, October13. Distinct business-name adoption application/fees/intake intent; update existing guide for policy changes. Existing profile strengthened.
 
 - Residential home inspections — `pittsburgh-home-inspectors-three-quote-options`, October13. Foundations lead for published base/add-on scope, Griffin size-tier/Clarity reporting alternatives. Refresh this comparison; no competing neighborhood or test variants.
+
+- Running/walking shoe fitting — `pittsburgh-running-shoe-fitting-two-store-options`, October13. Fleet Feet lead for free process clarity, Pro Bike+Run alternative. Refresh same guide and confirm branch technology; no competing neighborhood variants or health guarantees.

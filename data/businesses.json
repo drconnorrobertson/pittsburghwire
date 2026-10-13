@@ -96641,5 +96641,44 @@
         "inspection"
       ]
     }
+  },
+  "fleet-feet-pittsburgh-bakery-square": {
+    "name": "Fleet Feet Pittsburgh — Bakery Square",
+    "website": "https://www.fleetfeet.com/s/pittsburgh",
+    "source": "https://www.fleetfeet.com/s/pittsburgh",
+    "source_name": "Official Pittsburgh local page and linked fitting process, browser verified",
+    "address": "186 Bakery Square Boulevard, Pittsburgh, PA 15206",
+    "phone": "412-643-3444",
+    "source_category": "Running Shoe Store",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Confirm Bakery Square service availability and visit hours directly. Fleet Feet describes free outfitting using conversation, 3D scanning and trying recommendations; pressure mapping is limited to selected stores. Ask which purchase and exchange terms apply locally.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.fleetfeet.com/s/pittsburgh",
+      "title": "Fleet Feet Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.fleetfeet.com/fit-process",
+          "label": "Official outfitting process"
+        },
+        "contact": {
+          "url": "https://www.fleetfeet.com/s/pittsburgh/locations/pittsburgh-BKSQ",
+          "label": "Official Bakery Square branch details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fleet",
+        "feet",
+        "pittsburgh",
+        "bakery",
+        "square"
+      ]
+    }
   }
 }
