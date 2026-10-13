@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-third additional-100 batch: 439; the numeric archive checkpoint of 437 is exceeded, with 561 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-fourth additional-100 batch: 440; the numeric archive checkpoint of 437 is exceeded, with 560 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 54 of 100 additional articles; 46 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 55 of 100 additional articles; 45 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -329,3 +329,9 @@ Thirty-first batch verified live at Production commit 765bfd0bd7c874f903e17f0387
 - `pittsburgh-clothing-resale-two-selling-options`: distinct clothing resale intake comparison; Avalon lead for published preparation/local contact, Style Encore North Hills local buying-window alternative. Local versus national hours qualified; no invented payout percentage, acceptance promise, street address or service testing. New sourced reciprocal Avalon profile. No measured search-volume claim.
 
 Thirty-second batch verified live at Production commit 8782d83ea662327aa1f54d5edc59c7dcac98a4f5: dated Capozoli’s guide/maps/profile.
+
+## Additional-100 batch 34 — October 13
+
+- `crispy-cones-allison-park-menu-visit-guide`: established Hampton/Allison Park business, July2025 background explicitly dated. Official local page, menu image visually inspected through supported browser screenshot, operator about/allergen pages. Weekend-only posted schedule and undated weekly specials qualified; menu format distinctions verified, no invented prices or exact opening day. New sourced reciprocal profile.
+
+Thirty-third batch verified live at Production commit 54fdd8db0e7541d67c60a28f45967edec1ae0a47: resale guide/maps/profile.

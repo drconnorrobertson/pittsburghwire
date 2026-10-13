@@ -218,3 +218,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Capozoli’s South Side — `capozolis-south-side-menu-corkage-visit-guide`, October13. Current menu/visit details with corkage and ingredient-label ambiguity; refresh same URL when clarified. No competing new-opening variants.
 
 - Clothing resale intake — `pittsburgh-clothing-resale-two-selling-options`, October13. Avalon Squirrel Hill lead, Style Encore North Hills alternative; update this comparison rather than adding neighborhood/payout variants.
+
+- Crispy Cones Allison Park — `crispy-cones-allison-park-menu-visit-guide`, October13. Established business/menu formats; verify local weekday schedule and dated specials when refreshing, no competing opening variant.

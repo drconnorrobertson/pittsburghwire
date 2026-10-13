@@ -96455,5 +96455,43 @@
         "hill"
       ]
     }
+  },
+  "crispy-cones-allison-park": {
+    "name": "Crispy Cones — Allison Park",
+    "website": "https://crispycones.com/allisonpark-pa",
+    "source": "https://crispycones.com/allisonpark-pa",
+    "source_name": "Official local listing, linked menu and allergen information",
+    "address": "4906 William Flinn Highway, Suite 101, Allison Park, PA 15101",
+    "phone": "724-931-3319",
+    "source_category": "Dessert Shop",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Allison Park",
+    "source_excerpt": "",
+    "description": "The local page currently lists Friday through Sunday hours. Confirm weekday service, current weekly specials and order availability directly; the linked menu image has no date for its weekly promotions. Consult staff about ingredients and cross-contact.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://crispycones.com/allisonpark-pa",
+      "title": "Crispy Cones Allison Park",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://cdn-prod.thecrispycones.com/Menu/CC-menu.png",
+          "label": "Menu linked by the official local page"
+        },
+        "about": {
+          "url": "https://crispycones.com/allergen",
+          "label": "Official allergen information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "crispy",
+        "cones",
+        "allison",
+        "park"
+      ]
+    }
   }
 }
