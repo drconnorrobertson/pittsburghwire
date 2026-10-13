@@ -1,0 +1,14 @@
+{
+  "index.html": {
+    "title": "The Pittsburgh Wire | Local Business & Service Guides",
+    "description": "Read Pittsburgh business news and practical local service comparisons. Explore the business directory and check providers’ current details before booking or buying.",
+    "heading": "Research a local business before you book or buy",
+    "body": "<p>Use <a href=\"/directory\">the Pittsburgh business directory</a> to discover providers and <a href=\"/best/\">local comparison guides</a> to prepare your questions. Compare service scope, location, written estimates and booking requirements directly with the business.</p><p>News and published guides describe the information available when reported. Confirm current hours, menus, prices and availability before making a trip or purchase. <a href=\"/contact\">Send a sourced correction</a> if a listing or article needs an update.</p>"
+  },
+  "news/opal-grand-buffet-waterfront-homestead-pittsburgh/index.html": {
+    "title": "Opal Grand Buffet Waterfront | Visit & Menu Sources",
+    "description": "Research Opal Grand Buffet at Pittsburgh’s Waterfront. Check the restaurant’s official menu, hours and current details before planning a visit.",
+    "heading": "Check current details before your Waterfront visit",
+    "body": "<p>For current meal periods, menu options, pricing and hours, use <a href=\"https://opalbuffetusa.com/\">Opal Grand Buffet’s official website</a>. Confirm the day and time you intend to visit rather than assuming an older reported price still applies.</p><p>Use <a href=\"https://www.waterfrontpgh.com/stores/opal-grand-buffet/\">The Waterfront’s tenant listing</a> for shopping-center context and verify any accessibility, group or dietary questions directly with the restaurant. This article is local reporting, not the restaurant’s booking or ordering service.</p>"
+  }
+}

@@ -81,5 +81,6 @@
       "destination": "/sitemap.xml",
       "permanent": true
     }
-  ]
+  ],
+  "buildCommand": "node scripts/buyer-intent-release.cjs ."
 }
