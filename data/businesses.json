@@ -94204,5 +94204,37 @@
         "service"
       ]
     }
+  },
+  "ace-lock": {
+    "name": "Ace Lock",
+    "website": "https://acelockinc.com/",
+    "source": "https://acelockinc.com/",
+    "source_name": "Official business website",
+    "address": "5964 Baum Boulevard, Pittsburgh, PA 15206",
+    "phone": "412-363-3328",
+    "source_category": "Locksmith and security services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Ace Lock publishes retail-counter hours Monday–Friday, 8 a.m.–1 p.m. Its service categories include locksmith work, mechanical hardware and safes, and electronic security. Confirm whether an enquiry requires a counter visit or a scheduled property appointment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://acelockinc.com/",
+      "title": "Ace Lock",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://acelockinc.com/",
+          "label": "Services and retail-counter information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "ace",
+        "lock"
+      ]
+    }
   }
 }

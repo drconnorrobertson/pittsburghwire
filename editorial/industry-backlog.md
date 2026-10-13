@@ -39,6 +39,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Appliance repair | pittsburgh-appliance-repair-three-service-options | Action Appliance Service | Lead for specific residential service menu and two-county territory; compare approval workflow and existing-customer eligibility |
 
+| Locksmiths | pittsburgh-locksmiths-shop-mobile-service-three-options | Ace Lock | Lead for published retail-counter access and mechanical/electronic project scope; compare shop hours and property-service eligibility |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
