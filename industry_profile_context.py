@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 
 CONTEXT = {
+    'expert-window-cleaning': ('Prepare a window-cleaning estimate', 'Specify interior, exterior and storm windows and ask whether screens and tracks are included. Confirm property coverage and the appointment directly; the listed PO box is a mailing address only.', 'https://www.expertwindowcleaningpgh.com/window-cleaning', 'pittsburgh-window-cleaners-three-service-options'),
     'ace-lock': ('Plan a counter or property enquiry', 'Confirm the service format, required hardware information and appointment arrangements before travelling. Ask for a quote separating the visit, labor and parts.', 'https://acelockinc.com/', 'pittsburgh-locksmiths-shop-mobile-service-three-options'),
     'action-appliance-service': ('Prepare a repair enquiry', 'Provide the appliance brand, model, symptom and ZIP code. Confirm the diagnostic charge, next available appointment and parts approval process before booking.', 'https://actionappliancepitt.com/', 'pittsburgh-appliance-repair-three-service-options'),
     'pittsburgh-music-academy': ('Choose an enrollment format', 'Compare comprehensive study, lessons-only eligibility and the ten-lesson Flex Plan. Ask about teacher availability, lesson location, participation fees and practice expectations before enrollment.', 'https://www.pghma.com/private-lesson-packages', 'pittsburgh-music-lessons-three-programs-compare'),
@@ -31,7 +32,7 @@ def write(repo):
         page = Path(repo) / 'directory' / slug / 'index.html'
         markup = page.read_text()
         markup = re.sub(r'<!-- INDUSTRY_CONTEXT_START -->.*?<!-- INDUSTRY_CONTEXT_END -->', '', markup, flags=re.S)
-        block = f'''<!-- INDUSTRY_CONTEXT_START --><section class="profile-copy"><h2>{heading}</h2><p>{detail}</p><p><a href="{source}" rel="noopener noreferrer">Official service information</a> · Checked {'October 13, 2026' if slug in ('pittsburgh-music-academy', 'action-appliance-service', 'ace-lock') else 'October 12, 2026' if slug in ('squirrel-hill-shoe-repair', 'model-cleaners-upper-st-clair') else 'October 10, 2026'}.</p><p>Featured in our <a href="/news/{guide}/">Pittsburgh industry comparison guide</a>. Inclusion is an editorial selection, not an independent award or a guarantee of service quality.</p></section><!-- INDUSTRY_CONTEXT_END -->'''
+        block = f'''<!-- INDUSTRY_CONTEXT_START --><section class="profile-copy"><h2>{heading}</h2><p>{detail}</p><p><a href="{source}" rel="noopener noreferrer">Official service information</a> · Checked {'October 13, 2026' if slug in ('pittsburgh-music-academy', 'action-appliance-service', 'ace-lock', 'expert-window-cleaning') else 'October 12, 2026' if slug in ('squirrel-hill-shoe-repair', 'model-cleaners-upper-st-clair') else 'October 10, 2026'}.</p><p>Featured in our <a href="/news/{guide}/">Pittsburgh industry comparison guide</a>. Inclusion is an editorial selection, not an independent award or a guarantee of service quality.</p></section><!-- INDUSTRY_CONTEXT_END -->'''
         assert '</main>' in markup
         page.write_text(markup.replace('</main>', block + '</main>', 1))
     return len(CONTEXT)

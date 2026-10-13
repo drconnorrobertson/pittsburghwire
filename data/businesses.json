@@ -94236,5 +94236,38 @@
         "lock"
       ]
     }
+  },
+  "expert-window-cleaning": {
+    "name": "Expert Window Cleaning",
+    "website": "https://www.expertwindowcleaningpgh.com/",
+    "source": "https://www.expertwindowcleaningpgh.com/",
+    "source_name": "Official business website",
+    "address": "PO Box 7796, Pittsburgh, PA 15215 (mailing address only)",
+    "phone": "412-781-9173",
+    "source_category": "Window and exterior cleaning",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Expert Window Cleaning lists residential and commercial work, with free in-person estimates and interior, exterior and storm-window cleaning. Published contact hours are Monday–Saturday, 9 a.m.–5 p.m. Email expertwincl@gmail.com. The PO box is a mailing address, not a shop; arrange appointments directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.expertwindowcleaningpgh.com/",
+      "title": "Expert Window Cleaning",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.expertwindowcleaningpgh.com/window-cleaning",
+          "label": "Window scope and estimate process"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "expert",
+        "window",
+        "cleaning"
+      ]
+    }
   }
 }

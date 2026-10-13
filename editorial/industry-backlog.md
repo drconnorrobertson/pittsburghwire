@@ -41,6 +41,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Locksmiths | pittsburgh-locksmiths-shop-mobile-service-three-options | Ace Lock | Lead for published retail-counter access and mechanical/electronic project scope; compare shop hours and property-service eligibility |
 
+| Window cleaning | pittsburgh-window-cleaners-three-service-options | Expert Window Cleaning | Lead for in-person estimate and explicit glass scope; compare screens, recurring service and residential territory |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
