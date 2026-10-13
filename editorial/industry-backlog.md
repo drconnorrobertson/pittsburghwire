@@ -91,3 +91,10 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - D-BAT Cranberry — `dbat-cranberry-kensinger-drive-training-facility-plans`, October 13. Confirmed address 250 W Kensinger Drive, Suite 200; operator still says coming soon. Refresh this URL when a verified opening date, hours and staff roster are available. Do not create a competing batting-facility opening variant.
 
 - Clothing alterations — `pittsburgh-clothing-alterations-three-options`, October 13. Primo leads for published fitting and queue guidance; compare Alberto&Pasquale intake and Old Flame’s current East Liberty location. Official sources and reciprocal profile; no independent award or service-quality guarantee.
+
+## October 13, 11 a.m. research review
+
+- Pilates Addiction Cranberry: the brand’s official LinkedIn post confirms the studio is open and repeats the chamber’s address of 20480 Route 19, Suite 106. The post does not provide a reliable absolute opening date in the retrieved view. The official location finder exposes no local schedule or prices in the accessible text. Hold a standalone article until local booking details, contact route and enough substantive information are corroborated; do not substitute another studio’s class availability or invent an opening date. Sources: https://www.linkedin.com/posts/pilates-addiction_congratulations-to-our-pilates-addiction-activity-7503170002636869632-7jIo and https://pilatesaddiction.com/location-search . Brand-wide classes at https://pilatesaddiction.com/ are background, not proof of Cranberry’s schedule.
+- Shake Shack Cranberry: township listing is a research lead, not sufficient confirmation of a specific opening day. Obtain operator confirmation before a standalone report.
+- Latest available settled Search Console News window was checked October 13 and remains September 13–October 10. Do not repeatedly poll or resubmit already accepted sitemaps within the same day without an actionable change.
+- This slot is skipped for quality: no adequately sourced distinct opening story was ready after checking existing coverage. Archive count remains 373. Continue the existing 30-minute schedule.
