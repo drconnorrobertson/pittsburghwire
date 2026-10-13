@@ -30237,33 +30237,33 @@
   },
   "penn-fencing-inc": {
     "name": "Penn Fencing, Inc.",
-    "website": "http://www.pennfence.com",
+    "website": "https://pennfence.com/",
     "source": "https://members.pghnorthchamber.com/list/member/penn-fencing-inc-16272",
     "source_name": "Pittsburgh North Regional Chamber",
     "address": "647 Pittsburgh Road, Butler, PA 16002",
-    "phone": "7245867906",
+    "phone": "724-586-7906",
     "source_category": "Contractors",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "trades-and-services",
     "city": "Butler",
-    "source_excerpt": "Since 1976, Penn Fencing has provided Western PA with premium fences, railings, and decks. Get…",
+    "source_excerpt": "",
     "source_excerpt_url": "https://pennfence.com/",
     "source_excerpt_name": "the business’s official website",
-    "description": "Penn Fencing, Inc.: Contractors in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Butler-based fencing business offering residential installation and material sales. Compare materials and an initial online layout estimate, then confirm address coverage and the complete installed scope directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "https://pennfence.com/",
       "title": "Fence, Railing, and Deck Experts in Western PA | Penn Fencing",
-      "description_excerpt": "Since 1976, Penn Fencing has provided Western PA with premium fences, railings, and decks. Get…",
+      "description_excerpt": "",
       "links": {
+        "services": {
+          "url": "https://pennfence.com/fences/residential-fencing/",
+          "label": "Residential materials and estimate planning"
+        },
         "contact": {
           "url": "https://pennfence.com/contact/",
-          "label": "contact us"
-        },
-        "about": {
-          "url": "https://pennfence.com/company/about-us/",
-          "label": "about us"
+          "label": "Locations and estimate enquiries"
         }
       },
       "topics": [],

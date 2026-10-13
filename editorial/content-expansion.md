@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the Okane dining guide: 384; 53 additions remain to the first checkpoint and 616 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fence-installation comparison: 385; 52 additions remain to the first checkpoint and 615 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -66,7 +66,7 @@ These are research candidates, not verified stories or promised publication slot
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
-| Fence installation | Official local contractors | Verify materials, territory and estimate scope; link city permit sources without legal conclusions |
+| Fence installation | Published October 13: pittsburgh-fence-installation-three-options | Refresh this existing comparison; official materials, contacts and city zoning route verified |
 | Home inspection | Official local inspectors | Verify credentials independently, report scope and booking; no invented quality ranking |
 | Radon testing service comparison | PA DEP and official providers | Check current certification and service boundaries; no medical advice |
 | Community college workforce certificates | CCAC | Verify current applications, costs and credential requirements |
@@ -98,3 +98,5 @@ October 13 demand-led refresh: rechecked the dedicated Badamo Family Grocery & S
 October 13 user-directed News visibility recheck: the direct report now spans September 14–October 11, 2026 (28 days). It still shows 1 click, 2 impressions and average position 51.5. Page rows remain the development archive (1 click, 1 impression, position 100) and Gray Swan funding article (0 clicks, 1 impression, position 3); query data unavailable. This tiny sample does not establish a trend, article-wide inclusion or Google News app/site reach.
 
 October 13 Creative Chem Co. refresh: retained January 20 publication date and existing URL; replaced wrong Liberty Avenue address and unsupported 8,200-square-foot, $175/month, 24/7-access and unattributed quote claims with official Friendship Avenue address, café/club distinction, current passes and studio bookings. Added visible correction and institutional byline; dateModified October 13. This is a refresh, not an addition. Archive remains 384. No measured search-volume claim. Official homepage, packages and studios checked October 13.
+
+- pittsburgh-fence-installation-three-options — material planning, existing-fence repair and combined gate/handrail estimate comparison. Official Penn Fencing, Allegheny Fence, Pro Fence & Railing and city zoning pages checked October 13. Penn leads for published material breadth and online layout planning, not an independent quality ranking. Existing Penn profile strengthened with sourced service/contact links and reciprocal guide. No measured query-volume claim. Archive 385; current settled Search News report already checked October 13 (September 14–October 11: 1 click, 2 impressions); no repeat sitemap submission today.
