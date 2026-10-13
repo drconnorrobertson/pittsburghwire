@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the pottery-class comparison: 381; 56 additions remain to the first checkpoint and 619 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the South Side opening comparison: 382; 55 additions remain to the first checkpoint and 618 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -35,6 +35,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - asahi-ramen-brookline-menu-hours-visit-guide — established 2026 restaurant opening, current broth/menu comparisons and explicitly flagged lunch-hours discrepancy; official browser pages and dated background sources checked October 13. No measured query-volume claim.
 
 - pittsburgh-pottery-classes-three-wheel-options — one-day wheel instruction, finishing charges and booking comparison; official sources checked October 13. Existing programs, no measured query-volume claim or ticket-availability guarantee.
+
+- south-side-2026-restaurant-openings-dolce-vita-teocalli — dated March welcome background plus current dining, catering and table/pickup comparison. Teocalli official browser pages and La Dolce Vita operator pages checked October 13. No invented opening day or measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 

@@ -94787,5 +94787,40 @@
         "pittsburgh pottery"
       ]
     }
+  },
+  "la-dolce-vita-south-side": {
+    "name": "La Dolce Vita — South Side",
+    "website": "https://ladolcevitapgh.com/",
+    "source": "https://ladolcevitapgh.com/",
+    "source_name": "Official La Dolce Vita menu and location information",
+    "address": "2104 East Carson Street, Pittsburgh, PA 15203",
+    "phone": "412-682-3310",
+    "source_category": "Italian Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Italian restaurant with dining, reservation, ordering and catering information. Confirm the appropriate service format, menu and complete quote directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://ladolcevitapgh.com/",
+      "title": "La Dolce Vita PGH",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://ladolcevitapgh.com/food-menu",
+          "label": "Food and catering menu"
+        },
+        "contact": {
+          "url": "https://ladolcevitapgh.com/",
+          "label": "Visit and booking information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "dolce vita"
+      ]
+    }
   }
 }
