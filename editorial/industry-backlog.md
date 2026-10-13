@@ -49,6 +49,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Tutoring | pittsburgh-tutoring-centers-three-options-compare | Mathnasium of Squirrel Hill | Lead for defined math-only assessment/enrollment process; compare multi-subject tutoring and school coaching |
 
+| Adult dance classes | pittsburgh-adult-dance-classes-three-options | Pittsburgh Ballet Theatre | Lead for explicit beginner-series and experience-level guidance; compare trials, class cards and drop-in styles |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
