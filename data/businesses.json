@@ -95223,5 +95223,77 @@
         "dooboo"
       ]
     }
+  },
+  "phat-bagel-bloomfield": {
+    "name": "Phat Bagel",
+    "website": "https://phatbagel.com/",
+    "source": "https://phatbagel.com/",
+    "source_name": "Official restaurant menu and visit information",
+    "address": "4508 Liberty Avenue, Pittsburgh, PA 15224",
+    "phone": "412-452-9562",
+    "source_category": "Bagel Shop",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the current official menu, hours and contact route to confirm the selected food order, complete price and collection or dining arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://phatbagel.com/",
+      "title": "Phat Bagel",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://phatbagel.com/menu/phatbagel",
+          "label": "Official food menu"
+        },
+        "contact": {
+          "url": "https://phatbagel.com/",
+          "label": "Official visit and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "phat",
+        "bagel"
+      ]
+    }
+  },
+  "mad-anthonys-bier-stube-ambridge": {
+    "name": "Mad Anthony’s Bier Stube",
+    "website": "https://madanthonysbierstube.com/",
+    "source": "https://madanthonysbierstube.com/",
+    "source_name": "Official restaurant menu and visit information",
+    "address": "1239 Merchant Street, Ambridge, PA 15003",
+    "phone": "724-385-0100",
+    "source_category": "German Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Ambridge",
+    "source_excerpt": "",
+    "description": "Use the current official menu, hours and contact route to confirm the selected food order, complete price and collection or dining arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://madanthonysbierstube.com/",
+      "title": "Mad Anthony’s Bier Stube",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://madanthonysbierstube.com/food-menu",
+          "label": "Official food menu"
+        },
+        "contact": {
+          "url": "https://madanthonysbierstube.com/",
+          "label": "Official visit and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "mad",
+        "anthony"
+      ]
+    }
   }
 }

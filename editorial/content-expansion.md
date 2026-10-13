@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifth additional-100 batch: 396; 41 additions remain to the first checkpoint and 604 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixth additional-100 batch: 398; 39 additions remain to the first checkpoint and 602 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 11 of 100 additional articles; 89 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 13 of 100 additional articles; 87 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -140,3 +140,12 @@ Third batch verified live at Production commit 5d01fb2b5dada6dff00ea6abd17a07ed7
 - `dooboo-east-liberty-stationery-pickup-guide`: established late-2025 opening dated by the operator, current stationery categories/brands, pickup and return rules, from official homepage/about/catalog pages. No current-launch or stock guarantee. Reciprocal sourced profile.
 
 Fourth batch verified live at Production commit f462431b5d24ab1166437c95347ca22e35cc5abe. After automatic review rejected blanket staging, a read-only audit confirmed 312 generated count-only updates, 13 category indexes containing only the two new venue cards/counts/list positions, and unchanged existing business data. Explicit audited-manifest staging and publication then succeeded.
+
+## Additional-100 batch 6 — October 13
+
+- `phat-bagel-bloomfield-custom-menu-guide`: established pop-up-to-storefront expansion documented January 5; current official founder story, custom menu components, configured-price distinction and browser-expanded weekly hours. Late-day ordering status described as observed, not a closure.
+- `mad-anthonys-ambridge-german-menu-visit-guide`: current official German/American menu comparison, sides, hours, ordering and group enquiry routes. January 5 roundup inclusion explicitly background, not an asserted exact opening date. Both have reciprocal sourced profiles.
+
+Fifth batch verified live at Production commit aa6c696f4a07549c2d7d46dda158c2f344df2695 with both maps and reciprocal profiles.
+
+Research holds from this pass: Standing Wave homepage emphasizes roastery/online sales but does not establish current storefront hours; seek primary café visit information before a standalone story. Original Yinzer Dogs current counter-menu link says new menu coming soon; location/catering pages are available, but do not assert a current individual menu or fill a thin opening story. Phantom of the Attic has multiple distinct stores and inconsistent third-party addresses; excluded from the tabletop comparison in favor of complete primary sources.

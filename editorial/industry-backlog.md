@@ -144,3 +144,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - House painting — `pittsburgh-house-painters-three-estimate-options`, October 13. Markantone lead for combined prep/repair/finish scope; ImageWorks office access and Veteran virtual/in-person estimates compared. Official sources, reciprocal lead profile.
 - DooBoo — `dooboo-east-liberty-stationery-pickup-guide`, October 13. Operator dates original opening to late 2025; current catalog, pickup-only ordering and return terms. Refresh this URL for further operational updates.
+
+- Phat Bagel — `phat-bagel-bloomfield-custom-menu-guide`, October 13. Established storefront expansion; current menu configuration/price and browser-verified hours. Refresh the same business-intent URL for updates.
+- Mad Anthony’s Bier Stube — `mad-anthonys-ambridge-german-menu-visit-guide`, October 13. Current German/American menu and party/ordering distinction; January roundup used only as dated background. Reciprocal profile.
