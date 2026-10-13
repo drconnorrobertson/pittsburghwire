@@ -94397,5 +94397,41 @@
         "apex"
       ]
     }
+  },
+  "concept-art-gallery": {
+    "name": "Concept Art Gallery",
+    "website": "https://www.conceptgallery.com/",
+    "source": "https://www.conceptgallery.com/services/framing/",
+    "source_name": "Official gallery website",
+    "address": "",
+    "phone": "412-242-9200",
+    "source_category": "Custom Picture Framing and Art Gallery",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Concept Art Gallery offers custom framing for works on paper, canvases, textiles, photographs and collages. Its website also describes access to painting and paper conservation professionals.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.conceptgallery.com/services/framing/",
+      "title": "Concept Art Gallery Framing",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.conceptgallery.com/services/framing/",
+          "label": "Custom framing"
+        },
+        "contact": {
+          "url": "https://www.conceptgallery.com/contact/",
+          "label": "Contact the gallery"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "concept",
+        "gallery"
+      ]
+    }
   }
 }

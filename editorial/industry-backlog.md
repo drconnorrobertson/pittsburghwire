@@ -53,6 +53,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Junk removal | pittsburgh-junk-removal-three-companies-compare | Apex Junk Removal & Hauling | Lead for explicit collection, pricing and exclusion guidance; compare territories and estimates from three official websites checked October 13, 2026 |
 
+| Custom picture framing | pittsburgh-custom-picture-framing-three-options | Concept Art Gallery | Lead for documented materials and access to conservation professionals; compare memorabilia, printing and appointment processes |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
