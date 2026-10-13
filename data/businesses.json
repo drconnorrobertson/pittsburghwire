@@ -95079,5 +95079,78 @@
         "spa"
       ]
     }
+  },
+  "hong-hot-pot-mcknight": {
+    "name": "Hong BBQ & Hot Pot — McKnight Road",
+    "website": "https://honghotpot.com/pittsburgh/",
+    "source": "https://honghotpot.com/pittsburgh/",
+    "source_name": "Official venue visit information",
+    "address": "4801 McKnight Road, Pittsburgh, PA 15237",
+    "phone": "412-318-4310",
+    "source_category": "Hot Pot Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the official local contact and service information to confirm current hours, complete charges and the selected dining or activity format.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://honghotpot.com/pittsburgh/",
+      "title": "Hong BBQ & Hot Pot — McKnight Road",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://honghotpot.com/faqs/",
+          "label": "Service format and pricing information"
+        },
+        "contact": {
+          "url": "https://honghotpot.com/pittsburgh/",
+          "label": "Official local contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "hong",
+        "hot",
+        "pot"
+      ]
+    }
+  },
+  "laser-storm-pittsburgh": {
+    "name": "Laser Storm Pittsburgh",
+    "website": "https://laserstorm.org/",
+    "source": "https://laserstorm.org/",
+    "source_name": "Official venue visit information",
+    "address": "7715 McKnight Road, Pittsburgh, PA 15237",
+    "phone": "412-364-3473",
+    "source_category": "Laser Tag",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the official local contact and service information to confirm current hours, complete charges and the selected dining or activity format.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://laserstorm.org/",
+      "title": "Laser Storm Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://laserstorm.org/pricing/",
+          "label": "Service format and pricing information"
+        },
+        "contact": {
+          "url": "https://laserstorm.org/",
+          "label": "Official local contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "laser",
+        "storm"
+      ]
+    }
   }
 }

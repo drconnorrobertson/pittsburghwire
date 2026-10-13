@@ -138,3 +138,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Tabletop game stores — `pittsburgh-tabletop-game-stores-three-options`, October 13. Game Masters lead for explicit table fee/library arrangement, with Games Unlimited and Mimic’s Market alternatives. Distinct shopping/play intent from arcades and escape rooms; sourced reciprocal profile.
 - Auto detailing — `pittsburgh-auto-detailing-three-service-options`, October 13. Diamondmill lead for published scope distinctions and starting prices; iDetail vehicle-class comparison and Steel City booking workflow. Distinct from mechanical auto repair. Sourced reciprocal profile.
+
+- Hot-pot dining — `pittsburgh-hot-pot-three-dining-options`, October 13. Hong lead for local booking/format explanation; PF BBQ House advertised AYCE and Kiku party-size Japanese options. Official current sources and discrepancy handling; reciprocal lead profile.
+- Laser tag — `pittsburgh-laser-tag-two-venues-compare`, October 13. Laser Storm lead for published game timing/multi-game pricing; Zone 28 alternative with explicit no-private-game guarantee. Official sources, practical age/group/access information and reciprocal lead profile.
