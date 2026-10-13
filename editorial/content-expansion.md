@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-second additional-100 batch: 448; the numeric archive checkpoint of 437 is exceeded, with 552 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-third additional-100 batch: 449; the numeric archive checkpoint of 437 is exceeded, with 551 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 63 of 100 additional articles; 37 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 64 of 100 additional articles; 36 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -383,3 +383,9 @@ Fortieth batch verified live at Production commit 38ef89a582a0d9d480c438198d8298
 - `pittsburgh-running-shoe-fitting-two-store-options`: distinct retail shoe-outfitting comparison versus repair/bike guides. Fleet Feet local page and linked process browser verified; free fitting versus select-store pressure mapping, Pro Bike+Run existing-shoe/try-on process and actualStripbranch. No medical result, exclusivity, personal test, current-stock or refund guarantee. No measured query-volume claim. New sourced reciprocal lead profile.
 
 Forty-first batch verified live at Production commit 5319fdc56c78fe2f1bed03a91cd82455209f4f1c: home inspection guide/maps/profile.
+
+## Additional-100 batch 43 — October 13
+
+- `pittsburgh-indoor-pickleball-two-play-options`: distinct indoor pickleball open-play/private-court comparison. Warehouse lead for explicit rotation,entry/rental split,payment and booking limits. LevelUp membership-versusFAQ rental/booking discrepancy and visitor fee interaction flagged; no guaranteed games, membership savings or independent quality award. No measured search-volume claim. New sourced reciprocal lead profile.
+
+Forty-second batch verified live at Production commit efe73b5786bd37d9f3a31d28c3df990a49f85d53: shoe fitting guide/maps/profile.

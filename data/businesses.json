@@ -96680,5 +96680,38 @@
         "square"
       ]
     }
+  },
+  "the-pickleball-warehouse-pittsburgh": {
+    "name": "The Pickleball Warehouse",
+    "website": "https://thepickleballwarehouse.com/",
+    "source": "https://thepickleballwarehouse.com/",
+    "source_name": "Official facility homepage and FAQ",
+    "address": "6815 Hamilton Avenue, Pittsburgh, PA 15208",
+    "phone": "412-345-8905",
+    "source_category": "Indoor Pickleball Facility",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Choose rotating open play or a private court before comparing costs. The operator lists separate hourly rental and non-member entry charges, advance booking windows and a two-hour reservation cap. Confirm current hours and session availability; its FAQ says credit-card-only payment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://thepickleballwarehouse.com/",
+      "title": "The Pickleball Warehouse",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://thepickleballwarehouse.com/faqs",
+          "label": "Official play, court and payment rules"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pickleball",
+        "warehouse",
+        "pittsburgh"
+      ]
+    }
   }
 }
