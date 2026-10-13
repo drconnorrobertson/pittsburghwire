@@ -377,6 +377,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-clothing-resale-two-selling-options</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-clothing-alterations-three-options</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -3792,6 +3798,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/automotive/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/avalon-exchange-squirrel-hill/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

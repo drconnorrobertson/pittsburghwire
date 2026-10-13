@@ -96421,5 +96421,39 @@
         "side"
       ]
     }
+  },
+  "avalon-exchange-squirrel-hill": {
+    "name": "Avalon Exchange — Squirrel Hill",
+    "website": "https://avalonexchange.com/pittsburgh-pa/",
+    "source": "https://avalonexchange.com/pittsburgh-pa/",
+    "source_name": "Official Pittsburgh store and selling requirements",
+    "address": "5834 Forbes Avenue, Pittsburgh, PA 15217",
+    "phone": "412-421-2911",
+    "source_category": "Clothing Resale",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Bring the required identification and prepared clothing; contact the Squirrel Hill store about current buying quantities, payout and intake arrangements before transporting items. Retail hours do not guarantee unlimited buying.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://avalonexchange.com/pittsburgh-pa/",
+      "title": "Avalon Exchange Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://avalonexchange.com/faq/sell-your-fashion/",
+          "label": "Official selling requirements"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "avalon",
+        "exchange",
+        "squirrel",
+        "hill"
+      ]
+    }
   }
 }
