@@ -206,3 +206,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Westmoreland Cleanways — `westmoreland-cleanways-recycling-drop-off-fees-guide`, October13. Current center/HHW/fees route; refresh for policy changes instead of creating material/location variants.
 
 - 7 Brew Natrona Heights — `7-brew-natrona-heights-freeport-road-opening-guide`, October13. Established September28 opening, FreeportRoad local hours and app participation details. Update this URL; Collier still requires fresh opening confirmation.
+
+- Rally House Forbes — `rally-house-forbes-avenue-oakland-shopping-guide`, October13. March opening/current store and pickup intent; refresh return discrepancy when clarified.
+- Indoor climbing — `pittsburgh-indoor-climbing-two-first-visit-options`, October13. ASCEND terrain lead/Iron City bouldering, actual local pricing and first-visit rules. No duplicate branch variants; FA requires usable current primary source before inclusion.

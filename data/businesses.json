@@ -96230,5 +96230,42 @@
         "heights"
       ]
     }
+  },
+  "rally-house-forbes-avenue": {
+    "name": "Rally House Forbes Avenue",
+    "website": "https://www.rallyhouse.com/stores/pittsburgh/3700-forbes-ave",
+    "source": "https://www.rallyhouse.com/stores/pittsburgh/3700-forbes-ave",
+    "source_name": "Official local store and shopping policies",
+    "address": "3700 Forbes Avenue, Pittsburgh, PA 15213",
+    "phone": "412-348-8525",
+    "source_category": "Sports Apparel and Gifts",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Confirm the selected item, size and fulfillment location before traveling. Wait for the ready-for-pickup notice and ask staff to clarify the applicable return window and any product exclusions.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.rallyhouse.com/stores/pittsburgh/3700-forbes-ave",
+      "title": "Rally House Forbes Avenue",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.rallyhouse.com/in-store-pickup",
+          "label": "Official pickup instructions"
+        },
+        "about": {
+          "url": "https://www.rallyhouse.com/returns",
+          "label": "Official return terms and restrictions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "rally",
+        "house",
+        "forbes"
+      ]
+    }
   }
 }

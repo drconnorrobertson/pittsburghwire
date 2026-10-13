@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-eighth additional-100 batch: 432; 5 additions remain to the first checkpoint and 568 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-ninth additional-100 batch: 434; 3 additions remain to the first checkpoint and 566 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 47 of 100 additional articles; 53 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 49 of 100 additional articles; 51 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -297,3 +297,10 @@ Twenty-sixth batch verified live at Production commit bf269ae24b714dd1385321e71c
 - `7-brew-natrona-heights-freeport-road-opening-guide`: verified recent Natrona Heights opening, KDKA September29 report says opened MondaySeptember28; official local stand listing/address/hours confirmed including direct published structured hours. Current visit/menu examples and support process; national app participation qualified, no invented prices/reviews or delivery promise. Collier construction attributed to dated report, not current opening. Sourced reciprocal profile.
 
 Twenty-seventh batch verified live at Production commit c185f8d6d4aecf8cbb966b3932b9582b4ef624d4: both guides/maps/profiles.
+
+## Additional-100 batch 29 — October 13
+
+- `rally-house-forbes-avenue-oakland-shopping-guide`: March20,2026 Rally House opening clearly dated background plus current Oakland store/merchandise/pickup. Flags sixty-day graphic versus120-day detailed return text; no stock, delivery deadline or refund guarantee. New sourced reciprocal profile.
+- `pittsburgh-indoor-climbing-two-first-visit-options`: distinct first indoor-climbing visit comparison, ASCEND Point Breeze terrain lead versus Iron City bouldering. Actual local prices/rentals and specific orientation/age rules; no unsupported health/safety guarantees. Existing ASCEND profile strengthened, branch distinction retained. FA Station Square primary page unavailable, excluded rather than importing Chicago/ArlingtonHeight details. No search-volume claim.
+
+Twenty-eighth batch verified live at Production commit cf1dc00679f6a13d7750875f3951a46f456c12ad with recent opening guide/maps/profile.
