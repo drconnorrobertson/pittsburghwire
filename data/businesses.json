@@ -94106,5 +94106,37 @@
         "repair"
       ]
     }
+  },
+  "model-cleaners-upper-st-clair": {
+    "name": "Model Cleaners — Upper St. Clair",
+    "website": "https://www.modelcleaners.com/upper-st-clair",
+    "source": "https://www.modelcleaners.com/upper-st-clair",
+    "source_name": "Official Model Cleaners location page",
+    "address": "1775 North Highland Road, Norman Centre 2, Upper St. Clair, PA 15241",
+    "phone": "412-833-8166",
+    "source_category": "Dry cleaning and laundry",
+    "checked": "2026-10-12",
+    "category": "trades-and-services",
+    "city": "Upper St. Clair",
+    "source_excerpt": "",
+    "description": "This Model Cleaners location lists dry cleaning, shirt laundry, wash-dry-fold, alterations and specialty garment care. Published hours are Monday–Friday 8 a.m.–7 p.m. and Saturday 9 a.m.–3 p.m. Its 24-hour drop box requires a Model Garment Bag and customer contact information. Confirm current arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-12",
+      "url": "https://www.modelcleaners.com/upper-st-clair",
+      "title": "Model Cleaners Upper St. Clair",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.modelcleaners.com/upper-st-clair",
+          "label": "Location, hours and drop box"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "model",
+        "cleaners"
+      ]
+    }
   }
 }

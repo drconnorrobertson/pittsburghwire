@@ -33,9 +33,11 @@ Updated October 12, 2026. One main guide per industry/search intent; refresh it 
 | Printing and signs | pittsburgh-print-and-sign-shops-business-projects | KDC | Lead for documented breadth across commercial printing, signage, design, finishing and direct mail; compare walk-in print and sign-project workflows |
 | Restaurant private dining | pittsburgh-restaurants-private-dining-rooms-six-options | Bar Marco | Lead for a dedicated Strip District private room with stated seated and standing capacities; compare room sizes, event formats and inquiry steps |
 
+| Shoe repair | pittsburgh-shoe-repair-shops-four-options | Squirrel Hill Shoe Repair | Lead for broad published service menu and explicit walk-in intake; compare on-site sandal repairs, fitting and appointment processes |
+| Dry cleaning | pittsburgh-dry-cleaners-pickup-dropoff-four-options | Model Cleaners | Lead for documented retail, delivery and after-hours handoff options; compare booking and address eligibility |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
-| Shoe repair | pittsburgh-shoe-repair-shops-four-options | Squirrel Hill Shoe Repair | Lead for broad published service menu and explicit walk-in intake; compare on-site sandal repairs, fitting and appointment processes |
 
 ## Demand evidence and research queue
 

@@ -41,6 +41,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-dry-cleaners-pickup-dropoff-four-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-12</news:publication_date>
+      <news:title>Pittsburgh Dry Cleaners: Four Options to Compare</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-america-250-city-art-poster-deadline-october-14</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
