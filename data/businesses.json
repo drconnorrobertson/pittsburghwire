@@ -11432,20 +11432,20 @@
   },
   "pittsburgh-glass-center": {
     "name": "Pittsburgh Glass Center",
-    "website": "http://www.pittsburghglasscenter.org",
+    "website": "https://www.pittsburghglasscenter.org/",
     "source": "https://www.visitpittsburgh.com/directory/pittsburgh-glass-center/",
     "source_name": "VisitPITTSBURGH",
     "address": "5472 Penn Ave. Pittsburgh, Pennsylvania 15206",
     "phone": "+1-412-365-2145",
     "source_category": "Visual Arts and Museums",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Pittsburgh Glass Center (PGC) is a nonprofit, public-access education center; an art gallery; a state-of-the-art…",
-    "description": "Pittsburgh Glass Center: Visual Arts and Museums in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Public-access glass art center with visits, classes and private lessons. Confirm the selected activity, age eligibility, registration and finished-work collection.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "http://www.pittsburghglasscenter.org",
       "title": "Home - Pittsburgh Glass Center",
       "description_excerpt": "Pittsburgh Glass Center (PGC) is a nonprofit, public-access education center; an art gallery; a state-of-the-art…",
@@ -11461,6 +11461,10 @@
         "contact": {
           "url": "https://www.pittsburghglasscenter.org/contact-us/",
           "label": "contact us"
+        },
+        "services": {
+          "url": "https://www.pittsburghglasscenter.org/classes/",
+          "label": "Current classes and registration"
         }
       },
       "topics": [],
