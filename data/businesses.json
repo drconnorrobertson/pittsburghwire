@@ -95006,5 +95006,78 @@
         "monkey"
       ]
     }
+  },
+  "game-masters-perry-highway": {
+    "name": "Game Masters",
+    "website": "https://gamemasterspgh.com/",
+    "source": "https://gamemasterspgh.com/",
+    "source_name": "Official business service and visit information",
+    "address": "398 Perry Highway, Pittsburgh, PA 15229",
+    "phone": "412-367-4414",
+    "source_category": "Tabletop Game Store",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare published services, current access and booking or enquiry terms directly with the business.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://gamemasterspgh.com/",
+      "title": "Game Masters",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://gamemasterspgh.com/",
+          "label": "Services and visit information"
+        },
+        "contact": {
+          "url": "https://gamemasterspgh.com/",
+          "label": "Official contact route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "game",
+        "masters"
+      ]
+    }
+  },
+  "diamondmill-auto-spa": {
+    "name": "Diamondmill Auto Spa",
+    "website": "https://pittsburghautodetailing.com/",
+    "source": "https://pittsburghautodetailing.com/",
+    "source_name": "Official business service and visit information",
+    "address": "8350 Perry Highway, Pittsburgh, PA 15237",
+    "phone": "412-415-1411",
+    "source_category": "Auto Detailing",
+    "checked": "2026-10-13",
+    "category": "automotive",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare published services, current access and booking or enquiry terms directly with the business.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburghautodetailing.com/",
+      "title": "Diamondmill Auto Spa",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburghautodetailing.com/",
+          "label": "Services and visit information"
+        },
+        "contact": {
+          "url": "https://pittsburghautodetailing.com/",
+          "label": "Official contact route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "diamondmill",
+        "auto",
+        "spa"
+      ]
+    }
   }
 }

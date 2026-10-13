@@ -135,3 +135,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Cork & Crust — `cork-crust-oaklander-pittsburgh-menu-visit-guide`, October 13. Established January opening, current official menu verified in browser, ordering versus reservations. Refresh this URL for subsequent operator updates.
 
 - Foxhole Tavern — `foxhole-tavern-aspinwall-menu-reservations-guide`; Sea Monkey — `sea-monkey-strip-district-dinner-lounge-guide`, October 13. Earlier openings clearly dated; current primary menus and booking distinctions. Sea Monkey closing-hours panels conflict and are flagged. Refresh these URLs for subsequent business updates.
+
+- Tabletop game stores — `pittsburgh-tabletop-game-stores-three-options`, October 13. Game Masters lead for explicit table fee/library arrangement, with Games Unlimited and Mimic’s Market alternatives. Distinct shopping/play intent from arcades and escape rooms; sourced reciprocal profile.
+- Auto detailing — `pittsburgh-auto-detailing-three-service-options`, October 13. Diamondmill lead for published scope distinctions and starting prices; iDetail vehicle-class comparison and Steel City booking workflow. Distinct from mechanical auto repair. Sourced reciprocal profile.
