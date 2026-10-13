@@ -164,3 +164,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Home energy assessments — `pittsburgh-home-energy-assessments-three-options`, October 13. E3 lead for paid independent assessment, Insulwise contractor and ACTION eligibility alternatives; distinct from HVAC installation guide.
 - BéLa East Liberty — `bela-east-liberty-vietnamese-menu-visit-guide`, October 13. June soft opening background plus current menu/visit utility; refresh this business URL.
+
+- Brunk Armstrong expansion — `brunk-armstrong-innovation-park-2027-groundbreaking-plan`, October 13. Current operator says 2027 groundbreaking; refresh same URL for verified construction/hiring updates.
+- Calgon Carbon Neville expansion — `calgon-carbon-neville-township-expansion-plans-background`, October 13. Two December 2025 planned additions; do not confuse a completed Texas investment with local completion. Refresh same URL.

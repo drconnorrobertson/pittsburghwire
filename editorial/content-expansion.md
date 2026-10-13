@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twelfth additional-100 batch: 409; 28 additions remain to the first checkpoint and 591 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirteenth additional-100 batch: 411; 26 additions remain to the first checkpoint and 589 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 24 of 100 additional articles; 76 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 26 of 100 additional articles; 74 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -190,3 +190,10 @@ Tenth batch verified live at Production commit f0f1ffba7e29955c18a9f3db9f6d4340c
 - `bela-east-liberty-vietnamese-menu-visit-guide`: established June soft opening explicitly dated from PennsylvAsia, current official menu/visit routes. Broth, shared-board and lunch restrictions verified; no ownership or taste-ranking speculation. Distinct business-name visit intent, not a competing regional pho list. Reciprocal sourced profile.
 
 Eleventh batch verified live at Production commit 8d48527c0b736ed94901b86d2a8b6e953645e113 with both maps and reciprocal profiles.
+
+## Additional-100 batch 13 — October 13
+
+- `brunk-armstrong-innovation-park-2027-groundbreaking-plan`: distinct Armstrong County manufacturing expansion. August state announcement combined with current operator local page stating 2027 groundbreaking, current local tooling function and linked role examples. Job targets distinguished from current vacancies, financing loan/grant distinguished. Primary sources; no completion claim.
+- `calgon-carbon-neville-township-expansion-plans-background`: distinct Neville Township two-site expansion background. December 2025 state announcement clearly dated, current company reactivation/equipment descriptions and October 7 Crosby completion distinguished geographically. No invented local construction update, quotes or hiring status. Both are substantive news additions; no directory pages added for count.
+
+Twelfth batch verified live at Production commit 5ed6a95657efaf8af7c61996d054efafde4db289 with both maps and reciprocal guide profiles.
