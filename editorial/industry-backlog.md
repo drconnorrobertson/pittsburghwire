@@ -238,3 +238,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Running/walking shoe fitting — `pittsburgh-running-shoe-fitting-two-store-options`, October13. Fleet Feet lead for free process clarity, Pro Bike+Run alternative. Refresh same guide and confirm branch technology; no competing neighborhood variants or health guarantees.
 
 - Indoor pickleball play formats — `pittsburgh-indoor-pickleball-two-play-options`, October13. Warehouse lead for entry/rental clarity, LevelUp alternative with unresolvedpublishedpricing/booking discrepancy; refresh rather than add neighborhood variants.
+
+- School-instrument rentals — `pittsburgh-school-instrument-rentals-three-programs`, October13. Johnstonbaugh lead for trial/monthly clarity, Brighton contract-type and Volkwein instrument-footnote alternatives. Refresh same comparison rather than instrument/location variants.

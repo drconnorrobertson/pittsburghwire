@@ -96713,5 +96713,39 @@
         "pittsburgh"
       ]
     }
+  },
+  "johnstonbaughs-music-allison-park": {
+    "name": "Johnstonbaugh’s Music Centers — Allison Park",
+    "website": "https://www.johnstonbaughs.com/",
+    "source": "https://www.johnstonbaughs.com/topic/ourrentalprogram",
+    "source_name": "Official school-instrument rental program and local contact information",
+    "address": "4842 William Flinn Highway, Allison Park, PA",
+    "phone": "724-444-5660",
+    "source_category": "Music Store",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Allison Park",
+    "source_excerpt": "",
+    "description": "Compare the initial trial with the later monthly payment for the requested instrument, size and condition. Confirm school delivery participation, accessories, rental credit and purchase terms directly before signing; published prices do not guarantee immediate stock.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.johnstonbaughs.com/",
+      "title": "Johnstonbaugh’s Music Centers",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.johnstonbaughs.com/topic/ourrentalprogram",
+          "label": "Official school-instrument rental program"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "johnstonbaugh",
+        "music",
+        "allison",
+        "park"
+      ]
+    }
   }
 }
