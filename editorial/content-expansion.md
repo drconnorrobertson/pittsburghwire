@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the eighth additional-100 batch: 401; 36 additions remain to the first checkpoint and 599 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the ninth additional-100 batch: 403; 34 additions remain to the first checkpoint and 597 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 16 of 100 additional articles; 84 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 18 of 100 additional articles; 82 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -162,3 +162,10 @@ Sixth batch verified live at Production commit bc9c6b83fb0e08658ac0a35ee1041e73f
 - `pittsburgh-sichuan-restaurants-two-menu-options`: distinct Sichuan menu/portion comparison. Lao Sze Chuan leads for explicitly labelled shared/individual soups; McKnight Chengdu current full menu read in browser, including different lunch/full mapo ingredients and conflicting hours. No independent taste ranking or invented opening date. Reciprocal sourced local profile.
 
 Seventh batch verified live at Production commit e9767f68da3fe52158a631ff0961d577a26832e7. Research hold: Origin Story Coffee homepage has unrelated Middle Eastern restaurant placeholder copy; no standalone article until adequate corroboration.
+
+## Additional-100 batch 9 — October 13
+
+- `tapville-strip-district-menu-parking-visit-guide`: established Strip District business; current local hours/parking conditions, officially linked Pittsburgh PDF menu (spring code flagged), surcharge/gratuity terms and separate event routes. Existing sourced profile strengthened and reciprocal.
+- `ruckus-downtown-cafe-after-work-event-guide`: established Downtown café expansion, ordinary service versus rental windows, published rental/food minimum arithmetic and event-menu per-person prices. Official pages and linked PDF checked; distinct business profile rather than a duplicate generic event-venue list.
+
+Eighth batch verified live at Production commit 70efea869c69a797aae14c127979b485000239d6 with both maps and reciprocal profiles. Both new stories use January 5 roundup only as dated background, not breaking opening dates.

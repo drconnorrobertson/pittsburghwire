@@ -89,6 +89,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/tapville-strip-district-menu-parking-visit-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/south-side-2026-restaurant-openings-dolce-vita-teocalli</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -96,6 +102,12 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/sea-monkey-strip-district-dinner-lounge-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/ruckus-downtown-cafe-after-work-event-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -14788,6 +14800,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/ruckus-cafe-downtown/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/rue-boutique/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -16307,7 +16325,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/tapville-social-pittsburgh/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

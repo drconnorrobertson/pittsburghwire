@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/tapville-strip-district-menu-parking-visit-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Tapville in the Strip District: Menu Choices, Parking and Group Plans</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/south-side-2026-restaurant-openings-dolce-vita-teocalli</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -14,6 +22,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>Sea Monkey in the Strip District: Dinner, Lounge and Vieux Carré</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/ruckus-downtown-cafe-after-work-event-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Ruckus Downtown: Café Hours, After-Work Rentals and Food Costs</news:title>
     </news:news>
   </url>
   <url>

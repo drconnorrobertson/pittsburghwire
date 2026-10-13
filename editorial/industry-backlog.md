@@ -152,3 +152,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Ice cream — `pittsburgh-ice-cream-three-shopping-options`, October 13. Millie’s lead for current fall/location information, Leona’s sandwiches and Mercurio’s gelato alternatives; one consolidated intent with source age/conflicts flagged.
 - Sichuan dining — `pittsburgh-sichuan-restaurants-two-menu-options`, October 13. Lao Sze Chuan lead for portion labels, McKnight Chengdu alternative; browser full-menu verification and hours conflicts. Refresh this comparison rather than neighborhood variants.
+
+- Tapville Social — `tapville-strip-district-menu-parking-visit-guide`, October 13. Current Pittsburgh menu/parking/event distinctions; refresh this business-intent URL.
+- Ruckus Downtown — `ruckus-downtown-cafe-after-work-event-guide`, October 13. Café versus rental windows, costs and locations; refresh this URL rather than creating competing event variants.

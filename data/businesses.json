@@ -15192,39 +15192,31 @@
   },
   "tapville-social-pittsburgh": {
     "name": "Tapville Social - Pittsburgh",
-    "website": "http://www.tapvillesocial.com/pittsburgh",
+    "website": "https://www.tapvillesocial.com/pittsburgh",
     "source": "https://www.visitpittsburgh.com/directory/tapville-social-pittsburgh-dining-nightlife/",
     "source_name": "VisitPITTSBURGH",
     "address": "1447 Smallman St. Pittsburgh, Pennsylvania 15222",
-    "phone": "+1-412-968-7687",
+    "phone": "412-968-7687",
     "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "Tapville Social is a restaurant and bar in Pittsburgh featuring self-pour craft beer, wine, and…",
-    "description": "Tapville Social - Pittsburgh: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "The Strip District restaurant lists local menu, hours, seasonal patio and conditional parking validation. Confirm the selected food order, complete charges and group arrangements directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "https://www.tapvillesocial.com/pittsburgh",
       "title": "Tapville Social Pittsburgh | Self-Pour Beer, Brunch & Cocktail Flights — Tapville Social",
-      "description_excerpt": "Tapville Social is a restaurant and bar in Pittsburgh featuring self-pour craft beer, wine, and…",
+      "description_excerpt": "",
       "links": {
-        "reservations": {
-          "url": "https://www.tapvillesocial.com/reservations",
-          "label": "reservations"
-        },
-        "about": {
-          "url": "https://www.tapvillesocial.com/about-us",
-          "label": "about"
+        "services": {
+          "url": "https://www.tapvillesocial.com/menu-pittsburgh",
+          "label": "Pittsburgh menu"
         },
         "contact": {
-          "url": "https://www.tapvillesocial.com/contact-us",
-          "label": "contact us"
-        },
-        "careers": {
-          "url": "https://www.tapvillesocial.com/employment",
-          "label": "employment"
+          "url": "https://www.tapvillesocial.com/pittsburgh",
+          "label": "Local hours, parking and contact information"
         }
       },
       "topics": [
@@ -95361,6 +95353,42 @@
         "lao",
         "sze",
         "chuan"
+      ]
+    }
+  },
+  "ruckus-cafe-downtown": {
+    "name": "Ruckus Café Downtown",
+    "website": "https://www.ruckuscafe.com/downtownruckus",
+    "source": "https://www.ruckuscafe.com/downtownruckus",
+    "source_name": "Official Downtown café and event information",
+    "address": "625 Liberty Avenue, Pittsburgh, PA 15222",
+    "phone": "412-545-3626",
+    "source_category": "Cafe",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Weekday café service and the after-work rental program have different windows and ordering arrangements. Confirm the Downtown location, event rate, food minimum and complete quote directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.ruckuscafe.com/downtownruckus",
+      "title": "Ruckus Café Downtown",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.ruckuscafe.com/afterwork",
+          "label": "Official after-work event information"
+        },
+        "contact": {
+          "url": "https://www.ruckuscafe.com/downtownruckus",
+          "label": "Downtown café and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "ruckus",
+        "cafe"
       ]
     }
   }
