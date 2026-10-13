@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the ninth additional-100 batch: 403; 34 additions remain to the first checkpoint and 597 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the tenth additional-100 batch: 405; 32 additions remain to the first checkpoint and 595 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 18 of 100 additional articles; 82 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 20 of 100 additional articles; 80 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -169,3 +169,10 @@ Seventh batch verified live at Production commit e9767f68da3fe52158a631ff0961d57
 - `ruckus-downtown-cafe-after-work-event-guide`: established Downtown café expansion, ordinary service versus rental windows, published rental/food minimum arithmetic and event-menu per-person prices. Official pages and linked PDF checked; distinct business profile rather than a duplicate generic event-venue list.
 
 Eighth batch verified live at Production commit 70efea869c69a797aae14c127979b485000239d6 with both maps and reciprocal profiles. Both new stories use January 5 roundup only as dated background, not breaking opening dates.
+
+## Additional-100 batch 10 — October 13
+
+- `fnf-pizzeria-mt-lebanon-menu-visit-guide`: Pittsburgh-specific restaurant visit/menu intent, distinct from general pizza rankings. Current operator local page read visually in browser; official navigation opened Pittsburgh lunch PDF, which was read directly. Paired pizza prices left uninterpreted, current delivery-copy conflict flagged; reciprocal sourced profile.
+- `pittsburgh-tree-care-three-consultation-options`: distinct tree-care consultation/report scope, with Northwood lead for written assessments/access documents, Davey local estimate routes and Bartlett Irwin consulting/soil services. Official pages checked; no unsupported credential/award claims or private home-office assumption. Reciprocal lead profile.
+
+Ninth batch verified live at Production commit 5854d521eb81c667e27937793b001f418f00323f, including both maps and reciprocal profiles.

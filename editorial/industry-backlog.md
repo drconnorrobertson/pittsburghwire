@@ -155,3 +155,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Tapville Social — `tapville-strip-district-menu-parking-visit-guide`, October 13. Current Pittsburgh menu/parking/event distinctions; refresh this business-intent URL.
 - Ruckus Downtown — `ruckus-downtown-cafe-after-work-event-guide`, October 13. Café versus rental windows, costs and locations; refresh this URL rather than creating competing event variants.
+
+- F&F Mt. Lebanon — `fnf-pizzeria-mt-lebanon-menu-visit-guide`, October 13. Local menu/visit intent, separate from general pizza comparison; refresh this business URL.
+- Tree care — `pittsburgh-tree-care-three-consultation-options`, October 13. Northwood lead for report/access scope, Davey and Bartlett local alternatives. Distinct from landscaping design and maintenance guide.

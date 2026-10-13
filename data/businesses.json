@@ -95391,5 +95391,77 @@
         "cafe"
       ]
     }
+  },
+  "fnf-pizzeria-mt-lebanon": {
+    "name": "F&F Pizzeria Mt. Lebanon",
+    "website": "https://www.fnfpizzeria.com/location/pittsburgh",
+    "source": "https://www.fnfpizzeria.com/location/pittsburgh",
+    "source_name": "Official local business and service information",
+    "address": "307 Beverly Road, Pittsburgh, PA 15216",
+    "phone": "878-879-4194",
+    "source_category": "Pizzeria",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the Beverly Road address and Pittsburgh-specific menus. Confirm the applicable lunch or dinner selection, reservation or counter-ordering arrangement and current delivery availability.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.fnfpizzeria.com/location/pittsburgh",
+      "title": "F&F Pizzeria Mt. Lebanon",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://fandfpizzeria.blob.core.windows.net/fandfmenus/Food_Front_Lunch_Pittsburgh.pdf",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://www.fnfpizzeria.com/location/pittsburgh",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fnf",
+        "pizzeria"
+      ]
+    }
+  },
+  "northwood-tree-care": {
+    "name": "Northwood Tree Care",
+    "website": "https://northwoodtreecare.com/",
+    "source": "https://northwoodtreecare.com/",
+    "source_name": "Official local business and service information",
+    "address": "8696 W Barkhurst Drive, Pittsburgh, PA 15237 (mailing address)",
+    "phone": "412-219-3040",
+    "source_category": "Tree Care",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Ask whether a written assessment is included or separately charged, and confirm service-area coverage for the property. The published address is a mailing address, not a confirmed walk-in office.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://northwoodtreecare.com/",
+      "title": "Northwood Tree Care",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://northwoodtreecare.com/services/",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://northwoodtreecare.com/contact-us/",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "northwood",
+        "tree"
+      ]
+    }
   }
 }
