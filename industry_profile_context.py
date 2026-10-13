@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 
 CONTEXT = {
+    'squirrel-hill-shoe-repair': ('Plan a walk-in assessment', 'The shop says no appointment is needed. Bring the footwear for an assessment and agree on the work, total estimate and collection date. Its published menu includes heel replacement, resoling, boot rebuilding, stretching and leather restoration.', 'https://www.squirrelhillshoerepair.com/', 'pittsburgh-shoe-repair-shops-four-options'),
     'common-plea-catering': ('Compare catering service levels', 'Common Plea separates full-service events from drop-off, delivery and pickup catering. Ask for staffing, setup, equipment and cleanup to be specified in your proposal. Contact 412-281-5140 or info@thecommonplea.com to confirm the event date and service scope.', 'https://www.thecommonplea.com/drop-off-catering', 'best-caterers-pittsburgh-editorial-picks'),
     'kindred-cycles': ('Plan a bicycle service enquiry', 'Kindred publishes separate intake instructions for flat fixes, tune-ups, boxing and custom builds. Confirm the estimate timing, parts approval and collection date before leaving a bicycle. Call 412-471-2656 or email kindredcycles@gmail.com.', 'https://www.kindredcycles.com/service', 'best-bike-repair-pittsburgh-editorial-picks'),
     'living-well-home-organizing': ('Prepare an organizing consultation', 'Living Well invites enquiries for a free consultation and publishes 610-349-2769 and livingwellservicespgh@gmail.com. Identify the rooms and transition tasks you need help with. Ask for a written scope separating labor, supplies and any transport arrangements.', 'https://www.livingwellservicespgh.com/services', 'best-home-organizers-pittsburgh-editorial-picks'),
@@ -26,7 +27,7 @@ def write(repo):
         page = Path(repo) / 'directory' / slug / 'index.html'
         markup = page.read_text()
         markup = re.sub(r'<!-- INDUSTRY_CONTEXT_START -->.*?<!-- INDUSTRY_CONTEXT_END -->', '', markup, flags=re.S)
-        block = f'''<!-- INDUSTRY_CONTEXT_START --><section class="profile-copy"><h2>{heading}</h2><p>{detail}</p><p><a href="{source}" rel="noopener noreferrer">Official service information</a> · Checked October 10, 2026.</p><p>Featured in our <a href="/news/{guide}/">Pittsburgh industry comparison guide</a>. Inclusion is an editorial selection, not an independent award or a guarantee of service quality.</p></section><!-- INDUSTRY_CONTEXT_END -->'''
+        block = f'''<!-- INDUSTRY_CONTEXT_START --><section class="profile-copy"><h2>{heading}</h2><p>{detail}</p><p><a href="{source}" rel="noopener noreferrer">Official service information</a> · Checked {'October 12, 2026' if slug == 'squirrel-hill-shoe-repair' else 'October 10, 2026'}.</p><p>Featured in our <a href="/news/{guide}/">Pittsburgh industry comparison guide</a>. Inclusion is an editorial selection, not an independent award or a guarantee of service quality.</p></section><!-- INDUSTRY_CONTEXT_END -->'''
         assert '</main>' in markup
         page.write_text(markup.replace('</main>', block + '</main>', 1))
     return len(CONTEXT)

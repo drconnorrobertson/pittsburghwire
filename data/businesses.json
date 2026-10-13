@@ -94072,5 +94072,39 @@
       "links": {},
       "topics": []
     }
+  },
+  "squirrel-hill-shoe-repair": {
+    "name": "Squirrel Hill Shoe Repair",
+    "website": "https://www.squirrelhillshoerepair.com/",
+    "source": "https://www.squirrelhillshoerepair.com/",
+    "source_name": "Official business website",
+    "address": "2205 Murray Avenue, Suite 2, Pittsburgh, PA 15217",
+    "phone": "412-521-3355",
+    "source_category": "Shoe and boot repair",
+    "checked": "2026-10-12",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Squirrel Hill Shoe Repair lists heel replacement, resoling, boot rebuilding, leather restoration, zipper and stitching repair, stretching, designer footwear repairs, Birkenstock repair and sneaker cleaning. No appointment is needed for an assessment. Published hours are Tuesday through Friday, 9 a.m. to 5 p.m., and Saturday, 9 a.m. to 3 p.m.; closed Monday and Sunday. Confirm suitability, prices and collection timing with the shop.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-12",
+      "url": "https://www.squirrelhillshoerepair.com/",
+      "title": "Squirrel Hill Shoe Repair",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.squirrelhillshoerepair.com/",
+          "label": "Services and walk-in information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "squirrel",
+        "hill",
+        "shoe",
+        "repair"
+      ]
+    }
   }
 }
