@@ -230,3 +230,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Hyeholde Tavern expansion and reservation planning — `hyeholde-tavern-reservations-dining-guidelines-guide`, October13. Existing profile strengthened; refresh this URL for confirmed menu/service changes rather than competing variants.
 
 - The Soft Spot Garfield — `soft-spot-garfield-cafe-calendar-food-community-guide`, October13. Established café variable-calendar visit intent; official pages browser verified. Update same URL as service/programming changes, no competing opening variant.
+
+- Action For Animals Latrobe — `action-for-animals-latrobe-adoption-fees-visit-guide`, October13. Distinct business-name adoption application/fees/intake intent; update existing guide for policy changes. Existing profile strengthened.
