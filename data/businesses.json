@@ -94138,5 +94138,38 @@
         "cleaners"
       ]
     }
+  },
+  "pittsburgh-music-academy": {
+    "name": "Pittsburgh Music Academy",
+    "website": "https://www.pghma.com/",
+    "source": "https://www.pghma.com/",
+    "source_name": "Official academy website",
+    "address": "1146 Greentree Road, Pittsburgh, PA 15220",
+    "phone": "412-344-1114",
+    "source_category": "Music instruction",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Pittsburgh Music Academy describes itself as a Suzuki school welcoming students of all ages. It lists violin, viola, cello, bass, piano, flute, brass and voice. The website identifies Greentree and Squirrel Hill locations; confirm the teaching location and instructor before registering. Contact the academy to discuss availability and enrollment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.pghma.com/",
+      "title": "Pittsburgh Music Academy",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.pghma.com/private-lesson-packages",
+          "label": "Lesson packages and enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh",
+        "music",
+        "academy"
+      ]
+    }
   }
 }
