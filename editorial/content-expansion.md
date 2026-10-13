@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the first batch and barber comparison: 368; 69 additions remain to the first checkpoint and 632 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the first batch, barber comparison and library-room guide: 369; 68 additions remain to the first checkpoint and 631 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -9,6 +9,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-fall-yard-waste-collection-november-7-2026 — seasonal city-service reminder from the official 2026 calendar, annual bulletin and March correction. Explicitly not a new announcement; distinguish City of Pittsburgh from suburban mailing addresses.
 
 - pittsburgh-barbershops-three-booking-options — appointment and service-selection comparison supported by Circa and Crown business-name impressions; official and official-linked booking sources checked October 13.
+
+- pittsburgh-library-meeting-room-reservations-guide — public-room reservation intent, distinct from paid coworking and event venues; CLP LibCal, Allegheny branch calendar and law-library reservation page checked October 13. Existing services, not a new announcement.
 
 ## Coverage priorities from direct Search Console
 
@@ -29,7 +31,6 @@ These are research candidates, not verified stories or promised publication slot
 | Distinct reader need | Source to investigate | Publication condition |
 | --- | --- | --- |
 | Pittsburgh e-waste disposal and booking | City Environmental Services, Noble Environmental, PRC | Verify current costs, materials and appointment routes; distinguish from junk removal |
-| Library meeting-room access and reservations | Carnegie Library of Pittsburgh | Verify branch rules, booking limits and eligible use; distinguish public rooms from paid coworking |
 | Adult GED and literacy enrollment | Literacy Pittsburgh and CCAC | Verify program availability, eligibility, costs and intake; no outcome promises |
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
