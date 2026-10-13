@@ -196,3 +196,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Amboy — existing URL corrected October13, not new addition. Under construction/fall target; Soju October18 listing requires availability confirmation.
 
 - Adult swim lessons — `pittsburgh-adult-swim-lessons-three-options`, October 13. British Swim lead for published adult progression and program ratio, YMCA and JCC alternatives. Refresh actual pool/class availability rather than adding neighborhood variants.
+
+- Commonplace Northland — `commonplace-coffee-northland-library-cafe-visit-guide`, October 13. Established December2025 McCandless café, counter/library hours and visit planning. Refresh this URL for venue updates.
+- Hold: Lula La Chula official location pages remain inconsistent with September TABLE Etna forecast and contain placeholder contact data. Await reliable current location/status confirmation before a standalone opening report.

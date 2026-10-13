@@ -96076,5 +96076,42 @@
         "monroeville"
       ]
     }
+  },
+  "commonplace-coffee-northland-library": {
+    "name": "Commonplace Coffee at Northland Public Library",
+    "website": "https://commonplacecoffee.com/pages/northland-public-library",
+    "source": "https://www.northlandlibrary.org/commonplace-coffee-northland/",
+    "source_name": "Official café operator and host library",
+    "address": "300 Cumberland Road, Pittsburgh, PA 15237",
+    "phone": "412-514-6631",
+    "source_category": "Coffee Shop",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "McCandless",
+    "source_excerpt": "",
+    "description": "Confirm café hours separately from the library schedule, and use the operator’s pickup route for current availability. This established café occupies the expanded lower level of Northland Public Library in McCandless.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://commonplacecoffee.com/pages/northland-public-library",
+      "title": "Commonplace Coffee Northland Public Library",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://commonplacecoffee.com/pages/northland-public-library",
+          "label": "Official café hours and pickup ordering"
+        },
+        "about": {
+          "url": "https://www.northlandlibrary.org/commonplace-coffee-northland/",
+          "label": "Official library café information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "commonplace",
+        "coffee",
+        "northland"
+      ]
+    }
   }
 }
