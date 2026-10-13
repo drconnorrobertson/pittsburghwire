@@ -94269,5 +94269,37 @@
         "cleaning"
       ]
     }
+  },
+  "world-of-rugs": {
+    "name": "World of Rugs",
+    "website": "https://www.paworldofrugs.com/cleaning-repairs/",
+    "source": "https://www.paworldofrugs.com/cleaning-repairs/",
+    "source_name": "Official cleaning and repairs page",
+    "address": "1955 Park Manor Boulevard, Pittsburgh, PA 15205",
+    "phone": "412-787-7474",
+    "source_category": "Rug cleaning and repair",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "World of Rugs lists cleaning and repairs with store drop-off or scheduled pickup and return. Robinson store hours: Monday–Saturday 10 a.m.–6 p.m., Sunday noon–5 p.m. Its Strip District store is at 1421 Penn Avenue, phone 412-471-6336, with hours Tuesday–Saturday 10 a.m.–5 p.m. Confirm current appointments and transport terms directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.paworldofrugs.com/cleaning-repairs/",
+      "title": "World of Rugs cleaning and repair",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.paworldofrugs.com/cleaning-repairs/",
+          "label": "Cleaning, repairs and store contacts"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "world",
+        "rugs"
+      ]
+    }
   }
 }
