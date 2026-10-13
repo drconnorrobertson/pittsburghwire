@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-seventh additional-100 batch: 443; the numeric archive checkpoint of 437 is exceeded, with 557 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirty-eighth additional-100 batch: 444; the numeric archive checkpoint of 437 is exceeded, with 556 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 58 of 100 additional articles; 42 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 59 of 100 additional articles; 41 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -353,3 +353,9 @@ Thirty-fifth batch verified live at Production commit f621929c9f06887b4940af6671
 - `caliente-pizza-aspinwall-ordering-menu-party-guide`: business-name demand supported by private historical Aspinwall queries33/15/6impressions, not search volume or current rank. Official local ordering/hours, menu preparation caution, room estimate versus consultation and signup-offer condition. No unverified awards/reviews, delivery or booking guarantee. Existing Aspinwall profile strengthened; hold further branch variants and refresh this URL.
 
 Thirty-sixth batch verified live at Production commit 487a8a0e484232a4e56a13622c36c0568eb10ef8: toy comparison/maps/profile.
+
+## Additional-100 batch 38 — October 13
+
+- `hyeholde-tavern-reservations-dining-guidelines-guide`: February2026Tavern expansion background dated, current operator room/menu/Resy distinction. ExpiredSep15Oct9Oktoberfest promotion explicitly not promised; general versus reservation hours, required/recommended wording, age/attire/arrival/group rules qualified. No invented dishes/prices, dining experience or booking guarantee. Existing Hyeholde profile strengthened.
+
+Thirty-seventh batch verified live at Production commit a4e97d1f0d2d2f3290ebadee800697abc14d30bc: Caliente guide/maps/profile.

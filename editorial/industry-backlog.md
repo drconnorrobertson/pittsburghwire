@@ -226,3 +226,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Toy shopping formats — `pittsburgh-area-toy-stores-three-shopping-options`, October13. Playthings Butler lead versus Learning Express Galleria/Shadyside Variety. Refresh comparison rather than neighborhood variants. Hold S.W.Randall: linked About page unrelated gambling content observed October13; verify operator-controlled reliable route before new coverage.
 
 - Caliente ordering/menu/event enquiry — `caliente-pizza-aspinwall-ordering-menu-party-guide`, October13. Aspinwall demand served with branch and shared menu distinctions; refresh this URL, no competing thin branch variants. Existing Aspinwall profile strengthened.
+
+- Hyeholde Tavern expansion and reservation planning — `hyeholde-tavern-reservations-dining-guidelines-guide`, October13. Existing profile strengthened; refresh this URL for confirmed menu/service changes rather than competing variants.
