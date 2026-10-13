@@ -104,3 +104,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Sewing-machine repair — `pittsburgh-sewing-machine-repair-three-options`, October 13. Thornton leads for explicit clean-oil-adjustment scope; compare The Sewing Store intake waitlist and Jeff’s partner collection route. Browser verified Thornton’s service and temporary hours. Sourced reciprocal lead profile; update the existing guide for this intent.
 
 - Furniture repair and upholstery — `pittsburgh-furniture-repair-upholstery-three-options`, October 13. Final Touch leads for on-site versus workshop scope; compare Decorator cushion/material services and Chianelli appointment-based upholstery. Official sources and reciprocal lead profile; no measured query-volume claim. Update this guide for the existing intent.
+
+- Watch repair — `pittsburgh-watch-repair-three-service-options`, October 13. Henne leads for explicit estimates and service exclusions; compare Fast-Fix mall intake and G.S. appointment/mail arrangements. Official sources; reciprocal lead profile. Refresh this intent rather than duplicating.

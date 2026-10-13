@@ -94651,5 +94651,36 @@
         "final touch"
       ]
     }
+  },
+  "henne-jewelers-shadyside": {
+    "name": "Henne Jewelers — Shadyside",
+    "website": "https://www.hennejewelers.com/",
+    "source": "https://www.hennejewelers.com/pages/watch-repair",
+    "source_name": "Official Henne watch-service information",
+    "address": "5501 Walnut Street, Pittsburgh, PA 15232",
+    "phone": "412-682-0226",
+    "source_category": "Jewelry and Watch Service",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Jeweler with watch-service intake. Confirm model eligibility and estimate or referral charges before leaving a watch.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.hennejewelers.com/pages/watch-repair",
+      "title": "Henne Watch Repair",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.hennejewelers.com/pages/watch-repair",
+          "label": "Watch-service intake and exclusions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "henne"
+      ]
+    }
   }
 }
