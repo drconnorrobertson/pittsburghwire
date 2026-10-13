@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-ninth additional-100 batch: 434; 3 additions remain to the first checkpoint and 566 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirtieth additional-100 batch: 435; 2 additions remain to the first checkpoint and 565 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 49 of 100 additional articles; 51 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 50 of 100 additional articles; 50 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -304,3 +304,9 @@ Twenty-seventh batch verified live at Production commit c185f8d6d4aecf8cbb966b39
 - `pittsburgh-indoor-climbing-two-first-visit-options`: distinct first indoor-climbing visit comparison, ASCEND Point Breeze terrain lead versus Iron City bouldering. Actual local prices/rentals and specific orientation/age rules; no unsupported health/safety guarantees. Existing ASCEND profile strengthened, branch distinction retained. FA Station Square primary page unavailable, excluded rather than importing Chicago/ArlingtonHeight details. No search-volume claim.
 
 Twenty-eighth batch verified live at Production commit cf1dc00679f6a13d7750875f3951a46f456c12ad with recent opening guide/maps/profile.
+
+## Additional-100 batch 30 — October 13
+
+- `pittsburgh-yarn-shops-two-project-class-options`: distinct local yarn-shop shopping/class/social comparison. Oakmont lead for explicit supply/cancellation rules and open-stitch route; Yarn Bits and Bobs alternative with current homepage holiday-versus-regular-hours conflict flagged. No dated old yarn-crawl/McWalker listing or assumed current course vacancy. No search-volume claim. Sourced reciprocal Oakmont profile.
+
+Twenty-ninth batch verified live at Production commit e6267d2f491f55796eac6fbdd36f9ada152206ee: both guides/maps/profiles.

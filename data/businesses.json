@@ -96267,5 +96267,46 @@
         "forbes"
       ]
     }
+  },
+  "oakmont-yarn-collaborative": {
+    "name": "Oakmont Yarn Collaborative",
+    "website": "https://oakmontyarncollaborative.com/",
+    "source": "https://oakmontyarncollaborative.com/pages/hours-and-location",
+    "source_name": "Official shop location and class policies",
+    "address": "622 Allegheny River Boulevard, Oakmont, PA",
+    "phone": "412-794-8332",
+    "source_category": "Yarn and Fiber Arts",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Oakmont",
+    "source_excerpt": "",
+    "description": "Compare paid classes with the separate open-stitch groups. Confirm registration, required shop-purchased yarn, additional material costs and cancellation terms for the selected class.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://oakmontyarncollaborative.com/",
+      "title": "Oakmont Yarn Collaborative",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://oakmontyarncollaborative.com/pages/classes",
+          "label": "Official class and material policies"
+        },
+        "contact": {
+          "url": "https://oakmontyarncollaborative.com/pages/hours-and-location",
+          "label": "Official shop hours and location"
+        },
+        "about": {
+          "url": "https://oakmontyarncollaborative.com/pages/events",
+          "label": "Official open-stitch group information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "oakmont",
+        "yarn",
+        "collaborative"
+      ]
+    }
   }
 }

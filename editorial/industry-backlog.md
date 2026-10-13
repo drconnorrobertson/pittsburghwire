@@ -209,3 +209,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Rally House Forbes — `rally-house-forbes-avenue-oakland-shopping-guide`, October13. March opening/current store and pickup intent; refresh return discrepancy when clarified.
 - Indoor climbing — `pittsburgh-indoor-climbing-two-first-visit-options`, October13. ASCEND terrain lead/Iron City bouldering, actual local pricing and first-visit rules. No duplicate branch variants; FA requires usable current primary source before inclusion.
+
+- Yarn shops — `pittsburgh-yarn-shops-two-project-class-options`, October13. Oakmont lead for class-policy clarity, Yarn Bits and Bobs alternative; refresh calendar and hours, no competing neighborhood variants.
