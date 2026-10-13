@@ -113,6 +113,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-houseplant-shops-three-shopping-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Pittsburgh Houseplant Shops: Three Places to Compare</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-glass-center-first-class-options</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -249,11 +257,27 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/lawrenceville-romance-bookstores-two-shopping-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Two Lawrenceville Romance Bookstores: Shopping and Book Clubs</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/dbat-cranberry-kensinger-drive-training-facility-plans</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>D-BAT Cranberry Prepares Kensinger Drive Training Facility</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/cork-crust-oaklander-pittsburgh-menu-visit-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Cork &amp; Crust at The Oaklander: Pizza, Menus and Visit Planning</news:title>
     </news:news>
   </url>
   <url>

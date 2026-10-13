@@ -3883,23 +3883,23 @@
   },
   "cork-crust": {
     "name": "Cork & Crust",
-    "website": "http://www.corkandcrustpittsburgh.com",
+    "website": "https://www.corkandcrustpittsburgh.com/",
     "source": "https://www.visitpittsburgh.com/directory/cork-crust/",
     "source_name": "VisitPITTSBURGH",
     "address": "5130 Bigelow Blvd., The Oaklander Hotel Pittsburgh, Pennsylvania 15213",
-    "phone": "+1-412-546-0040",
+    "phone": "412-546-0040",
     "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "food-and-drink",
     "city": "Pittsburgh",
-    "source_excerpt": "Discover Cork & Crust in Pittsburgh. Your go-to for bold flavors, craft cocktails, and wood-fired…",
-    "description": "Cork & Crust: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "source_excerpt": "",
+    "description": "Pizza-and-wine restaurant at The Oaklander Hotel in North Oakland. Compare the selected lunch or dinner menu and use separate reservation or online-ordering routes.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "https://www.corkandcrustpittsburgh.com/",
       "title": "Cork and Crust | The Oaklander Hotel | Official SiteMenu",
-      "description_excerpt": "Discover Cork & Crust in Pittsburgh. Your go-to for bold flavors, craft cocktails, and wood-fired…",
+      "description_excerpt": "",
       "links": {
         "menu": {
           "url": "https://www.corkandcrustpittsburgh.com/menus",
@@ -94859,6 +94859,79 @@
       "topics": [],
       "identity_tokens": [
         "okane"
+      ]
+    }
+  },
+  "ruby-flora-bethel-park": {
+    "name": "Ruby Flora Plant Shop",
+    "website": "https://rubyflora.com/",
+    "source": "https://rubyflora.com/pages/pittsburgh",
+    "source_name": "Official Ruby Flora pickup and delivery information",
+    "address": "104 Broughton Road, Bethel Park, PA 15102",
+    "phone": "412-532-6180",
+    "source_category": "Houseplant Shop",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Bethel Park",
+    "source_excerpt": "",
+    "description": "Houseplant shop with online shopping, pickup and soil/repotting information. Confirm current hours directly because the homepage and service-page schedules differ.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://rubyflora.com/",
+      "title": "Ruby Flora Plant Shop",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://rubyflora.com/pages/soil-bar",
+          "label": "Soil and repotting information"
+        },
+        "contact": {
+          "url": "https://rubyflora.com/pages/contact-us",
+          "label": "Contact the plant shop"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "ruby",
+        "flora"
+      ]
+    }
+  },
+  "the-shelf-love-society": {
+    "name": "The Shelf Love Society",
+    "website": "https://www.theshelflovesociety.com/",
+    "source": "https://www.theshelflovesociety.com/",
+    "source_name": "Official store location and hours, browser verified",
+    "address": "4745 Butler Street, Pittsburgh, PA 15201",
+    "phone": "412-915-6001",
+    "source_category": "Bookstore",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Romance-focused bookstore with official links to preorders, events, print shopping and audiobooks. Confirm the edition, format, stock and event registration directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.theshelflovesociety.com/",
+      "title": "The Shelf Love Society",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://bookshop.org/shop/theshelflovesociety",
+          "label": "Store-linked print book selection"
+        },
+        "contact": {
+          "url": "https://www.theshelflovesociety.com/",
+          "label": "Store location and current hours"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "shelf",
+        "love",
+        "society"
       ]
     }
   }

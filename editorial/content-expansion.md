@@ -1,6 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fence-installation comparison: 385; 52 additions remain to the first checkpoint and 615 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the first additional-100 batch: 388; 49 additions remain to the first checkpoint and 612 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+
+## Additional 100-article request
+
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 3 of 100 additional articles; 97 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -100,3 +104,11 @@ October 13 user-directed News visibility recheck: the direct report now spans Se
 October 13 Creative Chem Co. refresh: retained January 20 publication date and existing URL; replaced wrong Liberty Avenue address and unsupported 8,200-square-foot, $175/month, 24/7-access and unattributed quote claims with official Friendship Avenue address, café/club distinction, current passes and studio bookings. Added visible correction and institutional byline; dateModified October 13. This is a refresh, not an addition. Archive remains 384. No measured search-volume claim. Official homepage, packages and studios checked October 13.
 
 - pittsburgh-fence-installation-three-options — material planning, existing-fence repair and combined gate/handrail estimate comparison. Official Penn Fencing, Allegheny Fence, Pro Fence & Railing and city zoning pages checked October 13. Penn leads for published material breadth and online layout planning, not an independent quality ranking. Existing Penn profile strengthened with sourced service/contact links and reciprocal guide. No measured query-volume claim. Archive 385; current settled Search News report already checked October 13 (September 14–October 11: 1 click, 2 impressions); no repeat sitemap submission today.
+
+## Additional-100 batch 1 — October 13
+
+- `pittsburgh-houseplant-shops-three-shopping-options`: houseplant purchasing and repotting, distinct from florists and public gardens. Ruby Flora official shop, soil/pickup/contact pages; Emilichka official hours; City Grows tourism listing. Ruby hours discrepancy explicitly flagged; Synthesis excluded because its shop page says closed. No measured query-volume claim.
+- `cork-crust-oaklander-pittsburgh-menu-visit-guide`: established January 2026 opening with current official service, browser-rendered lunch menu and reservation versus ordering routes. Opening chronology from VisitPITTSBURGH, not presented as breaking. Existing profile strengthened and reciprocal.
+- `lawrenceville-romance-bookstores-two-shopping-options`: specialist romance shopping and book clubs, distinct from general bookstore shortlist. Official Shelf Love Society browser page and linked Bookshop, Passionate Pages social hub and Eventbrite organizer, plus Lawrenceville Corporation. Event listings checked October 13; no stock or attendance guarantee.
+
+All three use institutional bylines and original October 13 publication dates. Existing settled News-tab report was checked today; daily cadence retained. Main/news maps already registered; no repeated submission this day.
