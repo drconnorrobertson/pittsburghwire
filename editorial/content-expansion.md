@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the clothing-alterations comparison: 373; 64 additions remain to the first checkpoint and 627 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the piano-service comparison: 374; 63 additions remain to the first checkpoint and 626 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -19,6 +19,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - dbat-cranberry-kensinger-drive-training-facility-plans — new local training-business plans, official township and operator sources checked October 13. Operator homepage says coming soon: no opening date, phone or hours confirmed. Browser verified source pages after automated HTTP retrieval was blocked.
 
 - pittsburgh-clothing-alterations-three-options — garment fit, repair intake and deadline planning, distinct from dry-cleaning guide; official local shop pages checked October 13. No measured query-volume claim.
+
+- pittsburgh-piano-tuning-three-service-options — routine tuning versus extended service, player systems and historic restoration intent; official providers checked October 13. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
@@ -45,7 +47,6 @@ These are research candidates, not verified stories or promised publication slot
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
 | Sewing machine repair | Official Pittsburgh service businesses | Verify accepted brands, intake, estimate and turnaround policies |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
-| Piano tuning and instrument service | Official technicians and dealers | Verify territory, service format and enquiry requirements |
 | Furniture refinishing and upholstery | Official workshops | Verify materials, transport, estimate and project suitability |
 | Garage-door repair and installation | Official service firms | Explain repair versus replacement and written quotes; no invented emergency availability |
 | Fence installation | Official local contractors | Verify materials, territory and estimate scope; link city permit sources without legal conclusions |
@@ -72,3 +73,5 @@ These are research candidates, not verified stories or promised publication slot
 ## Latest editorial emphasis
 
 October 13 user steering prioritizes business openings and useful search-led listicles. Research official confirmation first; keep planned openings distinct from confirmed operations. Existing Cafe Raymond, Commonplace Kitchen, Chick-fil-A and Badamo coverage should be refreshed for its established intent rather than duplicated. Chi La Ma and Koreyinz opening leads remain on research hold pending sufficiently complete primary-source operational details.
+
+Publishing integration note, October 13: incorporated remote commits f09747e5 and 1dcbd06a before the piano-service guide. After running build_site.py/new_post.py, run `node scripts/buyer-intent-release.cjs .` to preserve the existing configured homepage and Opal metadata/next-step sections. Vercel also runs this script; validate the final local output after applying it.

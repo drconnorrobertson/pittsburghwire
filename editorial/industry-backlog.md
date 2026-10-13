@@ -98,3 +98,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Shake Shack Cranberry: township listing is a research lead, not sufficient confirmation of a specific opening day. Obtain operator confirmation before a standalone report.
 - Latest available settled Search Console News window was checked October 13 and remains September 13–October 10. Do not repeatedly poll or resubmit already accepted sitemaps within the same day without an actionable change.
 - This slot is skipped for quality: no adequately sourced distinct opening story was ready after checking existing coverage. Archive count remains 373. Continue the existing 30-minute schedule.
+
+- Piano tuning/service — `pittsburgh-piano-tuning-three-service-options`, October 13. Debatin leads for separated appointment categories; compare Pianoburgh booking/evaluation boundaries and Leininger historic restoration. Official sources and reciprocal lead profile. No independently unverified credentials, reviews or quality rankings repeated.

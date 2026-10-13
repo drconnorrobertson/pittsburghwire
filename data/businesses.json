@@ -94558,5 +94558,36 @@
         "primo"
       ]
     }
+  },
+  "debatin-piano-service": {
+    "name": "Debatin Piano Service",
+    "website": "https://www.debatinpiano.com/",
+    "source": "https://www.debatinpiano.com/services",
+    "source_name": "Official Debatin Piano Service menu and contact information",
+    "address": "",
+    "phone": "614-484-2067",
+    "source_category": "Piano Tuning and Repair",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Piano service for the greater Pittsburgh area, with distinct appointment categories for tuning, repairs, inspections and digital player systems. Confirm service coverage, scope and the complete quote.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.debatinpiano.com/",
+      "title": "Debatin Piano Service",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.debatinpiano.com/services",
+          "label": "Service scope and pricing"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "debatin"
+      ]
+    }
   }
 }
