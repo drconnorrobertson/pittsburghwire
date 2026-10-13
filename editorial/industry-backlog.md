@@ -181,3 +181,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Roaming Bean Strip District — `roaming-bean-strip-district-cafe-mobile-coffee-guide`, October 13. Refresh business guide; confirm café hours separately from cart schedule.
 - Silly Goose Downtown — `silly-goose-downtown-pittsburgh-gift-shop-guide`, October 13. Refresh established March opening/business visit guide; avoid competing gift-shop variants.
+
+- Carpet cleaning — `pittsburgh-carpet-cleaning-three-estimate-options`, October 13. Cleaning Innovations lead for published rate/minimum and room scope. Refresh guide; separate carpet/rugs/furniture.
+- Gutter cleaning — `pittsburgh-gutter-cleaning-two-service-options`, October 13. PEC lead for flushing/condition menu, ClearTech ground-vacuum alternative. Refresh guide; price inconsistency remains flagged.

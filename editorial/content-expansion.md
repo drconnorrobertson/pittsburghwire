@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the eighteenth additional-100 batch: 419; 18 additions remain to the first checkpoint and 581 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the nineteenth additional-100 batch: 421; 16 additions remain to the first checkpoint and 579 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 34 of 100 additional articles; 66 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 36 of 100 additional articles; 64 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -232,3 +232,10 @@ Sixteenth batch verified live at Production commit f409b7649004c6e251d31c8f6c401
 - `silly-goose-downtown-pittsburgh-gift-shop-guide`: March established Downtown opening from VisitPITTSBURGH, Project Pop-Up/initial lease from dated Shady Ave reporting, operator location/FAQ/about/refund policy. Business visit intent distinct from general Downtown funding coverage. No lease extension, product-stock or invented local phone claim. Sourced reciprocal profile.
 
 Seventeenth batch verified live at Production commit ea9b6325 with both articles, maps and reciprocal profiles.
+
+## Additional-100 batch 19 — October 13
+
+- `pittsburgh-carpet-cleaning-three-estimate-options`: distinct carpet-cleaning comparison, Cleaning Innovations lead for transparent area definition/minimum, Zerorez room/on-site scope and Stanley Pittsburgh quote route. Correct official business name (not earlier research shorthand Clean Interiors), no unsupported health or technology efficacy claims. Prices qualified; reciprocal sourced lead profile.
+- `pittsburgh-gutter-cleaning-two-service-options`: distinct gutter-cleaning comparison, PEC lead for documented clearing/flushing/checks versus ClearTech ground-access-limited vacuum and opening check. PEC price discrepancy explicitly flagged, not silently resolved. ATL BAR excluded due mixed geographic template content. No invented ClearTech street/phone. Reciprocal sourced PEC profile.
+
+Eighteenth batch verified live at Production commit 695eb9876de8aaa61ab666759da68b458ce99d00 with both articles, maps and reciprocal profiles.

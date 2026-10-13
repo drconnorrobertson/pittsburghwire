@@ -95892,5 +95892,78 @@
         "goose"
       ]
     }
+  },
+  "cleaning-innovations-pittsburgh": {
+    "name": "Cleaning Innovations",
+    "website": "https://cicarpetcleaning.com/",
+    "source": "https://cicarpetcleaning.com/pricing/",
+    "source_name": "Official local service and contact information",
+    "address": "500 Regis Avenue, #18174, Pittsburgh, PA 15236",
+    "phone": "412-258-1504",
+    "source_category": "Carpet Cleaning",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The published carpet area rate has a size limit and a minimum trip charge. Identify stairs, hallways, removable rugs and pet treatments separately when confirming the complete quote.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://cicarpetcleaning.com/",
+      "title": "Cleaning Innovations",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://cicarpetcleaning.com/pricing/",
+          "label": "Official service scope and pricing"
+        },
+        "contact": {
+          "url": "https://cicarpetcleaning.com/pricing/",
+          "label": "Official contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cleaning",
+        "innovations"
+      ]
+    }
+  },
+  "pittsburgh-exterior-cleaning-bridgeville": {
+    "name": "Pittsburgh Exterior Cleaning",
+    "website": "https://pittsburghexteriorcleaning.com/",
+    "source": "https://pittsburghexteriorcleaning.com/contact",
+    "source_name": "Official local service and contact information",
+    "address": "409 Lark Tree Circle, Bridgeville, PA 15017",
+    "phone": "412-861-0441",
+    "source_category": "Exterior Cleaning",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Bridgeville",
+    "source_excerpt": "",
+    "description": "The official gutter page describes debris removal, downspout flushing and condition checks. Confirm the exact property quote and whether separately requested repairs are included; published pricing descriptions differ.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburghexteriorcleaning.com/",
+      "title": "Pittsburgh Exterior Cleaning",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburghexteriorcleaning.com/gutter-cleaning",
+          "label": "Official service scope and pricing"
+        },
+        "contact": {
+          "url": "https://pittsburghexteriorcleaning.com/contact",
+          "label": "Official contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh",
+        "exterior",
+        "cleaning"
+      ]
+    }
   }
 }
