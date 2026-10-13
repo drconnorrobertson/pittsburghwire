@@ -94171,5 +94171,38 @@
         "academy"
       ]
     }
+  },
+  "action-appliance-service": {
+    "name": "Action Appliance Service",
+    "website": "https://actionappliancepitt.com/",
+    "source": "https://actionappliancepitt.com/",
+    "source_name": "Official business website",
+    "address": "7303 Lafayette Square, Aliquippa, PA 15001",
+    "phone": "412-269-0388",
+    "source_category": "Residential appliance repair",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Aliquippa",
+    "source_excerpt": "",
+    "description": "Action Appliance Service lists residential repairs for refrigeration, laundry and cooking equipment, dishwashers and garbage disposals in Allegheny and Beaver counties. Published hours are Monday–Friday, 8 a.m.–5 p.m.; closed weekends. Call or email actionpgh@comcast.net to confirm coverage and an appointment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://actionappliancepitt.com/",
+      "title": "Action Appliance Service",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://actionappliancepitt.com/",
+          "label": "Service territory and appointments"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "action",
+        "appliance",
+        "service"
+      ]
+    }
   }
 }

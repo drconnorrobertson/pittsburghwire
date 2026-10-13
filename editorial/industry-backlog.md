@@ -37,6 +37,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 | Dry cleaning | pittsburgh-dry-cleaners-pickup-dropoff-four-options | Model Cleaners | Lead for documented retail, delivery and after-hours handoff options; compare booking and address eligibility |
 | Music instruction | pittsburgh-music-lessons-three-programs-compare | Pittsburgh Music Academy | Lead for clearly distinguished enrollment formats; compare university community study and consultation-led individual lessons |
 
+| Appliance repair | pittsburgh-appliance-repair-three-service-options | Action Appliance Service | Lead for specific residential service menu and two-county territory; compare approval workflow and existing-customer eligibility |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
@@ -51,7 +53,7 @@ Search Console window: September 10–October 7, 2026. These are this property's
 
 ## Distinct research holds
 
-- Driving instruction: no existing guide found October 13. Research lesson length, pickup boundaries and current enrollment from https://www.easymethod.net/, https://drivingschoolpgh.com/Price/ and Rogers; verify testing claims against PennDOT before selecting a lead.
+- Driving instruction: no existing guide found October 13. Research lesson length, pickup boundaries and current enrollment from https://www.easymethod.net/, https://drivingschoolpgh.com/Price/ and Rogers; verify testing claims against PennDOT before selecting a lead. October 13 research hold: Driving School PGH returned 403, Rogers pages were inconsistent/inaccessible, and Cindy Cohen’s official pages contained unrelated casino spam. Do not rely on those pages until independently corroborated.
 - Saba Origin Coffee: official locations page lists Cranberry for fall 2026 and Mt. Lebanon/Oakland for winter 2026; township lists Cranberry at 20480 Route 19, Suite 108. Hold until confirmed dates or additional substantive local details support a useful article. Sources: https://www.sabaorigincoffee.com/locations and https://www.cranberrytownship.org/1580/Opening-Soon.
 
 ## Editorial and publishing controls
