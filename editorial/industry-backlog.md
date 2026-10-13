@@ -106,3 +106,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Furniture repair and upholstery — `pittsburgh-furniture-repair-upholstery-three-options`, October 13. Final Touch leads for on-site versus workshop scope; compare Decorator cushion/material services and Chianelli appointment-based upholstery. Official sources and reciprocal lead profile; no measured query-volume claim. Update this guide for the existing intent.
 
 - Watch repair — `pittsburgh-watch-repair-three-service-options`, October 13. Henne leads for explicit estimates and service exclusions; compare Fast-Fix mall intake and G.S. appointment/mail arrangements. Official sources; reciprocal lead profile. Refresh this intent rather than duplicating.
+
+- PGH Candle Downtown — `pgh-candle-downtown-studio-fall-visit-guide`, October 13. Existing March expansion with current fall information, distinct regular/workshop/private-party intake and North Side versus Downtown locations. Updated existing profile with reciprocal link. No invented availability or new-opening claim.

@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the watch-repair comparison: 377; 60 additions remain to the first checkpoint and 623 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the PGH Candle Downtown update: 378; 59 additions remain to the first checkpoint and 622 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -27,6 +27,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-furniture-repair-upholstery-three-options — wood repair, cushion replacement and upholstery consultation comparison; official providers checked October 13. No measured query-volume claim.
 
 - pittsburgh-watch-repair-three-service-options — estimates, model exclusions and intake comparison; official providers and mall source checked October 13. No measured query-volume claim.
+
+- pgh-candle-downtown-studio-fall-visit-guide — established March 2026 expansion, current fall activities, reservation formats and location distinctions; operator and tourism sources checked October 13. Clearly dated background, not a new opening claim.
 
 ## Coverage priorities from direct Search Console
 

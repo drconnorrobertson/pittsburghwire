@@ -16768,27 +16768,31 @@
   },
   "the-studio-by-pgh-candle": {
     "name": "The Studio by PGH Candle",
-    "website": "http://www.pghcandle.com",
+    "website": "https://www.pghcandle.com/",
     "source": "https://www.visitpittsburgh.com/directory/the-studio-by-pgh-candle-family-fun/",
     "source_name": "VisitPITTSBURGH",
     "address": "413 Wood St. Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-852-0488",
     "source_category": "Family Fun",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Pittsburgh's premier candle making bar and curated retail shop in the heart of Downtown, Pittsburgh. Candle bar reservations, https://www.pghcandle.com/candle-bar-reservations",
-    "description": "The Studio by PGH Candle: Family Fun in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Downtown candle-making bar and gift shop. Distinguish ordinary reservations, scheduled workshops and private-party enquiries before booking.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "https://www.pghcandle.com/",
       "title": "PGH CANDLE",
       "description_excerpt": "",
       "links": {
+        "services": {
+          "url": "https://www.pghcandle.com/candle-bar-reservations",
+          "label": "Downtown candle-bar reservations"
+        },
         "contact": {
-          "url": "https://www.pghcandle.com/contact-us",
-          "label": "contact us"
+          "url": "https://www.pghcandle.com/store-hours",
+          "label": "Location hours and phone"
         }
       },
       "topics": [],
