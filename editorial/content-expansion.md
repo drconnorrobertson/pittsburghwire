@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the piano-service comparison: 374; 63 additions remain to the first checkpoint and 626 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sewing-machine repair comparison: 375; 62 additions remain to the first checkpoint and 625 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -21,6 +21,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-clothing-alterations-three-options — garment fit, repair intake and deadline planning, distinct from dry-cleaning guide; official local shop pages checked October 13. No measured query-volume claim.
 
 - pittsburgh-piano-tuning-three-service-options — routine tuning versus extended service, player systems and historic restoration intent; official providers checked October 13. No measured query-volume claim.
+
+- pittsburgh-sewing-machine-repair-three-options — maintenance scope, repair intake and collection-route intent; official providers checked October 13, including current Thornton browser pages. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
@@ -45,7 +47,6 @@ These are research candidates, not verified stories or promised publication slot
 | Pittsburgh e-waste disposal and booking | City Environmental Services, Noble Environmental, PRC | Verify current costs, materials and appointment routes; distinguish from junk removal |
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
-| Sewing machine repair | Official Pittsburgh service businesses | Verify accepted brands, intake, estimate and turnaround policies |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
 | Furniture refinishing and upholstery | Official workshops | Verify materials, transport, estimate and project suitability |
 | Garage-door repair and installation | Official service firms | Explain repair versus replacement and written quotes; no invented emergency availability |

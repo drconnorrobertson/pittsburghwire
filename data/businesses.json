@@ -94589,5 +94589,36 @@
         "debatin"
       ]
     }
+  },
+  "thornton-company-north-hills": {
+    "name": "Thornton Company — North Hills",
+    "website": "https://www.thorntonco.com/",
+    "source": "https://www.thorntonco.com/machine-service.htm",
+    "source_name": "Official Thornton Company machine-service and location information",
+    "address": "3301 Babcock Boulevard, Pittsburgh, PA 15237",
+    "phone": "412-366-6611",
+    "source_category": "Sewing Machine Sales and Service",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Sewing-machine retailer and service provider. Confirm current branch hours, machine intake and the maintenance or parts scope before travelling.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.thorntonco.com/",
+      "title": "Thornton Company",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.thorntonco.com/machine-service.htm",
+          "label": "Machine-service scope"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "thornton"
+      ]
+    }
   }
 }
