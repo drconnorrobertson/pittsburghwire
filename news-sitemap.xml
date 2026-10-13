@@ -433,6 +433,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/dancing-gnome-two-sharpsburg-locations-visit-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Dancing Gnome’s Two Main Street Spaces: Taproom and Cocktail Room Guide</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/cork-crust-oaklander-pittsburgh-menu-visit-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -462,6 +470,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>BéLa in East Liberty: Broths, Shared Plates and Visit Planning</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/bar-marco-strip-district-menu-reservation-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Bar Marco in the Strip District: Menu, Bar Seats and Wine Room Reservations</news:title>
     </news:news>
   </url>
   <url>

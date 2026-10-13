@@ -95606,5 +95606,77 @@
         "bela"
       ]
     }
+  },
+  "bar-marco": {
+    "name": "Bar Marco",
+    "website": "https://www.barmarcopgh.com/",
+    "source": "https://www.barmarcopgh.com/",
+    "source_name": "Official restaurant and brewery information",
+    "address": "2216 Penn Avenue, Pittsburgh, PA 15222",
+    "phone": "412-471-1900",
+    "source_category": "Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Choose a regular dining table, bar seat or separately priced Wine Room booking. The current official sample-menu page and booking provider describe different party sizes and arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.barmarcopgh.com/",
+      "title": "Bar Marco",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.barmarcopgh.com/menu-1",
+          "label": "Official menu or location information"
+        },
+        "contact": {
+          "url": "https://www.exploretock.com/barmarcopgh",
+          "label": "Official booking or contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "bar",
+        "marco"
+      ]
+    }
+  },
+  "dancing-gnome-beer": {
+    "name": "Dancing Gnome",
+    "website": "https://dancinggnomebeer.com/",
+    "source": "https://dancinggnomebeer.com/",
+    "source_name": "Official restaurant and brewery information",
+    "address": "1025 Main Street, Pittsburgh, PA 15215",
+    "phone": "412-408-2083",
+    "source_category": "Brewery",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "1025 Main is the larger taproom and patio; 925 Main is the smaller cocktail room. Check each location and its hours directly, including the operator’s inconsistent Sunday listing for 925.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://dancinggnomebeer.com/",
+      "title": "Dancing Gnome",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://dancinggnomebeer.com/location/1025-main/",
+          "label": "Official menu or location information"
+        },
+        "contact": {
+          "url": "https://dancinggnomebeer.com/",
+          "label": "Official booking or contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "dancing",
+        "gnome"
+      ]
+    }
   }
 }

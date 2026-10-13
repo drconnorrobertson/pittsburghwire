@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the thirteenth additional-100 batch: 411; 26 additions remain to the first checkpoint and 589 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fourteenth additional-100 batch: 413; 24 additions remain to the first checkpoint and 587 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 26 of 100 additional articles; 74 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 28 of 100 additional articles; 72 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -197,3 +197,10 @@ Eleventh batch verified live at Production commit 8d48527c0b736ed94901b86d2a8b6e
 - `calgon-carbon-neville-township-expansion-plans-background`: distinct Neville Township two-site expansion background. December 2025 state announcement clearly dated, current company reactivation/equipment descriptions and October 7 Crosby completion distinguished geographically. No invented local construction update, quotes or hiring status. Both are substantive news additions; no directory pages added for count.
 
 Twelfth batch verified live at Production commit 5ed6a95657efaf8af7c61996d054efafde4db289 with both maps and reciprocal guide profiles.
+
+## Additional-100 batch 14 — October 13
+
+- `bar-marco-strip-district-menu-reservation-guide`: Bar Marco business-name visit intent. Private Sep 13–Oct 10 Web export has Bar Marco 375 impressions/zero clicks and Pittsburgh variant 316/zero; historical aggregates, not current ranks or search volume. Official Tock three formats and current linked September 22 sample menu verified. Old two-course $45 PDF not used. Existing withdrawn directory profile restored from official sources, reciprocal links; profile restoration not counted as addition.
+- `dancing-gnome-two-sharpsburg-locations-visit-guide`: Dancing Gnome business-name visit intent (187 historical Web impressions/zero clicks in private baseline), two distinct locations, ages, food and hours from official pages. Sunday conflict for 925 explicitly flagged; no reopening date invented. Existing withdrawn profile restored with sourced information and reciprocal link; not counted as News addition.
+
+Thirteenth batch verified live at Production commit 323f596075bf7ded88ccd7ef58be468e0b2af734 with both maps. Daily News visibility already checked today; no repeated unchanged report or same-day sitemap submission.

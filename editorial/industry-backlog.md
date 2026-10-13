@@ -167,3 +167,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Brunk Armstrong expansion — `brunk-armstrong-innovation-park-2027-groundbreaking-plan`, October 13. Current operator says 2027 groundbreaking; refresh same URL for verified construction/hiring updates.
 - Calgon Carbon Neville expansion — `calgon-carbon-neville-township-expansion-plans-background`, October 13. Two December 2025 planned additions; do not confuse a completed Texas investment with local completion. Refresh same URL.
+
+- Bar Marco — `bar-marco-strip-district-menu-reservation-guide`, October 13. Refresh this business visit guide; current menu-1 page differs from stale /menu.
+- Dancing Gnome — `dancing-gnome-two-sharpsburg-locations-visit-guide`, October 13. Refresh this two-address guide; verify Sunday hours at 925 before resolving conflict.
