@@ -94366,5 +94366,36 @@
         "hill"
       ]
     }
+  },
+  "apex-junk-removal-hauling": {
+    "name": "Apex Junk Removal & Hauling",
+    "website": "https://www.apexjunkremovalpa.com/",
+    "source": "https://www.apexjunkremovalpa.com/",
+    "source_name": "Official business website",
+    "address": "",
+    "phone": "724-680-6639",
+    "source_category": "Junk Removal",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Apex provides residential and commercial junk removal in Northern Pittsburgh. Its official website lists truck-volume estimates, indoor collection and excluded materials.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.apexjunkremovalpa.com/",
+      "title": "Apex Junk Removal & Hauling",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.apexjunkremovalpa.com/",
+          "label": "Services and estimates"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "apex"
+      ]
+    }
   }
 }

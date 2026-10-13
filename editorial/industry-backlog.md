@@ -51,6 +51,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Adult dance classes | pittsburgh-adult-dance-classes-three-options | Pittsburgh Ballet Theatre | Lead for explicit beginner-series and experience-level guidance; compare trials, class cards and drop-in styles |
 
+| Junk removal | pittsburgh-junk-removal-three-companies-compare | Apex Junk Removal & Hauling | Lead for explicit collection, pricing and exclusion guidance; compare territories and estimates from three official websites checked October 13, 2026 |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
