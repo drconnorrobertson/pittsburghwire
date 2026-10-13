@@ -94756,5 +94756,36 @@
         "asahi"
       ]
     }
+  },
+  "pittsburgh-pottery-carnegie": {
+    "name": "Pittsburgh Pottery — Carnegie",
+    "website": "https://pittsburghpottery.com/",
+    "source": "https://pittsburghpottery.com/products/open-clay-play-saturday-open-studio",
+    "source_name": "Official Pittsburgh Pottery class information",
+    "address": "309 East Main Street, Carnegie, PA 15106",
+    "phone": "412-440-3024",
+    "source_category": "Pottery Studio and Classes",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Carnegie",
+    "source_excerpt": "",
+    "description": "Pottery studio offering wheel sessions and longer classes. Confirm the selected date, finishing charges, cancellation terms and collection arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburghpottery.com/",
+      "title": "Pittsburgh Pottery",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburghpottery.com/products/open-clay-play-saturday-open-studio",
+          "label": "One-day wheel session details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh pottery"
+      ]
+    }
   }
 }
