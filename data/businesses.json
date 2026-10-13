@@ -94333,5 +94333,38 @@
         "wordsmiths"
       ]
     }
+  },
+  "mathnasium-squirrel-hill": {
+    "name": "Mathnasium of Squirrel Hill",
+    "website": "https://www.mathnasium.com/math-centers/squirrelhill",
+    "source": "https://www.mathnasium.com/math-centers/squirrelhill",
+    "source_name": "Official center page",
+    "address": "6600 Forbes Avenue, Pittsburgh, PA 15217",
+    "phone": "412-586-4534",
+    "source_category": "Math tutoring",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Mathnasium of Squirrel Hill lists PreK–12 math instruction, an initial assessment and personalized learning plans. Published instructional hours are Monday–Thursday 2–6 p.m. and Sunday 10 a.m.–2 p.m.; closed Friday and Saturday. Confirm current openings and membership terms directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.mathnasium.com/math-centers/squirrelhill",
+      "title": "Mathnasium of Squirrel Hill",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.mathnasium.com/math-centers/squirrelhill",
+          "label": "Assessment, enrollment and hours"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "mathnasium",
+        "squirrel",
+        "hill"
+      ]
+    }
   }
 }
