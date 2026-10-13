@@ -95152,5 +95152,76 @@
         "storm"
       ]
     }
+  },
+  "markantone-painting": {
+    "name": "Markantone Painting",
+    "website": "https://www.pittsburghpainting.net/",
+    "source": "https://www.pittsburghpainting.net/contact-us",
+    "source_name": "Official business service and contact information",
+    "address": "Verona, PA 15147",
+    "phone": "412-825-8001",
+    "source_category": "House Painting",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Verona",
+    "source_excerpt": "",
+    "description": "Painting, surface-preparation and estimate enquiry information; confirm the property scope and address coverage directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.pittsburghpainting.net/",
+      "title": "Markantone Painting",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.pittsburghpainting.net/",
+          "label": "Official services or catalog"
+        },
+        "contact": {
+          "url": "https://www.pittsburghpainting.net/contact-us",
+          "label": "Official enquiry route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "markantone",
+        "painting"
+      ]
+    }
+  },
+  "dooboo-east-liberty": {
+    "name": "DooBoo",
+    "website": "https://heydooboo.com/",
+    "source": "https://heydooboo.com/",
+    "source_name": "Official business service and contact information",
+    "address": "6012 Penn Avenue, Pittsburgh, PA 15206",
+    "phone": "",
+    "source_category": "Stationery Shop",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Stationery shop with product categories, artist selections and pickup-only online ordering. Check current hours and product-specific return rules.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://heydooboo.com/",
+      "title": "DooBoo",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://heydooboo.com/pages/shop-by-category",
+          "label": "Official services or catalog"
+        },
+        "contact": {
+          "url": "https://heydooboo.com/pages/contact",
+          "label": "Official enquiry route"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "dooboo"
+      ]
+    }
   }
 }

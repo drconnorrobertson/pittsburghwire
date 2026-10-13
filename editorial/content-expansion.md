@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fourth additional-100 batch: 394; 43 additions remain to the first checkpoint and 606 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifth additional-100 batch: 396; 41 additions remain to the first checkpoint and 604 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 9 of 100 additional articles; 91 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 11 of 100 additional articles; 89 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -133,3 +133,10 @@ Second batch verified live at Production commit 662481a036647bc19099bef34bcaa611
 - `pittsburgh-laser-tag-two-venues-compare`: per-game pricing, walk-in/group/private distinctions and age guidance; official Laser Storm homepage/pricing/FAQ and Zone 28 laser-tag page checked. Laser Storm address verified in current browser footer. Distinct from bowling, arcade and escape-room guides.
 
 Third batch verified live at Production commit 5d01fb2b5dada6dff00ea6abd17a07ed77185f52, with both maps and reciprocal profiles.
+
+## Additional-100 batch 5 — October 13
+
+- `pittsburgh-house-painters-three-estimate-options`: preparation/repair/finish and estimate-route comparison using official Markantone, ImageWorks and Veteran Painting websites. Distinct from generic handyman and exterior maintenance coverage. Markantone lead for documented combined scope, with sourced reciprocal profile.
+- `dooboo-east-liberty-stationery-pickup-guide`: established late-2025 opening dated by the operator, current stationery categories/brands, pickup and return rules, from official homepage/about/catalog pages. No current-launch or stock guarantee. Reciprocal sourced profile.
+
+Fourth batch verified live at Production commit f462431b5d24ab1166437c95347ca22e35cc5abe. After automatic review rejected blanket staging, a read-only audit confirmed 312 generated count-only updates, 13 category indexes containing only the two new venue cards/counts/list positions, and unchanged existing business data. Explicit audited-manifest staging and publication then succeeded.
