@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-sixth additional-100 batch: 429; 8 additions remain to the first checkpoint and 571 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-seventh additional-100 batch: 431; 6 additions remain to the first checkpoint and 569 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 44 of 100 additional articles; 56 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 46 of 100 additional articles; 54 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -284,3 +284,10 @@ Twenty-fourth batch verified live at Production commit 791e1a3eb20526e848e16983d
 - `body-by-design-pittsburgh-booking-membership-guide`: business-name demand (54 historical private GSC Web impressions, not volume/current-rank guarantee). Official connect, policies and memberships; established appointments-only location, cancellation/intake, recurring versus package/gift rules. Explicitly flags suspension wording conflict rather than resolving a contract. No health efficacy claim or recommendation. Sourced reciprocal profile.
 
 Twenty-fifth batch verified live at Production commit 7268fcaa6de835a2e9c60f5e8a8c28315a6ad59a: dated Northland café guide/maps/profile.
+
+## Additional-100 batch 27 — October 13
+
+- `eichenlaub-millvale-studio-landscape-planning-guide`: Eichenlaub business-name intent (56 plus40 historical Web impressions for separate queries). Millvale showroom versus Cheswick operations, published appointment/hours, material displays and design versus maintenance scope; no invented award, independent ranking or founding-date claim. New sourced studio profile.
+- `westmoreland-cleanways-recycling-drop-off-fees-guide`: Westmoreland Cleanways business-name intent (43 historical impressions). Current Greensburg address/hours, item exclusions/fees, CRT exception, separate Noble HHW days/cards and July30film update. No old Latrobe flyer, guaranteed municipal pickup or universal free-disposal claim. Existing profile strengthened.
+
+Twenty-sixth batch verified live at Production commit bf269ae24b714dd1385321e71ce1bfae90cb1003 with article/maps/profile. Historical query aggregates are not current-rank or volume claims.

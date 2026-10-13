@@ -89,6 +89,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/westmoreland-cleanways-recycling-drop-off-fees-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/vogel-disposal-collection-calendar-bulk-dumpster-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -474,6 +480,12 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/el-colibri-garfield-penn-avenue-restaurant-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/eichenlaub-millvale-studio-landscape-planning-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -7362,6 +7374,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/eggs-n-at-llc/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/eichenlaub-millvale-studio/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

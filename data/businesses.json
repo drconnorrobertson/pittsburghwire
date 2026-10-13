@@ -96154,5 +96154,43 @@
         "design"
       ]
     }
+  },
+  "eichenlaub-millvale-studio": {
+    "name": "Eichenlaub Outdoor Living Studio",
+    "website": "https://eichenlaub.com/",
+    "source": "https://eichenlaub.com/outdoor-living-studio/",
+    "source_name": "Official studio and landscaping service information",
+    "address": "517 Lincoln Avenue, Millvale, PA 15209",
+    "phone": "412-767-4769",
+    "source_category": "Landscape Design",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Millvale",
+    "source_excerpt": "",
+    "description": "Confirm the Millvale studio appointment separately from the Cheswick operations location. Prepare property photos, measurements and project questions, then request the actual design, construction or maintenance scope in writing.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://eichenlaub.com/",
+      "title": "Eichenlaub Outdoor Living Studio",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://eichenlaub.com/outdoor-living-studio/",
+          "label": "Official studio visit information"
+        },
+        "about": {
+          "url": "https://eichenlaub.com/landscaping-design/",
+          "label": "Official design process"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "eichenlaub",
+        "outdoor",
+        "living",
+        "studio"
+      ]
+    }
   }
 }
