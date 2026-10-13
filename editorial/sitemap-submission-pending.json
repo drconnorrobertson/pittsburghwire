@@ -1,16 +1,16 @@
 {
   "status": "submitted",
-  "reason": "Submitted directly through the verified Google Search Console property on October 13, 2026; all three submissions confirmed successfully. GSC Wizard connector remains payment_required.",
+  "reason": "All three maps accepted directly in Google Search Console October 13. Main and news maps were submitted again after the three-article expansion was live. Google processing remains asynchronous; do not infer indexing from submission.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "a40df854b3dcb9a74b41dcdfea7f4ea21ef5b5531b7785f306741c9607d795f5",
+      "sha256": "0bdd1350467239f350fc4b7ee6897ce05c8a31f377c5a1cc195d5a248fd69c4c",
       "accepted": true
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "2cec86eecdb5d6a680f0f8a9928843bffce9e0220d0a0dd36b5faf82a9c69e53",
+      "sha256": "90cbbbc13ec582be5b9e4c6862c1ce5f4cfe48a0721e5405d8b39b5b37751183",
       "accepted": true
     },
     {
@@ -20,5 +20,8 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-13"
+  "submitted_date": "2026-10-13",
+  "submitted_commit": "aff379ab5aa651ba02ca640bc2a5e0b684064e7e",
+  "next_routine_check_not_before": "2026-10-14",
+  "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works"
 }

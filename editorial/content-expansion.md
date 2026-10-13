@@ -1,12 +1,14 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current count after the first batch: 367; 70 additions remain to the first checkpoint and 633 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the first batch and barber comparison: 368; 69 additions remain to the first checkpoint and 632 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
 - pittsburgh-rad-pass-library-card-tickets-guide — library-card ticket reservation, eligibility and redemption intent. Official RAD Pass homepage, FAQ and partner directory checked October 13.
 - pittsburgh-airport-pickup-free-wait-lot-guide — airport pickup, waiting lot, terminal levels and assistance intent. Official airport parking, FAQ and accessibility pages checked October 13.
 - pittsburgh-fall-yard-waste-collection-november-7-2026 — seasonal city-service reminder from the official 2026 calendar, annual bulletin and March correction. Explicitly not a new announcement; distinguish City of Pittsburgh from suburban mailing addresses.
+
+- pittsburgh-barbershops-three-booking-options — appointment and service-selection comparison supported by Circa and Crown business-name impressions; official and official-linked booking sources checked October 13.
 
 ## Coverage priorities from direct Search Console
 

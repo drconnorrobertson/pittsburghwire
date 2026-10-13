@@ -94465,5 +94465,36 @@
         "friends"
       ]
     }
+  },
+  "circa-barbershop-pittsburgh": {
+    "name": "Circa Barbershop — Pittsburgh",
+    "website": "https://www.circabarbershop.com/barbers",
+    "source": "https://getsquire.com/discover/barbershop/circa-pittsburgh-pittsburgh",
+    "source_name": "Booking page linked by the official Circa website",
+    "address": "3495 Butler Street, Pittsburgh, PA 15201",
+    "phone": "",
+    "source_category": "Barbershop",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Circa’s Pittsburgh booking menu separates standard haircuts, skin fades, scissor or transformation cuts and beard services. Confirm the selected service, provider and appointment terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.circabarbershop.com/barbers",
+      "title": "Circa Pittsburgh team and booking",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://getsquire.com/discover/barbershop/circa-pittsburgh-pittsburgh",
+          "label": "Pittsburgh services and booking"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "circa"
+      ]
+    }
   }
 }
