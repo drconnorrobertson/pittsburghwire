@@ -65,6 +65,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-sichuan-restaurants-two-menu-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Two Pittsburgh-Area Sichuan Menus: Lao Sze Chuan and Chengdu Gourmet</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-sewing-machine-repair-three-options</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -142,6 +150,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>Three Pittsburgh-Area Indian Restaurants: Combos, Buffet and Menu Choices</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ice-cream-three-shopping-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Three Pittsburgh Ice Cream Options: Seasonal Scoops, Sandwiches and Gelato</news:title>
     </news:news>
   </url>
   <url>

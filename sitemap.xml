@@ -137,6 +137,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-sichuan-restaurants-two-menu-options</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-sewing-machine-repair-three-options</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -192,6 +198,12 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-indian-restaurants-three-meal-options</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ice-cream-three-shopping-options</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -10606,6 +10618,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/lao-sze-chuan-sheraton-drive/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/lapels-a-fine-mens-clothier/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -11591,7 +11609,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/millie-s-homemade-ice-cream/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

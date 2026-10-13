@@ -149,3 +149,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Mad Anthony’s Bier Stube — `mad-anthonys-ambridge-german-menu-visit-guide`, October 13. Current German/American menu and party/ordering distinction; January roundup used only as dated background. Reciprocal profile.
 
 - Indian dining — `pittsburgh-indian-restaurants-three-meal-options`, October 13. Haveli lead for explicit combinations, Spice Affair lunch buffet and Banksville Mintt alternatives. One consolidated comparison intent; refresh this guide rather than creating neighborhood variants.
+
+- Ice cream — `pittsburgh-ice-cream-three-shopping-options`, October 13. Millie’s lead for current fall/location information, Leona’s sandwiches and Mercurio’s gelato alternatives; one consolidated intent with source age/conflicts flagged.
+- Sichuan dining — `pittsburgh-sichuan-restaurants-two-menu-options`, October 13. Lao Sze Chuan lead for portion labels, McKnight Chengdu alternative; browser full-menu verification and hours conflicts. Refresh this comparison rather than neighborhood variants.

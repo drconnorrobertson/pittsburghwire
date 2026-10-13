@@ -9589,35 +9589,31 @@
   },
   "millie-s-homemade-ice-cream": {
     "name": "Millie's Homemade Ice Cream",
-    "website": "http://www.millieshomemade.com",
+    "website": "https://www.millieshomemade.com/",
     "source": "https://www.visitpittsburgh.com/directory/millies-homemade-ice-cream/",
     "source_name": "VisitPITTSBURGH",
     "address": "246 Forbes Ave. Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-709-6579",
     "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "checked": "2026-10-13",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "Millie's proudly crafts chef-inspired dairy ice creams and vegan gelatos available by the scoop &…",
-    "description": "Millie's Homemade Ice Cream: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "The Market Square location is listed at 246 Forbes Avenue. Check the current fall flavor collection and selected shop information before planning a scoop stop or take-home order.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-10-13",
       "url": "https://www.millieshomemade.com/",
       "title": "Home - Millie's Homemade",
-      "description_excerpt": "Millie's proudly crafts chef-inspired dairy ice creams and vegan gelatos available by the scoop &…",
+      "description_excerpt": "",
       "links": {
-        "about": {
-          "url": "https://www.millieshomemade.com/about/",
-          "label": "our story"
-        },
-        "locations": {
-          "url": "https://www.millieshomemade.com/locations",
-          "label": "locations"
+        "services": {
+          "url": "https://www.millieshomemade.com/flavors/",
+          "label": "Current flavor collection"
         },
         "contact": {
-          "url": "https://www.millieshomemade.com/contact/",
-          "label": "contact"
+          "url": "https://www.millieshomemade.com/locations/",
+          "label": "Official shop locations and contacts"
         }
       },
       "topics": [],
@@ -95328,6 +95324,43 @@
       "topics": [],
       "identity_tokens": [
         "haveli"
+      ]
+    }
+  },
+  "lao-sze-chuan-sheraton-drive": {
+    "name": "Lao Sze Chuan Pittsburgh",
+    "website": "https://www.laoszechuanpgh.com/",
+    "source": "https://www.laoszechuanpgh.com/",
+    "source_name": "Official local restaurant website and linked menu",
+    "address": "936 Sheraton Drive, Mars, PA 16046",
+    "phone": "412-899-8888",
+    "source_category": "Sichuan Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Mars",
+    "source_excerpt": "",
+    "description": "Use the local linked menu to compare explicitly labelled shared and individual portions. Confirm current hours and the complete food order directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.laoszechuanpgh.com/",
+      "title": "Lao Sze Chuan Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pos.chowbus.com/online-ordering/store/Lao-Sze-Chuan-Pittsburgh/22755",
+          "label": "Official-linked menu"
+        },
+        "contact": {
+          "url": "https://www.laoszechuanpgh.com/",
+          "label": "Official local contact and visit information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "lao",
+        "sze",
+        "chuan"
       ]
     }
   }
