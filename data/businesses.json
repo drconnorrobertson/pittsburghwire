@@ -94620,5 +94620,36 @@
         "thornton"
       ]
     }
+  },
+  "the-final-touch-verona": {
+    "name": "The Final Touch, Inc.",
+    "website": "https://www.thefinaltouchinc.com/",
+    "source": "https://www.thefinaltouchinc.com/",
+    "source_name": "Official The Final Touch service and contact information",
+    "address": "12 Plum Street, Verona, PA 15147",
+    "phone": "412-687-8060",
+    "source_category": "Furniture Repair and Refinishing",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Verona",
+    "source_excerpt": "",
+    "description": "Furniture touch-up and refinishing provider. Confirm the appropriate work scope and transport arrangements before booking.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.thefinaltouchinc.com/",
+      "title": "The Final Touch, Inc.",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.thefinaltouchinc.com/",
+          "label": "Service and estimate information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "final touch"
+      ]
+    }
   }
 }

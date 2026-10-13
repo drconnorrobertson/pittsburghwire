@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sewing-machine repair comparison: 375; 62 additions remain to the first checkpoint and 625 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the furniture-repair comparison: 376; 61 additions remain to the first checkpoint and 624 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -23,6 +23,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-piano-tuning-three-service-options — routine tuning versus extended service, player systems and historic restoration intent; official providers checked October 13. No measured query-volume claim.
 
 - pittsburgh-sewing-machine-repair-three-options — maintenance scope, repair intake and collection-route intent; official providers checked October 13, including current Thornton browser pages. No measured query-volume claim.
+
+- pittsburgh-furniture-repair-upholstery-three-options — wood repair, cushion replacement and upholstery consultation comparison; official providers checked October 13. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
