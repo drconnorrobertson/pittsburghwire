@@ -186,3 +186,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Gutter cleaning — `pittsburgh-gutter-cleaning-two-service-options`, October 13. PEC lead for flushing/condition menu, ClearTech ground-vacuum alternative. Refresh guide; price inconsistency remains flagged.
 
 - Chimney services — `pittsburgh-chimney-services-three-scope-options`, October 13. Chimney Cricket lead for explicit inspection/sweeping scope, Advance and D&G alternatives. Refresh this category guide.
+
+- Vogel Disposal — `vogel-disposal-collection-calendar-bulk-dumpster-guide`, October 13. Refresh business service guide; municipality-specific calendar/acceptance, no competing local variants.
+- Hazelwood Volpatt reuse pilot — `hazelwood-volpatt-construction-junction-material-reuse-pilot`, October 13. Refresh this project background as actual program results become available; arithmetic discrepancy remains attributed and flagged.
