@@ -158,3 +158,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - F&F Mt. Lebanon — `fnf-pizzeria-mt-lebanon-menu-visit-guide`, October 13. Local menu/visit intent, separate from general pizza comparison; refresh this business URL.
 - Tree care — `pittsburgh-tree-care-three-consultation-options`, October 13. Northwood lead for report/access scope, Davey and Bartlett local alternatives. Distinct from landscaping design and maintenance guide.
+
+- Basement waterproofing — `pittsburgh-basement-waterproofing-three-estimate-options`, October 13. Advanced lead for estimate/scope clarity, Keystone and Everdry alternatives. Distinct from plumbing or foundation project news.
+- Pho — `pittsburgh-pho-three-menu-options`, October 13. Pho Van lead for noodle/ingredient clarity, Maiku and YOYO alternatives. One consolidated regional comparison; refresh rather than neighborhood variants.

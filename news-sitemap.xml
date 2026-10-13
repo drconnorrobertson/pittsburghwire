@@ -129,6 +129,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-pho-three-menu-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Three Pittsburgh-Area Pho Options: Compare Broth, Toppings and Locations</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-music-lessons-three-programs-compare</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -286,6 +294,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>Pittsburgh Clothing Alterations: Three Shops to Compare</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-basement-waterproofing-three-estimate-options</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>Three Pittsburgh Basement-Waterproofing Options: Estimates and Repair Scope</news:title>
     </news:news>
   </url>
   <url>

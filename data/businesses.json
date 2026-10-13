@@ -95463,5 +95463,77 @@
         "tree"
       ]
     }
+  },
+  "advanced-basement-solutions": {
+    "name": "Advanced Basement Solutions",
+    "website": "https://www.advancedbasement.com/",
+    "source": "https://www.advancedbasement.com/",
+    "source_name": "Official local business and service information",
+    "address": "1200 Herminie West Newton Road, West Newton, PA 15089",
+    "phone": "412-341-2660",
+    "source_category": "Basement Waterproofing",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "West Newton",
+    "source_excerpt": "",
+    "description": "The company advertises a free in-home estimate. Confirm the proposed drainage, pumping, structural work, restoration and warranty terms in a written quote; the appointment itself does not establish a repair method.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.advancedbasement.com/",
+      "title": "Advanced Basement Solutions",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.advancedbasement.com/contact-us/",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://www.advancedbasement.com/contact-us/",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "advanced",
+        "basement"
+      ]
+    }
+  },
+  "pho-van-strip-district": {
+    "name": "Pho Van",
+    "website": "https://www.phopittsburgh.com/",
+    "source": "https://www.phopittsburgh.com/",
+    "source_name": "Official local business and service information",
+    "address": "2120 Penn Avenue, Pittsburgh, PA 15222",
+    "phone": "412-281-7999",
+    "source_category": "Vietnamese Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The menu separates rice-noodle pho from an egg-noodle specialty. Confirm the chosen broth, toppings, complete price and ordering window for the Strip District location.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.phopittsburgh.com/",
+      "title": "Pho Van",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pos.chowbus.com/online-ordering/store/Pho-Van/23991",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://www.phopittsburgh.com/",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pho",
+        "van"
+      ]
+    }
   }
 }
