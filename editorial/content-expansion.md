@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the library-room and GED enrollment guides: 370; 67 additions remain to the first checkpoint and 630 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the cooking-class comparison: 371; 66 additions remain to the first checkpoint and 629 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -13,6 +13,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-library-meeting-room-reservations-guide — public-room reservation intent, distinct from paid coworking and event venues; CLP LibCal, Allegheny branch calendar and law-library reservation page checked October 13. Existing services, not a new announcement.
 
 - pittsburgh-free-ged-classes-enrollment-guide — adult-education enrollment, orientation, tutoring waitlists and conditional test-fee help; Literacy Pittsburgh and CCAC official sources checked October 13. Covers existing programs and flags inconsistent service-area descriptions. No measured query-volume claim.
+
+- pittsburgh-cooking-classes-three-options-compare — hands-on versus demonstration versus technique-series intent; official school pages checked October 13. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
@@ -37,7 +39,6 @@ These are research candidates, not verified stories or promised publication slot
 | Pittsburgh e-waste disposal and booking | City Environmental Services, Noble Environmental, PRC | Verify current costs, materials and appointment routes; distinguish from junk removal |
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
-| Local cooking classes | Official teaching kitchens and schools | Compare hands-on versus demonstration, class age and booking terms |
 | Sewing machine repair | Official Pittsburgh service businesses | Verify accepted brands, intake, estimate and turnaround policies |
 | Clothing alterations and tailoring | Official local tailors | Separate garment alteration from existing dry-cleaner guide; explain fittings |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
@@ -64,3 +65,7 @@ These are research candidates, not verified stories or promised publication slot
 - Track Google News eligibility and measured visibility without promising placement. Google chooses News results algorithmically; submission is not indexing or a ranking guarantee.
 - All three sitemaps were submitted and accepted directly in Google Search Console October 13. Hash record is editorial/sitemap-submission-pending.json. Do not keep retrying unchanged files or use the restricted Indexing API.
 - Retain the existing 30-minute schedule, check current work before writes, verify deployments and remain quiet on routine successful runs. Notify once when 1,000 substantive articles are live and verified.
+
+## Latest editorial emphasis
+
+October 13 user steering prioritizes business openings and useful search-led listicles. Research official confirmation first; keep planned openings distinct from confirmed operations. Existing Cafe Raymond, Commonplace Kitchen, Chick-fil-A and Badamo coverage should be refreshed for its established intent rather than duplicated. Chi La Ma and Koreyinz opening leads remain on research hold pending sufficiently complete primary-source operational details.

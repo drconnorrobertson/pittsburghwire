@@ -85,3 +85,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 ## Recent distinct business coverage
 
 - Rivian Bethel Park Service + Demo Center — `rivian-bethel-park-service-demo-center`, October 13, 2026. Official location confirms 1700 Oxford Drive, visitor/service hours and booking routes. Regional service and demo-drive intent; update this page rather than create a competing center guide.
+
+- Cooking classes — `pittsburgh-cooking-classes-three-options-compare`, October 13. Gaynor’s leads for published technique-series progression; CRATE and Phipps compared by format, age and booking policies. Official sources and reciprocal Gaynor’s profile. Update this guide rather than create competing variants.

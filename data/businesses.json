@@ -94496,5 +94496,36 @@
         "circa"
       ]
     }
+  },
+  "gaynors-school-of-cooking": {
+    "name": "Gaynor’s School of Cooking",
+    "website": "https://www.gaynorsschoolofcooking.com/",
+    "source": "https://www.gaynorsschoolofcooking.com/index.php/programs/the-art-of-fine-cooking-series",
+    "source_name": "Official Gaynor’s School of Cooking program and contact information",
+    "address": "309 East Carson Street, Pittsburgh, PA 15219",
+    "phone": "412-325-2703",
+    "source_category": "Cooking School",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Cooking school offering technique series, themed classes, couples programs, baking and private events. Confirm current dates, course suitability and registration terms directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.gaynorsschoolofcooking.com/",
+      "title": "Gaynor’s School of Cooking",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.gaynorsschoolofcooking.com/index.php/programs/the-art-of-fine-cooking-series",
+          "label": "Cooking series information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "gaynor"
+      ]
+    }
   }
 }
