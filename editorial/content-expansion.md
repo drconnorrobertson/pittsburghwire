@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-second additional-100 batch: 425; 12 additions remain to the first checkpoint and 575 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twenty-third additional-100 batch: 426; 11 additions remain to the first checkpoint and 574 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 40 of 100 additional articles; 60 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 41 of 100 additional articles; 59 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -259,3 +259,10 @@ Twentieth batch verified live at Production commit 6258b46bc0ca3db7ff6366b98e701
 - `pittsburgh-adult-language-classes-three-options`: distinct adult foreign-language learning comparison, not competing free GED/tutoring guide. Spanish Place lead for published small-group/placement and Oct14/Jan11 schedule. Early-bird rate explicitly conditional, mixed venue descriptions flagged, no seat availability guarantee. French homepage supports formats/contact only (deeper page unavailable); Italian current private-tutoring page used instead of obsolete catalog dates. Sourced reciprocal Spanish Place profile.
 
 Twenty-first batch verified live at Production commit 15ab7e72 with both articles, maps and reciprocal Vogel profile.
+
+## Additional-100 batch 23 — October 13
+
+- `tuscas-pizzeria-beaver-menu-ordering-guide`: Tusca pizza business-name intent from private GSC baseline (57 historical Web impressions/zero clicks, no current-rank or volume claim). Official distinct menu pages; Beaver explicitly regional, not City Pittsburgh. Format/size, ordering and delivery windows qualified; existing profile strengthened with reciprocal context.
+- Refresh only: `amboy-filipino-restaurant-deutschtown-pittsburgh-rafael-vencio`. Replaced unsupported first-restaurant claim, summer-opening certainty, unsourced quotes and speculative Michelin commentary. Official homepage still under construction/fall plan; current Soju event page, history and May19 PublicSource/Courier background cited. OriginalJune22 publication retained, October13 modification and visible correction. Not an addition. Local recoverable original saved outside repo.
+
+Twenty-second batch verified live at Production commit 9768069c099c0f42f322cd00e239b48a27716b06 with guide, maps and reciprocal profile.

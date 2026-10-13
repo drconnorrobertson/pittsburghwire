@@ -191,3 +191,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Hazelwood Volpatt reuse pilot — `hazelwood-volpatt-construction-junction-material-reuse-pilot`, October 13. Refresh this project background as actual program results become available; arithmetic discrepancy remains attributed and flagged.
 
 - Adult foreign-language classes — `pittsburgh-adult-language-classes-three-options`, October 13. Spanish Place lead for published small-group/placement route, French Alliance and Italian private tutoring alternatives. Refresh current session information; no competing language/location variants.
+
+- Tusca’s Beaver — `tuscas-pizzeria-beaver-menu-ordering-guide`, October 13. Refresh business guide; preserve regional location distinction.
+- Amboy — existing URL corrected October13, not new addition. Under construction/fall target; Soju October18 listing requires availability confirmation.
