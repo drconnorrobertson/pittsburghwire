@@ -94934,5 +94934,77 @@
         "society"
       ]
     }
+  },
+  "foxhole-tavern-aspinwall": {
+    "name": "Foxhole Tavern",
+    "website": "https://foxholetavernpgh.com/",
+    "source": "https://foxholetavernpgh.com/",
+    "source_name": "Official restaurant information",
+    "address": "211 Commercial Avenue, Aspinwall, PA 15215",
+    "phone": "412-408-4176",
+    "source_category": "Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Aspinwall",
+    "source_excerpt": "",
+    "description": "Established restaurant with official menu and visit information. Confirm the selected service, current prices, hours and reservation arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://foxholetavernpgh.com/",
+      "title": "Foxhole Tavern",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://foxholetavernpgh.com/food-menu",
+          "label": "Official food menu"
+        },
+        "contact": {
+          "url": "https://foxholetavernpgh.com/",
+          "label": "Contact and visit planning"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "foxhole",
+        "tavern"
+      ]
+    }
+  },
+  "sea-monkey-strip-district": {
+    "name": "Sea Monkey",
+    "website": "https://www.seamonkeypgh.com/",
+    "source": "https://www.seamonkeypgh.com/",
+    "source_name": "Official restaurant information",
+    "address": "2305 Smallman Street, Pittsburgh, PA 15222",
+    "phone": "412-484-4400",
+    "source_category": "Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Established restaurant with official menu and visit information. Confirm the selected service, current prices, hours and reservation arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.seamonkeypgh.com/",
+      "title": "Sea Monkey",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.seamonkeypgh.com/restaurant",
+          "label": "Official food menu"
+        },
+        "contact": {
+          "url": "https://www.seamonkeypgh.com/",
+          "label": "Contact and visit planning"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "sea",
+        "monkey"
+      ]
+    }
   }
 }
