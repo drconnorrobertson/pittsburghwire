@@ -175,3 +175,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Klavon’s — hold current visit coverage; corroborate operations before restoring old profile.
 
 - Brazilian steakhouses — `pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil`, October 13. Fogo lead for published access/schedules, Texas Station Square alternative. Refresh existing guide; no unverified Rodizio Pittsburgh inclusion.
+
+- El Colibrí Garfield — `el-colibri-garfield-penn-avenue-restaurant-guide`, October 13. Refresh established June opening/business visit guide; menu updating.
+- Polly and Esther Garfield — `polly-and-esther-garfield-shopping-mah-jong-guide`, October 13. Refresh boutique/session/access guide; no competing location variants.

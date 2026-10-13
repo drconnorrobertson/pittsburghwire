@@ -95749,5 +95749,76 @@
         "brazil"
       ]
     }
+  },
+  "el-colibri-garfield": {
+    "name": "El Colibrí",
+    "website": "https://elcolibrillc.com/",
+    "source": "https://elcolibrillc.com/",
+    "source_name": "Official local business information",
+    "address": "5331 Penn Avenue, Pittsburgh, PA 15224",
+    "phone": "412-254-4451",
+    "source_category": "Mexican Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Check the restaurant hours separately from recurring farmers-market listings. The official food-menu page is being updated; confirm current dishes and prices through the operator.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://elcolibrillc.com/",
+      "title": "El Colibrí",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://elcolibrillc.com/",
+          "label": "Official business information"
+        },
+        "contact": {
+          "url": "https://elcolibrillc.com/about",
+          "label": "Official contact and background information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "colibri"
+      ]
+    }
+  },
+  "polly-and-esther-garfield": {
+    "name": "Polly and Esther",
+    "website": "https://www.pollyandesther152.com/",
+    "source": "https://www.pollyandesther152.com/",
+    "source_name": "Official local business information",
+    "address": "5337 Penn Avenue, Pittsburgh, PA 15224",
+    "phone": "412-863-1240",
+    "source_category": "Clothing Boutique",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Confirm private shopping or mah-jong sessions directly. Check current construction-related parking arrangements with the shop before relying on the nearby lot.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.pollyandesther152.com/",
+      "title": "Polly and Esther",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.pollyandesther152.com/",
+          "label": "Official business information"
+        },
+        "contact": {
+          "url": "https://www.pollyandesther152.com/pages/contact",
+          "label": "Official contact and background information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "polly",
+        "esther"
+      ]
+    }
   }
 }

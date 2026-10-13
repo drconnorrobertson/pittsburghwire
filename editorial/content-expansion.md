@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixteenth additional-100 batch: 415; 22 additions remain to the first checkpoint and 585 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventeenth additional-100 batch: 417; 20 additions remain to the first checkpoint and 583 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 30 of 100 additional articles; 70 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 32 of 100 additional articles; 68 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -218,3 +218,10 @@ Fourteenth batch verified live at Production commit 3eb9b32cd24dabfff30c813674cd
 - `pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil`: distinct Brazilian steakhouse comparison intent (private baseline 56 Web impressions/zero clicks, historical query aggregate not volume/current rank). Fogo lead explicitly for Downtown parking validation and weekday lunch/weekend brunch schedules, no tasting or independent-award claim. Texas Pittsburgh browser verified address, phone, current local prices, Friday lunch, dinner hours. Fogo menu raw text exposes multiple meal-period prices: no ambiguous numeric Fogo price repeated. Children’s bands sourced separately. New Texas profile and existing Fogo profile have reciprocal context; neither counts as addition.
 
 Fifteenth batch verified live at Production commit 3f1c289b809ed8dacf3d823b94d02c959758bd10 with Brewberry article, maps and reciprocal profile.
+
+## Additional-100 batch 17 — October 13
+
+- `el-colibri-garfield-penn-avenue-restaurant-guide`: established June 2026 Garfield opening attributed to VisitPITTSBURGH; current operator, family history and Invest PGH business-transition account. Official food-menu page says updating, read in browser; no stale prices repeated. Storefront/market schedules distinguished, individual dietary needs not guaranteed. Sourced reciprocal profile.
+- `polly-and-esther-garfield-shopping-mah-jong-guide`: distinct boutique visit intent: new/vintage selection, session formats, private shopping, First Friday hours and construction access. Current operator homepage/contact and Invest PGH ownership/support account; no grant amount, lesson fee or opening date invented. Sourced reciprocal profile.
+
+Sixteenth batch verified live at Production commit f409b7649004c6e251d31c8f6c4019ea8aa5b170 with article, maps and both reciprocal profiles.
