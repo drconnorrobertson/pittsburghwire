@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the Glass Center class guide: 383; 54 additions remain to the first checkpoint and 617 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the Okane dining guide: 384; 53 additions remain to the first checkpoint and 616 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -39,6 +39,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - south-side-2026-restaurant-openings-dolce-vita-teocalli — dated March welcome background plus current dining, catering and table/pickup comparison. Teocalli official browser pages and La Dolce Vita operator pages checked October 13. No invented opening day or measured query-volume claim.
 
 - pittsburgh-glass-center-first-class-options — class-format selection and registration intent, distinct from Pittsburgh IS Craft initiative coverage; operator pages checked October 13. Flags inconsistent general workshop age guidance. No measured query-volume claim.
+
+- okane-downtown-pittsburgh-omakase-rooftop-guide — established 2026 opening, separate tasting versus rooftop menus, prices and booking routes; official operator pages checked October 13. Old Sweet Spot coverage not treated as current operational confirmation. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 

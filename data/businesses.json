@@ -94826,5 +94826,40 @@
         "dolce vita"
       ]
     }
+  },
+  "okane-downtown-pittsburgh": {
+    "name": "Okane — Downtown Pittsburgh",
+    "website": "https://okanesushiusa.com/",
+    "source": "https://okanesushiusa.com/",
+    "source_name": "Official Okane dining and contact information",
+    "address": "245 Fourth Avenue, Pittsburgh, PA 15222",
+    "phone": "878-788-3333",
+    "source_category": "Sushi Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Sushi restaurant with separate omakase and rooftop dining information. Confirm the dining area, menu, complete price and booking route directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://okanesushiusa.com/",
+      "title": "Okane Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://okanesushiusa.com/omakase/",
+          "label": "Omakase tasting and reservations"
+        },
+        "contact": {
+          "url": "https://okanesushiusa.com/rooftop/",
+          "label": "Rooftop menu and direct contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "okane"
+      ]
+    }
   }
 }
