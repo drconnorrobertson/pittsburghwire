@@ -94721,5 +94721,40 @@
         "installation services"
       ]
     }
+  },
+  "asahi-ramen-brookline": {
+    "name": "Asahi Ramen — Brookline",
+    "website": "https://asahiramenpgh.com/",
+    "source": "https://asahiramenpgh.com/",
+    "source_name": "Official Asahi Ramen menu and contact pages",
+    "address": "600 Brookline Boulevard, Pittsburgh, PA 15226",
+    "phone": "412-684-9038",
+    "source_category": "Ramen Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Brookline ramen restaurant with a published menu and online ordering link. Confirm current service hours, lunch-special availability and dietary requirements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://asahiramenpgh.com/",
+      "title": "Asahi Ramen",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://asahiramenpgh.com/menu",
+          "label": "Published food menu"
+        },
+        "contact": {
+          "url": "https://asahiramenpgh.com/",
+          "label": "Hours, contact and ordering"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "asahi"
+      ]
+    }
   }
 }

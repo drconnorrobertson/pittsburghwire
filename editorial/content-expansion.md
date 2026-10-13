@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the garage-door comparison: 379; 58 additions remain to the first checkpoint and 621 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the Asahi Ramen update: 380; 57 additions remain to the first checkpoint and 620 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -31,6 +31,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pgh-candle-downtown-studio-fall-visit-guide — established March 2026 expansion, current fall activities, reservation formats and location distinctions; operator and tourism sources checked October 13. Clearly dated background, not a new opening claim.
 
 - pittsburgh-garage-door-service-three-options — showroom, online-design and in-home enquiry comparison with repair-versus-replacement scope; official sources checked October 13. No measured query-volume claim.
+
+- asahi-ramen-brookline-menu-hours-visit-guide — established 2026 restaurant opening, current broth/menu comparisons and explicitly flagged lunch-hours discrepancy; official browser pages and dated background sources checked October 13. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
@@ -84,3 +86,5 @@ October 13 user steering prioritizes business openings and useful search-led lis
 Publishing integration note, October 13: incorporated remote commits f09747e5 and 1dcbd06a before the piano-service guide. After running build_site.py/new_post.py, run `node scripts/buyer-intent-release.cjs .` to preserve the existing configured homepage and Opal metadata/next-step sections. Vercel also runs this script; validate the final local output after applying it.
 
 October 13 demand-led refresh: rechecked the dedicated Badamo Family Grocery & Sandwich Shop Toast menu. Replaced the outdated Heartbeat price example with the currently listed Caprese Dream, clarified Betty contains turkey, and retained the original August 24 publication date while updating dateModified. Existing sandwich-shop query demand supports refreshing this URL rather than publishing a competing variant. Archive count remains 375.
+
+October 13 user-directed News visibility recheck: the direct report now spans September 14–October 11, 2026 (28 days). It still shows 1 click, 2 impressions and average position 51.5. Page rows remain the development archive (1 click, 1 impression, position 100) and Gray Swan funding article (0 clicks, 1 impression, position 3); query data unavailable. This tiny sample does not establish a trend, article-wide inclusion or Google News app/site reach.

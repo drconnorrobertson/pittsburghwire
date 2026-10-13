@@ -117,3 +117,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Slot skipped for quality after checking existing coverage and these three opening leads. No new article or sitemap submission; archive remains 378. Settled News performance was already checked October 13, with no new reporting window due in this slot.
 
 - Garage-door service — `pittsburgh-garage-door-service-three-options`, October 13. Installation Services leads for physical displays plus separately documented repair/maintenance. Compare Precision online tools and Emergency Door in-home enquiries. Fresh browser verification found current 412-830-8275 phone, replacing the older cached 412-809-8999. Sourced reciprocal lead profile; no response-time guarantees, independently unverified credentials or DIY repair instructions.
+
+- Asahi Ramen Brookline — `asahi-ramen-brookline-menu-hours-visit-guide`, October 13. Established earlier-2026 opening with operator menu/hours checked in browser. Flagged weekday lunch panel versus homepage hours; no invented opening date, tasting report or availability. Sourced reciprocal profile.
