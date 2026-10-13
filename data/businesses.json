@@ -96531,5 +96531,41 @@
         "millvale"
       ]
     }
+  },
+  "playthings-etc-butler": {
+    "name": "Playthings Etc. — Butler",
+    "website": "https://playthings-etc.com/",
+    "source": "https://playthings-etc.com/",
+    "source_name": "Official store homepage, about and contact pages",
+    "address": "2483 William Flynn Highway, Butler, PA 16001",
+    "phone": "724-285-7529",
+    "source_category": "Toy Store",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Butler",
+    "source_excerpt": "",
+    "description": "Plan around the published Monday–Saturday schedule; Sunday is closed. The operator describes unpackaged toys and a play area, but confirm any specific demonstration or stock. It says it does not currently sell online; gift cards are available in store or by phone.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://playthings-etc.com/",
+      "title": "Playthings Etc.",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://playthings-etc.com/about/",
+          "label": "Official shopping experience description"
+        },
+        "contact": {
+          "url": "https://playthings-etc.com/contact-us/",
+          "label": "Official store contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "playthings",
+        "butler"
+      ]
+    }
   }
 }

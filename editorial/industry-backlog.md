@@ -222,3 +222,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Crispy Cones Allison Park — `crispy-cones-allison-park-menu-visit-guide`, October13. Established business/menu formats; verify local weekday schedule and dated specials when refreshing, no competing opening variant.
 
 - Compass Point Coffee Millvale — `compass-point-coffee-millvale-grant-street-plans-guide`, October13. Operating Evergreen shop versus undated Grant Street plan, retail/subscription/wholesale distinctions. Refresh same URL when opening confirmed; no competing location variant.
+
+- Toy shopping formats — `pittsburgh-area-toy-stores-three-shopping-options`, October13. Playthings Butler lead versus Learning Express Galleria/Shadyside Variety. Refresh comparison rather than neighborhood variants. Hold S.W.Randall: linked About page unrelated gambling content observed October13; verify operator-controlled reliable route before new coverage.
