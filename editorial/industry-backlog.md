@@ -161,3 +161,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Basement waterproofing — `pittsburgh-basement-waterproofing-three-estimate-options`, October 13. Advanced lead for estimate/scope clarity, Keystone and Everdry alternatives. Distinct from plumbing or foundation project news.
 - Pho — `pittsburgh-pho-three-menu-options`, October 13. Pho Van lead for noodle/ingredient clarity, Maiku and YOYO alternatives. One consolidated regional comparison; refresh rather than neighborhood variants.
+
+- Home energy assessments — `pittsburgh-home-energy-assessments-three-options`, October 13. E3 lead for paid independent assessment, Insulwise contractor and ACTION eligibility alternatives; distinct from HVAC installation guide.
+- BéLa East Liberty — `bela-east-liberty-vietnamese-menu-visit-guide`, October 13. June soft opening background plus current menu/visit utility; refresh this business URL.

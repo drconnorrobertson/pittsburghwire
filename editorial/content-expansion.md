@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the eleventh additional-100 batch: 407; 30 additions remain to the first checkpoint and 593 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the twelfth additional-100 batch: 409; 28 additions remain to the first checkpoint and 591 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 22 of 100 additional articles; 78 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 24 of 100 additional articles; 76 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -183,3 +183,10 @@ Ninth batch verified live at Production commit 5854d521eb81c667e27937793b001f418
 - `pittsburgh-pho-three-menu-options`: distinct pho/noodle ingredient and menu comparison, with Pho Van lead, Maiku branded-menu and YOYO Panda alternatives. Official-linked local menus and branded contact pages checked; ingredient and ordering windows distinguished, no personal taste ranking or new opening claim. Reciprocal lead profile.
 
 Tenth batch verified live at Production commit f0f1ffba7e29955c18a9f3db9f6d4340c191e9d1, including both maps and reciprocal profiles. Today’s settled News performance check already recorded; no repeated same-window poll or sitemap resubmission.
+
+## Additional-100 batch 12 — October 13
+
+- `pittsburgh-home-energy-assessments-three-options`: distinct home-energy assessment purchasing/application comparison. E3 lead for transparent fee/report and equipment-sales independence; contractor Insulwise and income-eligible ACTION-Housing routes compared. E3 current fee page read in browser; ACTION 2025 table not repeated as 2026 limits. Sourced reciprocal lead profile, city-only address where no street office verified.
+- `bela-east-liberty-vietnamese-menu-visit-guide`: established June soft opening explicitly dated from PennsylvAsia, current official menu/visit routes. Broth, shared-board and lunch restrictions verified; no ownership or taste-ranking speculation. Distinct business-name visit intent, not a competing regional pho list. Reciprocal sourced profile.
+
+Eleventh batch verified live at Production commit 8d48527c0b736ed94901b86d2a8b6e953645e113 with both maps and reciprocal profiles.

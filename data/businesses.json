@@ -95535,5 +95535,76 @@
         "van"
       ]
     }
+  },
+  "energy-efficiency-empowerment": {
+    "name": "Energy Efficiency Empowerment",
+    "website": "https://eeepgh.org/",
+    "source": "https://eeepgh.org/energy-assessments/",
+    "source_name": "Official local business and service information",
+    "address": "Pittsburgh, PA",
+    "phone": "412-465-0197",
+    "source_category": "Home Energy Assessment",
+    "checked": "2026-10-13",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The assessment page lists a paid home checkup and separately priced advisory hours. Confirm the testing, written report and any follow-up requested before scheduling; the nonprofit says it does not sell HVAC equipment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://eeepgh.org/",
+      "title": "Energy Efficiency Empowerment",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://eeepgh.org/energy-assessments/",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://eeepgh.org/energy-assessments/",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "energy",
+        "empowerment"
+      ]
+    }
+  },
+  "bela-east-liberty": {
+    "name": "BéLa",
+    "website": "https://belapgh.com/",
+    "source": "https://belapgh.com/",
+    "source_name": "Official local business and service information",
+    "address": "211 North Whitfield Street, Pittsburgh, PA 15206",
+    "phone": "412-492-6075",
+    "source_category": "Vietnamese Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Check the selected broth, ingredients and portion format, including boards for two and lunch-only sandwiches. Confirm the current menu and separate reservation, food-order or event arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://belapgh.com/",
+      "title": "BéLa",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://belapgh.com/food-menu",
+          "label": "Official menu or service information"
+        },
+        "contact": {
+          "url": "https://belapgh.com/",
+          "label": "Official local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "bela"
+      ]
+    }
   }
 }
