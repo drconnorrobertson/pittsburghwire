@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixth additional-100 batch: 398; 39 additions remain to the first checkpoint and 602 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventh additional-100 batch: 399; 38 additions remain to the first checkpoint and 601 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 13 of 100 additional articles; 87 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 14 of 100 additional articles; 86 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -149,3 +149,9 @@ Fourth batch verified live at Production commit f462431b5d24ab1166437c95347ca22e
 Fifth batch verified live at Production commit aa6c696f4a07549c2d7d46dda158c2f344df2695 with both maps and reciprocal profiles.
 
 Research holds from this pass: Standing Wave homepage emphasizes roastery/online sales but does not establish current storefront hours; seek primary café visit information before a standalone story. Original Yinzer Dogs current counter-menu link says new menu coming soon; location/catering pages are available, but do not assert a current individual menu or fill a thin opening story. Phantom of the Attic has multiple distinct stores and inconsistent third-party addresses; excluded from the tabletop comparison in favor of complete primary sources.
+
+## Additional-100 batch 7 — October 13
+
+- `pittsburgh-indian-restaurants-three-meal-options`: distinct Indian dining comparison by combination, buffet and à la carte formats. Official Haveli browser menu/hours, Spice Affair and Banksville Mintt menus checked. Lead selected for explicit included combinations, not taste ranking; sourced reciprocal Haveli profile. No measured query-volume claim.
+
+Sixth batch verified live at Production commit bc9c6b83fb0e08658ac0a35ee1041e73feff60cf, including both sitemaps and reciprocal profiles.

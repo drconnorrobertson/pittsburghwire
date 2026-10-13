@@ -147,3 +147,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Phat Bagel — `phat-bagel-bloomfield-custom-menu-guide`, October 13. Established storefront expansion; current menu configuration/price and browser-verified hours. Refresh the same business-intent URL for updates.
 - Mad Anthony’s Bier Stube — `mad-anthonys-ambridge-german-menu-visit-guide`, October 13. Current German/American menu and party/ordering distinction; January roundup used only as dated background. Reciprocal profile.
+
+- Indian dining — `pittsburgh-indian-restaurants-three-meal-options`, October 13. Haveli lead for explicit combinations, Spice Affair lunch buffet and Banksville Mintt alternatives. One consolidated comparison intent; refresh this guide rather than creating neighborhood variants.

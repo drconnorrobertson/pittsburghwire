@@ -95295,5 +95295,40 @@
         "anthony"
       ]
     }
+  },
+  "haveli-monroeville": {
+    "name": "Haveli",
+    "website": "https://havelipgh.com/",
+    "source": "https://havelipgh.com/",
+    "source_name": "Official restaurant website and menu",
+    "address": "245 Mall Plaza Boulevard, Monroeville, PA 15146",
+    "phone": "412-385-5212",
+    "source_category": "Indian Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Monroeville",
+    "source_excerpt": "",
+    "description": "Compare the current combination meals with separately ordered dishes and use the official table, event or ordering route for your visit.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://havelipgh.com/",
+      "title": "Haveli",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://havelipgh.com/menu/haveli-245-mall-plaza-boulevard",
+          "label": "Official menu"
+        },
+        "contact": {
+          "url": "https://havelipgh.com/",
+          "label": "Official visit and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "haveli"
+      ]
+    }
   }
 }
