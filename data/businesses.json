@@ -96567,5 +96567,42 @@
         "butler"
       ]
     }
+  },
+  "the-soft-spot-garfield": {
+    "name": "The Soft Spot — Garfield",
+    "website": "https://www.thesoftspotpgh.com/",
+    "source": "https://www.thesoftspotpgh.com/",
+    "source_name": "Official café homepage and About page verified in browser",
+    "address": "5407 Penn Avenue, Pittsburgh, PA 15206",
+    "phone": "412-888-7420",
+    "source_category": "Cafe and Community Space",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The operator says hours vary by week; check its embedded calendar for the intended date and event terms. The sober, sapphic-centered café welcomes the wider community and allies. Confirm current food choices, event reservations and specific access arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.thesoftspotpgh.com/",
+      "title": "The Soft Spot PGH",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.thesoftspotpgh.com/about-1",
+          "label": "Official café food, books and community information"
+        },
+        "services": {
+          "url": "https://pittsburghfringe.org/venues/the-soft-spot/",
+          "label": "Festival venue and access information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "soft",
+        "spot",
+        "garfield"
+      ]
+    }
   }
 }

@@ -228,3 +228,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Caliente ordering/menu/event enquiry — `caliente-pizza-aspinwall-ordering-menu-party-guide`, October13. Aspinwall demand served with branch and shared menu distinctions; refresh this URL, no competing thin branch variants. Existing Aspinwall profile strengthened.
 
 - Hyeholde Tavern expansion and reservation planning — `hyeholde-tavern-reservations-dining-guidelines-guide`, October13. Existing profile strengthened; refresh this URL for confirmed menu/service changes rather than competing variants.
+
+- The Soft Spot Garfield — `soft-spot-garfield-cafe-calendar-food-community-guide`, October13. Established café variable-calendar visit intent; official pages browser verified. Update same URL as service/programming changes, no competing opening variant.
