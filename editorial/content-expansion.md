@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventeenth additional-100 batch: 417; 20 additions remain to the first checkpoint and 583 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the eighteenth additional-100 batch: 419; 18 additions remain to the first checkpoint and 581 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 32 of 100 additional articles; 68 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 34 of 100 additional articles; 66 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -225,3 +225,10 @@ Fifteenth batch verified live at Production commit 3f1c289b809ed8dacf3d823b94d02
 - `polly-and-esther-garfield-shopping-mah-jong-guide`: distinct boutique visit intent: new/vintage selection, session formats, private shopping, First Friday hours and construction access. Current operator homepage/contact and Invest PGH ownership/support account; no grant amount, lesson fee or opening date invented. Sourced reciprocal profile.
 
 Sixteenth batch verified live at Production commit f409b7649004c6e251d31c8f6c4019ea8aa5b170 with article, maps and both reciprocal profiles.
+
+## Additional-100 batch 18 — October 13
+
+- `roaming-bean-strip-district-cafe-mobile-coffee-guide`: January 21 established opening from Pittsburgh Magazine, current official mobile/services/about pages. Café address differentiated from mobile timetable; no unverified recurring café hours, menu price or event fee. Owner/contact sourced, no award claim repeated. Reciprocal sourced profile; phone is official general/event contact, not asserted dedicated café line.
+- `silly-goose-downtown-pittsburgh-gift-shop-guide`: March established Downtown opening from VisitPITTSBURGH, Project Pop-Up/initial lease from dated Shady Ave reporting, operator location/FAQ/about/refund policy. Business visit intent distinct from general Downtown funding coverage. No lease extension, product-stock or invented local phone claim. Sourced reciprocal profile.
+
+Seventeenth batch verified live at Production commit ea9b6325 with both articles, maps and reciprocal profiles.

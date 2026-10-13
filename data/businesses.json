@@ -95820,5 +95820,77 @@
         "esther"
       ]
     }
+  },
+  "roaming-bean-strip-district": {
+    "name": "The Roaming Bean",
+    "website": "https://theroamingbean.coffee/",
+    "source": "https://theroamingbean.coffee/",
+    "source_name": "Official business website; café address corroborated by opening coverage",
+    "address": "1455 Smallman Street, Pittsburgh, PA 15222",
+    "phone": "412-337-0769",
+    "source_category": "Coffee Shop",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Ask specifically about the Smallman Street café or the desired mobile stop. The official site lists weekly location-based schedules and separate event-service enquiries; confirm the current visit arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://theroamingbean.coffee/",
+      "title": "The Roaming Bean",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
+          "label": "Official service and business information"
+        },
+        "contact": {
+          "url": "https://theroamingbean.coffee/",
+          "label": "Official contact or location information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "roaming",
+        "bean"
+      ]
+    }
+  },
+  "silly-goose-downtown-pittsburgh": {
+    "name": "The Silly Goose",
+    "website": "https://sillygoosegifts.com/",
+    "source": "https://sillygoosegifts.com/",
+    "source_name": "Official Pittsburgh store information",
+    "address": "417 Wood Street, Pittsburgh, PA 15222",
+    "phone": "",
+    "source_category": "Gift Shop",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Use the Pittsburgh location’s posted hours, confirm the desired item directly and read the applicable return terms before purchasing a gift.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://sillygoosegifts.com/",
+      "title": "The Silly Goose",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://sillygoosegifts.com/pages/about-the-silly-goose",
+          "label": "Official service and business information"
+        },
+        "contact": {
+          "url": "https://sillygoosegifts.com/",
+          "label": "Official contact or location information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "silly",
+        "goose"
+      ]
+    }
   }
 }

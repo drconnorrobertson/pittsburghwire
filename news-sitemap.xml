@@ -17,6 +17,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/silly-goose-downtown-pittsburgh-gift-shop-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>The Silly Goose in Downtown Pittsburgh: Gift Selection and Visit Guide</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/sea-monkey-strip-district-dinner-lounge-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -30,6 +38,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>Ruckus Downtown: Café Hours, After-Work Rentals and Food Costs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/roaming-bean-strip-district-cafe-mobile-coffee-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>The Roaming Bean’s Strip District Café: Storefront and Mobile Coffee Options</news:title>
     </news:news>
   </url>
   <url>

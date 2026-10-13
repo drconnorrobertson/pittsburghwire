@@ -101,6 +101,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/silly-goose-downtown-pittsburgh-gift-shop-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/sea-monkey-strip-district-dinner-lounge-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -108,6 +114,12 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/ruckus-downtown-cafe-after-work-event-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/roaming-bean-strip-district-cafe-mobile-coffee-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -14764,6 +14776,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/roaming-bean-strip-district/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/rob-edwards-sr-state-farm-agent/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -15546,6 +15564,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/signstat/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/silly-goose-downtown-pittsburgh/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

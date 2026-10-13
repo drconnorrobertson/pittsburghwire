@@ -178,3 +178,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - El Colibrí Garfield — `el-colibri-garfield-penn-avenue-restaurant-guide`, October 13. Refresh established June opening/business visit guide; menu updating.
 - Polly and Esther Garfield — `polly-and-esther-garfield-shopping-mah-jong-guide`, October 13. Refresh boutique/session/access guide; no competing location variants.
+
+- Roaming Bean Strip District — `roaming-bean-strip-district-cafe-mobile-coffee-guide`, October 13. Refresh business guide; confirm café hours separately from cart schedule.
+- Silly Goose Downtown — `silly-goose-downtown-pittsburgh-gift-shop-guide`, October 13. Refresh established March opening/business visit guide; avoid competing gift-shop variants.
