@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the cooking-class comparison: 371; 66 additions remain to the first checkpoint and 629 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the D-BAT Cranberry planned-facility report: 372; 65 additions remain to the first checkpoint and 628 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -15,6 +15,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-free-ged-classes-enrollment-guide — adult-education enrollment, orientation, tutoring waitlists and conditional test-fee help; Literacy Pittsburgh and CCAC official sources checked October 13. Covers existing programs and flags inconsistent service-area descriptions. No measured query-volume claim.
 
 - pittsburgh-cooking-classes-three-options-compare — hands-on versus demonstration versus technique-series intent; official school pages checked October 13. No measured query-volume claim.
+
+- dbat-cranberry-kensinger-drive-training-facility-plans — new local training-business plans, official township and operator sources checked October 13. Operator homepage says coming soon: no opening date, phone or hours confirmed. Browser verified source pages after automated HTTP retrieval was blocked.
 
 ## Coverage priorities from direct Search Console
 
