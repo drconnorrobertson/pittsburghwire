@@ -5,15 +5,15 @@
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "f1f8fd6d8d340e98e3311c181f1bb091412007e5b00bd4021fdb9d6e594a218f"
+      "sha256": "a40df854b3dcb9a74b41dcdfea7f4ea21ef5b5531b7785f306741c9607d795f5"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "b290f94d482513d7e71227f5b8a3875535a6db83f710bc5348ed3fc7ef6bfcf7"
+      "sha256": "2cec86eecdb5d6a680f0f8a9928843bffce9e0220d0a0dd36b5faf82a9c69e53"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
-      "sha256": "f9b53b24a1136b3ec9decccf31b47aafed85428c1b5c31eff7c6bb41b40fe7b8"
+      "sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051"
     }
   ]
 }

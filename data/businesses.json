@@ -94433,5 +94433,37 @@
         "gallery"
       ]
     }
+  },
+  "animal-friends-university": {
+    "name": "Animal Friends University",
+    "website": "https://thinkingoutsidethecage.org/programs-services/training-classes/",
+    "source": "https://thinkingoutsidethecage.org/programs-services/training-classes/",
+    "source_name": "Official Animal Friends website",
+    "address": "562 Camp Horne Road, Pittsburgh, PA 15237",
+    "phone": "412-847-7035",
+    "source_category": "Dog Training and Community Education",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Animal Friends University publishes dog-training classes by age and suitability. Contact the program to confirm current registration and the campus meeting location.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://thinkingoutsidethecage.org/programs-services/training-classes/",
+      "title": "Animal Friends Training Classes",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://thinkingoutsidethecage.org/programs-services/training-classes/",
+          "label": "Classes and registration"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "animal",
+        "friends"
+      ]
+    }
   }
 }

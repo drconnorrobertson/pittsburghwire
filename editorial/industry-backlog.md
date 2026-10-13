@@ -55,6 +55,8 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Custom picture framing | pittsburgh-custom-picture-framing-three-options | Concept Art Gallery | Lead for documented materials and access to conservation professionals; compare memorabilia, printing and appointment processes |
 
+| Dog training | pittsburgh-dog-training-three-programs-compare | Animal Friends University | Lead for age-based starting points and explicit suitability guidance; compare campus locations, enrollment terms and private-consultation routes |
+
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
 
 
