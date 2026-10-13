@@ -95678,5 +95678,40 @@
         "gnome"
       ]
     }
+  },
+  "brewberry-east-liberty": {
+    "name": "Brewberry",
+    "website": "https://www.brewberrypgh.com/",
+    "source": "https://www.brewberrypgh.com/",
+    "source_name": "Official café website and ordering menu",
+    "address": "6119 Penn Avenue, Pittsburgh, PA 15206",
+    "phone": "646-982-9867",
+    "source_category": "Coffee and Tea",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare coffee, milk tea and bakery choices using the official menus. Drink sizes and separately priced toppings can differ by ordering channel; confirm the selected item and total directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.brewberrypgh.com/",
+      "title": "Brewberry Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.brewberrypgh.com/menu.pdf",
+          "label": "Official printable menu"
+        },
+        "contact": {
+          "url": "https://order.toasttab.com/online/brewberry-coffee-shop-6119-penn-ave",
+          "label": "Official linked ordering and contact page"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "brewberry"
+      ]
+    }
   }
 }

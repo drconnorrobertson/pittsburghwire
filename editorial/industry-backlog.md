@@ -170,3 +170,6 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - Bar Marco — `bar-marco-strip-district-menu-reservation-guide`, October 13. Refresh this business visit guide; current menu-1 page differs from stale /menu.
 - Dancing Gnome — `dancing-gnome-two-sharpsburg-locations-visit-guide`, October 13. Refresh this two-address guide; verify Sunday hours at 925 before resolving conflict.
+
+- Brewberry East Liberty — `brewberry-east-liberty-coffee-milk-tea-menu-guide`, October 13. Refresh this business URL; no exact opening date verified.
+- Klavon’s — hold current visit coverage; corroborate operations before restoring old profile.

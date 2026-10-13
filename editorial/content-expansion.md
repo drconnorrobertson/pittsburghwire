@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fourteenth additional-100 batch: 413; 24 additions remain to the first checkpoint and 587 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifteenth additional-100 batch: 414; 23 additions remain to the first checkpoint and 586 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 28 of 100 additional articles; 72 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 29 of 100 additional articles; 71 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -204,3 +204,11 @@ Twelfth batch verified live at Production commit 5ed6a95657efaf8af7c61996d054efa
 - `dancing-gnome-two-sharpsburg-locations-visit-guide`: Dancing Gnome business-name visit intent (187 historical Web impressions/zero clicks in private baseline), two distinct locations, ages, food and hours from official pages. Sunday conflict for 925 explicitly flagged; no reopening date invented. Existing withdrawn profile restored with sourced information and reciprocal link; not counted as News addition.
 
 Thirteenth batch verified live at Production commit 323f596075bf7ded88ccd7ef58be468e0b2af734 with both maps. Daily News visibility already checked today; no repeated unchanged report or same-day sitemap submission.
+
+## Additional-100 batch 15 — October 13
+
+- `brewberry-east-liberty-coffee-milk-tea-menu-guide`: Brewberry established-2026 East Liberty business guide, distinct from generic coffee/bagel comparisons. Operator establishment year, current homepage, linked menu PDF, story and Toast address/contact corroboration; exact opening day not asserted. Conflicting Americano size flagged, no tasting/Wi-Fi performance claim, no invented phone from PDF placeholder. New sourced reciprocal profile does not count as addition.
+- Klavon’s: hold current-operating guide pending more recent direct corroboration; old homepage/history insufficient given closure/management uncertainty.
+- Brazilian steakhouse comparison: research begun from Fogo and Texas de Brazil primary pages, not yet published; Rodizio has no verified Pittsburgh location and must not be included as local.
+
+Fourteenth batch verified live at Production commit 3eb9b32cd24dabfff30c813674cd361674ba0b07 with reachable main, news and directory maps and both restored reciprocal profiles.
