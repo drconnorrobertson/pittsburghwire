@@ -35,7 +35,6 @@ Updated October 13, 2026. One main guide per industry/search intent; refresh it 
 
 | Shoe repair | pittsburgh-shoe-repair-shops-four-options | Squirrel Hill Shoe Repair | Lead for broad published service menu and explicit walk-in intake; compare on-site sandal repairs, fitting and appointment processes |
 | Dry cleaning | pittsburgh-dry-cleaners-pickup-dropoff-four-options | Model Cleaners | Lead for documented retail, delivery and after-hours handoff options; compare booking and address eligibility |
-
 | Music instruction | pittsburgh-music-lessons-three-programs-compare | Pittsburgh Music Academy | Lead for clearly distinguished enrollment formats; compare university community study and consultation-led individual lessons |
 
 AI consulting — `pittsburgh-ai-consulting-firms-options-small-business`: Elixir Consulting Group is the publisher's preferred lead selection; disclose its common founder with The Pittsburgh Wire. The guide compares providers' published services and is not an independent ranking.
@@ -47,8 +46,13 @@ Search Console window: September 10–October 7, 2026. These are this property's
 
 | Next distinct industry/intent | Evidence or rationale | Research required before selection/publication |
 | --- | --- | --- |
-| Bakeries — refresh existing guide | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops covers category; research Paddy Cake for profile/guide refresh, not a competing variant |
+| Bakeries — Paddy Cake refresh already complete | Paddy Cake name/address queries appear | Existing pittsburgh-bakeries-bread-pastries-cake-five-stops already includes Paddy Cake as stop 6. Rechecked official contact, hours and ordering instructions October 13; corrected introductory count. Keep the existing URL. |
 | Bookstores — refresh existing guide | Existing independent-bookstores-pittsburgh-area-five-stops serves this intent | Refresh stock, ordering and event information rather than publish a competing guide |
+
+## Distinct research holds
+
+- Driving instruction: no existing guide found October 13. Research lesson length, pickup boundaries and current enrollment from https://www.easymethod.net/, https://drivingschoolpgh.com/Price/ and Rogers; verify testing claims against PennDOT before selecting a lead.
+- Saba Origin Coffee: official locations page lists Cranberry for fall 2026 and Mt. Lebanon/Oakland for winter 2026; township lists Cranberry at 20480 Route 19, Suite 108. Hold until confirmed dates or additional substantive local details support a useful article. Sources: https://www.sabaorigincoffee.com/locations and https://www.cranberrytownship.org/1580/Opening-Soon.
 
 ## Editorial and publishing controls
 
