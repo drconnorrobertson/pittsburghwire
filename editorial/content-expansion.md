@@ -1,6 +1,6 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the D-BAT Cranberry planned-facility report: 372; 65 additions remain to the first checkpoint and 628 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the clothing-alterations comparison: 373; 64 additions remain to the first checkpoint and 627 to 1,000. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Completed first batch
 
@@ -17,6 +17,8 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 - pittsburgh-cooking-classes-three-options-compare — hands-on versus demonstration versus technique-series intent; official school pages checked October 13. No measured query-volume claim.
 
 - dbat-cranberry-kensinger-drive-training-facility-plans — new local training-business plans, official township and operator sources checked October 13. Operator homepage says coming soon: no opening date, phone or hours confirmed. Browser verified source pages after automated HTTP retrieval was blocked.
+
+- pittsburgh-clothing-alterations-three-options — garment fit, repair intake and deadline planning, distinct from dry-cleaning guide; official local shop pages checked October 13. No measured query-volume claim.
 
 ## Coverage priorities from direct Search Console
 
@@ -42,7 +44,6 @@ These are research candidates, not verified stories or promised publication slot
 | English-language learning for adult residents | Literacy Pittsburgh and official library programs | Distinct language-learning intent; verify registration and location |
 | Swimming lessons for adults and children | City aquatics, YMCA and verified local programs | Clear age levels, session dates and booking; no invented availability |
 | Sewing machine repair | Official Pittsburgh service businesses | Verify accepted brands, intake, estimate and turnaround policies |
-| Clothing alterations and tailoring | Official local tailors | Separate garment alteration from existing dry-cleaner guide; explain fittings |
 | Watch and clock repair | Official local shops | Verify service scope, drop-off and restoration distinctions |
 | Piano tuning and instrument service | Official technicians and dealers | Verify territory, service format and enquiry requirements |
 | Furniture refinishing and upholstery | Official workshops | Verify materials, transport, estimate and project suitability |

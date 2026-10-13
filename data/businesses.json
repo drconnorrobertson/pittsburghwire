@@ -94527,5 +94527,36 @@
         "gaynor"
       ]
     }
+  },
+  "primo-tailoring-pittsburgh": {
+    "name": "Primo Tailoring — Pittsburgh",
+    "website": "https://primotailoring.com/pages/pittsburgh",
+    "source": "https://primotailoring.com/pages/pittsburgh",
+    "source_name": "Official Primo Tailoring Pittsburgh location and FAQ",
+    "address": "810 Western Avenue, Pittsburgh, PA 15233",
+    "phone": "412-518-5733",
+    "source_category": "Tailoring and Alterations",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Pittsburgh tailoring location with alterations and custom-clothing services. Confirm the fitting, garment scope, completion date and price directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://primotailoring.com/pages/pittsburgh",
+      "title": "Primo Tailoring Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://primotailoring.com/pages/pittsburgh",
+          "label": "Pittsburgh fittings and FAQ"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "primo"
+      ]
+    }
   }
 }

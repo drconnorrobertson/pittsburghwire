@@ -89,3 +89,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Cooking classes — `pittsburgh-cooking-classes-three-options-compare`, October 13. Gaynor’s leads for published technique-series progression; CRATE and Phipps compared by format, age and booking policies. Official sources and reciprocal Gaynor’s profile. Update this guide rather than create competing variants.
 
 - D-BAT Cranberry — `dbat-cranberry-kensinger-drive-training-facility-plans`, October 13. Confirmed address 250 W Kensinger Drive, Suite 200; operator still says coming soon. Refresh this URL when a verified opening date, hours and staff roster are available. Do not create a competing batting-facility opening variant.
+
+- Clothing alterations — `pittsburgh-clothing-alterations-three-options`, October 13. Primo leads for published fitting and queue guidance; compare Alberto&Pasquale intake and Old Flame’s current East Liberty location. Official sources and reciprocal profile; no independent award or service-quality guarantee.
