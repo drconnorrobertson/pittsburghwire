@@ -98216,5 +98216,67 @@
         "mecka-fitness-cranberry-planned"
       ]
     }
+  },
+  "fort-pitt-piano-company": {
+    "name": "Fort Pitt Piano Company",
+    "website": "https://www.fortpittpianoco.com/",
+    "source": "https://www.fortpittpianoco.com/",
+    "source_name": "Official piano showroom and visitor information",
+    "address": "2358 Railroad Street, Pittsburgh, PA 15222",
+    "phone": "412-369-7100",
+    "source_category": "Piano Sales and Event Rentals",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The operator publishes Strip District showroom hours, garage-validation guidance and one-time event rental services. Confirm the specific piano, condition and written delivery or rental scope before arranging a visit.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.fortpittpianoco.com/",
+      "title": "Fort Pitt Piano Company",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.fortpittpianoco.com/",
+          "label": "Official showroom and piano service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fort-pitt-piano-company"
+      ]
+    }
+  },
+  "solich-piano-wexford": {
+    "name": "Solich Piano Pittsburgh — Wexford",
+    "website": "https://solichmusic.com/solich-piano-pittsburgh/",
+    "source": "https://solichmusic.com/solich-piano-pittsburgh/",
+    "source_name": "Official piano showroom and visitor information",
+    "address": "12001 Perry Highway, Wexford, PA 15090",
+    "phone": "724-506-6370",
+    "source_category": "Piano Sales and Event Rentals",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Wexford",
+    "source_excerpt": "",
+    "description": "The showroom lists sizing consultations, weekend rentals and trade-in services. Used inventory rotates between stores; confirm the chosen piano’s location and written in-store purchase terms rather than applying the limited online-cart return policy.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://solichmusic.com/solich-piano-pittsburgh/",
+      "title": "Solich Piano Pittsburgh — Wexford",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://solichmusic.com/solich-piano-pittsburgh/",
+          "label": "Official showroom and piano service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "solich-piano-wexford"
+      ]
+    }
   }
 }

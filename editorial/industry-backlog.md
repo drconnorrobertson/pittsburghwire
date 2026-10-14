@@ -306,3 +306,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Film developing — `pittsburgh-film-developing-labs-scans-negative-pickup`, October13. ESP lead based on publishedcollectionterms, Bodega renderedofficialcurrentaddress/FAQconflicts, PremierNorthHillscontact. RefreshsameURL; no competingfilmformat/locationvariants. ConfirmBodegamailing/negativeholdbeforeorder.
 
 - Mecka Cranberry — `mecka-fitness-cranberry-planned-opening-membership-terms`, October13. Plannedfall2026expansionmembershipterms; refreshsameURLwhenopeningconfirmed. Suites718/719conflictconfirmoperator; nooperatingstatusfrompresale/hours. No competingfitnesslocationvariants.
+
+- Piano showrooms — `pittsburgh-piano-showrooms-used-instruments-event-rentals`, October13. FortPitt lead/localvisit/eventrental, SolichWexfordinventory/policy; refreshsameURL, crosslinkseparatetuningguide. No schoolbandrentalorlocalpianodealervariants.
