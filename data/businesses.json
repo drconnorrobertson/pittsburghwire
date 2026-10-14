@@ -97057,5 +97057,43 @@
         "warrendale"
       ]
     }
+  },
+  "trax-farm-market-finleyville": {
+    "name": "Trax Farm Market",
+    "website": "https://traxfarms.com/",
+    "source": "https://traxfarms.com/fall-festival-2026/",
+    "source_name": "Official 2026 Fall Festival schedule, ticket information and address",
+    "address": "528 Trax Road, Finleyville, PA 15332",
+    "phone": "412-835-3246",
+    "source_category": "Farm Market and Seasonal Activities",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Finleyville",
+    "source_excerpt": "",
+    "description": "For the 2026 Fall Festival, distinguish free entry from the hayride ticket required for the patch and corn maze. Pumpkins and selected attractions cost extra. Use the festival activity window rather than general market hours, and confirm current conditions before traveling.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://traxfarms.com/fall-festival-2026/",
+      "title": "Trax Farm Market Fall Festival 2026",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://traxfarms.com/fall-festival-2026/",
+          "label": "2026 festival tickets, exclusions and hours"
+        },
+        "contact": {
+          "url": "https://traxfarms.com/",
+          "label": "Official farm website and contact details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "trax",
+        "farm",
+        "market",
+        "finleyville"
+      ]
+    }
   }
 }
