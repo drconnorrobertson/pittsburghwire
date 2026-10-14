@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-second additional-100 batch: 458; the numeric archive checkpoint of 437 is exceeded, with 542 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-third additional-100 batch: 459; the numeric archive checkpoint of 437 is exceeded, with 541 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 73 of 100 additional articles; 27 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 74 of 100 additional articles; 26 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -443,3 +443,9 @@ Fiftieth batch verified live at Production commit 3134ed698bea0bb1ed537ec6b66745
 - `opafe-southside-works-opening-downtown-proposal-guide`: distinct bakery opening/status intent. Official Sep20soft-opening andOct1operatingposts browser verified, datedPatchaddress corroboration; stalepropertydirectorylabel qualified. AprilHRCapplicantPDF fullyread, projectintro/timeline renderedvisuallychecked; Downtown800Pennscope/targetnotapproval,completionoractualopening. No invented current hours, product stock, dietary outcome or personal visit. New sourced reciprocal South Side profile.
 
 Fifty-first batch verified live at Production commit 796709d1dd0ba5d38548ecfc3e01ba37c6ccbf90: Orr guide/maps/profile.
+
+## Additional-100 batch 53 — October 13
+
+- `pittsburgh-auto-glass-three-quote-options`: distinct auto-glass intake and appointment comparison versus general mechanical repair/detailing. ThreeRivers lead for explicitvehicle/damage form andbranchroute, Ryan mobile/warrantyexclusions, Safelite localshop browserverified afterwebtimeout. No submitted privateVIN/policydata, insurercoverage, same-day, repair-suitability or technical safety guarantee. No measuredquerydemandclaim. New sourced reciprocal lead profile.
+
+Fifty-second batch verified live at Production commit 280ab905014a830cabb02967e2d7dd20404483b4: Opafe status/maps/profile.

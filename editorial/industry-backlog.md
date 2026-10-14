@@ -256,3 +256,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Orr’s Jewelers Strip District — `orrs-jewelers-strip-district-store-services-guide`, October13. Established expansion/current store and repair-enquiry intent; refresh same article for confirmed changes rather than opening/location variants. Older SquirrelHill wording and fall2025invitation dated; existing profile strengthened.
 
 - Opafe Bakery — `opafe-southside-works-opening-downtown-proposal-guide`, October13. Operating SouthSide2720Sidney versus separate Downtown800Pennproposal; refresh this status article when official hours/menu or Downtown operation is confirmed. No competing location variants; stalepropertydirectorylabel flagged.
+
+- Vehicle-glass quotes and appointments — `pittsburgh-auto-glass-three-quote-options`, October13. ThreeRivers intake lead, Ryan warranty and Safelite localshop alternatives. Refresh same comparison rather than branch/damage variants; verify complete scope and appointment terms.

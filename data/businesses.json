@@ -97018,5 +97018,44 @@
         "southside"
       ]
     }
+  },
+  "three-rivers-auto-glass-warrendale": {
+    "name": "Three Rivers Auto Glass — Warrendale",
+    "website": "https://www.threeriversautoglass.com/",
+    "source": "https://www.threeriversautoglass.com/",
+    "source_name": "Official vehicle intake form and branch listing",
+    "address": "347 Northgate Drive, Warrendale, PA 15086",
+    "phone": "724-772-4722",
+    "source_category": "Auto Glass Service",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Warrendale",
+    "source_excerpt": "",
+    "description": "Prepare the vehicle year, make, model, glass part and damage details for an estimate. Confirm the selected branch or mobile arrangement, complete price, applicable calibration work and appointment directly. A claim/reference number does not establish policy coverage or the final customer payment.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.threeriversautoglass.com/",
+      "title": "Three Rivers Auto Glass",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.threeriversautoglass.com/",
+          "label": "Vehicle intake and branch contacts"
+        },
+        "about": {
+          "url": "https://www.threeriversautoglass.com/warranty/",
+          "label": "Published warranty and claim enquiry information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "three",
+        "rivers",
+        "auto",
+        "glass",
+        "warrendale"
+      ]
+    }
   }
 }
