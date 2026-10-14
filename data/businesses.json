@@ -98340,5 +98340,36 @@
         "west-penn-fireplaces-canonsburg"
       ]
     }
+  },
+  "cosmic-treats-sweets-mars": {
+    "name": "Cosmic Treats & Sweets",
+    "website": "https://www.cosmictreatsandsweets.space/",
+    "source": "https://www.cosmictreatsandsweets.space/",
+    "source_name": "Official shop hours and image-based menu checked October 13, 2026",
+    "address": "509 Pittsburgh Street, Mars, PA 16046",
+    "phone": "",
+    "source_category": "Ice Cream and Frozen Desserts",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Mars",
+    "source_excerpt": "",
+    "description": "The official site lists daily hours at 509 Pittsburgh Street and a rotating-flavor menu. Check current selection and order totals; the guide distinguishes earlier 2026 opening reports from present visitor information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.cosmictreatsandsweets.space/",
+      "title": "Cosmic Treats & Sweets",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.cosmictreatsandsweets.space/",
+          "label": "Official shop hours and menu"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cosmic-treats-sweets-mars"
+      ]
+    }
   }
 }

@@ -310,3 +310,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Piano showrooms — `pittsburgh-piano-showrooms-used-instruments-event-rentals`, October13. FortPitt lead/localvisit/eventrental, SolichWexfordinventory/policy; refreshsameURL, crosslinkseparatetuningguide. No schoolbandrentalorlocalpianodealervariants.
 
 - Fireplace showrooms — `pittsburgh-fireplace-showrooms-product-installation-quotes`, October13. FirePatiopleadproduct/laborestimateprocess, WestPennCanonsburg. RefreshsameURL; chimneyguidecomplementssweepinginspectionintent. No locationvariants orDIYinstallationadvice.
+
+- Cosmic Treats Mars — `cosmic-treats-sweets-mars-menu-hours-opening-background`, October13. Currentprimarymenu/hours plusdatedopeningbackground. RefreshsameURLforflavors/hours; no thinicecreamlocationvariant. June24vsSept17milestonesnotindependentlyresolved.
