@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventieth additional-100 batch: 476; the numeric archive checkpoint of 437 is exceeded, with 524 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-first additional-100 batch: 477; the numeric archive checkpoint of 437 is exceeded, with 523 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 91 of 100 additional articles; 9 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 92 of 100 additional articles; 8 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -555,3 +555,9 @@ Sixty-eighth batch verified live at Production commit cb861a5a50913a4b0086dc8201
 - `1659-cranberry-cafe-boutique-florist-visit-guide`: distinct shared-space visit/service guide. Cafe contact/current products read in browser when webreader empty; allthree schedules individually verified. Boutique refund policy read via supported read-only WebMCP; stale2025holidayexception not applied2026. Blooms inquiry notinstantorder/quote guarantee. Establishedbusinessguide no inventedopeningday/first-in-Pghclaim, no forms/orders/outreach. Three reciprocal profiles.
 
 Sixty-ninth batch verified live at Production commit 5800361aa6b272a7f0a82d1a0c19069a09aef033: ramencomparison/bothprofiles/maps.
+
+## Additional-100 batch 71 — October 13
+
+- `pittsburgh-tire-changeover-storage-three-service-options`: distinct seasonal tire-service comparison versus generic auto-repair. Tower lead based on explicit storage eligibility/fee not independent quality; period unspecified, labor not inventedincluded. Hartman published installation scope/localhours, no storage guarantee. Discount local changeover/free repair subjectinspection primarypolicy; Sept3expiredpromotions flagged. No tire-model or hazardousrepairinstructions, appointments or purchases. Three reciprocal profiles.
+
+Seventieth batch verified live at Production commit 92d946a7f635f9ef47e73eff98e535c045e08f4c:1659guide/allthreeprofiles/maps.

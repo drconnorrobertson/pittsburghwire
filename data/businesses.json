@@ -97844,5 +97844,98 @@
         "blooms-1659-cranberry"
       ]
     }
+  },
+  "tower-tire-blawnox": {
+    "name": "Tower Tire Blawnox",
+    "website": "https://www.towertire.com/Tires/Tire-Changeover-and-Storage",
+    "source": "https://www.towertire.com/Tires/Tire-Changeover-and-Storage",
+    "source_name": "Official tire-service operator and local visitor information",
+    "address": "312 Fourth Street, Blawnox, PA 15238",
+    "phone": "412-517-8739",
+    "source_category": "Tire Service and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Blawnox",
+    "source_excerpt": "",
+    "description": "The operator offers off-season storage to tire-purchase customers and posts a fee without specifying its period. Confirm storage eligibility, the interval covered and separate changeover labor before booking.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.towertire.com/Tires/Tire-Changeover-and-Storage",
+      "title": "Tower Tire Blawnox",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.towertire.com/Tires/Tire-Changeover-and-Storage",
+          "label": "Official tire services and appointment information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "tower-tire-blawnox"
+      ]
+    }
+  },
+  "hartmans-auto-care-cranberry": {
+    "name": "Hartman’s Auto Care Cranberry",
+    "website": "https://hartmansauto.com/tires",
+    "source": "https://hartmansauto.com/tires",
+    "source_name": "Official tire-service operator and local visitor information",
+    "address": "20636 Route 19 North, Cranberry Township, PA 16066",
+    "phone": "724-776-2886",
+    "source_category": "Tire Service and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The tire page advertises selection, installation, mounting and balancing. Request a vehicle-specific quote and confirm the requested work; the page does not establish a storage inclusion or standard package price.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://hartmansauto.com/tires",
+      "title": "Hartman’s Auto Care Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://hartmansauto.com/tires",
+          "label": "Official tire services and appointment information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "hartmans-auto-care-cranberry"
+      ]
+    }
+  },
+  "discount-tire-west-mifflin": {
+    "name": "Discount Tire West Mifflin",
+    "website": "https://www.discounttire.com/store/pa/west%20mifflin/s/2295",
+    "source": "https://www.discounttire.com/store/pa/west%20mifflin/s/2295",
+    "source_name": "Official tire-service operator and local visitor information",
+    "address": "2260 Lebanon Church Road, West Mifflin, PA 15122",
+    "phone": "412-714-0088",
+    "source_category": "Tire Service and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "West Mifflin",
+    "source_excerpt": "",
+    "description": "The local store lists seasonal changeovers and tire-purchase maintenance benefits. Free flat repair is subject to inspection and repair eligibility; expired dated promotions should not be assumed current.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.discounttire.com/store/pa/west%20mifflin/s/2295",
+      "title": "Discount Tire West Mifflin",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.discounttire.com/store/pa/west%20mifflin/s/2295",
+          "label": "Official tire services and appointment information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "discount-tire-west-mifflin"
+      ]
+    }
   }
 }
