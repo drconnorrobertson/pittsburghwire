@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-first additional-100 batch: 467; the numeric archive checkpoint of 437 is exceeded, with 533 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-second additional-100 batch: 468; the numeric archive checkpoint of 437 is exceeded, with 532 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 82 of 100 additional articles; 18 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 83 of 100 additional articles; 17 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -501,3 +501,9 @@ Fifty-ninth batch verified live at Production commit 32c6f530006dbbe03c4c07ed375
 - `kan-pai-sushi-bridgeville-menus-prices-visit-guide`: distinct Bridgevillerestaurant intent. PrimaryZamiasAug7nowopenannouncementresolvesstaleoperatorAug5futurebanner; actualopeningbyAug7notunsupportedprecisedayclaim. Local lunch/dinner/takeoutpagesreadfullyviaHTMLParserwhenwebreaderfailed. Sashimi50centdinnerextra, takeout2piecenigiri/sashimivsperpieceinari anddifferentmealpricesverified. Noothercitymenuconflation, personalreview or inventedchildrate/lunchcutoff. New reciprocal profile.
 
 Sixtieth batch verified live at Production commit c89b79adec2f539957ca070cf4f32f24b314debf: nail-service guide/maps/profile.
+
+## Additional-100 batch 62 — October 13
+
+- `back-nine-mt-nebo-golf-public-booking-memberships`: distinct MtNeboindoor-golfbooking/membershipintent. Primarybrowserfooterconfirms229addressoverconflicting250aggregator; publicbookingrate/guestcountreadnormalpublicflow(notlessonquery). Founders12mooffers/activereservationlimitsseparatefromstandardplans; facilityagreementrenewal/earlyfee/notice/maintenancefeequotedassourceterms, noenrollment/legalopinion. Februarycomingsooncontextdated, noactualopeningdateinvented. New reciprocal profile; nocontact/booking/paymentsubmitted.
+
+Sixty-first batch verified live at Production commit c866fbc3a946bd6f2e731513fe9ec298290d403a: Kan Pai guide/maps/profile.

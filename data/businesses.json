@@ -97322,5 +97322,43 @@
         "bridgeville"
       ]
     }
+  },
+  "back-nine-golf-mt-nebo-pointe": {
+    "name": "Back Nine Golf Mt. Nebo Pointe",
+    "website": "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/",
+    "source": "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/",
+    "source_name": "Official local operator, booking page and membership information",
+    "address": "229 Mt. Nebo Pointe Drive, Pittsburgh, PA 15237",
+    "phone": "412-530-0999",
+    "source_category": "Indoor Golf Simulators",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The Mt. Nebo operator welcomes public bookings without membership. Compare the selected hourly reservation with membership session lengths, active-reservation limits, guest allowances and recurring-plan terms. Confirm rental clubs, access instructions and applicable annual charges directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/",
+      "title": "Back Nine Golf Pittsburgh Mt. Nebo Pointe",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/bookings/",
+          "label": "Public bay bookings and rate details"
+        },
+        "contact": {
+          "url": "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/contact/",
+          "label": "Local operator contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "back",
+        "nine",
+        "golf",
+        "nebo"
+      ]
+    }
   }
 }
