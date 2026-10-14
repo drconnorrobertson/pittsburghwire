@@ -97937,5 +97937,67 @@
         "discount-tire-west-mifflin"
       ]
     }
+  },
+  "the-bohemian-north-side": {
+    "name": "The Bohemian",
+    "website": "https://www.bohemianpgh.com/",
+    "source": "https://www.bohemianpgh.com/",
+    "source_name": "Official operator location and visitor information",
+    "address": "22 W. North Avenue, Pittsburgh, PA 15212",
+    "phone": "",
+    "source_category": "Brewery and Taproom",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Golden Age’s North Side Czech-lager bar was reported open in April 2026. The official site lists its address and email; confirm current hours and food arrangements rather than applying Homestead policies.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.bohemianpgh.com/",
+      "title": "The Bohemian",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.bohemianpgh.com/",
+          "label": "Official location and visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the-bohemian-north-side"
+      ]
+    }
+  },
+  "golden-age-beer-homestead": {
+    "name": "Golden Age Beer Homestead",
+    "website": "https://www.goldenagebeer.com/visit-us",
+    "source": "https://www.goldenagebeer.com/visit-us",
+    "source_name": "Official operator location and visitor information",
+    "address": "337 E. Eighth Avenue, Homestead, PA 15120",
+    "phone": "",
+    "source_category": "Brewery and Taproom",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Homestead",
+    "source_excerpt": "",
+    "description": "The brewery publishes a full kitchen, weather-dependent beer garden and separate Homestead visitor policies. Check the operator’s hours and FAQ for group, family and outdoor-dog requirements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.goldenagebeer.com/visit-us",
+      "title": "Golden Age Beer Homestead",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.goldenagebeer.com/visit-us",
+          "label": "Official location and visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "golden-age-beer-homestead"
+      ]
+    }
   }
 }

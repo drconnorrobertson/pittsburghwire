@@ -296,3 +296,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - 1659 Cranberry shared space — `1659-cranberry-cafe-boutique-florist-visit-guide`, October13. Three separatebusinesses/schedules and pickup/custom-orderpolicies; refresh thisURL notindividualthinCafeConmigo/StraightLine/Blooms locationvariants. No sharedhourassumption or unsupportednewopeningclaim.
 
 - Seasonal tire services — `pittsburgh-tire-changeover-storage-three-service-options`, October13. Tower storagelead/Hartmaninstallation/DiscountWestMifflinchangeovercomparison; refreshsameURLforfees/inclusions. Genericautorepairseparateexistingintent, no tiremodel/neighborhoodvariants. Storagefeeperiodmustbeconfirmed andnoothershopstorageassumption.
+
+- Golden Age/Bohemian expansion — `golden-age-bohemian-north-side-homestead-visit-guide`, October13. Dated spring2026 opening background plus distinct NorthSide/Homestead visitor policies; refresh this URL for hours/food/menu changes, no competing location variants.
