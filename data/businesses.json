@@ -97397,5 +97397,98 @@
         "bakery"
       ]
     }
+  },
+  "the-archers-edge": {
+    "name": "The Archer’s Edge",
+    "website": "https://thearchersedge.com/",
+    "source": "https://thearchersedge.com/",
+    "source_name": "Official archery operator services and visitor information",
+    "address": "7261 Steubenville Pike, Oakdale, PA 15071",
+    "phone": "412-489-5670",
+    "source_category": "Archery Lessons and Range Options",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Oakdale",
+    "source_excerpt": "",
+    "description": "Compare instruction, scheduled practice and equipment services. Confirm the selected activity, lesson duration, total and equipment arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://thearchersedge.com/",
+      "title": "The Archer’s Edge",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://thearchersedge.com/services/",
+          "label": "Official services and current visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the-archers-edge"
+      ]
+    }
+  },
+  "cabot-archery": {
+    "name": "Cabot Archery",
+    "website": "https://cabotarchery.com/",
+    "source": "https://cabotarchery.com/",
+    "source_name": "Official archery operator services and visitor information",
+    "address": "110 South Pike Road, Suite 207, Sarver, PA 16055",
+    "phone": "724-524-1179",
+    "source_category": "Archery Lessons and Range Options",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Sarver",
+    "source_excerpt": "",
+    "description": "Indoor 10-yard and 20-yard lanes and private or group instruction by appointment. Confirm the duration covered by the posted lane fee and whether equipment or instruction costs extra.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://cabotarchery.com/",
+      "title": "Cabot Archery",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.facebook.com/cabotarchery/",
+          "label": "Official services and current visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cabot-archery"
+      ]
+    }
+  },
+  "llbean-north-park-archery": {
+    "name": "L.L.Bean North Park Archery Lessons",
+    "website": "https://www.llbeanoutdoors.com/activity/private-one-hour-archery-lesson-gibsonia",
+    "source": "https://www.llbeanoutdoors.com/activity/private-one-hour-archery-lesson-gibsonia",
+    "source_name": "Official archery operator services and visitor information",
+    "address": "852–872 Old Ingomar Road, Allison Park, PA 15101",
+    "phone": "888-270-2326",
+    "source_category": "Archery Lessons and Range Options",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Allison Park",
+    "source_excerpt": "",
+    "description": "The operator lists May–August operation for its private archery lesson. Check seasonal availability, age and guardian participation requirements, equipment provision and cancellation terms before booking.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.llbeanoutdoors.com/activity/private-one-hour-archery-lesson-gibsonia",
+      "title": "L.L.Bean North Park Archery Lessons",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.llbeanoutdoors.com/activity/private-one-hour-archery-lesson-gibsonia",
+          "label": "Official services and current visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "llbean-north-park-archery"
+      ]
+    }
   }
 }

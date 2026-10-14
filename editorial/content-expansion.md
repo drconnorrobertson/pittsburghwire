@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-third additional-100 batch: 469; the numeric archive checkpoint of 437 is exceeded, with 531 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-fourth additional-100 batch: 470; the numeric archive checkpoint of 437 is exceeded, with 530 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 84 of 100 additional articles; 16 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 85 of 100 additional articles; 15 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -513,3 +513,9 @@ Sixty-first batch verified live at Production commit c866fbc3a946bd6f2e731513fe9
 - `lavande-whisk-bakery-economy-coffee-custom-orders`: distinct bakery opening/background and visit/custom-order intent. July1 opening attributed to dated Graver August27 report, summer pastries clearly historical. Primary hours/address/consultation checked; Freedom mailing versus Economy reporting distinguished. Neighbor Casa current primary breakfast/lunch and catering-format warning read directly; no shared policies or unverified current dinner schedule. New reciprocal bakery profile.
 
 Sixty-second batch verified live at Production commit 1ca417726395ce99b40759e1abfe5e2a484b882e: Back Nine guide/profile/maps.
+
+## Additional-100 batch 64 — October 13
+
+- `pittsburgh-archery-lessons-range-three-options`: distinct archery lessons/practice comparison. Archer lead explained by published lesson/practice/equipment distinctions, no independent award. Cabot current public Facebook address verified browser without login/contact; lane fee duration not invented. LLBean May–August season expressly outside October, no future calendar invented; age/guardian/equipment/cancellation limits sourced. Three reciprocal profiles; no bookings, waivers or messages submitted.
+
+Sixty-third batch verified live at Production commit e35049b536d5f52c73e5714f208a2de15cd6baed: Lavande guide/profile/maps.

@@ -280,3 +280,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Back Nine Golf Mt. Nebo Pointe — `back-nine-mt-nebo-golf-public-booking-memberships`, October13. Publicvsrecurringplanformat/guestlimits/renewalterms; primary229addressconfirmedbrowser. RefreshsameURLforrates/availability; no thinotherbranchorlessonvariants andnoactualopeningdayclaim.
 
 - Lavande Whisk Bakery — `lavande-whisk-bakery-economy-coffee-custom-orders`, October13: July2026 opening background, daily visit versus custom-order consultation. Refresh this URL for menu/hours; no thin custom-cake or Freedom/Economy variants. Casa De Comida is a separate business; its catering prices are not bakery or individual bistro prices.
+
+- Archery lessons and range formats — `pittsburgh-archery-lessons-range-three-options`, October13. Archer lead, Cabot indoor alternative, LLBean explicitly seasonal. Refresh this guide for dates/fees; do not create competing beginner or neighborhood variants. Lane fee does not establish lesson inclusion or duration.
