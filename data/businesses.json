@@ -97171,5 +97171,43 @@
         "millvale"
       ]
     }
+  },
+  "iron-basil-west-view": {
+    "name": "Iron & Basil",
+    "website": "https://www.ironandbasil.com/",
+    "source": "https://www.ironandbasil.com/",
+    "source_name": "Official service-status notice, menu and contact information",
+    "address": "412 Perry Highway, West View, PA 15229",
+    "phone": "412-282-8300",
+    "source_category": "Italian Restaurant and Takeout",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "West View",
+    "source_excerpt": "",
+    "description": "The official homepage’s current takeout-only notice should be checked before planning dine-in service. Confirm pickup hours, portion sizes and ingredient differences between the website menu and linked ordering page directly with the restaurant.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.ironandbasil.com/",
+      "title": "Iron & Basil West View",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.ironandbasil.com/menu",
+          "label": "Official takeout menu and portion prices"
+        },
+        "contact": {
+          "url": "https://www.ironandbasil.com/",
+          "label": "Current service status and phone"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "iron",
+        "basil",
+        "west",
+        "view"
+      ]
+    }
   }
 }
