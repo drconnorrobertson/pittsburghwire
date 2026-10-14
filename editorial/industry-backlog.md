@@ -302,3 +302,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Patterns of Meaning/The Shop — `patterns-of-meaning-shop-southside-works-extended-2026`, October13. Official gallery extension through2026; refreshsameURLforhours/extension/enddate ratherthancompetinglocationvariants. SidneyStreetgallerydistinctfromEICworkshop.
 
 - Tile showrooms — `pittsburgh-tile-showrooms-design-custom-pickup-options`, October13. Ceramiche lead/currentRobinsonaddress, Tile&Designscustom/pickup, TileShopweekend/freeconsultation. RefreshsameURL; flooringinstallationguidecomplementsseparatequote/contractorintent. No thinlocationvariants.
+
+- Film developing — `pittsburgh-film-developing-labs-scans-negative-pickup`, October13. ESP lead based on publishedcollectionterms, Bodega renderedofficialcurrentaddress/FAQconflicts, PremierNorthHillscontact. RefreshsameURL; no competingfilmformat/locationvariants. ConfirmBodegamailing/negativeholdbeforeorder.

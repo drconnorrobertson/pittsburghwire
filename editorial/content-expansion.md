@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-fourth additional-100 batch: 480; the numeric archive checkpoint of 437 is exceeded, with 520 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-fifth additional-100 batch: 481; the numeric archive checkpoint of 437 is exceeded, with 519 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 95 of 100 additional articles; 5 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 96 of 100 additional articles; 4 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -579,3 +579,9 @@ Batch72 verified live at Production commit647073b1f047ce05892c60a2eebfec5172057e
 - `pittsburgh-tile-showrooms-design-custom-pickup-options`: tile design/sourcing/showroom comparison distinct from flooring-installation payment/contractor guide, which is crosslinked. Ceramiche lead based on gallery scope/current clear address, no independentaward; privatebaselinequery1click1imp tiny NOTstrongdemand. Current primaryhours/customprocess/pickup/freeconsultation scoped; older2023move and socialdistancingtext notnew2026claim. ExistingCeramicheprofilepreservedJSON/contextonlyupdate, two new reciprocal profiles.
 
 Batch73 verified live at Production commitd61b61e001ecaa4c7042f397c140841d01aa9cbb:Shoparticle/profile/maps.
+
+## Additional-100 batch 75 — October 13
+
+- `pittsburgh-film-developing-labs-scans-negative-pickup`: film-development service comparison distinct from weddingphotographerhire. ESP lead for explicit collection/payment/processing terms; film-lab source paraphrase under200words. Bodega official renderedbrowser homepage4509Liberty verified; FAQ3wkvs2monthnegativehold and4120Mainmailingconflictsdisclosed, no assumedoldaddress. Premierprimaryinhouseclaim/localcontactnoinventedprice. NoDIYchemicalinstructions/reviews/qualityaward. Three reciprocalprofiles.
+
+Batch74 verified live at Production commit0b582759fee80cee8597dd0e0f824f5b1f66e346:tileguide/threeprofiles/maps.

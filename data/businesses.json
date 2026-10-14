@@ -98092,5 +98092,98 @@
         "the-tile-shop-robinson"
       ]
     }
+  },
+  "eastern-standard-photo-wilkinsburg": {
+    "name": "Eastern Standard Photo",
+    "website": "https://www.easternstandardphoto.com/film-lab",
+    "source": "https://www.easternstandardphoto.com/film-lab",
+    "source_name": "Official film lab and linked local visitor information",
+    "address": "608 South Avenue, Wilkinsburg, PA 15221",
+    "phone": "",
+    "source_category": "Film Development and Photo Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Wilkinsburg",
+    "source_excerpt": "",
+    "description": "The lab publishes film-format, payment, turnaround and collection terms. Confirm service extras and collect negatives within the published two-month storage period; download expiry is a separate deadline.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.easternstandardphoto.com/film-lab",
+      "title": "Eastern Standard Photo",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.easternstandardphoto.com/film-lab",
+          "label": "Official film service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "eastern-standard-photo-wilkinsburg"
+      ]
+    }
+  },
+  "bodega-film-lab-bloomfield": {
+    "name": "Bodega Film Lab",
+    "website": "https://www.bodegafilmlab.com/",
+    "source": "https://www.bodegafilmlab.com/",
+    "source_name": "Official film lab and linked local visitor information",
+    "address": "4509 Liberty Avenue, Pittsburgh, PA 15224",
+    "phone": "412-802-6397",
+    "source_category": "Film Development and Photo Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The homepage lists Liberty Avenue and current visitor hours. The FAQ retains a different mailing address and conflicting negative-storage periods; confirm shipping and collection instructions for the requested service.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.bodegafilmlab.com/",
+      "title": "Bodega Film Lab",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.bodegafilmlab.com/",
+          "label": "Official film service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "bodega-film-lab-bloomfield"
+      ]
+    }
+  },
+  "premier-imaging-camera-north-hills": {
+    "name": "Premier Imaging & Camera North Hills",
+    "website": "https://www.sellcameras.net/",
+    "source": "https://www.sellcameras.net/",
+    "source_name": "Official film lab and linked local visitor information",
+    "address": "4801 McKnight Road, Suite 201, Pittsburgh, PA 15237",
+    "phone": "412-364-1815",
+    "source_category": "Film Development and Photo Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The operator advertises in-house film development and scan services. Its linked Developmint page lists the North Hills retail contact; confirm the requested service location, price, timing and return method.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.sellcameras.net/",
+      "title": "Premier Imaging & Camera North Hills",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.sellcameras.net/",
+          "label": "Official film service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "premier-imaging-camera-north-hills"
+      ]
+    }
   }
 }
