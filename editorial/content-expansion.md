@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-seventh additional-100 batch: 473; the numeric archive checkpoint of 437 is exceeded, with 527 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-eighth additional-100 batch: 474; the numeric archive checkpoint of 437 is exceeded, with 526 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 88 of 100 additional articles; 12 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 89 of 100 additional articles; 11 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -537,3 +537,9 @@ Sixty-fifth batch verified live at Production commit 1e4a9e369b7de37fa4ed341ce31
 - `alma-lewis-expanded-space-october-2026-reopening`: distinct East End art-space expansion/reopening news, primary capital campaign plus event/exhibit/walk listings. Announced Oct23 benefit ticketed despite generic homepage free-events banner; Oct24community explicitlyfree; no ticketprice or RSVPmandatory claim invented. Expansion/fellowship five-year projections attributed and future. Suite101 currenteventaddresschecked; JoyRide exactstart/route notinvented. One cohesive opening story, no separate event/exhibit count padding. New reciprocal profile.
 
 Sixty-sixth batch verified live at Production commit d9f5b51ea8a210cde47468b938df4d8ad4315908: General Rental guide/existingprofile/maps.
+
+## Additional-100 batch 68 — October 13
+
+- `cranberry-ebisu-life-saba-origin-announced-plans`: distinct two-tenant opening-plans update. Township proposed addresses corroborated; Ebisu Oct7datedreport size/year-end window attributed; existingForbeslocator separate. Saba primaryFallCranberry/WinterotherPAwindows and brand-menupreview notlocalprices/availability. Neitherclaimedopen. No unsupportedcoffee-origin/organicclaims, exactdays orotherstatecontactconflation. Plannedstatus explicit in both profiles; one combinedstory, noindividualvariantcountpadding.
+
+Sixty-seventh batch verified live at Production commit 879c15b7f67b3a3b5ee04afff32cba6b453c90ea: ALMAguide/profile/maps.

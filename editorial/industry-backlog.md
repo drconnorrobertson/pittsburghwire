@@ -288,3 +288,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - General Rental Center — `general-rental-center-cranberry-equipment-event-guide`, October13. Search-demand business-name coverage of equipment/event catalog and quote/pickup/service distinctions; existing profile enriched. Refresh this URL rather than equipment/party/neighborhood variants. Match official hyphenated Cranberry domain; other similarly named rentals have different policies.
 
 - ALMA | LEWIS expansion — `alma-lewis-expanded-space-october-2026-reopening`, October13. Oct23–24announcedreopening/benefitversusfreepublicday/exhibition; refresh same story after verified changes rather than separate preview/day/walk thin variants. Do notapplygenericfreeeventbanner to ticketedbenefit.
+
+- Cranberry Ebisu Life/Saba Origin plans — `cranberry-ebisu-life-saba-origin-announced-plans`, October13. Two proposedtenants onecohesiveopening update; both plannedstatus explicit. Refresh sameURLuponverifieddates/operations, no competingbrand/neighborhoodpreviews. ExistingSquirrelHillEbisu andNCSabaaddresses notCranberry.

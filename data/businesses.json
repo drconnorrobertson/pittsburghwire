@@ -97619,5 +97619,67 @@
         "lewis"
       ]
     }
+  },
+  "ebisu-life-cranberry-planned": {
+    "name": "Ebisu Life Cranberry — Planned",
+    "website": "https://ebisu.us/stores",
+    "source": "https://www.cranberrytownship.org/1580/Opening-Soon",
+    "source_name": "Cranberry Township official coming-soon tenant list",
+    "address": "20217 Route 19, Suite 203, Cranberry Township, PA 16066",
+    "phone": "",
+    "source_category": "Announced Business Opening",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The township lists this proposed Ebisu Life address as coming soon. Dated October 7 reporting describes a year-end target without an exact opening day. Confirm an operator opening announcement and local hours before visiting.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://ebisu.us/stores",
+      "title": "Ebisu Life Cranberry — Planned",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://ebisu.us/stores",
+          "label": "Official brand locator; confirm local opening status"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "ebisu-life-cranberry-planned"
+      ]
+    }
+  },
+  "saba-origin-coffee-cranberry-planned": {
+    "name": "Saba Origin Coffee Cranberry — Planned",
+    "website": "https://www.sabaorigincoffee.com/locations",
+    "source": "https://www.cranberrytownship.org/1580/Opening-Soon",
+    "source_name": "Cranberry Township official coming-soon tenant list",
+    "address": "20480 Route 19, Suite 108, Cranberry Township, PA 16066",
+    "phone": "",
+    "source_category": "Announced Business Opening",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The township identifies the planned Cranberry address, and the operator lists fall 2026 as its target. No exact opening date, local hours or local menu prices are established by these sources. Check the operator before planning a visit.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.sabaorigincoffee.com/locations",
+      "title": "Saba Origin Coffee Cranberry — Planned",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.sabaorigincoffee.com/locations",
+          "label": "Official brand locator; confirm local opening status"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "saba-origin-coffee-cranberry-planned"
+      ]
+    }
   }
 }
