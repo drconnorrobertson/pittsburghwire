@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/prt-october-17-18-technology-outage-service-changes</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-14</news:publication_date>
+      <news:title>PRT: October 17–18 Tech Outage and Bus Schedule Changes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/yinzers-in-the-burgh-strip-district-store-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -1062,110 +1070,6 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-13</news:publication_date>
       <news:title>1659 Cranberry: Café, Boutique and Florist Hours Compared</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pnc-cranberry-first-pittsburgh-premier-branch</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>PNC Opens First Pittsburgh-Area Premier Branch in Cranberry</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-water-88-percent-lead-line-replacement-2027</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pittsburgh Water Reaches 88% Lead-Line Replacement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-steuben-wabash-street-safety-designs</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pittsburgh Begins Safety Designs for Steuben, Wabash Streets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-shoe-repair-shops-four-options</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pittsburgh Shoe Repair: Four Shops to Compare</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-restaurants-private-dining-rooms-six-options</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>6 Pittsburgh Restaurants With Private Dining Rooms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-dry-cleaners-pickup-dropoff-four-options</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pittsburgh Dry Cleaners: Four Options to Compare</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-america-250-city-art-poster-deadline-october-14</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pittsburgh Artists Can Win $10K in America 250 Poster Project</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pitt-optogenetic-vision-therapy-retinitis-pigmentosa-study</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Pitt Study Tests Optogenetic Vision Therapy in 10 Patients</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/homer-city-dep-permit-hearing-october-14-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Homer City DEP Hearing on Plant Discharge Permit Set for Oct. 14</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/hacp-pittsburgh-project-based-voucher-waitlists-october-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>HACP Opens Three Project-Based Voucher Waitlists in Pittsburgh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/etna-center-for-community-opens-october-17-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>Etna Center for Community Sets Oct. 17 Opening and Public Celebration</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/beacon-communities-200-ross-street-downtown-housing-plan</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>URA Clears Beacon Talks for 88 Homes at 200 Ross</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/1930-cigar-bar-steelers-watch-party-october-18-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-12</news:publication_date>
-      <news:title>1930 Cigar Bar Lists Steelers Watch Party for Oct. 18</news:title>
     </news:news>
   </url>
 </urlset>

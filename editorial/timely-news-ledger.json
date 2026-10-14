@@ -1,0 +1,42 @@
+{
+  "scope": "Daily 9 AM America/New_York timely-only news; evergreen/guide/background work belongs to shared Monday batch. Previous volume goals superseded.",
+  "runs": [
+    {
+      "date": "2026-10-14",
+      "status": "validated_draft",
+      "slug": "prt-october-17-18-technology-outage-service-changes",
+      "why_cannot_wait": "Technology interruptions start October 17 at 8 p.m. and route schedules change October 18, before the next Monday, October 19 batch; travel-planning value would be lost by waiting.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/planned-technology-maintenance-saturday-october-17-sunday-october-18--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/newsroom/news-releases/service-changes-begin-october-18--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/Services/view-all-schedules/",
+        "https://www.rideprt.org/Customer-Service/"
+      ],
+      "coverage_check": "No matching PRT technology-maintenance/service-change story in current main; repo clean at5b8a5696 before drafting.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "absent; outputs directory exists but empty; no duplicate weekly record available",
+        "counted_against_weekly_cap": false
+      },
+      "other_candidates": [
+        {
+          "story": "Lawrence Hall end-of-2026 closure",
+          "decision": "Not immediate; no verified reason it cannot wait for Monday; no publication."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-14",
+        "type": "Search News tab, not Google News app/site",
+        "date_range": "2026-09-14/2026-10-11",
+        "clicks": 1,
+        "impressions": 2,
+        "average_position": 51.5,
+        "note": "Settled window unchanged; tiny sample, no trend conclusion."
+      },
+      "validation": {
+        "quality_check_errors": 0,
+        "metadata_canonical_indexability_sitemap": "passed"
+      }
+    }
+  ]
+}
