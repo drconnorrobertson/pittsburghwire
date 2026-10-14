@@ -292,3 +292,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Cranberry Ebisu Life/Saba Origin plans — `cranberry-ebisu-life-saba-origin-announced-plans`, October13. Two proposedtenants onecohesiveopening update; both plannedstatus explicit. Refresh sameURLuponverifieddates/operations, no competingbrand/neighborhoodpreviews. ExistingSquirrelHillEbisu andNCSabaaddresses notCranberry.
 
 - Ramen menu comparisons — `pittsburgh-ramen-nanban-fujiya-menu-comparison`, October13. Nanbanlead/FujiyaNorthFayettealternative, ingredient/portion/addon distinctions; maintain same guide for comparison intent. ExistingAsahi business-opening story separate; no thinneighborhood/vegetarian variants. ShadysideFujiya status needsfreshprimarycheckbeforevisitrecommendation.
+
+- 1659 Cranberry shared space — `1659-cranberry-cafe-boutique-florist-visit-guide`, October13. Three separatebusinesses/schedules and pickup/custom-orderpolicies; refresh thisURL notindividualthinCafeConmigo/StraightLine/Blooms locationvariants. No sharedhourassumption or unsupportednewopeningclaim.

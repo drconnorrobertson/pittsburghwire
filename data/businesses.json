@@ -97751,5 +97751,98 @@
         "fujiya-ramen-north-fayette"
       ]
     }
+  },
+  "cafe-conmigo-cranberry": {
+    "name": "Café Conmigo Cranberry",
+    "website": "https://www.cafeconmigo.com/",
+    "source": "https://www.cafeconmigo.com/",
+    "source_name": "Official operator hours, services and customer policies",
+    "address": "1659 Route 228, Cranberry Township, PA 16066",
+    "phone": "724-741-0025",
+    "source_category": "Shared-Space Local Business",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Use the Cranberry location schedule and confirm the pickup store when ordering. The café shares 1659 Route 228 with separate boutique and floral businesses whose hours differ.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.cafeconmigo.com/",
+      "title": "Café Conmigo Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.cafeconmigo.com/contact-us",
+          "label": "Official local service and visiting details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cafe-conmigo-cranberry"
+      ]
+    }
+  },
+  "straight-line-boutique-cranberry": {
+    "name": "Straight Line Boutique Cranberry",
+    "website": "https://straightlineboutique.com/",
+    "source": "https://straightlineboutique.com/",
+    "source_name": "Official operator hours, services and customer policies",
+    "address": "1659 Route 228, Cranberry Township, PA 16066",
+    "phone": "",
+    "source_category": "Shared-Space Local Business",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Confirm Cranberry versus Oakmont local pickup and current store hours. Read the regular-price store-credit return window and excluded sale categories; the old 2025 holiday exception does not establish a 2026 return window.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://straightlineboutique.com/",
+      "title": "Straight Line Boutique Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://straightlineboutique.com/policies/refund-policy",
+          "label": "Official local service and visiting details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "straight-line-boutique-cranberry"
+      ]
+    }
+  },
+  "blooms-1659-cranberry": {
+    "name": "Blooms at 1659 Cranberry",
+    "website": "https://bloomspgh.com/1659-2/",
+    "source": "https://bloomspgh.com/1659-2/",
+    "source_name": "Official operator hours, services and customer policies",
+    "address": "1659 Route 228, Cranberry Township, PA 16066",
+    "phone": "",
+    "source_category": "Shared-Space Local Business",
+    "checked": "2026-10-13",
+    "category": "retail",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The florist posts shorter hours than the café at the shared address. Custom floral inquiries ask for the needed date, arrangement details and budget; confirm availability, quote and collection arrangements directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://bloomspgh.com/1659-2/",
+      "title": "Blooms at 1659 Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://bloomspgh.com/bespoke/",
+          "label": "Official local service and visiting details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "blooms-1659-cranberry"
+      ]
+    }
   }
 }
