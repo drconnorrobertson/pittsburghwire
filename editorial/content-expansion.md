@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-seventh additional-100 batch: 483; the numeric archive checkpoint of 437 is exceeded, with 517 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-eighth additional-100 batch: 484; the numeric archive checkpoint of 437 is exceeded, with 516 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 98 of 100 additional articles; 2 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 99 of 100 additional articles; 1 remains to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -597,3 +597,9 @@ Batch75 verified live at Production commitd8c99a1994791bcbbef9faf0759fc10d098865
 - `pittsburgh-piano-showrooms-used-instruments-event-rentals`: piano shopping/showroom/eventrental intent distinct from tuningservice and schoolbandrental guides. FortPitt lead based parking/visit/rentalscope; Solich rotatinginventory/currentWexfordhours/limitedonlinecartreturnscope. Old2023banner notcurrentevent; noindependentaward/prices/financingpromotion/personaltest. Two reciprocalprofiles.
 
 Batch76 verified live at Production commit2582d195170f29b08a127a2c2663756e6e1c13d2:Meckaplannedguide/profile/maps.
+
+## Additional-100 batch 78 — October 13
+
+- `pittsburgh-fireplace-showrooms-product-installation-quotes`: fireplace product/showroom/installationquote intent distinct from routinechimneyserviceguidecrosslinked. FirePatiopleadexplicitproductthenlaborestimateprocess; WestPennprimaryhours/customwork. NoDIYgas/vent/electricalinstructions/safety/savingsguarantees/productavailabilityclaims/financepromotion. Two reciprocalprofiles.
+
+Batch77 verified live at Production commit4858b154d99164c8ab5b9e57520cfe3fb0106b19:pianoguide/twoprofiles/maps.

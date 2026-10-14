@@ -98278,5 +98278,67 @@
         "solich-piano-wexford"
       ]
     }
+  },
+  "fireplace-patioplace-cranberry": {
+    "name": "The Fireplace and Patioplace — Cranberry",
+    "website": "https://www.firepatio.com/locations",
+    "source": "https://www.firepatio.com/locations",
+    "source_name": "Official fireplace showroom and project information",
+    "address": "21266 Route 19, Suite 100, Cranberry Township, PA 16066",
+    "phone": "724-452-5157",
+    "source_category": "Fireplace Sales and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The operator separates an in-store product quote from a home consultation and labor estimate. Confirm current stock, special-order lead times and installation scheduling; the showroom price is not necessarily the installed total.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.firepatio.com/locations",
+      "title": "The Fireplace and Patioplace — Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.firepatio.com/locations",
+          "label": "Official fireplace showroom and project information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fireplace-patioplace-cranberry"
+      ]
+    }
+  },
+  "west-penn-fireplaces-canonsburg": {
+    "name": "West Penn Fireplaces",
+    "website": "https://www.westpennfireplaces.com/",
+    "source": "https://www.westpennfireplaces.com/",
+    "source_name": "Official fireplace showroom and project information",
+    "address": "2520 Washington Road, Suite 100, Canonsburg, PA 15317",
+    "phone": "724-514-7785",
+    "source_category": "Fireplace Sales and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Canonsburg",
+    "source_excerpt": "",
+    "description": "The operator lists fireplace sales, professional installation, custom build-outs and replacement work. Confirm the selected product, site assessment and complete written scope before ordering.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.westpennfireplaces.com/",
+      "title": "West Penn Fireplaces",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.westpennfireplaces.com/",
+          "label": "Official fireplace showroom and project information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "west-penn-fireplaces-canonsburg"
+      ]
+    }
   }
 }

@@ -308,3 +308,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Mecka Cranberry — `mecka-fitness-cranberry-planned-opening-membership-terms`, October13. Plannedfall2026expansionmembershipterms; refreshsameURLwhenopeningconfirmed. Suites718/719conflictconfirmoperator; nooperatingstatusfrompresale/hours. No competingfitnesslocationvariants.
 
 - Piano showrooms — `pittsburgh-piano-showrooms-used-instruments-event-rentals`, October13. FortPitt lead/localvisit/eventrental, SolichWexfordinventory/policy; refreshsameURL, crosslinkseparatetuningguide. No schoolbandrentalorlocalpianodealervariants.
+
+- Fireplace showrooms — `pittsburgh-fireplace-showrooms-product-installation-quotes`, October13. FirePatiopleadproduct/laborestimateprocess, WestPennCanonsburg. RefreshsameURL; chimneyguidecomplementssweepinginspectionintent. No locationvariants orDIYinstallationadvice.
