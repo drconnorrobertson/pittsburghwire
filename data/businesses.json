@@ -97360,5 +97360,42 @@
         "nebo"
       ]
     }
+  },
+  "lavande-whisk-bakery": {
+    "name": "Lavande Whisk Bakery & Coffee Shop",
+    "website": "https://www.lavandewhiskbakery.com/",
+    "source": "https://www.lavandewhiskbakery.com/",
+    "source_name": "Official bakery hours, custom orders and contact information",
+    "address": "1609 Conway Wallrose Road, Freedom, PA 15042",
+    "phone": "412-336-6248",
+    "source_category": "Bakery and Coffee Shop",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Freedom",
+    "source_excerpt": "",
+    "description": "Compare a daily coffee and baked-goods visit with a custom cake, cookie or bread consultation. The official site posts Tuesday–Sunday hours and directs readers to current social updates for changing specials. Confirm custom-order availability, ingredients, total and pickup details directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.lavandewhiskbakery.com/",
+      "title": "Lavande Whisk Bakery & Coffee Shop",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.lavandewhiskbakery.com/",
+          "label": "Bakery services and custom-order consultation"
+        },
+        "contact": {
+          "url": "https://www.lavandewhiskbakery.com/",
+          "label": "Posted hours and contact details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "lavande",
+        "whisk",
+        "bakery"
+      ]
+    }
   }
 }

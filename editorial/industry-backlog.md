@@ -278,3 +278,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Kan Pai Sushi Bridgeville — `kan-pai-sushi-bridgeville-menus-prices-visit-guide`, October13. PrimaryAug7openingconfirmation andlocalmealformat/surcharge/quantity comparison; refreshthisURLforprices/dates, no lunch/dinner/locationvariants. Do notapplyothercityorunrelatedKanpaimenus.
 
 - Back Nine Golf Mt. Nebo Pointe — `back-nine-mt-nebo-golf-public-booking-memberships`, October13. Publicvsrecurringplanformat/guestlimits/renewalterms; primary229addressconfirmedbrowser. RefreshsameURLforrates/availability; no thinotherbranchorlessonvariants andnoactualopeningdayclaim.
+
+- Lavande Whisk Bakery — `lavande-whisk-bakery-economy-coffee-custom-orders`, October13: July2026 opening background, daily visit versus custom-order consultation. Refresh this URL for menu/hours; no thin custom-cake or Freedom/Economy variants. Casa De Comida is a separate business; its catering prices are not bakery or individual bistro prices.
