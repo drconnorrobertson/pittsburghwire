@@ -97134,5 +97134,42 @@
         "park"
       ]
     }
+  },
+  "murphs-kitchen-millvale": {
+    "name": "Murph’s Kitchen",
+    "website": "https://murphs-kitchen.com/",
+    "source": "https://murphs-kitchen.com/",
+    "source_name": "Official restaurant menu and Strange Roots Millvale visitor information",
+    "address": "501 East Ohio Street, Millvale, PA 15209",
+    "phone": "",
+    "source_category": "Restaurant Inside Brewery Taproom",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Millvale",
+    "source_excerpt": "",
+    "description": "Murph’s Kitchen operates at the Millvale Strange Roots taproom. Check the restaurant’s current menu and confirm kitchen last-order time separately from taproom hours. The New Kensington taproom has a different food partner and schedule.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://murphs-kitchen.com/",
+      "title": "Murph’s Kitchen Millvale",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://murphs-kitchen.com/",
+          "label": "Official restaurant menu and updates"
+        },
+        "contact": {
+          "url": "https://www.strangerootsbeer.com/",
+          "label": "Strange Roots Millvale hours and events"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "murph",
+        "kitchen",
+        "millvale"
+      ]
+    }
   }
 }

@@ -262,3 +262,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Pumpkin-farm outing comparison — `pittsburgh-pumpkin-farms-three-2026-outing-options`, October13. Trax entry/access lead, Soergel individualactivities andSimmons packagealternatives. Refresh same2026guideforconditions/schedulechanges instead of neighborhood or price variants; distinct from cityMonsterPumpkinsfestival.
 
 - Haunted-attraction comparison — `pittsburgh-haunted-attractions-three-2026-options`, October13. Hundred Acres Manor lead, Cheeseman andSmithfieldFrightFarmalternatives; ScareHouse2026hiatus andstaleFrightFarm2025expiryflagged. Update sameguideforseasonchanges; no thinneighborhood/scariestvariants.
+
+- Murph’s Kitchen Millvale — `murphs-kitchen-millvale-strange-roots-menu-hours`, October13. July2026openingbackground with current primary menu/taproominformation; refresh samebusinessintent ratherthan duplicate sandwiches/wings/neighborhoodvariants. Distinguish StrangeRootsNewKensington’s CommonOven partner.
