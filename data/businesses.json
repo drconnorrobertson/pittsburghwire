@@ -97999,5 +97999,36 @@
         "golden-age-beer-homestead"
       ]
     }
+  },
+  "the-shop-patterns-of-meaning-southside": {
+    "name": "The Shop — Patterns of Meaning at SouthSide Works",
+    "website": "https://patternsofmeaning.org/blogs/news/the-shop-at-southside-works-is-extended-through-2026",
+    "source": "https://patternsofmeaning.org/blogs/news/the-shop-at-southside-works-is-extended-through-2026",
+    "source_name": "Official October 5, 2026 gallery extension announcement",
+    "address": "2708 Sidney Street, Pittsburgh, PA",
+    "phone": "",
+    "source_category": "Art Gallery and Working Studio",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The operator confirmed October 5 that its SouthSide Works gallery and working studio will remain through the end of 2026. Confirm hours and artwork availability or request an appointment; this is separate from its Energy Innovation Center gallery.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://patternsofmeaning.org/blogs/news/the-shop-at-southside-works-is-extended-through-2026",
+      "title": "The Shop — Patterns of Meaning at SouthSide Works",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://patternsofmeaning.org/pages/contact",
+          "label": "Official artwork and appointment inquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the-shop-patterns-of-meaning-southside"
+      ]
+    }
   }
 }

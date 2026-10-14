@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-second additional-100 batch: 478; the numeric archive checkpoint of 437 is exceeded, with 522 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-third additional-100 batch: 479; the numeric archive checkpoint of 437 is exceeded, with 521 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 93 of 100 additional articles; 7 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 94 of 100 additional articles; 6 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -567,3 +567,9 @@ Seventieth batch verified live at Production commit 92d946a7f635f9ef47e73eff98e5
 - `golden-age-bohemian-north-side-homestead-visit-guide`: previously uncovered Golden Age North Side expansion, clearly dated April 2026 operating coverage versus Sept2025 planned lease. Official Bohemian address/contact; no invented openingday/hours. Homestead primary kitchen/hours/FAQ separately scoped. Q/Trek figures attributed to developer; TABLE paraphrase under200words; no quotes, awards or personalvisit. Two reciprocal profiles.
 
 Batch71 verified live at Production commit4a006a1556fad52fc32533ec05e36fb24a4c0b7c:tireguide/allthreeprofiles/maps.
+
+## Additional-100 batch 73 — October 13
+
+- `patterns-of-meaning-shop-southside-works-extended-2026`: uncovered official Oct5 gallery extension through2026, Mayopening explicitlybackground. PrimaryAug28studio snapshot dated/noinventoryguarantee, project/team/contact sourced; SouthSide separateEnergyInnovationCenter; no fictitioushours/currentJuneevents/awards/taxdeductibility. Reciprocal gallery profile.
+
+Batch72 verified live at Production commit647073b1f047ce05892c60a2eebfec5172057e57:Bohemianarticle/twoprofiles/maps.

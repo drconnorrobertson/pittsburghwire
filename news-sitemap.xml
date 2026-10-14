@@ -689,6 +689,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/patterns-of-meaning-shop-southside-works-extended-2026</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-13</news:publication_date>
+      <news:title>The Shop at SouthSide Works Extends Its Gallery and Studio Run Through 2026</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/orrs-jewelers-strip-district-store-services-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>

@@ -298,3 +298,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Seasonal tire services — `pittsburgh-tire-changeover-storage-three-service-options`, October13. Tower storagelead/Hartmaninstallation/DiscountWestMifflinchangeovercomparison; refreshsameURLforfees/inclusions. Genericautorepairseparateexistingintent, no tiremodel/neighborhoodvariants. Storagefeeperiodmustbeconfirmed andnoothershopstorageassumption.
 
 - Golden Age/Bohemian expansion — `golden-age-bohemian-north-side-homestead-visit-guide`, October13. Dated spring2026 opening background plus distinct NorthSide/Homestead visitor policies; refresh this URL for hours/food/menu changes, no competing location variants.
+
+- Patterns of Meaning/The Shop — `patterns-of-meaning-shop-southside-works-extended-2026`, October13. Official gallery extension through2026; refreshsameURLforhours/extension/enddate ratherthancompetinglocationvariants. SidneyStreetgallerydistinctfromEICworkshop.
