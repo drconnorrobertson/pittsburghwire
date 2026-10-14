@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-first additional-100 batch: 457; the numeric archive checkpoint of 437 is exceeded, with 543 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-second additional-100 batch: 458; the numeric archive checkpoint of 437 is exceeded, with 542 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 72 of 100 additional articles; 28 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 73 of 100 additional articles; 27 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -437,3 +437,9 @@ Forty-ninth batch verified live at Production commit d332b712eb5767ea926d798c3d0
 - `orrs-jewelers-strip-district-store-services-guide`: established Strip District store and repair-enquiry intent. Official currentcontact1674Smallman versus olderSquirrelHillcopy, fall2025announcement background and dated company history; resizing/chain-result limitations sourced. No exact openingday, item stock, service price/turnaround or independent quality guarantee. Existing sourced reciprocal profile strengthened; businessJSONunchanged.
 
 Fiftieth batch verified live at Production commit 3134ed698bea0bb1ed537ec6b6674517cc9cdce6: Foundation guide/maps/profile.
+
+## Additional-100 batch 52 — October 13
+
+- `opafe-southside-works-opening-downtown-proposal-guide`: distinct bakery opening/status intent. Official Sep20soft-opening andOct1operatingposts browser verified, datedPatchaddress corroboration; stalepropertydirectorylabel qualified. AprilHRCapplicantPDF fullyread, projectintro/timeline renderedvisuallychecked; Downtown800Pennscope/targetnotapproval,completionoractualopening. No invented current hours, product stock, dietary outcome or personal visit. New sourced reciprocal South Side profile.
+
+Fifty-first batch verified live at Production commit 796709d1dd0ba5d38548ecfc3e01ba37c6ccbf90: Orr guide/maps/profile.

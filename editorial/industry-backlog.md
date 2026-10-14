@@ -254,3 +254,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - The Pittsburgh Foundation grant navigation — `pittsburgh-foundation-grants-eligibility-portal-guide`, October13. Business-name demand served with eligibility, program/date and portal distinctions. Refresh same guide when confirmed windows change; no competing grant/award variants.
 
 - Orr’s Jewelers Strip District — `orrs-jewelers-strip-district-store-services-guide`, October13. Established expansion/current store and repair-enquiry intent; refresh same article for confirmed changes rather than opening/location variants. Older SquirrelHill wording and fall2025invitation dated; existing profile strengthened.
+
+- Opafe Bakery — `opafe-southside-works-opening-downtown-proposal-guide`, October13. Operating SouthSide2720Sidney versus separate Downtown800Pennproposal; refresh this status article when official hours/menu or Downtown operation is confirmed. No competing location variants; stalepropertydirectorylabel flagged.

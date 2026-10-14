@@ -96981,5 +96981,42 @@
         "foundation"
       ]
     }
+  },
+  "opafe-bakery-southside-works": {
+    "name": "Opafe Bakery — SouthSide Works",
+    "website": "https://www.instagram.com/opafebakery/",
+    "source": "https://www.instagram.com/p/Ddg6Yrgia-7/",
+    "source_name": "Official public bakery posts; address corroborated by September 28 Patch report updated October 1",
+    "address": "2720 Sidney Street, Pittsburgh, PA 15203",
+    "phone": "",
+    "source_category": "Bakery and Café",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "South Side operation is supported by the bakery’s September soft-opening and October service posts, with 2720 Sidney Street identified in dated local reporting. Check the operator’s current hours and menu; the property directory retains an older coming-soon label. A separate 800 Penn Avenue proposal does not establish Downtown operations.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.instagram.com/p/Ddg6Yrgia-7/",
+      "title": "Opafe Bakery South Side Opening Updates",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.instagram.com/opafebakery/p/Dd9U1fLCzqq/",
+          "label": "October 1 operator service update"
+        },
+        "about": {
+          "url": "https://patch.com/pennsylvania/pittsburgh/artisan-bakery-cafe-opens-pittsburgh",
+          "label": "Dated South Side opening and address report"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "opafe",
+        "bakery",
+        "southside"
+      ]
+    }
   }
 }
