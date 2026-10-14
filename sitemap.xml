@@ -89,6 +89,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/yinzers-in-the-burgh-strip-district-store-guide</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/westmoreland-cleanways-recycling-drop-off-fees-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -2441,6 +2447,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/must-visit-pittsburgh-attractions</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/mark-cuban-pittsburgh-ai-showcase-nfl-draft/</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -2730,12 +2742,6 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/top-pittsburgh-tech-startups-2026</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/must-visit-pittsburgh-attractions</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

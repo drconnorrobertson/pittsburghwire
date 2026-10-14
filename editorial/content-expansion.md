@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-seventh additional-100 batch: 463; the numeric archive checkpoint of 437 is exceeded, with 537 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-eighth additional-100 batch: 464; the numeric archive checkpoint of 437 is exceeded, with 536 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 78 of 100 additional articles; 22 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 79 of 100 additional articles; 21 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -473,3 +473,13 @@ Fifty-fifth batch verified live at Production commit 5b1f36715573e3acf4d89abe0ec
 - `iron-basil-west-view-takeout-menu-opening-status`: distinct WestViewrestaurant opening/status intent. August5takeoutlaunchreport attributed; currentprimaryhomepagefooter stilltakeout-only despite generaldining/bookingmarketing. Pairedmenuprices comparedwith explicitToastsmallportions; conflictingnextopeninghours andBologneseingredientdescriptions flagged, noassumeddiningroomcompletion. New reciprocal profile, noorder/contactsubmitted.
 
 Fifty-sixth batch verified live at Production commit d7905720ce5bf5fd5cb4d2df4461a763dabdf92a: Murph’s Kitchen article/maps/profile.
+
+## Additional-100 batch 58 — October 13
+
+- `yinzers-in-the-burgh-strip-district-store-guide`: business-name demand49impressions in privatebaseline(noactualcurrentrank/volumeclaim). Distinct store/giftplanningintent, noexistingNewsbodycoverage. PrimaryfooterandVisitPittsburghcorroboratePennAveaddress/hours; catalogverified, Draftmerchandisehistoricalnotupcomingevent. Shipping/Returnseditingplaceholder explicitlyflagged insteadofpromisingsampleterms. SeparateYinzerShoponline/plannedstorestatus primarychecked. ExistingYinzersprofile gainsreciprocalcontextonly, nooldbusinessdatarecordchange.
+
+Fifty-seventh batch verified live at Production commit b1cb5276c7bca97b8075f1dec55e95c90202815f: Iron & Basil article/maps/profile.
+
+### Non-counted legacy correction with batch 58
+
+`must-visit-pittsburgh-attractions`: removed genericcurrent-operationimplicationforKlavon’s; November2025PittsburghMagazineinactive/scheduled-sale reporting explicitlydated, noreopeningverificationorclaimsalecompleted. CorrectedcopiedWylieNewsArticle/twitterfields to actualheadline/URL/April19visibleoriginaldate; dateModifiedOctober13, institutionalbyline; scopedvisiblecorrectiondoesnotclaimallattractionsrechecked. Noadditioncount.

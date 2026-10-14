@@ -266,3 +266,7 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Murph’s Kitchen Millvale — `murphs-kitchen-millvale-strange-roots-menu-hours`, October13. July2026openingbackground with current primary menu/taproominformation; refresh samebusinessintent ratherthan duplicate sandwiches/wings/neighborhoodvariants. Distinguish StrangeRootsNewKensington’s CommonOven partner.
 
 - Iron & Basil West View — `iron-basil-west-view-takeout-menu-opening-status`, October13. Takeoutlaunchbackground and currentprimarytakeout-onlynotice; datedAughoursandcurrentToasttime/ingredientconflicts flagged. Refresh sameURLwhenfullopeningconfirmed, notnewdiningroom/pastavariants.
+
+- Yinzers in the Burgh — `yinzers-in-the-burgh-strip-district-store-guide`, October13, privatebusinessquery49impressions. ExistingPennAvestore/ticketlessDraftmerchandise/giftreturncontext; samplepolicyandunrelatedYinzerShopplans distinguished. Refresh sameURLforstock/terms, no competingStripDistrictgearvariants.
+
+- Klavon’s current-operation hold — October13: historicwebsitehoursconflict with2025closure/scheduled-salereportingandaggregatorclosedstatus. No newvisitguideuntilreopeningverified. Existinggenericattractionsrecommendationcorrected, refreshnotaddition; no unverifiedsaleoutcome orpermanent-closureassertion.
