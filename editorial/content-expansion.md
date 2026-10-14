@@ -4,7 +4,7 @@ User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News cove
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 100 of 100 additional articles drafted; final production and full-batch audit pending to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 100 of 100 additional substantive, distinct articles published and verified; the archive target of 485 is reached. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -609,3 +609,11 @@ Batch77 verified live at Production commit4858b154d99164c8ab5b9e57520cfe3fb0106b
 - `cosmic-treats-sweets-mars-menu-hours-opening-background`: previously uncovered Mars opening background/currentvisit guide. Primaryhours/imagebasedmenu visuallycheckedbrowser; rotation explicit. EagleJulyreportJune24versusRadioSept17openingmilestonesunresolveddisclosed; no inventedsoft/granddistinction. Localbaseattributednotindependentinspection. OfficialAppStoredeveloper/seller/loyaltynospecificrewardclaims. Reciprocalprofile. Final100 production/semantic/liveaudit remains before completion.
 
 Batch78 verified live at Production commitf59fe1b51646540e2d367494e62977859c3214b9:fireplaceguide/twoprofiles/maps.
+
+## Additional-100 completion audit — October 13, 2026
+
+All 100 additions are verified live at production content commit `5b199c25e6603d7519c79a4d983cde61122780f3`, against baseline `90354f8ee179268abf743e5156c61c0ce1393422`. Archive: 385 → 485 News pages. Each added body contains 500–566 words excluding tags/generated directory context; no directory/index/refresh is counted. All 100 live bodies match local content, return HTTP 200, have canonical URLs and institutional NewsArticle bylines, pass robots/header checks, and appear in the reachable main and News XML maps and News archive. Body hashes are unique.
+
+The scope review covered all 100 titles/intents and related coverage across all 485 archive pages, including older article-content layouts. Targeted body comparisons confirmed distinct climbing/gym, laser-tag/bowling, installed-carpet/removable-rug, genre/general bookstore, named studio/general landscaper, fireplace/chimney and piano-shopping/tuning coverage. Similarity scores were triage evidence, not an automatic originality test. Business-specific opening/visit guides have distinct named-operator and practical-service intents. Prior Amboy and legacy-attractions corrections remain excluded. The full public URL, word-count, source-link, content-hash and verification ledger is `editorial/additional-100-completion-audit-2026-10-13.json`.
+
+Search Console News was already checked October 13: the latest settled September14–October11 window has 1 click and 2 impressions; no trend or broad Google News distribution claim is supported. Web and Search News remain separate. All registered maps are updated and reachable; their current hashes are recorded, with the next routine submission review no earlier than October14 local time. Existing accepted hashes are retained rather than claiming an unperformed resubmission. The raw private Search Console exports are not committed. This completes the additional100 request; the longer-term1000 goal remains incomplete, and the legacy archive is not certified as1000 distinct substantive stories.

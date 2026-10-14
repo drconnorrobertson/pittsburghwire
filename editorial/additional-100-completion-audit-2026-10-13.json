@@ -1,0 +1,1725 @@
+{
+  "checked_utc": "2026-10-14T02:28:59.484148+00:00",
+  "checked_local_date": "2026-10-13",
+  "baseline_commit": "90354f8ee179268abf743e5156c61c0ce1393422",
+  "verified_production_content_commit": "5b199c25e6603d7519c79a4d983cde61122780f3",
+  "baseline_news_pages": 385,
+  "added_news_articles": 100,
+  "current_archive_pages": 485,
+  "body_word_range": [
+    500,
+    566
+  ],
+  "scope": "News articles only; directory profiles, category/index pages and refreshes excluded",
+  "verification": [
+    "All 100 new paths absent from baseline and present in live News archive",
+    "All 100 return HTTP 200 and their article-body HTML matches local production content",
+    "Canonical URLs, institutional NewsArticle author, publication dates, source links, text-only bodies, robots meta/header and global robots checks passed",
+    "All 100 included in reachable, XML-parseable main and News sitemaps",
+    "Each addition contains 500–700 words excluding tags and generated directory context; all 100 body hashes differ",
+    "Headlines/intents and closest related coverage reviewed across all 485 archive pages; targeted body comparisons confirm distinctions for overlapping categories"
+  ],
+  "semantic_method": "TF-IDF similarity was used only to find related coverage for editorial review, not as an automatic proof of originality. The 19 older article-content layouts were included alongside article-body layouts. Named-business profiles cover distinct operators, operating formats and practical information; service guides compare distinct purchase, service or activity intents.",
+  "semantic_review_examples": {
+    "pho_vs_bela": "Pho comparison covers Pho Van, Maiku and YOYO Panda; BéLa has separate business-name opening/menu/visit intent.",
+    "climbing_vs_gyms": "Terrain, day passes, orientation and climbing-first alternatives differ from general gym memberships.",
+    "laser_tag_vs_bowling": "Arena rounds, exclusive-play limits and game packages differ from lane reservations and bowling rates.",
+    "carpet_vs_area_rugs": "Installed-carpet room definitions and trip minimums differ from removable-rug collection and specialist repairs.",
+    "romance_vs_general_bookstores": "Genre-specific stores, purchasing formats and book clubs differ from the earlier general-store itinerary; different shops.",
+    "eichenlaub_vs_landscapers": "Named Millvale studio materials/design-visit coverage differs from the existing Local Roots/Kimicata/RJK comparison.",
+    "fireplace_vs_chimney": "New products, showroom consultation and installation quotes differ from sweeping and inspections.",
+    "piano_showroom_vs_tuning": "Instrument shopping, rotating inventory, rentals and purchase terms differ from maintenance appointments.",
+    "sewing_vs_alterations": "Learning machine/pattern skills differs from purchasing clothing alteration services.",
+    "business_opening_status": "Planned projects remain labelled planned; earlier openings are dated background, with unresolved source conflicts explicitly described."
+  },
+  "search_console": {
+    "checked_local_date": "2026-10-13",
+    "news_search_type": "Google Search News tab; not Google News app/site",
+    "settled_news_window": "2026-09-14 through 2026-10-11",
+    "news_clicks": 1,
+    "news_impressions": 2,
+    "interpretation": "Tiny sample, no defensible trend or broad inclusion claim. Private raw exports were not committed. Existing daily/weekly cadence continues.",
+    "web_baseline": "Separate Web export, 2026-09-13 through 2026-10-10; 1116 clicks and 66194 impressions; historical aggregate average position 8.7, not a current rank."
+  },
+  "sitemaps": {
+    "latest_live_sha256": {
+      "sitemap.xml": "93d9b89ef1c21634d94f4fe835e943900260448136f388fbb42358a29718bfe3",
+      "news-sitemap.xml": "47514ec2909d1e1955ce7434071b6f8d00a4aae36e1f4e2b65e941960f443b53",
+      "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+    },
+    "last_accepted_submission_date": "2026-10-13",
+    "next_routine_submission_review_not_before": "2026-10-14",
+    "note": "Registered maps are reachable and updated. Preserve the accepted submission hashes separately; no repeat submission on October 13. Submission does not guarantee indexing. Restricted Indexing API not used."
+  },
+  "articles": [
+    {
+      "slug": "1659-cranberry-cafe-boutique-florist-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/1659-cranberry-cafe-boutique-florist-visit-guide",
+      "status": 200,
+      "words": 519,
+      "body_sha256": "ff8549a029ab6eb7496bf0ee8f068ae75a23dafef7aa1c5750f5bdd241b5a7ab",
+      "sources": [
+        "https://1659cranberry.com/",
+        "https://bloomspgh.com/1659-2/",
+        "https://bloomspgh.com/bespoke/",
+        "https://straightlineboutique.com/",
+        "https://straightlineboutique.com/policies/refund-policy",
+        "https://www.cafeconmigo.com/",
+        "https://www.cafeconmigo.com/contact-us"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/1659-cranberry-cafe-boutique-florist-visit-guide",
+      "published": "2026-10-13",
+      "headline": "1659 Cranberry: Café, Boutique and Florist Hours Compared"
+    },
+    {
+      "slug": "7-brew-natrona-heights-freeport-road-opening-guide",
+      "url": "https://www.thepittsburghwire.com/news/7-brew-natrona-heights-freeport-road-opening-guide",
+      "status": 200,
+      "words": 532,
+      "body_sha256": "c5a92793e47313c5d58b732c40c1d141df88e32627c37b7bf76f95ab3d8f9c1b",
+      "sources": [
+        "https://7brew.com/support",
+        "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+        "https://www.audacy.com/kdkaradio/news/local/7-brew-location"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/7-brew-natrona-heights-freeport-road-opening-guide",
+      "published": "2026-10-13",
+      "headline": "7 Brew Opens in Natrona Heights: Freeport Road Hours and Ordering Details"
+    },
+    {
+      "slug": "action-for-animals-latrobe-adoption-fees-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/action-for-animals-latrobe-adoption-fees-visit-guide",
+      "status": 200,
+      "words": 521,
+      "body_sha256": "cf1ee2c47c51140e6527f46e6beb86cf229e2730b064d36f71a95ced49ca24c8",
+      "sources": [
+        "https://www.afashelter.org/",
+        "https://www.afashelter.org/adoption-fees/",
+        "https://www.afashelter.org/adoption-procedures/",
+        "https://www.afashelter.org/intake-policy/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/action-for-animals-latrobe-adoption-fees-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Action For Animals in Latrobe: Adoption Documents, Fees and Visit Planning"
+    },
+    {
+      "slug": "alma-lewis-expanded-space-october-2026-reopening",
+      "url": "https://www.thepittsburghwire.com/news/alma-lewis-expanded-space-october-2026-reopening",
+      "status": 200,
+      "words": 552,
+      "body_sha256": "fee73fa7917d1df0db8d5ddf1c3995524696de17bb7e0bc0b62473b96d4d68ec",
+      "sources": [
+        "https://almalewis.org/capital-campaign/",
+        "https://almalewis.org/event/color-is-life-community-day/",
+        "https://almalewis.org/event/color-is-life-grand-reopening-party/",
+        "https://almalewis.org/event/joy-ride-an-odyssey-in-black/",
+        "https://almalewis.org/exhibition/cecil-mcdonald-jrthe-american-beauty/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/alma-lewis-expanded-space-october-2026-reopening",
+      "published": "2026-10-13",
+      "headline": "ALMA | LEWIS Plans October 23–24 Reopening for Expanded Art Space"
+    },
+    {
+      "slug": "back-nine-mt-nebo-golf-public-booking-memberships",
+      "url": "https://www.thepittsburghwire.com/news/back-nine-mt-nebo-golf-public-booking-memberships",
+      "status": 200,
+      "words": 537,
+      "body_sha256": "0523d3dc224f36062dba13abd864a53f80eccab0a9d54b980a7dc20bec316f5f",
+      "sources": [
+        "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/",
+        "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/agreement/",
+        "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/bookings/",
+        "https://thebackninegolf.com/local/pittsburgh-pa-mt-nebo/memberships/",
+        "https://www.zamias.com/news"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/back-nine-mt-nebo-golf-public-booking-memberships",
+      "published": "2026-10-13",
+      "headline": "Back Nine Golf at Mt. Nebo: Public Tee Times and Memberships Compared"
+    },
+    {
+      "slug": "bar-marco-strip-district-menu-reservation-guide",
+      "url": "https://www.thepittsburghwire.com/news/bar-marco-strip-district-menu-reservation-guide",
+      "status": 200,
+      "words": 507,
+      "body_sha256": "07d18ad17bf73e9f2ab99b8f63e1b87084c11dc42d4be5771168619045919740",
+      "sources": [
+        "https://www.barmarcopgh.com/",
+        "https://www.barmarcopgh.com/menu-1",
+        "https://www.barmarcopgh.com/s/Current-Menu-092226.pdf",
+        "https://www.barmarcopgh.com/wine-room/",
+        "https://www.exploretock.com/barmarcopgh",
+        "https://www.exploretock.com/barmarcopgh/experience/354598/dining-reservation",
+        "https://www.exploretock.com/barmarcopgh/experience/359133/bar-reservation",
+        "https://www.exploretock.com/barmarcopgh/experience/532475/the-wine-room",
+        "https://www.exploretock.com/barmarcopgh/private-dining"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/bar-marco-strip-district-menu-reservation-guide",
+      "published": "2026-10-13",
+      "headline": "Bar Marco in the Strip District: Menu, Bar Seats and Wine Room Reservations"
+    },
+    {
+      "slug": "bela-east-liberty-vietnamese-menu-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/bela-east-liberty-vietnamese-menu-visit-guide",
+      "status": 200,
+      "words": 515,
+      "body_sha256": "b5f8502d7474b5d4906251fb7e6bcb2708a8f0041421613ecc77c6573f04884b",
+      "sources": [
+        "https://belapgh.com/",
+        "https://belapgh.com/food-menu",
+        "https://www.pennsylvasia.com/2026/06/vietnamese-restaurant-bela-kitchen-soft.html"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/bela-east-liberty-vietnamese-menu-visit-guide",
+      "published": "2026-10-13",
+      "headline": "BéLa in East Liberty: Broths, Shared Plates and Visit Planning"
+    },
+    {
+      "slug": "black-dog-wood-fired-ambridge-orders-event-guide",
+      "url": "https://www.thepittsburghwire.com/news/black-dog-wood-fired-ambridge-orders-event-guide",
+      "status": 200,
+      "words": 510,
+      "body_sha256": "e7f34e0ceba56f63ebc8d697c84612a6caad8bd4998c458066756936ca3cae1e",
+      "sources": [
+        "https://blackdogwoodfired.com/",
+        "https://blackdogwoodfired.com/about-us/",
+        "https://blackdogwoodfired.com/catering/",
+        "https://blackdogwoodfired.com/contact-us/",
+        "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
+        "https://www.pittsburghmagazine.com/new-restaurants-in-pittsburgh-2/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/black-dog-wood-fired-ambridge-orders-event-guide",
+      "published": "2026-10-13",
+      "headline": "Black Dog Wood Fired in Ambridge: Pizza Orders and Event Enquiries"
+    },
+    {
+      "slug": "body-by-design-pittsburgh-booking-membership-guide",
+      "url": "https://www.thepittsburghwire.com/news/body-by-design-pittsburgh-booking-membership-guide",
+      "status": 200,
+      "words": 551,
+      "body_sha256": "77a9fd9d3aa13e1037fb39b824e0ba7a6d3c8be16e14f16dea94c7801607d94a",
+      "sources": [
+        "https://bodybydesignpgh.com/connect/",
+        "https://bodybydesignpgh.com/memberships/",
+        "https://bodybydesignpgh.com/policies/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/body-by-design-pittsburgh-booking-membership-guide",
+      "published": "2026-10-13",
+      "headline": "Body By Design Pittsburgh: Booking, Memberships and Package Terms"
+    },
+    {
+      "slug": "brewberry-east-liberty-coffee-milk-tea-menu-guide",
+      "url": "https://www.thepittsburghwire.com/news/brewberry-east-liberty-coffee-milk-tea-menu-guide",
+      "status": 200,
+      "words": 520,
+      "body_sha256": "e45a3b33585f57d8703c062d18ec2cfd29fa82642cfe46a82b1a00c95db59f9f",
+      "sources": [
+        "https://order.toasttab.com/online/brewberry-coffee-shop-6119-penn-ave",
+        "https://www.brewberrypgh.com/",
+        "https://www.brewberrypgh.com/menu.pdf",
+        "https://www.brewberrypgh.com/our-story"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/brewberry-east-liberty-coffee-milk-tea-menu-guide",
+      "published": "2026-10-13",
+      "headline": "Brewberry in East Liberty: Coffee, Milk Tea and Bakery Menu Guide"
+    },
+    {
+      "slug": "brunk-armstrong-innovation-park-2027-groundbreaking-plan",
+      "url": "https://www.thepittsburghwire.com/news/brunk-armstrong-innovation-park-2027-groundbreaking-plan",
+      "status": 200,
+      "words": 508,
+      "body_sha256": "f0e222d6e8a23f3d483647e8880a89cfa6f47272b2f6fc737f938c5edc15175e",
+      "sources": [
+        "https://www.brunk.com/capabilities/rapid-prototyping",
+        "https://www.brunk.com/careers",
+        "https://www.brunk.com/locations/brunk-technology-center-pittsburgh",
+        "https://www.pa.gov/governor/newsroom/2026-press-releases/creating-jobs-in-armstrong-county--gov--shapiro-secures--31-7-mi"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/brunk-armstrong-innovation-park-2027-groundbreaking-plan",
+      "published": "2026-10-13",
+      "headline": "Brunk Plans 2027 Groundbreaking for Armstrong County Expansion"
+    },
+    {
+      "slug": "calgon-carbon-neville-township-expansion-plans-background",
+      "url": "https://www.thepittsburghwire.com/news/calgon-carbon-neville-township-expansion-plans-background",
+      "status": 200,
+      "words": 507,
+      "body_sha256": "26e17babd06ce6271dd21d125c72c7e9dc34d95f831e2c1efd677ef0bf7e158b",
+      "sources": [
+        "https://www.calgoncarbon.com/media/press-releases/2026-07-10/calgon-carbon-marks-major-expansion-of-texas-facility-nearly-doubling-reactivated-carbon-output-capacity/",
+        "https://www.calgoncarbon.com/reactivation-services/",
+        "https://www.calgoncarbon.com/water-processing/",
+        "https://www.pa.gov/governor/newsroom/2025-press-releases/gov-shapiro-secures--13-2m-investment-from-calgon-carbon-corp--"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/calgon-carbon-neville-township-expansion-plans-background",
+      "published": "2026-10-13",
+      "headline": "Calgon Carbon’s Neville Township Expansion Plans: Two Sites, Distinct Operations"
+    },
+    {
+      "slug": "caliente-pizza-aspinwall-ordering-menu-party-guide",
+      "url": "https://www.thepittsburghwire.com/news/caliente-pizza-aspinwall-ordering-menu-party-guide",
+      "status": 200,
+      "words": 526,
+      "body_sha256": "20bfc452c8772e3c44410963ebf8ebaa9be799f19bf8d0853df40e6c936ae7a7",
+      "sources": [
+        "https://worldsbestpizza.com/",
+        "https://worldsbestpizza.com/locations/aspinwall/",
+        "https://worldsbestpizza.com/menu/",
+        "https://worldsbestpizza.com/room-rentals/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/caliente-pizza-aspinwall-ordering-menu-party-guide",
+      "published": "2026-10-13",
+      "headline": "Caliente Pizza in Aspinwall: Ordering, Menu Choices and Party Enquiries"
+    },
+    {
+      "slug": "capozolis-south-side-menu-corkage-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/capozolis-south-side-menu-corkage-visit-guide",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "46f73ca8e3cb14b5f44665b474cae85e9327fbdcd0bf96efaa86030686ad8865",
+      "sources": [
+        "https://capozolis.com/",
+        "https://drive.google.com/file/d/1VbmOAWVLqKduxlAigsKcqspyhx7cppQo/view",
+        "https://www.pittsburghmagazine.com/new-restaurants-in-pittsburgh-2/",
+        "https://www.toasttab.com/local/order/capozolis-2516-east-carson-street/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/capozolis-south-side-menu-corkage-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Capozoli’s on the South Side: Menu Choices, Corkage and Visit Planning"
+    },
+    {
+      "slug": "commonplace-coffee-northland-library-cafe-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/commonplace-coffee-northland-library-cafe-visit-guide",
+      "status": 200,
+      "words": 527,
+      "body_sha256": "2965619ca9f4a135fa8cae00e6add8c9c7adfd0ce3dba40bc5dd095dee2a5adb",
+      "sources": [
+        "https://commonplacecoffee.com/pages/northland-public-library",
+        "https://www.northlandlibrary.org/about-northland/general-policies/no-solicitation-policy/",
+        "https://www.northlandlibrary.org/accessibility/",
+        "https://www.northlandlibrary.org/commonplace-coffee-northland/",
+        "https://www.northlandlibrary.org/new-northland/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/commonplace-coffee-northland-library-cafe-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Commonplace at Northland Library: Café Hours, Seating and Visit Details"
+    },
+    {
+      "slug": "compass-point-coffee-millvale-grant-street-plans-guide",
+      "url": "https://www.thepittsburghwire.com/news/compass-point-coffee-millvale-grant-street-plans-guide",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "a9a477b93135ef247570b1c6d8574b9ebac3fa7800052fb3710c2ca01530fd64",
+      "sources": [
+        "https://www.compasspointcoffee.com/",
+        "https://www.compasspointcoffee.com/about-us",
+        "https://www.compasspointcoffee.com/product-page/mix-and-match-roasts",
+        "https://www.compasspointcoffee.com/subscriptions",
+        "https://www.compasspointcoffee.com/wholesale",
+        "https://www.pittsburghmagazine.com/new-restaurants-in-pittsburgh-2/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/compass-point-coffee-millvale-grant-street-plans-guide",
+      "published": "2026-10-13",
+      "headline": "Compass Point Coffee Lists Grant Street Plans in Millvale"
+    },
+    {
+      "slug": "cork-crust-oaklander-pittsburgh-menu-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/cork-crust-oaklander-pittsburgh-menu-visit-guide",
+      "status": 200,
+      "words": 520,
+      "body_sha256": "5a58a679adc6a086d81a13fe52fb31a54df86e3b3cc415643b1765cbde9967c0",
+      "sources": [
+        "https://www.corkandcrustpittsburgh.com/",
+        "https://www.corkandcrustpittsburgh.com/menus",
+        "https://www.visitpittsburgh.com/blog/new-businesses-events-and-more-in-pittsburgh-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/cork-crust-oaklander-pittsburgh-menu-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Cork & Crust at The Oaklander: Pizza, Menus and Visit Planning"
+    },
+    {
+      "slug": "cosmic-treats-sweets-mars-menu-hours-opening-background",
+      "url": "https://www.thepittsburghwire.com/news/cosmic-treats-sweets-mars-menu-hours-opening-background",
+      "status": 200,
+      "words": 546,
+      "body_sha256": "f6fd022b283874a453846b4371be4b638d6f279fda74a3745aa6fa973a2e5b2c",
+      "sources": [
+        "https://apps.apple.com/us/app/cosmic-treats-sweets/id6772290774",
+        "https://butlerradio.com/new-ice-cream-shop-coming-to-mars/",
+        "https://www.butlereagle.com/20260729/mars-welcomes-new-ice-cream-shop-with-open-arms/",
+        "https://www.cosmictreatsandsweets.space/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/cosmic-treats-sweets-mars-menu-hours-opening-background",
+      "published": "2026-10-13",
+      "headline": "Cosmic Treats & Sweets in Mars: Hours, Menu Choices and Opening Background"
+    },
+    {
+      "slug": "cranberry-ebisu-life-saba-origin-announced-plans",
+      "url": "https://www.thepittsburghwire.com/news/cranberry-ebisu-life-saba-origin-announced-plans",
+      "status": 200,
+      "words": 552,
+      "body_sha256": "fa85ae8f794bb92d7fb66a2919899dbfc6cce92ad28ba52cb3433b2064b1505c",
+      "sources": [
+        "https://ebisu.us/stores",
+        "https://www.cranberrytownship.org/1580/Opening-Soon",
+        "https://www.pittsburghmagazine.com/ebisu-life-japanese-store-cranberry-2026/",
+        "https://www.sabaorigincoffee.com/locations",
+        "https://www.sabaorigincoffee.com/menu"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/cranberry-ebisu-life-saba-origin-announced-plans",
+      "published": "2026-10-13",
+      "headline": "Ebisu Life and Saba Origin Coffee: Two Announced Cranberry Business Plans"
+    },
+    {
+      "slug": "crispy-cones-allison-park-menu-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/crispy-cones-allison-park-menu-visit-guide",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "439597134fea35df63e38dc3fb40aba6d66f51325e83741e2394959139f24625",
+      "sources": [
+        "https://cdn-prod.thecrispycones.com/Menu/CC-menu.png",
+        "https://crispycones.com/about",
+        "https://crispycones.com/allergen",
+        "https://crispycones.com/allisonpark-pa",
+        "https://www.pittsburghmagazine.com/new-restaurants-in-pittsburgh-2/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/crispy-cones-allison-park-menu-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Crispy Cones in Allison Park: Menu Formats and Visit Details"
+    },
+    {
+      "slug": "dancing-gnome-two-sharpsburg-locations-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/dancing-gnome-two-sharpsburg-locations-visit-guide",
+      "status": 200,
+      "words": 543,
+      "body_sha256": "8463a8c1a544ae5e49f4563c0ce4817f7de6892352557d7cb6c4e1a1559b9f41",
+      "sources": [
+        "https://dancinggnomebeer.com/faqs/",
+        "https://dancinggnomebeer.com/location/1025-main/",
+        "https://dancinggnomebeer.com/location/925-main/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/dancing-gnome-two-sharpsburg-locations-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Dancing Gnome’s Two Main Street Spaces: Taproom and Cocktail Room Guide"
+    },
+    {
+      "slug": "dooboo-east-liberty-stationery-pickup-guide",
+      "url": "https://www.thepittsburghwire.com/news/dooboo-east-liberty-stationery-pickup-guide",
+      "status": 200,
+      "words": 513,
+      "body_sha256": "cc0c4109e3fe619be10df529eb1383aa90482d04a39d186cdb6e1cbf5f753ab0",
+      "sources": [
+        "https://heydooboo.com/",
+        "https://heydooboo.com/pages/about-us",
+        "https://heydooboo.com/pages/shop-by-brands-1",
+        "https://heydooboo.com/pages/shop-by-category"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/dooboo-east-liberty-stationery-pickup-guide",
+      "published": "2026-10-13",
+      "headline": "DooBoo in East Liberty: Stationery, Pickup and Visit Planning"
+    },
+    {
+      "slug": "eichenlaub-millvale-studio-landscape-planning-guide",
+      "url": "https://www.thepittsburghwire.com/news/eichenlaub-millvale-studio-landscape-planning-guide",
+      "status": 200,
+      "words": 503,
+      "body_sha256": "14118706dfee7072ddce187a4be0a3e9656012d4578446367f423488087f65f0",
+      "sources": [
+        "https://eichenlaub.com/landscaping-design/",
+        "https://eichenlaub.com/landscaping-maintain/",
+        "https://eichenlaub.com/outdoor-living-studio/",
+        "https://eichenlaub.com/where-we-are/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/eichenlaub-millvale-studio-landscape-planning-guide",
+      "published": "2026-10-13",
+      "headline": "Eichenlaub’s Millvale Studio: Materials, Design Visits and Maintenance"
+    },
+    {
+      "slug": "el-colibri-garfield-penn-avenue-restaurant-guide",
+      "url": "https://www.thepittsburghwire.com/news/el-colibri-garfield-penn-avenue-restaurant-guide",
+      "status": 200,
+      "words": 517,
+      "body_sha256": "ca65cd51908c0c7f5cfc417b96b40f1f4f0f98c29b107b2e91f77df25afe9c13",
+      "sources": [
+        "https://elcolibrillc.com/",
+        "https://elcolibrillc.com/about",
+        "https://elcolibrillc.com/food-menu",
+        "https://www.investpgh.org/news/welcome-to-penn-avenue",
+        "https://www.visitpittsburgh.com/blog/el-colibri-serves-up-mexico-city-style-street-food-welcoming-all-to-penn-aves-creative-corridor/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/el-colibri-garfield-penn-avenue-restaurant-guide",
+      "published": "2026-10-13",
+      "headline": "El Colibrí in Garfield: From Markets to a Penn Avenue Restaurant"
+    },
+    {
+      "slug": "fnf-pizzeria-mt-lebanon-menu-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/fnf-pizzeria-mt-lebanon-menu-visit-guide",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "433840ea3e12d680c93fc7d2a5b3362acc1a699e715c6cc149eb4fd1f1851b0f",
+      "sources": [
+        "https://fandfpizzeria.blob.core.windows.net/fandfmenus/Food_Front_Lunch_Pittsburgh.pdf",
+        "https://www.fnfpizzeria.com/location/pittsburgh",
+        "https://www.pittsburghmagazine.com/26-new-restaurants-for-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/fnf-pizzeria-mt-lebanon-menu-visit-guide",
+      "published": "2026-10-13",
+      "headline": "F&F Pizzeria in Mt. Lebanon: Lunch Menu, Reservations and Visit Planning"
+    },
+    {
+      "slug": "foxhole-tavern-aspinwall-menu-reservations-guide",
+      "url": "https://www.thepittsburghwire.com/news/foxhole-tavern-aspinwall-menu-reservations-guide",
+      "status": 200,
+      "words": 512,
+      "body_sha256": "8afab434f14bae105adda3753375f2e772cbec2f24686f580c36a7c71e49b861",
+      "sources": [
+        "https://foxholetavernpgh.com/",
+        "https://foxholetavernpgh.com/food-menu",
+        "https://www.visitpittsburgh.com/blog/new-businesses-events-and-more-in-pittsburgh-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/foxhole-tavern-aspinwall-menu-reservations-guide",
+      "published": "2026-10-13",
+      "headline": "Foxhole Tavern in Aspinwall: Menu, Hours and Reservations"
+    },
+    {
+      "slug": "general-rental-center-cranberry-equipment-event-guide",
+      "url": "https://www.thepittsburghwire.com/news/general-rental-center-cranberry-equipment-event-guide",
+      "status": 200,
+      "words": 509,
+      "body_sha256": "a035431649720b00f2cefafcb7cd028b2cdda3f5b48a5908770fbb2b685b9819",
+      "sources": [
+        "https://www.general-rental-center.com/contact-us/",
+        "https://www.general-rental-center.com/everything-equipment/",
+        "https://www.general-rental-center.com/faq/",
+        "https://www.general-rental-center.com/rent/equipment/outdoor-maintenance/lawn-garden/sod-cutter-12/",
+        "https://www.general-rental-center.com/rentals/equipment/outdoor-maintenance/lawn-garden/",
+        "https://www.general-rental-center.com/services/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/general-rental-center-cranberry-equipment-event-guide",
+      "published": "2026-10-13",
+      "headline": "General Rental Center in Cranberry: Equipment, Events and Pickup Details"
+    },
+    {
+      "slug": "golden-age-bohemian-north-side-homestead-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/golden-age-bohemian-north-side-homestead-visit-guide",
+      "status": 200,
+      "words": 536,
+      "body_sha256": "ef3ae4b6455f79ff7c22ec03bc412047a6bb308ee439fa9e18b056acb5ad4f9c",
+      "sources": [
+        "https://pittsburgh.tablemagazine.com/blog/the-bohemian-bar-vibes-northside/",
+        "https://www.bohemianpgh.com/",
+        "https://www.goldenagebeer.com/faq",
+        "https://www.goldenagebeer.com/visit-us",
+        "https://www.qdevelopment.com/wp-content/uploads/2025/10/Golden-Age-PR-2025-09-30.pdf"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/golden-age-bohemian-north-side-homestead-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Golden Age’s Bohemian Expansion: North Side Bar and Homestead Visit Details"
+    },
+    {
+      "slug": "hazelwood-volpatt-construction-junction-material-reuse-pilot",
+      "url": "https://www.thepittsburghwire.com/news/hazelwood-volpatt-construction-junction-material-reuse-pilot",
+      "status": 200,
+      "words": 517,
+      "body_sha256": "0cf96cb370cf9993f1afb8f3c1bfe5a34b2932140ed88c21c97e8fd2a6d53a5c",
+      "sources": [
+        "https://cjreuse.org/faq/",
+        "https://volpatt.com/hazelwood-initiative-inc-volpatt-construction-and-construction-junction-pilot-material-reuse-strategy-for-affordable-housing-renovation/",
+        "https://www.hazelwoodinitiative.org/post/publisher-s-page-groundbreaking-celebrates-35-unit-renovation-project-the-homepage"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/hazelwood-volpatt-construction-junction-material-reuse-pilot",
+      "published": "2026-10-13",
+      "headline": "Hazelwood Renovation Pilot Shows the Promise—and Limits—of Reused Materials"
+    },
+    {
+      "slug": "hyeholde-tavern-reservations-dining-guidelines-guide",
+      "url": "https://www.thepittsburghwire.com/news/hyeholde-tavern-reservations-dining-guidelines-guide",
+      "status": 200,
+      "words": 522,
+      "body_sha256": "29c7703d5e4bb87d8a2e337abc0b8ffef48aaa02692163fdb3f552a37aa12a4a",
+      "sources": [
+        "https://www.axios.com/local/pittsburgh/2026/02/19/hyeholde-restaurant-launches-new-tavern-pittsburgh",
+        "https://www.hyeholde.com/contact-1",
+        "https://www.hyeholde.com/dining-guidelines",
+        "https://www.hyeholde.com/tavern"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/hyeholde-tavern-reservations-dining-guidelines-guide",
+      "published": "2026-10-13",
+      "headline": "The Tavern at Hyeholde: Reserve the Right Room and Plan Your Visit"
+    },
+    {
+      "slug": "iron-basil-west-view-takeout-menu-opening-status",
+      "url": "https://www.thepittsburghwire.com/news/iron-basil-west-view-takeout-menu-opening-status",
+      "status": 200,
+      "words": 500,
+      "body_sha256": "b1a2a1b410a87b2cc83910a3c4744f3db5bf03086db3e9de6428d207cadfbc06",
+      "sources": [
+        "https://order.toasttab.com/online/iron-and-basil-pgh-412-perry-highway",
+        "https://www.ironandbasil.com/",
+        "https://www.ironandbasil.com/menu",
+        "https://www.pittsburghmagazine.com/dig-in-with-graver-iron-basil/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/iron-basil-west-view-takeout-menu-opening-status",
+      "published": "2026-10-13",
+      "headline": "Iron & Basil in West View: Takeout Menu and Dining-Room Status"
+    },
+    {
+      "slug": "kan-pai-sushi-bridgeville-menus-prices-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/kan-pai-sushi-bridgeville-menus-prices-visit-guide",
+      "status": 200,
+      "words": 518,
+      "body_sha256": "2843bf92f999f8d0b9b20ac3cc964386f0eec53d7ee610394d0f3f1b56f15a46",
+      "sources": [
+        "https://bridgeville.kpsushi.com/",
+        "https://bridgeville.kpsushi.com/menu/dinner",
+        "https://bridgeville.kpsushi.com/menu/lunch",
+        "https://bridgeville.kpsushi.com/menu/takeout",
+        "https://www.zamias.com/news"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/kan-pai-sushi-bridgeville-menus-prices-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Kan Pai Sushi in Bridgeville: Lunch, Dinner and Takeout Compared"
+    },
+    {
+      "slug": "lavande-whisk-bakery-economy-coffee-custom-orders",
+      "url": "https://www.thepittsburghwire.com/news/lavande-whisk-bakery-economy-coffee-custom-orders",
+      "status": 200,
+      "words": 505,
+      "body_sha256": "fbc4a6a8cb21017c6acb954f852d1b7540c268183be2fe37efd5492161aea187",
+      "sources": [
+        "https://www.casadecomida.com/",
+        "https://www.casadecomida.com/menu",
+        "https://www.lavandewhiskbakery.com/",
+        "https://www.pittsburghmagazine.com/lavande-whisk-bakery-economy/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/lavande-whisk-bakery-economy-coffee-custom-orders",
+      "published": "2026-10-13",
+      "headline": "Lavande Whisk Bakery: Coffee Stops and Custom Orders in Economy"
+    },
+    {
+      "slug": "lawrenceville-romance-bookstores-two-shopping-options",
+      "url": "https://www.thepittsburghwire.com/news/lawrenceville-romance-bookstores-two-shopping-options",
+      "status": 200,
+      "words": 511,
+      "body_sha256": "efc1c27c379c97c45102c120b7d7542414a124d4dac7f54f69061c4d163a6709",
+      "sources": [
+        "https://bookshop.org/shop/theshelflovesociety",
+        "https://linktr.ee/Passionatepagesbookstore",
+        "https://lvpgh.com/directory-lvbusiness/listing/passionate-pages/",
+        "https://www.eventbrite.com/o/passionate-pages-bookstore-121052961367",
+        "https://www.theshelflovesociety.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/lawrenceville-romance-bookstores-two-shopping-options",
+      "published": "2026-10-13",
+      "headline": "Two Lawrenceville Romance Bookstores: Shopping and Book Clubs"
+    },
+    {
+      "slug": "mad-anthonys-ambridge-german-menu-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/mad-anthonys-ambridge-german-menu-visit-guide",
+      "status": 200,
+      "words": 500,
+      "body_sha256": "f2be099f6178d53032c547d30056c1c72c8a648411693a763a2307654d0e7bc6",
+      "sources": [
+        "https://madanthonysbierstube.com/",
+        "https://madanthonysbierstube.com/food-menu",
+        "https://madanthonysbierstube.com/party",
+        "https://www.pittsburghmagazine.com/26-new-restaurants-for-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/mad-anthonys-ambridge-german-menu-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Mad Anthony’s Bier Stube in Ambridge: German Fare and Visit Planning"
+    },
+    {
+      "slug": "mecka-fitness-cranberry-planned-opening-membership-terms",
+      "url": "https://www.thepittsburghwire.com/news/mecka-fitness-cranberry-planned-opening-membership-terms",
+      "status": 200,
+      "words": 534,
+      "body_sha256": "ab4fb56377a10f0f84d843e2ad27f16c79b594f5a7f933390bdbfdc556399176",
+      "sources": [
+        "https://www.cranberrytownship.org/1580/Opening-Soon",
+        "https://www.meckafitness.com/cranberry-location",
+        "https://www.meckafitness.com/cranberry-public-sale",
+        "https://www.meckafitness.com/locations",
+        "https://www.meckafitness.com/mecka-classes",
+        "https://www.meckafitness.com/policies-and-guidelines"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/mecka-fitness-cranberry-planned-opening-membership-terms",
+      "published": "2026-10-13",
+      "headline": "Mecka Fitness Plans Cranberry Expansion: Opening Target and Membership Terms"
+    },
+    {
+      "slug": "murphs-kitchen-millvale-strange-roots-menu-hours",
+      "url": "https://www.thepittsburghwire.com/news/murphs-kitchen-millvale-strange-roots-menu-hours",
+      "status": 200,
+      "words": 501,
+      "body_sha256": "064e84d65c28446bf821ccc5a85e2bf7ef6320de366a67e152cdc7d1235fd018",
+      "sources": [
+        "https://murphs-kitchen.com/",
+        "https://www.pittsburghmagazine.com/murphs-kitchen-millvale/",
+        "https://www.strangerootsbeer.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/murphs-kitchen-millvale-strange-roots-menu-hours",
+      "published": "2026-10-13",
+      "headline": "Murph’s Kitchen in Millvale: Menu, Taproom Hours and What to Check"
+    },
+    {
+      "slug": "opafe-southside-works-opening-downtown-proposal-guide",
+      "url": "https://www.thepittsburghwire.com/news/opafe-southside-works-opening-downtown-proposal-guide",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "8353765d3ad0d049a711b3a064f55a54e917cc0ba71ecf02d20d79a957000141",
+      "sources": [
+        "https://patch.com/pennsylvania/pittsburgh/artisan-bakery-cafe-opens-pittsburgh",
+        "https://southsideworks.com/directory-2/",
+        "https://www.instagram.com/opafebakery/p/Dd9U1fLCzqq/",
+        "https://www.instagram.com/p/Ddg6Yrgia-7/",
+        "https://www.pittsburghpa.gov/files/assets/city/v/2/dcp/documents/historic-review-commission/april-2026/bda-2026-00363-800-penn-avenue-hrc-2026-04-01.pdf"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/opafe-southside-works-opening-downtown-proposal-guide",
+      "published": "2026-10-13",
+      "headline": "Opafe at SouthSide Works: Opening Updates and a Separate Downtown Proposal"
+    },
+    {
+      "slug": "orrs-jewelers-strip-district-store-services-guide",
+      "url": "https://www.thepittsburghwire.com/news/orrs-jewelers-strip-district-store-services-guide",
+      "status": 200,
+      "words": 502,
+      "body_sha256": "63e372dddf2afb3cfb809ddbc614bd11b3ae382ea47e1dcb2febadcc67f30ac8",
+      "sources": [
+        "https://orrsjewelers.com/pages/contact-us",
+        "https://orrsjewelers.com/pages/history",
+        "https://orrsjewelers.com/pages/orr-s-jewelers-at-1674-smallman",
+        "https://orrsjewelers.com/pages/services"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/orrs-jewelers-strip-district-store-services-guide",
+      "published": "2026-10-13",
+      "headline": "Orr’s Jewelers in the Strip District: Store and Service Planning"
+    },
+    {
+      "slug": "patterns-of-meaning-shop-southside-works-extended-2026",
+      "url": "https://www.thepittsburghwire.com/news/patterns-of-meaning-shop-southside-works-extended-2026",
+      "status": 200,
+      "words": 555,
+      "body_sha256": "665fc8cb4337775662fdc7b8f0182285c33eda2e4f2a440e75fd052ccab2de0a",
+      "sources": [
+        "https://patternsofmeaning.org/blogs/news/a-working-studio-at-the-shop-stop-in-to-see-new-art",
+        "https://patternsofmeaning.org/blogs/news/the-shop-at-southside-works-is-extended-through-2026",
+        "https://patternsofmeaning.org/pages/artistic-team",
+        "https://patternsofmeaning.org/pages/contact",
+        "https://patternsofmeaning.org/pages/patterns-of-meaning"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/patterns-of-meaning-shop-southside-works-extended-2026",
+      "published": "2026-10-13",
+      "headline": "The Shop at SouthSide Works Extends Its Gallery and Studio Run Through 2026"
+    },
+    {
+      "slug": "phat-bagel-bloomfield-custom-menu-guide",
+      "url": "https://www.thepittsburghwire.com/news/phat-bagel-bloomfield-custom-menu-guide",
+      "status": 200,
+      "words": 513,
+      "body_sha256": "e9b0712fd7a705321c7599bbf85a5321ec5e53544edfbf4c76d96b6ba258ff56",
+      "sources": [
+        "https://phatbagel.com/",
+        "https://phatbagel.com/menu/phatbagel",
+        "https://phatbagel.com/menu/phatbagel/group_f5af9bcc-679f-4a38-9f81-ad31e8580fa8/item-breakfast-sandwich_8bd4e8c7-2c89-4269-9e67-8e5b96d4efdc",
+        "https://www.pittsburghmagazine.com/26-new-restaurants-for-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/phat-bagel-bloomfield-custom-menu-guide",
+      "published": "2026-10-13",
+      "headline": "Phat Bagel in Bloomfield: Custom Spreads, Sandwiches and Hours"
+    },
+    {
+      "slug": "pittsburgh-adult-language-classes-three-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-adult-language-classes-three-options",
+      "status": 200,
+      "words": 527,
+      "body_sha256": "c6a5e3e131243e2cfc7ceaa82e3a42c077c47c8cebdbb5503719ba8142675999",
+      "sources": [
+        "https://pittsburghspanishplace.com/adult-classes/adult-group-classes/",
+        "https://pittsburghspanishplace.com/get-in-touch/",
+        "https://www.afpittsburgh.org/",
+        "https://www.istitutomondoitaliano.org/adult-italian-language-classes-242925.html"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-adult-language-classes-three-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Adult Language-Class Options: Spanish, French and Italian"
+    },
+    {
+      "slug": "pittsburgh-adult-sewing-lessons-three-learning-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-adult-sewing-lessons-three-learning-options",
+      "status": 200,
+      "words": 538,
+      "body_sha256": "0f01f09f5240013f57159f4298b7d04b21e85d945b63b64f684b3795f08f5240",
+      "sources": [
+        "https://cutandsewstudio.com/class/basics-of-working-with-a-pattern/",
+        "https://cutandsewstudio.com/class/intro-to-sewing-for-adults/",
+        "https://cutandsewstudio.com/classes/",
+        "https://cutandsewstudio.com/faqs/",
+        "https://www.firecrackerfabrics.com/facts-faqs-frequently-asked-questions.htm",
+        "https://www.oldflamemending.com/lessons",
+        "https://www.workshoppgh.com/product/sew101-april9sun23/5NXOCRLVPOXYFK4ONMDSXHEG"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-adult-sewing-lessons-three-learning-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Sewing-Lesson Options: Machine Basics, Patterns and Repairs"
+    },
+    {
+      "slug": "pittsburgh-adult-swim-lessons-three-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-adult-swim-lessons-three-options",
+      "status": 200,
+      "words": 517,
+      "body_sha256": "4465f445f7bb70e85e13df09b41dd3d94c266146eab36a3f6874fdf34e8bfb9a",
+      "sources": [
+        "https://britishswimschool.com/pittsburgh/location/residence-inn-monroeville/",
+        "https://britishswimschool.com/pittsburgh/programs/adult/",
+        "https://jccpgh.org/sports-and-aquatics/aquatics/",
+        "https://www.pittsburghymca.org/locations/thelma-lovette-ymca",
+        "https://www.pittsburghymca.org/swimlessons"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-adult-swim-lessons-three-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Adult Swim-Lesson Options: Class Sizes, Pools and Booking"
+    },
+    {
+      "slug": "pittsburgh-archery-lessons-range-three-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-archery-lessons-range-three-options",
+      "status": 200,
+      "words": 557,
+      "body_sha256": "8f5b6dd8b72d5fecd687c2ba6f6529315e3ba160e3b6d790153e0c8b34bdbb0c",
+      "sources": [
+        "https://cabotarchery.com/",
+        "https://thearchersedge.com/services/",
+        "https://www.facebook.com/cabotarchery/",
+        "https://www.llbeanoutdoors.com/activity/private-one-hour-archery-lesson-gibsonia"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-archery-lessons-range-three-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh-Area Archery: Three Lesson and Range Options Compared"
+    },
+    {
+      "slug": "pittsburgh-area-toy-stores-three-shopping-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-area-toy-stores-three-shopping-options",
+      "status": 200,
+      "words": 524,
+      "body_sha256": "a5eea54920345c39200dfa2b346ab77998b54f8b476b0fceb0f672cd679a4310",
+      "sources": [
+        "https://playthings-etc.com/",
+        "https://playthings-etc.com/about/",
+        "https://shadysidevarietystore.com/",
+        "https://www.galleriapgh.com/stores/learning-express/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-area-toy-stores-three-shopping-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh-Area Toy Stores for Different Shopping Trips"
+    },
+    {
+      "slug": "pittsburgh-auto-detailing-three-service-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-auto-detailing-three-service-options",
+      "status": 200,
+      "words": 528,
+      "body_sha256": "9c2802e9fca66fef1a9f2090ae1bd53a0f36a3ad60b67a4bd5e08a45d7290923",
+      "sources": [
+        "https://pittsburghautodetailing.com/",
+        "https://steelcityautospa.com/",
+        "https://www.idetailpgh.com/contact-us",
+        "https://www.idetailpgh.com/copy-of-detail-services-1"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-auto-detailing-three-service-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Auto Detailing: Three Shops and How to Compare Packages"
+    },
+    {
+      "slug": "pittsburgh-auto-glass-three-quote-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-auto-glass-three-quote-options",
+      "status": 200,
+      "words": 517,
+      "body_sha256": "a5a3f28bdad8e5cb9892e7f3058141af2d4fc8a91bbf4b7e577fbe71195ee2ff",
+      "sources": [
+        "https://www.ryansautoglass.com/",
+        "https://www.safelite.com/stores/pittsburgh",
+        "https://www.threeriversautoglass.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-auto-glass-three-quote-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Auto Glass: Three Quote and Appointment Options"
+    },
+    {
+      "slug": "pittsburgh-basement-waterproofing-three-estimate-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-basement-waterproofing-three-estimate-options",
+      "status": 200,
+      "words": 508,
+      "body_sha256": "b72be5a3c6a8dcdb54b2dc35784f691edee03c6bfa8cdc06b85a0f95a62db436",
+      "sources": [
+        "https://www.advancedbasement.com/",
+        "https://www.advancedbasement.com/contact-us/",
+        "https://www.everdrypittsburgh.com/service-areas-everdry-pittsburgh/",
+        "https://www.keystonebasementsystems.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-basement-waterproofing-three-estimate-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Basement-Waterproofing Options: Estimates and Repair Scope"
+    },
+    {
+      "slug": "pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil",
+      "status": 200,
+      "words": 528,
+      "body_sha256": "c123184bd4afd08cd3252decd43a069cb700a17dc95868b908ccd72c8e8c917d",
+      "sources": [
+        "https://fogodechao.com/location/pittsburgh/",
+        "https://fogodechao.com/menu-detail/?id=4656&location=424&type=menu-dinner",
+        "https://texasdebrazil.com/faq/",
+        "https://texasdebrazil.com/locations/pittsburgh/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-brazilian-steakhouses-fogo-texas-de-brazil",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh Brazilian Steakhouses: Downtown and Station Square Compared"
+    },
+    {
+      "slug": "pittsburgh-car-washes-three-operators-memberships-vacuums",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-car-washes-three-operators-memberships-vacuums",
+      "status": 200,
+      "words": 542,
+      "body_sha256": "f62b1a66fc39ffbd3cb9795273ded02b5903532eb8d744ecd324032b794b97f0",
+      "sources": [
+        "https://dirkscarwash.com/",
+        "https://drakescarwash.com/locations/cranberry/",
+        "https://drakescarwash.com/locations/wilkins/",
+        "https://drakescarwash.com/unlimited-plans/",
+        "https://www.magicmikescarwash.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-car-washes-three-operators-memberships-vacuums",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Car Washes: Three Operators, Vacuum Access and Plans Compared"
+    },
+    {
+      "slug": "pittsburgh-carpet-cleaning-three-estimate-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-carpet-cleaning-three-estimate-options",
+      "status": 200,
+      "words": 521,
+      "body_sha256": "182fb1ba8ca4f748644777da3ff288b5d41354ba9991537da194effb9c808b61",
+      "sources": [
+        "https://cicarpetcleaning.com/pricing/",
+        "https://www.stanleysteemer.com/locations/PA/Pittsburgh/491",
+        "https://www.zerorez.com/pittsburgh",
+        "https://www.zerorez.com/pittsburgh/faqs"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-carpet-cleaning-three-estimate-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Carpet-Cleaning Options: Room Limits, Minimums and Pet Treatments"
+    },
+    {
+      "slug": "pittsburgh-chimney-services-three-scope-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-chimney-services-three-scope-options",
+      "status": 200,
+      "words": 523,
+      "body_sha256": "aefc49fe30fc595b64d9f4ad7ae93033f315d638e3f291809711fa21e733e5fb",
+      "sources": [
+        "https://chimneycricketpgh.com/",
+        "https://chimneycricketpgh.com/chimney-fireplace-services/fireplace-chimney-cleaning/",
+        "https://chimneycricketpgh.com/what-is-a-visual-chimney-inspection/",
+        "https://www.advancechimney.com/pittsburgh-pa/",
+        "https://www.dandgchimneysweeps.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-chimney-services-three-scope-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Chimney-Service Options: Sweeping, Inspections and Repairs"
+    },
+    {
+      "slug": "pittsburgh-clothing-resale-two-selling-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-clothing-resale-two-selling-options",
+      "status": 200,
+      "words": 530,
+      "body_sha256": "fce88bd8102a99cf102441bafa0c25715d97f34494eb3b556fede4c794e0dc7b",
+      "sources": [
+        "https://avalonexchange.com/faq/sell-your-fashion/",
+        "https://avalonexchange.com/pittsburgh-pa/",
+        "https://style-encore.com/locations/pittsburgh-pa-north-hills/",
+        "https://style-encore.com/sell-to-us/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-clothing-resale-two-selling-options",
+      "published": "2026-10-13",
+      "headline": "Selling Clothes in Pittsburgh: Two Resale Shops and Their Buying Rules"
+    },
+    {
+      "slug": "pittsburgh-computer-repair-three-intake-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-computer-repair-three-intake-options",
+      "status": 200,
+      "words": 501,
+      "body_sha256": "cad0e9fa5da7955e521bb66c9af1f9e4c33c1fe57ffe8bae100bc5e4c3a6db45",
+      "sources": [
+        "https://services.pitt.edu/TDClient/33/Portal/KB/Article/142/Getting-Help-at-a-Pitt-Digital-Drop-In-Support-Location",
+        "https://www.tektoninnovationsllc.com/computer-repair-pittsburgh/",
+        "https://www.ubreakifix.com/locations/pittsburgh/computer-repair"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-computer-repair-three-intake-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Computer-Repair and Support Routes: Diagnostics and Intake"
+    },
+    {
+      "slug": "pittsburgh-film-developing-labs-scans-negative-pickup",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-film-developing-labs-scans-negative-pickup",
+      "status": 200,
+      "words": 556,
+      "body_sha256": "48b47196c832727337b5da3c8575f0855db2086450674b4dd61a422c6d3e5b84",
+      "sources": [
+        "https://www.bodegafilmlab.com/",
+        "https://www.bodegafilmlab.com/faq-and-info-1",
+        "https://www.developmint.shop/site/contact-us",
+        "https://www.easternstandardphoto.com/",
+        "https://www.easternstandardphoto.com/film-lab",
+        "https://www.sellcameras.net/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-film-developing-labs-scans-negative-pickup",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Film-Developing Options: Scans, Turnaround and Negative Pickup"
+    },
+    {
+      "slug": "pittsburgh-fireplace-showrooms-product-installation-quotes",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-fireplace-showrooms-product-installation-quotes",
+      "status": 200,
+      "words": 549,
+      "body_sha256": "5b4136a60a6c02eda9186a04bc92231df32c1dfdd0a21b0e03cd23a52f9f283c",
+      "sources": [
+        "https://www.firepatio.com/fireplace-options",
+        "https://www.firepatio.com/locations",
+        "https://www.firepatio.com/store",
+        "https://www.westpennfireplaces.com/",
+        "https://www.westpennfireplaces.com/fireplace-inserts"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-fireplace-showrooms-product-installation-quotes",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh-Area Fireplace Showrooms: Products, Visits and Installation Quotes"
+    },
+    {
+      "slug": "pittsburgh-flooring-installation-three-quote-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-flooring-installation-three-quote-options",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "25b9898680070bdfd18b89a0f4eb0eb7942dddb7b2207f1f9cd7b7141e43f2b1",
+      "sources": [
+        "https://remnantcity.net/products/",
+        "https://remnantcity.net/services/",
+        "https://www.empiretoday.com/locations/pittsburgh",
+        "https://www.rusmurfloors.com/",
+        "https://www.rusmurfloors.com/get-a-free-estimate"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-flooring-installation-three-quote-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Flooring Installation: Three Ways to Compare Quotes"
+    },
+    {
+      "slug": "pittsburgh-foundation-grants-eligibility-portal-guide",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-foundation-grants-eligibility-portal-guide",
+      "status": 200,
+      "words": 502,
+      "body_sha256": "ff257c30cf854e37387b132fa69c497aa8d595c581f76a364bc69faedc8da67a",
+      "sources": [
+        "https://pittsburghfoundation.org/2026-spring-grantees",
+        "https://pittsburghfoundation.org/grant-opps",
+        "https://pittsburghfoundation.org/grantfaqs",
+        "https://pittsburghfoundation.org/grantguidelines",
+        "https://pittsburghfoundation.org/howtoapplyforgrants",
+        "https://pittsburghfoundation.org/small-and-mighty-grants"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-foundation-grants-eligibility-portal-guide",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Foundation Grants: Eligibility, Deadlines and Portal Planning"
+    },
+    {
+      "slug": "pittsburgh-gutter-cleaning-two-service-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-gutter-cleaning-two-service-options",
+      "status": 200,
+      "words": 523,
+      "body_sha256": "130ead8fa010c006c32a62d4fec886915631db1cf7ff2c7db85a2947670daa1a",
+      "sources": [
+        "https://cleartechgutters.com/",
+        "https://pittsburghexteriorcleaning.com/contact",
+        "https://pittsburghexteriorcleaning.com/gutter-cleaning"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-gutter-cleaning-two-service-options",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh Gutter-Cleaning Options: Flushing, Ground Access and Estimates"
+    },
+    {
+      "slug": "pittsburgh-haunted-attractions-three-2026-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-haunted-attractions-three-2026-options",
+      "status": 200,
+      "words": 534,
+      "body_sha256": "a4a084c1aef62047ef385ffee63ffbc55e40c3575c80a45c9bb40d9e64a053a6",
+      "sources": [
+        "https://frightfarm.com/",
+        "https://frightfarm.com/faqs/",
+        "https://hundredacresmanor.com/directions",
+        "https://hundredacresmanor.com/schedule",
+        "https://www.cheesemanfarm.com/cheesemanfrightfarm",
+        "https://www.cheesemanfarm.com/fright-farm-faq",
+        "https://www.cheesemanfarm.com/fright-farm-tickets",
+        "https://www.scarehouse.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-haunted-attractions-three-2026-options",
+      "published": "2026-10-13",
+      "headline": "Three Haunted Attractions Near Pittsburgh to Compare for 2026"
+    },
+    {
+      "slug": "pittsburgh-home-energy-assessments-three-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-home-energy-assessments-three-options",
+      "status": 200,
+      "words": 520,
+      "body_sha256": "c4f7dd1be816d4fa7d65b245e18f8ae59c35b959c891a4eabd8e605dd74b82cf",
+      "sources": [
+        "https://actionhousing.org/our-services/weatherization/",
+        "https://eeepgh.org/energy-assessments/",
+        "https://www.insulwise.com/",
+        "https://www.insulwise.com/contact/",
+        "https://www.insulwise.com/free-energy-comfort-analysis-of-your-home/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-home-energy-assessments-three-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Home-Energy Assessment Routes: Independent Advice, Contractor and Assistance"
+    },
+    {
+      "slug": "pittsburgh-home-inspectors-three-quote-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-home-inspectors-three-quote-options",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "909dde6a4d5b8743aa22293dcea768b74470c3e53a3ddbe220bb174702c7047c",
+      "sources": [
+        "https://foundationspropertyinspection.com/contact/",
+        "https://foundationspropertyinspection.com/home-inspection/",
+        "https://foundationspropertyinspection.com/pricing/",
+        "https://pittsburgh-home-inspections.com/buyers-home-inspection/",
+        "https://www.clarityinspects.com/cost-services/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-home-inspectors-three-quote-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Home-Inspection Options: Compare Scope, Prices and Reports"
+    },
+    {
+      "slug": "pittsburgh-hot-pot-three-dining-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-hot-pot-three-dining-options",
+      "status": 200,
+      "words": 548,
+      "body_sha256": "9ccca85063029b04c65bd9227249b51ac23c5c230206e5bae975386ccbf1cc5c",
+      "sources": [
+        "https://honghotpot.com/faqs/",
+        "https://honghotpot.com/menu/",
+        "https://honghotpot.com/pittsburgh/",
+        "https://www.kikupittsburgh.net/",
+        "https://www.kikupittsburgh.net/_files/ugd/2cab0e_68f651dbf333467dba14514d045611fd.pdf",
+        "https://www.pfbbqhouse.com/",
+        "https://www.pfbbqhouse.com/contact-us/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-hot-pot-three-dining-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Hot Pot: Three Dining Formats to Compare"
+    },
+    {
+      "slug": "pittsburgh-house-painters-three-estimate-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-house-painters-three-estimate-options",
+      "status": 200,
+      "words": 538,
+      "body_sha256": "b3c1364f97f5820e59b34c8739d486a9cdbee37be38d693ebaa03a3ae373df49",
+      "sources": [
+        "https://www.imageworkspainting.com/",
+        "https://www.imageworkspainting.com/contact-us",
+        "https://www.pittsburghpainting.net/",
+        "https://www.pittsburghpainting.net/contact-us",
+        "https://www.vetspaintpgh.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-house-painters-three-estimate-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh House Painters: Three Ways to Plan an Estimate"
+    },
+    {
+      "slug": "pittsburgh-houseplant-shops-three-shopping-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-houseplant-shops-three-shopping-options",
+      "status": 200,
+      "words": 526,
+      "body_sha256": "2007dfbd2f8afef7eea298fd6dba2c67e52d21a2c9713f154f630f370fc64a88",
+      "sources": [
+        "https://rubyflora.com/",
+        "https://rubyflora.com/pages/pittsburgh",
+        "https://rubyflora.com/pages/soil-bar",
+        "https://www.emilichka.com/",
+        "https://www.visitpittsburgh.com/directory/city-grows/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-houseplant-shops-three-shopping-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Houseplant Shops: Three Places to Compare"
+    },
+    {
+      "slug": "pittsburgh-ice-cream-three-shopping-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-ice-cream-three-shopping-options",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "7334adba187e91ff48525fc03b5bff20e7127cb25503bf0dec5a126a56a43d6e",
+      "sources": [
+        "https://shadyside.mercuriosgelatopizza.com/",
+        "https://shadyside.mercuriosgelatopizza.com/pittsburgh-shadyside-mercurio-s-shadyside-food-menu",
+        "https://www.leonaspgh.com/about-2",
+        "https://www.leonaspgh.com/events-and-wholesale-form",
+        "https://www.leonaspgh.com/flavors",
+        "https://www.leonaspgh.com/get-in-touch",
+        "https://www.millieshomemade.com/",
+        "https://www.millieshomemade.com/flavors/",
+        "https://www.millieshomemade.com/locations/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-ice-cream-three-shopping-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Ice Cream Options: Seasonal Scoops, Sandwiches and Gelato"
+    },
+    {
+      "slug": "pittsburgh-indian-restaurants-three-meal-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-indian-restaurants-three-meal-options",
+      "status": 200,
+      "words": 530,
+      "body_sha256": "da43f3dcc2bb5ea5e2e6b383de61bd68865be33283fc04436b6c332271591d71",
+      "sources": [
+        "https://havelipgh.com/",
+        "https://havelipgh.com/menu/haveli-245-mall-plaza-boulevard",
+        "https://spiceaffairpittsburgh.com/",
+        "https://spiceaffairpittsburgh.com/menu",
+        "https://themintt.com/",
+        "https://themintt.com/menu"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-indian-restaurants-three-meal-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh-Area Indian Restaurants: Combos, Buffet and Menu Choices"
+    },
+    {
+      "slug": "pittsburgh-indoor-climbing-two-first-visit-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-indoor-climbing-two-first-visit-options",
+      "status": 200,
+      "words": 518,
+      "body_sha256": "b59d43f71c9e61ce58c376443f3ebb9cb58e5b625d590dd2044ccf8b1afc916f",
+      "sources": [
+        "https://ironcityboulders.com/visit/",
+        "https://www.ascendclimbing.com/locations/point-breeze-pittsburgh",
+        "https://www.ascendclimbing.com/your-visit/admission",
+        "https://www.ascendclimbing.com/your-visit/first-visit"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-indoor-climbing-two-first-visit-options",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh Indoor-Climbing Options: Terrain, Day Passes and First Visits"
+    },
+    {
+      "slug": "pittsburgh-indoor-pickleball-two-play-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-indoor-pickleball-two-play-options",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "4d08d1f927b28c1ffa9ac3f09832982ffacbdde176c06840576fca1aa08446c4",
+      "sources": [
+        "https://thepickleballwarehouse.com/",
+        "https://thepickleballwarehouse.com/faqs",
+        "https://www.leveluppickleballclub.com/faq",
+        "https://www.leveluppickleballclub.com/membership"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-indoor-pickleball-two-play-options",
+      "published": "2026-10-13",
+      "headline": "Indoor Pickleball Near Pittsburgh: Two Options for Open Play and Court Rentals"
+    },
+    {
+      "slug": "pittsburgh-laser-tag-two-venues-compare",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-laser-tag-two-venues-compare",
+      "status": 200,
+      "words": 532,
+      "body_sha256": "11a6e428e6b4f3b0ce4044c4c0783be63247474631cfa343eacc1a545796ab91",
+      "sources": [
+        "https://laserstorm.org/",
+        "https://laserstorm.org/frequently-asked-questions/",
+        "https://laserstorm.org/pricing/",
+        "https://www.zone28.com/laser-tag"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-laser-tag-two-venues-compare",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Laser Tag: Laser Storm and Zone 28 Compared"
+    },
+    {
+      "slug": "pittsburgh-nail-services-three-manicure-pedicure-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-nail-services-three-manicure-pedicure-options",
+      "status": 200,
+      "words": 566,
+      "body_sha256": "9667d27fa54a1183cff6cde89b94ea697fa32b237a8e9052e14ab06d2c131e28",
+      "sources": [
+        "https://studioboothsalon.com/pages/nails",
+        "https://www.apothikadayspa.com/about",
+        "https://www.apothikadayspa.com/nailcare",
+        "https://www.illustratednails.com/",
+        "https://www.illustratednails.com/services/nail-art-30-min"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-nail-services-three-manicure-pedicure-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Nail-Service Options: Manicures, Removal and Nail Art"
+    },
+    {
+      "slug": "pittsburgh-paints-cranberry-headquarters-brand-background",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-paints-cranberry-headquarters-brand-background",
+      "status": 200,
+      "words": 501,
+      "body_sha256": "e0e0c5d0e51762414a128df16fa072ac7d364ba9f326f3c9610cbe8ed5338524",
+      "sources": [
+        "https://news.ppg.com/Press-Releases/news-details/2024/PPG-completes-sale-of-architectural-coatings-U-S--and-Canada-business-to-American-Industrial-Partners/default.aspx",
+        "https://www.linkedin.com/posts/pittsburgh-paints-co_movingday-pittsburghpaintsco-cranberrytwp-activity-7447297164713721856-7aBS",
+        "https://www.pittsburghpaintsco.com/contact",
+        "https://www.pittsburghpaintsco.com/newsroom/pittsburgh-paints-co-introduces-pittsburgh-paints-tru-industrial-line",
+        "https://www.pittsburghpaintsco.com/newsroom/the-pittsburgh-paints-company-unveils-new-logo-tagline"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-paints-cranberry-headquarters-brand-background",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Paints’ Cranberry Headquarters: The Move and Brand Changes Explained"
+    },
+    {
+      "slug": "pittsburgh-pho-three-menu-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-pho-three-menu-options",
+      "status": 200,
+      "words": 503,
+      "body_sha256": "f69b988932fbd89334b28cea5a90de4dcc72645034cb89dd2b602d36b9945342",
+      "sources": [
+        "https://ordermaikuvietnamesepho.com/contact",
+        "https://ordermaikuvietnamesepho.com/menu",
+        "https://pos.chowbus.com/online-ordering/store/Pho-Van/23991",
+        "https://pos.chowbus.com/online-ordering/store/YOYO-Panda/22261",
+        "https://www.phopittsburgh.com/",
+        "https://www.yoyopandapgh.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-pho-three-menu-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh-Area Pho Options: Compare Broth, Toppings and Locations"
+    },
+    {
+      "slug": "pittsburgh-piano-showrooms-used-instruments-event-rentals",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-piano-showrooms-used-instruments-event-rentals",
+      "status": 200,
+      "words": 520,
+      "body_sha256": "a45e282e69df11d23abcbf7ff87388340cb9fd5661ad7d67ff6c1f3c318f8233",
+      "sources": [
+        "https://solichmusic.com/",
+        "https://solichmusic.com/return-policy/",
+        "https://solichmusic.com/solich-piano-pittsburgh/",
+        "https://www.fortpittpianoco.com/",
+        "https://www.fortpittpianoco.com/contact",
+        "https://www.fortpittpianoco.com/preowned",
+        "https://www.fortpittpianoco.com/rentals"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-piano-showrooms-used-instruments-event-rentals",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh Piano Showrooms: Used Instruments, Visits and Event Rentals"
+    },
+    {
+      "slug": "pittsburgh-pumpkin-farms-three-2026-outing-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-pumpkin-farms-three-2026-outing-options",
+      "status": 200,
+      "words": 530,
+      "body_sha256": "d82e8a2a7d62abb01f374f2368786d09800927b0555275ff0e6f55c9f1cb0a7f",
+      "sources": [
+        "https://simmonsfarm.com/hayridesfallactivities.html",
+        "https://simmonsfarm.com/home.html",
+        "https://soergels.com/fall-update/",
+        "https://traxfarms.com/fall-festival-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-pumpkin-farms-three-2026-outing-options",
+      "published": "2026-10-13",
+      "headline": "Pumpkin Farms Near Pittsburgh: Three 2026 Outings to Compare"
+    },
+    {
+      "slug": "pittsburgh-ramen-nanban-fujiya-menu-comparison",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-ramen-nanban-fujiya-menu-comparison",
+      "status": 200,
+      "words": 519,
+      "body_sha256": "c1d837bffedbdfe79f11b2cdcf6f84c3743da1820ebaa9a8e9c2559d1d961e81",
+      "sources": [
+        "https://fujiyaramenpgh.com/",
+        "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+        "https://www.nanbanpgh.com/",
+        "https://www.nanbanpgh.com/contact"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-ramen-nanban-fujiya-menu-comparison",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh-Area Ramen: Nanban and Fujiya North Fayette Menus Compared"
+    },
+    {
+      "slug": "pittsburgh-running-shoe-fitting-two-store-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-running-shoe-fitting-two-store-options",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "9c66896f2f54398e47a8954b16dc6157e7e443bb6f888d66847b455c16be66bc",
+      "sources": [
+        "https://www.fleetfeet.com/fit-process",
+        "https://www.fleetfeet.com/s/pittsburgh",
+        "https://www.probikerun.com/articles/our-shoe-fit-process-pg317.htm",
+        "https://www.probikerun.com/contact/strip-district-pg335.htm"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-running-shoe-fitting-two-store-options",
+      "published": "2026-10-13",
+      "headline": "Running-Shoe Fitting in Pittsburgh: Two Store Options to Compare"
+    },
+    {
+      "slug": "pittsburgh-school-instrument-rentals-three-programs",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-school-instrument-rentals-three-programs",
+      "status": 200,
+      "words": 541,
+      "body_sha256": "3cd478f4a6e3e2897081062306198fa23eff76ecc986f317c2ed7bed26b04b7e",
+      "sources": [
+        "https://www.brightonmusic.com/locations/",
+        "https://www.brightonmusic.com/rentals/frequently-asked-questions-rentals/",
+        "https://www.brightonmusic.com/rentals/purchases-rentals/",
+        "https://www.johnstonbaughs.com/topic/ourrentalprogram",
+        "https://www.volkweinsmusic.com/pages/rentals"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-school-instrument-rentals-three-programs",
+      "published": "2026-10-13",
+      "headline": "School-Instrument Rentals Near Pittsburgh: Three Programs to Compare"
+    },
+    {
+      "slug": "pittsburgh-sichuan-restaurants-two-menu-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-sichuan-restaurants-two-menu-options",
+      "status": 200,
+      "words": 507,
+      "body_sha256": "1922925d2043bff8b29b46a589d33190b4aad721143b514bb752e1a46c069546",
+      "sources": [
+        "https://pos.chowbus.com/online-ordering/store/Chengdu-Gourmet/14870",
+        "https://pos.chowbus.com/online-ordering/store/Lao-Sze-Chuan-Pittsburgh/22755",
+        "https://www.chengdugourmet2.com/",
+        "https://www.laoszechuanpgh.com/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-sichuan-restaurants-two-menu-options",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh-Area Sichuan Menus: Lao Sze Chuan and Chengdu Gourmet"
+    },
+    {
+      "slug": "pittsburgh-tabletop-game-stores-three-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-tabletop-game-stores-three-options",
+      "status": 200,
+      "words": 565,
+      "body_sha256": "13177419ac6e404f224a82004117140d1be76503d8d0e1252b357eedeac3ac8a",
+      "sources": [
+        "https://gamemasterspgh.com/",
+        "https://gamemasterspgh.com/temporary-parking/",
+        "https://gamesunl.com/pages/about-us",
+        "https://mimicsmarket.com/",
+        "https://mimicsmarket.com/events"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-tabletop-game-stores-three-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Tabletop Game Stores: Three Shopping and Play Options"
+    },
+    {
+      "slug": "pittsburgh-tile-showrooms-design-custom-pickup-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-tile-showrooms-design-custom-pickup-options",
+      "status": 200,
+      "words": 540,
+      "body_sha256": "e47df0c7ee533520aec20db79f51a6d4778912f19e9331ea9d4f5b6f620d3fae",
+      "sources": [
+        "https://www.ceramichetile.com/",
+        "https://www.ceramichetile.com/about-us",
+        "https://www.tileanddesigns.com/",
+        "https://www.tileanddesigns.com/bespoke-tile",
+        "https://www.tileanddesigns.com/copy-of-inspiration",
+        "https://www.tileshop.com/store-locator/robinson"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-tile-showrooms-design-custom-pickup-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Tile Showrooms: Design, Custom Orders and Pickup Details"
+    },
+    {
+      "slug": "pittsburgh-tire-changeover-storage-three-service-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-tire-changeover-storage-three-service-options",
+      "status": 200,
+      "words": 566,
+      "body_sha256": "aab17ac9627e570d82c2b5f98a243ea96a9d0079e5671cddb461d43473f8dd36",
+      "sources": [
+        "https://hartmansauto.com/",
+        "https://hartmansauto.com/tires",
+        "https://www.discounttire.com/services/flat-repair",
+        "https://www.discounttire.com/store/pa/west%20mifflin/s/2295",
+        "https://www.towertire.com/Tires/Tire-Changeover-and-Storage"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-tire-changeover-storage-three-service-options",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh-Area Tire Services: Changeovers, Storage and Three Shop Options"
+    },
+    {
+      "slug": "pittsburgh-tree-care-three-consultation-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-tree-care-three-consultation-options",
+      "status": 200,
+      "words": 513,
+      "body_sha256": "034fd3bcb1f7a84f68fbbe87cdba8d53a9411ef9e4f5cda3ce0148f1260a09a9",
+      "sources": [
+        "https://northwoodtreecare.com/contact-us/",
+        "https://northwoodtreecare.com/service-area/",
+        "https://northwoodtreecare.com/services/",
+        "https://www.bartlett.com/locations/Irwin-PA",
+        "https://www.davey.com/pittsburgh-tree-services-lawn-care/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-tree-care-three-consultation-options",
+      "published": "2026-10-13",
+      "headline": "Three Pittsburgh Tree-Care Options: Consultations, Reports and Work Scope"
+    },
+    {
+      "slug": "pittsburgh-woodworking-classes-two-learning-formats",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-woodworking-classes-two-learning-formats",
+      "status": 200,
+      "words": 501,
+      "body_sha256": "ed789370ccf312f08c258662ddb4651ad4302103a9f29063f05d5d1378fe33eb",
+      "sources": [
+        "https://www.backchannelschool.com/",
+        "https://www.backchannelschool.com/about-us/faq/",
+        "https://www.backchannelschool.com/classes/fundamental/",
+        "https://www.rockler.com/classes-workshops",
+        "https://www.rockler.com/retail/stores/pa-pittsburgh-store"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-woodworking-classes-two-learning-formats",
+      "published": "2026-10-13",
+      "headline": "Pittsburgh Woodworking Classes: Two Learning Formats to Compare"
+    },
+    {
+      "slug": "pittsburgh-yarn-shops-two-project-class-options",
+      "url": "https://www.thepittsburghwire.com/news/pittsburgh-yarn-shops-two-project-class-options",
+      "status": 200,
+      "words": 535,
+      "body_sha256": "1574370e9e04b18ff163eb3a86a9a4a3212dbd4fe0e7c854f8e34e951c3a16fe",
+      "sources": [
+        "https://oakmontyarncollaborative.com/pages/classes",
+        "https://oakmontyarncollaborative.com/pages/events",
+        "https://oakmontyarncollaborative.com/pages/hours-and-location",
+        "https://www.yarnbitsandbobs.com/",
+        "https://www.yarnbitsandbobs.com/contact-us.htm"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/pittsburgh-yarn-shops-two-project-class-options",
+      "published": "2026-10-13",
+      "headline": "Two Pittsburgh-Area Yarn Shops: Project Supplies, Classes and Stitch Groups"
+    },
+    {
+      "slug": "polly-and-esther-garfield-shopping-mah-jong-guide",
+      "url": "https://www.thepittsburghwire.com/news/polly-and-esther-garfield-shopping-mah-jong-guide",
+      "status": 200,
+      "words": 554,
+      "body_sha256": "b8f0275f594f0793f1f3ea23d2c0ff8bdbd94673dc72416ddb513eefcf5958ab",
+      "sources": [
+        "https://www.investpgh.org/news/welcome-to-penn-avenue",
+        "https://www.pollyandesther152.com/",
+        "https://www.pollyandesther152.com/pages/contact"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/polly-and-esther-garfield-shopping-mah-jong-guide",
+      "published": "2026-10-13",
+      "headline": "Polly and Esther in Garfield: Shopping, Mah-Jong Sessions and Construction Access"
+    },
+    {
+      "slug": "rally-house-forbes-avenue-oakland-shopping-guide",
+      "url": "https://www.thepittsburghwire.com/news/rally-house-forbes-avenue-oakland-shopping-guide",
+      "status": 200,
+      "words": 516,
+      "body_sha256": "7885e6b5b278dd9e68698d448d0edff4327750c7c6cc3646427df5ce7dde3c45",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/03/20/3259956/0/en/New-Rally-House-Location-on-Forbes-Avenue-Opening.html",
+        "https://www.rallyhouse.com/in-store-pickup",
+        "https://www.rallyhouse.com/returns",
+        "https://www.rallyhouse.com/stores/pittsburgh/3700-forbes-ave"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/rally-house-forbes-avenue-oakland-shopping-guide",
+      "published": "2026-10-13",
+      "headline": "Rally House on Forbes Avenue: Oakland Store, Pickup and Gift-Shopping Details"
+    },
+    {
+      "slug": "roaming-bean-strip-district-cafe-mobile-coffee-guide",
+      "url": "https://www.thepittsburghwire.com/news/roaming-bean-strip-district-cafe-mobile-coffee-guide",
+      "status": 200,
+      "words": 503,
+      "body_sha256": "79b07ca2e4b30120874e689b5bd56372b6cfe7fda48efc489442e789af356476",
+      "sources": [
+        "https://theroamingbean.coffee/",
+        "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
+        "https://theroamingbean.coffee/venetia-the-roaming-bean-services",
+        "https://theroamingbean.coffee/venetia-the-roaming-bean-weekly-schedule",
+        "https://www.pittsburghmagazine.com/roaming-bean-opens-in-pittsburgh-strip-district/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/roaming-bean-strip-district-cafe-mobile-coffee-guide",
+      "published": "2026-10-13",
+      "headline": "The Roaming Bean’s Strip District Café: Storefront and Mobile Coffee Options"
+    },
+    {
+      "slug": "ruckus-downtown-cafe-after-work-event-guide",
+      "url": "https://www.thepittsburghwire.com/news/ruckus-downtown-cafe-after-work-event-guide",
+      "status": 200,
+      "words": 512,
+      "body_sha256": "9a024722793a8334b82ac47d6b4860f57ad1bf86f134f5d7f51da80cb4c467a3",
+      "sources": [
+        "https://www.pittsburghmagazine.com/26-new-restaurants-for-2026/",
+        "https://www.ruckuscafe.com/_files/ugd/12b536_0c344ff4abac43fb86fdd0843ecab234.pdf",
+        "https://www.ruckuscafe.com/afterwork",
+        "https://www.ruckuscafe.com/downtownruckus"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/ruckus-downtown-cafe-after-work-event-guide",
+      "published": "2026-10-13",
+      "headline": "Ruckus Downtown: Café Hours, After-Work Rentals and Food Costs"
+    },
+    {
+      "slug": "sea-monkey-strip-district-dinner-lounge-guide",
+      "url": "https://www.thepittsburghwire.com/news/sea-monkey-strip-district-dinner-lounge-guide",
+      "status": 200,
+      "words": 509,
+      "body_sha256": "de9d15725cf99553be7451423f5f9d40c1076b0886b00b28cb7787dd4599a12f",
+      "sources": [
+        "https://www.seamonkeypgh.com/",
+        "https://www.seamonkeypgh.com/restaurant",
+        "https://www.seamonkeypgh.com/vieux-carre",
+        "https://www.visitpittsburgh.com/blog/new-businesses-events-and-more-in-pittsburgh-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/sea-monkey-strip-district-dinner-lounge-guide",
+      "published": "2026-10-13",
+      "headline": "Sea Monkey in the Strip District: Dinner, Lounge and Vieux Carré"
+    },
+    {
+      "slug": "shoku-next-door-cranberry-menu-pickup-guide",
+      "url": "https://www.thepittsburghwire.com/news/shoku-next-door-cranberry-menu-pickup-guide",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "e7e1fa7fd9ebbcea241d48dadd0488512423890b2be01ea37dcca25d726a81f3",
+      "sources": [
+        "https://cranberrytownship.org/1504/Just-Opened",
+        "https://pos.chowbus.com/online-ordering/store/Shoku-Next-Door/23833",
+        "https://shokunextdoor.com/index.html",
+        "https://shokunextdoor.com/shoku-next-door-menu-2026.pdf"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/shoku-next-door-cranberry-menu-pickup-guide",
+      "published": "2026-10-13",
+      "headline": "Shoku Next Door in Cranberry: Menu Boxes, Ramen and Pickup Planning"
+    },
+    {
+      "slug": "silly-goose-downtown-pittsburgh-gift-shop-guide",
+      "url": "https://www.thepittsburghwire.com/news/silly-goose-downtown-pittsburgh-gift-shop-guide",
+      "status": 200,
+      "words": 501,
+      "body_sha256": "7b9f09cd955fecfdedce085f2e120e55464728c3828755bbb2d75d6aeb2f1335",
+      "sources": [
+        "https://shadyave.com/blog/the-silly-goose-in-downtown/",
+        "https://sillygoosegifts.com/",
+        "https://sillygoosegifts.com/pages/about-the-silly-goose",
+        "https://sillygoosegifts.com/pages/refund-policy",
+        "https://www.visitpittsburgh.com/blog/new-businesses-events-and-more-in-pittsburgh-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/silly-goose-downtown-pittsburgh-gift-shop-guide",
+      "published": "2026-10-13",
+      "headline": "The Silly Goose in Downtown Pittsburgh: Gift Selection and Visit Guide"
+    },
+    {
+      "slug": "soft-spot-garfield-cafe-calendar-food-community-guide",
+      "url": "https://www.thepittsburghwire.com/news/soft-spot-garfield-cafe-calendar-food-community-guide",
+      "status": 200,
+      "words": 507,
+      "body_sha256": "80159973181ba2581bd392eae1f70939bc663bec74f2b28ef8e9b2256c6fe00a",
+      "sources": [
+        "https://pittsburghfringe.org/venues/the-soft-spot/",
+        "https://www.thesoftspotpgh.com/",
+        "https://www.thesoftspotpgh.com/about-1",
+        "https://www.visitpittsburgh.com/blog/new-businesses-events-and-more-in-pittsburgh-2026/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/soft-spot-garfield-cafe-calendar-food-community-guide",
+      "published": "2026-10-13",
+      "headline": "The Soft Spot in Garfield: Check the Calendar Before Your Café Visit"
+    },
+    {
+      "slug": "tapville-strip-district-menu-parking-visit-guide",
+      "url": "https://www.thepittsburghwire.com/news/tapville-strip-district-menu-parking-visit-guide",
+      "status": 200,
+      "words": 528,
+      "body_sha256": "34f1b535087be32eaa5e130396b3628f50bcd172bab98665bcc45e1bfaf7a4ff",
+      "sources": [
+        "https://www.pittsburghmagazine.com/26-new-restaurants-for-2026/",
+        "https://www.tapvillesocial.com/",
+        "https://www.tapvillesocial.com/menu-pittsburgh",
+        "https://www.tapvillesocial.com/pittsburgh",
+        "https://www.tapvillesocial.com/reservations-privateevents"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/tapville-strip-district-menu-parking-visit-guide",
+      "published": "2026-10-13",
+      "headline": "Tapville in the Strip District: Menu Choices, Parking and Group Plans"
+    },
+    {
+      "slug": "tuscas-pizzeria-beaver-menu-ordering-guide",
+      "url": "https://www.thepittsburghwire.com/news/tuscas-pizzeria-beaver-menu-ordering-guide",
+      "status": 200,
+      "words": 505,
+      "body_sha256": "fb7cd9c1ab79e19dda6b6ea983cd4904d23ed47abffaff7c3fd05ea865875ef4",
+      "sources": [
+        "https://www.tuscaspizzeria.com/",
+        "https://www.tuscaspizzeria.com/appetizers-menu",
+        "https://www.tuscaspizzeria.com/hoagies-menu",
+        "https://www.tuscaspizzeria.com/pizza-menu",
+        "https://www.tuscaspizzeria.com/salads-menu"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/tuscas-pizzeria-beaver-menu-ordering-guide",
+      "published": "2026-10-13",
+      "headline": "Tusca’s in Beaver: Square Cuts, Round Pizza and Ordering Details"
+    },
+    {
+      "slug": "vogel-disposal-collection-calendar-bulk-dumpster-guide",
+      "url": "https://www.thepittsburghwire.com/news/vogel-disposal-collection-calendar-bulk-dumpster-guide",
+      "status": 200,
+      "words": 514,
+      "body_sha256": "91ae7ddfab627358e876fe08c360ab1e619e3d5e0d3175e6f9dd57bea86a5f0c",
+      "sources": [
+        "https://www.vogeldisposal.com/contact-us",
+        "https://www.vogeldisposal.com/recycling",
+        "https://www.vogeldisposal.com/residential-customer-service",
+        "https://www.vogeldisposal.com/roll-off-dumpster-service"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/vogel-disposal-collection-calendar-bulk-dumpster-guide",
+      "published": "2026-10-13",
+      "headline": "Vogel Disposal: Collection Calendars, Bulk Items and Dumpster Planning"
+    },
+    {
+      "slug": "we-rock-spectrum-cranberry-open-play-party-guide",
+      "url": "https://www.thepittsburghwire.com/news/we-rock-spectrum-cranberry-open-play-party-guide",
+      "status": 200,
+      "words": 504,
+      "body_sha256": "9ce2db2717a015778924f8a635c5d5c337e43fa797f93bd8e8eb39a9054def80",
+      "sources": [
+        "https://werockthespectrumbutlercounty.com/about-us/",
+        "https://werockthespectrumbutlercounty.com/birthday-parties-private-playdates/",
+        "https://werockthespectrumbutlercounty.com/contact-us/",
+        "https://werockthespectrumbutlercounty.com/cranberry-twp-to-welcome-new-childrens-gym/",
+        "https://werockthespectrumbutlercounty.com/frequently-asked-questions/",
+        "https://werockthespectrumbutlercounty.com/open-play/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/we-rock-spectrum-cranberry-open-play-party-guide",
+      "published": "2026-10-13",
+      "headline": "We Rock the Spectrum in Cranberry: Open Play, Prices and Party Planning"
+    },
+    {
+      "slug": "westmoreland-cleanways-recycling-drop-off-fees-guide",
+      "url": "https://www.thepittsburghwire.com/news/westmoreland-cleanways-recycling-drop-off-fees-guide",
+      "status": 200,
+      "words": 523,
+      "body_sha256": "d739ad200954b622e13a42f3138c7a7435567a5d2a5968c1d32fcf0f4cc03b67",
+      "sources": [
+        "https://www.westmorelandcleanways.org/",
+        "https://www.westmorelandcleanways.org/electronics/",
+        "https://www.westmorelandcleanways.org/hhw-drop-off-at-our-center/",
+        "https://www.westmorelandcleanways.org/plastic-bag-and-film-drop-off/",
+        "https://www.westmorelandcleanways.org/westmoreland-cleanways-recycling-center/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/westmoreland-cleanways-recycling-drop-off-fees-guide",
+      "published": "2026-10-13",
+      "headline": "Westmoreland Cleanways: Drop-Off Hours, Fees and Hazardous-Waste Days"
+    },
+    {
+      "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+      "url": "https://www.thepittsburghwire.com/news/yinzers-in-the-burgh-strip-district-store-guide",
+      "status": 200,
+      "words": 506,
+      "body_sha256": "7c8249cfba69479d2e39273b7aa386a75bbb4900d39077b9297a9d2906a87823",
+      "sources": [
+        "https://www.visitpittsburgh.com/directory/yinzers-in-the-burgh/",
+        "https://yinzershop.com/pages/yinzershop-store-location-in-pittsburgh",
+        "https://yinzerspgh.com/",
+        "https://yinzerspgh.com/contact-us/",
+        "https://yinzerspgh.com/nfl-draft-2026-pittsburgh-40oz-stainless-steel-tumbler/",
+        "https://yinzerspgh.com/shipping-returns/",
+        "https://yinzerspgh.com/yinzers-originals/"
+      ],
+      "canonical": "https://www.thepittsburghwire.com/news/yinzers-in-the-burgh-strip-district-store-guide",
+      "published": "2026-10-13",
+      "headline": "Yinzers in the Burgh: Penn Avenue Hours, Gifts and Store Details"
+    }
+  ]
+}
