@@ -98185,5 +98185,36 @@
         "premier-imaging-camera-north-hills"
       ]
     }
+  },
+  "mecka-fitness-cranberry-planned": {
+    "name": "Mecka Fitness Cranberry — Planned",
+    "website": "https://www.meckafitness.com/cranberry-location",
+    "source": "https://www.meckafitness.com/cranberry-location",
+    "source_name": "Official planned Cranberry location information",
+    "address": "Planned: 700 Thomson Park Drive, Cranberry Township, PA 16066 — confirm suite",
+    "phone": "",
+    "source_category": "Planned Fitness Studio",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The operator describes this Cranberry location as coming fall 2026, with the exact opening day unconfirmed. Confirm the entrance, class schedule and written membership terms; published planned hours and a presale do not prove current operation.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.meckafitness.com/cranberry-location",
+      "title": "Mecka Fitness Cranberry — Planned",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.meckafitness.com/cranberry-location",
+          "label": "Official planned location and class information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "mecka-fitness-cranberry-planned"
+      ]
+    }
   }
 }

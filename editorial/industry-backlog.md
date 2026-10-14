@@ -304,3 +304,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Tile showrooms — `pittsburgh-tile-showrooms-design-custom-pickup-options`, October13. Ceramiche lead/currentRobinsonaddress, Tile&Designscustom/pickup, TileShopweekend/freeconsultation. RefreshsameURL; flooringinstallationguidecomplementsseparatequote/contractorintent. No thinlocationvariants.
 
 - Film developing — `pittsburgh-film-developing-labs-scans-negative-pickup`, October13. ESP lead based on publishedcollectionterms, Bodega renderedofficialcurrentaddress/FAQconflicts, PremierNorthHillscontact. RefreshsameURL; no competingfilmformat/locationvariants. ConfirmBodegamailing/negativeholdbeforeorder.
+
+- Mecka Cranberry — `mecka-fitness-cranberry-planned-opening-membership-terms`, October13. Plannedfall2026expansionmembershipterms; refreshsameURLwhenopeningconfirmed. Suites718/719conflictconfirmoperator; nooperatingstatusfrompresale/hours. No competingfitnesslocationvariants.

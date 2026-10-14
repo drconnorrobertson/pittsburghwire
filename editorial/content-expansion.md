@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-fifth additional-100 batch: 481; the numeric archive checkpoint of 437 is exceeded, with 519 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-sixth additional-100 batch: 482; the numeric archive checkpoint of 437 is exceeded, with 518 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 96 of 100 additional articles; 4 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 97 of 100 additional articles; 3 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -585,3 +585,9 @@ Batch73 verified live at Production commitd61b61e001ecaa4c7042f397c140841d01aa9c
 - `pittsburgh-film-developing-labs-scans-negative-pickup`: film-development service comparison distinct from weddingphotographerhire. ESP lead for explicit collection/payment/processing terms; film-lab source paraphrase under200words. Bodega official renderedbrowser homepage4509Liberty verified; FAQ3wkvs2monthnegativehold and4120Mainmailingconflictsdisclosed, no assumedoldaddress. Premierprimaryinhouseclaim/localcontactnoinventedprice. NoDIYchemicalinstructions/reviews/qualityaward. Three reciprocalprofiles.
 
 Batch74 verified live at Production commit0b582759fee80cee8597dd0e0f824f5b1f66e346:tileguide/threeprofiles/maps.
+
+## Additional-100 batch 76 — October 13
+
+- `mecka-fitness-cranberry-planned-opening-membership-terms`: distinct planned local fitness expansion/current written presale129rate, actualopeningTBD, plannedhoursnotproofopen. Official718vsmunicipal719suite conflict disclosed. Presalesourcefactsunder200words; separateprimaryclasscatalogandcancellationpolicy; nohealthoutcomes/personalreview/award. Planned reciprocalprofile.
+
+Batch75 verified live at Production commitd8c99a1994791bcbbef9faf0759fc10d09886546:filmguide/threeprofiles/maps.
