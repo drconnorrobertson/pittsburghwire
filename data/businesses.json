@@ -96785,5 +96785,43 @@
         "cranberry"
       ]
     }
+  },
+  "pittsburgh-paints-company-cranberry": {
+    "name": "The Pittsburgh Paints Company",
+    "website": "https://www.pittsburghpaintsco.com/",
+    "source": "https://www.pittsburghpaintsco.com/contact",
+    "source_name": "Official corporate contact page and dated company announcements",
+    "address": "500 Cranberry Woods Drive, Cranberry Township, PA 16066",
+    "phone": "888-774-1010",
+    "source_category": "Coatings Company Headquarters",
+    "checked": "2026-10-13",
+    "category": "professional-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Corporate headquarters at 500 Cranberry Woods Drive. Distinguish the Pittsburgh Paints Company from PPG and use the official contact page for separate order-entry and technical-advice enquiries. Confirm office visit arrangements directly; a headquarters listing does not establish a retail pickup counter.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.pittsburghpaintsco.com/contact",
+      "title": "Contact Pittsburgh Paints Co.",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.pittsburghpaintsco.com/contact",
+          "label": "Corporate address, order entry and technical advice"
+        },
+        "about": {
+          "url": "https://www.pittsburghpaintsco.com/newsroom",
+          "label": "Dated company announcements"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh",
+        "paints",
+        "company",
+        "cranberry"
+      ]
+    }
   }
 }

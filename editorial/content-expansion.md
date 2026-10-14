@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-fifth additional-100 batch: 451; the numeric archive checkpoint of 437 is exceeded, with 549 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-sixth additional-100 batch: 452; the numeric archive checkpoint of 437 is exceeded, with 548 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 66 of 100 additional articles; 34 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 67 of 100 additional articles; 33 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -401,3 +401,9 @@ Forty-third batch verified live at Production commit 7341be1bcfd6a91619f33dde70b
 - `shoku-next-door-cranberry-menu-pickup-guide`: current Cranberry business/menu intent. Official-linked two-page imagePDF publicly downloaded, rendered and visually verified; box portions, broth/protein distinction and Chowbus cutoff versus dining-hours documented. Township combined opened/ready-list not used as exact opening proof, cachedorderstatusnotliveguarantee. No fabricated openingdate, review or dietary safety claim. New sourced reciprocal profile.
 
 Forty-fourth batch verified live at Production commit 92718064e0dbfae86c85a29eac38a2413901be0b: rental comparison/maps/profile.
+
+## Additional-100 batch 46 — October 13
+
+- `pittsburgh-paints-cranberry-headquarters-brand-background`: established Cranberry headquarters relocation and corporate identity background. Current official address, public company move announcement, dated Dec2024sale/Apr2025branding/Mar2026industrialline sources. No invented exact move date, jobs, office size, current executive or retail-counter claim; announced label plans distinguished from completed rollout. No measured query-volume claim. New sourced reciprocal corporate profile.
+
+Forty-fifth batch verified live at Production commit 863b5e359c80e0bcd474dde91b51c63e72e564e0: Shoku guide/maps/profile.
