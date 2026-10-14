@@ -257,6 +257,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ramen-nanban-fujiya-menu-comparison</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-rad-pass-library-card-tickets-guide</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -8836,6 +8842,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/fujiya-ramen-north-fayette/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/full-throttle-adrenaline-park/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -12828,6 +12840,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/nalli-elias-associates-pc/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/nanban-lawrenceville/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

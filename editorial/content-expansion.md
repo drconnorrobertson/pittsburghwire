@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-eighth additional-100 batch: 474; the numeric archive checkpoint of 437 is exceeded, with 526 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-ninth additional-100 batch: 475; the numeric archive checkpoint of 437 is exceeded, with 525 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 89 of 100 additional articles; 11 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 90 of 100 additional articles; 10 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -543,3 +543,9 @@ Sixty-sixth batch verified live at Production commit d9f5b51ea8a210cde47468b938d
 - `cranberry-ebisu-life-saba-origin-announced-plans`: distinct two-tenant opening-plans update. Township proposed addresses corroborated; Ebisu Oct7datedreport size/year-end window attributed; existingForbeslocator separate. Saba primaryFallCranberry/WinterotherPAwindows and brand-menupreview notlocalprices/availability. Neitherclaimedopen. No unsupportedcoffee-origin/organicclaims, exactdays orotherstatecontactconflation. Plannedstatus explicit in both profiles; one combinedstory, noindividualvariantcountpadding.
 
 Sixty-seventh batch verified live at Production commit 879c15b7f67b3a3b5ee04afff32cba6b453c90ea: ALMAguide/profile/maps.
+
+## Additional-100 batch 69 — October 13
+
+- `pittsburgh-ramen-nanban-fujiya-menu-comparison`: distinct regional ramen-menu comparison, not another Asahi opening variant. Nanban lead selection explains menu/portion/extra transparency; official adult vegetarian egg versus vegan kids label distinguished. FujiyaNorthFayette specific menu peanut notices/chickenbrothwithporktopping verified; Shadyside status not asserted, no inventedfullhours. No personaltesting/ranking/allergen-free guarantees. Two reciprocal profiles.
+
+Sixty-eighth batch verified live at Production commit cb861a5a50913a4b0086dc820159b45c9d68b884: Cranberryplannedtenantsguide/bothprofiles/maps.

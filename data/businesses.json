@@ -97681,5 +97681,75 @@
         "saba-origin-coffee-cranberry-planned"
       ]
     }
+  },
+  "nanban-lawrenceville": {
+    "name": "Nanban Lawrenceville",
+    "website": "https://www.nanbanpgh.com/",
+    "source": "https://www.nanbanpgh.com/",
+    "source_name": "Official restaurant menu and local visitor information",
+    "address": "4407 Butler Street, Pittsburgh, PA 15201",
+    "phone": "412-224-2518",
+    "source_category": "Ramen Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Read the actual bowl description when comparing vegetarian adult ramen and vegan-labeled children’s options. Eggs, extra noodles and broth affect ingredients and price. The contact page posts last-call times before closing.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.nanbanpgh.com/",
+      "title": "Nanban Lawrenceville",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.nanbanpgh.com/",
+          "label": "Official local menu"
+        },
+        "contact": {
+          "url": "https://www.nanbanpgh.com/contact",
+          "label": "Local restaurant information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "nanban-lawrenceville"
+      ]
+    }
+  },
+  "fujiya-ramen-north-fayette": {
+    "name": "Fujiya Ramen North Fayette",
+    "website": "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+    "source": "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+    "source_name": "Official restaurant menu and local visitor information",
+    "address": "210 McHolme Drive, Pittsburgh, PA 15275",
+    "phone": "412-428-7555",
+    "source_category": "Ramen Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "North Fayette",
+    "source_excerpt": "",
+    "description": "Use the North Fayette menu for local bowls and add-ons. Several broth descriptions explicitly list peanuts, and the vegetarian bowl includes egg. Confirm ingredients and current hours directly; this profile does not establish Shadyside operating status.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+      "title": "Fujiya Ramen North Fayette",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+          "label": "Official local menu"
+        },
+        "contact": {
+          "url": "https://fujiyaramenpgh.com/menu/fujiya-ramen-north-fayette",
+          "label": "Local restaurant information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fujiya-ramen-north-fayette"
+      ]
+    }
   }
 }
