@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-fourth additional-100 batch: 460; the numeric archive checkpoint of 437 is exceeded, with 540 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-fifth additional-100 batch: 461; the numeric archive checkpoint of 437 is exceeded, with 539 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 75 of 100 additional articles; 25 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 76 of 100 additional articles; 24 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -455,3 +455,9 @@ Fifty-second batch verified live at Production commit 280ab905014a830cabb02967e2
 - `pittsburgh-pumpkin-farms-three-2026-outing-options`: distinct2026farmouting/ticket comparison; genericfallguideonlybriefunspecifiedfarmmention. Trax leadforentry/access/pumpkin split, Soergel individualpricing/weekdaywindow andSimmons package/adult/height rules. Officialcurrent2026pageschecked; recentSimmonsOct11weatherclosure explicitlydated, on-farmversusRt19addressdistinguished. No crop/weather/attraction availability or personalvisit guarantee. New sourced reciprocal lead profile.
 
 Fifty-third batch verified live at Production commit 00d4ce9aaebcb69dacf8988de282144a7466489f: auto-glass guide/maps/profile.
+
+## Additional-100 batch 55 — October 13
+
+- `pittsburgh-haunted-attractions-three-2026-options`: distinct regional haunted-attraction format/ticket/arrival comparison. Hundred Acres Manor lead for parking/shuttle and separate daytime date; Cheeseman current2026ticketoptions; SmithfieldFrightFarmredemptiondetails with explicitlyflagged2025expiryclause, no assumed2026price/validity. ScareHouse2026hiatus confirmedofficially, notlistedoperating. Noindependentaward/review, medical suitability or waitguarantee. New reciprocal Manor profile; municipalHalloweenandpumpkinfarmguides servedifferentintents.
+
+Fifty-fourth batch verified live at Production commit 367b6d5c614a937521326a26a90ad901cd0a16db: pumpkin-farm guide/maps/profile.

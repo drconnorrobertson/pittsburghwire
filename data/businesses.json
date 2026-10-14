@@ -97095,5 +97095,44 @@
         "finleyville"
       ]
     }
+  },
+  "hundred-acres-manor-bethel-park": {
+    "name": "Hundred Acres Manor",
+    "website": "https://hundredacresmanor.com/",
+    "source": "https://hundredacresmanor.com/schedule",
+    "source_name": "Official 2026 schedule and arrival directions",
+    "address": "1 Hundred Acres Drive, Bethel Park, PA 15102",
+    "phone": "",
+    "source_category": "Seasonal Haunted Attraction",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Bethel Park",
+    "source_excerpt": "",
+    "description": "For a 2026 visit, check the selected nighttime calendar or separate daytime event. Drivers use the Corrigan Drive parking lot and shuttle; rideshare uses the Manor address. Confirm ticket inclusions and access requirements directly before purchase.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://hundredacresmanor.com/schedule",
+      "title": "Hundred Acres Manor 2026 Schedule",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://hundredacresmanor.com/schedule",
+          "label": "2026 nighttime and daytime schedules"
+        },
+        "contact": {
+          "url": "https://hundredacresmanor.com/directions",
+          "label": "Parking, shuttle and rideshare directions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "hundred",
+        "acres",
+        "manor",
+        "bethel",
+        "park"
+      ]
+    }
   }
 }

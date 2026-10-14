@@ -260,3 +260,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Vehicle-glass quotes and appointments — `pittsburgh-auto-glass-three-quote-options`, October13. ThreeRivers intake lead, Ryan warranty and Safelite localshop alternatives. Refresh same comparison rather than branch/damage variants; verify complete scope and appointment terms.
 
 - Pumpkin-farm outing comparison — `pittsburgh-pumpkin-farms-three-2026-outing-options`, October13. Trax entry/access lead, Soergel individualactivities andSimmons packagealternatives. Refresh same2026guideforconditions/schedulechanges instead of neighborhood or price variants; distinct from cityMonsterPumpkinsfestival.
+
+- Haunted-attraction comparison — `pittsburgh-haunted-attractions-three-2026-options`, October13. Hundred Acres Manor lead, Cheeseman andSmithfieldFrightFarmalternatives; ScareHouse2026hiatus andstaleFrightFarm2025expiryflagged. Update sameguideforseasonchanges; no thinneighborhood/scariestvariants.
