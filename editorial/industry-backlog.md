@@ -240,3 +240,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Indoor pickleball play formats — `pittsburgh-indoor-pickleball-two-play-options`, October13. Warehouse lead for entry/rental clarity, LevelUp alternative with unresolvedpublishedpricing/booking discrepancy; refresh rather than add neighborhood variants.
 
 - School-instrument rentals — `pittsburgh-school-instrument-rentals-three-programs`, October13. Johnstonbaugh lead for trial/monthly clarity, Brighton contract-type and Volkwein instrument-footnote alternatives. Refresh same comparison rather than instrument/location variants.
+
+- Shoku Next Door Cranberry — `shoku-next-door-cranberry-menu-pickup-guide`, October13. Current menu/box/broth and pickup-cutoff intent; exact openingdayunverified. Refresh same guide rather than competing opening/location variants.

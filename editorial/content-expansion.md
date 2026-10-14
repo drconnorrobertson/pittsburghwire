@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-fourth additional-100 batch: 450; the numeric archive checkpoint of 437 is exceeded, with 550 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-fifth additional-100 batch: 451; the numeric archive checkpoint of 437 is exceeded, with 549 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 65 of 100 additional articles; 35 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 66 of 100 additional articles; 34 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -395,3 +395,9 @@ Forty-second batch verified live at Production commit efe73b5786bd37d9f3a31d28c3
 - `pittsburgh-school-instrument-rentals-three-programs`: distinct school band/orchestra rental comparison versus lessons/tuning. Johnstonbaugh trial/monthly/condition lead; Brighton equity versus exact-instrument ownership, accessories and contingentpickup/loaner; Volkwein viola/percussion footnotes verified. No universal stock, school route, price total or buyout guarantee. No measured query-volume claim. New sourced reciprocal lead profile.
 
 Forty-third batch verified live at Production commit 7341be1bcfd6a91619f33dde70b3c4d48f4804c0: pickleball comparison/maps/profile.
+
+## Additional-100 batch 45 — October 13
+
+- `shoku-next-door-cranberry-menu-pickup-guide`: current Cranberry business/menu intent. Official-linked two-page imagePDF publicly downloaded, rendered and visually verified; box portions, broth/protein distinction and Chowbus cutoff versus dining-hours documented. Township combined opened/ready-list not used as exact opening proof, cachedorderstatusnotliveguarantee. No fabricated openingdate, review or dietary safety claim. New sourced reciprocal profile.
+
+Forty-fourth batch verified live at Production commit 92718064e0dbfae86c85a29eac38a2413901be0b: rental comparison/maps/profile.

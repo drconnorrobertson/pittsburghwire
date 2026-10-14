@@ -96747,5 +96747,43 @@
         "park"
       ]
     }
+  },
+  "shoku-next-door-cranberry": {
+    "name": "Shoku Next Door",
+    "website": "https://shokunextdoor.com/index.html",
+    "source": "https://shokunextdoor.com/index.html",
+    "source_name": "Official restaurant website, linked 2026 menu and Chowbus ordering page",
+    "address": "20111 Route 19, Space 103, Cranberry Township, PA 16066-6207",
+    "phone": "724-591-5900",
+    "source_category": "Sushi Restaurant",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Compare the selected box or dish by its ingredients and contents. The official website’s dining hours and linked online ordering cutoffs differ; confirm the actual pickup window and complete price. Discuss the full preparation for dietary needs.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://shokunextdoor.com/index.html",
+      "title": "Shoku Next Door",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://shokunextdoor.com/shoku-next-door-menu-2026.pdf",
+          "label": "Official linked 2026 menu"
+        },
+        "contact": {
+          "url": "https://pos.chowbus.com/online-ordering/store/Shoku-Next-Door/23833",
+          "label": "Operator-linked pickup menu and ordering windows"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "shoku",
+        "next",
+        "door",
+        "cranberry"
+      ]
+    }
   }
 }
