@@ -300,3 +300,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Golden Age/Bohemian expansion — `golden-age-bohemian-north-side-homestead-visit-guide`, October13. Dated spring2026 opening background plus distinct NorthSide/Homestead visitor policies; refresh this URL for hours/food/menu changes, no competing location variants.
 
 - Patterns of Meaning/The Shop — `patterns-of-meaning-shop-southside-works-extended-2026`, October13. Official gallery extension through2026; refreshsameURLforhours/extension/enddate ratherthancompetinglocationvariants. SidneyStreetgallerydistinctfromEICworkshop.
+
+- Tile showrooms — `pittsburgh-tile-showrooms-design-custom-pickup-options`, October13. Ceramiche lead/currentRobinsonaddress, Tile&Designscustom/pickup, TileShopweekend/freeconsultation. RefreshsameURL; flooringinstallationguidecomplementsseparatequote/contractorintent. No thinlocationvariants.

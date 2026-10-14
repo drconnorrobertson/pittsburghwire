@@ -98030,5 +98030,67 @@
         "the-shop-patterns-of-meaning-southside"
       ]
     }
+  },
+  "tile-and-designs-shadyside": {
+    "name": "Tile & Designs",
+    "website": "https://www.tileanddesigns.com/",
+    "source": "https://www.tileanddesigns.com/",
+    "source_name": "Official tile showroom and visitor information",
+    "address": "229 Spahr Street, Pittsburgh, PA 15232",
+    "phone": "412-362-8454",
+    "source_category": "Tile Showroom and Design Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The operator lists custom tile design and prefers showroom appointments. Confirm current showroom and warehouse arrangements separately; its delivery page describes approved curbside delivery for a fee.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.tileanddesigns.com/",
+      "title": "Tile & Designs",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.tileanddesigns.com/",
+          "label": "Official tile showroom and visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "tile-and-designs-shadyside"
+      ]
+    }
+  },
+  "the-tile-shop-robinson": {
+    "name": "The Tile Shop Robinson",
+    "website": "https://www.tileshop.com/store-locator/robinson",
+    "source": "https://www.tileshop.com/store-locator/robinson",
+    "source_name": "Official tile showroom and visitor information",
+    "address": "6511 Steubenville Pike, Pittsburgh, PA 15205",
+    "phone": "412-249-9100",
+    "source_category": "Tile Showroom and Design Services",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The local store advertises free design consultations, weekend hours, curbside pickup and installation materials. Confirm product stock and the project quote; design service is not a promise of included installation labor.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.tileshop.com/store-locator/robinson",
+      "title": "The Tile Shop Robinson",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.tileshop.com/store-locator/robinson",
+          "label": "Official tile showroom and visitor information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the-tile-shop-robinson"
+      ]
+    }
   }
 }
