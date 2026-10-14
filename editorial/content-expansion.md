@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-eighth additional-100 batch: 454; the numeric archive checkpoint of 437 is exceeded, with 546 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the forty-ninth additional-100 batch: 455; the numeric archive checkpoint of 437 is exceeded, with 545 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 69 of 100 additional articles; 31 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 70 of 100 additional articles; 30 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -419,3 +419,9 @@ Forty-sixth batch verified live at Production commit 59838d9f82f954a43c723d59423
 - `pittsburgh-flooring-installation-three-quote-options`: distinct installed-flooring comparison, separate from rug/carpet cleaning. Remnant City lead for documented installer/payment split and credited measurement fee; Rusmur showrooms and free estimate route, Empire home-sample alternative. Furniture scope, ordered-in LVP, conditional warranty and inconsistent Empire appointment blocks qualified. No price-saving, performance, installation-day or independent-award claim. New sourced reciprocal lead profile.
 
 Forty-seventh batch verified live at Production commit 83858d48178c6bd2e0b10499766a9a0f866c4d39: Cranberry play guide/maps/profile.
+
+## Additional-100 batch 49 — October 13
+
+- `pittsburgh-woodworking-classes-two-learning-formats`: distinct guided woodworking instruction versus general makerspace access. Back Channel lead for fundamentals progression/weekend intensives, tools policy and dated schedule cautions; Rockler local versus national workshop format/starting-price guidance. No current seat, project, course outcome or independence award claimed. Woodcraft calendar had no scheduled local classes and was not offered as a confirmed alternative. New sourced reciprocal lead profile.
+
+Forty-eighth batch verified live at Production commit 89433e16c6e23240b4023fb3d6e0a2adcd8a158e: flooring comparison/maps/profile.

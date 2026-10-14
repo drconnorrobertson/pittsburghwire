@@ -96903,5 +96903,43 @@
         "pittsburgh"
       ]
     }
+  },
+  "back-channel-school-woodworking": {
+    "name": "Back Channel School of Woodworking",
+    "website": "https://www.backchannelschool.com/",
+    "source": "https://www.backchannelschool.com/classes/fundamental/",
+    "source_name": "Official fundamentals course descriptions, FAQ and dated school updates",
+    "address": "831 Broadway Avenue, McKees Rocks, PA 15136",
+    "phone": "412-331-0009",
+    "source_category": "Woodworking School",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "McKees Rocks",
+    "source_excerpt": "",
+    "description": "Compare recurring Fundamentals 1, its weekend version and individual intensives. Confirm the next registration window, prerequisites, complete fee and attendance requirements directly. Older schedules do not establish current seats; tools are provided unless a course description explicitly says otherwise.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.backchannelschool.com/classes/fundamental/",
+      "title": "Back Channel School Fundamental Classes",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.backchannelschool.com/classes/fundamental/",
+          "label": "Fundamentals progression and intensives"
+        },
+        "contact": {
+          "url": "https://www.backchannelschool.com/about-us/faq/",
+          "label": "Tools policy and local contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "back",
+        "channel",
+        "woodworking",
+        "school"
+      ]
+    }
   }
 }

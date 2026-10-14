@@ -248,3 +248,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - We Rock the Spectrum Butler County — `we-rock-spectrum-cranberry-open-play-party-guide`, October13. Current play/party planning intent; refresh same local guide for schedule, price or policy changes. Older opening blog dates inconsistent; no precise openingday verified.
 
 - Installed residential flooring — `pittsburgh-flooring-installation-three-quote-options`, October13. Remnant City lead for payment/scope transparency, Rusmur showroom and Empire home-sample alternatives. Refresh same comparison instead of neighborhood/material variants; confirm installer terms and appointment discrepancies.
+
+- Guided woodworking instruction — `pittsburgh-woodworking-classes-two-learning-formats`, October13. Back Channel fundamentals lead and Rockler project-format alternative; refresh actual upcoming dates at the same URL rather than skill/location variants. Woodcraft local calendar listed no scheduled classes in this check.
