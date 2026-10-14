@@ -274,3 +274,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Adult sewing lessons — `pittsburgh-adult-sewing-lessons-three-learning-options`, October13. WorkshopPGHdatedprojectlead; CutSewcurriculaprogression/postmovesupplypickup andOldFlameprivatelearningalternatives. Refreshsameintent, distinguish paidrepair/alterationservices; classdate/priceandtimezoneconfirmationrequired.
 
 - Nail-service comparison — `pittsburgh-nail-services-three-manicure-pedicure-options`, October13. Apothika leadforpublishednatural-nail/removalbookingdetails; StudioBoothstarting-price andIllustratedstructuredgel/design-time alternatives. Refresh sameURLforprices/terms; noindependentaward/healthclaim orneighborhoodvariants.
+
+- Kan Pai Sushi Bridgeville — `kan-pai-sushi-bridgeville-menus-prices-visit-guide`, October13. PrimaryAug7openingconfirmation andlocalmealformat/surcharge/quantity comparison; refreshthisURLforprices/dates, no lunch/dinner/locationvariants. Do notapplyothercityorunrelatedKanpaimenus.

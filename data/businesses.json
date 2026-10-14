@@ -97284,5 +97284,43 @@
         "spa"
       ]
     }
+  },
+  "kan-pai-sushi-bridgeville": {
+    "name": "Kan Pai Sushi Bridgeville",
+    "website": "https://bridgeville.kpsushi.com/",
+    "source": "https://bridgeville.kpsushi.com/",
+    "source_name": "Official Bridgeville menu, pricing and visitor information",
+    "address": "1155 Washington Pike, Unit 43, Bridgeville, PA 15017",
+    "phone": "412-319-7038",
+    "source_category": "Japanese Restaurant and All-You-Can-Eat Sushi",
+    "checked": "2026-10-13",
+    "category": "food-and-drink",
+    "city": "Bridgeville",
+    "source_excerpt": "",
+    "description": "Use the Bridgeville-specific menus to compare lunch, dinner and individually priced takeout. Weekends and national holidays use dinner pricing all day; the dinner sashimi section lists an extra per-piece charge. Confirm the lunch cutoff and current details directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://bridgeville.kpsushi.com/",
+      "title": "Kan Pai Sushi Bridgeville",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://bridgeville.kpsushi.com/menu",
+          "label": "Bridgeville lunch, dinner and takeout menus"
+        },
+        "contact": {
+          "url": "https://bridgeville.kpsushi.com/",
+          "label": "Local prices, hours and phone"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "kan",
+        "pai",
+        "sushi",
+        "bridgeville"
+      ]
+    }
   }
 }
