@@ -3,7 +3,7 @@
   "runs": [
     {
       "date": "2026-10-14",
-      "status": "validated_draft",
+      "status": "published_verified",
       "slug": "prt-october-17-18-technology-outage-service-changes",
       "why_cannot_wait": "Technology interruptions start October 17 at 8 p.m. and route schedules change October 18, before the next Monday, October 19 batch; travel-planning value would be lost by waiting.",
       "sources": [
@@ -35,7 +35,27 @@
       },
       "validation": {
         "quality_check_errors": 0,
-        "metadata_canonical_indexability_sitemap": "passed"
+        "pages_checked": 3968,
+        "metadata_canonical_indexability_sitemap": "passed",
+        "complete_diff_reviewed": true
+      },
+      "publication": {
+        "checked_utc": "2026-10-14T13:08:51.743596+00:00",
+        "content_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
+        "article_url": "https://www.thepittsburghwire.com/news/prt-october-17-18-technology-outage-service-changes",
+        "article_status": 200,
+        "sha256": {
+          "sitemap.xml": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
+          "news-sitemap.xml": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "deployment_id": "dpl_THZsRgMPtxAShCN1DVjYQUqUZ6PZ",
+        "production_state": "READY"
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-14",
+        "status": "All three changed maps accepted; dated hashes in sitemap-submission-pending.json",
+        "indexing_claimed": false
       }
     }
   ]

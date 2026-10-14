@@ -1,54 +1,76 @@
 {
   "status": "submitted",
-  "reason": "All three maps accepted directly in Google Search Console October 13. Main and news maps were submitted again after the three-article expansion was live. Google processing remains asynchronous; do not infer indexing from submission.",
+  "reason": "All three changed, reachable maps accepted directly in Google Search Console on October 14; UI shows Success. Submission is not proof of indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "0bdd1350467239f350fc4b7ee6897ce05c8a31f377c5a1cc195d5a248fd69c4c",
-      "accepted": true
+      "sha256": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
+      "accepted": true,
+      "accepted_date": "2026-10-14"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "90cbbbc13ec582be5b9e4c6862c1ce5f4cfe48a0721e5405d8b39b5b37751183",
-      "accepted": true
+      "sha256": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
+      "accepted": true,
+      "accepted_date": "2026-10-14"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
-      "sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051",
-      "accepted": true
+      "sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042",
+      "accepted": true,
+      "accepted_date": "2026-10-14"
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-13",
-  "submitted_commit": "aff379ab5aa651ba02ca640bc2a5e0b684064e7e",
-  "next_routine_check_not_before": "2026-10-14",
+  "submitted_date": "2026-10-14",
+  "submitted_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
+  "next_routine_check_not_before": "2026-10-15",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-14T02:28:59.484148+00:00",
-    "content_commit": "5b199c25e6603d7519c79a4d983cde61122780f3",
+    "checked_utc": "2026-10-14T13:08:51.743596+00:00",
+    "content_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
+    "article_url": "https://www.thepittsburghwire.com/news/prt-october-17-18-technology-outage-service-changes",
+    "article_status": 200,
     "sha256": {
-      "sitemap.xml": "93d9b89ef1c21634d94f4fe835e943900260448136f388fbb42358a29718bfe3",
-      "news-sitemap.xml": "47514ec2909d1e1955ce7434071b6f8d00a4aae36e1f4e2b65e941960f443b53",
+      "sitemap.xml": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
+      "news-sitemap.xml": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
     }
   },
-  "pending_changed_sitemaps": [
+  "pending_changed_sitemaps": [],
+  "submission_history": [
     {
-      "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "last_accepted_sha256": "0bdd1350467239f350fc4b7ee6897ce05c8a31f377c5a1cc195d5a248fd69c4c",
-      "latest_live_sha256": "93d9b89ef1c21634d94f4fe835e943900260448136f388fbb42358a29718bfe3"
-    },
-    {
-      "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "last_accepted_sha256": "90cbbbc13ec582be5b9e4c6862c1ce5f4cfe48a0721e5405d8b39b5b37751183",
-      "latest_live_sha256": "47514ec2909d1e1955ce7434071b6f8d00a4aae36e1f4e2b65e941960f443b53"
-    },
-    {
-      "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
-      "last_accepted_sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051",
-      "latest_live_sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+      "submitted_date": "2026-10-13",
+      "submitted_commit": "aff379ab5aa651ba02ca640bc2a5e0b684064e7e",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "0bdd1350467239f350fc4b7ee6897ce05c8a31f377c5a1cc195d5a248fd69c4c",
+          "accepted": true
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "90cbbbc13ec582be5b9e4c6862c1ce5f4cfe48a0721e5405d8b39b5b37751183",
+          "accepted": true
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
+          "sha256": "6c52fda88551fea2cf538db759e947ac5e5f4638c078789e1486ecd5da983051",
+          "accepted": true
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
-  "pending_change_note": "The 100-article batch is live and maps are reachable. Retain the October13 accepted submissions; review these changed hashes on or after October14 local time instead of repeatedly resubmitting within the same day."
+  "submission_evidence": {
+    "method": "Signed-in Search Console UI: successful submission confirmation for each map, followed by three Success rows dated October 14",
+    "discovered_pages": {
+      "sitemap.xml": 3408,
+      "news-sitemap.xml": 134,
+      "directory-sitemap.xml": 2801
+    },
+    "private_screenshot": "reports/gsc-sitemap-success-2026-10-14.png",
+    "directory_change_check": "Last accepted hash 6c52fda8 differs from current a9af9782; 2689 previously discovered vs 2801 in changed map. This hash had not previously been submitted."
+  }
 }
