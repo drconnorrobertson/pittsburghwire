@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-fourth additional-100 batch: 470; the numeric archive checkpoint of 437 is exceeded, with 530 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixty-fifth additional-100 batch: 471; the numeric archive checkpoint of 437 is exceeded, with 529 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 85 of 100 additional articles; 15 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 86 of 100 additional articles; 14 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -519,3 +519,9 @@ Sixty-second batch verified live at Production commit 1ca417726395ce99b40759e1ab
 - `pittsburgh-archery-lessons-range-three-options`: distinct archery lessons/practice comparison. Archer lead explained by published lesson/practice/equipment distinctions, no independent award. Cabot current public Facebook address verified browser without login/contact; lane fee duration not invented. LLBean May–August season expressly outside October, no future calendar invented; age/guardian/equipment/cancellation limits sourced. Three reciprocal profiles; no bookings, waivers or messages submitted.
 
 Sixty-third batch verified live at Production commit e35049b536d5f52c73e5714f208a2de15cd6baed: Lavande guide/profile/maps.
+
+## Additional-100 batch 65 — October 13
+
+- `pittsburgh-car-washes-three-operators-memberships-vacuums`: distinct routine car-wash/membership comparison, separate from intensive detailing guide. Magic Mike lead explains published same-package prices/amenities. Dirks conflicting plan sections distinguished and once/day commercial exclusion disclosed; touchless selfservice vacuum not assumed free. Drake primary plan cancellation notice seven days, purchase-linked vacuum access and FastPass setup checked. No invented wash-quality, protection or environmental guarantees; no forms or purchases. Three reciprocal profiles.
+
+Sixty-fourth batch verified live at Production commit dd3c9f19688991b9302b8f0d8f28ec90901ff8f8: archery guide/all three profiles/maps.

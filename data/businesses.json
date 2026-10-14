@@ -97490,5 +97490,98 @@
         "llbean-north-park-archery"
       ]
     }
+  },
+  "magic-mikes-car-wash": {
+    "name": "Magic Mike’s Car Wash",
+    "website": "https://www.magicmikescarwash.com/",
+    "source": "https://www.magicmikescarwash.com/",
+    "source_name": "Official car-wash operator visitor information and plan terms",
+    "address": "2079 Golden Mile Highway, Pittsburgh, PA 15239",
+    "phone": "724-519-2146",
+    "source_category": "Car Wash",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare single washes with the same package’s monthly plan. The operator advertises free vacuums, towels and cleaners; confirm current treatments, total and cancellation timing directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.magicmikescarwash.com/",
+      "title": "Magic Mike’s Car Wash",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.magicmikescarwash.com/",
+          "label": "Official wash services and plan details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "magic-mikes-car-wash"
+      ]
+    }
+  },
+  "dirks-car-washes": {
+    "name": "Dirks Car Washes",
+    "website": "https://dirkscarwash.com/",
+    "source": "https://dirkscarwash.com/",
+    "source_name": "Official car-wash operator visitor information and plan terms",
+    "address": "4808 Baum Boulevard, Pittsburgh, PA 15213",
+    "phone": "412-676-7776",
+    "source_category": "Car Wash",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Wash types, operating hours and vacuum descriptions vary by location. The website displays different membership sections; confirm the selected plan’s access, price, wash limit and vehicle eligibility rather than combining offers.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://dirkscarwash.com/",
+      "title": "Dirks Car Washes",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://dirkscarwash.com/",
+          "label": "Official wash services and plan details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "dirks-car-washes"
+      ]
+    }
+  },
+  "drakes-carwash-cranberry": {
+    "name": "Drake’s Carwash Cranberry",
+    "website": "https://drakescarwash.com/locations/cranberry/",
+    "source": "https://drakescarwash.com/locations/cranberry/",
+    "source_name": "Official car-wash operator visitor information and plan terms",
+    "address": "1335 Old Freedom Road, Cranberry Township, PA 16066",
+    "phone": "724-720-0187",
+    "source_category": "Car Wash",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "The location advertises vacuum access with a wash purchase. Compare the selected single wash and vehicle-specific recurring plan, staff FastPass setup and the published advance cancellation notice.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://drakescarwash.com/locations/cranberry/",
+      "title": "Drake’s Carwash Cranberry",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://drakescarwash.com/unlimited-plans/",
+          "label": "Official wash services and plan details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "drakes-carwash-cranberry"
+      ]
+    }
   }
 }
