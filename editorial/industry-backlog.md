@@ -272,3 +272,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Klavon’s current-operation hold — October13: historicwebsitehoursconflict with2025closure/scheduled-salereportingandaggregatorclosedstatus. No newvisitguideuntilreopeningverified. Existinggenericattractionsrecommendationcorrected, refreshnotaddition; no unverifiedsaleoutcome orpermanent-closureassertion.
 
 - Adult sewing lessons — `pittsburgh-adult-sewing-lessons-three-learning-options`, October13. WorkshopPGHdatedprojectlead; CutSewcurriculaprogression/postmovesupplypickup andOldFlameprivatelearningalternatives. Refreshsameintent, distinguish paidrepair/alterationservices; classdate/priceandtimezoneconfirmationrequired.
+
+- Nail-service comparison — `pittsburgh-nail-services-three-manicure-pedicure-options`, October13. Apothika leadforpublishednatural-nail/removalbookingdetails; StudioBoothstarting-price andIllustratedstructuredgel/design-time alternatives. Refresh sameURLforprices/terms; noindependentaward/healthclaim orneighborhoodvariants.

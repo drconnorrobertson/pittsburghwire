@@ -1,10 +1,10 @@
 # Pittsburgh Wire substantive news expansion
 
-User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the fifty-ninth additional-100 batch: 465; the numeric archive checkpoint of 437 is exceeded, with 535 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
+User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the sixtieth additional-100 batch: 466; the numeric archive checkpoint of 437 is exceeded, with 534 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request
 
-October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 80 of 100 additional articles; 20 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
+October 13 direct user request: add 100 more pages. Count only substantive, distinct News additions from the verified 385-article baseline at commit 90354f8ee179268abf743e5156c61c0ce1393422; batch target 485. This extends the existing 437 checkpoint and the longer-term 1,000 goal. Progress: 81 of 100 additional articles; 19 remain to the 485 target. Refreshes and directory pages do not count. Publish in sourced, validated batches and verify production before increasing the completed count.
 
 ## Completed first batch
 
@@ -489,3 +489,9 @@ Fifty-seventh batch verified live at Production commit b1cb5276c7bca97b8075f1dec
 - `pittsburgh-adult-sewing-lessons-three-learning-options`: distinct learningintent, separatefrompaidclothingalterations/machinerepairguides. WorkshopPGH leadfor datedOct20toteproject/machinearrangements; browserverifieddetail, widgetPDTconflictflaggedwithoutassumedlocaltime. CutSewcurriculaprerequisites/date-pricerequirements andAprilFirecrackermove/specialkitpickup distinguishedfromstaleintrocopy. OldFlamerepairlessonsscope/exclusions/depositdifferentfromgarmentconstruction. New sourced reciprocal Workshop profile; noclassbooked/outreach.
 
 Fifty-eighth batch verified live at Production commit 04679ce12c0114ef0c67004caf9e9b10ea73472a: Yinzers guide/maps/profile and non-counted legacy correction.
+
+## Additional-100 batch 60 — October 13
+
+- `pittsburgh-nail-services-three-manicure-pedicure-options`: distinct nail-servicebookingcomparison separatefromexistinghair/day-spaintents. Apothika leadfornatural-onlyscope/removal-inclusive appointment; StudioBoothstartingprices/extras; Illustratedcurrentredirectedsiteformat/artduration/groupnotice/processingfee insteadofoldcachedprices. Officialsourcesfullread; nosafety/efficacy/wear-timeclaim, inventedreview/rank, bookingoroutreach. New reciprocal Apothika profile.
+
+Fifty-ninth batch verified live at Production commit 32c6f530006dbbe03c4c07ed375d99f655006517: sewing guide/maps/profile.

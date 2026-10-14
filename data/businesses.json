@@ -97247,5 +97247,42 @@
         "studio"
       ]
     }
+  },
+  "apothika-day-spa-south-side": {
+    "name": "Apothika Day Spa",
+    "website": "https://www.apothikadayspa.com/",
+    "source": "https://www.apothikadayspa.com/nailcare",
+    "source_name": "Official nail-service menu, address and spa policies",
+    "address": "2200 Sarah Street, Pittsburgh, PA 15203",
+    "phone": "412-505-5699",
+    "source_category": "Natural Nail Services and Day Spa",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare natural-nail formats and book removal when needed. The menu distinguishes a gel manicure from a longer removal-inclusive appointment. Confirm current charges, cancellation terms and package or prepaid-payment conditions before booking.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.apothikadayspa.com/nailcare",
+      "title": "Apothika Day Spa Nailcare",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.apothikadayspa.com/nailcare",
+          "label": "Nail services, removal and appointment lengths"
+        },
+        "contact": {
+          "url": "https://www.apothikadayspa.com/about",
+          "label": "Spa policies, hours and phone information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "apothika",
+        "day",
+        "spa"
+      ]
+    }
   }
 }
