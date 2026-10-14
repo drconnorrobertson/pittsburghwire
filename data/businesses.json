@@ -96823,5 +96823,48 @@
         "cranberry"
       ]
     }
+  },
+  "we-rock-the-spectrum-butler-county": {
+    "name": "We Rock the Spectrum Butler County",
+    "website": "https://werockthespectrumbutlercounty.com/",
+    "source": "https://werockthespectrumbutlercounty.com/contact-us/",
+    "source_name": "Official local gym contact, open-play, FAQ and party pages",
+    "address": "230 Executive Drive, Suite 90, Cranberry Township, PA 16066",
+    "phone": "724-553-5395",
+    "source_category": "Indoor Children’s Gym",
+    "checked": "2026-10-13",
+    "category": "health-and-wellness",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Check the current calendar because private events can interrupt regular public-play hours. Compare single-visit, package and membership terms; guardians must accompany children during open play. Confirm equipment access and birthday booking conditions directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://werockthespectrumbutlercounty.com/contact-us/",
+      "title": "We Rock the Spectrum Butler County",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://werockthespectrumbutlercounty.com/contact-us/",
+          "label": "Local contact and hours"
+        },
+        "services": {
+          "url": "https://werockthespectrumbutlercounty.com/open-play/",
+          "label": "Open play prices, packages and guardian rules"
+        },
+        "about": {
+          "url": "https://werockthespectrumbutlercounty.com/birthday-parties-private-playdates/",
+          "label": "Party packages and booking conditions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "we",
+        "rock",
+        "spectrum",
+        "butler",
+        "county"
+      ]
+    }
   }
 }

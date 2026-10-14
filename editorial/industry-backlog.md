@@ -244,3 +244,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Shoku Next Door Cranberry — `shoku-next-door-cranberry-menu-pickup-guide`, October13. Current menu/box/broth and pickup-cutoff intent; exact openingdayunverified. Refresh same guide rather than competing opening/location variants.
 
 - Pittsburgh Paints Company Cranberry — `pittsburgh-paints-cranberry-headquarters-brand-background`, October13. Established relocation and ownership/brand identity intent; refresh same background for confirmed changes rather than competing move/product variants. No exact moving date established.
+
+- We Rock the Spectrum Butler County — `we-rock-spectrum-cranberry-open-play-party-guide`, October13. Current play/party planning intent; refresh same local guide for schedule, price or policy changes. Older opening blog dates inconsistent; no precise openingday verified.
