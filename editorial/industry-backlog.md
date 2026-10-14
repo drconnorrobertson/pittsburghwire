@@ -286,3 +286,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Routine car washes — `pittsburgh-car-washes-three-operators-memberships-vacuums`, October13. Magic Mike lead, Dirks format/plan ambiguity and Drake cancellation comparison. Refresh same guide for offers; do not create thin neighborhood or vacuum-only variants. Intensive detailing remains a separate existing intent.
 
 - General Rental Center — `general-rental-center-cranberry-equipment-event-guide`, October13. Search-demand business-name coverage of equipment/event catalog and quote/pickup/service distinctions; existing profile enriched. Refresh this URL rather than equipment/party/neighborhood variants. Match official hyphenated Cranberry domain; other similarly named rentals have different policies.
+
+- ALMA | LEWIS expansion — `alma-lewis-expanded-space-october-2026-reopening`, October13. Oct23–24announcedreopening/benefitversusfreepublicday/exhibition; refresh same story after verified changes rather than separate preview/day/walk thin variants. Do notapplygenericfreeeventbanner to ticketedbenefit.

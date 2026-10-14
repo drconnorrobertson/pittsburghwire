@@ -97583,5 +97583,41 @@
         "drakes-carwash-cranberry"
       ]
     }
+  },
+  "alma-lewis": {
+    "name": "ALMA | LEWIS",
+    "website": "https://almalewis.org/",
+    "source": "https://almalewis.org/",
+    "source_name": "Official contemporary art organization and reopening program",
+    "address": "6901 Lynn Way, Suite 101, Pittsburgh, PA 15208",
+    "phone": "",
+    "source_category": "Contemporary Art and Artist Programs",
+    "checked": "2026-10-13",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "The organization announces an October 23–24, 2026 reopening weekend for its expanded contemporary art space. Friday is a ticketed benefit and Saturday is a free community day. Check individual event and exhibition pages for current admission, timing and participation details.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://almalewis.org/",
+      "title": "ALMA | LEWIS",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://almalewis.org/event/color-is-life-community-day/",
+          "label": "Official community day and venue information"
+        },
+        "about": {
+          "url": "https://almalewis.org/capital-campaign/",
+          "label": "Expansion plans and campaign"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "alma",
+        "lewis"
+      ]
+    }
   }
 }
