@@ -97209,5 +97209,43 @@
         "view"
       ]
     }
+  },
+  "workshop-pgh-fiber-studio": {
+    "name": "Workshop PGH Fiber Studio",
+    "website": "https://www.workshoppgh.com/",
+    "source": "https://www.workshoppgh.com/product/sew101-april9sun23/5NXOCRLVPOXYFK4ONMDSXHEG",
+    "source_name": "Official Sewing 101 class description and location",
+    "address": "5131 Penn Avenue, Pittsburgh, PA 15224",
+    "phone": "",
+    "source_category": "Sewing and Fiber Workshops",
+    "checked": "2026-10-13",
+    "category": "education",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Check the individual class address, age rules, machine arrangements and cancellation terms. The October 20 Sewing 101 page lists the Penn Avenue Fiber Studio; its booking widget’s PDT label should be clarified for Pittsburgh local arrival time.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://www.workshoppgh.com/product/sew101-april9sun23/5NXOCRLVPOXYFK4ONMDSXHEG",
+      "title": "Workshop PGH Sewing 101 at Penn Avenue Fiber Studio",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.workshoppgh.com/classes",
+          "label": "Current class calendar"
+        },
+        "contact": {
+          "url": "https://www.workshoppgh.com/product/sew101-april9sun23/5NXOCRLVPOXYFK4ONMDSXHEG",
+          "label": "Class location, terms and organizer questions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "workshop",
+        "pgh",
+        "fiber",
+        "studio"
+      ]
+    }
   }
 }

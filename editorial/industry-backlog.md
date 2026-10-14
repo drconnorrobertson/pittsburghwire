@@ -270,3 +270,5 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Yinzers in the Burgh — `yinzers-in-the-burgh-strip-district-store-guide`, October13, privatebusinessquery49impressions. ExistingPennAvestore/ticketlessDraftmerchandise/giftreturncontext; samplepolicyandunrelatedYinzerShopplans distinguished. Refresh sameURLforstock/terms, no competingStripDistrictgearvariants.
 
 - Klavon’s current-operation hold — October13: historicwebsitehoursconflict with2025closure/scheduled-salereportingandaggregatorclosedstatus. No newvisitguideuntilreopeningverified. Existinggenericattractionsrecommendationcorrected, refreshnotaddition; no unverifiedsaleoutcome orpermanent-closureassertion.
+
+- Adult sewing lessons — `pittsburgh-adult-sewing-lessons-three-learning-options`, October13. WorkshopPGHdatedprojectlead; CutSewcurriculaprogression/postmovesupplypickup andOldFlameprivatelearningalternatives. Refreshsameintent, distinguish paidrepair/alterationservices; classdate/priceandtimezoneconfirmationrequired.
