@@ -96941,5 +96941,45 @@
         "school"
       ]
     }
+  },
+  "the-pittsburgh-foundation": {
+    "name": "The Pittsburgh Foundation",
+    "website": "https://pittsburghfoundation.org/",
+    "source": "https://pittsburghfoundation.org/howtoapplyforgrants",
+    "source_name": "Official grant application, eligibility and program pages",
+    "address": "912 Fort Duquesne Boulevard, Floor 10, Pittsburgh, PA 15222",
+    "phone": "412-391-5122",
+    "source_category": "Community Foundation",
+    "checked": "2026-10-13",
+    "category": "nonprofit-and-community",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Check the individual program’s current deadline and eligibility before using the grant portal. Maintain one organizational profile and resolve access after personnel changes. Past application dates, prior awards and an outdated open label do not establish a current funding opportunity.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://pittsburghfoundation.org/howtoapplyforgrants",
+      "title": "The Pittsburgh Foundation Grant Applications",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://pittsburghfoundation.org/howtoapplyforgrants",
+          "label": "Organizational portal and application guidance"
+        },
+        "about": {
+          "url": "https://pittsburghfoundation.org/grantguidelines",
+          "label": "Eligibility, priorities and exclusions"
+        },
+        "contact": {
+          "url": "https://pittsburghfoundation.org/grant-opps",
+          "label": "Program pages and published deadlines"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh",
+        "foundation"
+      ]
+    }
   }
 }
