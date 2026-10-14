@@ -96866,5 +96866,42 @@
         "county"
       ]
     }
+  },
+  "remnant-city-pittsburgh": {
+    "name": "Remnant City",
+    "website": "https://remnantcity.net/",
+    "source": "https://remnantcity.net/services/",
+    "source_name": "Official flooring services and product pages",
+    "address": "2855 Saw Mill Run Boulevard, Pittsburgh, PA 15227",
+    "phone": "412-885-1444",
+    "source_category": "Flooring Retail and Installation",
+    "checked": "2026-10-13",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Compare the materials quote with the separate installer payment. Confirm the home-measure fee, credit conditions, installation scope, furniture work and written warranty before committing. Luxury vinyl plank is ordered in; confirm actual product arrival and installation dates.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-13",
+      "url": "https://remnantcity.net/services/",
+      "title": "Remnant City Flooring Services",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://remnantcity.net/services/",
+          "label": "Installer payment, measurements and scope"
+        },
+        "about": {
+          "url": "https://remnantcity.net/products/",
+          "label": "Flooring products and ordering distinctions"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "remnant",
+        "city",
+        "pittsburgh"
+      ]
+    }
   }
 }
