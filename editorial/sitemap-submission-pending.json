@@ -1,19 +1,19 @@
 {
   "status": "submitted",
-  "reason": "All three changed, reachable maps accepted directly in Google Search Console on October 14; UI shows Success. Submission is not proof of indexing.",
+  "reason": "Changed main and news maps accepted through signed-in Google Search Console October 15. Directory map unchanged and not resubmitted. Acceptance does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
+      "sha256": "75e704f29ade7c91a936eaeb3830689cd62f05c3a1edb2559313469a12ebe3fa",
       "accepted": true,
-      "accepted_date": "2026-10-14"
+      "accepted_date": "2026-10-15"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
+      "sha256": "bf3914239cc78fdf60fbba637fda444238fb243acf64404a4c16dbf86ec8754b",
       "accepted": true,
-      "accepted_date": "2026-10-14"
+      "accepted_date": "2026-10-15"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -23,18 +23,18 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-14",
-  "submitted_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
-  "next_routine_check_not_before": "2026-10-15",
+  "submitted_date": "2026-10-15",
+  "submitted_commit": "04211e41367e2602c9914c8bc7c9a29198a24d31",
+  "next_routine_check_not_before": "2026-10-16",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-14T13:08:51.743596+00:00",
-    "content_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
-    "article_url": "https://www.thepittsburghwire.com/news/prt-october-17-18-technology-outage-service-changes",
+    "checked_utc": "2026-10-15T13:07:39.857937+00:00",
+    "content_commit": "04211e41367e2602c9914c8bc7c9a29198a24d31",
+    "article_url": "https://www.thepittsburghwire.com/news/forbes-avenue-uptown-paving-october-15-17-2026",
     "article_status": 200,
     "sha256": {
-      "sitemap.xml": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
-      "news-sitemap.xml": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
+      "sitemap.xml": "75e704f29ade7c91a936eaeb3830689cd62f05c3a1edb2559313469a12ebe3fa",
+      "news-sitemap.xml": "bf3914239cc78fdf60fbba637fda444238fb243acf64404a4c16dbf86ec8754b",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
     }
   },
@@ -61,16 +61,42 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-10-14",
+      "submitted_commit": "0fb50f7ed05648257a87315fb67b88aaa5e8f5cb",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "1f168237f5e17841b47d1196b7c5c346c8cebdff11aee568282e6b745a76537e",
+          "accepted": true,
+          "accepted_date": "2026-10-14"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "60fd60421db3cc9136189b2dfaaf507cdc34788552328bfd65f44bcdb0caea8e",
+          "accepted": true,
+          "accepted_date": "2026-10-14"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
+          "sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042",
+          "accepted": true,
+          "accepted_date": "2026-10-14"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "method": "Signed-in Search Console UI: successful submission confirmation for each map, followed by three Success rows dated October 14",
-    "discovered_pages": {
-      "sitemap.xml": 3408,
-      "news-sitemap.xml": 134,
-      "directory-sitemap.xml": 2801
-    },
-    "private_screenshot": "reports/gsc-sitemap-success-2026-10-14.png",
-    "directory_change_check": "Last accepted hash 6c52fda8 differs from current a9af9782; 2689 previously discovered vs 2801 in changed map. This hash had not previously been submitted."
+    "method": "Success confirmations for main and news; table submitted date October 15 for both. News last-read still October 14 at capture; processing asynchronous.",
+    "submitted_files": [
+      "sitemap.xml",
+      "news-sitemap.xml"
+    ],
+    "not_resubmitted": [
+      "directory-sitemap.xml"
+    ],
+    "private_screenshot": "reports/gsc-sitemap-success-2026-10-15.png"
   }
 }

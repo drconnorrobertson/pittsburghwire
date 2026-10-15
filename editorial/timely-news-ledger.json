@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-10-15",
-      "status": "validated_draft",
+      "status": "published_verified",
       "slug": "forbes-avenue-uptown-paving-october-15-17-2026",
       "why_cannot_wait": "Forbes Avenue paving and stop restrictions run October 15\u201317 and will expire before the next Monday October 19 batch.",
       "sources": [
@@ -95,6 +95,28 @@
         "pages_checked": 3969,
         "complete_diff_reviewed": true,
         "scope_note": "Concise operational notice; no filler to reach a quota."
+      },
+      "publication": {
+        "checked_utc": "2026-10-15T13:07:39.857937+00:00",
+        "content_commit": "04211e41367e2602c9914c8bc7c9a29198a24d31",
+        "article_url": "https://www.thepittsburghwire.com/news/forbes-avenue-uptown-paving-october-15-17-2026",
+        "article_status": 200,
+        "sha256": {
+          "sitemap.xml": "75e704f29ade7c91a936eaeb3830689cd62f05c3a1edb2559313469a12ebe3fa",
+          "news-sitemap.xml": "bf3914239cc78fdf60fbba637fda444238fb243acf64404a4c16dbf86ec8754b",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "deployment_id": "dpl_3bNX234SirJJa8MzdLXoXrnFeSus",
+        "production_state": "READY"
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-15",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "unchanged; not resubmitted",
+        "indexing_claimed": false
       }
     }
   ]
