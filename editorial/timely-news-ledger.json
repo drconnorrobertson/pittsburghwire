@@ -57,6 +57,45 @@
         "status": "All three changed maps accepted; dated hashes in sitemap-submission-pending.json",
         "indexing_claimed": false
       }
+    },
+    {
+      "date": "2026-10-15",
+      "status": "validated_draft",
+      "slug": "forbes-avenue-uptown-paving-october-15-17-2026",
+      "why_cannot_wait": "Forbes Avenue paving and stop restrictions run October 15\u201317 and will expire before the next Monday October 19 batch.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/paving-for-the-university-line-to-impact-traffic-in-uptown--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/Customer-Service/"
+      ],
+      "coverage_check": "Clean main 5b92863e; no matching Shingiss/paving notice coverage. Separate from October 14 technology/schedule notice. No other active Wire publisher visible.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "absent; outputs directory empty",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-15",
+        "type": "Google Search News tab; not Google News app/site",
+        "date_range": "2026-09-16/2026-10-13",
+        "clicks": 1,
+        "impressions": 9,
+        "average_position": 15.3,
+        "observed_pages": [
+          "/news/development/",
+          "/news/homer-city-dep-permit-hearing-october-14-2026",
+          "/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside",
+          "/news/pittsburgh-music-lessons-three-programs-compare",
+          "/news/pittsburgh-advances-zoning-code-rewrite-grant"
+        ],
+        "note": "Tiny sample and changed window; do not infer a trend or current ranking."
+      },
+      "validation": {
+        "article_words": 413,
+        "quality_check_errors": 0,
+        "pages_checked": 3969,
+        "complete_diff_reviewed": true,
+        "scope_note": "Concise operational notice; no filler to reach a quota."
+      }
     }
   ]
 }
