@@ -118,6 +118,60 @@
         "directory_map": "unchanged; not resubmitted",
         "indexing_claimed": false
       }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "validated_draft",
+      "slug": "parkway-east-homestead-grays-weekend-restrictions-october-16-19-2026",
+      "why_cannot_wait": "Parkway restrictions begin tonight and both weekend windows end before or around Monday morning; waiting for October 19 batch would lose their trip-planning value.",
+      "sources": [
+        "https://www.pa.gov/agencies/penndot/news-and-media/newsroom/district-11/2026/i-376-parkway-east-weekend-lane-restrictions-begin-friday-in-all0",
+        "https://www.alleghenycounty.us/Projects-and-Initiatives/Public-Works",
+        "https://www.511pa.com/"
+      ],
+      "coverage_check": "Clean current main 05a6a02c; no matching Parkway East/bridge weekend notice. Existing Forbes article covers different roadwork and is linked. No other Wire publishing thread visible.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "absent",
+        "counted_against_weekly_cap": false
+      },
+      "other_candidates": [
+        {
+          "story": "Lawrence Hall end-of-year closure",
+          "decision": "No demonstrated material harm from waiting until Monday."
+        },
+        {
+          "story": "Camp Hollow Road detour",
+          "decision": "Source text mixes 2026 and 2025 dates; not sufficiently verified."
+        },
+        {
+          "story": "Bloomberg permit reform initiative",
+          "decision": "Background can wait; no immediate deadline verified."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-16",
+        "type": "Google Search News tab; not Google News app/site",
+        "date_range": "2026-09-16/2026-10-13",
+        "clicks": 1,
+        "impressions": 9,
+        "average_position": 15.3,
+        "observed_pages": [
+          "/news/development/",
+          "/news/homer-city-dep-permit-hearing-october-14-2026",
+          "/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside",
+          "/news/pittsburgh-music-lessons-three-programs-compare",
+          "/news/pittsburgh-advances-zoning-code-rewrite-grant"
+        ],
+        "note": "Settled report unchanged from October 15: September 16\u2013October 13, last update four hours ago; tiny sample, no trend or current rank claim."
+      },
+      "validation": {
+        "article_words": 456,
+        "quality_check_errors": 0,
+        "pages_checked": 3970,
+        "complete_diff_reviewed": true,
+        "primary_links_http_status": 200
+      }
     }
   ]
 }
