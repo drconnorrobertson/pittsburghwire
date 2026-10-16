@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-10-16",
-      "status": "validated_draft",
+      "status": "published_verified",
       "slug": "parkway-east-homestead-grays-weekend-restrictions-october-16-19-2026",
       "why_cannot_wait": "Parkway restrictions begin tonight and both weekend windows end before or around Monday morning; waiting for October 19 batch would lose their trip-planning value.",
       "sources": [
@@ -171,6 +171,28 @@
         "pages_checked": 3970,
         "complete_diff_reviewed": true,
         "primary_links_http_status": 200
+      },
+      "publication": {
+        "checked_utc": "2026-10-16T13:06:53.279774+00:00",
+        "content_commit": "61c7a1a62a4365eb9031d29f01e7e31f9fa9faba",
+        "article_url": "https://www.thepittsburghwire.com/news/parkway-east-homestead-grays-weekend-restrictions-october-16-19-2026",
+        "article_status": 200,
+        "sha256": {
+          "sitemap.xml": "434d8cd7549e21cdcc16b432c902215892805f2a56a524799f0d4d5662306d5a",
+          "news-sitemap.xml": "4444cbc17e76423846ee675d51b3a6f456b8ee3c4089a36c83e4475b342b0662",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "deployment_id": "dpl_DT9jyvujb928sMJS36tZY8PxwpEc",
+        "production_state": "READY"
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-16",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "unchanged; not resubmitted",
+        "indexing_claimed": false
       }
     }
   ]
