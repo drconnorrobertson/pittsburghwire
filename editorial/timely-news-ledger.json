@@ -194,6 +194,91 @@
         "directory_map": "unchanged; not resubmitted",
         "indexing_claimed": false
       }
+    },
+    {
+      "date": "2026-10-17",
+      "status": "skipped_no_qualifying_distinct_story",
+      "reason": "Verified weekend openings and major travel notices already covered; other reviewed announcements are future plans, expired deadlines or insufficiently verified for a distinct urgent article. No quota-filling publication.",
+      "coverage_check": "Clean main 5c71acb5166730e48e44fdc816f024d3633fd815, fetched and matched origin/main; no other active Wire publisher observed.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "absent",
+        "counted_against_weekly_cap": false
+      },
+      "candidates": [
+        {
+          "story": "Sierra Bridgeville October 17 scheduled opening",
+          "source": "https://www.sierra.com/lp2/retail-stores/",
+          "decision": "Existing Sierra article already contains address, October 17 date, regular hours and special 8 a.m.\u20139:30 p.m. opening-day hours; no material new verified fact requiring refresh or duplicate."
+        },
+        {
+          "story": "Etna Center October 17 opening",
+          "existing_coverage": "/news/etna-center-for-community-opens-october-17-2026",
+          "decision": "Already covered; no new verified operational change identified."
+        },
+        {
+          "story": "Wabash Tunnel proposed December 1 closure",
+          "source": "https://www.rideprt.org/newsroom/news-releases",
+          "decision": "Planned, pending board approval next week; no verified reason publication cannot wait until Monday."
+        },
+        {
+          "story": "October 19 city paving schedule",
+          "source": "https://www.pittsburghpa.gov/Home",
+          "decision": "Next-week schedule can be reviewed in Monday batch."
+        },
+        {
+          "story": "Camp Hollow Road closure",
+          "source": "https://www.rideprt.org/Detours/ByRoute/53-Homestead%20Park",
+          "decision": "Notice still mixes 2026 and 2025 dates; do not publish ambiguous dates."
+        },
+        {
+          "story": "Dravosburg lane work",
+          "source": "https://www.monvalleyindependent.com/2026/10/16/traffic-notice/",
+          "decision": "Secondary brief alone insufficient for a distinct substantive urgent notice; no publication."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-17",
+        "type": "Google Search News tab; not Google News app/site",
+        "date_range": "2026-09-17/2026-10-14",
+        "clicks": 1,
+        "impressions": 10,
+        "average_position": 14.1,
+        "observed_pages": [
+          "/news/development/",
+          "/news/homer-city-dep-permit-hearing-october-14-2026",
+          "/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside",
+          "/news/pittsburgh-music-lessons-three-programs-compare",
+          "/news/pittsburgh-advances-zoning-code-rewrite-grant",
+          "/news/pittsburgh-paints-cranberry-headquarters-brand-background"
+        ],
+        "note": "Settled 28-day News-tab report; one additional impression and changed date window. Tiny sample is not a trend or current rank. Not evidence of Google News app/site inclusion."
+      },
+      "sitemaps": {
+        "checked_utc": "2026-10-17T13:12:06.076697+00:00",
+        "results": [
+          {
+            "url": "https://www.thepittsburghwire.com/sitemap.xml",
+            "http_status": 200,
+            "sha256": "434d8cd7549e21cdcc16b432c902215892805f2a56a524799f0d4d5662306d5a",
+            "unchanged_since_accepted": true
+          },
+          {
+            "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+            "http_status": 200,
+            "sha256": "4444cbc17e76423846ee675d51b3a6f456b8ee3c4089a36c83e4475b342b0662",
+            "unchanged_since_accepted": true
+          },
+          {
+            "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
+            "http_status": 200,
+            "sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042",
+            "unchanged_since_accepted": true
+          }
+        ],
+        "submission": "none; all hashes unchanged since accepted",
+        "restricted_indexing_api_used": false
+      }
     }
   ]
 }
