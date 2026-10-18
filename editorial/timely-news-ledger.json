@@ -282,7 +282,7 @@
     },
     {
       "date": "2026-10-18",
-      "status": "validated_draft",
+      "status": "published_verified",
       "slug": "gap-trail-landslide-closure-ohiopyle-connellsville-october-2026",
       "sources": [
         "https://gaptrail.org/trail-alert/landslide-and-closure-between-ohiopyle-and-connellsville/"
@@ -307,6 +307,27 @@
         "impressions": 10,
         "average_position": 14.1,
         "note": "Tiny sample, no trend or current rank conclusion."
+      },
+      "publication": {
+        "checked_utc": "2026-10-18T14:55:30.459586+00:00",
+        "content_commit": "1aa4b6d6b8f9c8689d7ddbdc0ca0178d3fbd47bb",
+        "article_url": "https://www.thepittsburghwire.com/news/gap-trail-landslide-closure-ohiopyle-connellsville-october-2026",
+        "article_status": 200,
+        "deployment_id": "dpl_7ZtH6KQizVZFxXvftbaPJ3fJo2So",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "84a60a53ea88b54e02d254f5593134cc474161e8e721a35a43cd53084c2b6f31",
+          "news-sitemap.xml": "58eb2b53c7643c3006422b612822bdb612cf4378250c11466379328ec2ada123",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        }
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-18",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "indexing_claimed": false
       }
     }
   ]

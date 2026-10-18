@@ -1,19 +1,19 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and news sitemaps accepted October 16. Directory map unchanged and not resubmitted. Submission is not proof of indexing.",
+  "reason": "Changed reachable main and News sitemaps accepted October 18. Directory unchanged and not resubmitted. Acceptance does not establish indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "434d8cd7549e21cdcc16b432c902215892805f2a56a524799f0d4d5662306d5a",
+      "sha256": "84a60a53ea88b54e02d254f5593134cc474161e8e721a35a43cd53084c2b6f31",
       "accepted": true,
-      "accepted_date": "2026-10-16"
+      "accepted_date": "2026-10-18"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "4444cbc17e76423846ee675d51b3a6f456b8ee3c4089a36c83e4475b342b0662",
+      "sha256": "58eb2b53c7643c3006422b612822bdb612cf4378250c11466379328ec2ada123",
       "accepted": true,
-      "accepted_date": "2026-10-16"
+      "accepted_date": "2026-10-18"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -23,18 +23,20 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-16",
-  "submitted_commit": "61c7a1a62a4365eb9031d29f01e7e31f9fa9faba",
-  "next_routine_check_not_before": "2026-10-17",
+  "submitted_date": "2026-10-18",
+  "submitted_commit": "1aa4b6d6b8f9c8689d7ddbdc0ca0178d3fbd47bb",
+  "next_routine_check_not_before": "2026-10-19",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-16T13:06:53.279774+00:00",
-    "content_commit": "61c7a1a62a4365eb9031d29f01e7e31f9fa9faba",
-    "article_url": "https://www.thepittsburghwire.com/news/parkway-east-homestead-grays-weekend-restrictions-october-16-19-2026",
+    "checked_utc": "2026-10-18T14:55:30.459586+00:00",
+    "content_commit": "1aa4b6d6b8f9c8689d7ddbdc0ca0178d3fbd47bb",
+    "article_url": "https://www.thepittsburghwire.com/news/gap-trail-landslide-closure-ohiopyle-connellsville-october-2026",
     "article_status": 200,
+    "deployment_id": "dpl_7ZtH6KQizVZFxXvftbaPJ3fJo2So",
+    "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "434d8cd7549e21cdcc16b432c902215892805f2a56a524799f0d4d5662306d5a",
-      "news-sitemap.xml": "4444cbc17e76423846ee675d51b3a6f456b8ee3c4089a36c83e4475b342b0662",
+      "sitemap.xml": "84a60a53ea88b54e02d254f5593134cc474161e8e721a35a43cd53084c2b6f31",
+      "news-sitemap.xml": "58eb2b53c7643c3006422b612822bdb612cf4378250c11466379328ec2ada123",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
     }
   },
@@ -111,10 +113,35 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-10-16",
+      "submitted_commit": "61c7a1a62a4365eb9031d29f01e7e31f9fa9faba",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "434d8cd7549e21cdcc16b432c902215892805f2a56a524799f0d4d5662306d5a",
+          "accepted": true,
+          "accepted_date": "2026-10-16"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "4444cbc17e76423846ee675d51b3a6f456b8ee3c4089a36c83e4475b342b0662",
+          "accepted": true,
+          "accepted_date": "2026-10-16"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
+          "sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042",
+          "accepted": true,
+          "accepted_date": "2026-10-14"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "method": "Signed-in Search Console: successful submission confirmation for each changed map, submitted date October 16 and Success rows. Processing asynchronous.",
+    "method": "Both changed maps submitted successfully; dated October 18 Success rows, main 3411 discovered, News 1 discovered.",
     "submitted_files": [
       "sitemap.xml",
       "news-sitemap.xml"
@@ -122,6 +149,6 @@
     "not_resubmitted": [
       "directory-sitemap.xml"
     ],
-    "private_screenshot": "reports/gsc-sitemap-success-2026-10-16.png"
+    "private_screenshot": "reports/gsc-sitemap-success-2026-10-18.png"
   }
 }
