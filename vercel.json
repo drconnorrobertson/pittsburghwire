@@ -37,6 +37,36 @@
   ],
   "redirects": [
     {
+      "source": "/news/gray-swan-shadyside-pittsburgh-40-million-series-a-ai-security/",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
+      "source": "/news/gray-swan-shadyside-pittsburgh-40-million-series-a-ai-security",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
+      "source": "/news/gray-swan-ai-security-40-million-series-a-shadyside-pittsburgh/",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
+      "source": "/news/gray-swan-ai-security-40-million-series-a-shadyside-pittsburgh",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
+      "source": "/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside/",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
+      "source": "/news/gray-swan-ai-pittsburgh-40-million-series-a-shadyside",
+      "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
+      "permanent": true
+    },
+    {
       "source": "/directory/construction-junction-retail",
       "destination": "/directory/construction-junction/",
       "permanent": true
@@ -82,6 +112,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node scripts/buyer-intent-release.cjs .",
+  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs",
   "outputDirectory": "."
 }
