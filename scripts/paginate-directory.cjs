@@ -2,7 +2,7 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),file=path.join(root,'directory/index.html'),dataFile=path.join(root,'data/directory-search.json');
 const escape=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+const decode=s=>s.replace(/&#x([0-9a-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16))).replace(/&#([0-9]+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 let html=fs.readFileSync(file,'utf8');
 const pattern=/<a class="biz-card" data-search="([^"]*)" data-category="([^"]*)" href="([^"]*)"><div class="biz-name">([^]*?)<\/div><div class="biz-owner">([^]*?)<\/div><\/a>/g;
 const matches=[...html.matchAll(pattern)];
