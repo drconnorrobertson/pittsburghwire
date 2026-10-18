@@ -37,6 +37,36 @@
   ],
   "redirects": [
     {
+      "source": "/news/hellbender-pittsburgh-ai-hardware-bakery-square-12-million-seed/",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
+      "source": "/news/hellbender-pittsburgh-ai-hardware-bakery-square-12-million-seed",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
+      "source": "/news/hellbender-pittsburgh-ai-cameras-12-million-seed-round/",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
+      "source": "/news/hellbender-pittsburgh-ai-cameras-12-million-seed-round",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
+      "source": "/news/hellbender-ai-cameras-pittsburgh-seed-round-2026/",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
+      "source": "/news/hellbender-ai-cameras-pittsburgh-seed-round-2026",
+      "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
+      "permanent": true
+    },
+    {
       "source": "/news/gray-swan-shadyside-pittsburgh-40-million-series-a-ai-security/",
       "destination": "/news/gray-swan-ai-security-40m-series-a-shadyside",
       "permanent": true
@@ -112,6 +142,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs",
+  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs && python3 scripts/apply-alert-expiry.py",
   "outputDirectory": "."
 }

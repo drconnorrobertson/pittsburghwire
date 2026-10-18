@@ -302,10 +302,13 @@ def normalize_category(raw):
 
 def scan_articles(repo):
     news_dir = os.path.join(repo, "news")
+    import json
+    redirects = json.load(open(os.path.join(repo, 'scripts/story-consolidation.json')))
+    redirected_slugs = {u.strip('/').split('/')[-1] for u in redirects}
     reserved = set(CATEGORIES.values())      # generated category indexes
     articles = []
     for slug in sorted(os.listdir(news_dir)):
-        if slug in reserved or slug.startswith("."):
+        if slug in reserved or slug in redirected_slugs or slug.startswith("."):
             continue
         fpath = os.path.join(news_dir, slug, "index.html")
         if not os.path.isfile(fpath):
