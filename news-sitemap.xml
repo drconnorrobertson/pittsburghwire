@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thepittsburghwire.com/news/parkway-east-homestead-grays-weekend-restrictions-october-16-19-2026</loc>
+    <loc>https://www.thepittsburghwire.com/news/gap-trail-landslide-closure-ohiopyle-connellsville-october-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-16</news:publication_date>
-      <news:title>Parkway East Weekend Lanes: October 16–19 Restrictions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/forbes-avenue-uptown-paving-october-15-17-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-15</news:publication_date>
-      <news:title>Forbes Avenue Paving: Uptown Restrictions Through Oct. 17</news:title>
+      <news:publication_date>2026-10-18</news:publication_date>
+      <news:title>GAP Landslide Closure: Ohiopyle–Connellsville Shuttle</news:title>
     </news:news>
   </url>
 </urlset>

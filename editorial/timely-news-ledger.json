@@ -279,6 +279,35 @@
         "submission": "none; all hashes unchanged since accepted",
         "restricted_indexing_api_used": false
       }
+    },
+    {
+      "date": "2026-10-18",
+      "status": "validated_draft",
+      "slug": "gap-trail-landslide-closure-ohiopyle-connellsville-october-2026",
+      "sources": [
+        "https://gaptrail.org/trail-alert/landslide-and-closure-between-ohiopyle-and-connellsville/"
+      ],
+      "why_cannot_wait": "Immediate closure and shuttle service apply to Sunday October 18 trips; waiting for Monday would leave Sunday riders without the new operational warning.",
+      "coverage_check": "Clean main 598c0c4e matched origin; no matching GAP mile 88 landslide coverage. No concurrent Wire publisher observed.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "absent",
+        "counted_against_weekly_cap": false
+      },
+      "validation": {
+        "article_words": 404,
+        "quality_check_errors": 0,
+        "complete_diff_reviewed": true
+      },
+      "search_console": {
+        "checked_date": "2026-10-18",
+        "type": "Search News tab; not Google News app/site",
+        "date_range": "2026-09-19/2026-10-16",
+        "clicks": 1,
+        "impressions": 10,
+        "average_position": 14.1,
+        "note": "Tiny sample, no trend or current rank conclusion."
+      }
     }
   ]
 }
