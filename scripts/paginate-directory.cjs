@@ -7,6 +7,7 @@ let html=fs.readFileSync(file,'utf8');
 const pattern=/<a class="biz-card" data-search="([^"]*)" data-category="([^"]*)" href="([^"]*)"><div class="biz-name">([^]*?)<\/div><div class="biz-owner">([^]*?)<\/div><\/a>/g;
 const matches=[...html.matchAll(pattern)];
 let data;if(!html.includes('<!-- directory-pagination:start -->')){data=matches.map(m=>({search:decode(m[1]),category:m[2],url:m[3],name:decode(m[4]),detail:decode(m[5])}));if(data.length<100)throw Error('Unexpected catalog size');fs.writeFileSync(dataFile,JSON.stringify(data));}else data=JSON.parse(fs.readFileSync(dataFile,'utf8'));
+html=html.replace(/<p>The \d+ profiles below span these broad categories:[^]*?<\/p>/,`<p>The directory contains ${data.length.toLocaleString()} business profiles across the categories above. Browse the page links or search the full directory. These are sourced listings, not a count of every operating business in the region.</p>`);
 const size=60,total=Math.ceil(data.length/size),site='https://www.thepittsburghwire.com';
 const card=r=>`<a class="biz-card" data-search="${escape(r.search)}" data-category="${escape(r.category)}" href="${escape(r.url)}"><div class="biz-name">${escape(r.name)}</div><div class="biz-owner">${escape(r.detail)}</div></a>`;
 // Use the existing page design and all collection/service links.
