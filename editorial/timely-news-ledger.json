@@ -329,6 +329,60 @@
         ],
         "indexing_claimed": false
       }
+    },
+    {
+      "date": "2026-10-19",
+      "status": "draft",
+      "slug": "pennsylvania-voter-registration-deadline-october-19-2026-allegheny",
+      "why_cannot_wait": "Registration deadline is today, October 19; waiting until next Monday October 26 would miss the deadline entirely. Neutral procedural notice, separate from evergreen weekly quota.",
+      "sources": [
+        "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/voting-and-elections/running-for-office/2026/2026-general-election-calendar.pdf",
+        "https://www.alleghenycounty.us/Government/Elections/Election-Updates",
+        "https://www.pa.gov/services/vote/register-to-vote",
+        "https://www.pa.gov/agencies/vote/voter-registration/check-my-registration-status"
+      ],
+      "coverage_check": "Based on main 3856cfc8; integrated weekly comparison commit 5c74248f before publishing. No dedicated registration-deadline article; both new stories retained.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "Weekly driving-school guide committed as 5c74248f in slot 1; rebased timely notice onto that commit. Separate urgent deadline notice not counted in weekly cap.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-19",
+        "date_range": "2026-10-11/2026-10-17",
+        "news": {
+          "clicks": 0,
+          "impressions": 8,
+          "average_position": 4.8,
+          "observed_pages": [
+            "homer-city-dep-permit-hearing-october-14-2026",
+            "pittsburgh-paints-cranberry-headquarters-brand-background",
+            "pittsburgh-music-lessons-three-programs-compare",
+            "pittsburgh-advances-zoning-code-rewrite-grant"
+          ]
+        },
+        "web": {
+          "clicks": 904,
+          "impressions_display": "84.5K",
+          "average_position": 9,
+          "observed_leading_intents": [
+            "Opal Grand",
+            "Bombing Pot",
+            "McCandless Restaurant Week",
+            "Delanies",
+            "Homestead Waterfront development"
+          ]
+        },
+        "note": "Same settled seven-day window comparison; first weekly baseline, not a week-over-week trend. News sample too small for trend conclusions. Search News tab is not Google News app/site inclusion. Position is a historical aggregate."
+      },
+      "validation": {
+        "article_words": 452,
+        "quality_check_errors": 0,
+        "pages_checked": 3972,
+        "complete_diff_reviewed": true,
+        "primary_links_http_status": 200,
+        "scope_note": "Concise urgent procedural notice. Source QC passes; Vercel applies existing consolidation, expiry and directory-pagination build steps. Unrelated generated directory files excluded from commit."
+      }
     }
   ]
 }
