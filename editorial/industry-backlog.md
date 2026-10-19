@@ -312,3 +312,9 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 - Fireplace showrooms — `pittsburgh-fireplace-showrooms-product-installation-quotes`, October13. FirePatiopleadproduct/laborestimateprocess, WestPennCanonsburg. RefreshsameURL; chimneyguidecomplementssweepinginspectionintent. No locationvariants orDIYinstallationadvice.
 
 - Cosmic Treats Mars — `cosmic-treats-sweets-mars-menu-hours-opening-background`, October13. Currentprimarymenu/hours plusdatedopeningbackground. RefreshsameURLforflavors/hours; no thinicecreamlocationvariant. June24vsSept17milestonesnotindependentlyresolved.
+
+
+## Shared weekly batch — October 19, 2026
+
+- Driving instruction source hold resolved: `pittsburgh-driving-lessons-two-school-options` compares Easy Method and Rogers using current official lesson, contact and testing pages. Published through the shared weekly cap, not daily timely news. Practical enrollment/transport intent; no measured query-demand claim, firsthand-testing claim, pass guarantee or unsupported current price. Easy Method hour discrepancies and Rogers price-loading placeholders are explicitly handled. Refresh this canonical guide rather than create adult/teen/neighborhood variants.
+- All old volume/frequency statements above are historical. Evergreen additions now use the central Monday batch of up to 10 total articles across all sites; genuinely timely news remains separate.
