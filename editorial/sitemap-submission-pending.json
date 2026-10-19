@@ -1,19 +1,19 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News sitemaps accepted October 18. Directory unchanged and not resubmitted. Acceptance does not establish indexing.",
+  "reason": "Both changed reachable maps accepted. Directory unchanged. Submission does not establish indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "84a60a53ea88b54e02d254f5593134cc474161e8e721a35a43cd53084c2b6f31",
+      "sha256": "e3a137b42fff6885488b8b863fb009ae6d7ef4d679962f0d43af1144ded75e88",
       "accepted": true,
-      "accepted_date": "2026-10-18"
+      "accepted_date": "2026-10-19"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "58eb2b53c7643c3006422b612822bdb612cf4378250c11466379328ec2ada123",
+      "sha256": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
       "accepted": true,
-      "accepted_date": "2026-10-18"
+      "accepted_date": "2026-10-19"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -23,22 +23,22 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-18",
-  "submitted_commit": "1aa4b6d6b8f9c8689d7ddbdc0ca0178d3fbd47bb",
-  "next_routine_check_not_before": "2026-10-19",
+  "submitted_date": "2026-10-19",
+  "submitted_commit": "2807734181fe585e49c4f4307fc9bb449f5e7169",
+  "next_routine_check_not_before": "2026-10-20",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-18T14:55:30.459586+00:00",
-    "content_commit": "1aa4b6d6b8f9c8689d7ddbdc0ca0178d3fbd47bb",
-    "article_url": "https://www.thepittsburghwire.com/news/gap-trail-landslide-closure-ohiopyle-connellsville-october-2026",
+    "checked_utc": "2026-10-19T13:11:47.676370+00:00",
+    "content_commit": "2807734181fe585e49c4f4307fc9bb449f5e7169",
+    "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-voter-registration-deadline-october-19-2026-allegheny",
     "article_status": 200,
-    "deployment_id": "dpl_7ZtH6KQizVZFxXvftbaPJ3fJo2So",
-    "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "84a60a53ea88b54e02d254f5593134cc474161e8e721a35a43cd53084c2b6f31",
-      "news-sitemap.xml": "58eb2b53c7643c3006422b612822bdb612cf4378250c11466379328ec2ada123",
+      "sitemap.xml": "e3a137b42fff6885488b8b863fb009ae6d7ef4d679962f0d43af1144ded75e88",
+      "news-sitemap.xml": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
-    }
+    },
+    "deployment_id": "dpl_2bWrRGH7UNJM8H4ePViA497jrStV",
+    "production_state": "READY"
   },
   "pending_changed_sitemaps": [],
   "submission_history": [
@@ -138,6 +138,27 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-10-19",
+      "submitted_commit": "2807734181fe585e49c4f4307fc9bb449f5e7169",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "e3a137b42fff6885488b8b863fb009ae6d7ef4d679962f0d43af1144ded75e88",
+          "accepted": true,
+          "accepted_date": "2026-10-19"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
+          "accepted": true,
+          "accepted_date": "2026-10-19"
+        }
+      ],
+      "method": "Google Search Console browser UI",
+      "proof": "reports/gsc-sitemap-success-2026-10-19.png",
+      "note": "Both changed reachable maps accepted. Directory unchanged. Submission does not establish indexing."
     }
   ],
   "submission_evidence": {

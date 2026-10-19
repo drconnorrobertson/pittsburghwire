@@ -332,7 +332,7 @@
     },
     {
       "date": "2026-10-19",
-      "status": "draft",
+      "status": "published_verified",
       "slug": "pennsylvania-voter-registration-deadline-october-19-2026-allegheny",
       "why_cannot_wait": "Registration deadline is today, October 19; waiting until next Monday October 26 would miss the deadline entirely. Neutral procedural notice, separate from evergreen weekly quota.",
       "sources": [
@@ -378,10 +378,33 @@
       "validation": {
         "article_words": 452,
         "quality_check_errors": 0,
-        "pages_checked": 3972,
+        "pages_checked": 3973,
         "complete_diff_reviewed": true,
         "primary_links_http_status": 200,
         "scope_note": "Concise urgent procedural notice. Source QC passes; Vercel applies existing consolidation, expiry and directory-pagination build steps. Unrelated generated directory files excluded from commit."
+      },
+      "publication": {
+        "checked_utc": "2026-10-19T13:11:47.676370+00:00",
+        "content_commit": "2807734181fe585e49c4f4307fc9bb449f5e7169",
+        "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-voter-registration-deadline-october-19-2026-allegheny",
+        "article_status": 200,
+        "sha256": {
+          "sitemap.xml": "e3a137b42fff6885488b8b863fb009ae6d7ef4d679962f0d43af1144ded75e88",
+          "news-sitemap.xml": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "deployment_id": "dpl_2bWrRGH7UNJM8H4ePViA497jrStV",
+        "production_state": "READY"
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-19",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "unchanged; not resubmitted",
+        "indexing_claimed": false,
+        "proof": "reports/gsc-sitemap-success-2026-10-19.png"
       }
     }
   ]
