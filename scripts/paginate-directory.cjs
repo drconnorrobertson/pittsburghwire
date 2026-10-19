@@ -26,5 +26,6 @@ for(let n=1;n<=total;n++){
  const dest=n===1?file:path.join(root,'directory/page',String(n),'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,page);
 }
 let sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8').replace(/<url>\s*<loc>https:\/\/www\.thepittsburghwire\.com\/directory\/page\/\d+\/[^]*?<\/url>/g,'');
+sitemap=sitemap.replace('<loc>'+site+'/directory/</loc>','<loc>'+site+'/directory</loc>');
 sitemap=sitemap.replace('</urlset>',Array.from({length:total-1},(_,i)=>`<url><loc>${site}/directory/page/${i+2}/</loc></url>`).join('\n')+'\n</urlset>');fs.writeFileSync(path.join(root,'sitemap.xml'),sitemap);
 console.log(`Paginated ${data.length} intact listings into ${total} pages. First page: ${fs.statSync(file).size} bytes.`);

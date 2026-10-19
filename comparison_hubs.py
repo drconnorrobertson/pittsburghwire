@@ -10,25 +10,25 @@ TOPICS = {
         'title': 'Pittsburgh Home Services: Compare Local Providers',
         'intro': 'Plan a repair, move or improvement with our researched Pittsburgh-area provider shortlists. Start with the job you need done, then compare the documented services and estimate process in the individual guide.',
         'advice': 'Define the scope, property location and timing before requesting estimates. Ask each provider for a written scope, exclusions, applicable license and insurance details, and who handles follow-up. Compare equivalent work rather than the lowest headline quote.',
-        'terms': ['roofing-contractors', 'plumbers', 'pest-control', 'moving-companies', 'landscapers', 'hvac-companies', 'home-organizers', 'electricians', 'handyman-services', 'self-storage-options', 'diy-resources'],
+        'terms': ['roofing-contractors', 'plumbers', 'pest-control', 'moving-companies', 'landscapers', 'hvac-companies', 'home-organizers', 'electricians', 'handyman-services', 'self-storage-options', 'diy-resources', 'tile-showrooms', 'flooring-installation', 'basement-waterproofing', 'home-inspectors', 'fence-installation', 'garage-door-service', 'area-rug-cleaning', 'appliance-repair', 'furniture-repair-upholstery', 'junk-removal', 'locksmiths', 'window-cleaners', 'fireplace-showrooms'],
     },
     'business-services': {
         'title': 'Pittsburgh Business Services: Compare Local Options',
         'intro': 'Find a practical starting point for a Pittsburgh business project: a website, print materials, accounting support, workspace or commercial cleaning. Each linked guide names providers and links to the sources behind its service descriptions.',
         'advice': 'Write down your deliverables, budget range and deadline. Ask about onboarding, ongoing charges, ownership of completed work, cancellation terms and the person responsible for your account. Accounting and other professional engagements need a scope tailored to your business.',
-        'terms': ['web-design-agencies', 'print-and-sign-shops', 'accountants-tax', 'coworking-spaces', 'commercial-cleaners'],
+        'terms': ['web-design-agencies', 'print-and-sign-shops', 'accountants-tax', 'coworking-spaces', 'commercial-cleaners', 'translation-services', 'computer-repair'],
     },
     'things-to-do': {
         'title': 'Pittsburgh Things to Do: Local Lists and Planning Guides',
         'intro': 'Compare Pittsburgh-area outings by the kind of day you want: a museum visit, walking tour, creative class, game night or film screening. These shortlists help you move from an idea to the official booking or visitor information.',
         'advice': 'Check the official calendar for your specific date before making plans. For groups, confirm capacity, private versus shared admission, age restrictions and accessibility needs. Hours, seasonal programs and ticket availability can change after a guide is published.',
-        'terms': ['walking-tours', 'escape-rooms', 'farmers-markets', 'bowling-three', 'astronomy-planetarium', 'movie-theaters', 'record-stores', 'museums-rainy', 'gardens-park', 'craft-classes', 'pinball-arcade', 'chocolate-shops', 'buffet-restaurants', 'coffee-shops'],
+        'terms': ['walking-tours', 'escape-rooms', 'farmers-markets', 'bowling-three', 'astronomy-planetarium', 'movie-theaters', 'record-stores', 'museums-rainy', 'gardens-park', 'craft-classes', 'pinball-arcade', 'chocolate-shops', 'buffet-restaurants', 'coffee-shops', 'indoor-pickleball', 'archery-lessons', 'indoor-climbing', 'laser-tag', 'adult-language-classes', 'cooking-classes', 'adult-dance-classes', 'pottery-classes'],
     },
     'events-and-personal-services': {
         'title': 'Pittsburgh Event and Personal Services: Local Comparisons',
         'intro': 'Explore researched shortlists for events, personal appointments and pet care around Pittsburgh. Use the individual comparisons to narrow your options by services, location and the questions to ask before booking.',
         'advice': 'For an event, confirm the date, guest count, minimum spend, deposit and cancellation policy. For appointments or pet care, ask about intake requirements, staff qualifications relevant to the service, scheduling and what the quoted price includes. A published service menu does not establish current availability.',
-        'terms': ['caterers', 'event-venues', 'wedding-photographers', 'florists-delivery', 'hair-salons', 'day-spas', 'gyms', 'pet-grooming', 'dog-daycare', 'bike-repair', 'auto-repair'],
+        'terms': ['caterers', 'event-venues', 'wedding-photographers', 'florists-delivery', 'hair-salons', 'day-spas', 'gyms', 'pet-grooming', 'dog-daycare', 'bike-repair', 'auto-repair', 'running-shoe-fitting', 'auto-glass', 'school-instrument-rentals', 'watch-repair', 'sewing-machine-repair', 'clothing-alterations', 'piano-tuning', 'barbershops', 'dog-training', 'tutoring-centers', 'dry-cleaners', 'driving-lessons'],
     },
 }
 

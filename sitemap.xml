@@ -55,6 +55,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/best/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2999,6 +3000,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/best/business-services/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3009,11 +3011,13 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/best/events-and-personal-services/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/best/home-services/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3024,6 +3028,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/best/things-to-do/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

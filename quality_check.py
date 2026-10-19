@@ -139,7 +139,7 @@ def check():
 
     for page_path in sorted((ROOT / "neighborhoods").glob("*/index.html")):
         source = page_path.read_text(encoding="utf-8")
-        news_cards = re.findall(r'<a href="/news/([^"/]+)" class="article-card">', source)
+        news_cards = re.findall(r'<a href="/news/([^"/]+)/?" class="article-card">', source)
         business_cards = re.findall(r'<a href="/directory/([^"/]+)" class="biz-card">', source)
         if set(business_cards) != set(LOCAL_PROFILES.get(page_path.parent.name, ())):
             errors.append(f"Neighborhood business mapping drift: {page_path.relative_to(ROOT)}")
@@ -166,6 +166,23 @@ def check():
                 errors.append(f"Unsupported article promoted by {path.relative_to(ROOT)}")
 
     hub = (ROOT / "directory" / "index.html").read_text(encoding="utf-8")
+    # Production paginates the directory. Require every page to be reachable
+    # from the root's HTML links, then check profile discovery across that graph.
+    pending_pages = [ROOT / "directory" / "index.html"]
+    reached_pages = set()
+    while pending_pages:
+        directory_page = pending_pages.pop()
+        if directory_page in reached_pages or directory_page not in pages:
+            continue
+        reached_pages.add(directory_page)
+        for href in pages[directory_page].links:
+            local_path = urlsplit(href).path
+            if re.fullmatch(r"/directory/page/\d+/", local_path):
+                pending_pages.append(ROOT / local_path.lstrip("/") / "index.html")
+    for directory_page in (ROOT / "directory" / "page").glob("*/index.html"):
+        if directory_page not in reached_pages:
+            errors.append(f"Directory pagination page is unreachable: {directory_page.relative_to(ROOT)}")
+    hub = "\n".join(path.read_text(encoding="utf-8") for path in reached_pages)
     for slug in VERIFIED:
         path = ROOT / "directory" / slug / "index.html"
         if path not in pages or "noindex" in pages[path].robots:

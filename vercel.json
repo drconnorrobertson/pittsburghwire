@@ -37,6 +37,246 @@
   ],
   "redirects": [
     {
+      "source": "/news/market-square-15-million-redesign-complete/",
+      "destination": "/news/market-square-reopens-15-million-redesign/",
+      "permanent": true
+    },
+    {
+      "source": "/news/market-square-15-million-redesign-complete",
+      "destination": "/news/market-square-reopens-15-million-redesign/",
+      "permanent": true
+    },
+    {
+      "source": "/news/21-west-luxury-apartments-north-shore/",
+      "destination": "/news/21-west-oxford-development-north-shore-luxury-apartments",
+      "permanent": true
+    },
+    {
+      "source": "/news/21-west-luxury-apartments-north-shore",
+      "destination": "/news/21-west-oxford-development-north-shore-luxury-apartments",
+      "permanent": true
+    },
+    {
+      "source": "/news/post-gazette-acquisition-new-era-pittsburgh-journalism/",
+      "destination": "/news/pittsburgh-post-gazette-venetoulis-nonprofit-acquisition/",
+      "permanent": true
+    },
+    {
+      "source": "/news/post-gazette-acquisition-new-era-pittsburgh-journalism",
+      "destination": "/news/pittsburgh-post-gazette-venetoulis-nonprofit-acquisition/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/business",
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/business/",
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/business",
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/business/",
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "business"
+        }
+      ],
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "business"
+        }
+      ],
+      "destination": "/news/business/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/development",
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/development/",
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/development",
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/development/",
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "development"
+        }
+      ],
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "development"
+        }
+      ],
+      "destination": "/news/development/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/real-estate",
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/real-estate/",
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate",
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate/",
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "real-estate"
+        }
+      ],
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "real-estate"
+        }
+      ],
+      "destination": "/news/real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/people",
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/people/",
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/people",
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/people/",
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "people"
+        }
+      ],
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "people"
+        }
+      ],
+      "destination": "/news/people/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/neighborhoods",
+      "destination": "/news/neighborhoods/",
+      "permanent": true
+    },
+    {
+      "source": "/news/category/neighborhoods/",
+      "destination": "/news/neighborhoods/",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "neighborhoods"
+        }
+      ],
+      "destination": "/news/neighborhoods/",
+      "permanent": true
+    },
+    {
+      "source": "/news/",
+      "has": [
+        {
+          "type": "query",
+          "key": "section",
+          "value": "neighborhoods"
+        }
+      ],
+      "destination": "/news/neighborhoods/",
+      "permanent": true
+    },
+    {
       "source": "/news/hellbender-pittsburgh-ai-hardware-bakery-square-12-million-seed/",
       "destination": "/news/hellbender-pittsburgh-ai-camera-seed-round-2026",
       "permanent": true
@@ -142,6 +382,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs && python3 scripts/apply-alert-expiry.py",
+  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs && python3 scripts/apply-alert-expiry.py && python3 scripts/normalize-news-links.py",
   "outputDirectory": "."
 }
