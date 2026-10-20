@@ -406,6 +406,94 @@
         "indexing_claimed": false,
         "proof": "reports/gsc-sitemap-success-2026-10-19.png"
       }
+    },
+    {
+      "date": "2026-10-20",
+      "status": "skipped_no_verified_timely_story",
+      "publication": null,
+      "scope": "Timely-only daily check; no evergreen additions or volume target.",
+      "coverage_check": "Clean main at 75c4747d4130740cd6f77a24d2db9e5d73aa19e8, matching origin/main. No other active Wire publisher observed in recent task inventory; no existing Denise/Glenbury rail-work article found.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "2026-10-19 completed_with_quality_shortfall; one published driving-school guide; no active reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "candidates": [
+        {
+          "story": "Blue/Silver line single-tracking October 19\u201321 at Denise and Glenbury",
+          "sources": [
+            "https://www.rideprt.org/Detours/Detail/28069/Route/SLVR",
+            "https://www.rideprt.org/Detours/ByRoute/SLVR-Silver%20Line"
+          ],
+          "why_cannot_wait_if_confirmed": "Indexed official notice describes changed boarding platforms today and Wednesday, before Monday October 26.",
+          "decision": "Held: search cached notice is dated and specific, but direct primary-page requests timed out and terminal retrieval returned the publisher error page titled Something Went Wrong. No live confirmation of the current work notice, so no publication from cached text alone."
+        },
+        {
+          "story": "Cafe Raymond Brentwood planned opening",
+          "sources": [
+            "https://caferaymond.com/"
+          ],
+          "decision": "Official search result still says opening October 2026, without a verified operational start date or immediate reason this cannot wait for Monday. No opening claim published."
+        },
+        {
+          "story": "Cranberry incoming businesses",
+          "sources": [
+            "https://cranberrytownship.org/1580/Opening-Soon"
+          ],
+          "decision": "Official list updated October 16 identifies coming-soon tenants, not newly confirmed operating dates. Suitable for further weekly research; no timely story justified."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-20",
+        "type": "Google Search News tab, not Google News app/site",
+        "date_range": "2026-10-11/2026-10-17",
+        "clicks": 0,
+        "impressions": 8,
+        "average_position": 4.8,
+        "observed_pages": [
+          {
+            "slug": "homer-city-dep-permit-hearing-october-14-2026",
+            "clicks": 0,
+            "impressions": 5,
+            "average_position": 3.6
+          },
+          {
+            "slug": "pittsburgh-paints-cranberry-headquarters-brand-background",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 3.0
+          },
+          {
+            "slug": "pittsburgh-music-lessons-three-programs-compare",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 8.0
+          },
+          {
+            "slug": "pittsburgh-advances-zoning-code-rewrite-grant",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 9.0
+          }
+        ],
+        "note": "Same settled window as October 19; unchanged tiny sample, no trend conclusion. Weekly Web comparison already recorded October 19. Raw snapshot kept private."
+      },
+      "indexing_followup": {
+        "attempted_slug": "rivian-bethel-park-service-demo-center",
+        "result": "Google explicitly reported property URL inspection quota exhausted on the first remaining check; stopped immediately. No result inferred and no repeat inspection or indexing request. Sixteen remain pending.",
+        "private_evidence": "../reports/indexing-audit-2026-10-19/inspection-quota-2026-10-20.txt"
+      },
+      "production_check": {
+        "deployment_id": "dpl_ERC2UcKKFTnDLzYEqLXrX6TGLUai",
+        "commit": "75c4747d4130740cd6f77a24d2db9e5d73aa19e8",
+        "state": "READY",
+        "environment": "production",
+        "note": "Existing maintenance release; no new article or site code published today."
+      },
+      "sitemaps": {
+        "result": "All three maps reachable HTTP 200 with hashes matching the last accepted submission record. None resubmitted.",
+        "indexing_claimed": false
+      }
     }
   ]
 }

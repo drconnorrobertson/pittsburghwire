@@ -206,11 +206,13 @@
     "legacy_section_filters_checked": 5
   },
   "indexing_audit_followup": {
-    "not_before": "2026-10-20",
+    "not_before": "2026-10-21",
     "remaining_direct_inspections": 16,
     "reason": "Google explicitly exhausted the daily property URL-inspection quota; do not retry before reset.",
     "private_review_queue": "../reports/indexing-audit-2026-10-19/news-indexing-review.csv",
     "review_sources_before_requesting_indexing": true,
-    "do_not_repeat_confirmed_indexed_checks": true
+    "do_not_repeat_confirmed_indexed_checks": true,
+    "last_attempt_date": "2026-10-20",
+    "last_attempt_result": "Property URL inspection quota still exhausted on first pending URL. Stopped immediately; 16 remain unverified. No indexing requests submitted."
   }
 }
