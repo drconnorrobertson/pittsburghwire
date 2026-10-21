@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thepittsburghwire.com/news/pennsylvania-voter-registration-deadline-october-19-2026-allegheny</loc>
+    <loc>https://www.thepittsburghwire.com/news/allegheny-county-pool-spa-rules-comment-deadline-october-21-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-19</news:publication_date>
-      <news:title>PA Voter Registration Deadline Is Today, October 19</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-driving-lessons-two-school-options</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-19</news:publication_date>
-      <news:title>Pittsburgh Driving Lessons: Two Schools to Compare</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/gap-trail-landslide-closure-ohiopyle-connellsville-october-2026</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-18</news:publication_date>
-      <news:title>GAP Landslide Closure: Ohiopyle–Connellsville Shuttle</news:title>
+      <news:publication_date>2026-10-21</news:publication_date>
+      <news:title>Allegheny Pool and Spa Rule Comments Close Tonight</news:title>
     </news:news>
   </url>
 </urlset>

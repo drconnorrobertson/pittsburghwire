@@ -494,6 +494,59 @@
         "result": "All three maps reachable HTTP 200 with hashes matching the last accepted submission record. None resubmitted.",
         "indexing_claimed": false
       }
+    },
+    {
+      "date": "2026-10-21",
+      "status": "validated_awaiting_production",
+      "slug": "allegheny-county-pool-spa-rules-comment-deadline-october-21-2026",
+      "why_cannot_wait": "Official written-comment deadline is tonight October 21 at 11:59 p.m.; next Monday October 26 would miss the participation window. Neutral procedural notice, separate from the weekly evergreen cap.",
+      "sources": [
+        "https://www.alleghenycounty.us/Services/Health-Department/Legal/Public-Comment-Notices",
+        "https://www.alleghenycounty.us/files/assets/county/v/1/government/health/documents/housing-and-community/2026/article_ix_summary_of_proposed_changes.pdf"
+      ],
+      "coverage_check": "No Article IX/pool-spa comment-deadline article in clean main ff2b83fc; fetched origin/main with no incoming commits. No other active Wire publisher observed in recent task inventory.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 19 batch completed_with_quality_shortfall, one published driving-school guide, no reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-21",
+        "date_range": "2026-10-12/2026-10-18",
+        "type": "Google Search News tab, not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 8,
+        "average_position": 4.8,
+        "observed_pages": [
+          "homer-city-dep-permit-hearing-october-14-2026",
+          "pittsburgh-paints-cranberry-headquarters-brand-background",
+          "pittsburgh-music-lessons-three-programs-compare",
+          "pittsburgh-advances-zoning-code-rewrite-grant"
+        ],
+        "note": "Date range advanced by one day; aggregate totals unchanged, tiny sample does not establish a trend. Weekly Web comparison recorded October 19. Raw snapshot private."
+      },
+      "validation": {
+        "article_words": 442,
+        "source_links_http_status": 200,
+        "source_quality_check": {
+          "pages": 3974,
+          "errors": 0
+        },
+        "production_build_quality_check": {
+          "pages": 4020,
+          "local_links": 187551,
+          "schema_urls": 47776,
+          "sitemap_urls": 3454,
+          "errors": 0
+        },
+        "complete_diff_reviewed": true,
+        "scope_note": "Concise deadline notice, no claim proposal is enacted. New article, discovery indexes and maps; notice-window expiry added. Current alert wording generalized to cover procedural notices. Unrelated generated directory/article changes excluded."
+      },
+      "publication": null,
+      "sitemaps": {
+        "status": "Awaiting exact live production verification and changed-file hashes; no submission yet.",
+        "indexing_claimed": false
+      }
     }
   ]
 }

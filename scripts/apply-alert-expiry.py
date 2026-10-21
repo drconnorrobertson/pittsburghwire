@@ -23,7 +23,7 @@ def apply():
         p=ROOT/'news'/slug/'index.html';t=p.read_text()
         t=re.sub(r'<!-- alert-status:start -->.*?<!-- alert-status:end -->','',t,flags=re.S)
         status='Coverage window ended' if expired(slug,now) else 'Time-sensitive notice'
-        note=('This notice’s published coverage window has ended. It remains available as an archive; this does not establish that the road, trail or service is now operating normally. Check the linked operator for current conditions.' if expired(slug,now) else 'This notice describes a published date window. Confirm current conditions with the linked operator before traveling.')
+        note=('This notice’s published coverage window has ended. It remains available as an archive; this does not establish that the road, trail or service is now operating normally. Check the linked operator for current conditions.' if expired(slug,now) else 'This notice describes a published date window. Confirm current conditions and instructions with the linked authority.')
         banner=f'<!-- alert-status:start --><aside class="article-deck" data-alert-expires="{end}"><strong>{status}.</strong> {note}</aside><!-- alert-status:end -->'
         t=re.sub(r'(<article class="article-body"[^>]*>)',lambda m:m[1]+banner,t,count=1)
         if not 'data-alert-expires' in t:raise ValueError('Missing article body: '+slug)
