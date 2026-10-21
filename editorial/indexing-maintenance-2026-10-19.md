@@ -69,3 +69,15 @@ Google Search Console browser UI after live verification. The News and directory
 sitemap hashes are unchanged and were not resubmitted. Dated hash history is in
 `sitemap-submission-pending.json`. Submission does not establish indexing. No
 restricted Indexing API calls or bulk indexing requests were made.
+
+## October 21 follow-up
+
+Completed the sixteen direct URL inspections delayed by Google's quota. Across
+the 91 distinct article paths from the historical exports, direct checks now
+confirm 64 indexed and 27 not indexed, with none pending. The October 21 checks
+found thirteen indexed and three crawled/currently-not-indexed: Neighborhood 91
+phase two, Forgotten Flour and Uptown Flats. All raw observations and the full
+review queue remain in the private report directory. These are indexing
+observations, not proof of Google News app/site inclusion or a cause of exclusion.
+No duplicate checks or indexing requests were submitted. Review primary sources
+and current usefulness for the 27 excluded articles before requesting indexing.

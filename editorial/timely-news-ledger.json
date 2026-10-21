@@ -497,7 +497,7 @@
     },
     {
       "date": "2026-10-21",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "allegheny-county-pool-spa-rules-comment-deadline-october-21-2026",
       "why_cannot_wait": "Official written-comment deadline is tonight October 21 at 11:59 p.m.; next Monday October 26 would miss the participation window. Neutral procedural notice, separate from the weekly evergreen cap.",
       "sources": [
@@ -542,10 +542,47 @@
         "complete_diff_reviewed": true,
         "scope_note": "Concise deadline notice, no claim proposal is enacted. New article, discovery indexes and maps; notice-window expiry added. Current alert wording generalized to cover procedural notices. Unrelated generated directory/article changes excluded."
       },
-      "publication": null,
+      "publication": {
+        "checked_utc": "2026-10-21T13:05:33.848227+00:00",
+        "content_commit": "13b8a2bfe29c00e1b08c3123c826317540b814cd",
+        "deployment_id": "dpl_BmFc6SB6NdDo113EXSpZtuh56QQP",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "5af03d8459ec80e62c163d48ee67e87853e7d1d87794abe7f15066d06130829f",
+          "news-sitemap.xml": "0a7879080ed3ac0dba35e73ab0187dbd73afaa217727b1bf4e06110736e1b16a",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/allegheny-county-pool-spa-rules-comment-deadline-october-21-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-10-22T00:00:00-04:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
       "sitemaps": {
-        "status": "Awaiting exact live production verification and changed-file hashes; no submission yet.",
-        "indexing_claimed": false
+        "submitted_date": "2026-10-21",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Unchanged accepted hash; not resubmitted.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-21/news-sitemap-accepted.png"
+      },
+      "indexing_followup": {
+        "status": "completed",
+        "backlog_articles": 91,
+        "directly_indexed": 64,
+        "directly_not_indexed": 27,
+        "remaining": 0,
+        "today_checks": 16,
+        "today_indexed": 13,
+        "today_crawled_not_indexed": 3,
+        "note": "Historical export status is not current status. All observations and source-review queue private; no bulk or restricted Indexing API requests."
       }
     }
   ]

@@ -1,20 +1,21 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main sitemap accepted after verified indexing maintenance. News and directory maps unchanged; not resubmitted. Submission does not prove indexing.",
+  "reason": "Changed reachable main and News sitemaps accepted after exact production and live deadline-article verification. Directory map unchanged and not resubmitted. Submission does not establish indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "9e23e9f7b263db84bfc8bea0331ce0ba007c3231628c7c042edeb232c2d7833d",
+      "sha256": "5af03d8459ec80e62c163d48ee67e87853e7d1d87794abe7f15066d06130829f",
       "accepted": true,
-      "accepted_date": "2026-10-19",
-      "accepted_at_utc": "2026-10-19T22:38:07.639815+00:00"
+      "accepted_date": "2026-10-21",
+      "accepted_at_utc": "2026-10-21T13:07:52.628115+00:00"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
+      "sha256": "0a7879080ed3ac0dba35e73ab0187dbd73afaa217727b1bf4e06110736e1b16a",
       "accepted": true,
-      "accepted_date": "2026-10-19"
+      "accepted_date": "2026-10-21",
+      "accepted_at_utc": "2026-10-21T13:07:52.628115+00:00"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -24,22 +25,30 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-19",
-  "submitted_commit": "b9c5a9e91a8dea747900821b2b41eef2c66c9c65",
-  "next_routine_check_not_before": "2026-10-20",
+  "submitted_date": "2026-10-21",
+  "submitted_commit": "13b8a2bfe29c00e1b08c3123c826317540b814cd",
+  "next_routine_check_not_before": "2026-10-22",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-19T13:11:47.676370+00:00",
-    "content_commit": "2807734181fe585e49c4f4307fc9bb449f5e7169",
-    "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-voter-registration-deadline-october-19-2026-allegheny",
-    "article_status": 200,
+    "checked_utc": "2026-10-21T13:05:33.848227+00:00",
+    "content_commit": "13b8a2bfe29c00e1b08c3123c826317540b814cd",
+    "deployment_id": "dpl_BmFc6SB6NdDo113EXSpZtuh56QQP",
+    "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "e3a137b42fff6885488b8b863fb009ae6d7ef4d679962f0d43af1144ded75e88",
-      "news-sitemap.xml": "bdc38c837cf300c93543c93a867c5c4733e79acf56fa03db8042716d01821de3",
+      "sitemap.xml": "5af03d8459ec80e62c163d48ee67e87853e7d1d87794abe7f15066d06130829f",
+      "news-sitemap.xml": "0a7879080ed3ac0dba35e73ab0187dbd73afaa217727b1bf4e06110736e1b16a",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
     },
-    "deployment_id": "dpl_2bWrRGH7UNJM8H4ePViA497jrStV",
-    "production_state": "READY"
+    "article_status": 200,
+    "article_url": "https://www.thepittsburghwire.com/news/allegheny-county-pool-spa-rules-comment-deadline-october-21-2026",
+    "canonical_matches": true,
+    "indexable": true,
+    "expiry": "2026-10-22T00:00:00-04:00",
+    "discovery_pages_checked": [
+      "/",
+      "/news/",
+      "/news/neighborhoods/"
+    ]
   },
   "pending_changed_sitemaps": [],
   "submission_history": [
@@ -176,18 +185,37 @@
       "method": "Google Search Console browser UI",
       "proof": "reports/indexing-audit-2026-10-19/sitemap-submitted.png",
       "purpose": "canonical sitemap correction and discovery updates; no indexing guarantee"
+    },
+    {
+      "submitted_date": "2026-10-21",
+      "submitted_commit": "13b8a2bfe29c00e1b08c3123c826317540b814cd",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "5af03d8459ec80e62c163d48ee67e87853e7d1d87794abe7f15066d06130829f",
+          "accepted": true,
+          "accepted_date": "2026-10-21",
+          "accepted_at_utc": "2026-10-21T13:07:52.628115+00:00"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "0a7879080ed3ac0dba35e73ab0187dbd73afaa217727b1bf4e06110736e1b16a",
+          "accepted": true,
+          "accepted_date": "2026-10-21",
+          "accepted_at_utc": "2026-10-21T13:07:52.628115+00:00"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "method": "Changed main sitemap submitted successfully; Success row verified.",
-    "submitted_files": [
-      "sitemap.xml"
+    "submitted_date": "2026-10-21",
+    "changed_sitemaps_accepted": [
+      "sitemap.xml",
+      "news-sitemap.xml"
     ],
-    "not_resubmitted": [
-      "news-sitemap.xml",
-      "directory-sitemap.xml"
-    ],
-    "private_screenshot": "reports/indexing-audit-2026-10-19/sitemap-submitted.png"
+    "directory_map_unchanged": true,
+    "private_screenshot": "reports/timely-2026-10-21/news-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",
@@ -206,13 +234,15 @@
     "legacy_section_filters_checked": 5
   },
   "indexing_audit_followup": {
-    "not_before": "2026-10-21",
-    "remaining_direct_inspections": 16,
-    "reason": "Google explicitly exhausted the daily property URL-inspection quota; do not retry before reset.",
+    "not_before": null,
+    "remaining_direct_inspections": 0,
+    "reason": "The sixteen inspections delayed by earlier property quotas were completed October 21 after reset.",
     "private_review_queue": "../reports/indexing-audit-2026-10-19/news-indexing-review.csv",
     "review_sources_before_requesting_indexing": true,
     "do_not_repeat_confirmed_indexed_checks": true,
-    "last_attempt_date": "2026-10-20",
-    "last_attempt_result": "Property URL inspection quota still exhausted on first pending URL. Stopped immediately; 16 remain unverified. No indexing requests submitted."
+    "last_attempt_date": "2026-10-21",
+    "last_attempt_result": "All 91 historical-backlog article paths checked: 64 indexed, 27 not indexed. No indexing requests submitted.",
+    "status": "completed",
+    "completed_date": "2026-10-21"
   }
 }
