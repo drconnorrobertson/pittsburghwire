@@ -584,6 +584,69 @@
         "today_crawled_not_indexed": 3,
         "note": "Historical export status is not current status. All observations and source-review queue private; no bulk or restricted Indexing API requests."
       }
+    },
+    {
+      "date": "2026-10-22",
+      "status": "validated_awaiting_production",
+      "slug": "wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+      "why_cannot_wait": "PRT specifically schedules consideration of the proposed tunnel closure for Friday October 23 at its 9:30 a.m. board meeting. Waiting for Monday October 26 would lose the chance to attend or follow the pending decision. Article attributes the original October 15 announcement and does not claim a new closure or completed vote.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/pittsburgh-regional-transit-plans-to-permanently-close-wabash-tunnel--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/about-us/prt-board/meetings/",
+        "https://www.rideprt.org/policies/presentation-policy/"
+      ],
+      "coverage_check": "Clean main 001136e254c6f44bffb593faa07e3ed4be89a450 matching fetched origin/main. Existing Wabash Street safety-design coverage is a different project; no tunnel-closure proposal owner found. No other active Wire publisher observed in recent task inventory.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 19 weekly batch completed_with_quality_shortfall; one driving-school guide published, no active reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-22",
+        "date_range": "2026-10-14/2026-10-20",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 2,
+        "average_position": 4.0,
+        "observed_pages": [
+          {
+            "slug": "pittsburgh-paints-cranberry-headquarters-brand-background",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 3.0
+          },
+          {
+            "slug": "pittsburgh-bakeries-bread-pastries-cake-five-stops",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 5.0
+          }
+        ],
+        "note": "Rolling window advanced; tiny samples and changed date ranges do not establish a performance trend. Weekly Web comparison recorded October 19. Raw snapshot private."
+      },
+      "validation": {
+        "article_words": 414,
+        "primary_links_http_status": 200,
+        "source_quality_check": {
+          "pages": 3975,
+          "errors": 0
+        },
+        "production_build_quality_check": {
+          "pages": 4021,
+          "local_links": 187597,
+          "schema_urls": 47778,
+          "sitemap_urls": 3455,
+          "errors": 0
+        },
+        "complete_diff_reviewed": true,
+        "scope_note": "Concise timely meeting notice; December 1 explicitly conditional. Three official sources. New-post house template and institutional byline retained. Expired pool/GAP windows removed from homepage promotion by existing expiry logic. No new evergreen guide."
+      },
+      "publication": null,
+      "sitemaps": {
+        "status": "Awaiting exact live production verification; no submission yet.",
+        "indexing_claimed": false
+      },
+      "followup": "After the October 23 meeting, check official recorded board action and refresh this same article if verified; do not create a competing closure variant."
     }
   ]
 }
