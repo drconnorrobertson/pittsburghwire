@@ -587,7 +587,7 @@
     },
     {
       "date": "2026-10-22",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "wabash-tunnel-closure-proposal-prt-board-october-23-2026",
       "why_cannot_wait": "PRT specifically schedules consideration of the proposed tunnel closure for Friday October 23 at its 9:30 a.m. board meeting. Waiting for Monday October 26 would lose the chance to attend or follow the pending decision. Article attributes the original October 15 announcement and does not claim a new closure or completed vote.",
       "sources": [
@@ -641,10 +641,36 @@
         "complete_diff_reviewed": true,
         "scope_note": "Concise timely meeting notice; December 1 explicitly conditional. Three official sources. New-post house template and institutional byline retained. Expired pool/GAP windows removed from homepage promotion by existing expiry logic. No new evergreen guide."
       },
-      "publication": null,
+      "publication": {
+        "checked_utc": "2026-10-22T13:09:49.114920+00:00",
+        "content_commit": "341146db8faee6e2fbc6269c412b00745887dc14",
+        "deployment_id": "dpl_Grmqg5vUsVJghYwFBUu1yj4JG4qH",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "592ad93493aef3bb42dc5d0a1140de258d8a68ba9f397ec817e71e6c9ae061f5",
+          "news-sitemap.xml": "ebbedb2ec70b04fe8ca34af17b6c256cf690e098a75044acc0039954e3db00c5",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-10-24T00:00:00-04:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/development/"
+        ]
+      },
       "sitemaps": {
-        "status": "Awaiting exact live production verification; no submission yet.",
-        "indexing_claimed": false
+        "submitted_date": "2026-10-22",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Hash unchanged; not resubmitted.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-22/news-sitemap-accepted.png"
       },
       "followup": "After the October 23 meeting, check official recorded board action and refresh this same article if verified; do not create a competing closure variant."
     }
