@@ -676,7 +676,7 @@
     },
     {
       "date": "2026-10-23",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "prt-weekend-rail-closures-october-23-26-2026",
       "why_cannot_wait": "Confirmed work interrupts service after Friday October 23 and again Sunday evening October 25, ending by scheduled Monday service October 26. Waiting for Monday would miss the weekend transfer-planning window.",
       "sources": [
@@ -740,10 +740,36 @@
         "complete_diff_reviewed": true,
         "scope_note": "Concise urgent travel notice based on current official closure windows, supplemented with official schedule/contact resources. House template and institutional byline preserved. No personal reporting, invented arrival times, or claim scheduled work is completed. Unrelated generated files excluded."
       },
-      "publication": null,
+      "publication": {
+        "checked_utc": "2026-10-23T13:06:02.757957+00:00",
+        "content_commit": "fd96f646cd0461efd60d40dd43c3d953137f6480",
+        "deployment_id": "dpl_CRvFCJaL42pD75R85uCHV3bDMTc8",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "4f39777e8098ad24037c6df84f14538c36532b6a65854fb7efe3615cbc155ba9",
+          "news-sitemap.xml": "5a8c6d4934a796c2979ee9299cf4d3d70132f139b34d6e837001bbd13b6baec8",
+          "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/prt-weekend-rail-closures-october-23-26-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-10-27T00:00:00-04:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
       "sitemaps": {
-        "status": "Awaiting exact live production verification; nothing submitted yet.",
-        "indexing_claimed": false
+        "submitted_date": "2026-10-23",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Hash unchanged; not resubmitted.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-23/news-sitemap-accepted.png"
       }
     }
   ]

@@ -1,21 +1,21 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News sitemaps accepted after verified Wabash proposal/Friday-meeting publication. Directory map unchanged and not resubmitted. Submission does not prove indexing.",
+  "reason": "Changed reachable main and News sitemaps accepted after exact production and live weekend-rail-closure article verification. Directory map unchanged and not resubmitted. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "592ad93493aef3bb42dc5d0a1140de258d8a68ba9f397ec817e71e6c9ae061f5",
+      "sha256": "4f39777e8098ad24037c6df84f14538c36532b6a65854fb7efe3615cbc155ba9",
       "accepted": true,
-      "accepted_date": "2026-10-22",
-      "accepted_at_utc": "2026-10-22T13:10:33.462Z"
+      "accepted_date": "2026-10-23",
+      "accepted_at_utc": "2026-10-23T13:06:54.001Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "ebbedb2ec70b04fe8ca34af17b6c256cf690e098a75044acc0039954e3db00c5",
+      "sha256": "5a8c6d4934a796c2979ee9299cf4d3d70132f139b34d6e837001bbd13b6baec8",
       "accepted": true,
-      "accepted_date": "2026-10-22",
-      "accepted_at_utc": "2026-10-22T13:10:59.307Z"
+      "accepted_date": "2026-10-23",
+      "accepted_at_utc": "2026-10-23T13:07:35.506Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -25,29 +25,29 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-22",
-  "submitted_commit": "341146db8faee6e2fbc6269c412b00745887dc14",
-  "next_routine_check_not_before": "2026-10-23",
+  "submitted_date": "2026-10-23",
+  "submitted_commit": "fd96f646cd0461efd60d40dd43c3d953137f6480",
+  "next_routine_check_not_before": "2026-10-24",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-22T13:09:49.114920+00:00",
-    "content_commit": "341146db8faee6e2fbc6269c412b00745887dc14",
-    "deployment_id": "dpl_Grmqg5vUsVJghYwFBUu1yj4JG4qH",
+    "checked_utc": "2026-10-23T13:06:02.757957+00:00",
+    "content_commit": "fd96f646cd0461efd60d40dd43c3d953137f6480",
+    "deployment_id": "dpl_CRvFCJaL42pD75R85uCHV3bDMTc8",
     "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "592ad93493aef3bb42dc5d0a1140de258d8a68ba9f397ec817e71e6c9ae061f5",
-      "news-sitemap.xml": "ebbedb2ec70b04fe8ca34af17b6c256cf690e098a75044acc0039954e3db00c5",
+      "sitemap.xml": "4f39777e8098ad24037c6df84f14538c36532b6a65854fb7efe3615cbc155ba9",
+      "news-sitemap.xml": "5a8c6d4934a796c2979ee9299cf4d3d70132f139b34d6e837001bbd13b6baec8",
       "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
     },
     "article_status": 200,
-    "article_url": "https://www.thepittsburghwire.com/news/wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/prt-weekend-rail-closures-october-23-26-2026",
     "canonical_matches": true,
     "indexable": true,
-    "expiry": "2026-10-24T00:00:00-04:00",
+    "expiry": "2026-10-27T00:00:00-04:00",
     "discovery_pages_checked": [
       "/",
       "/news/",
-      "/news/development/"
+      "/news/neighborhoods/"
     ]
   },
   "pending_changed_sitemaps": [],
@@ -227,16 +227,37 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-10-23",
+      "submitted_commit": "fd96f646cd0461efd60d40dd43c3d953137f6480",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "4f39777e8098ad24037c6df84f14538c36532b6a65854fb7efe3615cbc155ba9",
+          "accepted": true,
+          "accepted_date": "2026-10-23",
+          "accepted_at_utc": "2026-10-23T13:06:54.001Z"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "5a8c6d4934a796c2979ee9299cf4d3d70132f139b34d6e837001bbd13b6baec8",
+          "accepted": true,
+          "accepted_date": "2026-10-23",
+          "accepted_at_utc": "2026-10-23T13:07:35.506Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-10-22",
+    "submitted_date": "2026-10-23",
     "changed_sitemaps_accepted": [
       "sitemap.xml",
       "news-sitemap.xml"
     ],
     "directory_map_unchanged": true,
-    "private_screenshot": "reports/timely-2026-10-22/news-sitemap-accepted.png"
+    "private_screenshot": "reports/timely-2026-10-23/news-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",
