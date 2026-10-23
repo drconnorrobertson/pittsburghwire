@@ -673,6 +673,78 @@
         "proof": "reports/timely-2026-10-22/news-sitemap-accepted.png"
       },
       "followup": "After the October 23 meeting, check official recorded board action and refresh this same article if verified; do not create a competing closure variant."
+    },
+    {
+      "date": "2026-10-23",
+      "status": "validated_awaiting_production",
+      "slug": "prt-weekend-rail-closures-october-23-26-2026",
+      "why_cannot_wait": "Confirmed work interrupts service after Friday October 23 and again Sunday evening October 25, ending by scheduled Monday service October 26. Waiting for Monday would miss the weekend transfer-planning window.",
+      "sources": [
+        "https://rideprt.org/newsroom/news-releases/two-rail-closures-planned-for-this-weekend--pittsburgh-regional-transit/",
+        "https://rideprt.org/Services/view-all-schedules/"
+      ],
+      "coverage_check": "Clean main 609d8a23 matching fetched origin/main; no existing October 23\u201326 two-closure notice. Existing October 17\u201318 outage and Wabash permanent-closure proposal concern different events. No other active Wire publisher observed in recent task inventory.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 19 batch completed_with_quality_shortfall; one driving-school article published and no reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "other_candidates": [
+        {
+          "story": "Opafe grand-opening reports",
+          "decision": "Existing Opafe article owns the intent. Secondary reports describe an opening-weekend offer, while landlord listing still says coming soon; no duplicate or unverified promotion published.",
+          "sources": [
+            "https://patch.com/pennsylvania/pittsburgh/amp/35069232/new-bakery-cafe-officially-opens-in-pittsburgh",
+            "https://southsideworks.com/directory-2/"
+          ]
+        },
+        {
+          "story": "Wabash board decision",
+          "decision": "Review occurred before the scheduled 9:30 a.m. October 23 meeting. No recorded result verified; existing proposal article preserved. Follow up on that same owner after official action is available.",
+          "sources": [
+            "https://www.rideprt.org/newsroom/news-releases/pittsburgh-regional-transit-plans-to-permanently-close-wabash-tunnel--pittsburgh-regional-transit/"
+          ]
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-23",
+        "date_range": "2026-10-15/2026-10-21",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 5.0,
+        "observed_pages": [
+          {
+            "slug": "pittsburgh-bakeries-bread-pastries-cake-five-stops",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 5.0
+          }
+        ],
+        "note": "Rolling settled window advanced; tiny sample does not establish a trend. Weekly Web comparison recorded October 19. Raw snapshot kept private."
+      },
+      "validation": {
+        "article_words": 409,
+        "primary_links_http_status": 200,
+        "source_quality_check": {
+          "pages": 3976,
+          "errors": 0
+        },
+        "production_build_quality_check": {
+          "pages": 4022,
+          "local_links": 187643,
+          "schema_urls": 47780,
+          "sitemap_urls": 3456,
+          "errors": 0
+        },
+        "complete_diff_reviewed": true,
+        "scope_note": "Concise urgent travel notice based on current official closure windows, supplemented with official schedule/contact resources. House template and institutional byline preserved. No personal reporting, invented arrival times, or claim scheduled work is completed. Unrelated generated files excluded."
+      },
+      "publication": null,
+      "sitemaps": {
+        "status": "Awaiting exact live production verification; nothing submitted yet.",
+        "indexing_claimed": false
+      }
     }
   ]
 }
