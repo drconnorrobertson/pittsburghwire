@@ -771,6 +771,70 @@
         "indexing_claimed": false,
         "proof": "reports/timely-2026-10-23/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "validated_awaiting_production",
+      "slug": "wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+      "action": "Refresh existing coverage; zero new articles",
+      "why_cannot_wait": "A newly reported board decision supersedes the existing pending-vote preview. Leaving it unchanged through Monday would keep the known result out of the article readers are already finding.",
+      "sources": [
+        "https://www.cbsnews.com/pittsburgh/news/wabash-tunnel-closing-pittsburgh-regional-transit/",
+        "https://www.rideprt.org/newsroom/news-releases/pittsburgh-regional-transit-plans-to-permanently-close-wabash-tunnel--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/about-us/prt-board/meetings/",
+        "https://www.rideprt.org/policies/presentation-policy/"
+      ],
+      "coverage_check": "Clean main e9053813 matching fetched origin/main; existing Wabash owner refreshed rather than a competing new page. No other active Wire publisher observed.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 19 completed_with_quality_shortfall, one driving-school article, no reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "other_candidates": [
+        {
+          "story": "I-279 overnight restrictions",
+          "decision": "Published end time was 9 AM today; no current disruption verified."
+        },
+        {
+          "story": "Brandt School Road October 26 work",
+          "decision": "Work starts Monday; no verified need for a separate weekend publication."
+        },
+        {
+          "story": "South Park Trunk or Treat",
+          "decision": "Previously scheduled event; no newly verified urgent change."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-24",
+        "date_range": "2026-10-16/2026-10-22",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 5.0,
+        "observed_pages": [
+          {
+            "slug": "pittsburgh-bakeries-bread-pastries-cake-five-stops",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 5.0
+          }
+        ],
+        "note": "Tiny sample is not a trend. Weekly Web comparison last recorded October 19; raw snapshot private."
+      },
+      "validation": {
+        "source_links_http_status": 200,
+        "source_quality_check": {
+          "pages": 3976,
+          "errors": 0
+        },
+        "production_build_quality_check": {
+          "pages": 4022,
+          "errors": 0
+        },
+        "complete_diff_reviewed": true,
+        "scope_note": "Short attributed result update, original meeting preview clearly archived, publication date preserved and modification date advanced. Removed obsolete meeting expiry banner. No claim tunnel is already closed. News sitemap ages out original publication normally; main sitemap retains article."
+      },
+      "publication": null
     }
   ]
 }
