@@ -33,6 +33,15 @@
           "value": "public, max-age=3600, s-maxage=86400"
         }
       ]
+    },
+    {
+      "source": "/templates/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ],
   "redirects": [
