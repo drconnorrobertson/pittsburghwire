@@ -866,6 +866,71 @@
         "indexing_claimed": false,
         "proof": "reports/timely-2026-10-24/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-10-25",
+      "status": "skipped_no_new_qualifying_story",
+      "why_cannot_wait": null,
+      "decision_reason": "No newly verified development found that required a separate Sunday publication before the Monday batch. Current weekend rail disruption already has an existing notice; no duplicate article added.",
+      "coverage_check": "Clean checkout fast-forwarded from dea9f9ff to current origin/main f1687811, which adds practical homepage guidance. No other active Wire publisher observed in recent task inventory. Existing Wabash result refreshed October 24; weekend rail notice published October 23.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 19 batch completed_with_quality_shortfall; one driving-school article and no reservations.",
+        "counted_against_weekly_cap": false
+      },
+      "candidates": [
+        {
+          "story": "Sunday evening rail disruption",
+          "source": "https://www.rideprt.org/newsroom/news-releases/two-rail-closures-planned-for-this-weekend--pittsburgh-regional-transit/",
+          "decision": "Existing October 23 article covers the October 25 evening work. No newly confirmed change found."
+        },
+        {
+          "story": "University Line paving and PRT labor agreement",
+          "source": "https://www.rideprt.org/newsroom/news-releases/",
+          "decision": "Latest release list dated October 23. Monday work and contract background do not justify a duplicate Sunday breaking-news article."
+        },
+        {
+          "story": "GAP landslide and shuttle arrangements",
+          "source": "https://gaptrail.org/trail-alert/landslide-and-closure-between-ohiopyle-and-connellsville/",
+          "source_updated": "2026-10-22",
+          "decision": "Existing October 18 notice is visibly an elapsed-window archive and links the live operator alert. No reopening verified. Current alert requires directly arranged shuttles from October 22; retain existing owner for a future contextual refresh, without presenting this earlier update as new breaking news."
+        },
+        {
+          "story": "Business openings and weekend events",
+          "sources": [
+            "https://www.pennsylvasia.com/2026/",
+            "https://www.bakery-square.com/events",
+            "https://www.spiritpgh.com/"
+          ],
+          "decision": "Search surfaced previously announced openings and scheduled events, without a newly confirmed urgent opening or closure suitable for publication."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-25",
+        "date_range": "2026-10-17/2026-10-23",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 5.0,
+        "observed_pages": [
+          {
+            "slug": "pittsburgh-bakeries-bread-pastries-cake-five-stops",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 5.0
+          }
+        ],
+        "note": "Settled rolling window advanced. One impression cannot establish a trend; average position is historical, not a current-rank guarantee. Weekly Web comparison last recorded October 19; next weekly review October 26. Raw snapshot private."
+      },
+      "sitemaps": {
+        "checked_date": "2026-10-25",
+        "all_three_http_status": 200,
+        "all_three_hashes_match_last_accepted": true,
+        "submitted": [],
+        "reason": "Unchanged files not resubmitted.",
+        "private_evidence": "reports/timely-2026-10-25/live-sitemap-check.json"
+      },
+      "publication": null
     }
   ]
 }
