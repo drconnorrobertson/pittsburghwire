@@ -382,6 +382,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs && python3 scripts/apply-alert-expiry.py && python3 scripts/normalize-news-links.py",
+  "buildCommand": "node scripts/buyer-intent-release.cjs . && node scripts/consolidate-stories.cjs && node scripts/paginate-directory.cjs && python3 scripts/apply-alert-expiry.py && python3 scripts/normalize-news-links.py && node scripts/practical-homepage.cjs .",
   "outputDirectory": "."
 }
