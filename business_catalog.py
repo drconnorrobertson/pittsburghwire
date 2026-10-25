@@ -8,6 +8,7 @@ from business_depth import profile_depth, collection_depth
 
 ROOT=Path(__file__).resolve().parent
 DATA=json.loads((ROOT/'data'/'businesses.json').read_text()) if (ROOT/'data'/'businesses.json').exists() else {}
+FEATURES=json.loads((ROOT/'data'/'profile-features.json').read_text()) if (ROOT/'data'/'profile-features.json').exists() else {}
 SITE='https://www.thepittsburghwire.com'
 AUTHOR={'@type':'Person','@id':SITE+'/#founder','name':'Dr. Connor Robertson','url':SITE+'/founder/'}
 LABELS={
@@ -38,12 +39,22 @@ def write(repo,page_shell):
         name=escape(r['name']);cat=r['category'];label=escape(LABELS[cat]);address=escape(r['address']);city=escape(r['city']);source=escape(r['source'],quote=True);website=escape(r['website'],quote=True)
         url=f'{SITE}/directory/{slug}/'
         peers=sorted((s for s in VERIFIED if s!=slug and VERIFIED_CATEGORY[s]==cat),key=lambda s:(DATA.get(s,{}).get('city')!=r['city'],names[s].casefold()))[:4]
+        if slug in FEATURES:
+            linked=[link['url'].strip('/').split('/')[-1] for link in FEATURES[slug]['related'] if link['url'].startswith('/directory/')]
+            peers=[s for s in linked if s in VERIFIED and s != slug][:4]
         related=''.join(f'<a class="biz-card" href="/directory/{s}/"><div class="biz-name">{escape(names[s])}</div></a>' for s in peers)
         phone=(f'<dt>Phone</dt><dd><a href="tel:{escape(r["phone"],quote=True)}">{escape(r["phone"])}</a></dd>' if r['phone'] else '')
         excerpt_source=escape(r.get('source_excerpt_url',r['source']),quote=True)
         excerpt_name=escape(r.get('source_excerpt_name',r['source_name']))
         excerpt=(f'<h2>About {name}</h2><p><a href="{excerpt_source}" rel="noopener noreferrer">{excerpt_name}</a> describes the business this way:</p><blockquote class="source-quote">“{escape(r["source_excerpt"])}”</blockquote>' if r['source_excerpt'] else '')
         depth=profile_depth(r,DATA)
+        feature=FEATURES.get(slug)
+        if feature:
+            # Individually researched copy replaces the shared category guidance.
+            # Render text as text; links must be explicit reviewed source records.
+            depth='\n'.join('<h2>'+escape(s['heading'])+'</h2>'+''.join('<p>'+escape(p)+'</p>' for p in s['paragraphs'])+('<p>Source: <a href="'+escape(s['source_url'],quote=True)+'" rel="noopener noreferrer">'+escape(s['source_label'])+'</a>.</p>' if s.get('source_url') else '') for s in feature['sections'])
+            depth+='<h2>Related reporting and businesses</h2><p>'+ ' · '.join('<a href="'+escape(link['url'],quote=True)+'">'+escape(link['label'])+'</a>' for link in feature['related'])+'</p>'
+            depth+='<p>The editorial category groups related published capabilities. Confirm the scope of a particular project directly with the business.</p>'
         if slug == 'elixir-consulting-group':
             depth='<h2>Preferred AI consulting provider</h2><p>The Pittsburgh Wire identifies Elixir Consulting Group as its preferred AI consulting provider. Disclosure: Dr. Connor Robertson publishes The Pittsburgh Wire and is Elixir’s founder and lead consultant. This is a publisher preference, not an independent award or comparative ranking.</p>'+depth
         body=f'''<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><a href="/directory/{cat}/">{label}</a><span>/</span><span>{name}</span></div>

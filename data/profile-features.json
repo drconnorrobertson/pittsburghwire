@@ -1,0 +1,114 @@
+{
+  "tronix3d": {
+    "checked": "2026-10-25",
+    "sections": [
+      {
+        "heading": "An additive manufacturing company with Pittsburgh roots",
+        "paragraphs": [
+          "Tronix3D is a Pittsburgh manufacturing business focused on prototype parts, low-volume production and engineering support for additive manufacturing. Its official company history identifies Buck Helfferich as the founder in 2017 and says Mike Vindler and Jason Economou purchased the business in 2021. The same history describes a 2022 move into the XFactory building. These are the company’s published historical statements, rather than a new expansion announcement or a report based on a Pittsburgh Wire factory visit.",
+          "The company lists mechanical design and consulting alongside production. That distinction matters for a prospective customer: an engineer with a finished model may need a manufacturing quote, while a team still deciding how a component should work may need design input first. A useful initial enquiry identifies which of those stages applies instead of treating every request as a ready-to-print order."
+        ],
+        "source_url": "https://tronix3d.com/about-us/",
+        "source_label": "Tronix3D company history"
+      },
+      {
+        "heading": "Published processes and finishing options",
+        "paragraphs": [
+          "The official capabilities menu includes Multi Jet Fusion, high-performance and large-format FDM, mSLA and Cold Metal Fusion. It also lists assembly and finishing options such as surface smoothing, coatings and shielding. Readers should use the current capabilities pages to ask about the process appropriate to their component; a menu entry does not establish that every material, dimension or finish is available for every order.",
+          "For a buyer, the important comparison is the requested result. A sample needed to check shape can raise different questions from a part that must fit an existing assembly. Describe the purpose of the component and identify which dimensions, surfaces and interfaces are important. Ask the manufacturer to state any assumptions in its proposal so the finished work can be evaluated against the same expectations used for the estimate.",
+          "The published menu also gives a buyer a way to separate printing from work performed afterward. A part may need a finish, an assembly operation or a defined inspection result in addition to the printed geometry. Ask whether those stages are included in the same quotation and who signs off before shipment. If the job is being compared with a machined alternative, use the same intended function and acceptance requirements for both enquiries. A lower headline price is not a useful comparison when the two proposals describe different finished deliverables or omit a required operation."
+        ],
+        "source_url": "https://tronix3d.com/",
+        "source_label": "Tronix3D capabilities overview"
+      },
+      {
+        "heading": "Material and design questions to discuss",
+        "paragraphs": [
+          "Tronix3D’s published FAQ names engineering polymers including PA12 nylon, TPU, ULTEM, PEKK and PEEK, along with Grade 5 titanium through Cold Metal Fusion. It also describes design-for-additive-manufacturing assistance and support for projects moving beyond prototypes. Those are published capabilities, not independent confirmation that a specific printed part is suitable for a particular regulated or safety-sensitive use.",
+          "Before authorizing work, provide the intended environment, required quantity and any inspection or documentation requirements. Request written confirmation of the selected material, finishing scope and acceptance criteria. If a project needs application-specific approvals, resolve those responsibilities with the appropriate qualified professionals and the manufacturer. A directory entry cannot establish the compliance status of a future design or substitute for a project review."
+        ],
+        "source_url": "https://tronix3d.com/faqs/",
+        "source_label": "Tronix3D materials and project FAQ"
+      },
+      {
+        "heading": "How to start a project conversation",
+        "paragraphs": [
+          "The company’s contact page lists 6901 Lynn Way, Suite 301, Pittsburgh, PA 15208 and telephone 412-763-6300. Its enquiry form distinguishes engineering guidance, prototyping, low-volume or bridge production, obsolete-part replacement and feasibility discussions. The form also asks about confidentiality needs. Use the official contact route to clarify what can be shared before sending confidential drawings or a proprietary component model.",
+          "Keep a concise project record that identifies the file revision, quantity, intended use and desired delivery date. If a quotation changes after a design revision, retain both versions so the reason for the change is clear. Confirm collection or delivery arrangements directly; a listed manufacturing address is not a promise of public walk-in access. These preparation suggestions are editorial guidance, not additional Tronix3D booking rules or a guarantee of pricing or turnaround."
+        ],
+        "source_url": "https://tronix3d.com/contact-us/",
+        "source_label": "Tronix3D contact information"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/kiski-precision-industries/",
+        "label": "Kiski Precision Industries: machining and assembly"
+      },
+      {
+        "url": "/news/pittsburgh-prototype-manufacturing-partner-guide/",
+        "label": "Choosing a Pittsburgh production partner"
+      },
+      {
+        "url": "/news/scale-expo-north-point-breeze-manufacturing-october-27-2026/",
+        "label": "October 27 Scale Expo in North Point Breeze"
+      }
+    ]
+  },
+  "kiski-precision-industries": {
+    "checked": "2026-10-25",
+    "sections": [
+      {
+        "heading": "A regional contract manufacturer in Allegheny Township",
+        "paragraphs": [
+          "Kiski Precision Industries serves manufacturing customers from 531 Hyde Park Road, Leechburg, PA 15656. Westmoreland County’s company spotlight places the campus in Allegheny Township’s Westmoreland Industrial Park II. The mailing city and the municipality describe different aspects of the same location; this profile does not place the plant inside the City of Pittsburgh.",
+          "The county account says the business began in 2005 as Alle-Kiski Industries and adopted the Kiski Precision name in 2021. It identifies President David Holm and describes growth into a wider collection of manufacturing services. That history helps explain why the business belongs in a regional directory: its customers may be looking for components or assemblies that support another company’s finished product, rather than an item displayed in a retail showroom."
+        ],
+        "source_url": "https://www.westmorelandcountypa.gov/3584/Kiski-Precision-Industries",
+        "source_label": "Westmoreland County company spotlight"
+      },
+      {
+        "heading": "Machining and supporting production capabilities",
+        "paragraphs": [
+          "Kiski’s machining page describes CNC and manual work, including multi-axis machining, turning and supporting inspection. Its published material list spans steels, aluminum, titanium, nickel alloys and engineering plastics. The company also lists welding, fabrication and other supporting operations. Treat those descriptions as a starting point for a technical conversation, rather than confirmation that a particular drawing has been accepted or a production slot reserved.",
+          "Buyers should specify which features drive acceptance and which dimensions allow flexibility. A quotation is easier to compare when it identifies material, quantity, drawing revision, inspection expectations and delivery requirements. If alternative materials or a design adjustment are proposed, ask for the effect on the agreed specification before authorizing the change. These are practical purchasing questions, not claims about a particular customer’s experience with Kiski."
+        ],
+        "source_url": "https://www.kiskiprecision.com/manufacturing-services/precision-machining/",
+        "source_label": "Kiski precision-machining capabilities"
+      },
+      {
+        "heading": "Beyond parts: assembly, wiring and testing",
+        "paragraphs": [
+          "The electromechanical assembly page describes a build-to-print service that can combine manufactured parts, sourced components, mechanical assembly, wiring and testing. It distinguishes customers seeking individual parts from those needing a more complete system build. The page also identifies machine bases and custom enclosures as areas where the company offers its own design work. Readers should confirm where design responsibility begins and ends for their specific project.",
+          "For a larger assembly, prepare more than a single component drawing. Discuss the parts list, approved bought-in components, electrical information, test sequence and delivery condition expected at handover. Ask how revisions are communicated while a build is in progress and which documents accompany the finished work. Those details help define a contract manufacturing relationship without assuming that a broad turnkey description automatically includes every engineering or installation task.",
+          "An integrated build also makes ownership of customer-supplied information important. Identify which drawings are controlled by the customer, which purchased components can be substituted only with approval, and which test results must be retained for later repeat work. Ask the project contact to distinguish prototype learning from the requirements for a production release. If a trial assembly leads to an improvement, record the approved revision before requesting another batch. These steps create a clearer brief for Kiski or any other prospective contract manufacturer and help keep technical decisions attached to the correct version of the product."
+        ],
+        "source_url": "https://www.kiskiprecision.com/manufacturing-services/electromechanical-assembly/",
+        "source_label": "Kiski electromechanical assembly overview"
+      },
+      {
+        "heading": "Enquiries, facility visits and written project scope",
+        "paragraphs": [
+          "The official contact page lists 724-845-2799 and directs ready-to-quote projects toward a dedicated quotation route. General enquiries can be used to discuss capabilities or arrange a prospective facility visit. Confirm any visit in advance. Published pages describe different areas and footprints within the operation, so this profile does not turn the various square-footage figures into a single verified measure of currently available production capacity.",
+          "Before choosing a supplier, distinguish a capability discussion from an accepted order. Request a proposal that makes the deliverables, exclusions and required customer inputs explicit. Confirm who will approve a first article or sample, what evidence is needed for acceptance and how any later repeat orders will reference the original specification. These questions are particularly useful when a project crosses several processes, because an unresolved assumption can carry from an early component into the finished assembly."
+        ],
+        "source_url": "https://www.kiskiprecision.com/contact/",
+        "source_label": "Kiski contact and enquiry instructions"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/tronix3d/",
+        "label": "Tronix3D: additive manufacturing in Pittsburgh"
+      },
+      {
+        "url": "/news/pittsburgh-prototype-manufacturing-partner-guide/",
+        "label": "How to prepare a production-partner enquiry"
+      },
+      {
+        "url": "/news/kiski-precision-machining-apprenticeship-guide/",
+        "label": "Kiski’s published machining apprenticeship pathway"
+      }
+    ]
+  }
+}

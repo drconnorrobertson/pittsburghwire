@@ -1,0 +1,27 @@
+{
+  "targets": {
+    "articles": 5000,
+    "businesses": 5000
+  },
+  "published": {
+    "articles": 491,
+    "businesses": 2803
+  },
+  "remaining_to_count_targets": {
+    "articles": 4509,
+    "businesses": 2197
+  },
+  "article_length_only": {
+    "at_least_600_words": 241,
+    "below_600_words": 231,
+    "unparsed": 19
+  },
+  "individually_reviewed_business_features": 2,
+  "identical_article_body_groups": [],
+  "feature_validation_errors": [],
+  "limitations": [
+    "Archive totals include legacy coverage requiring intent and evidence review.",
+    "Word counts are not quality scores; shared directory guidance is excluded from feature counts.",
+    "Different wording can still duplicate intent; manual editorial review remains required."
+  ]
+}

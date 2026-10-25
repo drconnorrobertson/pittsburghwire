@@ -6,6 +6,7 @@ from business_catalog import DATA, SITE, AUTHOR, shell
 from business_depth import collection_depth, article_body_span
 
 SERVICES={
+ 'manufacturers':('Manufacturing Businesses',r'manufactur'),
  'accountants-and-bookkeepers':('Accountants & Bookkeepers',r'accounting|bookkeep'),
  'financial-advisors':('Financial Advisors',r'financial advisors|financial planning|investment services'),
  'insurance':('Insurance Businesses',r'insurance'),
@@ -42,7 +43,7 @@ def write(repo,page_shell):
         text=('These businesses share the listed service categories shown below. Categories come from their source listings; compare each provider’s services and contact the business directly about the work you need.' if section=='services' else 'These profiles use the city or community shown in the source address. A Pittsburgh mailing address can also cover nearby suburbs; check the map and full address for the actual location.')
         depth=collection_depth(section,slugs,DATA)
         body=f'<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><span>{escape(title)}</span></div><header class="page-head"><span class="page-eyebrow">Find a local business</span><h1 class="page-title">{escape(title)}</h1><p class="page-deck">{escape(desc)}</p><p class="profile-byline">By <a href="/founder/" rel="author">Dr. Connor Robertson</a></p></header><main class="archive"><p>{text}</p>{depth}<p class="catalog-note">Listings are alphabetical. Each profile links to its sources and business website.</p><div class="biz-grid">{cards}</div><a class="directory-back" href="/directory/">Search the complete Pittsburgh business directory →</a></main>'
-        graph=[AUTHOR,{'@type':'CollectionPage','dateModified':'2026-10-07','name':title,'url':url,'author':{'@id':AUTHOR['@id']},'mainEntity':{'@type':'ItemList','numberOfItems':len(slugs),'itemListElement':[{'@type':'ListItem','position':i+1,'name':DATA[s]['name'],'url':SITE+'/directory/'+s+'/'} for i,s in enumerate(slugs)]}}]
+        graph=[AUTHOR,{'@type':'CollectionPage','dateModified':max(DATA[s]['checked'] for s in slugs),'name':title,'url':url,'author':{'@id':AUTHOR['@id']},'mainEntity':{'@type':'ItemList','numberOfItems':len(slugs),'itemListElement':[{'@type':'ListItem','position':i+1,'name':DATA[s]['name'],'url':SITE+'/directory/'+s+'/'} for i,s in enumerate(slugs)]}}]
         p=root/section/slug/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(shell(page_shell,title+' | The Pittsburgh Wire',desc,url,body,graph))
     # Visible navigation exposes the collections without requiring JavaScript.
     hub=root/'directory'/'index.html';markup=hub.read_text()

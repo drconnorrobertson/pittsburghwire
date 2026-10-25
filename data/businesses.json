@@ -98371,5 +98371,61 @@
         "cosmic-treats-sweets-mars"
       ]
     }
+  },
+  "tronix3d": {
+    "name": "Tronix3D",
+    "address": "6901 Lynn Way, Suite 301, Pittsburgh, PA 15208",
+    "city": "Pittsburgh",
+    "phone": "4127636300",
+    "website": "https://tronix3d.com/",
+    "source": "https://tronix3d.com/contact-us/",
+    "source_name": "Tronix3D official website",
+    "source_category": "Manufacturing and Engineering",
+    "checked": "2026-10-25",
+    "category": "professional-services",
+    "source_excerpt": "",
+    "description": "Tronix3D in the Pittsburgh region: researched manufacturing capabilities, company background, project enquiry guidance and official contact sources.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-25",
+      "url": "https://tronix3d.com/",
+      "title": "Tronix3D",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://tronix3d.com/contact-us/",
+          "label": "Contact information"
+        }
+      },
+      "topics": []
+    }
+  },
+  "kiski-precision-industries": {
+    "name": "Kiski Precision Industries",
+    "address": "531 Hyde Park Road, Leechburg, PA 15656",
+    "city": "Leechburg",
+    "phone": "7248452799",
+    "website": "https://www.kiskiprecision.com/",
+    "source": "https://www.kiskiprecision.com/contact/",
+    "source_name": "Kiski Precision Industries official website",
+    "source_category": "Manufacturing and Engineering",
+    "checked": "2026-10-25",
+    "category": "professional-services",
+    "source_excerpt": "",
+    "description": "Kiski Precision Industries in the Pittsburgh region: researched manufacturing capabilities, company background, project enquiry guidance and official contact sources.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-25",
+      "url": "https://www.kiskiprecision.com/",
+      "title": "Kiski Precision Industries",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.kiskiprecision.com/contact/",
+          "label": "Contact information"
+        }
+      },
+      "topics": []
+    }
   }
 }

@@ -1,5 +1,7 @@
 # Pittsburgh Wire substantive news expansion
 
+October 25, 2026 update: the user expanded the long-term objective to 5,000 full-length articles and 5,000 business profiles. See `5000-by-5000-plan.md` and `content-inventory.json` for current totals and quality distinctions. Earlier 1,000-article checkpoints below are retained as historical context, not the current final target.
+
 User authorization reaffirmed October 13, 2026: grow useful Pittsburgh News coverage toward 1,000 substantive articles. First checkpoint is at least 20 percent above the October 13 baseline of 364: 73 additions, reaching 437. Directory profiles, archive pages and refreshes do not count as additions. Current archive count after the seventy-ninth additional-100 batch: 485; the numeric archive checkpoint of 437 is exceeded, with 515 archive additions to 1,000 remaining. Recompute from build_site.scan_articles, then review distinctness and substantive length before claiming a milestone. Existing duplicated legacy story variants must not be treated as distinct new reporting.
 
 ## Additional 100-article request

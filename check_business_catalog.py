@@ -3,7 +3,7 @@ import json, re
 from pathlib import Path
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
-from business_catalog import DATA, SITE, LABELS
+from business_catalog import DATA, SITE, LABELS, FEATURES
 from directory_index import VERIFIED
 
 ROOT=Path(__file__).resolve().parent
@@ -30,7 +30,8 @@ def check():
                 if link in research.get('topics',[]) and link['url'].replace('&','&amp;') not in page:errors.append(f'{slug}: sourced topic link missing from output')
             words=len(research.get('description_excerpt','').split())+sum(len(x['label'].split()) for x in research.get('topics',[]))
             if words>25:errors.append(f'{slug}: source excerpt budget exceeded')
-        if 'source-directory classification' not in page:errors.append(f'{slug}: missing category qualification')
+        qualifier='editorial category' if slug in FEATURES else 'source-directory classification'
+        if qualifier not in page:errors.append(f'{slug}: missing category qualification')
         if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
         sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
