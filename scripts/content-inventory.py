@@ -94,7 +94,7 @@ def inventory():
     output = ROOT / 'editorial'
     (output / 'content-inventory.json').write_text(json.dumps(summary, indent=2)+'\n')
     with (output / 'content-inventory.csv').open('w', newline='') as handle:
-        writer = csv.DictWriter(handle, fieldnames=['kind','slug','body_words','review_status','source_pages'])
+        writer = csv.DictWriter(handle, fieldnames=['kind','slug','body_words','review_status','source_pages'], lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
     print(json.dumps(summary, indent=2))

@@ -38,6 +38,16 @@
         ],
         "source_url": "https://tronix3d.com/contact-us/",
         "source_label": "Tronix3D contact information"
+      },
+      {
+        "heading": "Quote routes and an address detail to confirm",
+        "source_url": "https://tronix3d.com/get-a-quote",
+        "source_label": "Tronix3D quotation instructions",
+        "paragraphs": [
+          "Tronix3D’s quotation page describes two starting routes: uploading models for a configured part request or submitting an RFQ without models for a project discussion. It says requests receive engineering review before a quotation is sent. This is useful for a team that needs advice before it can provide a finished model; the absence of a final CAD file does not need to be disguised as a production-ready design.",
+          "The same quotation page displays Suite 402 at 6901 Lynn Way, while the contact page displays Suite 301. The directory therefore gives the common street address without selecting a suite as definitively current. Confirm the correct suite, delivery instructions and visit arrangements directly before sending physical items or traveling to the building. The conflicting suite references are retained here as a useful correction point rather than silently combined into one address.",
+          "Before requesting a quotation, decide whether the next step is an engineering conversation or an estimate for a defined part. Keep reference documents organized by revision and identify any questions that remain open. The supplier’s published upload options explain how to begin; they do not create an accepted order, a binding price or confirmed suitability for a particular application."
+        ]
       }
     ],
     "related": [
@@ -94,6 +104,16 @@
         ],
         "source_url": "https://www.kiskiprecision.com/contact/",
         "source_label": "Kiski contact and enquiry instructions"
+      },
+      {
+        "heading": "Machine bases as a separate project starting point",
+        "source_url": "https://www.kiskiprecision.com/welded-machine-bases/",
+        "source_label": "Kiski welded machine-base options",
+        "paragraphs": [
+          "Kiski publishes Standard, Advanced and Custom configurations for welded machine bases. Its product page distinguishes a pre-engineered configurable base from versions with panels or doors and from a more tailored design. This creates a specific alternative to beginning every enquiry as a completely new machine project. A buyer can ask whether an existing configuration is relevant before commissioning a custom approach.",
+          "The page lists choices involving tabletop, feet and finishing, along with project-dependent options. Those lists should be read together, rather than treating the most favorable example from each category as a guaranteed combination. The profile does not assign a load rating or structural suitability to an unreviewed configuration. Discuss the actual equipment, support and access requirements with the responsible professionals and request a proposal for the agreed arrangement.",
+          "For an enquiry, separate the support structure from equipment mounted on it and from any electrical or enclosure work. Explain whether the base is being purchased alone or included in an assembled system. Ask which drawings, finishes and interfaces require customer approval before fabrication. A written record of those decisions is particularly helpful when a later machine revision changes the surrounding equipment but the base is expected to remain in service."
+        ]
       }
     ],
     "related": [
@@ -108,6 +128,178 @@
       {
         "url": "/news/kiski-precision-machining-apprenticeship-guide/",
         "label": "Kiski’s published machining apprenticeship pathway"
+      }
+    ]
+  },
+  "epd-electronics": {
+    "checked": "2026-10-25",
+    "sections": [
+      {
+        "heading": "From prototype development to electronics manufacturing",
+        "paragraphs": [
+          "EPD Electronics is an electronics design and manufacturing company with an official contact address at 5 Acee Drive in Natrona Heights. The company’s history says it was founded in 1986 as Electronic Prototype Development and grew from prototyping into design, engineering, manufacturing and assembly. That is historical background published by the operator, not a new opening announcement. The Natrona Heights location places this business in the wider Pittsburgh region, rather than within the City of Pittsburgh.",
+          "For a customer evaluating EPD, the useful starting distinction is the maturity of the product. An idea that still needs a circuit design is different from an approved assembly ready for a production quotation. Explain whether the enquiry concerns a new concept, a revision or repeat manufacturing. That gives the company a clearer basis for identifying the appropriate discussion and avoids treating design work as if it were already included in a simple assembly price."
+        ],
+        "source_url": "https://www.epdelectronics.com/pittsburgh-electronics-manufacturing.html",
+        "source_label": "EPD company background"
+      },
+      {
+        "heading": "Published board assembly capabilities",
+        "paragraphs": [
+          "EPD’s PCBA capabilities page lists surface-mount, through-hole and mixed-technology assembly, along with rigid, flexible and rigid-flex board work. It also lists inspection and testing capabilities. These published categories help a buyer identify relevant questions; they do not mean the company has reviewed a specific board, confirmed component availability or approved a design for a particular use.",
+          "When preparing an assembly enquiry, identify the intended board revision and whether components will be supplied by the customer or sourced as part of the job. Discuss how substitutions require approval, especially when an older component is difficult to obtain. Keep the assembly quantity separate from an estimate of future demand. A trial run and a recurring order may involve different purchasing assumptions, and those assumptions should be visible in the eventual proposal."
+        ],
+        "source_url": "https://www.epdelectronics.com/PCBA-manufacturing-services.html",
+        "source_label": "EPD PCBA capabilities"
+      },
+      {
+        "heading": "Testing is a separate conversation from assembly",
+        "paragraphs": [
+          "The official testing page describes work involving test routines, custom fixtures, functional testing and support for older test arrangements. It also discusses design-for-testing assistance. Readers should ask which of those services applies to their own product and what customer information is needed to define the test. A statement that a supplier offers testing does not establish the acceptance criteria for every assembly it produces.",
+          "A practical brief should distinguish checking that an assembly was built as specified from demonstrating that a complete product performs as intended. Ask who develops the test procedure, who owns any fixture and which results are retained with a batch. If programming or configuration is part of the work, identify the approved version. Those are project-definition questions, not a claim that EPD includes all such activities automatically or that a directory profile can validate an electronic design."
+        ],
+        "source_url": "https://www.epdelectronics.com/pcb-electronic-testing.html",
+        "source_label": "EPD testing services"
+      },
+      {
+        "heading": "Contact details and a useful first enquiry",
+        "paragraphs": [
+          "EPD’s contact page lists telephone 724-540-5125, extension 117, and the Natrona Heights mailing address. Use the official form or published contact route for current enquiries. Older third-party directories can show other addresses, so readers should rely on the current operator information and confirm delivery or visit arrangements directly. No public walk-in access or immediate production availability is established by a street address alone.",
+          "For an initial message, describe the product stage, the type of help required and the next decision you need to make. Before sending confidential drawings, software or a full component list, agree on an appropriate channel and any confidentiality arrangements. Record the specification used for a quotation and ask how later changes would affect the work. This profile’s preparation guidance is intended to make a technical conversation clearer; it is not an independent assessment of quality, a promised response time or a recommendation to bypass the customer’s own engineering review.",
+          "When calling the published number, note extension 117 as shown on the official contact page. Ask which contact should receive the project brief so technical questions and commercial questions reach the appropriate person rather than assuming the same enquiry route handles every stage."
+        ],
+        "source_url": "https://www.epdelectronics.com/contact.html",
+        "source_label": "EPD contact information"
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-pcb-assembly-project-preparation/",
+        "label": "Preparing an electronics assembly enquiry"
+      },
+      {
+        "url": "/directory/kiski-precision-industries/",
+        "label": "Kiski: wider mechanical assembly context"
+      },
+      {
+        "url": "/services/manufacturers/",
+        "label": "Pittsburgh-area manufacturing directory"
+      }
+    ]
+  },
+  "three-rivers-precision": {
+    "checked": "2026-10-25",
+    "sections": [
+      {
+        "heading": "A Pittsburgh machine shop with an engineering background",
+        "paragraphs": [
+          "Three Rivers Precision lists its address as 230 Auburn Street, Pittsburgh, PA 15206. On its official background page, Sean Handerhan and Sinjon Bartel explain that they started the business around their interest in manufacturing. Their published biographies describe mechanical-engineering backgrounds and experience in production, fabrication and electromechanical work. These are statements from the business, rather than interviews conducted by The Pittsburgh Wire or an independently reconstructed founding history.",
+          "That engineering background provides context for the type of enquiry a prospective customer might bring. Someone developing a first component may need to discuss whether the available information is sufficient for an estimate. Someone replacing a known part may instead have an approved drawing and an established inspection requirement. Explain the situation accurately, including any unresolved design choices, rather than assuming a machine shop will infer the intended function from a file name or a photograph."
+        ],
+        "source_url": "https://www.threeriversprecision.com/about",
+        "source_label": "Three Rivers Precision team background"
+      },
+      {
+        "heading": "Contract work, prototypes and mechanical assembly",
+        "paragraphs": [
+          "The published services page distinguishes contract manufacturing, prototype machining and mechanical assembly. It names applications such as brackets, camera mounts, heat sinks, electrical enclosures and custom fittings, and describes assembly involving items such as inserts, pins and bearings. That list gives readers examples of the operator’s stated scope; it is not a complete inventory of accepted jobs, available materials or current capacity.",
+          "For a bracket or mount, a useful discussion identifies the mating parts, important interfaces and whether the component is a prototype or intended for repeat supply. Ask what drawing information is required before a commitment can be made. If an assembly includes bought-in items, distinguish those items from the parts to be manufactured. This helps prevent an estimate for one component from being mistaken for a quotation covering an assembled and inspected product ready for installation."
+        ],
+        "source_url": "https://www.threeriversprecision.com/services",
+        "source_label": "Three Rivers Precision services"
+      },
+      {
+        "heading": "Quality information and project acceptance",
+        "paragraphs": [
+          "The company homepage identifies the operation as a CNC machine shop and publishes a link to quality certification information. Readers who need a particular quality requirement should examine the current document and confirm its scope, site details and validity directly with the company. A homepage statement should not be treated as a substitute for the supplier review required by a customer’s own procurement process.",
+          "It is also useful to distinguish a supplier’s quality system from the inspection requested for a particular job. Ask what measurements or records will accompany the parts and who approves any departure from the drawing. If a first article is expected before a larger order, include that step in the agreed scope. Keep revisions attached to the correct batch so a successful early sample does not become ambiguous when the design, quantity or material changes later. These are editorial purchasing suggestions, not additional published company policies."
+        ],
+        "source_url": "https://www.threeriversprecision.com/",
+        "source_label": "Three Rivers Precision homepage and quality-document link"
+      },
+      {
+        "heading": "How to contact the shop",
+        "paragraphs": [
+          "The official contact page directs enquiries and quotation requests to hello@threeriversprecision.com and lists telephone 412-806-1776. It repeats the Auburn Street address. Use those published channels to confirm the right contact for a project, arrange any visit and ask how technical files should be delivered. The directory does not establish that the facility accepts unscheduled visitors or provides an immediate over-the-counter machining service.",
+          "Before the first exchange, prepare a brief explanation of the part, desired quantity and requested delivery condition. Separate a drawing ready for quotation from a concept still under development. If an existing part is being used as a reference, clarify whether the customer has authority to reproduce it and whether an approved specification exists. End the conversation with a concrete next step: which information is missing, who will provide it and what decision follows. That is more useful than treating an introductory email as an accepted production order.",
+          "A repeat order should identify whether the original specification is still current. If the customer has changed a mating component, coating or assembly method, explain that change even when the requested part number looks familiar. A clear revision record supports a more useful supplier conversation."
+        ],
+        "source_url": "https://www.threeriversprecision.com/contact-us",
+        "source_label": "Three Rivers Precision enquiry instructions"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/kiski-precision-industries/",
+        "label": "Kiski Precision machining and assembly"
+      },
+      {
+        "url": "/directory/tronix3d/",
+        "label": "Tronix3D additive manufacturing"
+      },
+      {
+        "url": "/news/pittsburgh-prototype-manufacturing-partner-guide/",
+        "label": "Preparing a regional manufacturing enquiry"
+      },
+      {
+        "url": "/services/manufacturers/",
+        "label": "Browse manufacturing businesses"
+      }
+    ]
+  },
+  "national-rubber-corporation": {
+    "checked": "2026-10-25",
+    "sections": [
+      {
+        "heading": "Rubber components from Canonsburg",
+        "paragraphs": [
+          "National Rubber Corporation lists its location at 367 Morganza Road in Canonsburg and publishes a range of custom rubber manufacturing services. Its company background dates the business to 1997. This profile covers the operator’s stated capabilities and enquiry process; it does not report a new opening, a personal plant visit or independently tested product performance. Canonsburg belongs to the wider Pittsburgh-area coverage of this directory rather than the City of Pittsburgh.",
+          "A useful first distinction for a buyer is whether the requirement is a known catalog item or a part needing custom review. An existing profile may have a published size or drawing, while a custom component can require a discussion about geometry, material and quantity. Identify which situation applies before requesting a price. That helps keep a catalog selection from being confused with approval of a new part for an unfamiliar application."
+        ],
+        "source_url": "https://www.nationalrubber.com/about",
+        "source_label": "National Rubber company background"
+      },
+      {
+        "heading": "Extruded profiles, lengths and finishing",
+        "paragraphs": [
+          "The official extrusion page lists custom cross-sections, tubing, cord and edge trim, with options for coils, spools or cut lengths. It also describes secondary work such as adhesive backing and splicing. The buyer should clarify the requested delivered form rather than assuming a continuous profile, a cut piece and a completed frame represent the same order.",
+          "For an extrusion enquiry, identify the cross-section and how length is to be specified. If a frame or joined ring is required, ask which joining operations are included and how the finished dimensions will be checked. A supplier may need to discuss the relationship between the material and the proposed shape. Keep those questions attached to the drawing revision so a change to a seal or edge trim is not approved informally and then lost when the order is repeated."
+        ],
+        "source_url": "https://www.nationalrubber.com/products/custom-extrusion",
+        "source_label": "National Rubber extrusion information"
+      },
+      {
+        "heading": "Molded parts and tooling scope",
+        "paragraphs": [
+          "National Rubber’s molding page describes compression, transfer and injection molding and says a mold is quoted as a separate one-time charge. It asks for information about the part and quantities, including annual usage for a molded component. These published details help a reader identify the commercial and technical questions to raise, rather than establish a fixed tooling price or minimum order for every design.",
+          "When comparing proposals, separate the cost of the initial tool from the price of the supplied parts. Ask who owns the tool, how changes would be handled and what evidence is needed to approve the first sample. Describe important contact or sealing surfaces on the drawing instead of relying only on the general shape. The responsible engineer and manufacturer should agree on the applicable requirements; a directory profile cannot choose a material, tolerance or compliance pathway for a specific use."
+        ],
+        "source_url": "https://www.nationalrubber.com/products/custom-molding",
+        "source_label": "National Rubber molding and tooling information"
+      },
+      {
+        "heading": "Die cutting, documentation and enquiries",
+        "paragraphs": [
+          "The company also publishes a die-cutting service page and a separate quotation route. Its website lists telephone 412-831-6100 and the Canonsburg address. Readers should use the current official pages to confirm how to submit a project, which information is required and what documents can accompany the work. Avoid assuming that every listed rubber process is interchangeable or that every grade mentioned on a website is appropriate for the same environment.",
+          "A clear enquiry describes the application, drawing or sample, desired quantity and any required supporting records. State whether the order concerns a replacement for an established part or a new design that still needs evaluation. For sheets or gaskets, identify the intended finished part rather than only a stock material name. Request written confirmation of lead time, delivered form and any separate charges before authorizing production. This is practical preparation guidance for a supplier conversation, not an endorsement, a safety certification or a guarantee of immediate stock.",
+          "For recurring supply, discuss how the first order relates to later releases. Keep the approved material and drawing references with the purchase record so a replacement batch is requested on the same basis, unless a documented change has been agreed."
+        ],
+        "source_url": "https://www.nationalrubber.com/products/die-cutting",
+        "source_label": "National Rubber die-cutting overview"
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-custom-rubber-parts-quote-guide/",
+        "label": "Preparing a custom rubber-part quotation"
+      },
+      {
+        "url": "/news/pittsburgh-prototype-manufacturing-partner-guide/",
+        "label": "Choosing a manufacturing project starting point"
+      },
+      {
+        "url": "/services/manufacturers/",
+        "label": "Pittsburgh-area manufacturing collection"
       }
     ]
   }

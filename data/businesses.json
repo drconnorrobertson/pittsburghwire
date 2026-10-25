@@ -98374,7 +98374,7 @@
   },
   "tronix3d": {
     "name": "Tronix3D",
-    "address": "6901 Lynn Way, Suite 301, Pittsburgh, PA 15208",
+    "address": "6901 Lynn Way, Pittsburgh, PA 15208",
     "city": "Pittsburgh",
     "phone": "4127636300",
     "website": "https://tronix3d.com/",
@@ -98422,6 +98422,90 @@
       "links": {
         "contact": {
           "url": "https://www.kiskiprecision.com/contact/",
+          "label": "Contact information"
+        }
+      },
+      "topics": []
+    }
+  },
+  "epd-electronics": {
+    "name": "EPD Electronics",
+    "address": "5 Acee Drive, Natrona Heights, PA 15065",
+    "city": "Natrona Heights",
+    "phone": "7245405125",
+    "website": "https://www.epdelectronics.com/",
+    "source": "https://www.epdelectronics.com/contact.html",
+    "source_name": "EPD Electronics official website",
+    "source_category": "Manufacturing and Engineering",
+    "checked": "2026-10-25",
+    "category": "professional-services",
+    "source_excerpt": "",
+    "description": "EPD Electronics in the Pittsburgh region: detailed manufacturing capabilities, project preparation, official sources and contact information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-25",
+      "url": "https://www.epdelectronics.com/",
+      "title": "EPD Electronics",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.epdelectronics.com/contact.html",
+          "label": "Contact information"
+        }
+      },
+      "topics": []
+    }
+  },
+  "three-rivers-precision": {
+    "name": "Three Rivers Precision",
+    "address": "230 Auburn Street, Pittsburgh, PA 15206",
+    "city": "Pittsburgh",
+    "phone": "4128061776",
+    "website": "https://www.threeriversprecision.com/",
+    "source": "https://www.threeriversprecision.com/contact-us",
+    "source_name": "Three Rivers Precision official website",
+    "source_category": "Manufacturing and Engineering",
+    "checked": "2026-10-25",
+    "category": "professional-services",
+    "source_excerpt": "",
+    "description": "Three Rivers Precision in the Pittsburgh region: detailed manufacturing capabilities, project preparation, official sources and contact information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-25",
+      "url": "https://www.threeriversprecision.com/",
+      "title": "Three Rivers Precision",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.threeriversprecision.com/contact-us",
+          "label": "Contact information"
+        }
+      },
+      "topics": []
+    }
+  },
+  "national-rubber-corporation": {
+    "name": "National Rubber Corporation",
+    "address": "367 Morganza Road, Canonsburg, PA 15317",
+    "city": "Canonsburg",
+    "phone": "4128316100",
+    "website": "https://www.nationalrubber.com/",
+    "source": "https://www.nationalrubber.com/contact",
+    "source_name": "National Rubber Corporation official website",
+    "source_category": "Manufacturing and Engineering",
+    "checked": "2026-10-25",
+    "category": "professional-services",
+    "source_excerpt": "",
+    "description": "National Rubber Corporation in the Pittsburgh region: detailed manufacturing capabilities, project preparation, official sources and contact information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-10-25",
+      "url": "https://www.nationalrubber.com/",
+      "title": "National Rubber Corporation",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.nationalrubber.com/contact",
           "label": "Contact information"
         }
       },

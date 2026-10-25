@@ -1,5 +1,6 @@
 """Connect real businesses to specific services, listed cities, and relevant reporting."""
 import re
+from datetime import date
 from html import escape, unescape
 from pathlib import Path
 from business_catalog import DATA, SITE, AUTHOR, shell
@@ -73,7 +74,10 @@ def link_news(repo,articles):
             slugs = [s for s in slugs if s != 'the-waterfront-apartments']
         if slugs:
             links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(DATA[s]["address"])}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
-            block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>For current contact research, these related directory records provide source-linked locations and official websites. This directory context was checked October 7, 2026; it does not change the reporting date or establish that a past project or announcement has since been completed.</p><ul>{links}</ul></section><!-- BUSINESS_LINKS_END -->'
+            dates = sorted({DATA[s]['checked'] for s in slugs[:5]})
+            formatted = [date.fromisoformat(d).strftime('%B %-d, %Y') for d in (dates[0], dates[-1])]
+            checked = formatted[0] if len(dates) == 1 else 'between ' + ' and '.join(formatted)
+            block=f'<!-- BUSINESS_LINKS_START --><section><h2>Businesses in This Story</h2><p>For current contact research, these related directory records provide source-linked locations and official websites. This directory context was checked {checked}; it does not change the reporting date or establish that a past project or announcement has since been completed.</p><ul>{links}</ul></section><!-- BUSINESS_LINKS_END -->'
             markup=markup[:span[1]].rstrip()+'\n'+block+'\n'+markup[span[1]:];count+=1
             # Directory context must never backdate a newer article revision.
             markup=re.sub(r'("dateModified"\s*:\s*")([^"]+)(")',lambda m:m[1]+max('2026-10-07',m[2])+m[3],markup)
