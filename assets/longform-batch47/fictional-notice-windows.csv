@@ -1,0 +1,5 @@
+case_id,stated_schedule_type,start_local_teaching_time,end_local_teaching_time,invented_area
+A,Fictional planned restriction window,2030-02-04T22:00,2030-02-05T05:00,Fictional Street A between Example Junction B and Example Junction C
+B1,Fictional work-activity window; not closure confirmation,2030-02-05T09:00,2030-02-05T15:00,Fictional Street D
+B2,Fictional work-activity window; not closure confirmation,2030-02-06T09:00,2030-02-06T15:00,Fictional Street D
+B3,Fictional work-activity window; not closure confirmation,2030-02-07T09:00,2030-02-07T15:00,Fictional Street D
