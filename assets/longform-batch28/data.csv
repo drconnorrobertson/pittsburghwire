@@ -1,0 +1,7 @@
+fictional_case,numerator,denominator,share_percent,scope
+EventEarlier,40,100,40,Registered participants
+EventLater,60,200,30,Registered participants
+DisjointAreaA,20,100,20,Invented compatible record population
+DisjointAreaB,90,300,30,Invented compatible record population
+SurveyResponses,40,80,50,Respondents
+SurveyInvited,40,200,20,Invited households selecting option
