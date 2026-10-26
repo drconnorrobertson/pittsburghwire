@@ -1,0 +1,17 @@
+ORIGINAL FICTIONAL TEACHING NOTICES
+Not issued by a public agency. No actual Pittsburgh streets, projects, conditions, transit service or travel directions are represented. Dates are invented future examples, not forecasts.
+
+CASE A — ORIGINAL FICTIONAL EXAMPLE
+A planned restriction on Fictional Street A between Example Junction B and Example Junction C is listed from 22:00 on 2030-02-04 to 05:00 on 2030-02-05. No other segment, entrance, travel mode, detour or actual reopening is established by this teaching sentence.
+
+CASE B — ORIGINAL FICTIONAL EXAMPLE
+Work activity on Fictional Street D is listed separately on 2030-02-05,2030-02-06 and2030-02-07, each 09:00 to 15:00. These are work-activity windows, not confirmation of when a closure begins or ends. Conditions outside those windows are unstated.
+
+CASE C — ORIGINAL FICTIONAL VERSION COMPARISON
+Version 1 proposes a start on 2030-02-04.
+Version 2 moves the proposed start to 2030-02-11.
+Neither version reports completion, actual reopening, a current road condition or access permission.
+
+The CSV contains only the four explicitly timed windows in A/B, in local teaching time with no time-zone conversion. VersionC supplies dates only and is not a timed window in that CSV.
+
+All clock-difference calculations assume no clock change in the fictional teaching intervals. They are not time-zone conversions or elapsed-time claims for an actual project.
