@@ -1,0 +1,7 @@
+fictional_area,completed_records,registered_records,share_percent,category
+A,10,100,10,Less than 25%
+B,30,100,30,25% to less than 50%
+C,20,20,100,50% or greater
+D,50,200,25,25% to less than 50%
+E,0,50,0,Less than 25%
+F,,,,No supplied value
