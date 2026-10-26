@@ -1,0 +1,4 @@
+fictional_segment,start,end,minutes,limit
+ARRIVE,13:30,14:00,30,"Fictional arrival interval;20minutes browsing,10other"
+ACTIVITY,14:00,15:00,60,Not an actual event
+FOLLOWUP,15:00,15:15,15,No travel time supplied
