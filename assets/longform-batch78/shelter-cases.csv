@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,North Meadow Park versus North Meadow Shelter Two,specific proposed facility; no booking
+B,window10:00-14:00;setup45min;cleanup30min,240total;165gathering;10:45start;13:30end
+C,delivery09:30;proposed start10:00,30minute conflict unresolved
+D,covered tables listed;projector needs power,"power unresolved,not proven absent"
+E,table gathering then added adjacent hired activity,"new scope unresolved,no permission"
+F,activity ends15:50;departure16:00;cleanup25min,10minutes available;15minute shortfall
