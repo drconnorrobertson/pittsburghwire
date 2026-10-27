@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictional Nora Vale|14 Example Lane;N. Vale|41 Example Lane,surname and initial compatible;addresses differ;identity unresolved
+B,fictional1910|14 Example Lane;1912|22 Example Row,2year-label difference;address strings differ;exact move date unknown
+C,"fictional indices0,1,2,3;printed cover,contents,10,11",index2 maps to printed10;numbering systems distinct
+D,fictional extract Rivert0n Works;candidate Riverton Works,one character differs;unseen image reading unresolved
+E,"fictional supplied1908,1909,1910,1911;selected1909,1911",2/4=1/2 supplied labels selected;not archive or semantic coverage
+F,fictional Harbor Works|22 Example Row;business listing,supplied association only;building ownership unresolved
