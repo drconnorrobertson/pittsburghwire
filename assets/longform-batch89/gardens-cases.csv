@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictional Example Cedar Garden marker;request individual bed;no availability data,candidate listing;plot availability unknown
+B,fictional Example Maple Garden collective model;reader seeks individual bed,models differ;individual-bed arrangement unresolved
+C,fictional weekly120min;outward20;return20;planning15;activity55,allocated110;remaining10;not travel or task prediction
+D,fictional session09:00-12:00;availability10:00-12:00,overlap120of180=2/3;partial attendance permission unknown
+E,fictional entrance-route and bed-height questions unanswered,arrangement unknown;not unsuitable or refused
+F,fictional participation2030-05-01to2030-10-31;reader2030-06-01to2030-08-31,reader period inside but does not cover full proposed period;not eligibility finding
