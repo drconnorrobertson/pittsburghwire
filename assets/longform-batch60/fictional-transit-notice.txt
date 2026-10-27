@@ -1,0 +1,4 @@
+FICTIONAL TEACHING NOTICE — NOT ACTUAL PRT SERVICE OR TRAVEL INSTRUCTIONS
+Version1: published2030-06-10. RouteEX1 towardHillpoint will not serve stopEX101 on2030-06-12 from06:00 inclusive to12:00 exclusive under the declared teaching clock basis. No replacement boarding location is established.
+Version2: published2030-06-11; explicitly replaces Version1. Same route, direction and window; affected stop changes toEX102. Do not combine both stop conditions.
+All names/IDs/dates invented; no actual trip, access, safety, arrival or service outcome.
