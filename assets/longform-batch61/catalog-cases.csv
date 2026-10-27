@@ -1,0 +1,7 @@
+fictional_case,title,format,edition,location,state,date_or_copy
+A,The Harbor Notebook,standard_print,One,branchA,available,copyA1
+B,The Harbor Notebook,electronic,not_supplied,not_physical_branch,format_mismatch,not_supplied
+C,The Harbor Notebook,standard_print,One,branchB,available,not_evidence_for_branchA
+D,The Harbor Notebook,standard_print,One,branchA,checked_out,due2030-05-20
+E,The Harbor Notebook,standard_print,One,pickup_branchA,request_placed,not_ready_state
+F,The Harbor Notebook,standard_print,One,pickup_branchA,ready_for_pickup,expiry2030-05-21
