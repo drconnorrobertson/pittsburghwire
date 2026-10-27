@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictional2030-06-12 19:30 versus2030-06-13 19:30;same title,1day apart;different selections
+B,fictional18:45-19:30;approach15;entry15;seating10,45available;40allocated;5remaining
+C,fictional19:30 start;first40;intermission20;second45,105total;21:15 hypothetical end
+D,order email;no supplied entry ticket evidence,ticket access unresolved;not order failed
+E,fictional19:30 start;19:40 arrival,10after;seating time unresolved
+F,preferred arrangement;no supplied answer,arrangement unresolved;not refusal
