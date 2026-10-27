@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictional10:00 snapshot2bikes;arrival10:20,20minute old;availability unresolved
+B,fictionalorigin2bikes;destination0open docks,return arrangement unresolved
+C,fictionalride12;pause8;ride10,30elapsed;22riding;not billing
+D,bike near station;no return confirmation,return unresolved
+E,fictional2030-06-12 08:45-09:30;access10;ride25;return10;walk5,45available;50allocated;5shortfall
+F,proposed use;no pass or checkout terms,final cost unresolved
