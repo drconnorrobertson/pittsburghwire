@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"fictional identified A,B,C;reported A,B,C;birding primary purpose",reported preserves identified set;not census
+B,"fictional identified A,B,C;reported highlight A","B,C omitted;not full identified set"
+C,fictional SpeciesA count3;SpeciesB X,numeric count3 plus uncounted presence;combined total unknown
+D,fictional2030-06-12 ExampleRidge versus2030-06-12 ExamplePond,same date;different supplied locations;not one event
+E,fictional08:10-08:40 versus08:10-09:10,30minutes versus60;ratio2;not abundance or quality
+F,fictional ObserverA report;ReaderB no personal observation,ReaderB personal-observation claim unsupported
