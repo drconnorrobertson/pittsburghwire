@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,general site ticket; no Clayton reservation,additional tour unresolved
+B,fictional10:00-13:00; arrival20; experience60; movement15; break20; departure15,180total;130allocated;50remaining
+C,fictionaltour11:00-12:00; proposedcafe11:45,15minute conflict
+D,selected experience in note; no confirmation,proposed not booked
+E,requested tour arrangement; no host response,unknown not availability or refusal
+F,fictionalclosing17:00; arrival16:10; desired65,50available;15shortfall
