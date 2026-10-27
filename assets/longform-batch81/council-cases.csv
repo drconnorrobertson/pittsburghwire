@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,regular 10:00; standing committee 11:00; fictional same date,different meeting types and starts
+B,video offset 00:25:00; posted start 10:00; time basis unknown,wall-clock time unresolved
+C,written statement draft; no delivery or signup,not submitted; not speaking registration
+D,dated 1-hour cutoff; fictional start 10:00; proposed signup 09:15,reference cutoff 09:00; 15 minutes after
+E,post-agenda format dated reference,information gathering; no public comment reference
+F,proposal note; no vote or outcome evidence,outcome unresolved

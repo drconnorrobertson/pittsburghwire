@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,yogurt tub versus clamshell,distinct categories; acceptance not inspected
+B,glass bottle versus drinking glass,distinct categories; current site unresolved
+C,cardboard shipping package plus foam,2 components; not all cardboard
+D,shredded paper bag exception,narrow context; not all bagged material
+E,proposed tires 3; dated reference limit 2,1 excess; eligibility unresolved
+F,fictional close 11:00; arrival 10:50; allocation 20 minutes,10 available; 10 shortfall
