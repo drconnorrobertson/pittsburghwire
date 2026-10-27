@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,oneway_km2;return_same_km2,4km before other access
+B,trail_km1.2+0.8+1.5;access_km0.4;return_km0.6,3.5trail;4.5total
+C,window_min120;access15;return15;break20,"70moving allocation,not prediction"
+D,network35miles;fictionalouting4km,"different scope andunits,no route conversion"
+E,restroom symbol;openingunknown,"availability unresolved,not proven closed"
+F,inventedclosure;no confirmedalternate,"outing unresolved,no detour instruction"
