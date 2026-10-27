@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictional general-admission plan;named workshop;no enrollment confirmation,workshop place unresolved;not failed-registration or fee finding
+B,fictional window240min;orientation30;first70;break20;second50;transition20;departure20,allocated210;remaining30;not visit prediction
+C,fictional activity14:00;arrival14:15,arrival15minutes after start;late entry permission unknown
+D,fictional opening2030-05-01;proposed visit2030-04-20,visit11days before opening label;not actual exhibition
+E,fictional general photography note;specific display/equipment question unanswered,specific arrangement unresolved;no permission finding
+F,fictional entrance/individual arrangement questions unanswered,arrangement unknown;not suitability/refusal finding
