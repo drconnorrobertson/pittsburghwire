@@ -1,0 +1,7 @@
+fictional_case,version,route,direction,stop,date,time,bounded_reading
+A,original,EX1,toward_Hillpoint,EX101,2030-06-12,09:00,matches_original_scope_not_travel_guarantee
+B,original,EX1,away_from_Hillpoint,EX101,2030-06-12,09:00,different_direction_no_service_conclusion
+C,original,EX1,toward_Hillpoint,EX102,2030-06-12,09:00,different_stop_not_replacement_authority
+D,original,EX1,toward_Hillpoint,EX101,2030-06-12,05:59,before_teaching_window
+E,original,EX1,toward_Hillpoint,EX101,2030-06-12,12:00,excluded_teaching_endpoint
+F,replacement,EX1,toward_Hillpoint,EX102,2030-06-12,09:00,matches_explicit_replacement_not_combined_stops
