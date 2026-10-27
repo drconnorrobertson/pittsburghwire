@@ -1,0 +1,5 @@
+fictional_snapshot,catalog_or_resource_date,event_or_coverage,teaching_boundary
+A,catalog2030-04-12_resource2030-04-10,coverageJanMar2030_sample_latest2030-03-29,metadata_not_event_date
+B,published2030-04-15,correction_to_E02_event2030-02-03,correction_not_newAprilEvent
+C,retrieved2030-04-16T09:00Z_and11:00Z,declared_identical_copies,retrieval_not_new_release
+D,new_version_date_not_supplied,category_definition_changed,trend_requires_mapping
