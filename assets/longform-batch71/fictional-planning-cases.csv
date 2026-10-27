@@ -1,0 +1,7 @@
+fictional_case,invented_date,authored_inputs,manual_expectation
+A,2030-06-12,entry 10:00-10:30;arrival 10:10;activity start 10:00,arrival inside entry window but 10 minutes after activity begins
+B,2030-06-12,entry 10:00-10:30;arrival 10:20;activity start 11:00,40 minute arithmetic gap; no transition or booking guarantee
+C,2030-06-12,observation 10:20-10:45;program 10:40-11:00,5 minute overlap
+D,2030-06-12,departure 13:00;chosen transition 20;activity ends 12:50,10 available minutes;10 minute shortfall against own allowance
+E,2030-06-12,start 11:00;blocks 15+40+15+25+15;commitment 13:00,110 minutes;ends 12:50;10 minutes spare
+F,2030-06-12,general entry confirmed in fiction;desired encounter without separate evidence,encounter unresolved;time arithmetic cannot supply booking evidence
