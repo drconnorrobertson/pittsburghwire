@@ -1,0 +1,8 @@
+fictional_row,measure,period_or_scope,amount_thousands,relationship
+A,actual,prior_full_year,80,comparison_input
+B,original_budget,current_full_year,100,comparison_input
+C,revised_budget,current_full_year,120,comparison_input
+D,actual,current_through_June,45,not_full_year
+E,program_subtotal,separate_hierarchy_example,100,includes_F_and_G
+F,personnel_component,separate_hierarchy_example,70,included_in_E
+G,supplies_component,separate_hierarchy_example,30,included_in_E
