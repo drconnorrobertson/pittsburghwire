@@ -931,6 +931,78 @@
         "private_evidence": "reports/timely-2026-10-25/live-sitemap-check.json"
       },
       "publication": null
+    },
+    {
+      "date": "2026-10-27",
+      "status": "validated_awaiting_production",
+      "slug": "pennsylvania-mail-ballot-application-deadline-october-27-2026",
+      "why_cannot_wait": "Mail-ballot applications must be received today at 5 p.m.; waiting until the next Monday would miss the application window for the November 3 election.",
+      "sources": [
+        "https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot",
+        "https://www.alleghenycounty.us/Events-Directory/Elections/Last-Day-to-Apply-for-a-Mail-in-or-Absentee-Ballot-General-Election",
+        "https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot/mail-ballot-before-election-day",
+        "https://www.pa.gov/agencies/vote/elections/fact-checking-pa-related-election-claims",
+        "https://www.pa.gov/agencies/vote/elections/upcoming-elections"
+      ],
+      "coverage_check": "Clean main advanced to 3ac83b69; no existing mail-ballot application-deadline article. October 19 registration deadline is a different task. Existing Scale Expo notice owns today\u2019s event.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "No October 26 week key; shared worker active on portfolio Entity Economics work. Read-only task inspection confirms timely news excluded from its evergreen allocation.",
+        "counted_against_weekly_cap": false
+      },
+      "other_candidates": [
+        {
+          "story": "AMC Mount Lebanon 6 closure",
+          "decision": "Reported closure after October 25 business; no primary operator listing verified for a separate new article.",
+          "source": "https://www.audacy.com/kdkaradio/news/local/galleria-mt-lebanon"
+        },
+        {
+          "story": "RAD hearing October 27",
+          "decision": "Official same-day hearing found; priority given to broader ballot application deadline.",
+          "source": "https://www.radworkshere.org/events/rad-public-comment-hearing"
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-27",
+        "date_range": "2026-10-19/2026-10-25",
+        "previous_range": "2026-10-12/2026-10-18",
+        "news": {
+          "clicks": 0,
+          "impressions": 1,
+          "average_position": 5,
+          "previous_clicks": 0,
+          "previous_impressions": 8,
+          "previous_position": 4.8,
+          "observed_pages": [
+            "pittsburgh-bakeries-bread-pastries-cake-five-stops"
+          ]
+        },
+        "web": {
+          "clicks": 653,
+          "impressions": 79568,
+          "average_position": 9.4,
+          "previous_clicks": 932,
+          "previous_impressions": 84454,
+          "previous_position": 9.2
+        },
+        "note": "Adjacent settled-week comparison. Web clicks down 29.9%, impressions down 5.8%; cause not diagnosed. News sample too small for trend inference. News tab is not Google News app/site inclusion; position historical aggregate. Raw snapshots private."
+      },
+      "validation": {
+        "article_words": 512,
+        "all_five_source_links_http_status": 200,
+        "complete_diff_reviewed": true,
+        "source_quality_check": {
+          "pages": 4004,
+          "errors": 47,
+          "explanation": "All 47 are source-stage directory pagination canonical mismatches after build_site regeneration; production pagination rebuild resolves them. No directory source change committed."
+        },
+        "production_build_quality_check": {
+          "pages": 4050,
+          "errors": 0
+        },
+        "scope_note": "House template, institutional byline and dated notice retained. No political persuasion, personalized eligibility determination, or invented local office hours. Main map preserves all unrelated existing URLs. Expired notices removed from homepage promotion; source article unchanged except new notice."
+      },
+      "publication": null
     }
   ]
 }

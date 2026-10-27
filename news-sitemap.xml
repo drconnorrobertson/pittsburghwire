@@ -1,51 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thepittsburghwire.com/news/scale-expo-north-point-breeze-manufacturing-october-27-2026</loc>
+    <loc>https://www.thepittsburghwire.com/news/pennsylvania-mail-ballot-application-deadline-october-27-2026</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Scale Expo Brings Makers to North Point Breeze October 27</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-soft-goods-product-development-guide</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Soft-Goods Product Development for Pittsburgh Founders</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-prototype-manufacturing-partner-guide</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Pittsburgh Production Partners: From Prototype to Order</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-pcb-assembly-project-preparation</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Planning a PCB Assembly Project Near Pittsburgh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/pittsburgh-custom-rubber-parts-quote-guide</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Preparing a Custom Rubber-Part Quote in the Region</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thepittsburghwire.com/news/kiski-precision-machining-apprenticeship-guide</loc>
-    <news:news>
-      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25</news:publication_date>
-      <news:title>Kiski Precision’s Machining Apprenticeship Pathway</news:title>
+      <news:publication_date>2026-10-27</news:publication_date>
+      <news:title>Mail-Ballot Applications Are Due Today at 5 p.m.</news:title>
     </news:news>
   </url>
 </urlset>
