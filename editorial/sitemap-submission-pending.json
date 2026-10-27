@@ -1,53 +1,55 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News sitemaps accepted after exact production and live Wabash update verification. Original publication date preserved; aged News entry removed normally. Directory map unchanged. Submission does not prove indexing.",
+  "reason": "Changed reachable main and News maps accepted after exact production and live deadline-article verification. Directory already successfully processed October 26; no repeat submission. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "d78f98a497cc47e364e3c1200d20e5284377588eb50a7c1ff950ad6acd707c06",
+      "sha256": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
       "accepted": true,
-      "accepted_date": "2026-10-24",
-      "accepted_at_utc": "2026-10-24T13:06:04.546Z"
+      "accepted_date": "2026-10-27",
+      "accepted_at_utc": "2026-10-27T13:11:26.679Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "e224aa2b72642a617a58179c9611dc01b230b24a2967473f9b311e4ae5bc85b8",
+      "sha256": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
       "accepted": true,
-      "accepted_date": "2026-10-24",
-      "accepted_at_utc": "2026-10-24T13:06:25.030Z"
+      "accepted_date": "2026-10-27",
+      "accepted_at_utc": "2026-10-27T13:12:01.806Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
-      "sha256": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042",
+      "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
       "accepted": true,
-      "accepted_date": "2026-10-14"
+      "accepted_date": "2026-10-14",
+      "hash_record_basis": "Observed live October 27; no manual submission today. GSC last read October 26: Success, 2,806 pages. Original submission date retained.",
+      "last_observed_processed_date": "2026-10-26"
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-24",
-  "submitted_commit": "228726d3ae6dcc2f24844fd709ca9b2a3a6bea87",
-  "next_routine_check_not_before": "2026-10-25",
+  "submitted_date": "2026-10-27",
+  "submitted_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
+  "next_routine_check_not_before": "2026-10-28",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-24T13:05:46.329409+00:00",
-    "content_commit": "228726d3ae6dcc2f24844fd709ca9b2a3a6bea87",
-    "deployment_id": "dpl_3RCTDrX5fWAzyrPPntDvQAzWBZvi",
+    "checked_utc": "2026-10-27T13:10:53.306907+00:00",
+    "content_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
+    "deployment_id": "dpl_5tTXFfyjTifTy8Rc3DJfD4VtsK5t",
     "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "d78f98a497cc47e364e3c1200d20e5284377588eb50a7c1ff950ad6acd707c06",
-      "news-sitemap.xml": "e224aa2b72642a617a58179c9611dc01b230b24a2967473f9b311e4ae5bc85b8",
-      "directory-sitemap.xml": "a9af97826e8f48e70f7a3b2e8d754cb6cf04e0a6e78e14ccd51369c9f85de042"
+      "sitemap.xml": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
+      "news-sitemap.xml": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
+      "directory-sitemap.xml": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465"
     },
     "article_status": 200,
-    "article_url": "https://www.thepittsburghwire.com/news/wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-mail-ballot-application-deadline-october-27-2026",
     "canonical_matches": true,
     "indexable": true,
-    "original_date_preserved": true,
+    "expiry": "2026-10-28T00:00:00-04:00",
     "discovery_pages_checked": [
       "/",
       "/news/",
-      "/news/development/"
+      "/news/neighborhoods/"
     ]
   },
   "pending_changed_sitemaps": [],
@@ -268,16 +270,38 @@
           "accepted_at_utc": "2026-10-24T13:06:25.030Z"
         }
       ]
+    },
+    {
+      "submitted_date": "2026-10-27",
+      "submitted_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
+          "accepted": true,
+          "accepted_date": "2026-10-27",
+          "accepted_at_utc": "2026-10-27T13:11:26.679Z"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
+          "accepted": true,
+          "accepted_date": "2026-10-27",
+          "accepted_at_utc": "2026-10-27T13:12:01.806Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-10-24",
+    "submitted_date": "2026-10-27",
     "changed_sitemaps_accepted": [
       "sitemap.xml",
       "news-sitemap.xml"
     ],
-    "directory_map_unchanged": true,
-    "private_screenshot": "reports/timely-2026-10-24/news-sitemap-accepted.png"
+    "directory_map_resubmitted": false,
+    "directory_last_read": "2026-10-26 Success; 2,806 discovered pages",
+    "private_screenshot": "reports/timely-2026-10-27/news-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",

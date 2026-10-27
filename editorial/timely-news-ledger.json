@@ -934,7 +934,7 @@
     },
     {
       "date": "2026-10-27",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "pennsylvania-mail-ballot-application-deadline-october-27-2026",
       "why_cannot_wait": "Mail-ballot applications must be received today at 5 p.m.; waiting until the next Monday would miss the application window for the November 3 election.",
       "sources": [
@@ -1002,7 +1002,37 @@
         },
         "scope_note": "House template, institutional byline and dated notice retained. No political persuasion, personalized eligibility determination, or invented local office hours. Main map preserves all unrelated existing URLs. Expired notices removed from homepage promotion; source article unchanged except new notice."
       },
-      "publication": null
+      "publication": {
+        "checked_utc": "2026-10-27T13:10:53.306907+00:00",
+        "content_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
+        "deployment_id": "dpl_5tTXFfyjTifTy8Rc3DJfD4VtsK5t",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
+          "news-sitemap.xml": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
+          "directory-sitemap.xml": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-mail-ballot-application-deadline-october-27-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-10-28T00:00:00-04:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-27",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Not resubmitted: GSC already reports successful October 26 processing and 2,806 discovered pages. Observed current live hash recorded.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-27/news-sitemap-accepted.png"
+      }
     }
   ]
 }
