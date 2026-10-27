@@ -1,0 +1,7 @@
+fictional_plan,before_entry_minutes,inside_minutes,departure_transition_minutes,total_minutes
+A_focused,15,90,20,125
+B_slower_pace,20,120,25,165
+C_short_window,25,60,25,110
+D_different_allocation,15,75,30,120
+E_coordination,30,90,30,150
+F_departure_flexibility,20,90,40,150
