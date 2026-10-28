@@ -1,55 +1,55 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News maps accepted after exact production and live deadline-article verification. Directory already successfully processed October 26; no repeat submission. Submission does not prove indexing.",
+  "reason": "Changed reachable main and News maps accepted after exact production and live Springdale notice verification. Directory hash unchanged and already processed today; not resubmitted. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
+      "sha256": "3ea1d7db0225c5a2057b62671dbbc31187f91fad2ee76ee6726f146d879168a2",
       "accepted": true,
-      "accepted_date": "2026-10-27",
-      "accepted_at_utc": "2026-10-27T13:11:26.679Z"
+      "accepted_date": "2026-10-28",
+      "accepted_at_utc": "2026-10-28T13:02:15.568Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
+      "sha256": "c3f458c79f964dee42668455c170d868beac401de0fabda0144f7de63fb7edd6",
       "accepted": true,
-      "accepted_date": "2026-10-27",
-      "accepted_at_utc": "2026-10-27T13:12:01.806Z"
+      "accepted_date": "2026-10-28",
+      "accepted_at_utc": "2026-10-28T13:02:29.060Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
       "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
       "accepted": true,
       "accepted_date": "2026-10-14",
-      "hash_record_basis": "Observed live October 27; no manual submission today. GSC last read October 26: Success, 2,806 pages. Original submission date retained.",
-      "last_observed_processed_date": "2026-10-26"
+      "hash_record_basis": "Unchanged live October 28; no manual resubmission. GSC last read October 28: Success, 2,806 pages.",
+      "last_observed_processed_date": "2026-10-28"
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-10-27",
-  "submitted_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
-  "next_routine_check_not_before": "2026-10-28",
+  "submitted_date": "2026-10-28",
+  "submitted_commit": "485b843b9c71efc7e3873801869a41797bf5dbdb",
+  "next_routine_check_not_before": "2026-10-29",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-10-27T13:10:53.306907+00:00",
-    "content_commit": "4b2450b20d0dd08cacbf888afd89be826868b41b",
-    "deployment_id": "dpl_5tTXFfyjTifTy8Rc3DJfD4VtsK5t",
+    "checked_utc": "2026-10-28T13:01:34.897604+00:00",
+    "content_commit": "485b843b9c71efc7e3873801869a41797bf5dbdb",
+    "deployment_id": "dpl_NNEdjPcdjYqDtceR2Vdo9FUUWK5p",
     "production_state": "READY",
     "sha256": {
-      "sitemap.xml": "6bb71edd1092567496071f216aae0364b10dce8cc79eff99d7790f518760aded",
-      "news-sitemap.xml": "df7aad0e3f25ff8600c8270ab7f3e31c8fc1dbe295af825c956327208e576bf8",
+      "sitemap.xml": "3ea1d7db0225c5a2057b62671dbbc31187f91fad2ee76ee6726f146d879168a2",
+      "news-sitemap.xml": "c3f458c79f964dee42668455c170d868beac401de0fabda0144f7de63fb7edd6",
       "directory-sitemap.xml": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465"
     },
     "article_status": 200,
-    "article_url": "https://www.thepittsburghwire.com/news/pennsylvania-mail-ballot-application-deadline-october-27-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/springdale-data-center-public-meeting-october-28-2026",
     "canonical_matches": true,
     "indexable": true,
-    "expiry": "2026-10-28T00:00:00-04:00",
+    "expiry": "2026-10-29T00:00:00-04:00",
     "discovery_pages_checked": [
       "/",
       "/news/",
-      "/news/neighborhoods/"
+      "/news/development/"
     ]
   },
   "pending_changed_sitemaps": [],
@@ -291,17 +291,38 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-10-28",
+      "submitted_commit": "485b843b9c71efc7e3873801869a41797bf5dbdb",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "3ea1d7db0225c5a2057b62671dbbc31187f91fad2ee76ee6726f146d879168a2",
+          "accepted": true,
+          "accepted_date": "2026-10-28",
+          "accepted_at_utc": "2026-10-28T13:02:15.568Z"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "c3f458c79f964dee42668455c170d868beac401de0fabda0144f7de63fb7edd6",
+          "accepted": true,
+          "accepted_date": "2026-10-28",
+          "accepted_at_utc": "2026-10-28T13:02:29.060Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-10-27",
+    "submitted_date": "2026-10-28",
     "changed_sitemaps_accepted": [
       "sitemap.xml",
       "news-sitemap.xml"
     ],
     "directory_map_resubmitted": false,
-    "directory_last_read": "2026-10-26 Success; 2,806 discovered pages",
-    "private_screenshot": "reports/timely-2026-10-27/news-sitemap-accepted.png"
+    "directory_last_read": "2026-10-28 Success; 2,806 discovered pages",
+    "private_screenshot": "reports/timely-2026-10-28/news-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",

@@ -1036,7 +1036,7 @@
     },
     {
       "date": "2026-10-28",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "springdale-data-center-public-meeting-october-28-2026",
       "why_cannot_wait": "The county in-person meeting is tonight at 6 p.m.; waiting for the next Monday batch would miss the attendance opportunity. Written-comment window remains distinct.",
       "sources": [
@@ -1089,7 +1089,37 @@
           "errors": 0
         }
       },
-      "publication": null
+      "publication": {
+        "checked_utc": "2026-10-28T13:01:34.897604+00:00",
+        "content_commit": "485b843b9c71efc7e3873801869a41797bf5dbdb",
+        "deployment_id": "dpl_NNEdjPcdjYqDtceR2Vdo9FUUWK5p",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "3ea1d7db0225c5a2057b62671dbbc31187f91fad2ee76ee6726f146d879168a2",
+          "news-sitemap.xml": "c3f458c79f964dee42668455c170d868beac401de0fabda0144f7de63fb7edd6",
+          "directory-sitemap.xml": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/springdale-data-center-public-meeting-october-28-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-10-29T00:00:00-04:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/development/"
+        ]
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-28",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Hash unchanged; not resubmitted. GSC reports October 28 Success with 2,806 pages.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-28/news-sitemap-accepted.png"
+      }
     }
   ]
 }
