@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entry"": ""EX-MUSEUM-1"", ""desired"": ""EX-BLOCK-2"", ""secondConfirmed"": null}","Different supplied destinations; additional entry unresolved, not exclusion or booking result"
+B,"{""display"": ""EX-DISPLAY-3"", ""opening"": ""2030-06-20"", ""visit"": ""2030-06-12""}",Visit eight days before invented opening; not actual exhibition or closure
+C,"{""modelCentimeters"": 3, ""representedMetersPerCentimeter"": 10, ""expectedRepresentedMeters"": 30, ""scope"": ""authored linear convention only""}","Thirty represented meters, not actual model measurement, walking distance or route"
+D,"{""eventYear"": 1758, ""modelProductionYear"": 1969, ""scope"": ""authored year labels not actual artifact or exact elapsed interval""}",Two date roles differ by211 year labels; not direct-witness or real exhibit history
+E,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [15, 50, 30, 20, 20, 15]}",Window180minus150allocatedleaves30unassigned; not visit prediction
+F,"{""program"": ""EX-PROGRAM-8"", ""request"": ""particular arrangement"", ""response"": null, ""deviceConfirmed"": false}",Request unanswered and device unconfirmed; not refusal or individual suitability
