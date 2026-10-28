@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""display"": ""EX-LEAF"", ""endDate"": ""2030-10-25"", ""visitDate"": ""2030-10-28"", ""expectedDaysAfter"": 3}",Authoredvisitthree daysafterEX-LEAFend NOTactualexhibition/gardenclosure
+B,"{""date"": ""2030-06-12"", ""start"": ""10:00"", ""end"": ""13:00"", ""allocations"": [15, 45, 20, 35, 20, 15], ""expectedWindow"": 180, ""expectedAllocated"": 150, ""expectedUnassigned"": 30}",180windowminus150authoredallocations=30 NOTmeasuredvisit/feasibility
+C,"{""segment"": ""EX-PATH-2"", ""suppliedSurface"": ""fine gravel"", ""requestedSurface"": ""paved throughout"", ""confirmedRoute"": false}",Differentrequested/suppliedsurfacelabels;routeunconfirmed NOTindividualsuitability/refusal
+D,"{""groupCount"": 6, ""referenceCapacity"": 5, ""expectedExcess"": 1, ""bookingConfirmed"": false}",Sixversusfiveoneabove NOTeligibility/alternative/booking
+E,"{""date"": ""2030-06-12"", ""authoredKitchenEnd"": ""14:00"", ""proposedOrder"": ""14:15"", ""expectedMinutesAfter"": 15}",Proposed14:15fifteenafterauthored14:00 NOTactualservice/permission
+F,"{""scope"": ""original fictional notes not field observations"", ""objects"": [{""id"": ""EX-PLANT-A"", ""length"": 4}, {""id"": ""EX-PLANT-B"", ""length"": 6}, {""id"": ""EX-PLANT-C"", ""length"": null}], ""expectedDifference"": 2, ""expectedKnown"": 2, ""expectedTotal"": 3}",Twoofthreeauthoredlengthsknown;6minus4=2 NOTspecies/growth/fieldmeasurement/semanticcoverage
