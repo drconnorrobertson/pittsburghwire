@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,fictionalT1weekday08:10to08:25;T2Saturday08:10to08:40,listed15/30minute intervals;different trip/day NOT actual running time or delay
+B,routeEX-7branchA stopEX-S10 Harbor Road;branchB EX-S11 Harbor Road;invented dash=this trip does not serve listed point,2distinct supplied IDs/same name;legend scope only NOT real location or universal dash meaning
+C,T1start09:00 destination09:30;T2start09:20 destination09:50;appointment09:40;goal09:25 with15minute allowance,T1destination10beforeappointment but5aftergoal;NOT actual journey feasibility
+D,interchange arrival10:20;connecting departure10:27;assumedmovement5minutes+margin3minutes,scheduledgap7;desiredallocation8;shortfall1 NOT transfer prediction/access finding
+E,inventedEX-H on2030-06-12 selectsSundaytable;weekdayrow08:00/Sundayrow11:00,Wednesday calendar label;authoredexceptionSunday;clockdifference180minutes NOT real holiday/PRT policy
+F,2030-06-12T23:50:00+00:00 to2030-06-13T00:20:00+00:00,30minute interval/calendar date changes NOT actual local timezone/service-day convention
