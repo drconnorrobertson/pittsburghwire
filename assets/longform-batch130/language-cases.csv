@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""goalTarget"": ""English"", ""goalSupport"": ""Spanish"", ""courses"": [{""id"": ""EX-COURSE-A"", ""target"": ""English"", ""support"": ""Spanish""}, {""id"": ""EX-COURSE-B"", ""target"": ""Spanish"", ""support"": ""English""}]}",OneliteralrolematchEX-COURSE-A notactualcoursesuitability
+B,"{""discoveryLinkFound"": true, ""login"": ""untested"", ""courseOpened"": false}",Discoverynotaccessorlearning
+C,"{""windowMinutes"": 30, ""allocations"": [5, 10, 10, 5]}",Allocations30 remainder0 notsessionprediction
+D,"{""activities"": {""EX-LISTEN-1"": ""attempted"", ""EX-READ-2"": ""attempted"", ""EX-SPEAK-3"": ""not attempted""}}",Twoofthreeattempted notcorrectness/fluency/semanticcoverage
+E,"{""first"": ""I may leave"", ""second"": ""I must leave"", ""role"": ""original English teaching prose, nottranslation""}",Threewordseach/may→must notsamepermission/nolinguisticcertification
+F,"{""activity"": ""EX-GROUP-6"", ""request"": ""text-supported participation"", ""state"": ""draft"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsentunansweredunconfirmednotrefusal/suitability
