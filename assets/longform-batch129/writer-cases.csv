@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""room"": ""EX-ROOM-1"", ""sourceRole"": ""replica working environment"", ""proposedRole"": ""original preserved room""}",Differentrepresentationroles; objectstatusunknown notactualprovenance
+B,"{""decadeStart"": 1950, ""decadeEnd"": 1959, ""productionYear"": 2001}",42–51yearlabeldifferences notactualplay/production/directwitness
+C,"{""text"": ""a neighborhood changes while memories remain"", ""sourceRole"": ""original invented exhibition-style paraphrase"", ""proposedRole"": ""attributed playwright quotation""}",Originalteachingprose notAugustWilsonquotation/actualexhibitiontext
+D,"{""sections"": {""EX-SECTION-A"": ""notes"", ""EX-SECTION-B"": ""notes"", ""EX-SECTION-C"": ""uninspected""}}",Twoofthreehavenotes notliteraryunderstanding/Cyclecoverage
+E,"{""date"": ""2030-06-12"", ""start"": ""13:00"", ""end"": ""16:00"", ""allocations"": [15, 30, 35, 30, 20, 15]}",180minus145leaves35unassigned notoutingprediction
+F,"{""visit"": ""EX-VISIT-6"", ""request"": ""quieter presentation option"", ""response"": null, ""registrationConfirmed"": false}",Requestunanswered/registrationunconfirmed notrefusal/suitability

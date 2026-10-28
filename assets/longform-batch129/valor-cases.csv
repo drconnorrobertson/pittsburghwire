@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""object"": ""EX-UNIFORM-1"", ""associatedPerson"": ""EX-PERSON-A"", ""serviceDates"": null, ""proposedCampaignYear"": 1918}",Associationnotcampaign/service-datefinding
+B,"{""award"": ""EX-AWARD-2"", ""actionYear"": 1944, ""awardYear"": 1945}",One-yearlabelgap notexactinterval/admin-delayfinding
+C,"{""firstName"": ""N. Vale"", ""secondName"": ""Nora Vale"", ""identityRelation"": null}",Differentstrings actualidentityunresolved
+D,"{""objects"": {""EX-OBJECT-A"": ""label note"", ""EX-OBJECT-B"": ""label note"", ""EX-OBJECT-C"": ""uninspected""}}",Twoofthreehavenotes notmuseum/semanticcoverage
+E,"{""date"": ""2030-06-12"", ""start"": ""10:30"", ""end"": ""13:30"", ""allocations"": [15, 45, 35, 20, 15]}",180minus130leaves50unassigned notvisitprediction
+F,"{""inquiry"": ""EX-INQUIRY-6"", ""state"": ""draft"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsent/unanswered/unconfirmed notrefusal/availability/appointment
