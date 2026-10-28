@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,edition1902;revision1908;digital2024,year-label gaps6and116;not exact event dates or2024 scene
+B,earlier sheet12 Alder/Ferry;later sheet27 Alder/Ferry;later sheet12 Birch/Dock,matching supplied intersection selects later27;number difference15 has no geographic meaning
+C,E1 dashed=proposed connection;E2 dashed=boundary,two invented definitions differ;no actual street event
+D,edition1895 no warehouse symbol in description;edition1905 warehouse symbol in description,year-label difference10;actual construction date unresolved
+E,candidate1 offsetsA2/B12;candidate2 offsetsA5/B5;arbitrary display units,first closer atA;largest offsets12versus5;no actual alignment certification
+F,intendedM1/M2/M3/M4;selectedM1/M2/M4;M3unread,3/4 supplied sheet selection;not geographic or semantic coverage
