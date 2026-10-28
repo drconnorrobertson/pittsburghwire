@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""first"": {""title"": ""Harbor Film"", ""venue"": ""EX-LAWRENCE-1"", ""date"": ""2030-06-12"", ""time"": ""19:00""}, ""second"": {""title"": ""Harbor Film"", ""venue"": ""EX-DORMONT-2"", ""date"": ""2030-06-13"", ""time"": ""19:00""}}","Same title/time differentdate/destination, not actual wrongticket"
+B,"{""room"": ""EX-ROOM-3"", ""filmCapable"": true, ""screening"": ""EX-SCREENING-4"", ""format"": null}",Venuecapabilitynotscreeningformatconfirmation
+C,"{""start"": ""2030-06-12T19:00"", ""filmMinutes"": 90, ""introductionMinutes"": 15, ""discussionMinutes"": 20}","125inventedminutes/end21:05, not actualruntime/eventforecast"
+D,"{""film"": ""EX-FILM-5"", ""subtitlesListed"": true, ""captionDevice"": null}",Subtitlesnotcaptiondeviceconfirmation
+E,"{""date"": ""2030-06-12"", ""start"": ""18:15"", ""end"": ""19:00"", ""allocations"": [20, 10, 10]}","45windowminus40leaves5unassigned, notjourney/queueprediction"
+F,"{""event"": ""EX-LIVE-6"", ""eventDate"": ""2030-06-10"", ""referenceDate"": ""2030-06-12""}",Twodaysbefore reference notupcoming/annualrecurrence

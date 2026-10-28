@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""project"": ""EX-PROJECT-1"", ""listedProcess"": ""fusing"", ""proposedProcess"": ""glassblowing""}","Different process labels, not actual object/classinspection"
+B,"{""workshop"": ""EX-WORKSHOP-2"", ""inventedMinimumAge"": 14, ""inventedAge"": 13}","Onebelowinventedminimum, notactualeligibility/exceptiondecision"
+C,"{""meetings"": 4, ""scheduledHoursEach"": 3, ""individualPracticeHours"": null}","12scheduledhours, individualpracticeunknown notskillgain"
+D,"{""object"": ""EX-OBJECT-4"", ""making"": ""2030-06-12"", ""ready"": ""2030-06-17"", ""sameDayDeparture"": true}","Fivedayslater underinventedrecord, notproviderpickup rule"
+E,"{""date"": ""2030-06-12"", ""start"": ""17:30"", ""end"": ""20:30"", ""allocations"": [20, 120, 15, 15]}","180minute windowminus170leaves10unassigned, not journey/classprediction"
+F,"{""session"": ""EX-SESSION-6"", ""request"": ""seated participation"", ""response"": null, ""confirmed"": false}",Unanswerednotrefusal/confirmedarrangement/suitability
