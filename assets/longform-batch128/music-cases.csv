@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""title"": ""Harbor Song"", ""candidates"": [{""id"": ""EX-SCORE-1"", ""format"": ""voice and piano""}, {""id"": ""EX-SCORE-2"", ""format"": ""band""}], ""requested"": ""voice and piano""}","Oneoftwomatchesliteralformat, notactualmusic/holdings/equivalence"
+B,"{""composer"": ""Nora Vale"", ""lyricist"": ""Mira Reed"", ""arranger"": ""Owen Birch"", ""proposedComposer"": ""Mira Reed""}","Three distinctsuppliedroles; proposedcomposer differs, noactualidentityfinding"
+C,"{""edition"": ""EX-EDITION-3"", ""publicationYear"": 1910, ""reprintYear"": 1930}",20yearlabels notcompositiondate/revision/contentcomparison
+D,"{""request"": ""EX-REQUEST-4"", ""state"": ""draft"", ""sent"": false, ""appointmentConfirmed"": false}",Draftnotsent/confirmedappointment
+E,"{""frontImages"": 2, ""printedStart"": 1, ""printedTarget"": 3, ""printedEnd"": 8}","Underinventedconsecutivemappingprinted3→onebasedimage5→zeroindex4, notactualPDF"
+F,"{""objects"": {""EX-COVER-1"": ""inspected"", ""EX-SCORE-2"": ""uninspected"", ""EX-NOTE-3"": ""uninspected""}}",Oneofthreeinspectedsourceobjects notunderstanding/collectioncoverage;notationunread

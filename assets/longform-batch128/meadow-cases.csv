@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""site"": {""id"": ""EX-SITE-1"", ""role"": ""excavation context""}, ""village"": {""id"": ""EX-VILLAGE-2"", ""role"": ""interpretive structure""}}","Different representation roles, not actual dating/authenticity finding"
+B,"{""start"": 100, ""end"": 200, ""candidate"": 150}","Candidate inside range; endpointdifference100/inclusiveintegerlabels101, not exact archaeologicaldate"
+C,"{""representedYear"": 1800, ""demonstrationYear"": 2030}","230yearlabelgap, not elapsedprecisedates/directwitness/unchangedpractice"
+D,"{""path"": ""EX-PATH-4"", ""surface"": ""gravel"", ""requested"": ""entirely paved"", ""alternative"": null}","Literal surface/request differ; alternativeunknown, not refusal/whole-sitefinding"
+E,"{""date"": ""2030-06-12"", ""start"": ""10:00"", ""end"": ""14:00"", ""allocations"": [20, 60, 40, 30, 25, 20]}","240minute windowminus195leaves45unassigned, not visitprediction"
+F,"{""questions"": {""EX-Q1"": ""explanation recorded"", ""EX-Q2"": ""open"", ""EX-Q3"": ""uninspected library lead""}}","Oneofthreeexplanations/twoofthreewithlead-or-explanation, not learning/evidencecoverage"
