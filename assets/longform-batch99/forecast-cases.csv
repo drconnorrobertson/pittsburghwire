@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,EX-POINT-A probability40percent;EX-POINT-B probability60percent;same invented period,difference20percentagepoints;different locations not a forecast revision
+B,2030-06-12T08:00:00+00:00;2030-06-12T20:00:00+00:00;probability40percent,12hour interval;arithmetic4.8hours is NOT predicted rain duration
+C,"joint tables order both/first-only/second-only/neither;T1=1/2,0,0,1/2;T2=1/4,1/4,1/4,1/4;T3=0,1/2,1/2,0","each table has marginal1/2 for each event;unions1/2,3/4,1;not weather simulations or independence finding"
+D,invented amount X;P(X>0)=3/5;P(X>1)=1/5;same location and interval,P(0<X<=1)=2/5;not expected amount/actual forecast/official threshold mapping
+E,2030-06-12T06:00:00+00:00 V1 value40percent;2030-06-12T09:00:00+00:00 V2 value60percent;same EX-POINT-A and valid interval,issue gap3hours;increase20percentagepoints;relativeincrease1/2;not observed weather/cause/accuracy
+F,three authored hourly cells;20/missing/40percent,2known of3;knownfraction2/3;knownmean30percent NOT combined period probability;missing NOT zero
