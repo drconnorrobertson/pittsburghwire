@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""record"": ""EX-ART-7"", ""currentDisplay"": null}","Collection reference not current display, not storage or absence finding"
+B,"{""show"": ""EX-SHOW-4"", ""opening"": ""2030-06-20"", ""visit"": ""2030-06-12""}","Visit8daysbeforeinventedopening, not actual exhibition"
+C,"{""first"": {""id"": ""EX-WORK-A"", ""color"": ""red"", ""form"": ""rectangle""}, ""second"": {""id"": ""EX-WORK-B"", ""color"": ""blue"", ""form"": ""circle""}}","Two changed descriptive fields, not observed artworks or isolated perceptual cause"
+D,"{""first"": {""heightCm"": 20, ""widthCm"": 30}, ""second"": {""heightCm"": 30, ""widthCm"": 20}}","Equal600cm2rectangleareas different dimension roles, not actual measurement or artistic equivalence"
+E,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [15, 45, 35, 20, 15, 15]}","Window180minus145allocatedleaves35unassigned, not visit prediction"
+F,"{""program"": ""EX-FILM-8"", ""request"": ""seating arrangement"", ""response"": null, ""placeConfirmed"": false}","Unanswered request/place unknown, not refusal or individual suitability"

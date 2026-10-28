@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""question"": ""iron-making history"", ""selected"": ""EX-ARTS-1"", ""desired"": ""EX-INDUSTRIAL-2"", ""desiredConfirmed"": false}","Distinct program IDs/scope mismatch, not actual wrong booking or eligibility"
+B,"{""contactLocation"": ""EX-OFFICE-H"", ""tourDestination"": ""EX-SITE-R"", ""plannedArrival"": ""EX-OFFICE-H""}",Office/site mismatch not actual journey or turn-by-turn direction
+C,"{""inventedSeasonStart"": ""2030-05-01"", ""inventedSeasonEnd"": ""2030-10-31"", ""visit"": ""2030-11-02""}","Visit2daysafterinventedendpoint, not actual operator calendar"
+D,"{""section"": ""EX-SECTION-5"", ""status"": ""restricted"", ""alternativeRoute"": null, ""accessConfirmed"": false}",No invented detour or actual closure/route assessment
+E,"{""date"": ""2030-06-12"", ""start"": ""09:30"", ""end"": ""13:00"", ""allocations"": [20, 120, 20, 15, 15]}","Window210minus190allocatedleaves20unassigned, not outing prediction"
+F,"{""tour"": ""EX-TOUR-9"", ""inquiryState"": ""draft"", ""sent"": false, ""confirmation"": null}",Unsent draft not confirmed reservation or actual communication
