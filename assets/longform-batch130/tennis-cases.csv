@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""park"": ""EX-PARK-HARBOR"", ""recordCourt"": ""EX-COURT-2"", ""desiredCourt"": ""EX-COURT-3""}",Sameparkdifferentcourtliteralidentifiers notactualwrongbooking
+B,"{""proposed"": [""17:00"", ""18:00""], ""reservation"": [""17:30"", ""18:30""]}",Overlap30of60minutes1/2 notliveavailability/priorityfinding
+C,"{""start"": ""16:00"", ""end"": ""17:30"", ""allocations"": [10, 60, 15]}",90minus85leaves5notprediction/recommendedduration
+D,"{""firstOccurrences"": 1, ""laterOccurrences"": 6, ""firstActivity"": ""casual session"", ""laterActivity"": ""instructor-led sessions"", ""firstDate"": ""2030-06-12""}",Fiveadditionalproposals/changedscopeunresolvednotsixreservations/clinicapproval
+E,"{""court"": ""EX-COURT-5"", ""question"": ""step-free approach"", ""response"": null, ""routeConfirmed"": false}",Unanswerednotrefusal/noalternativeorsuitabilityfinding
+F,"{""request"": ""EX-REQUEST-6"", ""state"": ""draft"", ""submitted"": false, ""approved"": null, ""confirmed"": false}",Unsentdraftnotreservation/rejection/paymentfailure
