@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,PM2.5 concentration12 micrograms per cubic meter;separate AQI12,same numeral/different quantities;no conversion or health finding
+B,2030-06-12T08:00:00+00:00 observation;2030-06-12T09:15:00+00:00 report,75minute label gap;not real service delay or current conditions
+C,four intended slots;values8/12/20/missing,known sum40;known mean40/3;zero-substitution mean10;knownslotfraction3/4;not official summary or NowCast
+D,fictional ratio0.008ppm;declared ratio conversion1000ppb per ppm,8ppb;not mass conversion/AQI/real reading
+E,EX-AIR-01 PM2.5;EX-AIR-01 ozone;EX-AIR-02 PM2.5,3rows;2stationIDs;2pollutantlabels;not duplicate observation or personal exposure
+F,invented P=preliminary/V=verified;EX-REC-07value9statusP;later sameIDvalue9statusV,numeric difference0;status differs;not official codes/actual review/physical change
