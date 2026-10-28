@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entryScope"": ""daytime"", ""desiredActivity"": ""EX-NIGHT-4"", ""eveningConfirmed"": false}",Daytime scope does not establish invented evening activity admission
+B,"{""date"": ""2030-06-12"", ""proposedStart"": ""15:50"", ""buildingEnd"": ""16:00"", ""desiredMinutes"": 20, ""expectedRemaining"": 10, ""expectedShortfall"": 10}","Ten minutes remain, ten short of authored desired duration; not actual admission/permission"
+C,"{""connection"": ""EX-PATH-2"", ""from"": ""EX-HAB-A"", ""to"": ""EX-HAB-B"", ""state"": ""closed"", ""alternativeConfirmed"": false}",Named invented connection closed and alternative unknown; no actual route/access finding
+D,"{""desiredDevice"": ""seated scooter"", ""deviceReserved"": false, ""assumedTransport"": ""tram"", ""transportConfirmed"": false}",Two unconfirmed mobility assumptions; not refusal or individual suitability
+E,"{""animal"": ""EX-ANIMAL-1"", ""intervals"": [{""minutes"": 5, ""visible"": true}, {""minutes"": 5, ""visible"": false}, {""minutes"": 10, ""visible"": true}], ""expectedWindow"": 20, ""expectedVisible"": 15, ""expectedFraction"": ""3/4""}","Authored visible-duration fraction, not animal time budget/welfare/real observation"
+F,"{""date"": ""2030-06-12"", ""start"": ""10:00"", ""end"": ""14:00"", ""allocations"": [20, 60, 40, 30, 30, 20], ""expectedWindow"": 240, ""expectedAllocated"": 200, ""expectedUnassigned"": 40}","Original allocation arithmetic, not visit duration or feasibility prediction"
