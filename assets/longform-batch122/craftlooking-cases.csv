@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""gallery"": ""EX-GALLERY-1"", ""galleryEntry"": ""free"", ""class"": ""EX-CLASS-9"", ""classRegistration"": null, ""classFee"": null}",Gallery statement not class registration or fee finding
+B,"{""activity"": ""EX-FIBER-4"", ""targetBuilding"": ""EX-BUILD-T"", ""plannedBuilding"": ""EX-BUILD-R""}","Different supplied building labels, no actual route or missed-session finding"
+C,"{""date"": ""2030-06-12"", ""start"": ""13:00"", ""end"": ""15:00"", ""allocations"": [10, 35, 15, 25, 10, 10], ""expectedWindow"": 120, ""expectedAllocated"": 105, ""expectedUnassigned"": 15}",Personal allocation arithmetic not visit prediction
+D,"{""object"": ""EX-OBJECT-6"", ""materialLabel"": ""paper"", ""proposedTechnique"": ""woven"", ""image"": null, ""techniqueLabel"": null, ""makerStatement"": null}","Supplied material not confirmation of technique, no actual object inspection"
+E,"{""detail"": ""EX-DETAIL-2"", ""dimension"": ""width"", ""centimeters"": 3, ""millimeters"": 30, ""height"": null, ""depth"": null}","Equivalent authored width labels, no measurement or completed dimensions"
+F,"{""notes"": [[""EX-SURFACE-1"", ""described""], [""EX-JOIN-2"", ""described""], [""EX-COLOR-3"", null]], ""expectedDescribed"": 2, ""expectedTotal"": 3, ""expectedFraction"": ""2/3""}",Note-selection count not learning or semantic/exhibition coverage

@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entryRecord"": ""EX-ENTRY-1"", ""desiredRoom"": ""EX-ROOM-7"", ""roomConfirmed"": null}",Museum entry not individual installation confirmation
+B,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [15, 50, 20, 35, 20, 15], ""expectedWindow"": 180, ""expectedAllocated"": 155, ""expectedUnassigned"": 25}","Personal allocation arithmetic only, not visit prediction"
+C,"{""destination"": ""EX-SPACE-3"", ""floor"": ""upper"", ""building"": ""EX-BUILD-2"", ""confirmedAccess"": ""first floor only"", ""upperAccess"": null, ""requested"": ""step-free""}",Specific upper-floor access unresolved; no real building or route finding
+D,"{""room"": ""EX-ROOM-8"", ""request"": ""quieter experience"", ""response"": null, ""conditionReport"": null}","Unanswered not refused or confirmed, no individual sensory finding"
+E,"{""work"": ""EX-WORK-5"", ""first"": {""position"": ""A"", ""lighting"": ""L1"", ""markers"": 2}, ""second"": {""position"": ""B"", ""lighting"": ""L2"", ""markers"": 5}, ""expectedDifference"": 3, ""changedConditions"": [""position"", ""lighting""]}","Original written sketch only, not artwork observation or causal experiment"
+F,"{""experiences"": [[""EX-LOOK-1"", ""encountered""], [""EX-LOOK-2"", ""encountered""], [""EX-LOOK-3"", null]], ""expectedEncountered"": 2, ""expectedTotal"": 3, ""expectedFraction"": ""2/3""}","Selection count not understanding, museum coverage or closure finding"
