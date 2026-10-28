@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""title"": ""Harbor Work Notes"", ""requestedEdition"": ""EX-E1"", ""candidates"": [{""edition"": ""EX-E1"", ""year"": 2012}, {""edition"": ""EX-E2"", ""year"": 2018}], ""requestedPage"": 27, ""expectedEditionMatches"": 1}",Oneoftwosame-titleauthoredcandidatesmatchesedition NOTactualrecord/availability/passage
+B,"{""fields"": {""articleTitle"": ""Harbor Exchange"", ""periodical"": ""Harbor Studies"", ""volume"": 4, ""author"": null, ""issueDate"": null, ""pages"": null}, ""expectedKnown"": 3, ""expectedTotal"": 6}",Threeofsixnamedfieldsfilled NOTcitationquality/identification/actualarticle
+C,"{""article"": ""EX-ARTICLE-4"", ""periodical"": ""Harbor Studies"", ""rangeStart"": 40, ""rangeEnd"": 43, ""isolatedPages"": [40, 43], ""expectedInclusiveCount"": 4, ""expectedIsolatedCount"": 2}",Fourinclusiveintegerlabelsversustwoisolatedlabels NOTactualarticlelength/images/permissions
+D,"{""requested"": ""EX-E1"", ""conditionalAlternative"": ""EX-E2"", ""candidate"": ""EX-E2"", ""confirmation"": false}",Alternative-labelmatchbutconfirmationfalse NOTrejection/availability/substitutionpermission
+E,"{""requestDate"": ""2030-06-01"", ""neededDate"": ""2030-06-12"", ""arrivalDate"": null, ""expectedGapDays"": 11}",Eleven-daypersonalgapNOTdeliveryforecast/feasibility
+F,"{""request"": ""EX-REQ-9"", ""state"": ""submitted"", ""readyConfirmation"": false, ""proposedSummaryState"": ""ready""}",Suppliedsubmitteddiffersfromproposedready NOTobservedmodelerror/actualrequeststatus
