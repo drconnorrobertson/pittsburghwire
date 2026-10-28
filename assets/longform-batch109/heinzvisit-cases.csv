@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""tasks"":[""museum exhibition browsing"",""inspect EX-ARCH-12""],""archiveAppointment"":""not supplied"",""archiveItemAvailability"":""not supplied""}",Two different tasks; archival appointment and item availability unresolved NOTmuseum ticket proof
+B,"{""inventedExhibition"":""EX-GALLERY-A"",""opening"":""2030-06-20"",""visit"":""2030-06-12"",""expectedDaysBefore"":8}",Invented visit8daysbeforeopening NOTactualexhibitionavailability
+C,"{""date"":""2030-06-12"",""start"":""12:30"",""end"":""16:00"",""allocationsMinutes"":[15,55,50,20,20,15],""expectedWindow"":210,""expectedAllocated"":175,""expectedUnassigned"":35}",Window210minusallocations175leaves35minutes NOTdurationprediction
+D,"{""fictionalCounts"":{""adult"":2,""senior"":1,""child"":2},""datedCategoryAmounts"":{""adult"":20,""senior"":18,""child"":0},""expectedLimitedSubtotal"":58,""eligibility"":""not determined"",""otherCosts"":""not included""}",Dated-categorylimitedsubtotal58 NOTfinalcheckout/eligibility/daycost
+E,"{""program"":""EX-TALK-03"",""requested"":""specific listening arrangement"",""response"":""not supplied"",""deviceConfirmation"":""not supplied""}",Requested arrangement unanswered NOTconfirmed/refused/individualsuitability
+F,"{""date"":""2030-06-12"",""talkStart"":""14:00"",""browsingStart"":""13:30"",""browsingEnd"":""14:15"",""expectedMinutesPastStart"":15}",Invented browsing ends15minutesaftertalkstart NOTlateadmissionpermission
