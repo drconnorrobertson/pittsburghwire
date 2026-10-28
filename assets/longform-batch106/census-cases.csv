@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""estimate"":1000,""margin"":100,""expectedLower"":900,""expectedUpper"":1100,""expectedWidth"":200}",Simplebounds900–1100/width200 NOTexactcount/respondents/actualACSestimate
+B,"{""A"":{""estimate"":1000,""margin"":100},""B"":{""estimate"":1100,""margin"":150},""expectedPointDifference"":100,""expectedOverlap"":[950,1100]}",Pointdifference100/boundsoverlap950–1100width150 NOTformal significance result
+C,"{""estimatePercent"":40,""marginPoints"":5,""alternateRelativePercent"":5,""expectedBounds"":[35,45],""expectedAlternateBounds"":[38,42]}",40percent±5points→35–45 versusalternate5percentrelative→38–42 NOTsame margin
+D,"{""estimates"":[1000,100],""margins"":[100,100],""expectedRelativeMargins"":[""1/10"",""1""],""expectedBounds"":[[900,1100],[0,200]]}",EqualabsoluteMOE100 versusrelative1/10and1 NOTuniversalqualityclassification
+E,"{""periodA"":[2019,2023],""periodB"":[2020,2024],""nonoverlapA"":[2015,2019],""nonoverlapB"":[2020,2024],""expectedSharedYears"":[2020,2021,2022,2023],""expectedOverlapFraction"":""4/5""}",2019–2023vs2020–2024 sharefouryearlabels NOTannualchange/statisticaldependence calculation
+F,"{""numerator"":120,""allPersonDenominator"":800,""adultDenominator"":600,""expectedShares"":[""3/20"",""1/5""],""expectedPointDifference"":5}",120/800=15percent versus120/600=20percent;5pointdifference NOTactualdemographiccomparison
