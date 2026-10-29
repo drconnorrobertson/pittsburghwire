@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entry"": ""EX-GALLERY-1"", ""desired"": ""EX-WORKSHOP-2"", ""fee"": null, ""placeConfirmed"": false}",generalentrynotprogramconfirmation
+B,"{""object"": ""EX-TEXTILE-3"", ""roles"": {""Mira Vale"": ""maker"", ""Nora Reed"": ""owner""}, ""proposed"": {""Mira Vale"": ""owner"", ""Nora Reed"": ""maker""}}",rolemapdiffersnotactualattribution
+C,"{""objects"": [""EX-COVERLET-4"", ""EX-COVERLET-5""], ""patterns"": [""Harbor Star"", ""Harbor Star""]}",2IDs1patternnotphysicalidentity/copyingfinding
+D,"{""end"": ""2030-09-30"", ""visit"": ""2030-10-05""}",5daysafternotactualshowclosure
+E,"{""widthCm"": 120, ""lengthCm"": 180, ""areaCm2"": 21600, ""areaM2"": ""54/25""}",equalareadoesnotpreservedimensionroles/notmeasurement
+F,"{""start"": ""10:00"", ""end"": ""13:00"", ""allocations"": [15, 40, 30, 20, 15, 15]}",180minus135leaves45/summeropeningunconfirmed
