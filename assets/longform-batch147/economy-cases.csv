@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""orientation"": ""EX-CENTER-1"", ""desired"": ""EX-SITE-2"", ""confirmed"": false}",placeandactivityrolesdistinct/unconfirmed
+B,"{""objects"": {""EX-ROOM-3"": ""earlier-period setting"", ""EX-DISPLAY-4"": ""later interpretation""}, ""links"": [[""EX-DISPLAY-4"", ""EX-ROOM-3""]]}",2objects1linknoteyewitness/provenancefinding
+C,"{""years"": [1824, 1840, 2030]}",16/190/206yearlabelgapsnotactualsourcehistory
+D,"{""end"": ""2030-12-20"", ""visit"": ""2030-12-23"", ""appointmentConfirmed"": false}",3daysafter/notactualcalendar/appointment
+E,"{""start"": ""12:00"", ""end"": ""16:00"", ""allocations"": [20, 40, 35, 30, 25, 20]}",240minus170leaves70notprediction
+F,"{""questions"": [""shared-space interpretation"", ""object relationship"", ""archival support""], ""noted"": [""shared-space interpretation"", ""object relationship""]}",2of3noteselectionnotcoverage
