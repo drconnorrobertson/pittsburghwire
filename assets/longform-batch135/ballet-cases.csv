@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""program"": ""Harbor Dances"", ""works"": [""EX-WORK-A"", ""EX-WORK-B"", ""EX-WORK-C""], ""lengths"": [12, 18, 10], ""interval"": 15}",Work lengths40; interval-inclusive55; three works in supplied order
+B,"{""choreography"": ""Mira Vale"", ""music"": ""Nora Reed"", ""staging"": ""Owen Birch"", ""arranger"": ""Lena Moss""}","Four distinct supplied roles, not actual performance or artistic intention"
+C,"{""worldPremiere"": 1950, ""companyPremiere"": 1980, ""proposedYear"": 2030}","Year-label gaps30,50,80; not composition or exact elapsed dates"
+D,"{""character"": ""Ari"", ""casts"": [{""date"": ""2030-06-12"", ""performer"": ""Mira Vale""}, {""date"": ""2030-06-13"", ""performer"": ""Lena Moss""}]}",Two dated planned assignments; not observed performance or replacement cause
+E,"{""first"": ""step turn pause"", ""second"": ""pause turn step"", ""role"": ""original symbolic teaching labels""}","Three labels each/equal membership/two changed positions, not actual choreography or instruction"
+F,"{""composerCredit"": true, ""accompaniment"": null, ""desired"": ""live orchestra"", ""sent"": false, ""response"": null, ""confirmed"": false}",Composer credit not live accompaniment confirmation; no inquiry performed
