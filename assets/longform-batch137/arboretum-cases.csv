@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""specimens"": [{""id"": ""EX-TREE-7"", ""category"": ""EX-TAXON-A""}, {""id"": ""EX-TREE-9"", ""category"": ""EX-TAXON-A""}]}",Two supplied specimen IDs/one category string not biological identity
+B,"{""signText"": ""EX-TAXON-B"", ""personalIdentification"": null}",Supplied label not personal plant identification
+C,"{""tree"": ""EX-TREE-4"", ""noteDate"": ""2030-06-12"", ""proposedDate"": ""2030-06-20"", ""role"": ""invented note""}",Eight-day gap not future leaf/flower/condition prediction
+D,"{""height"": 3, ""heightUnit"": ""meters"", ""width"": 30, ""widthUnit"": ""centimeters"", ""role"": ""authored drawing""}","Height300cm/width30cmratio10, not actual tree measurement/age"
+E,"{""windowMinutes"": 80, ""allocations"": [10, 20, 15, 15, 10]}","Allocations70/remainder10, not visit prediction"
+F,"{""earlier"": [""EX-TREE-A"", ""EX-TREE-B""], ""laterExcerpt"": [""EX-TREE-A""], ""complete"": null, ""relationship"": null}",Oneof2priorIDs appears; completeness and physicalchange unresolved

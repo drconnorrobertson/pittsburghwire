@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entries"": [{""name"": ""Nora Vale"", ""district"": ""EX-12"", ""sheet"": 3, ""line"": 7}, {""name"": ""Nora Vale"", ""district"": ""EX-13"", ""sheet"": 4, ""line"": 2}], ""identity"": null}",Two locators/one name string; identity unresolved
+B,"{""referenceDay"": ""2030-06-01"", ""visitDate"": ""2030-06-10"", ""role"": ""fictional schedule rule""}","Nine-day gap, distinct date roles not actual census timing"
+C,"{""referenceDay"": ""2030-06-01"", ""completedYears"": 30, ""earliestBirth"": ""1999-06-02"", ""latestBirth"": ""2000-06-01""}","Compatible inclusive interval/yearlabels1999or2000, not exact birthday"
+D,"{""reference"": ""EX-A"", ""relationships"": {""EX-B"": {""to"": ""EX-A"", ""label"": ""child""}, ""EX-C"": {""to"": ""EX-A"", ""label"": ""lodger""}}, ""BtoC"": null}","Two reference-relative labels; B-Crelationshipunknown, not kinship finding"
+E,"{""first"": ""Rivert0n"", ""second"": ""Riverton"", ""image"": null, ""inspected"": false}",One character difference zero/o at position7; correct transcription unresolved
+F,"{""appearances"": [""EX-SCAN-1"", ""EX-SCAN-1""]}",Two appearances/one supplied source ID not independent enumerations
