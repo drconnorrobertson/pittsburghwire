@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""ids"": [""EX-EVENT-1"", ""EX-ART-2"", ""EX-LABEL-3""], ""links"": [[""EX-ART-2"", ""EX-EVENT-1""], [""EX-LABEL-3"", ""EX-ART-2""]]}",Threeroles/twolinks notthreeindependenthistoricalwitnesses
+B,"{""historical"": [""EX-POINT-A"", ""EX-POINT-B""], ""visitor"": [""EX-ENTRY-C"", ""EX-ROOM-D""], ""roles"": [""narrated movement"", ""visitor access""]}",Two differentlinks/roles;geographicrelationshipunknown notroutefinding
+C,"{""eventYear"": 1755, ""panelYear"": 2030}",275yearlabelgap notexactinterval/actualpaneldate/witness
+D,"{""date"": ""2030-01-12"", ""closedMonths"": [12, 1, 2, 3, 4], ""groupRequestable"": true, ""groupConfirmed"": false}",Datewithinfictionalclosure;groupoptionnotconfirmed noactualcalendar/refusal
+E,"{""start"": ""12:00"", ""end"": ""15:00"", ""allocations"": [15, 35, 30, 20, 20, 15]}",180window135allocated45unassigned notvisitprediction
+F,"{""questions"": [""map"", ""artwork"", ""object""], ""noted"": [""map"", ""artwork""]}",2/3noteselection notunderstanding;objectunrecorded notinstitutionalomission
