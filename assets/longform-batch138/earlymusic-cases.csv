@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""work"": ""Harbor Air"", ""composer"": ""Nora Vale"", ""arranger"": ""Mira Reed"", ""performer"": ""Owen Birch""}","Three distinct supplied roles, no actual musical attribution"
+B,"{""workYear"": 1700, ""performanceYear"": 2030}","330year-labeldifference, not instrument age or exact elapsed time"
+C,"{""parent"": ""EX-WORK-1"", ""movements"": [""EX-M1"", ""EX-M2"", ""EX-M3""]}",Three movements/one parent work not three independent works
+D,"{""role"": ""baroque guitar"", ""maker"": null, ""manufactureDate"": null, ""objectIdentity"": null}","Instrument-role label only, not object provenance"
+E,"{""start"": ""18:30"", ""end"": ""21:30"", ""allocations"": [15, 100, 20, 20]}","Window180,allocation155,remainder25 not concert/journey prediction"
+F,"{""event"": ""EX-EVENT-7"", ""interest"": ""general entry"", ""question"": ""draft"", ""sent"": false, ""response"": null, ""arrangementConfirmed"": false}",Unsent/unanswered/unconfirmed not ticket or refusal

@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entries"": [{""title"": ""Harbor Study"", ""id"": ""EX-ART-1""}, {""title"": ""Harbor Study"", ""id"": ""EX-ART-2""}], ""relationship"": null}","Two IDs/one title string, relationship unresolved"
+B,"{""creationYear"": 1990, ""installationYear"": 2000, ""documentationYear"": 2030}",Year-label gaps10/30 not actual history or exact elapsed intervals
+C,"{""sourceLocation"": ""EX-PLAZA-A"", ""proposed"": ""EX-PLAZA-B"", ""mapping"": null}","Different literal locations, no actual relocation/route finding"
+D,"{""objectHeightMeters"": 2, ""baseHeightCentimeters"": 50, ""verticalStacking"": true, ""role"": ""authored drawing""}","Object200cm,conditional combined250cm, not real measurement"
+E,"{""object"": ""EX-ART-4"", ""inquiry"": ""draft"", ""sent"": false, ""response"": null, ""repair"": null}","Unsent/unanswered/repairunconfirmed, no report or physical finding"
+F,"{""appearances"": [""EX-PHOTO-1"", ""EX-PHOTO-1"", ""EX-PHOTO-2""]}","Three appearances/two supplied source objects, independence unknown"
