@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""outdoor"":""EX-PARK-1"",""indoor"":""EX-CENTER-2"",""indoorConfirmed"":false}",separatescopesnotactualticketboundary
+B,"{""years"":[2002,2020,2030]}",18/10/28yearlabeldifferencesnotactualexhibitdates
+C,"{""roles"":{""EX-OBJECT-3"":""rescue equipment"",""EX-PANEL-4"":""later explanation"",""EX-MAP-5"":""interpretive copy""}}",threeobjects/threerolesnotactualmaporartifactfinding
+D,"{""times"":[""08:00"",""09:30"",""10:15""],""labels"":[""report"",""update"",""later note""]}",90/45/135minutesnotactualrescuereconstruction
+E,"{""presentation"":""EX-PRESENTATION-6"",""sent"":false,""answered"":false,""confirmed"":false,""accessAnswer"":null}",unsentunansweredunconfirmednotrefusalorsuitability
+F,"{""start"":""11:00"",""end"":""14:00"",""allocations"":[15,40,30,20,20,15]}",180minus140leaves40notactualpresentationduration
