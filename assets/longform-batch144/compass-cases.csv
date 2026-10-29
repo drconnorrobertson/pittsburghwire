@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""nodes"": [""EX-INN-1"", ""EX-FOOD-2"", ""EX-COACH-3""], ""links"": [[""EX-FOOD-2"", ""EX-INN-1""], [""EX-COACH-3"", ""EX-INN-1""]]}",Threenodestwosupportlinks;nofoodcoachlink notactualroute/laborprocedure
+B,"{""represented"": 1830, ""interpretation"": 1980}",150yearlabelgap notexactinterval/actualfabricdate
+C,"{""vehicle"": ""EX-VEHICLE-1"", ""journey"": ""EX-JOURNEY-2"", ""role"": ""style representation"", ""association"": null}",Distinctvehicle/journeyrolesassociationunknown notrealjourney/absence
+D,"{""regularEnd"": ""2030-10-31"", ""specialEvent"": ""2030-11-09"", ""desired"": ""2030-11-05""}",Desired5afterregularendpoint4beforespecialevent notactualbooking/calendar
+E,"{""start"": ""11:00"", ""end"": ""14:30"", ""allocations"": [15, 50, 30, 20, 20, 15]}",210window150allocated60unassigned notvisitprediction
+F,"{""questions"": [""traveler"", ""household"", ""vehicle""], ""noted"": [""traveler"", ""household""]}",2/3noteselection notunderstanding;vehicleunrecorded nothistoricalabsence
