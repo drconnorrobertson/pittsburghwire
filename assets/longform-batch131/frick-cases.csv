@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""selected"": ""EX-OUT-1"", ""desired"": ""EX-PROGRAM-2"", ""confirmed"": false}",Distinct experiences; program place unconfirmed
+B,"{""marker"": ""EX-OBS-4"", ""intervalMinutes"": 1, ""visible"": [true, true, false, true]}",Three of four interval statuses visible;3/4 not population/day finding
+C,"{""path"": ""EX-PATH-3"", ""required"": ""entirely paved"", ""segment"": ""fine gravel"", ""alternative"": null}",Different supplied surface labels; alternative unknown; not actual route assessment
+D,"{""first"": {""position"": ""A"", ""shade"": ""shaded"", ""tally"": 2}, ""second"": {""position"": ""B"", ""shade"": ""sunlit"", ""tally"": 5}}",Difference3 with two conditions changed; no isolated cause
+E,"{""date"": ""2030-06-12"", ""start"": ""10:00"", ""end"": ""12:00"", ""allocations"": [15, 30, 15, 25, 15, 10]}",120-minute window minus110 allocated leaves10; not prediction
+F,"{""questions"": {""EX-Q1"": ""notes"", ""EX-Q2"": ""notes"", ""EX-Q3"": ""unresolved""}}",Two of three question records have notes;2/3 not understanding
