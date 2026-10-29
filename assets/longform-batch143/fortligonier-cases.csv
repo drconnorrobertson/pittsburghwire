@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""represented"": 1760, ""reconstruction"": 1960, ""id"": ""EX-FORT-1""}",200yearlabeldifference notexactinterval/realcomponentdate/authenticity
+B,"{""drawingUnits"": [""2"", ""3"", ""4""], ""metersPerUnit"": ""5"", ""roles"": ""represented lines""}",10/15/20representedmeters notphysicalmeasure/walkingroute
+C,"{""appearances"": [""EX-PANEL-1"", ""EX-HANDOUT-2""], ""sources"": [""EX-PLAN-7"", ""EX-PLAN-7""]}",TwoappearancesonesuppliedsourceID notindependentcorroboration
+D,"{""date"": ""2030-12-14"", ""museum"": ""EX-MUSEUM-INSIDE"", ""desired"": ""EX-FORT-OUTSIDE"", ""museumOpen"": true, ""fortOpen"": false}",Museumopenrecordnotoutdoorfortconfirmation; fictionalcalendaronly
+E,"{""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [15, 40, 35, 20, 20, 15]}","180minutewindow,145allocated,35unassigned notvisitprediction"
+F,"{""questions"": [""plan"", ""excavation"", ""reconstruction""], ""noted"": [""plan"", ""reconstruction""]}",2/3questionnotes notunderstanding/coverage; excavationunrecorded notabsence
