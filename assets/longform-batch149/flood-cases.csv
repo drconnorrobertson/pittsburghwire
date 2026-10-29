@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""center"":""EX-CENTER-1"",""dam"":""EX-DAM-2"",""outdoorConfirmed"":false}",separateexperiencenotactualticketboundary
+B,"{""roles"":{""EX-RECORD-3"":""original record"",""EX-COPY-4"":""interpretive copy"",""EX-PANEL-5"":""later explanation""}}",threerolesnotactualrecordinspection
+C,"{""start"":""10:15"",""durationMin"":35,""departure"":""10:40""}",end10:50/departure10before/notactualscreeningorpermission
+D,"{""years"":[1889,2019,2030]}",130/11/141yearlabeldifferencesnotactualexhibitdates
+E,"{""tour"":""EX-TOUR-6"",""sent"":false,""confirmed"":false,""accessAnswer"":null}",unsentunconfirmedunknownnotrefusal
+F,"{""start"":""10:00"",""end"":""14:00"",""allocations"":[20,35,40,30,20,20,20]}",240minus185leaves55notvisitprediction

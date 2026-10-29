@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""summit"":""EX-SUMMIT-1"",""tunnel"":""EX-TUNNEL-2"",""summitPlanned"":true,""tunnelConfirmed"":false}",separateunitsnotautomaticitinerary
+B,"{""roles"":{""EX-BOAT-3"":""replica"",""EX-FOUNDATION-4"":""surviving fabric"",""EX-PANEL-5"":""later interpretation""}}",threeobjects/threerolesnotactualprovenance
+C,"{""lengthCm"":3,""metersPerCm"":5,""lengthMm"":30,""metersPerMm"":""1/2""}",fifteenrepresentedmetersbothconversionsnotparkmeasurementorroute
+D,"{""years"":[1845,2020,2030]}",175/10/185yearlabeldifferencesnotactualexhibitdates
+E,"{""area"":""EX-AREA-6"",""sent"":false,""answer"":null,""confirmed"":false}",unsentunknownunconfirmednotrefusalorassessment
+F,"{""start"":""10:00"",""end"":""14:00"",""allocations"":[20,40,40,30,20,20,20]}",240minus190leaves50notvisitprediction
