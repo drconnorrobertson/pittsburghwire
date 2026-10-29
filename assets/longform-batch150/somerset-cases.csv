@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""roles"":{""EX-CABIN-1"":""recreated dwelling"",""EX-HOUSE-2"":""relocated restored structure"",""EX-PANEL-3"":""later explanatory panel""}}",threeobjects/threeroles notactualprovenance
+B,"{""years"":[1795,1960,2030]}",165/70/235yearlabeldifferences notactualSomersetdates
+C,"{""entry"":""EX-ENTRY-4"",""class"":""EX-CLASS-5"",""entryConfirmed"":true,""classConfirmed"":false}",entrynotclassconfirmation
+D,"{""path"":""EX-PATH-6"",""surface"":""gravel"",""requested"":""continuously paved"",""alternative"":null,""confirmed"":false}",unansweredalternative notrefusal/suitability
+E,"{""request"":""EX-RESEARCH-7"",""sent"":false,""appointmentConfirmed"":false,""holdings"":null}",draftnotappointment/recordidentity
+F,"{""date"":""2030-06-15"",""start"":""10:00"",""end"":""14:00"",""allocations"":[20,45,40,30,20,20,20]}",240minus195leaves45 notvisitprediction
