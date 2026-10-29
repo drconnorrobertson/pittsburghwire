@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""id"": ""EX-MARKER-1"", ""title"": ""Harbor Workshop"", ""status"": ""approved"", ""finalText"": null, ""dedication"": null, ""installed"": null}",Approval only; final text/dedication/installation unknown
+B,"{""event"": 1910, ""dedication"": 1980, ""digitalRecord"": 2024}",Year-label gaps70/44/114 not exact intervals or continuous placement
+C,"{""marker"": ""EX-MARKER-3"", ""placement"": ""EX-CORNER-A"", ""subjectLocation"": ""EX-SITE-B"", ""relationship"": null}",Two different location roles; relationship unresolved
+D,"{""first"": ""Some workers met here"", ""second"": ""All workers met here"", ""role"": ""original teaching prose""}","Four words each; first Some/All expands stated scope, not actual inscription"
+E,"{""id"": ""EX-MARKER-5"", ""catalogLead"": ""found"", ""physicalObservation"": null, ""report"": ""draft"", ""sent"": false, ""response"": null}",Discovery only; condition unknown; report unsent/unanswered
+F,"{""inventory"": [""EX-A"", ""EX-B"", ""EX-C"", ""EX-D""], ""selected"": [""EX-A"", ""EX-C""]}",Selected2/4=1/2 not historical/marker/semantic coverage
