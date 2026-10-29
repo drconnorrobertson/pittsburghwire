@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""planned"": ""EX-GROUNDS-1"", ""desired"": ""EX-INTERIOR-2"", ""interiorConfirmed"": false}","Different activity roles, interior unconfirmed not closed/refused"
+B,"{""representedYear"": 1800, ""assemblyYear"": 2000}",200year-labelgap not object/building age
+C,"{""nodes"": [""EX-ENTRY-A"", ""EX-ROOM-B"", ""EX-SERVICE-C""], ""edges"": [[""EX-ENTRY-A"", ""EX-ROOM-B""], [""EX-ROOM-B"", ""EX-SERVICE-C""]], ""dimensions"": null}","Three nodes/two edges/no directAtoC or dimensions, not actual route"
+D,"{""roles"": [""ownerDescription"", ""workerTask"", ""workerOwnAccount""], ""provided"": [""ownerDescription"", ""workerTask""]}",2/3roles available not semantic/historical coverage; workerOwnAccount not supplied
+E,"{""start"": ""13:00"", ""end"": ""16:00"", ""allocations"": [15, 45, 30, 20, 20, 15]}","Window180,total145,remainder35 not duration prediction"
+F,"{""visit"": ""EX-VISIT-6"", ""question"": ""seated discussion"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsent/unanswered/unconfirmed not institutional response

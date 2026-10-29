@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""representedYear"": 1885, ""assemblyYear"": 2000, ""object"": ""EX-SCHOOL-1""}",115year-labelgap not actual reproduction date or object age
+B,"{""representedYear"": 1800, ""demonstrationYear"": 2030}",230year-labelgap not historical direct observation
+C,"{""cards"": [{""id"": ""EX-CARD-A"", ""toolRole"": ""hammer"", ""objectType"": ""nail""}, {""id"": ""EX-CARD-B"", ""toolRole"": ""hammer"", ""objectType"": ""hinge""}]}",Twocards/one repeatedtoolrole/twoobjecttypes not sameoperation or toolidentity
+D,"{""rows"": [{""material"": ""Cedar"", ""setting"": 2, ""marker"": 10}, {""material"": ""Maple"", ""setting"": 3, ""marker"": 14}]}",Marker+4;material and setting both changed;cause unresolved not experiment
+E,"{""seasonStart"": ""2030-05-01"", ""seasonEnd"": ""2030-09-30"", ""proposed"": ""2030-10-06""}","Proposed outside authored season6daysafter, not actual closure or rejection"
+F,"{""question"": ""seated explanation"", ""sent"": false, ""response"": null, ""arrangementConfirmed"": false}",Unsent/unanswered/unconfirmed not institutional refusal or suitability
