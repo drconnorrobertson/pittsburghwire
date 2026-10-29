@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""museum"":""EX-MUSEUM-1"",""corridor"":""EX-CORRIDOR-2"",""museumPlanned"":true,""corridorPlanned"":false}",distinctscopesnotroutefinding
+B,"{""roles"":{""EX-DINER-3"":""restored setting"",""EX-PANEL-4"":""later interpretation"",""EX-IMAGE-5"":""reproduction""}}",threeobjects/threerolesnotactualprovenance
+C,"{""years"":[1938,2018,2030]}",80/12/92yearlabeldifferencesnotactualexhibitdates
+D,"{""end"":""2030-09-30"",""visit"":""2030-10-05"",""extensionKnown"":false}",5daysafter/noactualshowclosure
+E,"{""draft"":""2030-06-01"",""visit"":""2030-06-12"",""sent"":false,""confirmed"":false,""comparisonDays"":14}",11days/3shortnoteligibilitydecision/unsentunconfirmed
+F,"{""start"":""10:00"",""end"":""13:00"",""allocations"":[15,40,30,30,20,15]}",180minus150leaves30notvisitprediction
