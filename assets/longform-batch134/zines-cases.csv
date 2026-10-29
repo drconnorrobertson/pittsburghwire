@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""records"": [{""id"": ""EX-ZINE-1"", ""title"": ""Harbor Steps"", ""issue"": ""1""}, {""id"": ""EX-ZINE-2"", ""title"": ""Harbor Steps"", ""issue"": ""2""}], ""desiredIssue"": ""1""}",Two IDs/one title/one literal issue match; no holding finding
+B,"{""text"": ""Mira Vale"", ""art"": ""Nora Reed"", ""editing"": ""Owen Birch""}",Three supplied role-name pairs; art name not text writer
+C,"{""first"": ""I remember the garden"", ""second"": ""All residents remember the garden"", ""role"": ""original teaching prose""}",Four versus five whitespace words; personal→all scope not actual quote/model/community finding
+D,"{""scanImages"": 4, ""panels"": [""EX-P1"", ""EX-P2"", ""EX-P3"", ""EX-P4"", ""EX-P5"", ""EX-P6"", ""EX-P7"", ""EX-P8""], ""mapping"": null}",4images/8panels ratio2 not image-panel mapping or actual scan inspection
+E,"{""itemScope"": ""in-library use"", ""desired"": ""take home"", ""response"": null, ""confirmed"": false}",Different access scopes; unconfirmed not refusal or loan
+F,"{""id"": ""EX-DONATION-6"", ""sent"": false, ""reviewed"": false, ""accepted"": null}",Draft unsent/unreviewed/acceptanceunknown not actual submission/decision
