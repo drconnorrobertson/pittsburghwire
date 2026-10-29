@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""planned"": ""EX-VISIT-1"", ""desired"": ""EX-ORGAN-2"", ""confirmed"": false}",General looking plan not organ demonstration confirmation
+B,"{""source"": ""EX-SOURCE-A"", ""description"": ""repeated arch"", ""observation"": ""EX-NOTE-B"", ""observationText"": null}",Source description supplied/personal observation unfilled; no visit
+C,"{""panel"": ""EX-PANEL-3"", ""depictedYear"": 1850, ""productionYear"": 1930}","80year-label gap, not actual object chronology or direct witness"
+D,"{""first"": {""height"": 20, ""width"": 10}, ""second"": {""height"": 40, ""width"": 20}, ""unit"": ""invented drawing units""}","Bothaspect2; dimensionsfactor2,rectangularareafactor4 not real window measurement"
+E,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""13:00"", ""allocations"": [15, 35, 25, 15, 15]}","Window120minus105leaves15unassigned, not visit prediction/operator duration"
+F,"{""activity"": ""EX-ACTIVITY-6"", ""request"": ""seated viewing option"", ""sent"": false, ""response"": null, ""confirmed"": false}","Unsent/unanswered/unconfirmed, not acceptance/refusal/suitability"
