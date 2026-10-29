@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""representedYear"": 1952, ""visitYear"": 2030}",78 year-label gap; contemporary display not direct historical observation
+B,"{""modelCentimeters"": 3, ""representedMetersPerCentimeter"": 20}",60 represented meters in invented relationship; no actual scale/route
+C,"{""nodes"": [""EX-JUNCTION-A"", ""EX-TOWN-B"", ""EX-YARD-C""], ""links"": [[""EX-JUNCTION-A"", ""EX-TOWN-B""], [""EX-TOWN-B"", ""EX-YARD-C""]]}",Two links; A to C through B; no direct supplied link/service finding
+D,"{""passages"": 3, ""minutes"": 12}","1/4 per minute, arithmetic rescaling15/hour not observed hour/historical frequency"
+E,"{""start"": ""11:00"", ""end"": ""13:00"", ""allocations"": [15, 35, 20, 15, 15]}","120 available,100 allocated,20 unassigned not prediction"
+F,"{""questions"": [""EX-SCENE-1"", ""EX-SCENE-2"", ""EX-SCENE-3""], ""recorded"": [""EX-SCENE-1"", ""EX-SCENE-2""]}",2/3 selected question notes not understanding/collection coverage

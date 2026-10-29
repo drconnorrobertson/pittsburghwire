@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""building"": [600, 1020], ""room"": [660, 900], ""proposed"": 960}","Inside invented building period,60 minutes after room endpoint; access unconfirmed"
+B,"{""membership"": {""year"": 1895, ""name"": ""Nora Vale"", ""kind"": ""membership form""}, ""questionnaire"": {""year"": 1910, ""name"": ""Nora Vale"", ""kind"": ""retrospective questionnaire""}, ""identity"": null}",15 year-label gap; differing record types; identity unresolved
+C,"{""eventYear"": 1864, ""questionnaireYear"": 1914}",50 year-label gap not exact interval/age/witness/reliability
+D,"{""names"": [""N. Vale"", ""Nora Vale""], ""records"": [""EX-MEMBER-1"", ""EX-SKETCH-2""], ""identity"": null}",Different strings/two source objects; identity unresolved not different-person finding
+E,"{""sources"": [""EX-FORM-1"", ""EX-CARD-2"", ""EX-SKETCH-3""], ""inspected"": [""EX-FORM-1"", ""EX-SKETCH-3""]}",2/3 supplied objects selected; card uninspected not absent/coverage
+F,"{""start"": 660, ""end"": 840, ""allocations"": [15, 40, 30, 20, 15], ""appointment"": ""unconfirmed"", ""inquiry"": ""unsent draft""}","180 available,120 allocated,60 unassigned; no appointment/inquiry/visit"
