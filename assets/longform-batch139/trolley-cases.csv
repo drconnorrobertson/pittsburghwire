@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""interest"": ""EX-RIDE-1"", ""desired"": ""EX-OPERATE-2"", ""confirmed"": false}","Separate activity roles, no booking or operating permission"
+B,"{""constructionYear"": 1910, ""collectionEntryYear"": 1990}","80year-labelgap, not continuous service or restoration date"
+C,"{""vehicle"": ""EX-CAR-7"", ""routeLabel"": ""EX-LINE-A"", ""historicalAssociation"": null}","Different object/service roles, historicalassociationunknown"
+D,"{""drawingLengthCm"": 8, ""representedMetersPerCm"": 2, ""role"": ""authored drawing""}","Represented16meters, not actual vehicle measurement or access finding"
+E,"{""start"": ""10:00"", ""end"": ""13:00"", ""allocations"": [15, 30, 45, 25, 20, 15]}","Window180,total150,remainder30 not prediction"
+F,"{""buildingDescription"": ""general access description"", ""vehicle"": ""EX-CAR-9"", ""question"": ""draft"", ""sent"": false, ""response"": null, ""confirmed"": false}",General description not specific boarding confirmation; unsent/unanswered not refusal
