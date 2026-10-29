@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""selected"": ""EX-MUSEUM-1"", ""desired"": ""EX-SHOP-2"", ""confirmed"": false}",Distinct experiences; no shop appointment
+B,"{""object"": ""EX-BIKE-2"", ""modelYear"": 1910, ""restorationYear"": 1980}",70year-label difference; not manufacture/acquisition/exact interval finding
+C,"{""first"": ""original finish"", ""second"": ""restored finish"", ""role"": ""original teaching prose""}",Two words each; first changed; not actual label/provenance
+D,"{""objects"": {""EX-BIKE-A"": ""notes"", ""EX-BIKE-B"": ""notes"", ""EX-BIKE-C"": ""uninspected""}}",Two of three selected records have notes2/3; not understanding/collection coverage
+E,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""13:00"", ""allocations"": [15, 35, 25, 15, 10]}",120minus100leaves20; not visit prediction
+F,"{""requirement"": ""first-floor-only"", ""proposed"": ""second-floor experience"", ""response"": null, ""confirmed"": false}",Different supplied roles; unanswered/unconfirmed not refusal/suitability

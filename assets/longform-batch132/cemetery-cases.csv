@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""selected"": ""EX-SELF-1"", ""oldForm"": ""EX-GUIDED-2"", ""confirmed"": false}",Different experience roles; no actual guided booking
+B,"{""first"": {""section"": 2, ""lot"": 14}, ""second"": {""section"": 14, ""lot"": 2}}",Same integer set but reversed roles; distinct locators not actual burial/map finding
+C,"{""birthYear"": 1840, ""deathYear"": 1910, ""erectionYear"": 1930}",Year-label gaps70/20 not exact age/interval or biography
+D,"{""records"": [{""id"": ""EX-PERSON-A"", ""name"": ""Nora Vale""}, {""id"": ""EX-PERSON-B"", ""name"": ""Nora Vale""}], ""identity"": null}",Matching literal names/different IDs; actual identity unresolved
+E,"{""date"": ""2030-06-12"", ""start"": ""13:00"", ""end"": ""16:00"", ""allocations"": [20, 45, 30, 20, 15]}",180minus130leaves50; not route/visit forecast
+F,"{""record"": ""EX-PHOTO-6"", ""originalUse"": ""personal landscape use"", ""proposedUse"": ""public project"", ""approved"": false, ""response"": null}",Changed use unapproved/unanswered; not refusal/fee/actual permission finding
