@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""grounds"":""EX-GROUNDS-1"",""tour"":""EX-TOUR-2"",""groundsPlanned"":true,""tourConfirmed"":false}",outdoorplan notinteriortourconfirmation
+B,"{""roles"":{""EX-FORT-3"":""reconstructed"",""EX-BARN-4"":""restored"",""EX-HALL-5"":""modern""}}",threeobjects/threeroles notfabricauthentication
+C,"{""seasonEnd"":""2030-10-31"",""visit"":""2030-11-02"",""groundsConfirmed"":null}",two daysafterfictionalseason notactualcalendarorwholeparkclosure
+D,"{""lastStart"":""15:30"",""arrival"":""15:40"",""close"":""16:00""}",tenafterlaststart/twentybeforeclose notlatepermission
+E,"{""request"":""EX-GROUP-6"",""sent"":false,""response"":null,""confirmed"":false}",unsentunansweredunconfirmed notrefusal/accessassessment
+F,"{""date"":""2030-06-15"",""start"":""10:00"",""end"":""14:00"",""allocations"":[20,60,35,25,20,20,20]}",240minus200leaves40 notvisitprediction
