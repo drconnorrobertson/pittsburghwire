@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""artwork"": ""EX-ART-1"", ""depicted"": ""Example plant A"", ""specimen"": ""EX-SPECIMEN-9"", ""relationship"": null}",Distinct role IDs; specimen relationship unresolved not plant identification
+B,"{""creationYear"": 1910, ""publicationYear"": 1930, ""digitizationYear"": 2020}",Year-label gaps20/90/110 not exact history/provenance
+C,"{""sheetHeight"": 30, ""sheetWidth"": 20, ""displayHeight"": 3, ""displayWidth"": 2, ""unit"": ""cm""}",Aspect3/2both; dimensionfactor10/area100 not actual measurement/reproduction proof
+D,"{""records"": [{""id"": ""EX-ART-A"", ""depicted"": ""Example plant B""}, {""id"": ""EX-ART-B"", ""depicted"": ""Example plant B""}], ""relationship"": null}",Two artworkIDs/one depicted string; not duplicate/species identity finding
+E,"{""catalogLead"": ""found"", ""digitalImage"": ""uninspected"", ""physicalOriginal"": ""unconfirmed""}",Discovery only; no viewing/global absence/rights finding
+F,"{""id"": ""EX-REQUEST-6"", ""date"": ""2030-06-12"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsent/unanswered/unconfirmed not appointment/access/refusal
