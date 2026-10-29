@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""ids"": [""EX-ART-1"", ""EX-IMAGE-2"", ""EX-PROJECTION-3""], ""links"": [[""EX-ART-1"", ""EX-IMAGE-2""], [""EX-IMAGE-2"", ""EX-PROJECTION-3""]]}",Three authored roles/two links not three original artworks/equivalence
+B,"{""source"": {""shape"": ""rectangle"", ""color"": ""red"", ""motion"": ""still""}, ""interpretation"": {""shape"": ""rectangle"", ""color"": ""blue"", ""motion"": ""moving""}}",Color and motion both changed; no isolated cause/actual art observation
+C,"{""sourceWidthCm"": 30, ""reproductionWidthCm"": 120, ""uniformBothDimensions"": true}",Widthfactor4;conditionalarea16 notactualsize/geometry
+D,"{""end"": ""2030-06-10"", ""opening"": ""2030-06-20"", ""visit"": ""2030-06-15""}",Five days after first/five before second notwholemuseumclosure
+E,"{""start"": 660, ""end"": 840, ""allocations"": [15, 40, 30, 20, 20, 15]}","Window180,allocated140,unassigned40 notvisitprediction"
+F,"{""questions"": [""EX-COLOR"", ""EX-FRAME"", ""EX-SOUND""], ""notes"": [""EX-COLOR"", ""EX-FRAME""]}",2/3questionnotes notunderstanding/coverage; soundunrecorded notsilent

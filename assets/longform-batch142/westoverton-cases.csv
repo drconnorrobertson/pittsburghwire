@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""museumEnd"": ""2030-10-20"", ""visit"": ""2030-10-24"", ""grounds"": ""daily"", ""museumConfirmed"": false}",4daysafter museumendpoint;groundsnotmuseumconfirmation
+B,"{""nodes"": [""EX-FARM-A"", ""EX-MILL-B"", ""EX-STORE-C""], ""links"": [[""EX-FARM-A"", ""EX-MILL-B""], [""EX-MILL-B"", ""EX-STORE-C""]]}","Two directlinks, farmstorepathviamill;nodirectlink/historyfinding"
+C,"{""representedYear"": 1870, ""panelYear"": 2030}",160yearlabelgap notexactinterval/construction/acquisition date
+D,"{""id"": ""EX-OBJECT-4"", ""source"": ""grain-processing equipment"", ""proposed"": ""household washing equipment"", ""maker"": null, ""history"": null}",Different categorystrings; actualfunction/historyunresolved
+E,"{""start"": 600, ""end"": 780, ""allocations"": [15, 45, 30, 20, 20, 15]}","Window180,allocated145,unassigned35 notvisitprediction"
+F,"{""questions"": [""EX-FARM"", ""EX-HOUSE"", ""EX-WORK""], ""notes"": [""EX-FARM"", ""EX-HOUSE""]}",2/3questionnotes notunderstanding/coverage;workunrecorded notabsent
