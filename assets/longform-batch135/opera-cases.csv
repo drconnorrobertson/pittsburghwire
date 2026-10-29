@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""title"": ""Harbor Journey"", ""first"": {""id"": ""EX-PERFORMANCE-1"", ""date"": ""2030-06-12"", ""time"": ""19:30""}, ""second"": {""id"": ""EX-PERFORMANCE-2"", ""date"": ""2030-06-13"", ""time"": ""19:30""}}",Two IDs/dates one day apart; same title and clock not same performance
+B,"{""composer"": ""Mira Vale"", ""librettist"": ""Nora Reed"", ""stageDirector"": ""Owen Birch"", ""character"": ""Ari"", ""performer"": ""Lena Moss""}",Five supplied role-name fields; no actual artist relationship
+C,"{""first"": ""I may return"", ""second"": ""I will return"", ""role"": ""original teaching prose""}",Three words each; second may/will changes; not quotation or translation assessment
+D,"{""scenes"": {""A"": ""notes"", ""B"": ""notes"", ""C"": ""uninspected""}}",Two of three note states2/3; not understanding coverage
+E,"{""date"": ""2030-06-12"", ""start"": ""19:30"", ""segments"": [20, 30, 25], ""interval"": 15}",Authored total90 minutes ending21:00; not operator running time
+F,"{""described"": ""projected text"", ""desired"": ""large-print preparation document"", ""sent"": false, ""response"": null, ""confirmed"": false}","Different service scopes/unanswered/unconfirmed, not refusal or suitability"
