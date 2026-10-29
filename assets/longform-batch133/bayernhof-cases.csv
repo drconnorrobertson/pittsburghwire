@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""experience"": ""EX-TOUR-1"", ""date"": ""2030-06-12"", ""sent"": false, ""response"": null, ""confirmed"": false}",Draft inquiry unsent/unanswered/unconfirmed; not booking/refusal
+B,"{""object"": ""EX-MACHINE-2"", ""modelYear"": 1910, ""restorationYear"": 1980}",70 year-label difference not manufacture/acquisition/provenance
+C,"{""objects"": [{""id"": ""EX-MACHINE-A"", ""title"": ""Harbor Waltz"", ""carrier"": ""disc""}, {""id"": ""EX-MACHINE-B"", ""title"": ""Harbor Waltz"", ""carrier"": ""roll""}]}",Two machine IDs/one title string/two carrier roles; relation unresolved
+D,"{""objects"": {""EX-OBJECT-A"": ""notes"", ""EX-OBJECT-B"": ""notes"", ""EX-OBJECT-C"": ""uninspected""}}",Two of three note states2/3; not museum or learning coverage
+E,"{""date"": ""2030-06-12"", ""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [20, 120, 15, 15]}",180 minus170 leaves10; invented duration not operator duration/visit prediction
+F,"{""requirement"": ""entirely step-free experience"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unanswered/unconfirmed not suitability/refusal/route finding
