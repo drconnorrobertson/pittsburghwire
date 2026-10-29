@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""request"": ""EX-HOUSE-1"", ""date"": ""2030-06-12"", ""sent"": false, ""confirmed"": false}",Unsent draft; no appointment established
+B,"{""desired"": ""EX-HOME-S"", ""saved"": ""EX-TRAIL-T""}",Two different destination identifiers; no actual geographic finding
+C,"{""eventYear"": 1910, ""panelYear"": 2030}",120 year-label difference; no exact interval or actual provenance finding
+D,"{""first"": ""a reader may pause"", ""second"": ""a reader must pause"", ""role"": ""original teaching prose""}",Four words each; third word may to must; not Carson quotation
+E,"{""date"": ""2030-06-12"", ""start"": ""10:00"", ""end"": ""13:00"", ""allocations"": [15, 50, 30, 20, 15]}",180-minute window minus130 allocated leaves50; not prediction
+F,"{""visit"": ""EX-VISIT-6"", ""request"": ""first-floor version"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsent unanswered unconfirmed; not refusal or suitability finding
