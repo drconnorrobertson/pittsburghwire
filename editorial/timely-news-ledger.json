@@ -1120,6 +1120,76 @@
         "indexing_claimed": false,
         "proof": "reports/timely-2026-10-28/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-10-29",
+      "status": "skipped_no_new_qualifying_story",
+      "why_cannot_wait": null,
+      "decision_reason": "The strongest opening and seasonal-event candidates already have useful source-linked coverage; no newly confirmed operational change or unowned immediate notice was verified. No duplicate or filler article published.",
+      "coverage_check": "Clean temporary checkout fast-forwarded from b1c8363 to origin/main 8ee47d6. Other remote changes concern distinct guides. Existing Sierra and Bad Omen owners found and read; primary checkout cloud-placeholder files left untouched. Recent task inventory shows shared portfolio worker active, no other observed active Wire publishing task.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "Read central ledger with daily-allocation records; no October 29 allocation recorded at check time. No new page or evergreen allocation used by this run.",
+        "counted_against_weekly_cap": false
+      },
+      "candidates": [
+        {
+          "story": "Sierra McCandless opening October 29",
+          "sources": [
+            "https://www.sierra.com/lp2/retail-stores/",
+            "https://www.eventbrite.com/e/sierra-mccandless-grand-opening-tickets-2002951594136"
+          ],
+          "existing_owner": "sierra-stores-bridgeville-mccandless-october-2026",
+          "decision": "Existing October 11 story already gives October 29 date, 8 a.m.\u20139:30 p.m. special schedule, address and phone. Current official locator still describes scheduled opening; no independent confirmation of actual operation or changed arrangements. No thin opening-day variant."
+        },
+        {
+          "story": "Bad Omen Bar October 29 hours",
+          "sources": [
+            "https://wiglewhiskey.com/the-wigle-distillery-the-strip/bad-omen-bar/"
+          ],
+          "existing_owner": "wigle-bad-omen-bar-strip-district-october-2026",
+          "decision": "Operator lists October 29\u201331 sessions, but opening night was October 2. Scheduled seasonal session is not a newly confirmed opening."
+        },
+        {
+          "story": "Larrimor closure report",
+          "source": "https://www.wpxi.com/news/local/family-owned-designer-clothing-store-downtown-pittsburgh-going-out-business-after-87-years/WEEY2PWEHVFDLEKDS7JLQ4LOWQ/",
+          "decision": "Search surfaced a report labelled later than this morning check. No current primary-source final operating date or immediate planning deadline verified; no publication from a future-labelled report."
+        }
+      ],
+      "search_console": {
+        "checked_date": "2026-10-29",
+        "date_range": "2026-10-21/2026-10-27",
+        "type": "Google Search News tab, not Google News app/site inclusion",
+        "clicks": 1,
+        "impressions": 2,
+        "average_position": 10,
+        "observed_pages": [
+          {
+            "slug": "kiski-precision-machining-apprenticeship-guide",
+            "clicks": 1,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly Web/News comparison recorded October 27; raw snapshot private."
+      },
+      "sitemaps": {
+        "checked_date": "2026-10-29",
+        "all_three_http_status": 200,
+        "news_and_directory_hashes_unchanged": true,
+        "main_hash": "69a96bbd68d5755f39bb4a06de8f63d94dc6a06be35a203ca81f8c3499e30326",
+        "main_changed_by_other_releases": true,
+        "submitted": [],
+        "reason": "No content release in this run. Unchanged News/directory maps not resubmitted; separately generated guide-map change observed without claiming a new submission or indexing. Existing submitted map remains available to Google for periodic retrieval.",
+        "private_evidence": "reports/timely-2026-10-29/live-sitemap-check.json"
+      },
+      "publication": null
     }
   ]
 }
