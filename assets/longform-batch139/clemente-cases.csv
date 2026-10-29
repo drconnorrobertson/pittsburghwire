@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""entries"": [{""subject"": ""Nora Vale"", ""id"": ""EX-OBJECT-1"", ""type"": ""jersey""}, {""subject"": ""Nora Vale"", ""id"": ""EX-OBJECT-2"", ""type"": ""photograph""}], ""relationship"": null}","Two IDs/twotypes/onesubject, relationshipunresolved"
+B,"{""representedEventYear"": 1960, ""printYear"": 2000}","40year-labelgap, not actual capture/collection date"
+C,"{""object"": ""EX-ITEM-3"", ""association"": ""Nora Vale"", ""ownershipChain"": null, ""authentication"": null}","Supplied association label only, not provenance/authentication finding"
+D,"{""parts"": [""P1"", ""P2"", ""P3""], ""selected"": [""P1"", ""P3""]}",2/3partselection/P2unprovided not semantic coverage or actual document
+E,"{""start"": ""12:00"", ""end"": ""15:00"", ""allocations"": [15, 90, 20, 20, 15]}","Window180,total160,remainder20 not museum duration or journey prediction"
+F,"{""buildingDescription"": ""elevator listed"", ""question"": ""quieter viewing option"", ""visit"": ""EX-VISIT-6"", ""sent"": false, ""response"": null, ""confirmed"": false}",Unsent/unanswered/unconfirmed; building description not individual finding
