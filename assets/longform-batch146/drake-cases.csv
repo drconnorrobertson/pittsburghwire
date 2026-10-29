@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""records"": {""EX-WELL-1"": ""historical place"", ""EX-STRUCTURE-2"": ""later replica"", ""EX-DISPLAY-3"": ""current interpretation""}, ""links"": [[""EX-STRUCTURE-2"", ""EX-WELL-1""], [""EX-DISPLAY-3"", ""EX-STRUCTURE-2""]]}",3roles/2linksnot3originalstructures
+B,"{""years"": [1859, 1945, 2030]}",86/85/171yearlabelgapsnotactualprovenance
+C,"{""facility"": ""EX-MACHINE-4"", ""end"": ""2030-10-31"", ""visit"": ""2030-11-05"", ""other"": ""EX-GALLERY-5"", ""otherAvailable"": true}",5daysafter/notmachineconfirmation
+D,"{""arrival"": ""EX-MAIN-6"", ""desired"": ""EX-SATELLITE-7"", ""confirmed"": false}",placefieldsdiffernotactualwrongbooking
+E,"{""start"": ""10:00"", ""end"": ""14:00"", ""allocations"": [20, 50, 40, 30, 25, 20]}",240minus185leaves55notprediction
+F,"{""questions"": [""replica relationship"", ""transport object"", ""business source""], ""noted"": [""replica relationship"", ""transport object""]}",2of3noteselectionnotcoverage

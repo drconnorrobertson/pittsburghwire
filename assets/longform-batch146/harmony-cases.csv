@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""properties"": [""EX-MUSEUM-1"", ""EX-HOUSE-2"", ""EX-BARN-3""], ""tour"": [""EX-MUSEUM-1"", ""EX-HOUSE-2""]}",3properties/2tournames/thirdunconfirmednotclosed
+B,"{""room"": ""EX-ROOM-4"", ""role"": ""reconstructed"", ""chair"": ""EX-CHAIR-5"", ""relationship"": ""period-related"", ""owner"": null}",roleandindividualownershipdistinct
+C,"{""years"": [1753, 1820, 2030]}",yearlabelgaps67/277/210notactualbuildingfinding
+D,"{""start"": ""13:00"", ""end"": ""16:00"", ""allocations"": [15, 45, 30, 20, 15, 15]}",180minus140leaves40notprediction
+E,"{""desired"": ""EX-UPPER-6"", ""request"": ""step-free participation"", ""status"": ""unsent draft"", ""response"": null, ""confirmed"": false}",unanswerednotrefusal/suitability
+F,"{""questions"": [""building change"", ""furnishing role"", ""community history""], ""noted"": [""building change"", ""furnishing role""]}",2of3noteselectionnotcoverage
