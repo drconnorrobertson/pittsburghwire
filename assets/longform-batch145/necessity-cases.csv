@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""records"": {""EX-EVENT-1"": ""event"", ""EX-PLACE-2"": ""landscape location"", ""EX-DISPLAY-3"": ""later exhibit""}, ""links"": [[""EX-EVENT-1"", ""EX-PLACE-2""], [""EX-DISPLAY-3"", ""EX-EVENT-1""]]}",Three records/two links not three witnesses or actual feature records
+B,"{""years"": [1754, 1834]}",80 year labels not actual construction date/exact interval
+C,"{""arrival"": ""EX-OFFICE"", ""desired"": ""EX-OTHER"", ""main"": ""EX-MAIN""}",Different contact/destination roles; arrival unresolved not actual route finding
+D,"{""facility"": ""EX-SEASONAL"", ""grounds"": ""EX-GROUNDS"", ""end"": ""2030-10-31"", ""visit"": ""2030-11-05"", ""grounds_yearround"": true}",Five days beyond invented endpoint; separate grounds scope not interior permission
+E,"{""start"": ""10:00"", ""end"": ""14:00"", ""allocations"": [20, 45, 40, 30, 25, 20]}",240 window180 assigned60 unassigned; not feasibility or journey prediction
+F,"{""questions"": [""conflict"", ""road"", ""separate-unit relationship""], ""noted"": [""conflict"", ""road""]}",2/3 note selection not understanding/history/coverage; no omission finding
