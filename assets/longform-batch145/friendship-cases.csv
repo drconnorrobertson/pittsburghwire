@@ -1,0 +1,7 @@
+fictional_case,authored_inputs,bounded_result
+A,"{""records"": {""EX-PHASE-A"": ""associated-era room"", ""EX-PHASE-B"": ""later addition"", ""EX-DISPLAY-C"": ""current exhibit""}, ""links"": [[""EX-DISPLAY-C"", ""EX-PHASE-A""], [""EX-PHASE-B"", ""visitor function""]]}",Three records/two links; not three original rooms or construction chronology
+B,"{""relationship"": ""period-related example"", ""owner"": null, ""proposed_relationship"": ""personally owned""}",Ownership unresolved; no actual furnishing/provenance finding
+C,"{""years"": [1795, 2030]}",235 year labels not exact interval/actual display date/direct witness
+D,"{""desired_floor"": ""upper"", ""requested_floor"": ""first"", ""response"": ""unanswered"", ""confirmed"": false}",Specific arrangement unresolved; no refusal/equivalence/site suitability
+E,"{""start"": ""11:00"", ""end"": ""14:00"", ""allocations"": [15, 40, 35, 20, 20, 15]}",180 window145 assigned35 unassigned; not visit prediction
+F,"{""questions"": [""building phase"", ""furnishing relationship"", ""public career""], ""noted"": [""building phase"", ""furnishing relationship""]}",2/3 note selection not understanding; unrecorded not institutional omission
