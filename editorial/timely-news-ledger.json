@@ -1190,6 +1190,66 @@
         "private_evidence": "reports/timely-2026-10-29/live-sitemap-check.json"
       },
       "publication": null
+    },
+    {
+      "date": "2026-10-30",
+      "status": "validated_awaiting_production",
+      "slug": "prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+      "why_cannot_wait": "East Busway restrictions begin Saturday October 31 and end Sunday before the next Monday batch; the separate Transit Tunnel closure begins Monday November 2 at 1 a.m., before the batch. Advance boarding and transfer planning would be lost by waiting.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/portion-of-dr.-martin-luther-king-jr.-east-busway-to-close-this-weekend--pittsburgh-regional-transit",
+        "https://www.rideprt.org/newsroom/news-releases/mt.-washington-transit-tunnel-to-close-for-electrical-work-pittsburgh-regional-transit",
+        "https://www.rideprt.org/Services/view-all-schedules/",
+        "https://www.rideprt.org/detours/",
+        "https://www.rideprt.org/"
+      ],
+      "coverage_check": "Clean temporary checkout advanced from 9d53b34 to origin/main 592b751. No existing owner for October 31\u2013November 1 busway work or November 2\u20137 tunnel closure. October 23\u201326 rail notice concerns earlier work. Recent active-task inventory showed no other observed Wire publisher.",
+      "workspace": "/private/tmp/wire-timely-20261028",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "Read October 30 partial_daily_progress allocation record. This is a separate timely notice, not an evergreen allocation.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-30",
+        "date_range": "2026-10-22/2026-10-28",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 1,
+        "impressions": 3,
+        "average_position": 7.3,
+        "observed_pages": [
+          {
+            "slug": "kiski-precision-machining-apprenticeship-guide",
+            "clicks": 1,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly adjacent Web/News comparison recorded October 27. Raw snapshot private; historical position is not a current-rank promise."
+      },
+      "validation": {
+        "article_words_without_banner": 451,
+        "all_five_primary_links_http_status": 200,
+        "complete_diff_reviewed": true,
+        "scope_note": "Two related operator announcements combined into one dated travel notice, with distinct windows and no invented travel times, reopening confirmations or personal reporting. House institutional byline, text-only template and disclosures preserved.",
+        "production_build_quality_check": {
+          "pages": 4150,
+          "errors": 0
+        }
+      },
+      "publication": null
     }
   ]
 }
