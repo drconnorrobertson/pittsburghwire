@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""object"":""EX-OBJECT-1"",""event"":1900,""acquisition"":1980,""note"":2030,""made"":null,""earlierOwner"":null}"
+B,"{""event"":1940,""recording"":2000,""note"":2030,""read"":false,""accuracy"":null}"
+C,"{""images"":[{""id"":""EX-PHOTO-1"",""subject"":""Sixth Street""},{""id"":""EX-PHOTO-2"",""subject"":""Sixth Street""}],""inspected"":false,""proposedUse"":""public website"",""permission"":null}"
+D,"{""appearances"":[""EX-SOURCE-7"",""EX-SOURCE-7"",""EX-SOURCE-8""],""read"":false,""independence"":null}"
+E,"{""target"":""EX-IMAGE-4"",""sent"":false,""response"":null,""confirmed"":false}"
+F,"{""start"":""2030-06-23T10:00:00"",""end"":""2030-06-23T13:00:00"",""allocations"":[15,40,30,25,20,15],""observed"":false}"
