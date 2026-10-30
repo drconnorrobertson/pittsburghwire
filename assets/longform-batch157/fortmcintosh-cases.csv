@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""roles"":{""EX-SITE-1"":""physical interpretation"",""EX-EXHIBIT-2"":""museum display"",""EX-DIGITAL-3"":""modeled scene""},""selected"":""EX-DIGITAL-3"",""available"":null,""confirmed"":false}"
+B,"{""structure"":1780,""investigation"":1980,""interpretation"":2030,""objectDate"":null}"
+C,"{""features"":[{""id"":""EX-F1"",""role"":""earlier material""},{""id"":""EX-F2"",""role"":""later interpretation""},{""id"":""EX-F3"",""role"":null}]}"
+D,"{""features"":[{""id"":""EX-M1"",""reference"":""EX-S1""},{""id"":""EX-M2"",""reference"":""EX-S2""},{""id"":""EX-M3"",""reference"":null},{""id"":""EX-M4"",""reference"":null}],""referencesRead"":false,""accuracy"":null}"
+E,"{""noteDate"":""2030-06-01"",""proposedDate"":""2030-06-22"",""stage"":""planned"",""complete"":null,""inquiry"":""unsent draft"",""response"":null,""confirmed"":false}"
+F,"{""start"":""2030-06-20T11:00"",""end"":""2030-06-20T14:00"",""allocations"":[15,40,30,25,20,15],""observed"":false}"

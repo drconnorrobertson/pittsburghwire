@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""schoolYear"":1840,""organizationYear"":1990,""interpretationYear"":2030,""continuousUse"":null}"
+B,"{""models"":[{""id"":""EX-MODEL-1"",""made"":2000,""represented"":1880},{""id"":""EX-MODEL-2"",""made"":null,""represented"":1880}]}"
+C,"{""objects"":[{""id"":""EX-OBJ-1"",""category"":""reproduction""},{""id"":""EX-OBJ-2"",""category"":""period example""},{""id"":""EX-OBJ-3"",""category"":null}]}"
+D,"{""appearances"":[""EX-DOC-7"",""EX-DOC-7"",""EX-DOC-8""],""contentsInspected"":false,""independent"":null}"
+E,"{""describedFormats"":[""indoor gallery"",""outdoor walk""],""requested"":""seated indoor option"",""inquiry"":""unsent draft"",""response"":null,""confirmed"":false}"
+F,"{""start"":""2030-06-18T10:00"",""end"":""2030-06-18T12:30"",""allocations"":[15,30,25,20,15,15],""visitObserved"":false}"
