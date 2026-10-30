@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""contract"":1800,""deadline"":1801,""completion"":1804,""actualStart"":null}"
+B,"{""event"":1850,""recollection"":1910,""note"":2030}"
+C,"{""features"":[{""id"":""EX-FEATURE-1"",""installation"":1800},{""id"":""EX-FEATURE-2"",""replacement"":1950,""represents"":""earlier design""},{""id"":""EX-FEATURE-3"",""date"":null}],""note"":2030}"
+D,"{""appearances"":[{""form"":""handout"",""source"":""EX-LETTER-7""},{""form"":""article"",""source"":""EX-LETTER-7""},{""form"":""note"",""source"":""EX-LETTER-8""}],""texts"":null}"
+E,"{""houseDescription"":true,""upperArrangement"":null,""alternative"":null,""request"":""draft"",""sent"":false,""response"":null,""confirmed"":false}"
+F,"{""start"":""2030-06-18T10:00:00"",""end"":""2030-06-18T13:00:00"",""allocations"":[15,40,30,20,20,15]}"
