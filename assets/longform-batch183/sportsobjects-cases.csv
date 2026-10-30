@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""event"": 1985, ""made"": 1986, ""note"": 2030, ""acquired"": null}"
+B,"{""objects"": [{""id"": ""EX-JERSEY-03"", ""type"": ""jersey"", ""subject"": ""Harbor Athlete""}, {""id"": ""EX-PHOTO-11"", ""type"": ""photograph"", ""subject"": ""Harbor Athlete""}, {""id"": ""EX-FIGURE-02"", ""type"": ""interpretive figure"", ""subject"": ""Harbor Athlete""}], ""inspected"": false, ""relationship"": null}"
+C,"{""appearances"": [""EX-ITEM-7"", ""EX-ITEM-7"", ""EX-ITEM-8""], ""inspected"": false, ""independence"": null}"
+D,"{""notice"": ""2030-06-01"", ""event"": ""2030-06-08"", ""read"": ""2030-06-20"", ""relativePostDate"": null}"
+E,"{""target"": ""EX-JERSEY-03"", ""image"": ""EX-PHOTO-11"", ""date"": ""2030-06-27"", ""sent"": false, ""response"": null, ""confirmed"": false}"
+F,"{""start"": ""2030-06-27T10:00:00"", ""end"": ""2030-06-27T12:30:00"", ""allocations"": [15, 25, 30, 20, 15, 10], ""observed"": false}"
