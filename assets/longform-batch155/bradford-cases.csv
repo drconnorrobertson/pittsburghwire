@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""periodObject"":{""id"":""EX-OBJECT-1"",""year"":1790,""owner"":null},""reproduction"":{""id"":""EX-OBJECT-2"",""made"":2020,""represented"":1790},""undated"":{""id"":""EX-OBJECT-3"",""year"":null}}"
+B,"{""id"":""EX-HOUSE-4"",""event"":1800,""restoration"":1960,""interpretation"":2030}"
+C,"{""appearances"":[{""format"":""panel"",""id"":""EX-DOC-7""},{""format"":""handout"",""id"":""EX-DOC-7""},{""format"":""panel"",""id"":""EX-DOC-8""}],""documentText"":null}"
+D,"{""house"":""EX-HOUSE-1"",""houseEntrance"":""steps described"",""center"":""EX-CENTER-2"",""wanted"":""house upper room"",""alternative"":null,""inquiry"":""draft"",""sent"":false}"
+E,"{""visit"":""2030-06-20T11:00"",""draftContact"":""2030-06-18T12:00"",""clockBasis"":""same authored basis"",""inventedAdvanceHours"":48,""sent"":false,""confirmed"":false}"
+F,"{""date"":""2030-06-20"",""window"":[""11:00"",""14:00""],""allocations"":[15,60,20,20,15,15]}"

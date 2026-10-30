@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""siteEventYear"":1800,""additionYear"":1825,""noteYear"":2030}"
+B,"{""descriptions"":[""EX-HOUSE"",""EX-LOG"",""EX-BARN"",""EX-SPRING""],""read"":[""EX-HOUSE"",""EX-BARN""]}"
+C,"{""listing"":""proposed demonstration"",""question"":""draft"",""observation"":null,""hypotheticalObservation"":[""occurred"",""unavailable""]}"
+D,"{""date"":""2030-06-16"",""ordinary"":[""13:30"",""16:30""],""special"":[""17:00"",""20:00""],""arrival"":""18:00"",""lastAdmission"":null}"
+E,"{""pathMentioned"":true,""interiorArrangement"":null,""seatingQuestion"":""draft"",""requestSent"":false}"
+F,"{""date"":""2030-06-16"",""window"":[""13:30"",""16:30""],""allocations"":[15,35,25,20,20,15]}"
