@@ -1193,7 +1193,7 @@
     },
     {
       "date": "2026-10-30",
-      "status": "validated_awaiting_production",
+      "status": "published_verified",
       "slug": "prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
       "why_cannot_wait": "East Busway restrictions begin Saturday October 31 and end Sunday before the next Monday batch; the separate Transit Tunnel closure begins Monday November 2 at 1 a.m., before the batch. Advance boarding and transfer planning would be lost by waiting.",
       "sources": [
@@ -1249,7 +1249,37 @@
           "errors": 0
         }
       },
-      "publication": null
+      "publication": {
+        "checked_utc": "2026-10-30T13:09:28.842878+00:00",
+        "content_commit": "ce36480f40a52b450bad9532a55e6d29c3b7a7d2",
+        "deployment_id": "dpl_4vMM2f13NC5acFgV5pzoSFV8nJy2",
+        "production_state": "READY",
+        "sha256": {
+          "sitemap.xml": "4b656f4cf6ab72bf9edda8ff643799eae709b5066db330b8246e7ee53272bddc",
+          "news-sitemap.xml": "070a9c1dbd0b13b1eecd9d70cc7d67d0c8865048e0084fa77473730815104714",
+          "directory-sitemap.xml": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465"
+        },
+        "article_status": 200,
+        "article_url": "https://www.thepittsburghwire.com/news/prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+        "canonical_matches": true,
+        "indexable": true,
+        "expiry": "2026-11-08T00:00:00-05:00",
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "submitted_date": "2026-10-30",
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "directory_map": "Hash unchanged; not resubmitted. GSC last read October 29: Success, 2,806 pages.",
+        "indexing_claimed": false,
+        "proof": "reports/timely-2026-10-30/news-sitemap-accepted.png"
+      }
     }
   ]
 }
