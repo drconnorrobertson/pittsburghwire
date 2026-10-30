@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""built"": 1840, ""donated"": 1980, ""note"": 2030, ""created"": null}"
+B,"{""objects"": [{""id"": ""EX-BUILD-2"", ""role"": ""building record"", ""subject"": ""Invented School""}, {""id"": ""EX-PHOTO-4"", ""role"": ""later photograph"", ""subject"": ""Invented School""}, {""id"": ""EX-ACTIVITY-6"", ""role"": ""modern recreated lesson"", ""subject"": ""Invented School""}], ""inspected"": false, ""relationship"": null}"
+C,"{""appearances"": [""EX-DOC-7"", ""EX-DOC-7"", ""EX-DOC-8""], ""inspected"": false, ""independence"": null}"
+D,"{""notice"": ""2030-06-01"", ""activity"": ""2030-06-08"", ""read"": ""2030-06-20"", ""relativePostDate"": null}"
+E,"{""prepared"": ""2030-06-01"", ""proposed"": ""2030-06-12"", ""sent"": false, ""response"": null, ""confirmed"": false}"
+F,"{""start"": ""2030-06-21T10:00:00"", ""end"": ""2030-06-21T13:00:00"", ""allocations"": [15, 30, 35, 25, 20, 15], ""observed"": false}"
