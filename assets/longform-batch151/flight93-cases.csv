@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""records"": [{""id"": ""EX-CENTER-1"", ""task"": ""exhibition-reading"", ""status"": ""planned""}, {""id"": ""EX-PLAZA-2"", ""task"": ""outdoor-remembrance"", ""status"": ""unconfirmed""}]}"
+B,"{""eventYear"": 2000, ""accountYear"": 2010, ""displayYear"": 2030}"
+C,"{""publicId"": ""EX-PUBLIC-6"", ""restrictedId"": ""EX-RESTRICTED-7"", ""destinations"": [""EX-PUBLIC-6""], ""restrictedEntryPermitted"": false}"
+D,"{""experience"": ""EX-EXPERIENCE-8"", ""question"": ""seated alternative"", ""status"": ""draft-unsent"", ""response"": null, ""arrangementConfirmed"": false}"
+E,"{""closureDate"": ""2030-06-12"", ""proposedDate"": ""2030-06-13"", ""groundsOpen"": null}"
+F,"{""date"": ""2030-06-15"", ""startHour"": 10, ""endHour"": 14, ""allocations"": [20, 55, 25, 40, 20, 20, 20]}"
