@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""work"":""EX-PAINTING-1"",""makerLocation"":""Region A"",""depictedPlace"":null,""institution"":""EX-GALLERY-N""}"
+B,"{""views"":[{""id"":""EX-VIEW-1"",""darkBands"":3,""totalBands"":10,""sky"":""clear""},{""id"":""EX-VIEW-2"",""darkBands"":5,""totalBands"":10,""sky"":""clouded""}],""viewerResponse"":null}"
+C,"{""construction"":[1850,1852],""purchase"":1880,""interpretation"":2030}"
+D,"{""sourceDescriptions"":{""EX-BOOK-1"":""unread"",""EX-SPECIMEN-2"":""unread"",""EX-PAINTING-3"":""read""}}"
+E,"{""regularDay"":""Saturday"",""regularStart"":""11:00"",""regularEnd"":""16:00"",""closure"":""2030-06-15"",""proposed"":""2030-06-15"",""alternative"":null}"
+F,"{""start"":""2030-06-20T11:00"",""end"":""2030-06-20T13:00"",""allocations"":[10,35,25,20,10,10],""seatedRequestSent"":false,""confirmed"":false}"

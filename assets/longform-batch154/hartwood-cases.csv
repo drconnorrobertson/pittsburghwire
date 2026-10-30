@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""house"":""EX-HOUSE-1"",""garden"":""EX-GARDEN-2"",""event"":""EX-EVENT-3"",""selected"":""EX-GARDEN-2"",""houseConfirmed"":false,""eventConfirmed"":false}"
+B,"{""work"":""EX-SCULPTURE-4"",""creation"":1980,""relocation"":2020,""interpretation"":2030}"
+C,"{""opening"":""2030-06-01"",""audioPublication"":""2030-06-22"",""panel"":""planned"",""installation"":null}"
+D,"{""descriptions"":{""EX-W1"":""read"",""EX-W2"":""unopened"",""EX-W3"":""read"",""EX-W4"":null}}"
+E,"{""segment"":""EX-PATH-1"",""surface"":""paved"",""house"":""EX-HOUSE-2"",""stepFreeEntry"":null,""requestSent"":false,""confirmed"":false}"
+F,"{""start"":""2030-06-18T10:00"",""end"":""2030-06-18T13:00"",""allocations"":[15,40,30,20,20,15],""tourStart"":null,""tourDuration"":null}"
