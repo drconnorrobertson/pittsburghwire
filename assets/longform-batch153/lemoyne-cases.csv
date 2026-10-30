@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""desired"": ""EX-HOUSE-1"", ""planned"": ""EX-SITE-2""}"
+B,"{""voices"": {""EX-VOICE-1"": ""institutional summary"", ""EX-VOICE-2"": ""later recollection"", ""EX-VOICE-3"": ""original letter excerpt""}}"
+C,"{""event"": 1840, ""account"": 1890, ""interpretation"": 2030}"
+D,"{""names"": [""G. Harbor"", ""Gene Harbor""], ""identity"": null}"
+E,"{""appearances"": [""EX-ACCOUNT-7"", ""EX-ACCOUNT-7"", ""EX-ACCOUNT-7""]}"
+F,"{""house"": ""EX-HOUSE-9"", ""date"": ""2030-06-18"", ""transmission"": ""unsent"", ""response"": null, ""confirmed"": false, ""desiredResearch"": ""EX-RECORD-4"", ""researchIncluded"": false}"

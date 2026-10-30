@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""records"": [{""id"": ""EX-STRUCT-01"", ""role"": ""reconstructed setting""}, {""id"": ""EX-ART-02"", ""role"": ""recovered material""}]}"
+B,"{""low"": 1760, ""high"": 1780, ""candidate"": 1773}"
+C,"{""fragments"": [{""context"": ""EX-CONTEXT-1"", ""material"": ""EX-MATERIAL""}, {""context"": ""EX-CONTEXT-1"", ""material"": ""EX-MATERIAL""}, {""context"": ""EX-CONTEXT-1"", ""material"": ""EX-MATERIAL""}, {""context"": ""EX-CONTEXT-2"", ""material"": ""EX-MATERIAL""}, {""context"": ""EX-CONTEXT-2"", ""material"": ""EX-MATERIAL""}]}"
+D,"{""sources"": {""EX-SUMMARY-1"": true, ""EX-RECORD-2"": false, ""EX-RECORD-3"": false}}"
+E,"{""represented"": 1775, ""reconstructed"": 1975, ""label"": 2000}"
+F,"{""record"": ""EX-RECORD-8"", ""transmission"": ""unsent"", ""response"": null, ""availability"": null}"
