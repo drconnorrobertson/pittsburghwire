@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""organization"":1980,""move"":2020,""interpretation"":2030,""objectDate"":null}"
+B,"{""records"":[{""id"":""EX-OBJECT-1"",""form"":""object"",""subject"":""fictional workplace""},{""id"":""EX-PHOTO-2"",""form"":""photograph"",""subject"":""fictional workplace""}],""relationship"":null}"
+C,"{""appearances"":[""EX-DOC-7"",""EX-DOC-7"",""EX-DOC-8""],""textsRead"":false,""independence"":null}"
+D,"{""lower"":1900,""upper"":1940,""proposed"":1925,""entry"":null,""inspected"":false}"
+E,"{""target"":""EX-RECORD-4"",""status"":""draft"",""sent"":false,""response"":null,""appointmentConfirmed"":false}"
+F,"{""start"":""2030-06-21T10:00:00"",""end"":""2030-06-21T13:00:00"",""allocations"":[15,40,30,25,20,15],""observed"":false}"
