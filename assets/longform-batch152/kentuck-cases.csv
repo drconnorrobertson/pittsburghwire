@@ -1,0 +1,7 @@
+case,topic,supplied,question,expected
+A,experience scope,EX-HOUSE-01:house discussion plus grounds|EX-GROUND-02:grounds only,indoor kitchen relationship,2 descriptions;1 explicit house discussion;not a booking or real room promise
+B,record identifiers,Quiet Form:EX-SCULPT-01|Quiet Form:EX-SCULPT-02,same title,2 records;1 distinct title;2 distinct IDs;relationship unresolved
+C,format duration,40|80,invented minutes,difference40;ratio2;not value effort or room count
+D,inquiry state,2030-06-05|2030-06-20|unsent|unknown,ramp arrangement question,15 day-label gap;no notice received or response
+E,time allocation,2030-06-22T10:00|2030-06-22T13:00|15;50;20;30;20;15,invented plan,180 available;150 allocated;30 unallocated;not feasibility
+F,scope labels,interior photography:not permitted|exterior photography:permitted|publication rights:unknown,proposed indoor photograph,exterior permission does not cover interior;publication question unresolved

@@ -1,0 +1,7 @@
+case,topic,supplied,question,expected
+A,experience scope,EX-INT-01:interior discussion|EX-EXT-02:exterior observation,indoor seating and window,2 descriptions;1 explicit interior;particular real room unresolved
+B,interpretation components,EX-F1:first-floor discussion|EX-IMG2:upper-room image discussion,physical entry,2 components;1 explicitly first-floor physical;upper-room physical entry not established
+C,event labels,design:1900|treatment:1980|interpretation:2030,year-label gaps,80;50;130;no exact elapsed event dates or authentication
+D,time allocation,2030-06-15T10:00|2030-06-15T14:00|20;70;25;30;40;20,invented plan,240 available;205 allocated;35 unallocated;not feasibility or recommendation
+E,inquiry state,2030-06-01|2030-06-12|unsent|unknown,seated discussion question,11 day-label gap;not sent;no answer or confirmed arrangement
+F,note appearances,EX-OBJ-01|EX-OBJ-01|EX-OBJ-02,identifier count,3 appearances;2 distinct supplied IDs;not independent sources or authenticity
