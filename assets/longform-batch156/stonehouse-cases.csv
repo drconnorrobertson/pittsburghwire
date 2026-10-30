@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""target"":""EX-PA-HOUSE"",""records"":[{""id"":""EX-PA-HOUSE"",""name"":""Stone House"",""locality"":""Cedar County, Pennsylvania""},{""id"":""EX-NY-HOUSE"",""name"":""Stone House"",""locality"":""Maple County, New York""}]}"
+B,"{""inn"":1800,""reconstruction"":1960,""interpretation"":2030}"
+C,"{""objects"":[{""id"":""EX-OBJECT-1"",""donation"":1970,""represented"":1800,""donor"":""Mira Vale"",""earlierOwner"":null},{""id"":""EX-OBJECT-2"",""production"":null}]}"
+D,"{""transition"":""2030-06-01"",""projectNote"":""2030-06-20"",""opening"":null,""programState"":""intended""}"
+E,"{""activities"":[""EX-HOUSE"",""EX-CENTER"",""EX-SCHOOL""],""target"":""EX-HOUSE"",""descriptionFor"":""EX-CENTER"",""request"":""draft"",""sent"":false,""response"":null,""participationConfirmed"":false}"
+F,"{""start"":""2030-06-19T09:00:00"",""end"":""2030-06-19T11:30:00"",""allocations"":[15,35,25,20,15,10]}"
