@@ -1,0 +1,7 @@
+case,fictional_input_json
+A,"{""first"": 1900, ""second"": 1899, ""extension"": 1907}"
+B,"{""end"": ""2030-08-31"", ""proposed"": ""2030-09-12""}"
+C,"{""outdoor"": ""described"", ""interior"": null, ""request"": ""draft"", ""sent"": false, ""response"": null}"
+D,"{""event"": 1900, ""memorial"": 2000, ""note"": 2030}"
+E,"{""desired"": ""EX-WATER-1"", ""arrival"": ""EX-OFFICE-2"", ""confirmed"": false}"
+F,"{""start"": 600, ""end"": 780, ""allocations"": [20, 40, 30, 20, 20, 15]}"
