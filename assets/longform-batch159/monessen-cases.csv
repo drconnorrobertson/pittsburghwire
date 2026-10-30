@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""founded"":1980,""incorporated"":1985,""museum"":2000,""hall"":2020,""issue"":null}"
+B,"{""issues"":[{""id"":""EX-ISSUE-1"",""label"":""Summer/Fall 2030"",""months"":[8,11]},{""id"":""EX-ISSUE-2"",""label"":""Winter/Spring 2030"",""months"":[2,5]}],""read"":false}"
+C,"{""notice"":""2029-11-10"",""event"":""2030-01-12"",""readDate"":""2030-10-30"",""observed"":false}"
+D,"{""appearances"":[""EX-NEWS-7"",""EX-NEWS-7"",""EX-NEWS-8""],""read"":false,""independence"":null}"
+E,"{""objects"":[{""id"":""EX-ISSUE-1"",""opened"":true,""inspected"":false},{""id"":""EX-LETTER-2"",""opened"":false,""inspected"":false},{""id"":""EX-PHOTO-3"",""opened"":false,""inspected"":false}]}"
+F,"{""start"":""2030-06-24T11:00:00"",""end"":""2030-06-24T13:30:00"",""allocations"":[10,35,25,20,15,15],""sent"":false,""response"":null,""confirmed"":false,""observed"":false}"
