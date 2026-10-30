@@ -1,0 +1,7 @@
+fictional_case,authored_inputs
+A,"{""acquired"": 1980, ""workNote"": 1995, ""panel"": 2030, ""completed"": null}"
+B,"{""objects"": [{""id"": ""EX-AIR-04"", ""type"": ""aircraft"", ""subject"": ""Harbor Courier""}, {""id"": ""EX-PHOTO-09"", ""type"": ""photograph"", ""subject"": ""Harbor Courier""}], ""inspected"": false, ""relationship"": null}"
+C,"{""appearances"": [""EX-LOG-7"", ""EX-LOG-7"", ""EX-LOG-8""], ""inspected"": false, ""independence"": null}"
+D,"{""target"": ""EX-AIR-04"", ""date"": ""2030-06-26"", ""sent"": false, ""response"": null, ""confirmed"": false}"
+E,"{""notice"": ""2030-06-01"", ""event"": ""2030-06-08"", ""read"": ""2030-06-20"", ""relativePostDate"": null}"
+F,"{""start"": ""2030-06-26T10:00:00"", ""end"": ""2030-06-26T13:00:00"", ""allocations"": [15, 40, 30, 25, 20, 15], ""observed"": false}"
