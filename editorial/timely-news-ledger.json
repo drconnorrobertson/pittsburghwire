@@ -1280,6 +1280,65 @@
         "indexing_claimed": false,
         "proof": "reports/timely-2026-10-30/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-10-31",
+      "status": "skipped_no_new_qualifying_story",
+      "why_cannot_wait": null,
+      "sources": [
+        "https://www.rideprt.org/",
+        "https://www.rideprt.org/newsroom/news-releases/paving-to-impact-fifth-avenue-in-oakland-next-week--pittsburgh-regional-transit/",
+        "https://content.govdelivery.com/accounts/PAPITT/bulletins/42e82cb",
+        "https://www.alleghenycounty.us/Government/Elections/Pre-Election-Day-Voting-Options"
+      ],
+      "assessment": "Immediate October 31\u2013November 1 East Busway work and November 2 at 1 a.m. Transit Tunnel closure already have the October 30 published owner. New October 30 Fifth Avenue paving announcement specifies overnight work beginning Monday November 2 at 7 p.m.; coverage can wait for Monday morning editorial review. No verified new opening, closure or urgent change found that would lose material usefulness by then. Halloween hours and ballot-return options already have coverage; no new change verified. No evergreen addition or old event repackaged as breaking news.",
+      "coverage_check": "Clean temporary checkout fast-forwarded to origin/main 079d0b00e0732550a9b71789a4fd7801eb54b2c6. Existing transit, Halloween and election owners checked. Recent active-task inventory showed no other observed Wire publisher; original cloud-placeholder checkout left untouched.",
+      "workspace": "/private/tmp/wire-timely-20261028",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "October 31 partial_daily_progress record read; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-10-31",
+        "date_range": "2026-10-23/2026-10-29",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 1,
+        "impressions": 3,
+        "average_position": 7.3,
+        "observed_pages": [
+          {
+            "slug": "kiski-precision-machining-apprenticeship-guide",
+            "clicks": 1,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly Web/News comparison recorded October 27. Raw snapshot private at reports/timely-2026-10-31/gsc-news.txt; average position is historical."
+      },
+      "sitemaps": {
+        "checked_date": "2026-10-31",
+        "all_three_http_status": 200,
+        "news_and_directory_hashes_unchanged": true,
+        "main_hash": "09c5c88e8555650b895f4aceabe6048a68253fb21868af602552866e9a318ae7",
+        "main_changed_by_other_releases": true,
+        "submitted": [],
+        "reason": "No content release in this run. Existing submitted main map remains available for periodic retrieval after other guide releases; unchanged News and directory maps not resubmitted. No indexing claim.",
+        "private_evidence": "reports/timely-2026-10-31/live-sitemap-check.json"
+      },
+      "publication": null
     }
   ]
 }
