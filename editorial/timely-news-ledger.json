@@ -1339,6 +1339,64 @@
         "private_evidence": "reports/timely-2026-10-31/live-sitemap-check.json"
       },
       "publication": null
+    },
+    {
+      "date": "2026-11-01",
+      "status": "skipped_no_new_qualifying_story",
+      "why_cannot_wait": null,
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases",
+        "https://www.alleghenycounty.us/Government/Elections/Election-Updates",
+        "https://www.wesanews.org/text"
+      ],
+      "assessment": "No new verified development found whose usefulness would materially suffer by waiting until Monday November 2 morning. Current operator releases still list October 30 paving and October 29 busway/tunnel notices as latest: this weekend busway restrictions and Monday 1 a.m. tunnel closure already have the October 30 published owner. Oakland paving begins Monday evening and can wait for Monday review. County election-update page shows existing October 23 election notice; no new urgent change verified. Current local-news scan supplied no independently verified immediate opening or closure requiring an additional page. No evergreen addition or old event repackaged as breaking news.",
+      "coverage_check": "Clean temporary checkout fetched origin/main and remained at cd71e2c9d70efb35f772f6422706598bf5f4b2ea. Existing transit and election owners checked. Active-task inventory showed this Wire task and unrelated tasks; no other observed Wire publisher. Original cloud-placeholder checkout left untouched.",
+      "workspace": "/private/tmp/wire-timely-20261028",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 1 reserved allocation record read; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-01",
+        "date_range": "2026-10-24/2026-10-30",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 1,
+        "impressions": 3,
+        "average_position": 7.3,
+        "observed_pages": [
+          {
+            "slug": "kiski-precision-machining-apprenticeship-guide",
+            "clicks": 1,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly Web/News comparison recorded October 27; next weekly review can use newly settled data. Raw snapshot private at reports/timely-2026-11-01/gsc-news.txt; average position is historical."
+      },
+      "sitemaps": {
+        "checked_date": "2026-11-01",
+        "all_three_http_status": 200,
+        "news_and_directory_hashes_unchanged": true,
+        "main_hash": "09c5c88e8555650b895f4aceabe6048a68253fb21868af602552866e9a318ae7",
+        "main_changed_by_other_releases": true,
+        "submitted": [],
+        "reason": "All three live map hashes unchanged from October 31 check; no content release in this run and no resubmissions. Main map includes other guide releases and remains available at its already submitted URL for periodic retrieval. No indexing claim.",
+        "private_evidence": "reports/timely-2026-11-01/live-sitemap-check.json"
+      },
+      "publication": null
     }
   ]
 }
