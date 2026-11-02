@@ -1397,6 +1397,111 @@
         "private_evidence": "reports/timely-2026-11-01/live-sitemap-check.json"
       },
       "publication": null
+    },
+    {
+      "date": "2026-11-02",
+      "status": "refreshed_verified",
+      "slug": "prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+      "why_cannot_wait": "Overnight Fifth Avenue paving begins tonight and is scheduled through November 7; waiting for the following Monday batch would miss its entire useful advance-planning window. Existing transit notice refreshed instead of creating competing coverage.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/paving-to-impact-fifth-avenue-in-oakland-next-week--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/newsroom/news-releases/mt.-washington-transit-tunnel-to-close-for-electrical-work-pittsburgh-regional-transit",
+        "https://www.rideprt.org/newsroom/news-releases/portion-of-dr.-martin-luther-king-jr.-east-busway-to-close-this-weekend--pittsburgh-regional-transit",
+        "https://www.rideprt.org/detours/"
+      ],
+      "coverage_check": "Fresh clone of current main 4f1f24f created after temporary-file cleanup removed old checkout Git metadata. Original cloud-placeholder checkout untouched. Existing week-of-November-2 transit owner refreshed, original October 30 publication date retained, past weekend busway window explicitly archived. No observed concurrent Wire publisher.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "Read November 2 partial_daily_progress; observed entity guide allocation, no Wire allocation conflict. No ledger allocations changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-02",
+        "date_range": "2026-10-25/2026-10-31",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 1,
+        "impressions": 3,
+        "average_position": 7.3,
+        "observed_pages": [
+          {
+            "slug": "kiski-precision-machining-apprenticeship-guide",
+            "clicks": 1,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly comparison last recorded October 27; next weekly review due November 3. Raw evidence private at reports/timely-2026-11-02/gsc-news.txt. Average position is historical, not a current rank."
+      },
+      "validation": {
+        "body_words_including_status_banner": 550,
+        "all_six_primary_links_http_status": 200,
+        "complete_diff_reviewed": true,
+        "production_build_quality_check": {
+          "pages": 4157,
+          "errors": 0
+        },
+        "new_post_py": "Existing house-template article updated in place; no new page generated.",
+        "text_only": true,
+        "original_datePublished_preserved": "2026-10-30",
+        "dateModified": "2026-11-02"
+      },
+      "publication": {
+        "checked_utc": "2026-11-02T14:07:41.879234+00:00",
+        "content_commit": "515b4e967abfb6d6901a997b648990f88f79df8a",
+        "deployment_id": "dpl_EX4y74sbznsDNbDXjzQJrW6rwzny",
+        "production_state": "READY",
+        "article_url": "https://www.thepittsburghwire.com/news/prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-11-02",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "f28203ff23cefb92c0639ac17b9f8dac7d86ad3955015d09f1e7998d71c22ba5",
+            "urls": 3591,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "7db21e1d5317395f94f40cf33ab05f53ccf51700900b9f1bb23de0e2c91fdae6",
+            "urls": 0,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
+            "urls": 2806,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml"
+        ],
+        "accepted_at_utc": "2026-11-02T14:07:54.964Z",
+        "news_map": "Aged-out original article removed from two-day feed; empty valid feed reachable, not manually resubmitted. Publication date not recycled.",
+        "directory_map": "Unchanged; not resubmitted. GSC reports November 1 successful read, 2,806 pages.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-02/main-sitemap-accepted.png"
+      }
     }
   ]
 }
