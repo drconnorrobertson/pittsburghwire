@@ -1,14 +1,14 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News maps accepted after exact production and live Election Day notice verification. Directory unchanged; submission does not prove indexing.",
+  "reason": "Changed reachable main sitemap accepted after exact production and live yard-debris refresh verification. News and directory maps unchanged; not resubmitted. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "b655070e5eda870a45c95adcdab383e7538e6e00f7d345feb619258f446ea4d5",
+      "sha256": "010949087efd7b8ec655163282109d265c99fd9bf2a8d385167b03aec94d98f8",
       "accepted": true,
-      "accepted_date": "2026-11-03",
-      "accepted_at_utc": "2026-11-03T14:06:42.071Z"
+      "accepted_date": "2026-11-04",
+      "accepted_at_utc": "2026-11-04T14:09:53.421Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
@@ -27,24 +27,24 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-11-03",
-  "submitted_commit": "be5342f556242bf85575d5e6e92603854f91103d",
-  "next_routine_check_not_before": "2026-11-04",
+  "submitted_date": "2026-11-04",
+  "submitted_commit": "b2d98a26828d5d6640ecc17f9b4def543724441b",
+  "next_routine_check_not_before": "2026-11-05",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-11-03T14:06:08.462752+00:00",
-    "content_commit": "be5342f556242bf85575d5e6e92603854f91103d",
-    "deployment_id": "dpl_DWTzcPqmEtRtGvTDzB8WqKr3ML1w",
+    "checked_utc": "2026-11-04T14:09:37.418347+00:00",
+    "content_commit": "b2d98a26828d5d6640ecc17f9b4def543724441b",
+    "deployment_id": "dpl_8FVojTjXfStxrtsimYS48EBSihGH",
     "production_state": "READY",
-    "article_url": "https://www.thepittsburghwire.com/news/pittsburgh-election-day-childcare-citiparks-closures-november-3-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/pittsburgh-fall-yard-waste-collection-november-7-2026",
     "article_status": 200,
     "canonical_matches": true,
     "indexable": true,
-    "datePublished": "2026-11-03",
-    "dateModified": "2026-11-03",
+    "datePublished": "2026-10-13",
+    "dateModified": "2026-11-04",
     "maps": {
       "sitemap.xml": {
-        "sha256": "b655070e5eda870a45c95adcdab383e7538e6e00f7d345feb619258f446ea4d5",
+        "sha256": "010949087efd7b8ec655163282109d265c99fd9bf2a8d385167b03aec94d98f8",
         "urls": 3592,
         "http_status": 200
       },
@@ -60,10 +60,10 @@
       }
     },
     "discovery_pages_checked": [
-      "/",
       "/news/",
       "/news/neighborhoods/"
-    ]
+    ],
+    "expired_election_notice_removed_from_homepage": true
   },
   "pending_changed_sitemaps": [],
   "submission_history": [
@@ -381,16 +381,30 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-11-04",
+      "submitted_commit": "b2d98a26828d5d6640ecc17f9b4def543724441b",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "010949087efd7b8ec655163282109d265c99fd9bf2a8d385167b03aec94d98f8",
+          "accepted": true,
+          "accepted_date": "2026-11-04",
+          "accepted_at_utc": "2026-11-04T14:09:53.421Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-11-03",
+    "submitted_date": "2026-11-04",
     "changed_sitemaps_accepted": [
-      "sitemap.xml",
-      "news-sitemap.xml"
+      "sitemap.xml"
     ],
+    "news_map_resubmitted": false,
     "directory_map_resubmitted": false,
-    "private_screenshot": "reports/timely-2026-11-03/news-sitemap-accepted.png"
+    "private_screenshot": "reports/timely-2026-11-04/main-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",

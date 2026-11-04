@@ -1644,6 +1644,113 @@
         "indexing_claimed": false,
         "private_evidence": "reports/timely-2026-11-03/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-11-04",
+      "status": "refreshed_verified",
+      "slug": "pittsburgh-fall-yard-waste-collection-november-7-2026",
+      "why_cannot_wait": "Residents must prepare paper bags and compliant branch bundles before Saturday November 7 at 6 a.m. Waiting until Monday November 9 would miss the collection. Existing October 13 article updated with November 2 official confirmation, bag-weight limit and drop-off details; no competing page created.",
+      "sources": [
+        "https://www.pittsburghpa.gov/News-articles/Homepage/DPW-Environmental-Services-Collecting-Fall-Yard-Debris-Citywide-on-Saturday-November-7-2026",
+        "https://www.pittsburghpa.gov/files/assets/city/v/1/dpw/documents/recycling/cop_recycling-mailer-2026_central-east_lr.pdf",
+        "https://www.pittsburghpa.gov/Resident-Services/Trash-Recycling/Collection-Schedule-and-Newsletter"
+      ],
+      "coverage_check": "Fetched current main 2f1e580e; existing yard-waste owner found and refreshed. Original October 13 publication date retained. No other observed Wire publisher in active-task inventory; original cloud-placeholder checkout untouched. Expired Election Day notice archived and removed from homepage promotion.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 4 partial_daily_progress record read; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-04",
+        "date_range": "2026-10-27/2026-11-02",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 2,
+        "average_position": 10,
+        "observed_pages": [
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          },
+          {
+            "slug": "yinzers-in-the-burgh-strip-district-store-guide",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 18
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly Web/News comparison completed November 3. Raw snapshot private at reports/timely-2026-11-04/gsc-news.txt. Historical position is not a current-rank promise."
+      },
+      "validation": {
+        "words_including_status_banner": 650,
+        "source_links_http_status": 200,
+        "source_verification": "Full current city notice read in supported browser after web fetch 403; private snapshot saved. All three linked source URLs returned HTTP 200.",
+        "complete_diff_reviewed": true,
+        "production_build_quality_check": {
+          "pages": 4158,
+          "errors": 0
+        },
+        "text_only": true,
+        "original_datePublished_preserved": "2026-10-13",
+        "dateModified": "2026-11-04",
+        "expiry": "2026-11-08T00:00:00-05:00",
+        "new_post_py": "Existing house-template article refreshed in place; no new page generated."
+      },
+      "publication": {
+        "checked_utc": "2026-11-04T14:09:37.418347+00:00",
+        "content_commit": "b2d98a26828d5d6640ecc17f9b4def543724441b",
+        "deployment_id": "dpl_8FVojTjXfStxrtsimYS48EBSihGH",
+        "production_state": "READY",
+        "article_url": "https://www.thepittsburghwire.com/news/pittsburgh-fall-yard-waste-collection-november-7-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-10-13",
+        "dateModified": "2026-11-04",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "010949087efd7b8ec655163282109d265c99fd9bf2a8d385167b03aec94d98f8",
+            "urls": 3592,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "0d2fa7aeff07c32cd9448bbb22006add2f5e9d042e19216e0cb667bdf227e361",
+            "urls": 1,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
+            "urls": 2806,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/news/",
+          "/news/neighborhoods/"
+        ],
+        "expired_election_notice_removed_from_homepage": true
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml"
+        ],
+        "accepted_at_utc": "2026-11-04T14:09:53.421Z",
+        "news_map": "Hash unchanged; not resubmitted. Refreshed October 13 article not inserted into two-day News feed.",
+        "directory_map": "Hash unchanged; not resubmitted. GSC November 3 successful read, 2,806 pages.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-04/main-sitemap-accepted.png"
+      },
+      "research_followup": [
+        {
+          "intent": "28th Street Bridge outbound lane restriction",
+          "source": "https://www.pittsburghpa.gov/News-articles/Homepage/28th-Street-Bridge-Outbound-Lane-to-Close-November-3-Inbound-Lane-Remains-Open",
+          "status": "Candidate observed on official homepage; full release not yet reviewed. Verify current detour and restrictions before publication. No reopening date claimed."
+        }
+      ]
     }
   ]
 }
