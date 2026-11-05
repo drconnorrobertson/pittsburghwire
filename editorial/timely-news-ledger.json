@@ -1751,6 +1751,102 @@
           "status": "Candidate observed on official homepage; full release not yet reviewed. Verify current detour and restrictions before publication. No reopening date claimed."
         }
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "status": "published_verified",
+      "slug": "28th-street-bridge-outbound-closure-detours-november-2026",
+      "why_cannot_wait": "Directional vehicle closure, outbound 54D detour and pedestrian sidewalk change began November 3 and affect trips before the next Monday batch. Full official release verified today; announcement date clearly distinguished from this publication. No end date or guaranteed rehabilitation date invented.",
+      "sources": [
+        "https://www.pittsburghpa.gov/News-articles/Homepage/28th-Street-Bridge-Outbound-Lane-to-Close-November-3-Inbound-Lane-Remains-Open",
+        "https://www.rideprt.org/detours/",
+        "https://www.pittsburghpa.gov/Business-Development/Mobility-and-Infrastructure/Plans/City-Bridges"
+      ],
+      "coverage_check": "Fetched clean current main bc185ac3; no existing bridge restriction owner found. Resolves yesterday\u2019s named research candidate with full primary-source review. Recent active-task inventory showed no other observed Wire publisher.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 5 reserved record read; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-05",
+        "date_range": "2026-10-28/2026-11-03",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 2,
+        "observed_pages": [
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          }
+        ],
+        "note": "Tiny sample does not establish a trend. Weekly Web/News comparison completed November 3. Private evidence reports/timely-2026-11-05/gsc-news.txt; position is historical."
+      },
+      "validation": {
+        "article_body_words": 432,
+        "scope_note": "Focused travel notice, no firsthand reporting or invented end date. Vehicle, bus and pedestrian arrangements distinguished; 2028 construction and 2030 full reopening presented as tentative targets from city release.",
+        "all_three_source_links_http_status": 200,
+        "primary_source_evidence": "reports/timely-2026-11-05/bridge-source.txt; browser read after web fetch unavailable",
+        "complete_diff_reviewed": true,
+        "production_build_quality_check": {
+          "pages": 4159,
+          "errors": 0
+        },
+        "new_post_py": true,
+        "text_only": true,
+        "sitemap_preservation": "All previous main-map URLs preserved; exactly one article URL added."
+      },
+      "publication": {
+        "checked_utc": "2026-11-05T14:03:49.132184+00:00",
+        "content_commit": "8dc3e48831da163594073ef5baf1bbe3987a97e2",
+        "deployment_id": "dpl_Y1v9zhXRQHDv11cux3sBjgtZEDdS",
+        "production_state": "READY",
+        "article_url": "https://www.thepittsburghwire.com/news/28th-street-bridge-outbound-closure-detours-november-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-11-05",
+        "dateModified": "2026-11-05",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "ba7add86755f4199f1dab9494fc01ee91b1577c64880b2f5f1b993d2fbea141c",
+            "urls": 3593,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "c758c61b0c87b4f67626dfc31c54a565f17458aa579433e4526c69c1491c453e",
+            "urls": 1,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
+            "urls": 2806,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "accepted_at_utc": {
+          "main": "2026-11-05T14:04:10.420Z",
+          "news": "2026-11-05T14:04:28.258Z"
+        },
+        "directory_map": "Hash unchanged; not resubmitted. GSC last read November 3: Success, 2,806 pages.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-05/news-sitemap-accepted.png"
+      }
     }
   ]
 }
