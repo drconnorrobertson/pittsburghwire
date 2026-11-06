@@ -1,14 +1,14 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main and News maps accepted after exact production and live bridge-notice verification. Directory unchanged; not resubmitted. Submission does not prove indexing.",
+  "reason": "Changed reachable main sitemap accepted after exact production and live weekend-detour refresh verification. News and directory maps unchanged; not resubmitted. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "ba7add86755f4199f1dab9494fc01ee91b1577c64880b2f5f1b993d2fbea141c",
+      "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
       "accepted": true,
-      "accepted_date": "2026-11-05",
-      "accepted_at_utc": "2026-11-05T14:04:10.420Z"
+      "accepted_date": "2026-11-06",
+      "accepted_at_utc": "2026-11-06T14:00:04.183Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
@@ -22,29 +22,29 @@
       "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
       "accepted": true,
       "accepted_date": "2026-10-14",
-      "hash_record_basis": "Unchanged live November 3; not resubmitted. GSC last read November 3: Success, 2,806 pages.",
-      "last_observed_processed_date": "2026-11-03"
+      "hash_record_basis": "Unchanged live November 6; not resubmitted. GSC last read November 5: Success, 2,806 pages.",
+      "last_observed_processed_date": "2026-11-05"
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-11-05",
-  "submitted_commit": "8dc3e48831da163594073ef5baf1bbe3987a97e2",
-  "next_routine_check_not_before": "2026-11-06",
+  "submitted_date": "2026-11-06",
+  "submitted_commit": "c1485e607398d0511c67ec772727e5a579b40314",
+  "next_routine_check_not_before": "2026-11-07",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-11-05T14:03:49.132184+00:00",
-    "content_commit": "8dc3e48831da163594073ef5baf1bbe3987a97e2",
-    "deployment_id": "dpl_Y1v9zhXRQHDv11cux3sBjgtZEDdS",
+    "checked_utc": "2026-11-06T13:59:34.717030+00:00",
+    "content_commit": "c1485e607398d0511c67ec772727e5a579b40314",
+    "deployment_id": "dpl_J4q7rytTZXLgxZZCuu8TQ2x4Gadz",
     "production_state": "READY",
-    "article_url": "https://www.thepittsburghwire.com/news/28th-street-bridge-outbound-closure-detours-november-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
     "article_status": 200,
     "canonical_matches": true,
     "indexable": true,
-    "datePublished": "2026-11-05",
-    "dateModified": "2026-11-05",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-11-06",
     "maps": {
       "sitemap.xml": {
-        "sha256": "ba7add86755f4199f1dab9494fc01ee91b1577c64880b2f5f1b993d2fbea141c",
+        "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
         "urls": 3593,
         "http_status": 200
       },
@@ -416,16 +416,30 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-11-06",
+      "submitted_commit": "c1485e607398d0511c67ec772727e5a579b40314",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
+          "accepted": true,
+          "accepted_date": "2026-11-06",
+          "accepted_at_utc": "2026-11-06T14:00:04.183Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-11-05",
+    "submitted_date": "2026-11-06",
     "changed_sitemaps_accepted": [
-      "sitemap.xml",
-      "news-sitemap.xml"
+      "sitemap.xml"
     ],
+    "news_map_resubmitted": false,
     "directory_map_resubmitted": false,
-    "private_screenshot": "reports/timely-2026-11-05/news-sitemap-accepted.png"
+    "private_screenshot": "reports/timely-2026-11-06/main-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",

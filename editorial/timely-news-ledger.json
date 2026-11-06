@@ -1847,6 +1847,101 @@
         "indexing_claimed": false,
         "private_evidence": "reports/timely-2026-11-05/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-11-06",
+      "status": "refreshed_verified",
+      "slug": "prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+      "why_cannot_wait": "New November 5 PRT announcement covers November 7 parade and November 8 race detours; waiting for Monday November 9 would miss both travel windows. Existing current transit notice refreshed with separate windows and Saturday rail-transfer details. Original October 30 publication date preserved.",
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases/weekend-detours-for-veterans-day-parade-and-eqt-pittsburgh-races--pittsburgh-regional-transit/",
+        "https://www.rideprt.org/detours/",
+        "https://www.rideprt.org/newsroom/news-releases/mt.-washington-transit-tunnel-to-close-for-electrical-work-pittsburgh-regional-transit",
+        "https://www.rideprt.org/newsroom/news-releases/paving-to-impact-fifth-avenue-in-oakland-next-week--pittsburgh-regional-transit/"
+      ],
+      "coverage_check": "Clean current main ce1ff052 fetched. No existing owner for this weekend parade/race detours; current week-of-travel article refreshed instead of creating a competing variant. Expired October 31\u2013November 1 busway section removed from current body. Recent task inventory showed no other observed Wire publisher.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "No November 6 dated allocation entry found; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-06",
+        "date_range": "2026-10-28/2026-11-03",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 2,
+        "observed_pages": [
+          {
+            "slug": "scale-expo-north-point-breeze-manufacturing-october-27-2026",
+            "clicks": 0,
+            "impressions": 1,
+            "average_position": 2
+          }
+        ],
+        "note": "Report still displays October 28\u2013November 3 and the same single impression; date range not assumed to advance. Tiny sample does not establish a trend. Weekly comparison completed November 3; private snapshot reports/timely-2026-11-06/gsc-news.txt. Historical position is not a current rank."
+      },
+      "validation": {
+        "words_including_status_banner": 620,
+        "all_six_primary_links_http_status": 200,
+        "complete_diff_reviewed": true,
+        "production_build_quality_check": {
+          "pages": 4159,
+          "errors": 0
+        },
+        "text_only": true,
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-11-06",
+        "expiry": "2026-11-09T00:00:00-05:00",
+        "new_post_py": "Existing house-template article updated in place; no new page generated.",
+        "scope_note": "Parade/race estimates not stated as guaranteed restoration. No claim that previously scheduled tunnel work has finished. Institutional byline and disclosures preserved."
+      },
+      "publication": {
+        "checked_utc": "2026-11-06T13:59:34.717030+00:00",
+        "content_commit": "c1485e607398d0511c67ec772727e5a579b40314",
+        "deployment_id": "dpl_J4q7rytTZXLgxZZCuu8TQ2x4Gadz",
+        "production_state": "READY",
+        "article_url": "https://www.thepittsburghwire.com/news/prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-11-06",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
+            "urls": 3593,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "c758c61b0c87b4f67626dfc31c54a565f17458aa579433e4526c69c1491c453e",
+            "urls": 1,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
+            "urls": 2806,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml"
+        ],
+        "accepted_at_utc": "2026-11-06T14:00:04.183Z",
+        "news_map": "Hash unchanged; not resubmitted. Original publication date not recycled into two-day News feed.",
+        "directory_map": "Hash unchanged; not resubmitted. GSC last read November 5: Success, 2,806 pages.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-06/main-sitemap-accepted.png"
+      }
     }
   ]
 }
