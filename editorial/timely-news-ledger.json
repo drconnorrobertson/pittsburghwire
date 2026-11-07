@@ -1942,6 +1942,52 @@
         "indexing_claimed": false,
         "private_evidence": "reports/timely-2026-11-06/main-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-11-07",
+      "status": "skipped_no_new_publication_ready",
+      "why_cannot_wait": null,
+      "sources": [
+        "https://www.rideprt.org/newsroom/news-releases",
+        "https://www.wesanews.org/text",
+        "https://www.pittsburghpa.gov/News-articles/Homepage/Portion-of-Carnahan-Road-to-Close-for-Retaining-Wall-Construction"
+      ],
+      "assessment": "Weekend parade/race detours and November 7 yard collection already have verified current coverage. No material new change to those notices verified. New Carnegie Station meeting announcement concerns next month and can go through normal editorial review. No adequately developed distinct opening or urgent notice prepared for publication in this check; no duplicate reminder or thin event page added.",
+      "coverage_check": "Clean main 1f35ee67 fetched; current detour owner found and no unpublished source edits. Active-task inventory includes the shared weekly publisher, but no conflicting Wire checkout changes observed. Central weekly ledger has no November 7 dated allocation entry; no allocation changed.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "No dated entry observed; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-07",
+        "date_range": "2026-10-29/2026-11-04",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 0,
+        "average_position": null,
+        "observed_pages": [],
+        "note": "Report displays No data and a zero position tile; there is no measurable ranking to interpret. Prior window had one impression which has aged out. This does not prove deindexing or a traffic trend. Weekly Web/News comparison completed November 3; raw snapshot private at reports/timely-2026-11-07/gsc-news.txt."
+      },
+      "sitemaps": {
+        "checked_date": "2026-11-07",
+        "all_three_http_status": 200,
+        "all_hashes_match_last_accepted": true,
+        "submitted": [],
+        "reason": "All maps unchanged; none resubmitted. Read submission-pending record before checking.",
+        "private_evidence": "reports/timely-2026-11-07/live-sitemap-check.json"
+      },
+      "research_followup": [
+        {
+          "intent": "Carnahan Road November 9 closure",
+          "source": "https://www.pittsburghpa.gov/News-articles/Homepage/Portion-of-Carnahan-Road-to-Close-for-Retaining-Wall-Construction",
+          "verified_facts": "November 3 city notice schedules November 9 closure between Banksville Avenue and Younger Avenue, approximately six weeks, Crane Avenue detour and local-only access from Crane to Younger. Notice supplies no exact start hour.",
+          "next_review_not_before": "2026-11-08",
+          "status": "Retained for concise advance-commute coverage review; no reopening guarantee or exact start hour inferred. Do not pad a standalone article to satisfy word count."
+        }
+      ],
+      "publication": null
     }
   ]
 }
