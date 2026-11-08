@@ -11,7 +11,9 @@ html=html.replace(/<p>The \d+ profiles below span these broad categories:[^]*?<\
 const size=60,total=Math.ceil(data.length/size),site='https://www.thepittsburghwire.com';
 const card=r=>`<a class="biz-card" data-search="${escape(r.search)}" data-category="${escape(r.category)}" href="${escape(r.url)}"><div class="biz-name">${escape(r.name)}</div><div class="biz-owner">${escape(r.detail)}</div></a>`;
 // Use the existing page design and all collection/service links.
-const first=matches[0];if(!first)throw Error('No directory cards');const last=matches.at(-1);const template=html.slice(0,first.index)+'<!-- DIRECTORY_CARDS -->'+html.slice(last.index+last[0].length);
+// The collection summary above changes the string length: use fresh offsets.
+const templateMatches=[...html.matchAll(pattern)];
+const first=templateMatches[0];if(!first)throw Error('No directory cards');const last=templateMatches.at(-1);const template=html.slice(0,first.index)+'<!-- DIRECTORY_CARDS -->'+html.slice(last.index+last[0].length);
 const nav=n=>`<!-- directory-pagination:start --><nav id="directory-pages" aria-label="Directory pages"><p>Browse ${data.length.toLocaleString()} profiles. Page ${n} of ${total}. Search checks all profiles.</p>${Array.from({length:total},(_,i)=>{const p=i+1;return `<a href="${p===1?'/directory':'/directory/page/'+p+'/'}"${p===n?' aria-current="page"':''}>${p}</a>`;}).join(' · ')}</nav><!-- directory-pagination:end -->`;
 for(let n=1;n<=total;n++){
  const rows=data.slice((n-1)*size,n*size),url=site+(n===1?'/directory':'/directory/page/'+n+'/');let page=template.replace('<!-- DIRECTORY_CARDS -->',rows.map(card).join('\n'));
