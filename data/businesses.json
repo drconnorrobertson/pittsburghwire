@@ -3252,15 +3252,19 @@
     "address": "5208 Butler St. Pittsburgh, Pennsylvania 15201",
     "phone": "+1-412-781-2082",
     "source_category": "Floral",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Pittsburgh",
     "source_excerpt": "City Grows is an organic garden and gift shop that offers products such as seeds, soils, amendments, pots, tools, as…",
-    "description": "City Grows: Floral in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Upper Lawrenceville garden and gift shop; use the Butler Street location for current visit enquiries.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
-    }
+      "status": "listed",
+      "checked": "2026-11-08",
+      "url": "https://city-grows.square.site/",
+      "links": {},
+      "topics": []
+    },
+    "published": "2026-10-07"
   },
   "city-kitchen": {
     "name": "City Kitchen",
@@ -25077,20 +25081,20 @@
   },
   "phelps-nursery-pgh-north-inc": {
     "name": "Phelps Nursery PGH, North Inc.",
-    "website": "http://www.phelpsnursery.com",
+    "website": "https://www.phelpsnursery.com/",
     "source": "https://members.pghnorthchamber.com/list/member/phelps-nursery-pgh-north-inc-7786",
     "source_name": "Pittsburgh North Regional Chamber",
     "address": "21201 Route 19, Cranberry Twp, PA 16066",
     "phone": "7244521111",
     "source_category": "Landscape and Lawn Care",
-    "checked": "2026-10-07",
-    "category": "trades-and-services",
+    "checked": "2026-11-08",
+    "category": "retail",
     "city": "Cranberry Township",
     "source_excerpt": "Retail, wholesale garden center, landscape supply yard and nursery operation serving the greater Pittsburgh area…",
-    "description": "Phelps Nursery PGH, North Inc.: Landscape and Lawn Care in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Cranberry Township Phelps Nursery branch; keep its contact separate from West, USC and Beaver.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.phelpsnursery.com/",
       "title": "Nursery & Landscape Supply Yard | Phelps Nursery",
       "description_excerpt": "Retail, wholesale garden center, landscape supply yard and nursery operation serving the greater Pittsburgh area…",
@@ -25119,7 +25123,8 @@
       ]
     },
     "source_excerpt_url": "https://www.phelpsnursery.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "pinnacle-financial-strategies-llc-vic-conrad-cfp": {
     "name": "PINNACLE Financial Strategies, LLC - Vic Conrad, CFP",
@@ -79104,13 +79109,13 @@
     "source": "https://business.westmorelandchamber.com/directory/Details/joseph-s-nursery-garden-center-llc-4816105",
     "source_name": "Westmoreland County Chamber of Commerce",
     "source_category": "Landscaping-Exterior & Interior Services, Building, Landscaping, Home Supplies",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "professional-services",
     "source_excerpt": "Joseph's Nursery's garden center has in-season plants & flowers, landscaping designs, seasonal snow plowing &…",
-    "description": "Joseph's Nursery & Garden Center, LLC: Landscaping-Exterior & Interior Services, Building, Landscaping, Home Supplies in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Monessen garden center with landscaping and estimate enquiries.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://josephsnursery.net/",
       "title": "Joseph's Nursery | Garden Center | Monessen PA",
       "description_excerpt": "Joseph's Nursery's garden center has in-season plants & flowers, landscaping designs, seasonal snow plowing &…",
@@ -79133,7 +79138,8 @@
       ]
     },
     "source_excerpt_url": "https://josephsnursery.net/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "roto-rooter": {
     "name": "Roto Rooter",
@@ -82305,17 +82311,17 @@
     "address": "201 Blue Spruce Way, Murrysville, PA 15668",
     "city": "Murrysville",
     "phone": "4128041926",
-    "website": "http://thrivehouseplants.net/",
+    "website": "https://www.thrivehouseplants.net/",
     "source": "https://business.westmorelandchamber.com/directory/Details/thrive-houseplants-llc-4814912",
     "source_name": "Westmoreland County Chamber of Commerce",
     "source_category": "Specialty Stores & Services",
-    "checked": "2026-10-07",
-    "category": "professional-services",
+    "checked": "2026-11-08",
+    "category": "retail",
     "source_excerpt": "thrive, houseplant, house plant, live plant, indoor plant, for sale, home decor, plant accessories, basket,…",
-    "description": "Thrive Houseplants LLC: Specialty Stores & Services in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Murrysville houseplant shop with accessories and a dated workshop calendar.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.thrivehouseplants.net/",
       "title": "Home | Thrive Houseplants",
       "description_excerpt": "thrive, houseplant, house plant, live plant, indoor plant, for sale, home decor, plant accessories, basket,…",
@@ -82332,7 +82338,8 @@
       ]
     },
     "source_excerpt_url": "https://www.thrivehouseplants.net/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "beeghly-co-jewelers": {
     "name": "Beeghly & Co. Jewelers",
@@ -86921,32 +86928,28 @@
     "address": "766 Shenango Road, Beaver Falls, PA 15010",
     "city": "Beaver Falls",
     "phone": "7248431930",
-    "website": "http://www.gumpfgardens.com",
+    "website": "https://gumpfgardens.com/",
     "source": "https://www.beavercountychamber.com/list/member/gumpf-gardens-695",
     "source_name": "Beaver County Chamber of Commerce",
     "source_category": "Contractors",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "trades-and-services",
     "source_excerpt": "",
-    "description": "Gumpf Gardens: Contractors in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Beaver Falls garden business with separately listed retail, landscape and lawn-care routes.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
-      "url": "http://gumpfgardens.com/",
+      "checked": "2026-11-08",
+      "url": "https://gumpfgardens.com/",
       "title": "Gumpf Gardens – Give Your Yard Some Gumpf",
       "description_excerpt": "",
       "links": {
         "about": {
-          "url": "http://gumpfgardens.com/about-us/",
-          "label": "about us"
+          "url": "https://gumpfgardens.com/about-us/",
+          "label": "Business history"
         },
         "contact": {
-          "url": "http://gumpfgardens.com/contact-us/",
-          "label": "contact us"
-        },
-        "careers": {
-          "url": "https://gumpfgardens.com/employment/",
-          "label": "employment"
+          "url": "https://gumpfgardens.com/contact-us/",
+          "label": "Contact"
         }
       },
       "topics": [],
@@ -86954,7 +86957,8 @@
         "gumpf",
         "gardens"
       ]
-    }
+    },
+    "published": "2026-10-07"
   },
   "huntington-bank-beaver": {
     "name": "Huntington Bank - Beaver",
@@ -94888,14 +94892,14 @@
     "address": "104 Broughton Road, Bethel Park, PA 15102",
     "phone": "412-532-6180",
     "source_category": "Houseplant Shop",
-    "checked": "2026-10-13",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Bethel Park",
     "source_excerpt": "",
-    "description": "Houseplant shop with online shopping, pickup and soil/repotting information. Confirm current hours directly because the homepage and service-page schedules differ.",
+    "description": "Bethel Park houseplant shop with a DIY Plant Bar, repotting, pickup and separate installation, maintenance and event-rental enquiries.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-08",
       "url": "https://rubyflora.com/",
       "title": "Ruby Flora Plant Shop",
       "description_excerpt": "",
@@ -94914,7 +94918,8 @@
         "ruby",
         "flora"
       ]
-    }
+    },
+    "published": "2026-10-13"
   },
   "the-shelf-love-society": {
     "name": "The Shelf Love Society",
@@ -100517,6 +100522,501 @@
       "topics": [],
       "identity_tokens": [
         "pro bike+run — monroeville"
+      ]
+    }
+  },
+  "cavacini-garden-center": {
+    "name": "Cavacini Garden Center",
+    "website": "https://www.cavacinigardencenter.com/",
+    "source": "https://www.cavacinigardencenter.com/page/Garden-Center",
+    "source_name": "Cavacini Garden Center official information",
+    "address": "100 50th Street, Pittsburgh, PA 15201",
+    "city": "Pittsburgh",
+    "phone": "412-687-2010",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Lawrenceville garden center with plants, bulk and bagged materials, and a separate landscaping enquiry route. Customer parking entrance is on 51st Street.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.cavacinigardencenter.com/",
+      "title": "Cavacini Garden Center",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.cavacinigardencenter.com/Contact-Us",
+          "label": "Contact and customer entrance"
+        },
+        "services": {
+          "url": "https://www.cavacinigardencenter.com/Landscaping-Services",
+          "label": "Landscaping enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cavacini garden center"
+      ]
+    }
+  },
+  "plumline-nursery": {
+    "name": "Plumline Nursery",
+    "website": "https://www.plumlinenursery.com/",
+    "source": "https://www.plumlinenursery.com/garden-center",
+    "source_name": "Plumline Nursery official information",
+    "address": "4151 Logan Ferry Road, Murrysville, PA 15668",
+    "city": "Murrysville",
+    "phone": "724-327-6775",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Murrysville nursery and garden center with delivery, placement, planting and separately documented purchase policies.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.plumlinenursery.com/",
+      "title": "Plumline Nursery",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.plumlinenursery.com/contact-plumline-nursery",
+          "label": "Current contact"
+        },
+        "services": {
+          "url": "https://www.plumlinenursery.com/home-delivery",
+          "label": "Delivery and planting"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "plumline nursery"
+      ]
+    }
+  },
+  "bedners-farm-and-greenhouse": {
+    "name": "Bedner’s Farm & Greenhouse",
+    "website": "https://www.bednersgreenhouse.com/",
+    "source": "https://www.bednersgreenhouse.com/about-us/",
+    "source_name": "Bedner’s Farm & Greenhouse official information",
+    "address": "315 Coleman Road, McDonald, PA 15057",
+    "city": "McDonald",
+    "phone": "724-926-2541",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "McDonald garden center and landscape operation. Homepage says retail is closed for the season and lists April 1, 2027 reopening; landscape enquiries remain available.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.bednersgreenhouse.com/",
+      "title": "Bedner’s Farm & Greenhouse",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.bednersgreenhouse.com/about-us/",
+          "label": "Family business history"
+        },
+        "services": {
+          "url": "https://www.bednersgreenhouse.com/landscaping-design/",
+          "label": "Year-round landscape enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "bedner’s farm & greenhouse"
+      ]
+    }
+  },
+  "shadyside-nursery": {
+    "name": "Shadyside Nursery",
+    "website": "https://theshadysidenursery.com/",
+    "source": "https://theshadysidenursery.com/",
+    "source_name": "Shadyside Nursery official information",
+    "address": "510 Maryland Avenue, Pittsburgh, PA 15232",
+    "city": "Pittsburgh",
+    "phone": "412-361-0610",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Seasonal Shadyside nursery with a separate year-round contracting enquiry route.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://theshadysidenursery.com/",
+      "title": "Shadyside Nursery",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "shadyside nursery"
+      ]
+    }
+  },
+  "chapons-greenhouse": {
+    "name": "Chapon’s Greenhouse",
+    "website": "https://chaponsgreenhouse.com/",
+    "source": "https://chaponsgreenhouse.com/",
+    "source_name": "Chapon’s Greenhouse official information",
+    "address": "4846 Streets Run Road, Pittsburgh, PA 15236",
+    "city": "Pittsburgh",
+    "phone": "412-881-1520",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Garden center with delivery, installation, design and planter enquiries; call to verify stock.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://chaponsgreenhouse.com/",
+      "title": "Chapon’s Greenhouse",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "chapon’s greenhouse"
+      ]
+    }
+  },
+  "hahn-nursery": {
+    "name": "Hahn Nursery Garden Center and Greenhouses",
+    "website": "https://hahnnursery.com/",
+    "source": "https://hahnnursery.com/plant-material/",
+    "source_name": "Hahn Nursery Garden Center and Greenhouses official information",
+    "address": "5443 Babcock Boulevard, Pittsburgh, PA 15237",
+    "city": "Pittsburgh",
+    "phone": "412-635-7475",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "North Hills nursery with published consultation, delivery and planting service information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://hahnnursery.com/",
+      "title": "Hahn Nursery Garden Center and Greenhouses",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "hahn nursery garden center and greenhouses"
+      ]
+    }
+  },
+  "best-feeds-garden-centers": {
+    "name": "Best Feeds Garden Centers",
+    "website": "https://www.bestfeedsgardencenters.com/",
+    "source": "https://www.bestfeedsgardencenters.com/tree-shrub-products",
+    "source_name": "Best Feeds Garden Centers official information",
+    "address": "2105 Babcock Boulevard, Pittsburgh, PA 15209",
+    "city": "Pittsburgh",
+    "phone": "412-822-7777",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Garden-center business with Pittsburgh and Gibsonia contacts, nursery plants and bulk-material enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.bestfeedsgardencenters.com/",
+      "title": "Best Feeds Garden Centers",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "best feeds garden centers"
+      ]
+    }
+  },
+  "sewickley-creek-greenhouse": {
+    "name": "Sewickley Creek Greenhouse",
+    "website": "https://www.sewickleycreekgreenhouse.com/",
+    "source": "https://www.sewickleycreekgreenhouse.com/",
+    "source_name": "Sewickley Creek Greenhouse official information",
+    "address": "2639 Big Sewickley Creek Road, Sewickley, PA 15143",
+    "city": "Sewickley",
+    "phone": "724-935-8500",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Seasonal greenhouse and holiday retail destination; verify the current visit schedule directly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.sewickleycreekgreenhouse.com/",
+      "title": "Sewickley Creek Greenhouse",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "sewickley creek greenhouse"
+      ]
+    }
+  },
+  "quality-gardens": {
+    "name": "Quality Gardens",
+    "website": "https://quality-gardens.com/",
+    "source": "https://quality-gardens.com/location/",
+    "source_name": "Quality Gardens official information",
+    "address": "409 Route 228, Valencia, PA 16059",
+    "city": "Valencia",
+    "phone": "724-625-2770",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Valencia garden center with delivery, design, fundraising and a separately documented plant guarantee.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://quality-gardens.com/",
+      "title": "Quality Gardens",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "quality gardens"
+      ]
+    }
+  },
+  "shrubs-n-stuf": {
+    "name": "Shrubs-N-Stuf",
+    "website": "https://www.shrubsnstuf.com/",
+    "source": "https://www.shrubsnstuf.com/",
+    "source_name": "Shrubs-N-Stuf official information",
+    "address": "5780 Library Road, Bethel Park, PA 15102",
+    "city": "Bethel Park",
+    "phone": "412-835-1333",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Bethel Park garden center with plant collections and bulk mulch, soil, compost and sod enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.shrubsnstuf.com/",
+      "title": "Shrubs-N-Stuf",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "shrubs-n-stuf"
+      ]
+    }
+  },
+  "soil-sisters-plant-nursery": {
+    "name": "Soil Sisters Plant Nursery",
+    "website": "https://www.soilsistersplantnursery.com/",
+    "source": "https://www.soilsistersplantnursery.com/",
+    "source_name": "Soil Sisters Plant Nursery official information",
+    "address": "123 Beltzhoover Avenue, Pittsburgh, PA 15210",
+    "city": "Pittsburgh",
+    "phone": "412-728-1770",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Allentown plant shop and nursery founded by sisters Raynise and TaRay Kelly.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.soilsistersplantnursery.com/",
+      "title": "Soil Sisters Plant Nursery",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "soil sisters plant nursery"
+      ]
+    }
+  },
+  "bartsch-gardens": {
+    "name": "Bartsch Gardens",
+    "website": "https://www.bartschgardens.com/",
+    "source": "https://www.bartschgardens.com/",
+    "source_name": "Bartsch Gardens official information",
+    "address": "155 Hahn Road, Pittsburgh, PA 15209",
+    "city": "Pittsburgh",
+    "phone": "412-881-3773",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Family garden business with locally produced plants and seasonal fundraising enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.bartschgardens.com/",
+      "title": "Bartsch Gardens",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "bartsch gardens"
+      ]
+    }
+  },
+  "urban-jungle-regent-square": {
+    "name": "Urban Jungle of Regent Square",
+    "website": "https://www.urbanjungleofregentsquare.com/",
+    "source": "https://www.urbanjungleofregentsquare.com/",
+    "source_name": "Urban Jungle of Regent Square official information",
+    "address": "1119 South Braddock Avenue, Swissvale, PA 15218",
+    "city": "Swissvale",
+    "phone": "",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Regent Square plant and artisan-goods shop operated by Dalene Stangl; use the published visit information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.urbanjungleofregentsquare.com/",
+      "title": "Urban Jungle of Regent Square",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "urban jungle of regent square"
+      ]
+    }
+  },
+  "laurel-nursery-garden-center": {
+    "name": "Laurel Nursery/Garden Center",
+    "website": "https://www.laurelnurseryinc.com/",
+    "source": "https://www.laurelnurseryinc.com/",
+    "source_name": "Laurel Nursery/Garden Center official information",
+    "address": "3648 Route 30, Latrobe, PA 15650",
+    "city": "Latrobe",
+    "phone": "724-539-7022",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Latrobe nursery with indoor and outdoor plants, garden supplies, seasonal goods and delivery enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.laurelnurseryinc.com/",
+      "title": "Laurel Nursery/Garden Center",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "laurel nursery/garden center"
+      ]
+    }
+  },
+  "brenckles-greenhouses-mount-troy": {
+    "name": "Brenckle’s Greenhouses — Mount Troy",
+    "website": "https://brenckles.com/",
+    "source": "https://brenckles.com/",
+    "source_name": "Brenckle’s Greenhouses — Mount Troy official information",
+    "address": "3815 Mount Troy Road, Pittsburgh, PA 15212",
+    "city": "Pittsburgh",
+    "phone": "412-821-2566",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Mount Troy greenhouse with seasonal retail; the published 2026 timetable ends November 1.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://brenckles.com/",
+      "title": "Brenckle’s Greenhouses — Mount Troy",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "brenckle’s greenhouses — mount troy"
+      ]
+    }
+  },
+  "phelps-nursery-upper-st-clair": {
+    "name": "Phelps Nursery — Upper St. Clair",
+    "website": "https://www.phelpsnursery.com/",
+    "source": "https://www.phelpsnursery.com/usc/",
+    "source_name": "Phelps Nursery — Upper St. Clair official information",
+    "address": "1877 Painters Run Road, Pittsburgh, PA 15241",
+    "city": "Upper St. Clair",
+    "phone": "412-221-3070",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "A distinct Phelps Nursery branch; verify location-specific products, order handling and schedule.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.phelpsnursery.com/",
+      "title": "Phelps Nursery — Upper St. Clair",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "phelps nursery — upper st. clair"
+      ]
+    }
+  },
+  "phelps-nursery-west": {
+    "name": "Phelps Nursery — West",
+    "website": "https://www.phelpsnursery.com/",
+    "source": "https://www.phelpsnursery.com/west/",
+    "source_name": "Phelps Nursery — West official information",
+    "address": "5477 Steubenville Pike, McKees Rocks, PA 15136",
+    "city": "McKees Rocks",
+    "phone": "412-788-8009",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "A distinct Phelps Nursery branch; verify location-specific products, order handling and schedule.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.phelpsnursery.com/",
+      "title": "Phelps Nursery — West",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "phelps nursery — west"
+      ]
+    }
+  },
+  "phelps-nursery-beaver": {
+    "name": "Phelps Nursery — Beaver",
+    "website": "https://www.phelpsnursery.com/",
+    "source": "https://www.phelpsnursery.com/broadhead/",
+    "source_name": "Phelps Nursery — Beaver official information",
+    "address": "3168 Brodhead Road, Aliquippa, PA 15001",
+    "city": "Aliquippa",
+    "phone": "724-378-3202",
+    "source_category": "Garden Centers and Plant Shops",
+    "category": "retail",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "A distinct Phelps Nursery branch; verify location-specific products, order handling and schedule.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.phelpsnursery.com/",
+      "title": "Phelps Nursery — Beaver",
+      "description_excerpt": "",
+      "links": {},
+      "topics": [],
+      "identity_tokens": [
+        "phelps nursery — beaver"
       ]
     }
   }
