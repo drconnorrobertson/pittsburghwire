@@ -4,20 +4,20 @@
     "businesses": 5000
   },
   "published": {
-    "articles": 520,
-    "businesses": 2846
+    "articles": 526,
+    "businesses": 2860
   },
   "remaining_to_count_targets": {
-    "articles": 4480,
-    "businesses": 2154
+    "articles": 4474,
+    "businesses": 2140
   },
   "article_length_only": {
-    "at_least_600_words": 278,
-    "below_600_words": 221,
+    "at_least_600_words": 285,
+    "below_600_words": 220,
     "unparsed": 21
   },
-  "individually_reviewed_business_features": 31,
-  "verified_business_briefs": 27,
+  "individually_reviewed_business_features": 36,
+  "verified_business_briefs": 42,
   "identical_article_body_groups": [],
   "feature_validation_errors": [],
   "limitations": [
