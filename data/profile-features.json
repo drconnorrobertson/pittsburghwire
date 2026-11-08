@@ -2260,6 +2260,14 @@
         "paragraphs": [
           "The buying page describes weekday purchasing windows and asks customers with larger collections to call. Acceptance depends on titles, condition and demand; some common material may receive only a credit offer. Do not interpret a used-bookshop listing as a promise that every box will be purchased. The Downtown branch has a separate address and phone number."
         ]
+      },
+      {
+        "heading": "Record collections use their own intake conversation",
+        "source_url": "https://www.amazingbooksandrecords.com/sell-your-records.html",
+        "source_label": "Source: Record collections use their own intake conversation",
+        "paragraphs": [
+          "The operator’s record-buying page describes cash and store-credit routes and enquiries for larger collections. Its genre examples are not a promise to accept every record. Identify the collection and desired outcome before arranging a visit; a book trade and a record purchase need their own assessment. The new record-selling guide compares other local intake routes."
+        ]
       }
     ],
     "related": [
@@ -2274,6 +2282,10 @@
       {
         "url": "/directory/amazing-books-records-downtown/",
         "label": "Downtown branch"
+      },
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
       }
     ],
     "format": "verified_brief"
@@ -2523,6 +2535,672 @@
       {
         "url": "/news/pittsburgh-library-meeting-room-reservations-guide/",
         "label": "Meeting-room guide"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "pittsburgh-guitars": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "A South Side starting point",
+        "source_url": "https://pittsburghguitars.com/",
+        "source_label": "Source: A South Side starting point",
+        "paragraphs": [
+          "Pittsburgh Guitars lists 1305 East Carson Street on Pittsburgh’s South Side and 412-431-0700. Its retail categories include acoustic and electric guitars, basses, amplifiers, pedals and accessories. A visitor can begin with the kind of music they want to play rather than assuming all guitars require the same purchase. The shop’s category pages describe a range, not guaranteed availability of every model.",
+          "A useful enquiry identifies the player, the intended instrument and whether the visit is for a purchase, a repair or a lesson. Those services have different practical arrangements. This directory does not report an instrument test or recommend one particular model. If an exact item matters, ask about the actual listing before traveling and keep any stock confirmation with the intended collection details."
+        ]
+      },
+      {
+        "heading": "Buying a first instrument",
+        "source_url": "https://pittsburghguitars.com/buying-your-first-guitar/",
+        "source_label": "Source: Buying a first instrument",
+        "paragraphs": [
+          "The shop’s beginner guide distinguishes acoustic and electric choices and asks customers to consider their budget and preferred sound. It also points out the amplifier and cable needed for an electric setup. That makes the whole playing setup a more useful starting question than the guitar’s advertised price alone. A list of typical starter models is not proof that each is currently in stock.",
+          "For a child or a new adult player, describe who will use the instrument and whether a teacher has given specific requirements. Ask to understand what is included with the selected guitar and what is a separate accessory. A case, tuner, cable or amplifier should not be assumed to accompany every purchase. Check the actual package before comparing it with a different listing that may contain different components."
+        ]
+      },
+      {
+        "heading": "Repair intake and completion",
+        "source_url": "https://pittsburghguitars.com/repair/",
+        "source_label": "Source: Repair intake and completion",
+        "paragraphs": [
+          "The dedicated repair page says customers may drop off an instrument during regular business hours without an appointment, receive a claim check and get a text when it is finished. It lists work on guitars and other fretted instruments. That intake statement does not promise same-day service or establish the final cost before the instrument is assessed.",
+          "Describe the symptom and desired work clearly, including any deadline for a performance or lesson. Ask what happens if the assessment identifies work beyond the original request. Keep the claim check and the collection notice. The repair page’s process is more specific than an old general contact description, so use it for an actual service enquiry rather than assuming every employee or repair specialist is present whenever the store is open."
+        ]
+      },
+      {
+        "heading": "Selling gear is a separate decision",
+        "source_url": "https://pittsburghguitars.com/we-buy-guitars/",
+        "source_label": "Source: Selling gear is a separate decision",
+        "paragraphs": [
+          "The buying page invites sales and trade-ins of guitars, basses, amplifiers, pedals and other listed equipment. It asks customers to bring valid identification and explains that the shop completes paperwork when purchasing used gear. Those are operator instructions checked for this profile, not an independent legal interpretation. No value is established for a particular instrument here.",
+          "Bring the model, condition, modifications and included case or accessories into the conversation. A sale and a credit applied toward another item have different outcomes. Do not treat interest in used gear as acceptance of every piece, and do not infer an appraisal from an online price for another example. The related trade guide compares enquiry routes without claiming that identical-looking instruments command the same offer."
+        ]
+      },
+      {
+        "heading": "Private teaching and current information",
+        "source_url": "https://pittsburghguitars.com/lessons/",
+        "source_label": "Source: Private teaching and current information",
+        "paragraphs": [
+          "The dedicated lessons page describes individual guitar, bass and ukulele instruction at the store and directs questions to lessons@pittsburghguitars.com. An older contact FAQ still uses online-only wording, so confirm the current format when arranging a lesson. The specific lesson page and the general FAQ should not be silently combined into a promise about every teacher’s delivery method.",
+          "This profile was checked November 8, 2026. A retail purchase does not create a lesson booking or move an instrument ahead in the repair queue. Settle the relevant service with the shop and retain its confirmation. No personal visit, completed purchase, reserved teacher or repair turnaround is claimed."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      },
+      {
+        "url": "/news/pittsburgh-used-instrument-trade-in-guide/",
+        "label": "Used instrument sales and trades"
+      },
+      {
+        "url": "/news/pittsburgh-guitar-repair-drop-off-guide/",
+        "label": "Repair intake and collection"
+      },
+      {
+        "url": "/news/pittsburgh-music-lessons-three-programs-compare/",
+        "label": "Music lesson formats"
+      }
+    ]
+  },
+  "n-stuff-music": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Retail and service at Freeport Road",
+        "source_url": "https://www.nstuffmusic.com/",
+        "source_label": "Source: Retail and service at Freeport Road",
+        "paragraphs": [
+          "N Stuff Music lists 468 Freeport Road with a Pittsburgh postal address, 412-828-1003 and sales@nstuffmusic.com. The retail site separates guitars, drums, keyboards, audio, microphones, lighting and used gear. That organization makes it possible to start an enquiry with the actual kind of equipment needed rather than treating every request as a guitar purchase.",
+          "The published retail schedule differs by day and includes closed days. Check the current hours before traveling, especially if the visit depends on speaking with a service department or collecting rental equipment. A category listing does not establish that a particular model is present, and a retail opening does not by itself reserve staff time, an instrument demonstration or a repair appointment."
+        ]
+      },
+      {
+        "heading": "Guitar service has its own scope",
+        "source_url": "https://www.nstuffmusic.com/t-0-template-guitar-service-pittsburgh.aspx",
+        "source_label": "Source: Guitar service has its own scope",
+        "paragraphs": [
+          "The guitar-service page lists setups, pickup and electronics work, with different setup categories for different instrument types and mechanisms. Its published prices are a starting point for an enquiry, not a total for every instrument. Explain the model, tuning, symptoms and desired playing feel before asking what service is appropriate. A restring, a setup and replacement of a component are different requests.",
+          "If the instrument has a warranty question, identify the maker and the issue rather than assuming that a published authorized-service statement covers every repair at no charge. Ask the shop to confirm the applicable process and any approval needed. This profile does not diagnose a fault, determine warranty eligibility or promise that a listed technician is available for an immediate conversation."
+        ]
+      },
+      {
+        "heading": "Electronics service is distinct",
+        "source_url": "https://www.nstuffmusic.com/t-electronic-service-pittsburgh.aspx",
+        "source_label": "Source: Electronics service is distinct",
+        "paragraphs": [
+          "The operator publishes a separate electronics-service department for musical equipment, including new, used and vintage gear. An amplifier, keyboard or other electronic device may need a different intake route from a fretted instrument. Describe the equipment and fault to the service department before bringing an entire setup. A guitar-service price should not be applied to an unrelated electronics repair.",
+          "Keep any included accessories identifiable and ask which are needed for assessment. If an intermittent problem occurs only with a particular cable or setup, explain that behavior rather than assuming a replacement instrument is required. Let the technician define the assessment. No result or repairability claim is made here for an individual device, and general service availability does not establish a completion date."
+        ]
+      },
+      {
+        "heading": "Event rentals require eligibility and equipment details",
+        "source_url": "https://www.nstuffmusic.com/t-0-template-rentals-pittsburgh.aspx",
+        "source_label": "Source: Event rentals require eligibility and equipment details",
+        "paragraphs": [
+          "The rental page describes equipment for meetings, performances and other events, with a separate enquiry route. It publishes identification, local-contact, address, card and deposit requirements and says first-time transactions need approval before the end of the business day. It also discusses case-by-case consideration of visiting customers. Confirm the current requirements directly rather than assuming every person can rent on arrival.",
+          "For a wedding, meeting or show, identify the date, venue, equipment list and who will operate it. A rental is not automatically an installed and staffed production service. Ask what collection, return, support and setup arrangements apply to the requested gear. School band rentals and a short event-equipment rental address different uses and should not be compared as if they were the same contract."
+        ]
+      },
+      {
+        "heading": "Lessons are arranged through a separate program",
+        "source_url": "https://www.nstuffmusic.com/t-little-lesson-house.aspx",
+        "source_label": "Source: Lessons are arranged through a separate program",
+        "paragraphs": [
+          "The linked Little Lesson House describes private instruction and a recurring lesson schedule, alongside practice support and performance opportunities. It identifies an adjacent retail operation rather than turning every store visit into a teaching session. Check the teacher, format and actual schedule before buying an instrument around an assumed lesson place.",
+          "Research was checked November 8, 2026. The useful starting point is to choose the department that fits the task and provide the details it needs. This profile does not reserve equipment, enroll a student or establish current inventory. Related articles separate the purchase, repair and rental decisions so that each can be confirmed with the operator.",
+          "For a student comparing lessons and equipment, ask the teacher about the required instrument before treating a retail package as the right fit for the planned course."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      },
+      {
+        "url": "/news/pittsburgh-guitar-repair-drop-off-guide/",
+        "label": "Repair intake and collection"
+      },
+      {
+        "url": "/news/pittsburgh-event-audio-backline-rental-guide/",
+        "label": "Event audio and backline rentals"
+      },
+      {
+        "url": "/news/pittsburgh-music-lessons-three-programs-compare/",
+        "label": "Music lesson formats"
+      }
+    ]
+  },
+  "hollowood-music-and-sound": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Several music services at one address",
+        "source_url": "https://www.hollowood.com/",
+        "source_label": "Source: Several music services at one address",
+        "paragraphs": [
+          "Hollowood Music and Sound lists 601 Chartiers Avenue in McKees Rocks and 412-771-3060. Its website separates new and used retail equipment, repairs, guitar lessons, commercial installations and pro sound. The immediate planning question is which of those services a visitor needs. Buying an amplifier and arranging sound for an event are different conversations even when the same business can discuss both.",
+          "The homepage also points to Hawthorne Drum Shop on the second floor. That is a separately identified drum business with its own website and sales terms, not a reason to assume one retailer’s policy governs every transaction in the building. Use the business name and floor when arranging a collection or asking about a listed drum item. This profile does not assess step-free access or make a claim about the building’s layout beyond the operators’ location statements."
+        ]
+      },
+      {
+        "heading": "New, used and consignment enquiries",
+        "source_url": "https://www.hollowood.com/",
+        "source_label": "Source: New, used and consignment enquiries",
+        "paragraphs": [
+          "The operator invites people with guitars, amplifiers and PA equipment to ask about selling or consigning used gear. A sale and a consignment are distinct arrangements: one concerns transferring the item directly, while the other requires agreement about how it will be offered. The website’s general invitation is not an accepted offer for every item brought to the shop.",
+          "Prepare a description of the model, condition, modifications and included accessories. Ask how the chosen arrangement works before leaving equipment behind, including who sets the price and how collection or payment is handled. No commission rate or payout date is invented here. The local trade guide linked below compares other operators’ enquiry routes without supplying terms that Hollowood has not published."
+        ]
+      },
+      {
+        "heading": "Repair scope and estimates",
+        "source_url": "https://www.hollowood.com/repairs",
+        "source_label": "Source: Repair scope and estimates",
+        "paragraphs": [
+          "Hollowood’s repair page lists guitar and bass setups, fretted-instrument work and amplifier or PA repairs. It publishes starting charges and a diagnostic structure for electronics, so a headline setup figure should not be treated as the total price for an unrelated problem. Describe the fault and the equipment before asking for an estimate.",
+          "For an instrument, distinguish routine setup preferences from a broken component or structural issue. For audio equipment, identify what stops working and whether the problem depends on another part of the system. Ask which accessories the technician needs to assess the problem. This is preparation for a service conversation, not troubleshooting advice or a promise that repair is possible. Confirm the approval process for additional work and collection arrangements with the shop."
+        ]
+      },
+      {
+        "heading": "Pro sound is more than a product rental",
+        "source_url": "https://www.hollowood.com/pro-sound",
+        "source_label": "Source: Pro sound is more than a product rental",
+        "paragraphs": [
+          "The pro-sound page describes production services for different scales of events, from smaller gatherings to larger performances. That is a separate service description from the retail catalog. An organizer should identify the event type, venue, schedule and intended sound requirements before asking which support can be provided. A published range of event experience does not establish availability on a selected date.",
+          "Ask whether the proposal includes operators, transport, setup, soundcheck and the equipment needed for the actual performers or speakers. Do not infer those elements from an equipment name alone. If another supplier is furnishing part of the system, make that clear. The event-audio guide below compares a production enquiry with a customer-collected rental so the organizer can ask for the right arrangement."
+        ]
+      },
+      {
+        "heading": "Teaching has its own registration conversation",
+        "source_url": "https://www.hollowood.com/lessons",
+        "source_label": "Source: Teaching has its own registration conversation",
+        "paragraphs": [
+          "The lesson page describes guitar instruction and contains a scholarship account with relative historical wording. It does not establish a currently open scholarship place or a future deadline. Ask about today’s teacher availability and registration rather than presenting the retained account as a newly announced program.",
+          "This profile was checked November 8, 2026 from the operator’s pages. It does not report a lesson, repair, purchase or event booking. Keep the desired service and exact location together when contacting the business; a general retail enquiry should not be mistaken for confirmation that a technician, instructor or production crew has been reserved."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-used-instrument-trade-in-guide/",
+        "label": "Used instrument sales and trades"
+      },
+      {
+        "url": "/news/pittsburgh-guitar-repair-drop-off-guide/",
+        "label": "Repair intake and collection"
+      },
+      {
+        "url": "/news/pittsburgh-event-audio-backline-rental-guide/",
+        "label": "Event audio and backline rentals"
+      },
+      {
+        "url": "/news/pittsburgh-music-lessons-three-programs-compare/",
+        "label": "Music lesson formats"
+      },
+      {
+        "url": "/directory/hawthorne-drum-shop/",
+        "label": "Hawthorne Drum Shop upstairs"
+      }
+    ]
+  },
+  "preserving-record-shop": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Records within a broader concert operation",
+        "source_url": "https://www.preservingconcerts.com/",
+        "source_label": "Source: Records within a broader concert operation",
+        "paragraphs": [
+          "Preserving identifies its location at 1101 Fifth Avenue in Downtown New Kensington. The website combines concerts, record retail and booking information, but those are separate reasons to visit. This profile records the record shop within that operation rather than counting each concert room as a different retailer. A purchase of recorded music and entry to a live performance require different planning.",
+          "For someone combining a show with shopping, start with the event’s date and the shop’s current hours. A retail visit should not depend on assuming a standard weekly schedule from an old listing. For someone only browsing records, identify that purpose at the door when a concert is underway and follow the operator’s stated access procedure."
+        ]
+      },
+      {
+        "heading": "Hours are published week by week",
+        "source_url": "https://www.preservingconcerts.com/about-1",
+        "source_label": "Source: Hours are published week by week",
+        "paragraphs": [
+          "The record-shop page says the coming week’s hours are posted on social accounts each Sunday evening and provides 724-980-5170 for checking them. It also says the shop opens when concerts are happening. Those instructions are more useful than converting one week’s schedule into permanent hours. Recheck the specific day before traveling from Pittsburgh or another surrounding community.",
+          "The operator lists several physical-media formats and broad music categories, including a budget room. These descriptions support the scope of a browse, not an independently counted inventory or a guarantee of one pressing. If a visit depends on a title, artist or format, ask about it directly. A large advertised selection does not settle edition, condition or current availability."
+        ]
+      },
+      {
+        "heading": "Retail access during a concert",
+        "source_url": "https://www.preservingconcerts.com/services-7",
+        "source_label": "Source: Retail access during a concert",
+        "paragraphs": [
+          "The FAQ says a person may shop during a concert without buying a concert ticket by checking in at the door and being escorted into and out of the shop by security. That is a stated retail-access route, not permission to enter the performance without admission. Explain that the visit is only for the record shop and follow the current instructions given by staff.",
+          "The same FAQ says the venue is cash only and does not allow concert re-entry. Confirm the selected event’s instructions before making a plan that involves leaving the building between sets. Shopping access, admission and payment are different questions; a record purchase should not be assumed to include a concert ticket, reserved seat or permission to re-enter a performance."
+        ]
+      },
+      {
+        "heading": "Accessibility depends on the room",
+        "source_url": "https://www.preservingconcerts.com/services-7",
+        "source_label": "Source: Accessibility depends on the room",
+        "paragraphs": [
+          "The operator distinguishes the Underground basement from the Main Stage in its accessibility statement, describing the former as not accessible and the latter as accessible. Identify the actual room named for the event and ask about the accommodation needed before buying a ticket. The statement does not establish identical access to every part of the building.",
+          "Seating is described as first come, first served. A general admission ticket therefore should not be presented as a reserved seat. Someone who needs a particular arrangement should contact the venue about that need rather than assume that arriving at a normal shop opening time settles concert seating. This profile reports the operator’s published distinctions and does not certify the venue’s accessibility."
+        ]
+      },
+      {
+        "heading": "Proposing a show is another process",
+        "source_url": "https://www.preservingconcerts.com/venue",
+        "source_label": "Source: Proposing a show is another process",
+        "paragraphs": [
+          "Preserving’s booking page separates touring bands, local bands and promoter enquiries, with different directions for each. It describes multiple rooms and deposit-based date holds. Read the relevant route before making a proposal; an event idea or a message is not a confirmed date. Published starting rates do not establish the final cost of a particular production.",
+          "This profile was checked November 8, 2026. No event, ticket, vendor agreement or collection purchase was arranged. For readers, the related visit guide concentrates on the difference between shopping and attending; for equipment organizers, the rental guide addresses a separate question about supplying sound or backline to a show.",
+          "Keep the room name with the ticket confirmation. A Main Stage event and an Underground event can have different access and operating arrangements even though they share the same street address."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-shops-concert-visit-guide/",
+        "label": "Record shopping and concert visits"
+      },
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-event-audio-backline-rental-guide/",
+        "label": "Event audio and backline rentals"
+      },
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      }
+    ]
+  },
+  "empire-music": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Washington Road shopping",
+        "source_url": "https://empiremusic.com/",
+        "source_label": "Source: Washington Road shopping",
+        "paragraphs": [
+          "Empire Music lists 719 Washington Road in Mt. Lebanon and 412-343-5299. Its catalog includes guitars, basses, amplifiers, effects and used equipment. Confirm the exact listing rather than treating a brand category as current availability."
+        ]
+      },
+      {
+        "heading": "An enquiry before a trade",
+        "source_url": "https://empiremusic.com/pages/trade-your-gear",
+        "source_label": "Source: An enquiry before a trade",
+        "paragraphs": [
+          "The trade form asks about the instrument, condition, modifications and included materials, and distinguishes a trade from a sale. Its displayed confirmation-style text is not evidence that a reader has submitted or received an accepted offer."
+        ]
+      },
+      {
+        "heading": "Repairs have separate terms",
+        "source_url": "https://empiremusic.com/pages/repairs",
+        "source_label": "Source: Repairs have separate terms",
+        "paragraphs": [
+          "The repair page distinguishes labor charges, starting prices and technician quotes. It also sets a collection window after notification, with storage fees afterward. Ask about the selected job and current completion estimate before leaving equipment."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      },
+      {
+        "url": "/news/pittsburgh-used-instrument-trade-in-guide/",
+        "label": "Used instrument sales and trades"
+      },
+      {
+        "url": "/news/pittsburgh-guitar-repair-drop-off-guide/",
+        "label": "Repair intake and collection"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "acoustic-music-works": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Use the current South Side address",
+        "source_url": "https://acousticmusicworks.com/",
+        "source_label": "Source: Use the current South Side address",
+        "paragraphs": [
+          "The current homepage lists 1219 Bingham Street, Pittsburgh, PA 15203, 412-422-0710 and info@acousticmusicworks.com. It says no appointment is needed for the published Tuesday–Saturday shopping window. Confirm any special request before traveling."
+        ]
+      },
+      {
+        "heading": "A relocation account is historical context",
+        "source_url": "https://acousticmusicworks.com/pages/were-moving",
+        "source_label": "Source: A relocation account is historical context",
+        "paragraphs": [
+          "The retained moving page describes the shift from Squirrel Hill and a building purchase in March 2025. It is not presented here as a November 2026 opening announcement. The current catalog separates new and pre-owned fretted instruments. A trade page encountered during research contains placeholder text, so no consignment rate or acceptance policy is inferred from its navigation label."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      },
+      {
+        "url": "/news/pittsburgh-used-instrument-trade-in-guide/",
+        "label": "Used instrument sales and trades"
+      },
+      {
+        "url": "/directory/pittsburgh-guitars/",
+        "label": "Another South Side instrument shop"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "hawthorne-drum-shop": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "A separate retailer upstairs",
+        "source_url": "https://hawthornedrumshop.com/pages/hours-location",
+        "source_label": "Source: A separate retailer upstairs",
+        "paragraphs": [
+          "Hawthorne identifies its location as Floor 2 at 601 Chartiers Avenue, inside the Hollowood building in McKees Rocks. Its location page states that sales are final. Read the terms for the actual purchase rather than applying another shop’s return policy to a drum transaction."
+        ]
+      },
+      {
+        "heading": "Used equipment enquiries",
+        "source_url": "https://hawthornedrumshop.com/pages/sell-gear",
+        "source_label": "Source: Used equipment enquiries",
+        "paragraphs": [
+          "The shop invites buying and trade enquiries through chris@hawthornedrumshop.com. Include a description of the drum equipment, condition and included pieces. That invitation is not an appraisal or acceptance of every item. No unverified telephone number or access arrangement is supplied here."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-used-instrument-trade-in-guide/",
+        "label": "Used instrument sales and trades"
+      },
+      {
+        "url": "/directory/hollowood-music-and-sound/",
+        "label": "Hollowood Music downstairs"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "the-government-center": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "A North Side music destination",
+        "source_url": "https://www.thegovernmentcenter.com/about-us",
+        "source_label": "Source: A North Side music destination",
+        "paragraphs": [
+          "The Government Center identifies 715 East Street, 412-208-3262 and info@thegovernmentcenter.com. Its about page names Josh Cozby as owner and operator and describes a record-store community with performance activity."
+        ]
+      },
+      {
+        "heading": "Browse records and check the event date",
+        "source_url": "https://www.thegovernmentcenter.com/",
+        "source_label": "Source: Browse records and check the event date",
+        "paragraphs": [
+          "The homepage describes new and used records, other selected media, buying and trading, live music and listening events. The reviewed page also retains 2025 event cards. Those are past examples, not confirmed November 2026 bookings. Check the actual current listing before treating a shopping visit as an opportunity to attend a show."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-record-shops-concert-visit-guide/",
+        "label": "Record shopping and concert visits"
+      },
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "vinyl-remains": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Records on Washington Road",
+        "source_url": "https://www.vinylremainspg13.com/",
+        "source_label": "Source: Records on Washington Road",
+        "paragraphs": [
+          "Vinyl Remains lists 692 Washington Road and 412-563-3500. Its site describes used records, selected new releases, vintage audio equipment and an online Discogs route. It invites collection enquiries for cash or store credit, with credit described as a higher-value option. No amount or acceptance is promised here."
+        ]
+      },
+      {
+        "heading": "Regional shopping context",
+        "source_url": "https://www.visitpittsburgh.com/blog/pittsburgh-record-stores/",
+        "source_label": "Source: Regional shopping context",
+        "paragraphs": [
+          "VisitPITTSBURGH includes Vinyl Remains in its regional record-shop guide. Use that as discovery context, then return to the operator for the actual pressing, condition and collection arrangements. This profile replaces a prior under-review placeholder after location and service verification; it is not a newly opened business."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      },
+      {
+        "url": "/directory/empire-music/",
+        "label": "Instrument shopping nearby"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "get-hip-records": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "A label, distributor and retail operation",
+        "source_url": "https://gethip.com/about-get-hip/",
+        "source_label": "Source: A label, distributor and retail operation",
+        "paragraphs": [
+          "Get Hip identifies 1800 Columbus Avenue and 412-231-4766, with separate store-sales and mail-order email contacts. Its history traces the label to 1986 and members of The Cynics. Use the right purchase channel rather than assuming a label announcement confirms counter stock."
+        ]
+      },
+      {
+        "heading": "Dated releases and offers",
+        "source_url": "https://gethip.com/",
+        "source_label": "Source: Dated releases and offers",
+        "paragraphs": [
+          "The current homepage carries 2026 anniversary coverage and release announcements. A retained summer sale is not a current November offer. Confirm the selected title, format and fulfillment directly; no permanent discount or complete inventory count is asserted here."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      },
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-record-shops-concert-visit-guide/",
+        "label": "Record shopping and concert visits"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "attic-record-store": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "A Millvale record-shopping stop",
+        "source_url": "https://www.atticrecordstoreinc.com/",
+        "source_label": "Source: A Millvale record-shopping stop",
+        "paragraphs": [
+          "Attic Record Store lists 513 Grant Avenue with a Pittsburgh postal address, 412-821-8484 and atticrecords@verizon.net. The operator identifies the shop as being in Millvale and describes vinyl and CDs across different eras and genres."
+        ]
+      },
+      {
+        "heading": "Ask about the release and edition",
+        "source_url": "https://www.atticrecordstoreinc.com/orders",
+        "source_label": "Source: Ask about the release and edition",
+        "paragraphs": [
+          "The orders page advertises preorders and special-order enquiries. Ask whether the actual release, pressing and collection date can be confirmed rather than treating the general offer as guaranteed supply. A collection-buying invitation is also not a valuation of an individual box of records."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "music-to-my-ear": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Records and audio on Babcock Boulevard",
+        "source_url": "https://www.musictomyear.com/about/",
+        "source_label": "Source: Records and audio on Babcock Boulevard",
+        "paragraphs": [
+          "Music To My Ear lists 3003 Babcock Boulevard and 412-223-9747. Its site separates new vinyl, used vinyl, turntables and other audio categories. That range is a shopping starting point rather than proof that a particular pressing or component is currently available."
+        ]
+      },
+      {
+        "heading": "Selling a collection",
+        "source_url": "https://www.musictomyear.com/used-vinyl-records/",
+        "source_label": "Source: Selling a collection",
+        "paragraphs": [
+          "The used-vinyl page invites collection enquiries and describes review by condition, pressing and rarity. It suggests sending details ahead when a list is available. Ask about the actual material before moving a large collection; the published process does not establish a guaranteed offer or value."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-record-collection-selling-guide/",
+        "label": "Selling a record collection"
+      },
+      {
+        "url": "/news/pittsburgh-record-stores-three-vinyl-shopping-stops/",
+        "label": "Record-store comparison"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "johnstonbaughs-music-allison-park": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Keep the branch with the request",
+        "source_url": "https://www.johnstonbaughs.com/",
+        "source_label": "Source: Keep the branch with the request",
+        "paragraphs": [
+          "Johnstonbaugh’s identifies its Allison Park branch at 4842 William Flinn Highway, PA 15101, with 724-444-5660. The shared site also lists a separate Golden Mile location. Use the actual branch when arranging a visit or asking where an instrument should be collected."
+        ]
+      },
+      {
+        "heading": "School rental rather than event backline",
+        "source_url": "https://www.johnstonbaughs.com/topic/ourrentalprogram",
+        "source_label": "Source: School rental rather than event backline",
+        "paragraphs": [
+          "The school-instrument page publishes a four-month trial and subsequent rental information. Read the current contract for payments, ownership and service terms rather than treating a trial price as the total cost of owning an instrument. The event-equipment guide covers a different transaction for performances and meetings."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-school-instrument-rentals-three-programs/",
+        "label": "School rental comparison"
+      },
+      {
+        "url": "/news/pittsburgh-event-audio-backline-rental-guide/",
+        "label": "Event audio and backline rentals"
+      },
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "vittone-s-music-center": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "Greensburg location and contact",
+        "source_url": "https://business.westmorelandchamber.com/directory/Details/vittone-s-music-center-2586258",
+        "source_label": "Source: Greensburg location and contact",
+        "paragraphs": [
+          "The chamber lists Vittone’s at 801 North Greengate Road, Suite 350, Greensburg, PA 15601, with 724-837-0877. Use that listed location when asking about a showroom visit or instruction."
+        ]
+      },
+      {
+        "heading": "Instruments and learning are separate enquiries",
+        "source_url": "https://www.vittonemusic.com/",
+        "source_label": "Source: Instruments and learning are separate enquiries",
+        "paragraphs": [
+          "The operator describes home and church organs alongside piano and other music offerings, plus private instruction across several instruments and voice. Ask about the teacher, instrument and current slot; a broad teaching range is not confirmation of an opening. Retained promotional material should not be interpreted as a current rebate or newly announced scholarship."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-music-lessons-three-programs-compare/",
+        "label": "Music lesson formats"
+      },
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
+      },
+      {
+        "url": "/news/pittsburgh-piano-showrooms-used-instruments-event-rentals/",
+        "label": "Piano showroom and event comparison"
+      }
+    ],
+    "format": "verified_brief"
+  },
+  "pittsburgh-music-academy": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "The Greentree contact route",
+        "source_url": "https://www.pghma.com/",
+        "source_label": "Source: The Greentree contact route",
+        "paragraphs": [
+          "Pittsburgh Music Academy lists 1146 Greentree Road and 412-344-1114. Its published office window is separate from an individual teacher’s lesson schedule. Confirm the actual lesson location and registration route before traveling."
+        ]
+      },
+      {
+        "heading": "Choose the enrollment format",
+        "source_url": "https://www.pghma.com/private-lesson-packages",
+        "source_label": "Source: Choose the enrollment format",
+        "paragraphs": [
+          "The package page distinguishes comprehensive school-year study, lessons-only arrangements and a Flex Plan. These differ in group participation and scheduling. Ask which option fits the student rather than assuming every lesson registration includes all concerts or group classes. The older lesson guide retains its historical research date and now links the newer retail-based teaching options."
+        ]
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/pittsburgh-music-lessons-three-programs-compare/",
+        "label": "Music lesson formats"
+      },
+      {
+        "url": "/news/pittsburgh-first-guitar-shopping-guide/",
+        "label": "Plan a first guitar purchase"
       }
     ],
     "format": "verified_brief"
