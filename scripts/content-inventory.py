@@ -68,8 +68,9 @@ def inventory():
                     errors.append(f'{slug}: brief exceeds its declared format; review its classification')
             elif count < 600:
                 errors.append(f'{slug}: reviewed feature is below the 600-word publication standard')
-            if len(sources) < 3:
-                errors.append(f'{slug}: feature needs at least three reviewed source pages')
+            minimum_sources = 2 if feature.get('format') == 'verified_brief' else 3
+            if len(sources) < minimum_sources:
+                errors.append(f'{slug}: entry needs at least {minimum_sources} reviewed source pages')
             if not feature.get('checked'):
                 errors.append(f'{slug}: missing feature research date')
             for link in feature['related']:

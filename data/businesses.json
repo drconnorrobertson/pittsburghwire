@@ -12775,14 +12775,14 @@
     "address": "3370 Library Rd. Pittsburgh, Pennsylvania 15234",
     "phone": "+1-412-308-6236",
     "source_category": "Arts, Crafts & Galleries",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Quilters Depot is your go-to quilt shop in Pittsburgh, PA, offering a wide selection of…",
-    "description": "Quilters Depot: Arts, Crafts & Galleries in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Castle Shannon quilt shop with fabric, notions, classes and longarm enquiries. Arrange quilt intake and confirm current preparation requirements and pricing.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://quiltersdepotpa.com/",
       "title": "quiltersdepotpghpa",
       "description_excerpt": "Quilters Depot is your go-to quilt shop in Pittsburgh, PA, offering a wide selection of…",
@@ -12799,7 +12799,8 @@
       ]
     },
     "source_excerpt_url": "https://quiltersdepotpa.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "raff-printing-co": {
     "name": "Raff Printing Co.",
@@ -96300,14 +96301,14 @@
     "address": "622 Allegheny River Boulevard, Oakmont, PA",
     "phone": "412-794-8332",
     "source_category": "Yarn and Fiber Arts",
-    "checked": "2026-10-13",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Oakmont",
     "source_excerpt": "",
-    "description": "Compare paid classes with the separate open-stitch groups. Confirm registration, required shop-purchased yarn, additional material costs and cancellation terms for the selected class.",
+    "description": "Oakmont yarn and accessory shop with classes and separate Open Stitch gatherings. Check class materials, cancellation terms and current product availability.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-08",
       "url": "https://oakmontyarncollaborative.com/",
       "title": "Oakmont Yarn Collaborative",
       "description_excerpt": "",
@@ -96331,7 +96332,8 @@
         "yarn",
         "collaborative"
       ]
-    }
+    },
+    "published": "2026-10-13"
   },
   "black-dog-wood-fired-ambridge": {
     "name": "Black Dog Wood Fired Ambridge",
@@ -98685,6 +98687,236 @@
       "topics": [],
       "identity_tokens": [
         "kiln-n-time"
+      ]
+    }
+  },
+  "cut-and-sew-studio": {
+    "name": "Cut & Sew Studio",
+    "website": "https://cutandsewstudio.com/",
+    "source": "https://cutandsewstudio.com/about/",
+    "source_name": "Cut & Sew Studio official information",
+    "address": "1747 Chislett Street, Pittsburgh, PA 15206",
+    "phone": "412-865-6565",
+    "source_category": "Sewing Classes and Studio Access",
+    "checked": "2026-11-08",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Morningside sewing studio with classes, private lessons and independent studio options. Check prerequisites, supplies and the current schedule.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://cutandsewstudio.com/",
+      "title": "Cut & Sew Studio",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://cutandsewstudio.com/about/",
+          "label": "Studio background"
+        },
+        "services": {
+          "url": "https://cutandsewstudio.com/classes/",
+          "label": "Classes"
+        },
+        "contact": {
+          "url": "https://cutandsewstudio.com/faqs/",
+          "label": "Visit and supplies"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "cut & sew studio"
+      ]
+    }
+  },
+  "moon-and-yarn-craft-room": {
+    "name": "Moon & Yarn Craft Room",
+    "website": "https://www.moonandyarn.com/",
+    "source": "https://www.moonandyarn.com/about/",
+    "source_name": "Moon & Yarn Craft Room official information",
+    "address": "605 Lincoln Avenue, Bellevue, PA 15202",
+    "phone": "412-707-4560",
+    "source_category": "Yarn and Fiber Craft Supplies",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Bellevue",
+    "source_excerpt": "",
+    "description": "Bellevue fiber-craft shop with supplies, workshops and social crafting. Compare the selected technique, event requirements and current shop details.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.moonandyarn.com/",
+      "title": "Moon & Yarn Craft Room",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.moonandyarn.com/about/",
+          "label": "About the craft room"
+        },
+        "events": {
+          "url": "https://www.moonandyarn.com/events/",
+          "label": "Events and workshops"
+        },
+        "contact": {
+          "url": "https://www.moonandyarn.com/contact/",
+          "label": "Contact the shop"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "moon & yarn craft room"
+      ]
+    }
+  },
+  "pittsburgh-center-for-creative-reuse": {
+    "name": "Pittsburgh Center for Creative Reuse",
+    "website": "https://pccr.org/",
+    "source": "https://pccr.org/visit/",
+    "source_name": "Pittsburgh Center for Creative Reuse official information",
+    "address": "214 N Lexington Street, Pittsburgh, PA 15208",
+    "phone": "412-473-0100",
+    "source_category": "Creative Reuse Shop and Arts Programs",
+    "checked": "2026-11-08",
+    "category": "arts-and-culture",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Nonprofit creative-reuse shop with donated art materials and programs. Check current inventory, donation acceptance and visiting arrangements separately.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://pccr.org/",
+      "title": "Pittsburgh Center for Creative Reuse",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://pccr.org/visit/",
+          "label": "Visit"
+        },
+        "products": {
+          "url": "https://pccr.org/shop-with-us/our-shop-2/",
+          "label": "Shop information"
+        },
+        "services": {
+          "url": "https://pccr.org/create-learn/programs/",
+          "label": "Reuse art programs"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh center for creative reuse"
+      ]
+    }
+  },
+  "quilters-corner-finleyville": {
+    "name": "Quilters Corner — Finleyville",
+    "website": "https://quilterscorner-pa.com/",
+    "source": "https://quilterscorner-pa.com/pages/about-us",
+    "source_name": "Quilters Corner — Finleyville official information",
+    "address": "6101 State Route 88, Suite 1, Finleyville, PA 15332",
+    "phone": "724-348-8010",
+    "source_category": "Quilting Fabric, Patterns and Kits",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Finleyville",
+    "source_excerpt": "",
+    "description": "Finleyville quilt shop with fabric, patterns, books and project kits. Check fabric units, kit contents and collection details before ordering.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://quilterscorner-pa.com/",
+      "title": "Quilters Corner — Finleyville",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://quilterscorner-pa.com/pages/about-us",
+          "label": "Shop background"
+        },
+        "products": {
+          "url": "https://quilterscorner-pa.com/collections/fabric",
+          "label": "Fabric collection"
+        },
+        "contact": {
+          "url": "https://quilterscorner-pa.com/community/contact",
+          "label": "Contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "quilters corner — finleyville"
+      ]
+    }
+  },
+  "firecracker-fabrics": {
+    "name": "Firecracker Fabrics",
+    "website": "https://www.firecrackerfabrics.com/",
+    "source": "https://www.firecrackerfabrics.com/",
+    "source_name": "Firecracker Fabrics official information",
+    "address": "1801 Chislett Street, Pittsburgh, PA 15206",
+    "phone": "412-626-3355",
+    "source_category": "Fabric and Sewing Supplies",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Morningside fabric and notions shop across from Cut & Sew Studio. Check order readiness, cut-fabric terms and separate class-supply arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.firecrackerfabrics.com/",
+      "title": "Firecracker Fabrics",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.firecrackerfabrics.com/",
+          "label": "Fabric shop"
+        },
+        "services": {
+          "url": "https://www.firecrackerfabrics.com/facts-faqs-frequently-asked-questions.htm",
+          "label": "Ordering and pickup FAQ"
+        },
+        "contact": {
+          "url": "https://www.firecrackerfabrics.com/contact-us.htm",
+          "label": "Contact form"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "firecracker fabrics"
+      ]
+    }
+  },
+  "old-flame-mending": {
+    "name": "Old Flame Mending",
+    "website": "https://www.oldflamemending.com/",
+    "source": "https://www.oldflamemending.com/",
+    "source_name": "Old Flame Mending official information",
+    "address": "6101 Broad Street, Pittsburgh, PA 15206",
+    "phone": "",
+    "source_category": "Clothing Repair, Alterations and Sewing Lessons",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "East Liberty clothing repair and alterations business with private mending lessons. Confirm the requested service, appointment and teaching scope.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.oldflamemending.com/",
+      "title": "Old Flame Mending",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.oldflamemending.com/",
+          "label": "Current location and appointments"
+        },
+        "services": {
+          "url": "https://www.oldflamemending.com/lessons",
+          "label": "Private sewing and mending lessons"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "old flame mending"
       ]
     }
   }
