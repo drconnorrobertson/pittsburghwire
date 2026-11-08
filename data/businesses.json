@@ -1106,14 +1106,14 @@
     "address": "2141 Mary St. Pittsburgh, Pennsylvania 15203",
     "phone": "+1-412-745-2141",
     "source_category": "Sports/Recreation",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Experience ASCEND Climbing's top-tier rock climbing gym in Pittsburgh and Erie. Join us for indoor…",
     "description": "ASCEND Climbing: Sports/Recreation in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.ascendclimbing.com/",
       "title": "ASCEND Climbing Gym | Pittsburgh (South Side + Point Breeze) and Erie, PA - ASCEND Climbing",
       "description_excerpt": "Experience ASCEND Climbing's top-tier rock climbing gym in Pittsburgh and Erie. Join us for indoor…",
@@ -1139,7 +1139,8 @@
       ]
     },
     "source_excerpt_url": "https://www.ascendclimbing.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "aslin-beer-company": {
     "name": "Aslin Beer Company",
@@ -1895,14 +1896,14 @@
     "address": "188 43rd St., #1 Pittsburgh, Pennsylvania 15201",
     "phone": "+1-412-325-4334",
     "source_category": "Sports/Recreation",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Bike Pittsburgh is transforming our streets and communities into vibrant, healthy places by making them safe and accessible for everyone…",
     "description": "Bike Pittsburgh: Sports/Recreation in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://bikepgh.org/",
       "title": "Home - BikePGH : BikePGH",
       "description_excerpt": "",
@@ -1928,7 +1929,8 @@
       "identity_tokens": [
         "bike"
       ]
-    }
+    },
+    "published": "2026-10-07"
   },
   "bike-the-burgh-tours": {
     "name": "Bike the Burgh Tours",
@@ -1938,14 +1940,14 @@
     "address": "1049 Penn Ave. Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-450-0547",
     "source_category": "Tours/Sightseeing",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Learn about Pittsburgh's history, architecture, public art, sports and breweries by bike! Daily tours at…",
     "description": "Bike the Burgh Tours: Tours/Sightseeing in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "http://www.biketheburgh.com",
       "title": "BIKE THE BURGH TOURS - Pittsburgh's historical bike tours",
       "description_excerpt": "Learn about Pittsburgh's history, architecture, public art, sports and breweries by bike! Daily tours at…",
@@ -1967,7 +1969,8 @@
       ]
     },
     "source_excerpt_url": "http://www.biketheburgh.com",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "bill-s-bar-burger": {
     "name": "Bill's Bar & Burger",
@@ -6671,14 +6674,14 @@
     "address": "600 1st Ave. Pittsburgh, Pennsylvania 15219",
     "phone": "+1-412-600-0675",
     "source_category": "Sports/Recreation",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Golden Triangle bike rentals is the place to go for Pittsburgh bike rentals, equipment, gear,…",
     "description": "Golden Triangle Bike: Sports/Recreation in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.bikepittsburgh.com/",
       "title": "Pittsburgh Bike Rentals - Golden Triangle Bike Rentals",
       "description_excerpt": "Golden Triangle bike rentals is the place to go for Pittsburgh bike rentals, equipment, gear,…",
@@ -6691,7 +6694,8 @@
       ]
     },
     "source_excerpt_url": "https://www.bikepittsburgh.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "grand-concourse-gandy-dancer-saloon": {
     "name": "Grand Concourse/Gandy Dancer Saloon",
@@ -17549,14 +17553,14 @@
     "address": "317 East Carson St., Ste.160 Pittsburgh, Pennsylvania 15219",
     "phone": "+1-412-255-0564",
     "source_category": "Sports/Recreation",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Get ready for adventure with outdoor things to do near me. Discover activities that bring…",
     "description": "Venture Outdoors: Sports/Recreation in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://ventureoutdoors.org/",
       "title": "Everyone belongs in the outdoors",
       "description_excerpt": "Get ready for adventure with outdoor things to do near me. Discover activities that bring…",
@@ -17577,7 +17581,8 @@
       ]
     },
     "source_excerpt_url": "https://ventureoutdoors.org/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "vibrant-pittsburgh": {
     "name": "Vibrant Pittsburgh",
@@ -94076,20 +94081,21 @@
     "address": "2515 Penn Avenue, Pittsburgh, PA 15222",
     "phone": "4124712656",
     "source_category": "Bicycle repair",
-    "checked": "2026-10-10",
+    "checked": "2026-11-08",
     "category": "trades-and-services",
     "city": "Pittsburgh",
     "source_excerpt": "",
-    "description": "Kindred Cycles publishes bicycle service from flat repairs to overhauls and custom builds. Its service page distinguishes drop-off estimates, shipping enquiries and custom-build discussions. Confirm scope and turnaround directly.",
+    "description": "Strip District bicycle shop with call-ahead test rides, drop-off service estimates, e-bikes and custom-build enquiries.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-10",
-      "url": "https://www.kindredcycles.com/service",
+      "checked": "2026-11-08",
+      "url": "https://www.kindredcycles.com/",
       "title": "Kindred Cycles Service",
       "description_excerpt": "",
       "links": {},
       "topics": []
-    }
+    },
+    "published": "2026-10-10"
   },
   "squirrel-hill-shoe-repair": {
     "name": "Squirrel Hill Shoe Repair",
@@ -100013,6 +100019,504 @@
       "topics": [],
       "identity_tokens": [
         "music to my ear"
+      ]
+    }
+  },
+  "free-ride-pittsburgh": {
+    "name": "Free Ride Bicycle Collective",
+    "website": "https://freeridepgh.org/",
+    "source": "https://freeridepgh.org/",
+    "source_name": "Free Ride Bicycle Collective official information",
+    "address": "214 North Lexington Street, Pittsburgh, PA 15208",
+    "phone": "412-731-2474",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "nonprofit-and-community",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Volunteer bicycle collective offering DIY Open Shop, used bikes, donation intake and participation routes.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://freeridepgh.org/",
+      "title": "Free Ride Bicycle Collective",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://freeridepgh.org/",
+          "label": "Collective information"
+        },
+        "services": {
+          "url": "https://freeridepgh.org/open-shop/",
+          "label": "Open Shop"
+        },
+        "products": {
+          "url": "https://freeridepgh.org/donate/",
+          "label": "Donations"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "free ride bicycle collective"
+      ]
+    }
+  },
+  "flat-tire-co": {
+    "name": "Flat Tire Co.",
+    "website": "https://flattire.co/",
+    "source": "https://flattire.co/",
+    "source_name": "Flat Tire Co. official information",
+    "address": "212 East Pittsburgh Street, Greensburg, PA 15601",
+    "phone": "724-691-0966",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Greensburg",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Greensburg bicycle retailer with repair intake, appointment-based fitting and separately scoped ski and snowboard service.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://flattire.co/",
+      "title": "Flat Tire Co.",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://flattire.co/",
+          "label": "Shop location"
+        },
+        "services": {
+          "url": "https://flattire.co/pages/general-bicycle-service",
+          "label": "Bicycle service"
+        },
+        "products": {
+          "url": "https://flattire.co/pages/ski-snowboard-waxing",
+          "label": "Winter equipment service"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "flat tire co."
+      ]
+    }
+  },
+  "three-rivers-outdoor-company": {
+    "name": "3 Rivers Outdoor Company",
+    "website": "https://3-rivers-outdoor-co.myshopify.com/",
+    "source": "https://3-rivers-outdoor-co.myshopify.com/pages/our-story",
+    "source_name": "3 Rivers Outdoor Company official information",
+    "address": "1130 South Braddock Avenue, Pittsburgh, PA 15218",
+    "phone": "412-871-5038",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Regent Square outdoor retailer with new equipment, used-gear consignment and separately listed seasonal operations.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://3-rivers-outdoor-co.myshopify.com/",
+      "title": "3 Rivers Outdoor Company",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://3-rivers-outdoor-co.myshopify.com/pages/our-story",
+          "label": "Business background"
+        },
+        "contact": {
+          "url": "https://3-rivers-outdoor-co.myshopify.com/pages/contact",
+          "label": "Locations and contact"
+        },
+        "products": {
+          "url": "https://3-rivers-outdoor-co.myshopify.com/pages/used-gear",
+          "label": "Used-gear consignment"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "3 rivers outdoor company"
+      ]
+    }
+  },
+  "rei-pittsburgh": {
+    "name": "REI Pittsburgh",
+    "website": "https://www.rei.com/stores/pittsburgh",
+    "source": "https://www.rei.com/stores/pittsburgh",
+    "source_name": "REI Pittsburgh official information",
+    "address": "412 South 27th Street, Pittsburgh, PA 15203",
+    "phone": "412-488-9410",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "South Side outdoor retailer with locally listed bicycle and winter-equipment shops, pickup and member used-gear services.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.rei.com/stores/pittsburgh",
+      "title": "REI Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://www.rei.com/stores/pittsburgh",
+          "label": "Pittsburgh store"
+        },
+        "services": {
+          "url": "https://www.rei.com/stores/pittsburgh/bike-shop",
+          "label": "Bike shop"
+        },
+        "products": {
+          "url": "https://www.rei.com/stores/pittsburgh/ski-snowboard-shop",
+          "label": "Ski and snowboard shop"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "rei pittsburgh"
+      ]
+    }
+  },
+  "unison-bike-lab": {
+    "name": "Unison Bike Lab",
+    "website": "https://www.unisonbikelab.com/",
+    "source": "https://www.unisonbikelab.com/about",
+    "source_name": "Unison Bike Lab official information",
+    "address": "42 South Fourth Street, Pittsburgh, PA 15219",
+    "phone": "412-586-7730",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "South Side bicycle service shop with restoration and custom-build enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.unisonbikelab.com/",
+      "title": "Unison Bike Lab",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.unisonbikelab.com/about",
+          "label": "Service scope"
+        },
+        "contact": {
+          "url": "https://www.unisonbikelab.com/contact",
+          "label": "Location and contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "unison bike lab"
+      ]
+    }
+  },
+  "biketek": {
+    "name": "Biketek Pittsburgh",
+    "website": "https://biketek.com/",
+    "source": "https://biketek.com/pages/location",
+    "source_name": "Biketek Pittsburgh official information",
+    "address": "5842 Forbes Avenue, Pittsburgh, PA 15217-1602",
+    "phone": "412-521-6448",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Squirrel Hill bicycle retailer with repair and seasonal store information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://biketek.com/",
+      "title": "Biketek Pittsburgh",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://biketek.com/pages/location",
+          "label": "Location and seasonal hours"
+        },
+        "about": {
+          "url": "https://biketek.com/",
+          "label": "Shop information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "biketek pittsburgh"
+      ]
+    }
+  },
+  "fern-hollow-bicycles": {
+    "name": "Fern Hollow Bicycles",
+    "website": "https://www.fernhollowbicycles.com/",
+    "source": "https://www.fernhollowbicycles.com/",
+    "source_name": "Fern Hollow Bicycles official information",
+    "address": "307 South Trenton Avenue, Pittsburgh, PA 15221",
+    "phone": "412-241-4200",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Wilkinsburg",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Wilkinsburg bicycle shop with repair, new and refurbished bike information and special-order enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.fernhollowbicycles.com/",
+      "title": "Fern Hollow Bicycles",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.fernhollowbicycles.com/",
+          "label": "Service and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fern hollow bicycles"
+      ]
+    }
+  },
+  "highline-bikes": {
+    "name": "Highline Bikes",
+    "website": "https://www.highlinebikes.com/",
+    "source": "https://www.highlinebikes.com/c-o-n-t-a-c-t",
+    "source_name": "Highline Bikes official information",
+    "address": "9557 Babcock Boulevard, Allison Park, PA 15101",
+    "phone": "412-455-7655",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Allison Park",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Allison Park bicycle shop with stock and custom-build enquiries and current operator contact details.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.highlinebikes.com/",
+      "title": "Highline Bikes",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.highlinebikes.com/c-o-n-t-a-c-t",
+          "label": "Current location"
+        },
+        "services": {
+          "url": "https://www.highlinebikes.com/s-e-r-v-i-c-e",
+          "label": "Service information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "highline bikes"
+      ]
+    }
+  },
+  "kraynicks-bike-shop": {
+    "name": "Kraynick’s Bike Shop",
+    "website": "https://kraynicksbikeshop.weebly.com/",
+    "source": "https://kraynicksbikeshop.weebly.com/",
+    "source_name": "Kraynick’s Bike Shop official information",
+    "address": "5003 Penn Avenue, Pittsburgh, PA 15224",
+    "phone": "412-361-0888",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Garfield bicycle shop with parts, repair and published opportunities for hands-on work.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://kraynicksbikeshop.weebly.com/",
+      "title": "Kraynick’s Bike Shop",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://kraynicksbikeshop.weebly.com/",
+          "label": "Current shop contact"
+        },
+        "services": {
+          "url": "https://kraynicksbikeshop.weebly.com/products--services.html",
+          "label": "Parts and service"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "kraynick’s bike shop"
+      ]
+    }
+  },
+  "makeshift-bikes": {
+    "name": "Makeshift Bikes",
+    "website": "https://makeshiftbikes.com/",
+    "source": "https://makeshiftbikes.com/",
+    "source_name": "Makeshift Bikes official information",
+    "address": "431 East Ohio Street, Pittsburgh, PA 15212",
+    "phone": "412-586-5410",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "North Side repair and education space with used bikes, donation intake and request-based instruction.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://makeshiftbikes.com/",
+      "title": "Makeshift Bikes",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://makeshiftbikes.com/",
+          "label": "Shop and participation"
+        },
+        "services": {
+          "url": "https://makeshiftbikes.com/classes/",
+          "label": "Requested instruction"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "makeshift bikes"
+      ]
+    }
+  },
+  "adam-solar-rides": {
+    "name": "Adam Solar Rides",
+    "website": "https://www.adamsolarrides.com/",
+    "source": "https://www.adamsolarrides.com/contact",
+    "source_name": "Adam Solar Rides official information",
+    "address": "1912 Mayview Road, Bridgeville, PA 15017",
+    "phone": "412-220-1900",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Bridgeville",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Bridgeville e-bike retailer with appointment-based service, supported-brand limits and a separately located tour operation.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.adamsolarrides.com/",
+      "title": "Adam Solar Rides",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.adamsolarrides.com/contact",
+          "label": "Shop and tour contacts"
+        },
+        "services": {
+          "url": "https://www.adamsolarrides.com/service",
+          "label": "Service eligibility"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "adam solar rides"
+      ]
+    }
+  },
+  "thick-bikes": {
+    "name": "Thick Bikes",
+    "website": "https://thickbikes.com/",
+    "source": "https://bikepgh.org/shops/",
+    "source_name": "BikePGH",
+    "address": "62 South 15th Street, Pittsburgh, PA 15203",
+    "phone": "412-390-3590",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "South Side bicycle shop identified by regional cycling and visitor resources.",
+    "official_research": {
+      "status": "listed",
+      "checked": "2026-11-08",
+      "url": "https://thickbikes.com/",
+      "title": "Thick Bikes",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://thickbikes.com/",
+          "label": "Operator website"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "thick bikes"
+      ]
+    }
+  },
+  "pro-bike-run-strip-district": {
+    "name": "PRO BIKE+RUN — Strip District",
+    "website": "https://www.probikerun.com/",
+    "source": "https://www.probikerun.com/contact/strip-district-pg335.htm",
+    "source_name": "PRO BIKE+RUN — Strip District official information",
+    "address": "2400 Smallman Street, Suite 200, Pittsburgh, PA 15222",
+    "phone": "412-742-4420",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Location-specific bicycle and running retailer; confirm the branch, service and collection arrangement.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.probikerun.com/",
+      "title": "PRO BIKE+RUN — Strip District",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://www.probikerun.com/contact/strip-district-pg335.htm",
+          "label": "Branch location"
+        },
+        "about": {
+          "url": "https://www.probikerun.com/",
+          "label": "Shared retail information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pro bike+run — strip district"
+      ]
+    }
+  },
+  "pro-bike-run-monroeville": {
+    "name": "PRO BIKE+RUN — Monroeville",
+    "website": "https://www.probikerun.com/",
+    "source": "https://www.probikerun.com/contact/monroeville-pg203.htm",
+    "source_name": "PRO BIKE+RUN — Monroeville official information",
+    "address": "4201 William Penn Highway, Monroeville, PA 15146",
+    "phone": "412-229-8473",
+    "source_category": "Bicycle and Outdoor Services",
+    "category": "retail",
+    "city": "Monroeville",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Location-specific bicycle and running retailer; confirm the branch, service and collection arrangement.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.probikerun.com/",
+      "title": "PRO BIKE+RUN — Monroeville",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://www.probikerun.com/contact/monroeville-pg203.htm",
+          "label": "Branch location"
+        },
+        "about": {
+          "url": "https://www.probikerun.com/",
+          "label": "Shared retail information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pro bike+run — monroeville"
       ]
     }
   }

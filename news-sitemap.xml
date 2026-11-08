@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-outdoor-gear-consignment</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Used Outdoor Gear in Pittsburgh: Consignment or Trade Credit</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-instrument-trade-in-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -22,6 +30,14 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Used Board Games and Rentals Around Pittsburgh: Two Different Models</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ski-snowboard-service-comparison</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Ski and Snowboard Service: Pittsburgh and Greensburg Options</news:title>
     </news:news>
   </url>
   <url>
@@ -97,6 +113,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-ebike-service-enquiry-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>E-Bike Service Around Pittsburgh: Check the System First</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-craft-supply-donation-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -142,6 +166,30 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Pittsburgh Bookstore Events: RSVPs, Signings and Book Clubs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bike-donations-diy-workspaces</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Pittsburgh Bike Donations and DIY Workspaces: Choose the Route</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bicycle-test-rides-special-orders</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Bike Shopping Around Pittsburgh: Test Rides and Special Orders</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bicycle-repair-intake-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Bicycle Repairs Around Pittsburgh: Plan the Drop-Off</news:title>
     </news:news>
   </url>
   <url>
