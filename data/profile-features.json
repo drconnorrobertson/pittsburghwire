@@ -302,5 +302,44 @@
         "label": "Pittsburgh-area manufacturing collection"
       }
     ]
+  },
+  "elia-estiatorio": {
+    "checked": "2026-11-08",
+    "sections": [
+      {
+        "heading": "ELIA in Downtown Pittsburgh",
+        "paragraphs": [
+          "ELIA estiatorio lists its Pittsburgh location at 120 Fifth Avenue, in Fifth Avenue Place. Its current website provides menus, online ordering and a reservation link. This replaces the earlier opening announcement quoted in this directory. The downtown restaurant has its own website; the Elia Mediterranean Grille website describes the separate Warrendale location."
+        ],
+        "source_url": "https://www.visitpittsburgh.com/directory/elia-estiatorio/",
+        "source_label": "VisitPITTSBURGH’s current ELIA listing"
+      },
+      {
+        "heading": "Menu and reservations",
+        "paragraphs": [
+          "The official downtown menu separates lunch and dinner. Its published selections include Greek dishes, seafood, salads and appetizers. Follow the menu link for current dishes and prices, and use the reservation link on the restaurant’s homepage to check availability."
+        ],
+        "source_url": "https://eliaestiatoriopgh.com/food-menu",
+        "source_label": "ELIA’s downtown food menu"
+      },
+      {
+        "heading": "Contact the downtown restaurant",
+        "paragraphs": [
+          "The official site lists (412) 866-3542 and eliaestiatorio@ydhospitality.com. Check the restaurant’s current hours before visiting, especially for holidays or a group booking. These details were checked on November 8, 2026; this profile is based on published sources, not a restaurant visit."
+        ],
+        "source_url": "https://eliaestiatoriopgh.com/",
+        "source_label": "ELIA’s location, contact and reservation information"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/food-and-drink/",
+        "label": "More Pittsburgh food and drink businesses"
+      },
+      {
+        "url": "/locations/pittsburgh/",
+        "label": "Pittsburgh business directory"
+      }
+    ]
   }
 }
