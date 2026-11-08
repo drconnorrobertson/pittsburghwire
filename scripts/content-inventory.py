@@ -63,7 +63,10 @@ def inventory():
                     seen_paragraphs[normalized] = slug
                     paragraphs.append(paragraph)
             count = sum(len(p.split()) for p in paragraphs)
-            if count < 600:
+            if feature.get('format') == 'verified_brief':
+                if count >= 600:
+                    errors.append(f'{slug}: brief exceeds its declared format; review its classification')
+            elif count < 600:
                 errors.append(f'{slug}: reviewed feature is below the 600-word publication standard')
             if len(sources) < 3:
                 errors.append(f'{slug}: feature needs at least three reviewed source pages')
@@ -74,7 +77,7 @@ def inventory():
                 if not route.startswith('/') or not (ROOT / route.lstrip('/') / 'index.html').exists():
                     errors.append(f'{slug}: missing local feature link {route}')
         rows.append({'kind': 'business', 'slug': slug, 'body_words': count,
-                     'review_status': 'individual_feature' if feature else 'legacy_not_assessed',
+                     'review_status': ('verified_brief' if feature.get('format') == 'verified_brief' else 'individual_feature') if feature else 'legacy_not_assessed',
                      'source_pages': len(sources) if feature else None})
     summary = {
         'targets': {'articles': 5000, 'businesses': 5000},
@@ -85,7 +88,8 @@ def inventory():
             'at_least_600_words': sum(r['kind']=='article' and r['body_words'] is not None and r['body_words']>=600 for r in rows),
             'below_600_words': sum(r['kind']=='article' and r['body_words'] is not None and r['body_words']<600 for r in rows),
             'unparsed': sum(r['kind']=='article' and r['body_words'] is None for r in rows)},
-        'individually_reviewed_business_features': len(features),
+        'individually_reviewed_business_features': sum(f.get('format') != 'verified_brief' for f in features.values()),
+        'verified_business_briefs': sum(f.get('format') == 'verified_brief' for f in features.values()),
         'identical_article_body_groups': [slugs for slugs in hashes.values() if len(slugs)>1],
         'feature_validation_errors': errors,
         'limitations': ['Archive totals include legacy coverage requiring intent and evidence review.',

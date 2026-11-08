@@ -848,12 +848,26 @@ def build_sitemap(repo, articles):
     for a in articles:
         add(f"{SITE}/news/{a['slug']}", "0.9", "monthly", a["date"])
 
-    for section, pri in (("best", "0.7"), ("directory", "0.6"), ("neighborhoods", "0.7"), ("services", "0.6"), ("locations", "0.6")):
+    from html.parser import HTMLParser
+    class GuideRobots(HTMLParser):
+        noindex = False
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            if tag == "meta" and attrs.get("name", "").lower() in ("robots", "googlebot"):
+                self.noindex |= "noindex" in (attrs.get("content") or "").lower()
+
+    for section, pri in (("best", "0.7"), ("directory", "0.6"), ("neighborhoods", "0.7"), ("services", "0.6"), ("locations", "0.6"), ("guides", "0.6")):
         d = os.path.join(repo, section)
         if not os.path.isdir(d):
             continue
         for slug in sorted(os.listdir(d)):
             page = os.path.join(d, slug, "index.html")
+            if section == "guides" and os.path.isfile(page):
+                content = open(page, encoding="utf-8").read()
+                robots = GuideRobots()
+                robots.feed(content)
+                if robots.noindex:
+                    continue
             if os.path.isfile(page) and (section != "directory" or slug not in EXCLUDED_DIRECTORY) and (section != "best" or
                     'name="wire:curated-guide" content="true"' in open(page, encoding="utf-8").read()):
                 add(f"{SITE}/{section}/{slug}", pri, "monthly")
