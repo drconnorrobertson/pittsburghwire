@@ -59835,13 +59835,13 @@
     "source": "https://business.westmorelandchamber.com/directory/Details/vittone-s-music-center-2586258",
     "source_name": "Westmoreland County Chamber of Commerce",
     "source_category": "Performing Arts-Fine Arts-Special Events",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "source_excerpt": "",
     "description": "Vittone's Music Center: Performing Arts-Fine Arts-Special Events in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.vittonemusic.com/",
       "title": "Home | Vittone's Music Center",
       "description_excerpt": "",
@@ -59851,7 +59851,8 @@
         "music",
         "vittone"
       ]
-    }
+    },
+    "published": "2026-10-07"
   },
   "westmoreland-arts-heritage-festival-inc": {
     "name": "Westmoreland Arts & Heritage Festival, Inc.",
@@ -94164,14 +94165,14 @@
     "address": "1146 Greentree Road, Pittsburgh, PA 15220",
     "phone": "412-344-1114",
     "source_category": "Music instruction",
-    "checked": "2026-10-13",
+    "checked": "2026-11-08",
     "category": "education",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "Pittsburgh Music Academy describes itself as a Suzuki school welcoming students of all ages. It lists violin, viola, cello, bass, piano, flute, brass and voice. The website identifies Greentree and Squirrel Hill locations; confirm the teaching location and instructor before registering. Contact the academy to discuss availability and enrollment.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-08",
       "url": "https://www.pghma.com/",
       "title": "Pittsburgh Music Academy",
       "description_excerpt": "",
@@ -94187,7 +94188,8 @@
         "music",
         "academy"
       ]
-    }
+    },
+    "published": "2026-10-13"
   },
   "action-appliance-service": {
     "name": "Action Appliance Service",
@@ -96743,17 +96745,17 @@
     "website": "https://www.johnstonbaughs.com/",
     "source": "https://www.johnstonbaughs.com/topic/ourrentalprogram",
     "source_name": "Official school-instrument rental program and local contact information",
-    "address": "4842 William Flinn Highway, Allison Park, PA",
+    "address": "4842 William Flinn Highway, Allison Park, PA 15101",
     "phone": "724-444-5660",
     "source_category": "Music Store",
-    "checked": "2026-10-13",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Allison Park",
     "source_excerpt": "",
     "description": "Compare the initial trial with the later monthly payment for the requested instrument, size and condition. Confirm school delivery participation, accessories, rental credit and purchase terms directly before signing; published prices do not guarantee immediate stock.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-08",
       "url": "https://www.johnstonbaughs.com/",
       "title": "Johnstonbaugh’s Music Centers",
       "description_excerpt": "",
@@ -96770,7 +96772,8 @@
         "allison",
         "park"
       ]
-    }
+    },
+    "published": "2026-10-13"
   },
   "shoku-next-door-cranberry": {
     "name": "Shoku Next Door",
@@ -99473,7 +99476,8 @@
       "identity_tokens": [
         "amazing books & records — squirrel hill"
       ]
-    }
+    },
+    "published": "2026-11-08"
   },
   "amazing-books-records-downtown": {
     "name": "Amazing Books & Records — Downtown",
@@ -99573,6 +99577,442 @@
       "topics": [],
       "identity_tokens": [
         "bottom feeder books"
+      ]
+    }
+  },
+  "pittsburgh-guitars": {
+    "name": "Pittsburgh Guitars",
+    "website": "https://pittsburghguitars.com/",
+    "source": "https://pittsburghguitars.com/about/",
+    "source_name": "Pittsburgh Guitars official information",
+    "address": "1305 East Carson Street, Pittsburgh, PA 15203",
+    "phone": "412-431-0700",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "South Side instrument shop with guitar sales, used-gear enquiries, repairs and private lesson information.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://pittsburghguitars.com/",
+      "title": "Pittsburgh Guitars",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://pittsburghguitars.com/about/",
+          "label": "Shop background"
+        },
+        "services": {
+          "url": "https://pittsburghguitars.com/repair/",
+          "label": "Repairs"
+        },
+        "products": {
+          "url": "https://pittsburghguitars.com/we-buy-guitars/",
+          "label": "Used gear"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh guitars"
+      ]
+    }
+  },
+  "n-stuff-music": {
+    "name": "N Stuff Music",
+    "website": "https://www.nstuffmusic.com/",
+    "source": "https://www.nstuffmusic.com/t-0-template-about-n-stuff-music.aspx",
+    "source_name": "N Stuff Music official information",
+    "address": "468 Freeport Road, Pittsburgh, PA 15238",
+    "phone": "412-828-1003",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Blawnox",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Music retailer with separate guitar and electronics service departments, event equipment rentals and an affiliated lesson program.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.nstuffmusic.com/",
+      "title": "N Stuff Music",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.nstuffmusic.com/t-0-template-about-n-stuff-music.aspx",
+          "label": "Business information"
+        },
+        "services": {
+          "url": "https://www.nstuffmusic.com/t-0-template-guitar-service-pittsburgh.aspx",
+          "label": "Guitar service"
+        },
+        "reservations": {
+          "url": "https://www.nstuffmusic.com/t-0-template-rentals-pittsburgh.aspx",
+          "label": "Rental enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "n stuff music"
+      ]
+    }
+  },
+  "hollowood-music-and-sound": {
+    "name": "Hollowood Music and Sound",
+    "website": "https://www.hollowood.com/",
+    "source": "https://www.hollowood.com/",
+    "source_name": "Hollowood Music and Sound official information",
+    "address": "601 Chartiers Avenue, McKees Rocks, PA 15136",
+    "phone": "412-771-3060",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "McKees Rocks",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "McKees Rocks retailer with new and used gear, repair and lesson information, and a separate pro-sound production service.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.hollowood.com/",
+      "title": "Hollowood Music and Sound",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.hollowood.com/",
+          "label": "Store information"
+        },
+        "services": {
+          "url": "https://www.hollowood.com/repairs",
+          "label": "Repair services"
+        },
+        "request-quote": {
+          "url": "https://www.hollowood.com/pro-sound",
+          "label": "Pro sound"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "hollowood music and sound"
+      ]
+    }
+  },
+  "preserving-record-shop": {
+    "name": "Preserving Record Shop",
+    "website": "https://www.preservingconcerts.com/",
+    "source": "https://www.preservingconcerts.com/about-1",
+    "source_name": "Preserving Record Shop official information",
+    "address": "1101 Fifth Avenue, New Kensington, PA 15068",
+    "phone": "724-980-5170",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "New Kensington",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "New Kensington physical-media shop within the Preserving concert operation, with weekly shopping hours and event-specific access rules.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.preservingconcerts.com/",
+      "title": "Preserving Record Shop",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.preservingconcerts.com/about-1",
+          "label": "Record shop"
+        },
+        "events": {
+          "url": "https://www.preservingconcerts.com/services-7",
+          "label": "Venue FAQ"
+        },
+        "reservations": {
+          "url": "https://www.preservingconcerts.com/venue",
+          "label": "Booking information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "preserving record shop"
+      ]
+    }
+  },
+  "empire-music": {
+    "name": "Empire Music",
+    "website": "https://empiremusic.com/",
+    "source": "https://empiremusic.com/pages/about-us",
+    "source_name": "Empire Music official information",
+    "address": "719 Washington Road, Mt. Lebanon, PA 15228",
+    "phone": "412-343-5299",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Mt. Lebanon",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Mt. Lebanon guitar retailer with used-gear enquiries, repairs and teaching information.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://empiremusic.com/",
+      "title": "Empire Music",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://empiremusic.com/pages/about-us",
+          "label": "Shop background"
+        },
+        "services": {
+          "url": "https://empiremusic.com/pages/repairs",
+          "label": "Repairs"
+        },
+        "products": {
+          "url": "https://empiremusic.com/pages/trade-your-gear",
+          "label": "Trade enquiries"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "empire music"
+      ]
+    }
+  },
+  "acoustic-music-works": {
+    "name": "Acoustic Music Works",
+    "website": "https://acousticmusicworks.com/",
+    "source": "https://acousticmusicworks.com/pages/were-moving",
+    "source_name": "Acoustic Music Works official information",
+    "address": "1219 Bingham Street, Pittsburgh, PA 15203",
+    "phone": "412-422-0710",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "South Side fretted-instrument shop with new and pre-owned guitars, banjos, mandolins and ukuleles.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://acousticmusicworks.com/",
+      "title": "Acoustic Music Works",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://acousticmusicworks.com/pages/were-moving",
+          "label": "Relocation background"
+        },
+        "products": {
+          "url": "https://acousticmusicworks.com/",
+          "label": "Current shop information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "acoustic music works"
+      ]
+    }
+  },
+  "hawthorne-drum-shop": {
+    "name": "Hawthorne Drum Shop",
+    "website": "https://hawthornedrumshop.com/",
+    "source": "https://hawthornedrumshop.com/pages/hours-location",
+    "source_name": "Hawthorne Drum Shop official information",
+    "address": "601 Chartiers Avenue, Floor 2, McKees Rocks, PA 15136",
+    "phone": "",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "McKees Rocks",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Drum specialist on Hollowood Music’s second floor, with its own used-gear contact and sales policies.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://hawthornedrumshop.com/",
+      "title": "Hawthorne Drum Shop",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://hawthornedrumshop.com/pages/hours-location",
+          "label": "Location and terms"
+        },
+        "products": {
+          "url": "https://hawthornedrumshop.com/pages/sell-gear",
+          "label": "Sell or trade gear"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "hawthorne drum shop"
+      ]
+    }
+  },
+  "the-government-center": {
+    "name": "The Government Center",
+    "website": "https://www.thegovernmentcenter.com/",
+    "source": "https://www.thegovernmentcenter.com/about-us",
+    "source_name": "The Government Center official information",
+    "address": "715 East Street, Pittsburgh, PA 15212",
+    "phone": "412-208-3262",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "North Side record shop with cafe, bar and performance programming; check event dates separately from shopping.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.thegovernmentcenter.com/",
+      "title": "The Government Center",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.thegovernmentcenter.com/about-us",
+          "label": "Store contact"
+        },
+        "events": {
+          "url": "https://www.thegovernmentcenter.com/",
+          "label": "Shop and event information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the government center"
+      ]
+    }
+  },
+  "vinyl-remains": {
+    "name": "Vinyl Remains",
+    "website": "https://www.vinylremainspg13.com/",
+    "source": "https://www.vinylremainspg13.com/",
+    "source_name": "Vinyl Remains official information",
+    "address": "692 Washington Road, Pittsburgh, PA 15228",
+    "phone": "412-563-3500",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Mt. Lebanon",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Mt. Lebanon record shop with used vinyl, selected new releases and collection-buying enquiries.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.vinylremainspg13.com/",
+      "title": "Vinyl Remains",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.vinylremainspg13.com/",
+          "label": "Shop and contact information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "vinyl remains"
+      ]
+    }
+  },
+  "get-hip-records": {
+    "name": "Get Hip Records",
+    "website": "https://gethip.com/",
+    "source": "https://gethip.com/about-get-hip/",
+    "source_name": "Get Hip Records official information",
+    "address": "1800 Columbus Avenue, Pittsburgh, PA 15233",
+    "phone": "412-231-4766",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "North Side record label, distributor and store with separate retail and mail-order contacts.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://gethip.com/",
+      "title": "Get Hip Records",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://gethip.com/about-get-hip/",
+          "label": "Business and contact information"
+        },
+        "products": {
+          "url": "https://gethip.com/",
+          "label": "Current releases and news"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "get hip records"
+      ]
+    }
+  },
+  "attic-record-store": {
+    "name": "Attic Record Store",
+    "website": "https://www.atticrecordstoreinc.com/",
+    "source": "https://www.atticrecordstoreinc.com/",
+    "source_name": "Attic Record Store official information",
+    "address": "513 Grant Avenue, Pittsburgh, PA 15209",
+    "phone": "412-821-8484",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Millvale",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Millvale music retailer with vinyl and CDs, collection-buying and preorder information.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.atticrecordstoreinc.com/",
+      "title": "Attic Record Store",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.atticrecordstoreinc.com/",
+          "label": "Shop contact"
+        },
+        "products": {
+          "url": "https://www.atticrecordstoreinc.com/orders",
+          "label": "Orders and preorders"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "attic record store"
+      ]
+    }
+  },
+  "music-to-my-ear": {
+    "name": "Music To My Ear",
+    "website": "https://www.musictomyear.com/",
+    "source": "https://www.musictomyear.com/about/",
+    "source_name": "Music To My Ear official information",
+    "address": "3003 Babcock Boulevard, Pittsburgh, PA 15237",
+    "phone": "412-223-9747",
+    "source_category": "Music Retail and Services",
+    "category": "retail",
+    "city": "Ross Township",
+    "checked": "2026-11-08",
+    "source_excerpt": "",
+    "description": "Ross Township record and audio shop with new and used vinyl, turntables and collection-buying instructions.",
+    "official_research": {
+      "status": "corroborated",
+      "url": "https://www.musictomyear.com/",
+      "title": "Music To My Ear",
+      "checked": "2026-11-08",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.musictomyear.com/about/",
+          "label": "Shop information"
+        },
+        "products": {
+          "url": "https://www.musictomyear.com/used-vinyl-records/",
+          "label": "Used records and intake"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "music to my ear"
       ]
     }
   }

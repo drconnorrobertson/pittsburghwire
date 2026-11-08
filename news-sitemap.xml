@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-instrument-trade-in-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Used Music Gear Around Pittsburgh: Selling and Trading</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-books-selling-trade-credit</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -14,6 +22,22 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Used Board Games and Rentals Around Pittsburgh: Two Different Models</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-record-shops-concert-visit-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Records and Live Music Around Pittsburgh: Plan Both Visits</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-record-collection-selling-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Selling Records Around Pittsburgh: Prepare the Collection</news:title>
     </news:news>
   </url>
   <url>
@@ -33,6 +57,14 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-guitar-repair-drop-off-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Guitar Repairs Around Pittsburgh: Intake, Quotes and Pickup</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-group-clay-workshops-planning-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
@@ -41,11 +73,27 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-first-guitar-shopping-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Buying a First Guitar Around Pittsburgh: Start With the Player</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-fabric-shopping-project-guide</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Pittsburgh Fabric Shopping: Match the Shop to the Project</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-event-audio-backline-rental-guide</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Event Audio Around Pittsburgh: Rentals Versus Production</news:title>
     </news:news>
   </url>
   <url>
