@@ -1,21 +1,21 @@
 {
   "status": "submitted",
-  "reason": "Changed reachable main sitemap accepted after exact production and live weekend-detour refresh verification. News and directory maps unchanged; not resubmitted. Submission does not prove indexing.",
+  "reason": "Changed reachable main and News maps accepted after exact production and live Carnahan notice verification. Directory unchanged; not resubmitted. Submission does not prove indexing.",
   "restricted_indexing_api_used": false,
   "sitemaps": [
     {
       "url": "https://www.thepittsburghwire.com/sitemap.xml",
-      "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
+      "sha256": "229509358c854bab20937287ab95d60e304e22fe790a0ece614810eae7e430ff",
       "accepted": true,
-      "accepted_date": "2026-11-06",
-      "accepted_at_utc": "2026-11-06T14:00:04.183Z"
+      "accepted_date": "2026-11-08",
+      "accepted_at_utc": "2026-11-08T14:14:37.036Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
-      "sha256": "c758c61b0c87b4f67626dfc31c54a565f17458aa579433e4526c69c1491c453e",
+      "sha256": "dc3193c5c928715516ab407ba16ea4949254d61e687a8db44d8e2415adb5ec80",
       "accepted": true,
-      "accepted_date": "2026-11-05",
-      "accepted_at_utc": "2026-11-05T14:04:28.258Z"
+      "accepted_date": "2026-11-08",
+      "accepted_at_utc": "2026-11-08T14:14:56.061Z"
     },
     {
       "url": "https://www.thepittsburghwire.com/directory-sitemap.xml",
@@ -27,29 +27,29 @@
     }
   ],
   "method": "Google Search Console browser UI",
-  "submitted_date": "2026-11-06",
-  "submitted_commit": "c1485e607398d0511c67ec772727e5a579b40314",
-  "next_routine_check_not_before": "2026-11-07",
+  "submitted_date": "2026-11-08",
+  "submitted_commit": "efaa41e0ac4fa6a11408d3de915807a8aa54881c",
+  "next_routine_check_not_before": "2026-11-09",
   "connector_status": "GSC Wizard payment_required; direct signed-in Google Search Console browser access works",
   "latest_verified_live": {
-    "checked_utc": "2026-11-06T13:59:34.717030+00:00",
-    "content_commit": "c1485e607398d0511c67ec772727e5a579b40314",
-    "deployment_id": "dpl_J4q7rytTZXLgxZZCuu8TQ2x4Gadz",
+    "checked_utc": "2026-11-08T14:14:17.827322+00:00",
+    "content_commit": "efaa41e0ac4fa6a11408d3de915807a8aa54881c",
+    "deployment_id": "dpl_8GoLjsYKnt2NtRSGNTzh8x72NDL7",
     "production_state": "READY",
-    "article_url": "https://www.thepittsburghwire.com/news/prt-east-busway-mt-washington-tunnel-october-31-november-7-2026",
+    "article_url": "https://www.thepittsburghwire.com/news/carnahan-road-closure-crane-avenue-detour-november-9-2026",
     "article_status": 200,
     "canonical_matches": true,
     "indexable": true,
-    "datePublished": "2026-10-30",
-    "dateModified": "2026-11-06",
+    "datePublished": "2026-11-08",
+    "dateModified": "2026-11-08",
     "maps": {
       "sitemap.xml": {
-        "sha256": "dae79a78eb51db14739ee96019541f72551f555763045ee5b2ade4bbf5c27058",
-        "urls": 3593,
+        "sha256": "229509358c854bab20937287ab95d60e304e22fe790a0ece614810eae7e430ff",
+        "urls": 3594,
         "http_status": 200
       },
       "news-sitemap.xml": {
-        "sha256": "c758c61b0c87b4f67626dfc31c54a565f17458aa579433e4526c69c1491c453e",
+        "sha256": "dc3193c5c928715516ab407ba16ea4949254d61e687a8db44d8e2415adb5ec80",
         "urls": 1,
         "http_status": 200
       },
@@ -430,16 +430,37 @@
         }
       ],
       "method": "Google Search Console browser UI"
+    },
+    {
+      "submitted_date": "2026-11-08",
+      "submitted_commit": "efaa41e0ac4fa6a11408d3de915807a8aa54881c",
+      "sitemaps": [
+        {
+          "url": "https://www.thepittsburghwire.com/sitemap.xml",
+          "sha256": "229509358c854bab20937287ab95d60e304e22fe790a0ece614810eae7e430ff",
+          "accepted": true,
+          "accepted_date": "2026-11-08",
+          "accepted_at_utc": "2026-11-08T14:14:37.036Z"
+        },
+        {
+          "url": "https://www.thepittsburghwire.com/news-sitemap.xml",
+          "sha256": "dc3193c5c928715516ab407ba16ea4949254d61e687a8db44d8e2415adb5ec80",
+          "accepted": true,
+          "accepted_date": "2026-11-08",
+          "accepted_at_utc": "2026-11-08T14:14:56.061Z"
+        }
+      ],
+      "method": "Google Search Console browser UI"
     }
   ],
   "submission_evidence": {
-    "submitted_date": "2026-11-06",
+    "submitted_date": "2026-11-08",
     "changed_sitemaps_accepted": [
-      "sitemap.xml"
+      "sitemap.xml",
+      "news-sitemap.xml"
     ],
-    "news_map_resubmitted": false,
     "directory_map_resubmitted": false,
-    "private_screenshot": "reports/timely-2026-11-06/main-sitemap-accepted.png"
+    "private_screenshot": "reports/timely-2026-11-08/news-sitemap-accepted.png"
   },
   "latest_verified_maintenance": {
     "checked_utc": "2026-10-19T22:36:17.541449+00:00",

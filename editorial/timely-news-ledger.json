@@ -1988,6 +1988,93 @@
         }
       ],
       "publication": null
+    },
+    {
+      "date": "2026-11-08",
+      "status": "published_verified",
+      "slug": "carnahan-road-closure-crane-avenue-detour-november-9-2026",
+      "why_cannot_wait": "City schedules closure for Monday November 9 with no exact start hour. Publishing Sunday gives commuters advance detour/access information; waiting until the Monday 9 a.m. batch could miss affected morning journeys. Does not assert the closure begins before 9 a.m.",
+      "sources": [
+        "https://www.pittsburghpa.gov/News-articles/Homepage/Portion-of-Carnahan-Road-to-Close-for-Retaining-Wall-Construction",
+        "https://content.govdelivery.com/attachments/fancy_images/PAPITT/2026/11/14655275/carnahan-detour_original.png"
+      ],
+      "coverage_check": "Fetched clean main 9f31dd8f; no Carnahan/Younger owner found. Resolves November 7 follow-up with a focused dated advance notice; no thin location variant. Recent task inventory showed no other observed Wire publisher.",
+      "workspace": "/Users/connorrobertson/Documents/Codex/2026-10-09/show-x20/timely-checkout-20261102",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 8 partial_daily_progress record read; no allocation changed.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-08",
+        "date_range": "2026-10-31/2026-11-06",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 0,
+        "average_position": null,
+        "observed_pages": [],
+        "note": "No data displayed; zero position tile is not a ranking. No deindexing inference from an empty performance window. Weekly comparison completed November 3; raw evidence private at reports/timely-2026-11-08/gsc-news.txt."
+      },
+      "validation": {
+        "article_body_words": 408,
+        "scope_note": "Focused closure notice. Local-only and fully closed segments distinguished; Banksville Avenue versus Road clarified. No exact start hour, bus arrangement, travel delay or reopening date invented. Six-week estimate attributed to city.",
+        "both_primary_links_http_status": 200,
+        "complete_diff_reviewed": true,
+        "production_build_quality_check": {
+          "pages": 4160,
+          "errors": 0
+        },
+        "new_post_py": true,
+        "text_only": true,
+        "sitemap_preservation": "All prior main-map URLs preserved; exactly one article URL added."
+      },
+      "publication": {
+        "checked_utc": "2026-11-08T14:14:17.827322+00:00",
+        "content_commit": "efaa41e0ac4fa6a11408d3de915807a8aa54881c",
+        "deployment_id": "dpl_8GoLjsYKnt2NtRSGNTzh8x72NDL7",
+        "production_state": "READY",
+        "article_url": "https://www.thepittsburghwire.com/news/carnahan-road-closure-crane-avenue-detour-november-9-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-11-08",
+        "dateModified": "2026-11-08",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "229509358c854bab20937287ab95d60e304e22fe790a0ece614810eae7e430ff",
+            "urls": 3594,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "dc3193c5c928715516ab407ba16ea4949254d61e687a8db44d8e2415adb5ec80",
+            "urls": 1,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "115b394a29aeb4db5a85f847ef5b9ce80874010422369fb151da7ce462395465",
+            "urls": 2806,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ]
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "accepted_at_utc": {
+          "main": "2026-11-08T14:14:37.036Z",
+          "news": "2026-11-08T14:14:56.061Z"
+        },
+        "directory_map": "Hash unchanged; not resubmitted. GSC last read November 5: Success, 2,806 pages.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-08/news-sitemap-accepted.png"
+      }
     }
   ]
 }
