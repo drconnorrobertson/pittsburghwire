@@ -14140,39 +14140,35 @@
   },
   "shorty-s-pins-x-pints": {
     "name": "Shorty's Pins x Pints",
-    "website": "http://www.shortysx.com",
+    "website": "https://www.shortysx.com/",
     "source": "https://www.visitpittsburgh.com/directory/shortys-pins-x-pints/",
     "source_name": "VisitPITTSBURGH",
     "address": "353 North Shore Dr. Pittsburgh, Pennsylvania 15212",
     "phone": "+1-412-904-4450",
     "source_category": "Entertainment Venues/Districts",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "Pittsburgh",
     "source_excerpt": "Shorty’s blends retro games like duckpin, shuffleboard & pinball with modern twists—social-ready photo ops &…",
-    "description": "Shorty's Pins x Pints: Entertainment Venues/Districts in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Shorty’s North Shore venue with duckpin bowling, games and group enquiries. Confirm the North Shore activity list, booking and current age policy.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.shortysx.com/",
       "title": "Shorty's Goodtimes Bar | Bar in PA",
       "description_excerpt": "Shorty’s blends retro games like duckpin, shuffleboard & pinball with modern twists—social-ready photo ops &…",
       "links": {
-        "menu": {
-          "url": "https://www.shortysx.com/menu/",
-          "label": "menu"
+        "locations": {
+          "url": "https://www.shortysx.com/locations/",
+          "label": "Locations"
+        },
+        "events": {
+          "url": "https://www.shortysx.com/book-an-event/",
+          "label": "Group enquiries"
         },
         "about": {
           "url": "https://www.shortysx.com/about/",
-          "label": "about"
-        },
-        "locations": {
-          "url": "https://www.shortysx.com/locations/",
-          "label": "locations"
-        },
-        "contact": {
-          "url": "https://www.shortysx.com/contact-us/",
-          "label": "contact us"
+          "label": "Branch-specific games"
         }
       },
       "topics": [],
@@ -14182,7 +14178,8 @@
       ]
     },
     "source_excerpt_url": "https://www.shortysx.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "siempre-algo": {
     "name": "Siempre Algo",
@@ -26565,39 +26562,35 @@
   },
   "shorty-s-tap-x-taco": {
     "name": "Shorty's Tap x Taco",
-    "website": "http://www.shortysx.com",
+    "website": "https://www.shortysx.com/",
     "source": "https://www.visitpittsburgh.com/directory/shortys-tap-x-taco/",
     "source_name": "VisitPITTSBURGH",
     "address": "244 West Bridge St. West Homestead, Pennsylvania 15120",
     "phone": "+1-412-235-9758",
     "source_category": "Entertainment Venues/Districts",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "arts-and-culture",
     "city": "West Homestead",
     "source_excerpt": "Shorty’s blends retro games like duckpin, shuffleboard & pinball with modern twists—social-ready photo ops &…",
-    "description": "Shorty's Tap x Taco: Entertainment Venues/Districts in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Shorty’s Waterfront venue at 244 West Bridge Street in West Homestead. Check branch-specific games and bookings; duckpin is at the separate North Shore location.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.shortysx.com/",
       "title": "Shorty's Goodtimes Bar | Bar in PA",
       "description_excerpt": "Shorty’s blends retro games like duckpin, shuffleboard & pinball with modern twists—social-ready photo ops &…",
       "links": {
-        "menu": {
-          "url": "https://www.shortysx.com/menu/",
-          "label": "menu"
+        "locations": {
+          "url": "https://www.shortysx.com/locations/",
+          "label": "Locations"
+        },
+        "events": {
+          "url": "https://www.shortysx.com/book-an-event/",
+          "label": "Group enquiries"
         },
         "about": {
           "url": "https://www.shortysx.com/about/",
-          "label": "about"
-        },
-        "locations": {
-          "url": "https://www.shortysx.com/locations/",
-          "label": "locations"
-        },
-        "contact": {
-          "url": "https://www.shortysx.com/contact-us/",
-          "label": "contact us"
+          "label": "Branch-specific games"
         }
       },
       "topics": [],
@@ -26607,7 +26600,8 @@
       ]
     },
     "source_excerpt_url": "https://www.shortysx.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "sign-language-interpreting-professionals-slip": {
     "name": "Sign Language Interpreting Professionals (SLIP)",
@@ -95028,14 +95022,14 @@
     "address": "398 Perry Highway, Pittsburgh, PA 15229",
     "phone": "412-367-4414",
     "source_category": "Tabletop Game Store",
-    "checked": "2026-10-13",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Pittsburgh",
     "source_excerpt": "",
-    "description": "Compare published services, current access and booking or enquiry terms directly with the business.",
+    "description": "Perry Highway game shop with table play, a game library, take-home rentals and a separate café. Confirm event approval, fees and the selected schedule.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-08",
       "url": "https://gamemasterspgh.com/",
       "title": "Game Masters",
       "description_excerpt": "",
@@ -95054,7 +95048,8 @@
         "game",
         "masters"
       ]
-    }
+    },
+    "published": "2026-10-13"
   },
   "diamondmill-auto-spa": {
     "name": "Diamondmill Auto Spa",
@@ -98917,6 +98912,310 @@
       "topics": [],
       "identity_tokens": [
         "old flame mending"
+      ]
+    }
+  },
+  "games-unlimited": {
+    "name": "Games Unlimited",
+    "website": "https://gamesunl.com/",
+    "source": "https://gamesunl.com/pages/about-us",
+    "source_name": "Games Unlimited official information",
+    "address": "5876 Forbes Avenue, Pittsburgh, PA 15217",
+    "phone": "412-421-8807",
+    "source_category": "Tabletop Games and Demonstrations",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Squirrel Hill game shop with demonstrations, used-game trade-ins and tabletop supplies. Compare shopping, learning and store-credit arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://gamesunl.com/",
+      "title": "Games Unlimited",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://gamesunl.com/pages/about-us",
+          "label": "Shop information"
+        },
+        "services": {
+          "url": "https://gamesunl.com/pages/check-out-our-demo-bar",
+          "label": "Demo bar"
+        },
+        "products": {
+          "url": "https://gamesunl.com/collections/used-games",
+          "label": "Used games and trade-ins"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "games unlimited"
+      ]
+    }
+  },
+  "pinball-pa": {
+    "name": "Pinball PA",
+    "website": "https://www.pinballpa.com/",
+    "source": "https://www.pinballpa.com/",
+    "source_name": "Pinball PA official information",
+    "address": "2284 Brodhead Road, Suite 10B, Aliquippa, PA 15001",
+    "phone": "412-423-8532",
+    "source_category": "Pinball and Arcade Venue",
+    "checked": "2026-11-08",
+    "category": "arts-and-culture",
+    "city": "Aliquippa",
+    "source_excerpt": "",
+    "description": "Aliquippa arcade with pass-based free play, gift cards and party bookings. Compare admission, time limits and private-space terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.pinballpa.com/",
+      "title": "Pinball PA",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://www.pinballpa.com/",
+          "label": "Location and contact"
+        },
+        "services": {
+          "url": "https://www.pinballpa.com/admission/",
+          "label": "Admission options"
+        },
+        "events": {
+          "url": "https://www.pinballpa.com/pacman-parties/",
+          "label": "Party bookings"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pinball pa"
+      ]
+    }
+  },
+  "pittsburgh-comics": {
+    "name": "Pittsburgh Comics",
+    "website": "https://pittsburghcomics.com/",
+    "source": "https://pittsburghcomics.com/store-info/",
+    "source_name": "Pittsburgh Comics official information",
+    "address": "113 E. McMurray Road, McMurray, PA 15317",
+    "phone": "724-941-5445",
+    "source_category": "Comic Books, Graphic Novels and Subscriptions",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "McMurray",
+    "source_excerpt": "",
+    "description": "McMurray comic shop with new issues, collected editions and pull-list enquiries. Verify the exact title, edition and order arrangement.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://pittsburghcomics.com/",
+      "title": "Pittsburgh Comics",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://pittsburghcomics.com/store-info/",
+          "label": "Store location"
+        },
+        "products": {
+          "url": "https://pittsburghcomics.com/shop/",
+          "label": "Shopping and subscriptions"
+        },
+        "about": {
+          "url": "https://pittsburghcomics.com/about/",
+          "label": "Shop background"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh comics"
+      ]
+    }
+  },
+  "south-side-comics": {
+    "name": "South Side Comics",
+    "website": "https://www.southsidecomicspgh.com/",
+    "source": "https://www.southsidecomicspgh.com/pages/about-us",
+    "source_name": "South Side Comics official information",
+    "address": "314 1/2 Curry Hollow Road, Pittsburgh, PA 15236",
+    "phone": "",
+    "source_category": "Comic Books and Subscription Service",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pleasant Hills",
+    "source_excerpt": "",
+    "description": "Pleasant Hills comic retailer with in-store and shipped subscriptions. Check ordering deadlines, pickup and mail-order terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.southsidecomicspgh.com/",
+      "title": "South Side Comics",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.southsidecomicspgh.com/pages/about-us",
+          "label": "Location and shopping"
+        },
+        "services": {
+          "url": "https://www.southsidecomicspgh.com/pages/subscription-portal",
+          "label": "Subscriptions"
+        },
+        "contact": {
+          "url": "https://www.southsidecomicspgh.com/pages/shipping-policy",
+          "label": "Shipping information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "south side comics"
+      ]
+    }
+  },
+  "coop-de-ville": {
+    "name": "Coop De Ville",
+    "website": "https://coopdevillepgh.com/",
+    "source": "https://coopdevillepgh.com/",
+    "source_name": "Coop De Ville official information",
+    "address": "2305 Smallman Street, Pittsburgh, PA 15222",
+    "phone": "412-991-2667",
+    "source_category": "Restaurant, Duckpin Bowling and Arcade",
+    "checked": "2026-11-08",
+    "category": "food-and-drink",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Strip District restaurant and entertainment venue with separate dining, games and private-event arrangements. Check age policy and lane access.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://coopdevillepgh.com/",
+      "title": "Coop De Ville",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://coopdevillepgh.com/",
+          "label": "Location and visiting"
+        },
+        "services": {
+          "url": "https://coopdevillepgh.com/activities/duckpin-bowling/",
+          "label": "Duckpin bowling"
+        },
+        "events": {
+          "url": "https://coopdevillepgh.com/activities/arcades/",
+          "label": "Arcade activities"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "coop de ville"
+      ]
+    }
+  },
+  "mimics-market": {
+    "name": "Mimic’s Market",
+    "website": "https://mimicsmarket.com/",
+    "source": "https://mimicsmarket.com/",
+    "source_name": "Mimic’s Market official information",
+    "address": "4707 Liberty Avenue, Pittsburgh, PA 15224",
+    "phone": "412-228-0306",
+    "source_category": "Tabletop Games and Organized Play",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Bloomfield game retailer with board games, role-playing products and a categorized event calendar. Verify the selected event rather than assuming open-table access.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://mimicsmarket.com/",
+      "title": "Mimic’s Market",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://mimicsmarket.com/",
+          "label": "Location and products"
+        },
+        "events": {
+          "url": "https://mimicsmarket.com/events",
+          "label": "Event calendar"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "mimic’s market"
+      ]
+    }
+  },
+  "pittsburgh-pinball-dojo": {
+    "name": "Pittsburgh Pinball Dojo",
+    "website": "https://pittsburghpinballdojo.com/",
+    "source": "https://pittsburghpinballdojo.com/",
+    "source_name": "Pittsburgh Pinball Dojo official information",
+    "address": "2 N Balph Avenue, Bellevue, PA",
+    "phone": "412-401-8173",
+    "source_category": "Pinball Open Play and Private Events",
+    "checked": "2026-11-08",
+    "category": "arts-and-culture",
+    "city": "Bellevue",
+    "source_excerpt": "",
+    "description": "Bellevue pinball venue with dated public sessions, leagues and private-event enquiries. Check the next date and upstairs access before visiting.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://pittsburghpinballdojo.com/",
+      "title": "Pittsburgh Pinball Dojo",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://pittsburghpinballdojo.com/",
+          "label": "Venue and current notices"
+        },
+        "contact": {
+          "url": "https://pittsburghpinballdojo.com/contact/",
+          "label": "Contact form"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "pittsburgh pinball dojo"
+      ]
+    }
+  },
+  "phantom-of-the-attic-monroeville": {
+    "name": "Phantom of the Attic — Monroeville",
+    "website": "https://phantom-attic.com/",
+    "source": "https://phantom-attic.com/location",
+    "source_name": "Phantom of the Attic — Monroeville official information",
+    "address": "3766 William Penn Highway, Monroeville, PA 15146",
+    "phone": "412-856-4403",
+    "source_category": "Comic Books and Subscription Service",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Monroeville",
+    "source_excerpt": "",
+    "description": "Monroeville comic shop with new comics, collected editions and a no-minimum subscription offer. Check current ordering and pickup terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://phantom-attic.com/",
+      "title": "Phantom of the Attic — Monroeville",
+      "description_excerpt": "",
+      "links": {
+        "contact": {
+          "url": "https://phantom-attic.com/location",
+          "label": "Monroeville address"
+        },
+        "about": {
+          "url": "https://phantom-attic.com/about",
+          "label": "Shop and subscriptions"
+        },
+        "services": {
+          "url": "https://phantom-attic.com/contact",
+          "label": "Contact details"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "phantom of the attic — monroeville"
       ]
     }
   }
