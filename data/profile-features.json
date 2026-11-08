@@ -309,7 +309,7 @@
       {
         "heading": "ELIA in Downtown Pittsburgh",
         "paragraphs": [
-          "ELIA estiatorio lists its Pittsburgh location at 120 Fifth Avenue, in Fifth Avenue Place. Its current website provides menus, online ordering and a reservation link. This replaces the earlier opening announcement quoted in this directory. The downtown restaurant has its own website; the Elia Mediterranean Grille website describes the separate Warrendale location."
+          "ELIA estiatorio lists its Pittsburgh location at 120 Fifth Avenue, in Fifth Avenue Place. Its current website provides menus, online ordering and a reservation link. The downtown restaurant has its own website; the Elia Mediterranean Grille website describes the separate Warrendale location."
         ],
         "source_url": "https://www.visitpittsburgh.com/directory/elia-estiatorio/",
         "source_label": "VisitPITTSBURGH’s current ELIA listing"
@@ -333,12 +333,16 @@
     ],
     "related": [
       {
-        "url": "/directory/food-and-drink/",
-        "label": "More Pittsburgh food and drink businesses"
+        "url": "/directory/3-rivers-restaurant/",
+        "label": "3 Rivers Restaurant"
       },
       {
-        "url": "/locations/pittsburgh/",
-        "label": "Pittsburgh business directory"
+        "url": "/directory/alihan-s-coffee-breakfast/",
+        "label": "Alihan’s Coffee & Breakfast"
+      },
+      {
+        "url": "/directory/food-and-drink/",
+        "label": "More Pittsburgh food and drink businesses"
       }
     ]
   }
