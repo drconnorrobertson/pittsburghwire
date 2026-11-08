@@ -89,7 +89,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-books-selling-trade-credit</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-and-rental-board-games</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-library-digital-reading-audiobooks</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -126,6 +138,24 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-ceramics-independent-studio-firing-options</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-special-orders-pickup</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-local-author-submissions</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-author-events-attendance</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -456,7 +486,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-rad-pass-library-card-tickets-guide</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -516,7 +546,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-library-meeting-room-reservations-guide</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -852,7 +882,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/lawrenceville-romance-bookstores-two-shopping-options</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -972,7 +1002,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/commonplace-coffee-northland-library-cafe-visit-guide</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1578,7 +1608,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/news/independent-bookstores-pittsburgh-area-five-stops</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -3790,6 +3820,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/amazing-books-records-downtown/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/amazing-books-records-squirrel-hill/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/ambridge-regional-distribution-manufacturing-center/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -3899,7 +3941,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/andrew-carnegie-free-library-music-hall/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5116,6 +5158,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/bottom-feeder-books/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/bovard-anderson-company-real-estate/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -6078,6 +6126,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/citizens-fiber/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/city-books/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9138,6 +9192,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/funcy-decor/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/fungus-books/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -14098,6 +14158,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/penguin-bookshop/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/penn-brewery/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -14867,7 +14933,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/posman-books/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -15702,6 +15768,18 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/riverside-concrete-supply-inc/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/riverstone-books-mccandless/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/riverstone-books-squirrel-hill/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -18256,6 +18334,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thepittsburghwire.com/directory/the-tiny-bookstore/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/directory/the-trade-institute-of-pittsburgh/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -19607,7 +19691,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/directory/western-allegheny-community-library/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -19824,6 +19908,12 @@
   <url>
     <loc>https://www.thepittsburghwire.com/directory/white-water-adventurers-inc/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/directory/white-whale-bookstore/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -20621,7 +20711,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/locations/oakdale/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -20645,7 +20735,7 @@
   </url>
   <url>
     <loc>https://www.thepittsburghwire.com/locations/sewickley/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

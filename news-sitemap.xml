@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-books-selling-trade-credit</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Selling Used Books in Pittsburgh: Cash, Credit and Copy Details</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thepittsburghwire.com/news/pittsburgh-used-and-rental-board-games</loc>
     <news:news>
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Used Board Games and Rentals Around Pittsburgh: Two Different Models</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-library-digital-reading-audiobooks</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Digital Reading in Pittsburgh: Library Loans and Audiobooks</news:title>
     </news:news>
   </url>
   <url>
@@ -54,6 +70,30 @@
       <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08</news:publication_date>
       <news:title>Pittsburgh Ceramics: Independent Studio and Firing Options</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-special-orders-pickup</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Ordering Books Locally: Pickup and Delivery Around Pittsburgh</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-local-author-submissions</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Local Authors: Read Pittsburgh Bookstore Submission Policies</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thepittsburghwire.com/news/pittsburgh-bookstore-author-events-attendance</loc>
+    <news:news>
+      <news:publication><news:name>The Pittsburgh Wire</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-08</news:publication_date>
+      <news:title>Pittsburgh Bookstore Events: RSVPs, Signings and Book Clubs</news:title>
     </news:news>
   </url>
   <url>

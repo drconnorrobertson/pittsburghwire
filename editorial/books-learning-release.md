@@ -1,0 +1,15 @@
+# Bookstores and reading services — November 8, 2026
+
+This batch adds nine new business pages and restores White Whale Bookstore's existing noindex under-review placeholder after checking its operator contact and book-club information. It increases the verified directory by ten; White Whale is not counted as a newly created URL. Riverstone's two active locations and Amazing Books' two branches have distinct addresses and profiles. Riverstone's old Covenant Avenue site is not added as a third location.
+
+New long features: Riverstone McCandless (614 words), The Tiny Bookstore (611) and City Books (613). Seven other newly verified entries are explicitly classified short verified briefs. Posman Books is expanded to a 611-word feature; Andrew Carnegie Free Library & Music Hall and Western Allegheny Community Library receive individually researched service briefs.
+
+Five new articles, each 600+ words, cover special orders/pickup, used-book selling and credit, author submissions, event attendance and digital reading. Each is attributed to Dr. Connor Robertson, uses primary sources and links relevant directory profiles. Five older articles gain sourced updates: independent bookstores, Lawrenceville romance stores, library meeting rooms, RAD Pass and the Northland cafe. Historical publication dates and authorship are preserved.
+
+Research details: distinguish Tiny's current online/curbside-only notice from older browsing copy; disclose Authors Select narrative/form discrepancies and an undated relaunch reference; use Riverstone's current Blazier Drive address; distinguish City Books' dedicated author instructions from general older FAQ language; mark past October and November events as past; note Northland's 2023 instruction verification date; do not treat a shipping-processing window as delivery assurance or a calendar entry as a confirmed booking. No personal visits, purchases, interviews or inventory inspections are claimed.
+
+The complete production build and quality check passed: 4,202 HTML pages, 191,817 local links, 48,553 structured-data URLs, 3,637 sitemap URLs and no quality errors. All 3,622 prior sitemap URLs remain, plus nine newly created profiles, the restored White Whale URL and five articles. The 2,834 sourced profiles appear once across 48 directory pages (47 x 60, then 14), in search-data order. The 121-card repeated-run pagination regression passed. Inventory has no feature errors or identical article-body groups. Catalog retains exactly the same 24 prior errors; no new errors.
+
+Inventory: 514 articles and 2,834 verified business profiles, with 27 individually reviewed 600+ word business features and 16 verified briefs. Archive totals are not an assertion that all older pages meet the long-form standard. Remaining count targets: 4,486 articles and 2,166 verified business profiles.
+
+Production and public verification are recorded separately after merge. IndexNow acceptance is not Google indexing or ranking evidence. No GSC Wizard or Google Indexing API is used.
