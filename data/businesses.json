@@ -12345,20 +12345,20 @@
   },
   "posman-books": {
     "name": "Posman Books",
-    "website": "http://www.posmanbooks.com",
+    "website": "https://posmanbooks.com/",
     "source": "https://www.visitpittsburgh.com/directory/posman-books/",
     "source_name": "VisitPITTSBURGH",
     "address": "1637 Smallman St. Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-904-2732",
     "source_category": "Bookstore",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "retail",
     "city": "Pittsburgh",
     "source_excerpt": "Posman Books is an independent bookstore built by book lovers, offering a thoughtfully curated selection of books, stationery, gifts, and…",
-    "description": "Posman Books: Bookstore in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Strip District bookstore at The Terminal with books, stationery and gifts, sharing an address with OddFellows Ice Cream. Check branch contact and online fulfillment separately.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://posmanbooks.com/",
       "title": "Posman Books\rChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronChevronSearchAccountCartAccountChevronChevronCircleCircleCircleCircleLink chevronChevronChevronArrowArrowArrowInstagramTiktokErrorNotification closeBack to topPlusClose",
       "description_excerpt": "",
@@ -12377,7 +12377,8 @@
         "books",
         "posman"
       ]
-    }
+    },
+    "published": "2026-10-07"
   },
   "ppg": {
     "name": "PPG",
@@ -40103,13 +40104,13 @@
     "source": "https://www.paacc.com/list/member/andrew-carnegie-free-library-music-hall-44374",
     "source_name": "Pittsburgh Airport Area Chamber of Commerce",
     "source_category": "Library",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "professional-services",
     "source_excerpt": "",
-    "description": "Andrew Carnegie Free Library & Music Hall: Library in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Carnegie Borough library and performance venue with separately published library services, Music Hall programs and booking routes.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://carnegiecarnegie.org/",
       "title": "Andrew Carnegie Free Library & Music Hall",
       "description_excerpt": "",
@@ -40132,7 +40133,8 @@
         "music",
         "andrew"
       ]
-    }
+    },
+    "published": "2026-10-07"
   },
   "at-t-firstnet": {
     "name": "AT&T/FIRSTNET",
@@ -57857,13 +57859,13 @@
     "source": "https://www.paacc.com/list/member/western-allegheny-community-library-29804",
     "source_name": "Pittsburgh Airport Area Chamber of Commerce",
     "source_category": "Library",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "professional-services",
     "source_excerpt": "Western Allegheny Community Library is a public library serving Oakdale, North Fayette, and Findlay Township.…",
-    "description": "Western Allegheny Community Library: Library in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Oakdale public library with digital resources, room-request instructions and separate event and appointment routes.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://www.westernalleghenylibrary.org/",
       "title": "Western Allegheny Community Library | Oakdale, Pennsylvania | Public Library | North Fayette, Findlay Township, Oakdale Borough",
       "description_excerpt": "Western Allegheny Community Library is a public library serving Oakdale, North Fayette, and Findlay Township.…",
@@ -57885,7 +57887,8 @@
       ]
     },
     "source_excerpt_url": "https://www.westernalleghenylibrary.org/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "wtae": {
     "name": "WTAE",
@@ -99216,6 +99219,360 @@
       "topics": [],
       "identity_tokens": [
         "phantom of the attic — monroeville"
+      ]
+    }
+  },
+  "riverstone-books-mccandless": {
+    "name": "Riverstone Books — McCandless",
+    "website": "https://www.riverstonebookstore.com/",
+    "source": "https://www.riverstonebookstore.com/our-story",
+    "source_name": "Riverstone Books — McCandless official information",
+    "address": "65 Blazier Drive, Pittsburgh, PA 15237",
+    "phone": "412-366-1001",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "McCandless",
+    "source_excerpt": "",
+    "description": "North Hills bookstore at Pine Creek Center with the Greenhouse Cafe, ordering services and a location-specific event calendar.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.riverstonebookstore.com/",
+      "title": "Riverstone Books — McCandless",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.riverstonebookstore.com/our-story",
+          "label": "Store history"
+        },
+        "locations": {
+          "url": "https://www.riverstonebookstore.com/contact",
+          "label": "Current locations"
+        },
+        "events": {
+          "url": "https://www.riverstonebookstore.com/event-guidelines",
+          "label": "Event guidance"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "riverstone books — mccandless"
+      ]
+    }
+  },
+  "riverstone-books-squirrel-hill": {
+    "name": "Riverstone Books — Squirrel Hill",
+    "website": "https://www.riverstonebookstore.com/",
+    "source": "https://www.riverstonebookstore.com/contact",
+    "source_name": "Riverstone Books — Squirrel Hill official information",
+    "address": "5841 Forbes Avenue, Pittsburgh, PA 15217",
+    "phone": "412-422-2220",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Squirrel Hill branch of Riverstone Books with book ordering and a branch-specific calendar.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.riverstonebookstore.com/",
+      "title": "Riverstone Books — Squirrel Hill",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://www.riverstonebookstore.com/contact",
+          "label": "Squirrel Hill contact"
+        },
+        "about": {
+          "url": "https://www.riverstonebookstore.com/our-story",
+          "label": "Store history"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "riverstone books — squirrel hill"
+      ]
+    }
+  },
+  "the-tiny-bookstore": {
+    "name": "The Tiny Bookstore",
+    "website": "https://tinybookspgh.com/",
+    "source": "https://tinybookspgh.com/about-us/",
+    "source_name": "The Tiny Bookstore official information",
+    "address": "1130 Perry Highway, Suite 106, Pittsburgh, PA 15237",
+    "phone": "412-585-2651",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Ross Township",
+    "source_excerpt": "",
+    "description": "North Hills bookseller currently listing online and curbside service, special orders and separate author-program information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://tinybookspgh.com/",
+      "title": "The Tiny Bookstore",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://tinybookspgh.com/about-us/",
+          "label": "About the shop"
+        },
+        "services": {
+          "url": "https://tinybookspgh.com/special-orders/",
+          "label": "Special orders"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "the tiny bookstore"
+      ]
+    }
+  },
+  "city-books": {
+    "name": "City Books",
+    "website": "https://citybookspgh.com/",
+    "source": "https://citybookspgh.com/",
+    "source_name": "City Books official information",
+    "address": "908 Galveston Avenue, Pittsburgh, PA 15233",
+    "phone": "412-321-7323",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Allegheny West used and collectible bookstore with special-order, collection-curation and selected layaway information.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://citybookspgh.com/",
+      "title": "City Books",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://citybookspgh.com/",
+          "label": "Store information"
+        },
+        "services": {
+          "url": "https://citybookspgh.com/faqs-2/",
+          "label": "Shopping questions"
+        },
+        "products": {
+          "url": "https://citybookspgh.com/layaway/",
+          "label": "Selected collectible layaway"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "city books"
+      ]
+    }
+  },
+  "white-whale-bookstore": {
+    "name": "White Whale Bookstore",
+    "website": "https://whitewhalebookstore.com/",
+    "source": "https://whitewhalebookstore.com/",
+    "source_name": "White Whale Bookstore official information",
+    "address": "4754 Liberty Avenue, Pittsburgh, PA 15224",
+    "phone": "412-224-2847",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Bloomfield bookstore with a published book-club program and official ordering contact.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://whitewhalebookstore.com/",
+      "title": "White Whale Bookstore",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://whitewhalebookstore.com/",
+          "label": "Store contact"
+        },
+        "events": {
+          "url": "https://whitewhalebookstore.com/events/book-clubs",
+          "label": "Book clubs"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "white whale bookstore"
+      ]
+    }
+  },
+  "penguin-bookshop": {
+    "name": "Penguin Bookshop",
+    "website": "https://penguinbookshop.com/",
+    "source": "https://penguinbookshop.com/about-us",
+    "source_name": "Penguin Bookshop official information",
+    "address": "417½ Beaver Street, Sewickley, PA 15143-1502",
+    "phone": "412-741-3838",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Sewickley",
+    "source_excerpt": "",
+    "description": "Sewickley bookseller offering new books for different ages, ordering and dated literary events.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://penguinbookshop.com/",
+      "title": "Penguin Bookshop",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://penguinbookshop.com/about-us",
+          "label": "Shop background"
+        },
+        "events": {
+          "url": "https://penguinbookshop.com/",
+          "label": "Current calendar"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "penguin bookshop"
+      ]
+    }
+  },
+  "amazing-books-records-squirrel-hill": {
+    "name": "Amazing Books & Records — Squirrel Hill",
+    "website": "https://www.amazingbooksandrecords.com/",
+    "source": "https://www.amazingbooksandrecords.com/hours--locations.html",
+    "source_name": "Amazing Books & Records — Squirrel Hill official information",
+    "address": "5858 Forbes Avenue, Pittsburgh, PA 15217",
+    "phone": "412-421-7000",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Squirrel Hill used-book and record shop with buying instructions and a Sabbath-related weekly closure.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.amazingbooksandrecords.com/",
+      "title": "Amazing Books & Records — Squirrel Hill",
+      "description_excerpt": "",
+      "links": {
+        "locations": {
+          "url": "https://www.amazingbooksandrecords.com/hours--locations.html",
+          "label": "Hours and locations"
+        },
+        "services": {
+          "url": "https://www.amazingbooksandrecords.com/sell-your-books.html",
+          "label": "Book buying"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "amazing books & records — squirrel hill"
+      ]
+    }
+  },
+  "amazing-books-records-downtown": {
+    "name": "Amazing Books & Records — Downtown",
+    "website": "https://www.amazingbooksandrecords.com/",
+    "source": "https://www.amazingbooksandrecords.com/sell-your-books.html",
+    "source_name": "Amazing Books & Records — Downtown official information",
+    "address": "320 Smithfield Street, Pittsburgh, PA 15222",
+    "phone": "412-471-1899",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Downtown used-book and record shop with separate location details and published buying arrangements.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.amazingbooksandrecords.com/",
+      "title": "Amazing Books & Records — Downtown",
+      "description_excerpt": "",
+      "links": {
+        "services": {
+          "url": "https://www.amazingbooksandrecords.com/sell-your-books.html",
+          "label": "Book buying"
+        },
+        "locations": {
+          "url": "https://www.amazingbooksandrecords.com/hours--locations.html",
+          "label": "Downtown location"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "amazing books & records — downtown"
+      ]
+    }
+  },
+  "fungus-books": {
+    "name": "Fungus Books",
+    "website": "https://www.fungusbooks.com/",
+    "source": "https://www.fungusbooks.com/about.php",
+    "source_name": "Fungus Books official information",
+    "address": "700½ South Trenton Avenue, Pittsburgh, PA 15221",
+    "phone": "",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Bookshop specializing in unusual, rare and used material, with an online inventory and published sale terms.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.fungusbooks.com/",
+      "title": "Fungus Books",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.fungusbooks.com/about.php",
+          "label": "Shop specialties"
+        },
+        "products": {
+          "url": "https://www.fungusbooks.com/terms.php",
+          "label": "Terms of sale"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "fungus books"
+      ]
+    }
+  },
+  "bottom-feeder-books": {
+    "name": "Bottom Feeder Books",
+    "website": "https://www.bottomfeederbooks.com/",
+    "source": "https://www.bottomfeederbooks.com/",
+    "source_name": "Bottom Feeder Books official information",
+    "address": "415 Gettysburg Street, Pittsburgh, PA 15206",
+    "phone": "412-231-9577",
+    "source_category": "Bookstore",
+    "checked": "2026-11-08",
+    "category": "retail",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Point Breeze bookshop and exhibition space with operator-listed contact details and dated art programming.",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://www.bottomfeederbooks.com/",
+      "title": "Bottom Feeder Books",
+      "description_excerpt": "",
+      "links": {
+        "about": {
+          "url": "https://www.bottomfeederbooks.com/",
+          "label": "Shop and exhibition information"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "bottom feeder books"
       ]
     }
   }
