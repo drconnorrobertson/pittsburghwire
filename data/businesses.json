@@ -64798,16 +64798,16 @@
     "source": "https://business.westmorelandchamber.com/directory/Details/pellis-construction-2586418",
     "source_name": "Westmoreland County Chamber of Commerce",
     "source_category": "Building Contractors-Site Development",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "trades-and-services",
-    "source_excerpt": "Lorem ipsum odor amet, consectetuer adipiscing elit Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur…",
+    "source_excerpt": "In 1966, Tom Pellis created Pellis Construction.",
     "description": "Pellis Construction: Building Contractors-Site Development in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
+      "checked": "2026-11-08",
       "url": "https://pellisconstruction.com/",
       "title": "Home - Pellis Construction",
-      "description_excerpt": "Lorem ipsum odor amet, consectetuer adipiscing elit Lorem ipsum odor amet, consectetuer adipiscing elit. Efficitur…",
+      "description_excerpt": "In 1966, Tom Pellis created Pellis Construction.",
       "links": {
         "contact": {
           "url": "https://pellisconstruction.com/contact-us/",
@@ -64821,7 +64821,8 @@
       ]
     },
     "source_excerpt_url": "https://pellisconstruction.com/",
-    "source_excerpt_name": "the business’s official website"
+    "source_excerpt_name": "the business’s official website",
+    "published": "2026-10-07"
   },
   "moore-morford-inc": {
     "name": "Moore & Morford, Inc.",
