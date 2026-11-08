@@ -5269,21 +5269,38 @@
   },
   "elia-estiatorio": {
     "name": "ELIA estiatorio",
-    "website": "http://www.eliamediterraneangrille.com",
+    "website": "https://eliaestiatoriopgh.com/",
     "source": "https://www.visitpittsburgh.com/directory/elia-estiatorio/",
     "source_name": "VisitPITTSBURGH",
     "address": "120 Fifth Ave., Fifth Avenue Place Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-866-3542",
     "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "category": "food-and-drink",
     "city": "Pittsburgh",
-    "source_excerpt": "Discover an elevated culinary experience with vibrant Mediterranean flavors and warm hospitality. Elia is expected to open in Fifth Avenue…",
-    "description": "ELIA estiatorio: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "source_excerpt": "",
+    "description": "ELIA estiatorio in Downtown Pittsburgh: Fifth Avenue Place address, official menu and reservations, and contact details checked November 8, 2026.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
-    }
+      "status": "corroborated",
+      "checked": "2026-11-08",
+      "url": "https://eliaestiatoriopgh.com/",
+      "title": "Elia Estiatorio - Pittsburgh, PA",
+      "description_excerpt": "",
+      "links": {
+        "menu": {
+          "url": "https://eliaestiatoriopgh.com/food-menu",
+          "label": "menu"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "elia",
+        "120 Fifth Avenue",
+        "4128663542"
+      ]
+    },
+    "published": "2026-10-07",
+    "title": "ELIA estiatorio Downtown Pittsburgh: Menu & Location | The Pittsburgh Wire"
   },
   "elite-coach-transportation-inc": {
     "name": "Elite Coach Transportation, Inc.",
