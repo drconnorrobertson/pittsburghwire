@@ -2075,6 +2075,108 @@
         "indexing_claimed": false,
         "private_evidence": "reports/timely-2026-11-08/news-sitemap-accepted.png"
       }
+    },
+    {
+      "date": "2026-11-09",
+      "status": "published_verified",
+      "slug": "pittsburgh-veterans-day-closures-trash-prt-november-11-2026",
+      "why_cannot_wait": "Confirmed city/county closures and CitiParks meal-program interruption occur Wednesday November 11. Waiting until next Monday November 16 would miss the holiday; practical collection and transit distinctions are useful now.",
+      "sources": [
+        "https://www.pittsburghpa.gov/News-articles/Homepage/City-of-Pittsburgh-Announces-Veterans-Day-Closures-and-Veterans-Day-Parade-Road-Closures",
+        "https://www.alleghenycounty.us/Events-Directory/County-Holidays/Veterans-Day",
+        "https://www.rideprt.org/service-alerts-and-updates/holiday-schedules/"
+      ],
+      "coverage_check": "Fetched and fast-forwarded to current main bf73c887; 34 externally added articles preserved. No existing November 11 holiday owner found. Existing November 7 parade coverage retained and expired window archived. Task inventory showed no other observed Wire publisher; weekly worker idle. Restaurant Ippa/Lily report describes prior-month openings and was not treated as breaking news.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 9 entry requires_vercel_team_authorization with zero reservations; unchanged by this run.",
+        "counted_against_weekly_cap": false
+      },
+      "search_console": {
+        "checked_date": "2026-11-09",
+        "date_range": "2026-11-01/2026-11-07",
+        "type": "Google Search News tab; not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 0,
+        "average_position": null,
+        "observed_pages": [],
+        "note": "No data displayed. Zero position tile is not a rank; no indexing inference. Weekly comparison completed November 3; next review November 10. Raw evidence private."
+      },
+      "validation": {
+        "article_body_words": 418,
+        "scope_note": "Focused holiday notice; no invented reopening hours or replacement meals. Past parade and yard pickup explicitly dated. Unknown private/school/library arrangements not inferred.",
+        "production_build_quality_check": {
+          "pages": 4268,
+          "local_links": 195220,
+          "structured_data_urls": 49312,
+          "sitemap_urls": 3704,
+          "errors": 0
+        },
+        "complete_diff_reviewed": true,
+        "new_post_py": true,
+        "text_only": true,
+        "source_links": "City and county reject urllib with 403 but content verified in browser/web; three PRT links HTTP200. Private source evidence retained.",
+        "sitemap_preservation": "All prior main sitemap values preserved; one URL added."
+      },
+      "publication": {
+        "checked_utc": "2026-11-09T14:13:15.045564+00:00",
+        "content_commit": "22fc98ab275be976f56346ce5c191677b45c8e58",
+        "github_deployment_id": 7656890417,
+        "production_state": "success",
+        "production_environment": "Production",
+        "deployment_status_evidence": {
+          "url": "https://api.github.com/repos/drconnorrobertson/pittsburghwire/deployments/7656890417/statuses/21769962541",
+          "state": "success",
+          "description": "Deployment has completed",
+          "environment": "Production",
+          "target_url": "https://pittsburghwire-f3cor471a-drconnorrobertsons-projects.vercel.app",
+          "created_at": "2026-11-09T14:11:58Z",
+          "creator": "vercel[bot]"
+        },
+        "article_url": "https://www.thepittsburghwire.com/news/pittsburgh-veterans-day-closures-trash-prt-november-11-2026",
+        "article_status": 200,
+        "canonical_matches": true,
+        "indexable": true,
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "maps": {
+          "sitemap.xml": {
+            "sha256": "137bb2e9e787534c7ea4fa916a99951521b87d52d136696550ab89b4eab7ed7b",
+            "urls": 3704,
+            "http_status": 200
+          },
+          "news-sitemap.xml": {
+            "sha256": "fc225d1ae97f3c22402eb412217a4ae90eb514550a57ff87324324735b31b828",
+            "urls": 36,
+            "http_status": 200
+          },
+          "directory-sitemap.xml": {
+            "sha256": "ca843a5cce3030e148a7604ffe15984940d2e83f32f0f41511c1b822b609d876",
+            "urls": 2878,
+            "http_status": 200
+          }
+        },
+        "discovery_pages_checked": [
+          "/",
+          "/news/",
+          "/news/neighborhoods/"
+        ],
+        "vercel_deployment_dashboard_url": "https://vercel.com/drconnorrobertsons-projects/pittsburghwire/GMPBgsP2CFmsZrDWZZX9ner56rJe"
+      },
+      "sitemaps": {
+        "accepted": [
+          "sitemap.xml",
+          "news-sitemap.xml"
+        ],
+        "accepted_at_utc": {
+          "main": "2026-11-09T14:13:38.065Z",
+          "news": "2026-11-09T14:13:46.748Z"
+        },
+        "directory_map": "Live hash changed through external batch; already observed Success/read November 8 with 2,878 pages. Not redundantly resubmitted.",
+        "indexing_claimed": false,
+        "private_evidence": "reports/timely-2026-11-09/news-sitemap-accepted.png"
+      },
+      "deployment_access_note": "Vercel connector 403; signed-in browser account lacked project. Exact Production commit successfully verified using public GitHub deployment 7656890417 and vercel[bot] success status, then live custom domain. No forbidden connector retry or manual deployment."
     }
   ]
 }
