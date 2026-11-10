@@ -2177,6 +2177,88 @@
         "private_evidence": "reports/timely-2026-11-09/news-sitemap-accepted.png"
       },
       "deployment_access_note": "Vercel connector 403; signed-in browser account lacked project. Exact Production commit successfully verified using public GitHub deployment 7656890417 and vercel[bot] success status, then live custom domain. No forbidden connector retry or manual deployment."
+    },
+    {
+      "date": "2026-11-10",
+      "status": "skipped_no_ready_qualifying_story",
+      "reason": "No distinct story meeting both immediate usefulness and primary-source readiness passed review. Recent Veterans Day and Carnahan notices already cover the immediate service needs. No quota filled with evergreen content.",
+      "coverage_check": "Clean main 4e025f72495667c476052d5e05082c86bf261c34 matches origin/main. Recent task inventory showed no other observed Wire publisher. Existing Ebisu/Saba owner found and retained for any verified refresh.",
+      "weekly_ledger_crosscheck": {
+        "path": "/Users/connorrobertson/Documents/Codex/2026-10-13/do-x20/outputs/weekly-publishing-ledger.json",
+        "status": "November 10 requires_vercel_team_authorization, zero reservations/publications by shared worker. No allocation changed."
+      },
+      "candidates": [
+        {
+          "topic": "2027 mayoral budget presentation",
+          "source": "https://www.pittsburghpa.gov/News-articles/Homepage/Mayor-Corey-O%E2%80%99Connor-Presents-2027-Budget-to-Pittsburgh-City-Council",
+          "decision": "background batch candidate",
+          "reason": "Official November 9 proposal announcement reviewed; no immediate application, service interruption or near-term public participation deadline established. Do not represent proposal as adopted."
+        },
+        {
+          "topic": "Ebisu Life Cranberry reported November 14 grand opening",
+          "source": "https://www.pennsylvasia.com/search/label/Openings",
+          "primary_source_to_verify": "https://www.instagram.com/p/De-vO56xsas/",
+          "decision": "hold for current primary confirmation; refresh existing owner only",
+          "existing_owner": "cranberry-ebisu-life-saba-origin-announced-plans",
+          "reason": "October 27 secondary report supplies date, but linked Instagram content could not be fetched through web research. Soft opening remains unconfirmed. No new opening claim published."
+        },
+        {
+          "topic": "PRT Carnegie Station meeting",
+          "source": "https://www.rideprt.org/newsroom/news-releases",
+          "decision": "can wait",
+          "reason": "Previously reviewed November 6 release announces a meeting early next month; no fresh immediate service notice surfaced."
+        }
+      ],
+      "sources_reviewed": [
+        "https://www.pittsburghpa.gov/News-articles",
+        "https://www.rideprt.org/newsroom/news-releases",
+        "https://www.pennsylvasia.com/search/label/Openings"
+      ],
+      "search_console": {
+        "checked_date": "2026-11-10",
+        "access": "Direct signed-in Chrome; IAB unavailable, Chrome fallback succeeded. No purchase.",
+        "date_range": "2026-11-02/2026-11-08",
+        "type": "Google Search News tab, not Google News app/site inclusion",
+        "clicks": 0,
+        "impressions": 0,
+        "average_position": null,
+        "observed_pages": [],
+        "weekly_comparison": {
+          "current": "2026-11-02/2026-11-08",
+          "previous": "2026-10-26/2026-11-01",
+          "news": {
+            "current": {
+              "clicks": 0,
+              "impressions": 0,
+              "average_position": null
+            },
+            "previous": {
+              "clicks": 1,
+              "impressions": 3,
+              "average_position": 7.3
+            }
+          },
+          "web": {
+            "current": {
+              "clicks": 549,
+              "impressions": 88096,
+              "average_position": 10.2
+            },
+            "previous": {
+              "clicks": 652,
+              "impressions": 83220,
+              "average_position": 9.5
+            }
+          },
+          "interpretation": "Web clicks down 15.8 percent and impressions up 5.9 percent in one adjacent-week comparison; aggregate position worsened. No causal diagnosis or sustained trend asserted. News sample too small for trend or indexing inference. Comparison chart accessibility date is malformed; actual date controls saved and used."
+        },
+        "private_evidence": "reports/timely-2026-11-10/gsc-news.txt and gsc-news-comparison.txt, gsc-web-comparison.txt, gsc-comparison-dates.txt"
+      },
+      "sitemaps": {
+        "submitted": false,
+        "reason": "No article or sitemap change in this run; November 9 accepted maps not redundantly resubmitted."
+      },
+      "publication": null
     }
   ]
 }

@@ -289,7 +289,7 @@ Existing leisure and food coverage must also be checked for overlap. Consolidate
 
 - ALMA | LEWIS expansion — `alma-lewis-expanded-space-october-2026-reopening`, October13. Oct23–24announcedreopening/benefitversusfreepublicday/exhibition; refresh same story after verified changes rather than separate preview/day/walk thin variants. Do notapplygenericfreeeventbanner to ticketedbenefit.
 
-- Cranberry Ebisu Life/Saba Origin plans — `cranberry-ebisu-life-saba-origin-announced-plans`, October13. Two proposedtenants onecohesiveopening update; both plannedstatus explicit. Refresh sameURLuponverifieddates/operations, no competingbrand/neighborhoodpreviews. ExistingSquirrelHillEbisu andNCSabaaddresses notCranberry.
+- Cranberry Ebisu Life/Saba Origin plans — `cranberry-ebisu-life-saba-origin-announced-plans`, October13. Two proposedtenants onecohesiveopening update; both plannedstatus explicit. Refresh sameURLuponverifieddates/operations, no competingbrand/neighborhoodpreviews. ExistingSquirrelHillEbisu andNCSabaaddresses notCranberry. November10check: October27 PennsylvAsia report (https://www.pennsylvasia.com/search/label/Openings) identifies a November14 grand opening; linked operator post https://www.instagram.com/p/De-vO56xsas/ was inaccessible via web research. Hold for current primary confirmation and refresh this owner only; do not claim soft opening.
 
 - Ramen menu comparisons — `pittsburgh-ramen-nanban-fujiya-menu-comparison`, October13. Nanbanlead/FujiyaNorthFayettealternative, ingredient/portion/addon distinctions; maintain same guide for comparison intent. ExistingAsahi business-opening story separate; no thinneighborhood/vegetarian variants. ShadysideFujiya status needsfreshprimarycheckbeforevisitrecommendation.
 
