@@ -30,7 +30,8 @@ for section in ('directory', 'services', 'locations'):
         # Reach a stable result in this pass so repeated builds are identical.
         for attempt in range(10):
             before_categories = text
-            for old, new in replacements.items():
+            # Normalize a complete category sequence before any shorter overlap.
+            for old, new in sorted(replacements.items(), key=lambda item: len(item[0]), reverse=True):
                 if old in text:
                     normalized += text.count(old)
                     text = text.replace(old, new)
