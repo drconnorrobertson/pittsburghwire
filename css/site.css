@@ -293,3 +293,6 @@ p, blockquote { text-wrap: pretty; }
 @media(max-width:600px){
   input.hero-newsletter-input,input.newsletter-input,input.sticky-newsletter-input{font-size:16px;min-height:44px;min-width:0}
 }
+
+/* Breadcrumbs remain legible against the paper background on every screen. */
+.breadcrumb a{color:#6c6154}
