@@ -11,4 +11,5 @@ for (const [program, args] of [
   ['python3', ['scripts/apply-alert-expiry.py']],
   ['python3', ['scripts/normalize-news-links.py']],
   ['node', ['scripts/practical-homepage.cjs', '.']],
+  ['python3', ['service_buying_guides.py']],
 ]) execFileSync(program, args, {cwd, stdio:'inherit'});
