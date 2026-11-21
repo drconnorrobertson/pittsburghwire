@@ -882,5 +882,937 @@
       }
     ],
     "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-payroll-provider-transition",
+    "title": "Pittsburgh Payroll Provider Changes: Records, Cutover and Tax Checks",
+    "description": "Prepare a payroll-provider transition brief covering historical records, employee data, responsibilities and the first live payroll.",
+    "intro": "Changing payroll providers is a records and responsibility project as well as a software purchase. A Pittsburgh-area employer should understand who completes the final payroll in the old system, what moves to the new one and how the first results will be checked. Use this brief to compare transition plans before selecting a provider. It does not determine your filing obligations or replace advice about an unusual payroll situation.",
+    "sections": [
+      {
+        "title": "Inventory the current payroll arrangement",
+        "text": "List entities, work locations, pay schedules, employee groups, benefits, deductions and connected timekeeping systems. Identify the reports and payment records retained in the current system. Include adjustments already known but not yet processed. A provider cannot give a useful implementation plan from employee count alone when several states, pay frequencies or special deductions are involved."
+      },
+      {
+        "title": "Assign a clear cutover date",
+        "text": "Ask each candidate to identify the last payroll and filings handled by the former provider and the first handled by the new one. Record responsibility for year-to-date balances, corrections and year-end forms. Do not assume changing systems at a quarter boundary automatically resolves every split-period issue. Have the payroll and tax advisers confirm the actual handoff for the planned date."
+      },
+      {
+        "title": "Preserve employer visibility",
+        "text": "The IRS explains that outsourcing payroll generally does not remove the employer’s federal tax-payment responsibility. Ask how your business will retain access to payment information and receive agency correspondence. Document who reviews deposits and follows up on discrepancies. Treat this as an ongoing control, rather than assuming the provider’s confirmation email establishes that every obligation has been satisfied."
+      },
+      {
+        "title": "Test the conversion with a defined sample",
+        "text": "For a fictional employer with hourly and salaried staff, compare a sample payroll under both systems using the same approved inputs. Review gross pay, deductions, employer costs, net pay and year-to-date totals. Explain differences before accepting them. Avoid sending personal employee information in an unprotected sales enquiry; use the provider’s approved transfer process after access and responsibilities are agreed."
+      },
+      {
+        "title": "Price support beyond the first run",
+        "text": "Separate recurring processing, setup, data migration, additional filings, corrections and year-end work. Ask how urgent payroll problems are escalated and what support is available near your processing deadline. Keep the original records and the signed transition checklist even after the old login closes. A useful proposal names the people, outputs and checks that remain after implementation."
+      },
+      {
+        "title": "Prepare an exception register",
+        "text": "Create a transition register with the employee group, affected period, issue, evidence and person responsible. Examples include an unresolved prior adjustment, a deduction awaiting confirmation or an opening balance that differs between systems. Keep each item open until someone records how it was resolved. This register gives the old provider, new provider and employer a shared factual handoff without assuming that an imported total has already been validated."
+      }
+    ],
+    "checklist": [
+      "Entity, location and pay-schedule inventory",
+      "Written split of old and new provider responsibilities",
+      "Historical balances and retained reports",
+      "First-payroll comparison and discrepancy review",
+      "Itemized setup, recurring and correction fees"
+    ],
+    "sources": [
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/outsourcing-payroll-duties",
+        "label": "IRS guidance on outsourcing payroll duties"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-payment-processor-proposals",
+    "title": "Pittsburgh Payment Processing Proposals: Compare the Full Cost",
+    "description": "Compare payment-processing quotes using the same sales mix, fee categories, settlement assumptions and equipment needs.",
+    "intro": "A payment-processing headline rate rarely describes the entire cost of accepting customer payments. Pittsburgh-area businesses should compare proposals using the same transaction pattern and service requirements. The goal is to understand charges, settlement and operational support, not to declare one rate universally cheapest. Ask candidates for a written illustration tied to your actual or clearly labeled hypothetical sales mix.",
+    "sections": [
+      {
+        "title": "Describe how customers pay",
+        "text": "List in-person, online, telephone and recurring-payment activity, average transaction size and expected volume. Identify the equipment, ecommerce platform and accounting connections already in use. Seasonal peaks and unusual refunds can matter to a quote. Do not send cardholder details or account credentials with a request; summarized volumes are enough for the initial comparison."
+      },
+      {
+        "title": "Request a complete fee schedule",
+        "text": "Separate percentage charges, per-transaction amounts, recurring platform fees, equipment, gateway services and other quoted items. Ask which charges vary with card type or payment channel and which are fixed. A proposal with one blended figure and another with itemized components cannot be compared fairly until the assumptions behind both are visible and applied consistently."
+      },
+      {
+        "title": "Run a common hypothetical month",
+        "text": "For a fictional shop with 1,000 transactions averaging $40, model the same $40,000 sales month in each quote. A ten-cent difference in the stated per-transaction component would be $100 for that example, before other charges. The example does not estimate the total cost. Include the rest of each candidate’s fee schedule and identify anything still unpriced."
+      },
+      {
+        "title": "Understand settlement and exceptions",
+        "text": "Ask when funds become available, how weekends affect timing and what circumstances can create holds, reserves or deductions. Review the proposed process for disputes, refunds and service outages. Confirm who supports the terminal or checkout integration. Faster advertised settlement is only useful if the terms apply to the business and the cash forecast reflects the actual arrangement."
+      },
+      {
+        "title": "Read equipment and exit terms",
+        "text": "Identify whether equipment is purchased, rented or leased and whether another party supplies it. Confirm minimums, renewal, cancellation, data export and transition assistance. Have the appropriate adviser review unclear contract provisions. Keep the fee illustration alongside the agreement so later statements can be reconciled against the original assumptions, rather than comparing only the sales representative’s initial percentage."
+      },
+      {
+        "title": "Retain the sample statement",
+        "text": "Ask each candidate to mark its sample statement with the fee schedule and sales assumptions used. Preserve this version when signing. After the first complete billing period, compare the actual statement with the approved model and explain differences in activity or pricing. Do not use an unusually quiet or promotional month as proof of the normal long-term cost; compare a period that reflects the service the business actually uses."
+      }
+    ],
+    "checklist": [
+      "Summarized sales mix and average transaction",
+      "Complete fixed and variable fee schedule",
+      "Common monthly cost illustration",
+      "Settlement, reserve and dispute process",
+      "Equipment ownership and exit terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-pest-management-brief",
+    "title": "Pittsburgh Commercial Pest Management: Inspection, Prevention and Records",
+    "description": "Prepare a pest-management brief that identifies the site, monitoring needs, preventive work and service documentation.",
+    "intro": "Commercial pest management should begin with the building and its use, rather than a generic schedule of treatments. A Pittsburgh-area office, food operation or warehouse can present different access and monitoring needs. EPA describes integrated pest management as an approach combining information and management methods. Use that background to ask providers how they assess conditions, prevent recurring problems and document service for your actual property.",
+    "sections": [
+      {
+        "title": "Describe the site and observed problem",
+        "text": "List the address, occupied areas, storage uses, operating hours and contacts for access. Record observations with dates and locations without guessing the pest or cause. Identify nearby construction or recent building changes as context. Ask the provider what it needs to inspect before proposing a recurring program and which portions of the premises are outside its responsibility."
+      },
+      {
+        "title": "Ask how prevention fits the proposal",
+        "text": "Discuss monitoring, sanitation, exclusion and building-maintenance observations as well as any proposed treatment. Ask who addresses gaps, leaks or storage practices identified during a visit. A service company may report a contributing condition without being hired to repair it. Record that handoff so the same issue is not repeatedly treated while the underlying condition remains unresolved."
+      },
+      {
+        "title": "Confirm qualifications and site requirements",
+        "text": "Ask what credentials, authorizations and experience apply to the proposed work, and how you can verify them with the relevant authority. Give the provider any building, tenant or customer requirements it must consider. Do not infer suitability for a specialized facility from a general residential-service advertisement or a directory listing. Have qualified staff resolve technical and safety questions."
+      },
+      {
+        "title": "Define records and follow-up",
+        "text": "Request the visit report, monitoring findings, work performed, recommendations and next review date. For a fictional warehouse with repeated observations near a receiving door, the report should allow staff to follow the location and corrective action over time. Ask how urgent findings are communicated and who approves changes to the program. Keep staff instructions available through the approved workplace process."
+      },
+      {
+        "title": "Compare scope and recurring charges",
+        "text": "Separate initial inspection, routine visits, callouts, monitoring equipment and excluded work. Confirm the response process between scheduled visits and the treatment of new or different problems. Avoid reading a marketing guarantee as a complete service agreement. Compare the written boundaries, documentation and preventive plan alongside price, then review the results using the same site records."
+      },
+      {
+        "title": "Use the same observation log",
+        "text": "Give staff a simple method to record date, area, observation and follow-up without speculating about cause. Provide the log to the contractor through the agreed channel before a review. This helps distinguish a new observation from a previously reported problem and connects recommendations to the location. The log should support professional assessment, not encourage untrained staff to identify pests or apply treatment themselves."
+      }
+    ],
+    "checklist": [
+      "Site use, observations and access details",
+      "Inspection and prevention approach",
+      "Applicable credentials to verify",
+      "Visit records and corrective-action owners",
+      "Routine, callout and excluded-work pricing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles",
+        "label": "EPA integrated pest-management background"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-confidential-shredding-proposals",
+    "title": "Pittsburgh Confidential Shredding Quotes: Custody and Disposal Evidence",
+    "description": "Compare document-destruction proposals using record approval, container access, collection custody and completion evidence.",
+    "intro": "A shredding pickup should follow an approved decision about which records may be destroyed. Pittsburgh-area businesses also need to know who can access containers and how the handoff is documented. The FTC publishes disposal guidance for consumer-report information, but the rules that apply to a particular file depend on its contents and the business. This guide organizes a purchasing brief; it does not set retention periods or authorize destruction.",
+    "sections": [
+      {
+        "title": "Approve the record population first",
+        "text": "Describe the categories and approximate volume without exposing the confidential contents in a sales request. Identify the person responsible for confirming retention, holds and other restrictions. Separate approved destruction from material still awaiting a decision. A collection date should not force staff to discard an uncertain file simply because the container is leaving the building."
+      },
+      {
+        "title": "Compare collection and access methods",
+        "text": "Ask about locked containers, placement, access control, collection frequency and the handling of overflow. Distinguish an onsite destruction service from transport to another facility. Neither description alone establishes a provider’s safeguards. Request a clear explanation of who handles the material at each stage and how exceptions or missed collections are reported."
+      },
+      {
+        "title": "Define a traceable handoff",
+        "text": "Record the pickup location, date, container count and authorized contact. Ask what evidence connects the pickup to the later disposal record. For a fictional office clearing twelve archive boxes, a generic monthly invoice may not identify which batch was collected. Agree on a practical reference system before the first service rather than reconstructing the chain afterward."
+      },
+      {
+        "title": "Review destruction evidence and limits",
+        "text": "Ask what the completion record states and which facts it can substantiate. A certificate does not independently establish that the business selected the correct records or met every applicable obligation. Have the responsible adviser review technical or regulatory questions. Keep disposal evidence with the approved record schedule and document any damaged seals, unexpected material or other exception."
+      },
+      {
+        "title": "Compare the complete service cost",
+        "text": "Separate containers, routine pickups, one-time clearances, extra volume and special handling. Confirm minimum charges, cancellation terms and responsibility for preparing material. Compare the same volume and service model across candidates. Staff should retain an accessible escalation contact and a written process for material that should never enter the shredding stream."
+      },
+      {
+        "title": "Check a first-service reconciliation",
+        "text": "For the initial service, have an authorized employee reconcile the approved batch, collected containers and returned documentation. Record any difference and contact the provider promptly. Use a reference that remains useful after staff change roles, rather than a personal memory of the pickup. The exercise tests the process while the batch is manageable and lets the business correct unclear forms before adopting a continuing collection schedule."
+      }
+    ],
+    "checklist": [
+      "Approved records and unresolved holds separated",
+      "Container access and pickup model",
+      "Batch reference and custody evidence",
+      "Completion record and exception handling",
+      "Routine and one-time fee schedule"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/disposing-consumer-report-information-rule-tells-how",
+        "label": "FTC background on disposing of consumer-report information"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-office-electronics-recycling",
+    "title": "Pittsburgh Office Electronics Recycling: Data, Inventory and Handoff",
+    "description": "Prepare an electronics-recycling brief covering asset inventory, data handling, accepted items and receipt records.",
+    "intro": "An office electronics clearout combines asset control, information handling and disposal. A Pittsburgh-area business should identify the devices and the decisions required before requesting a collection price. EPA recommends certified electronics recyclers and identifies R2 and e-Stewards as accredited certification standards. Verify the particular facility and services proposed; a logo or a broad recycling claim does not establish the scope of the assignment.",
+    "sections": [
+      {
+        "title": "Inventory devices before collection",
+        "text": "List asset identifiers, equipment types, quantities and known accessories. Identify leased, personally owned or otherwise restricted devices separately. Include monitors, printers, storage media and unusual equipment so the provider can explain acceptance rules. Do not assume everything in a storage room belongs to the business or can be transferred through the same disposal process."
+      },
+      {
+        "title": "Assign data decisions internally",
+        "text": "Have the responsible IT or information owner decide how data and accounts will be handled before assets leave. Ask the recycler to explain any proposed sanitization or physical-destruction service and the evidence it supplies. Avoid treating a promise to recycle equipment as a promise to perform every data-security task. Keep account access and credentials out of the pickup inventory."
+      },
+      {
+        "title": "Verify the facility and downstream service",
+        "text": "Use the certification program’s information to check the facility identified in the proposal and ask which operations are covered. Determine whether another company collects, transports or processes the equipment. EPA’s background helps frame those questions, but your business still needs a written scope. Discuss any special items or material that the proposed facility will not accept."
+      },
+      {
+        "title": "Match receipts to the inventory",
+        "text": "For a fictional office transferring twenty laptops, reconcile the pickup receipt to the twenty asset records and investigate differences. Ask when final processing or data-service documentation will be available. Track assets held back, rejected or routed to another approved process separately. An invoice total or a vehicle pickup photograph is not a replacement for an understandable item-level reconciliation."
+      },
+      {
+        "title": "Compare recovery value and all charges",
+        "text": "Separate collection, transport, processing, data services and any proposed resale credit. Clarify whether an estimated recovery value is guaranteed and how deductions are calculated. Confirm who owns the equipment after transfer and ask a qualified adviser about uncertain terms. Retain the final records with asset-disposal approvals and the finance team’s accounting documentation."
+      },
+      {
+        "title": "Keep finance and IT decisions connected",
+        "text": "Use one register with separate fields for approval to dispose, data-handling status, physical transfer and final documentation. For a device moved from storage to recycling, each field answers a different question. Finance may need disposal evidence while IT needs confirmation of information handling. A shared identifier links their records without implying that the recycling company decides when an asset should leave the business’s accounting records."
+      }
+    ],
+    "checklist": [
+      "Asset ownership and device inventory",
+      "Internal data-handling decision",
+      "Facility and certification verification",
+      "Pickup-to-final-record reconciliation",
+      "Itemized charges and recovery-value terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/electronics-batteries-management/certified-electronics-recyclers",
+        "label": "EPA guidance on certified electronics recyclers"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-business-phone-system-proposals",
+    "title": "Pittsburgh Business Phone Proposals: Numbers, Routing and Cutover",
+    "description": "Compare phone-system proposals through call flows, existing numbers, equipment, service continuity and migration tasks.",
+    "intro": "A business phone change affects customer access, staff routines and connected systems. Pittsburgh-area organizations should compare a written call-flow and migration plan rather than a per-user price alone. The FCC provides background on keeping numbers when changing providers, including cautions about transition issues. Ask both providers to confirm the actual arrangements for your numbers and locations before scheduling a cutover.",
+    "sections": [
+      {
+        "title": "Map the calls the business handles",
+        "text": "List main numbers, direct lines, queues, voicemail, opening hours and after-hours routing. Identify fax, door-entry, alarm or other connected services without assuming they can use the same replacement. Record remote staff and location needs. A basic user count does not describe a reception desk, shared line or urgent call that must reach the right person."
+      },
+      {
+        "title": "Inventory ownership and existing terms",
+        "text": "Gather current account details, authorized contacts and the contract provisions relevant to changes. Keep credentials private. Ask the new provider which records it needs to validate number transfers. FCC guidance cautions against terminating existing service before starting the transfer process. Have the parties agree on the sequence for the specific numbers rather than relying on an assumed universal timeline."
+      },
+      {
+        "title": "Test the proposed call flows",
+        "text": "Use a written checklist covering inbound calls, transfers, voicemail, caller identification and remote access. For a fictional firm with one reception number and four departments, test each route with staff who actually answer calls. Include an unavailable person and a closed-office scenario. Demonstrating one outbound call does not show that every important customer path works."
+      },
+      {
+        "title": "Plan continuity and emergency questions",
+        "text": "Ask how outages, internet failures and power loss affect the proposed system, and what fallback is available. Confirm emergency-calling setup and location information directly with the provider. Discuss transition risks for any special connected service. A cloud-service label or uptime figure should not substitute for an understandable plan covering the business’s actual locations and responsibilities."
+      },
+      {
+        "title": "Compare the total agreement",
+        "text": "Separate devices, installation, number transfer, recurring service, training and support. Check minimum commitments, changes in user count and exit procedures. Name the cutover decision-maker and the contacts at both providers. Keep the old and new account records, successful test results and unresolved items together until service and billing have been reconciled."
+      },
+      {
+        "title": "Test the first full business day",
+        "text": "After cutover, run the agreed call checklist during normal opening hours and after closing. Ask staff to record the caller path, expected result and observed result. Include calls from outside the organization, because internal extension tests may not reveal an external routing issue. Assign unresolved items to a named contact and confirm when to retest. Keep this practical acceptance record with the migration and support details."
+      }
+    ],
+    "checklist": [
+      "Number and call-flow inventory",
+      "Authorized account and transfer details",
+      "Staff-tested routing checklist",
+      "Continuity and emergency-calling questions",
+      "Equipment, recurring fees and cutover owners"
+    ],
+    "sources": [
+      {
+        "url": "https://www.fcc.gov/consumers/guides/porting-keeping-your-phone-number-when-you-change-providers",
+        "label": "FCC number-porting and transition guidance"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-temporary-staffing-brief",
+    "title": "Pittsburgh Temporary Staffing Proposals: Duties, Training and Handoffs",
+    "description": "Define temporary assignments, supervision, safety responsibilities, time approval and billing before comparing staffing firms.",
+    "intro": "Temporary staffing is not simply a purchase of hours. The assignment, workplace, supervision and coordination between the staffing firm and host business need to be clear. OSHA explains that both parties have roles in protecting temporary workers. A Pittsburgh-area employer should use a written brief to compare candidates and ask qualified staff to review the responsibilities for the actual work.",
+    "sections": [
+      {
+        "title": "Describe the assignment precisely",
+        "text": "List tasks, location, expected duration, schedule and necessary skills. Identify equipment, physical conditions and any work the person must not perform without additional approval. Avoid using a broad label such as warehouse help when the duties involve several different activities. A clear job description lets the staffing firm screen for the actual assignment rather than an imagined version of it."
+      },
+      {
+        "title": "Assign supervision and training",
+        "text": "Name the host supervisor and the staffing contact. Discuss orientation, task-specific instruction, reporting concerns and handling changed duties. OSHA’s guidance emphasizes coordination rather than assuming one party handles everything. Have the appropriate safety staff review the proposed arrangement and workplace hazards; this guide does not determine the training or protective measures required for your site."
+      },
+      {
+        "title": "Define the worker handoff",
+        "text": "Ask what information arrives before the first shift and how the business confirms the person’s assignment. For a fictional short-term inventory project, the supervisor should know which tasks were discussed with the agency and who can approve additional work. Agree on the process for lateness, absence, an unsuitable placement or a request to extend the assignment."
+      },
+      {
+        "title": "Clarify time and billing approval",
+        "text": "Specify who approves hours, overtime requests, breaks where relevant and corrections to a time record. Ask about minimum shifts, cancellation charges, differentials and other proposed fees. Compare the same schedule across candidates. A single hourly bill rate is incomplete if another proposal assumes a different minimum or charges separately for common changes."
+      },
+      {
+        "title": "Review incidents and completion",
+        "text": "Document the process for urgent concerns, incidents and communication between both organizations. Confirm who retains assignment records and what the host receives when work ends. Review the final invoice against approved time and agreed charges. Ask qualified advisers to resolve employment, safety or contract questions rather than treating agency involvement as a transfer of every responsibility."
+      },
+      {
+        "title": "Prepare the supervisor’s first-day sheet",
+        "text": "Give the host supervisor the assignment description, agency contact, arrival instructions and the agreed process for concerns. Confirm which tasks require further approval before the worker begins them. The sheet should make the agreed boundaries usable in practice, particularly if the person arranging the placement is not supervising the shift. It supports coordination but does not replace required training, hazard assessment or professional advice about the particular workplace."
+      }
+    ],
+    "checklist": [
+      "Task, schedule and workplace description",
+      "Named supervision and training responsibilities",
+      "First-shift and changed-duty process",
+      "Time approval and complete bill-rate terms",
+      "Incident contacts and final-record handoff"
+    ],
+    "sources": [
+      {
+        "url": "https://www.osha.gov/temporaryworkers",
+        "label": "OSHA guidance on protecting temporary workers"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-recruiting-agency-proposals",
+    "title": "Pittsburgh Recruiting Agency Quotes: Search Scope and Hiring Handoff",
+    "description": "Compare recruiter proposals using the role brief, search process, candidate evidence, fee trigger and replacement terms.",
+    "intro": "A recruiting proposal should explain the search being purchased and the employer decisions that remain. Pittsburgh-area businesses can compare agencies more usefully when each receives the same role brief and success criteria. A large candidate database or a promised number of resumes does not demonstrate a good match. This guide organizes the purchase; it does not determine employment-law compliance or verify an agency’s performance.",
+    "sections": [
+      {
+        "title": "Write a role brief tied to the work",
+        "text": "Describe the position’s responsibilities, reporting line, location, schedule and essential capabilities. Identify which criteria are required and which can be learned. Have the employer’s appropriate reviewers check the brief and hiring process. A previous employee’s resume is not a complete substitute for a current role definition, especially when the job has changed."
+      },
+      {
+        "title": "Compare search and screening activities",
+        "text": "Ask how the agency finds candidates, confirms interest and records the evidence behind a recommendation. Identify interviews, references, assessments or checks that are proposed and who is responsible for them. Do not assume every agency performs the same screening. Request a clear process without inviting the disclosure of another client’s confidential candidate records."
+      },
+      {
+        "title": "Agree on employer decision points",
+        "text": "Set the hiring manager’s review windows, interview stages and feedback responsibilities. For a fictional specialist vacancy, an employer taking three weeks to review each submission creates a different search environment from one providing prompt decisions. Discuss how delays, changed requirements or a paused role affect the assignment and candidate communication."
+      },
+      {
+        "title": "Understand fees and conditional terms",
+        "text": "Ask when a fee becomes due, how it is calculated and which events can create further charges. Separate retained-search payments, placement fees and any optional services described in the proposal. Review replacement, refund, exclusivity and candidate-ownership language with the appropriate adviser. Do not reduce those provisions to a marketing claim about a guarantee."
+      },
+      {
+        "title": "Keep the hiring handoff documented",
+        "text": "Agree on what information the employer receives, how candidate data is protected and who sends final communications. Keep decisions and approvals in the employer’s hiring process. Compare the complete search scope and working relationship rather than the headline percentage alone. Agency involvement does not remove the need for an employer-led, consistent and properly reviewed hiring process."
+      },
+      {
+        "title": "Request a sample candidate presentation",
+        "text": "Ask the agency for a blank or anonymized presentation format showing how it records a candidate’s relevant experience, interest and availability. Compare the format with the decisions your hiring manager needs to make. Avoid collecting unnecessary personal information merely because a template offers a field. A useful presentation distinguishes confirmed information from the recruiter’s opinion and identifies questions the employer still needs to explore in its own process."
+      }
+    ],
+    "checklist": [
+      "Current role and essential-capability brief",
+      "Search and screening responsibilities",
+      "Hiring stages and feedback timetable",
+      "Fee triggers and conditional terms",
+      "Candidate-data and final-communication process"
+    ],
+    "sources": [
+      {
+        "url": "https://www.eeoc.gov/employers/small-business",
+        "label": "EEOC small-business employer resources"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-floor-care-proposals",
+    "title": "Pittsburgh Commercial Floor Care: Surfaces, Methods and Downtime",
+    "description": "Compare floor-care quotes using surface inventories, proposed methods, occupancy restrictions and acceptance checks.",
+    "intro": "A floor-care proposal can involve routine cleaning, periodic restoration or treatment of a specific surface problem. Those are different assignments. Pittsburgh-area businesses should identify the surfaces and desired outcome before asking providers to price the work. This brief helps compare scope, access and interruption to operations; it does not prescribe a cleaning chemical, restoration method or safety procedure for an unfamiliar material.",
+    "sections": [
+      {
+        "title": "Inventory surfaces and current condition",
+        "text": "List each area, approximate size, surface type and known manufacturer information. Note visible damage or staining without guessing the cause. Include entrances, stairs, storage rooms and transitions between materials. Ask candidates to inspect uncertain surfaces before proposing work. One total square-foot figure may hide several different methods and preparation requirements across the building."
+      },
+      {
+        "title": "Separate maintenance from restoration",
+        "text": "Describe the result expected from the project and ask the contractor to identify what is realistic. Routine cleaning, finish removal, polishing and repairs should not be bundled under one vague promise. A contractor should identify exclusions and conditions that may prevent the proposed result. Keep proposed repairs distinct so management can approve them knowingly rather than discover them on the final invoice."
+      },
+      {
+        "title": "Agree on products, access and drying time",
+        "text": "Ask how the contractor selects compatible products and equipment and communicates any restrictions during the work. OSHA publishes background on cleaning chemicals and worker protection. Have the contractor and appropriate site staff address the actual safety questions. Confirm when each area can be used again, who moves furniture and how staff will receive the access plan before the project begins."
+      },
+      {
+        "title": "Use a representative sample where appropriate",
+        "text": "For a fictional office with several kinds of flooring, ask whether a small agreed test area can demonstrate the proposed result before the full assignment. Record the surface, method, limitations and approval. A sample does not guarantee identical results on damaged or differently maintained areas. Use it to clarify expectations, not to erase the need for a written scope."
+      },
+      {
+        "title": "Compare cost and completion evidence",
+        "text": "Separate preparation, furniture movement, treatment, consumables, repairs and follow-up visits. Request the schedule and the process for recording unresolved areas after a walkthrough. Review recurring maintenance recommendations as a separate decision. Keep before-and-after condition notes, the approved scope and completion record together so the business can compare later work consistently."
+      },
+      {
+        "title": "Record the maintenance handoff",
+        "text": "Ask what routine care should follow the completed work and which recommendations relate to the particular surface and treatment. Give the approved instructions to the people responsible for everyday cleaning. If an outside routine-cleaning team is involved, establish who communicates changes. The handoff prevents an expensive periodic treatment from being followed by an incompatible routine, while leaving product and method selection to the qualified contractor and relevant manufacturer guidance."
+      }
+    ],
+    "checklist": [
+      "Area-by-area surface inventory",
+      "Maintenance versus restoration boundaries",
+      "Product compatibility and access plan",
+      "Agreed sample and acceptance standard",
+      "Itemized preparation, treatment and follow-up fees"
+    ],
+    "sources": [
+      {
+        "url": "https://www.osha.gov/publications/bytopic/cleaning-chemicals",
+        "label": "OSHA cleaning-chemical information"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-window-cleaning-brief",
+    "title": "Pittsburgh Commercial Window Cleaning: Access and Quote Checklist",
+    "description": "Define glass areas, access constraints, frequency and completion checks before comparing commercial window-cleaning bids.",
+    "intro": "Commercial window-cleaning quotes can differ because they cover different panes, sides, access methods or frequencies. A Pittsburgh-area business should provide a useful building brief and let qualified contractors assess how the work can be performed. This guide does not select fall-protection equipment or establish safe access. It organizes the scope and questions that make competing proposals easier to compare.",
+    "sections": [
+      {
+        "title": "List the glass included in the job",
+        "text": "Identify exterior and interior glass, entrance doors, partitions and any surfaces excluded from the request. Describe building levels and known access constraints. A count of windows can be misleading when pane sizes and configurations vary. Ask the contractor to verify the inventory during a site visit and show the included areas clearly in the written proposal."
+      },
+      {
+        "title": "Explain building operations and permissions",
+        "text": "Give occupancy hours, public entrances, loading areas and relevant property-management contacts. State where access requires permission or scheduling with another tenant. Ask who obtains approvals for the proposed work and who coordinates notifications. Do not assume that permission to enter the premises includes permission to use adjoining property, block an entrance or perform every proposed access activity."
+      },
+      {
+        "title": "Request a contractor-led access plan",
+        "text": "Have qualified contractors describe the access approach, equipment, staffing and site coordination they propose. Ask about applicable credentials and coverage and how they can be verified. Do not direct a contractor to use an unsafe shortcut to reduce the price. Refer technical questions to the responsible safety or building professional rather than treating this purchasing checklist as operational instruction."
+      },
+      {
+        "title": "Distinguish recurring cleaning and unusual work",
+        "text": "Identify stains, construction residue or damaged surfaces as conditions for assessment, not guaranteed routine removals. For a fictional storefront with new construction next door, a standard maintenance visit and a specialized cleanup may produce different quotes. Ask the bidder to explain likely limitations, any test area and what would trigger a separately approved change."
+      },
+      {
+        "title": "Set the completion and weather process",
+        "text": "Agree on frequency, scheduling, weather-related changes and the process for reporting missed areas. Separate routine work, access costs, special treatment and return visits. Name the contact who can approve completion without implying an inspection of every safety decision. Retain the pane inventory and exception notes so later renewal quotes refer to the same service."
+      },
+      {
+        "title": "Keep an accessible exceptions list",
+        "text": "During the walkthrough, record inaccessible panes, damaged seals, existing marks and areas postponed for an agreed reason. Use location references that another employee can understand, such as floor, room and pane number. This list helps the business distinguish incomplete work from a documented exclusion when reviewing the invoice. Ask who will revisit an area and whether that visit is included before approving the final service record."
+      }
+    ],
+    "checklist": [
+      "Included glass and sides",
+      "Building access and approval contacts",
+      "Contractor-led access and coverage questions",
+      "Routine versus special-treatment scope",
+      "Weather, completion and return-visit terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-landscape-maintenance",
+    "title": "Pittsburgh Landscape Maintenance Quotes: Seasonal Scope and Site Records",
+    "description": "Compare commercial landscape proposals through site inventories, seasonal tasks, access and change approval.",
+    "intro": "Commercial landscape maintenance is easier to compare when the proposal describes the whole service season and the actual property. A recurring price can cover very different work on turf, planted areas and hard surfaces. Pittsburgh-area owners should provide a site brief and ask each contractor to identify its assumptions. This guide is not horticultural treatment advice or a determination of pesticide, water-use or other requirements.",
+    "sections": [
+      {
+        "title": "Inventory the property and service boundaries",
+        "text": "Mark turf, beds, trees, slopes, entrances and areas maintained by another party. Identify irrigation equipment and known drainage or access concerns. Ask the contractor to confirm the areas in a site visit. A property address alone is not enough when adjoining spaces look connected but belong to different owners or have separate maintenance responsibilities."
+      },
+      {
+        "title": "Build a seasonal task schedule",
+        "text": "List routine mowing or bed care separately from pruning, seasonal preparation, planting and larger improvement work. Ask what is included at each visit and what changes with the season. Weather can affect growth and scheduling, so request an understandable adjustment process. Do not assume that a fixed monthly invoice proves that every month receives the same tasks or number of visits."
+      },
+      {
+        "title": "Clarify materials and specialist services",
+        "text": "Identify who supplies plants, mulch and other materials, and how replacements or extra quantities are approved. Ask the contractor to distinguish observation, recommendation and actual treatment. Any proposed chemical application, tree work or specialist service should identify the responsible provider and applicable qualifications. Have qualified staff resolve the technical requirements for the site rather than choosing solely from a package name."
+      },
+      {
+        "title": "Use a change example to compare bids",
+        "text": "For a fictional property adding a new planted area halfway through the season, ask how each bidder would update the scope and price. Is preparation, planting and continuing care one project or several? The example should expose approval and documentation processes, not obtain a free design. Require a written description before work changes so both sides know what was authorized."
+      },
+      {
+        "title": "Agree on review and closeout",
+        "text": "Name the property contact, reporting method and procedure for missed work or damage. Separate recurring labor, materials, disposal and approved projects in the quote. Keep seasonal reports and changes with the site plan. A walkthrough should record agreed exceptions and next actions rather than serve as an unsupported promise that every plant will thrive."
+      },
+      {
+        "title": "Compare the actual site reports",
+        "text": "Request a sample visit record with client information removed. A useful format identifies the date, areas attended, work completed, conditions requiring attention and any proposed change. Decide who at the business reviews these reports and authorizes extra work. Without that owner, recommendations can remain unread while conditions deteriorate. The report is an operational record, not proof that every aspect of the property was inspected or guaranteed."
+      }
+    ],
+    "checklist": [
+      "Property map and maintenance boundaries",
+      "Seasonal task and visit schedule",
+      "Materials and specialist-service responsibilities",
+      "Written scope-change process",
+      "Site review, reporting and itemized costs"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-snow-service-brief",
+    "title": "Pittsburgh Snow-Service Proposals: Coverage, Triggers and Documentation",
+    "description": "Prepare a winter-service brief with site priorities, proposed response triggers, access and billing definitions.",
+    "intro": "A winter-service proposal needs more detail than an address and a seasonal price. Different Pittsburgh-area sites have different operating hours, access routes and high-priority areas. Give contractors the same site information and ask them to define their proposed service. This guide does not set legal snow-removal deadlines, prescribe treatment methods or guarantee safe conditions during a storm.",
+    "sections": [
+      {
+        "title": "Map the areas and priorities",
+        "text": "Identify vehicle entrances, loading areas, walkways, stairs and spaces maintained by someone else. Mark features that may be obscured by snow and discuss the proposed placement of cleared material. Explain critical operating periods and access needs. Have the contractor inspect the site; a map supports the assessment but does not replace understanding real conditions and constraints."
+      },
+      {
+        "title": "Define service triggers in writing",
+        "text": "Ask what conditions start service, how the contractor observes them and what response standard the quote assumes. Distinguish initial clearing, repeat visits and follow-up inspection. Avoid relying on a general promise of automatic service. Each proposal should explain its actual trigger and communication process so the owner can compare commitments rather than infer them from a marketing phrase."
+      },
+      {
+        "title": "Clarify treatment and site responsibilities",
+        "text": "Ask the contractor to describe proposed materials, equipment and limitations for the surfaces involved. Identify doors, drains or other areas requiring special coordination. Have qualified site staff assess technical and safety issues. Determine who handles daytime touch-up work, tenant requests and unusual conditions outside the agreement rather than leaving those tasks unassigned during the first storm."
+      },
+      {
+        "title": "Compare a common storm scenario",
+        "text": "For a fictional site open before dawn, ask how the provider would document the first visit, continuing precipitation and a later return. Specify the site priorities in the example without dictating unsafe operations. Compare staffing, communication and repeat-service assumptions. Do not treat a worked scenario as a guarantee that weather or traffic will follow the expected pattern."
+      },
+      {
+        "title": "Reconcile billing with service records",
+        "text": "Separate seasonal, per-event, per-visit and material charges where offered. Define the terms used to count an event and any caps or extra-work provisions. Ask what dated service record is available and how discrepancies are reviewed. Confirm cancellation, renewal and exception procedures with the appropriate adviser. Retain the map, agreement and visit records for later review."
+      },
+      {
+        "title": "Create a season-opening contact sheet",
+        "text": "Before service begins, confirm decision-makers, after-hours numbers, access instructions and the route for urgent observations. Date the site map and record changes such as new barriers, loading areas or construction. Give the current version to both parties. This small preparation step helps avoid dispatching a crew using last year’s assumptions, but it does not remove the need for the contractor to assess actual conditions on each visit."
+      }
+    ],
+    "checklist": [
+      "Site map and priority operating areas",
+      "Written triggers and response assumptions",
+      "Treatment and touch-up responsibilities",
+      "Repeat-visit and communication scenario",
+      "Billing definitions and dated service evidence"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-fulfillment-provider-proposals",
+    "title": "Pittsburgh Fulfillment Proposals: Inventory, Orders and Returns",
+    "description": "Compare third-party fulfillment quotes with a shared inventory profile, order sample, integrations and exception workflow.",
+    "intro": "A fulfillment quote can cover receiving, storage, picking, packing, shipping and returns in different combinations. Pittsburgh-area businesses should describe the products and order pattern before comparing fees. A low pick fee can be difficult to evaluate if another proposal includes services that the first prices separately. This brief helps define a shared test case and a practical operating handoff.",
+    "sections": [
+      {
+        "title": "Describe products and inbound flow",
+        "text": "List product types, dimensions, handling needs and approximate SKU count. Explain how stock arrives, including cases, pallets and delivery frequency. Identify labeling or preparation done before shipment to the warehouse. Ask the provider to flag anything outside its acceptance rules. Do not assume a facility suitable for one product can handle every fragile, regulated or unusual item."
+      },
+      {
+        "title": "Build a representative order profile",
+        "text": "Summarize order volume, items per order, destination mix and seasonal peaks. Give candidates the same examples of simple and more complex orders. Include promotional inserts or custom packing that customers expect. For a fictional catalog with single-item and multi-item baskets, ask each provider to show the fee calculation for both rather than applying one average to all orders."
+      },
+      {
+        "title": "Test the systems and inventory handoff",
+        "text": "Ask which platform connections are included, how inventory updates are timed and who investigates mismatches. Specify the source of truth for orders, cancellations and stock availability. Request an implementation plan and a test before live orders move. A claim of integration does not establish that every status, bundle or return workflow used by your business is supported."
+      },
+      {
+        "title": "Define returns and service exceptions",
+        "text": "Discuss wrong items, damaged stock, missing inventory, address corrections and failed deliveries. Identify who speaks to the customer and who approves refunds or replacements. Ask how returned goods are inspected, recorded and made available again. Keep operational evidence distinct from decisions about accounting value or tax treatment, which should be reviewed by the business’s finance advisers."
+      },
+      {
+        "title": "Compare the full cost and exit plan",
+        "text": "Request receiving, storage, pick-and-pack, packaging, shipping, returns, integration and minimum charges. State how rates change with volume or season. Clarify inventory ownership, reports, stock counts and the process for recovering goods when the relationship ends. Compare the complete proposal using the same sample month and document unpriced assumptions before selecting a provider."
+      },
+      {
+        "title": "Run a small controlled pilot",
+        "text": "Before moving the full catalog, agree on a limited test of receiving, storage, order release, dispatch and returns. Use known quantities so both sides can reconcile the result. Record the system status at each handoff and ask how exceptions are corrected. The pilot should demonstrate the proposed workflow, not merely that one package can be shipped. Resolve responsibilities and repeat unclear steps before committing a larger volume of customer orders."
+      }
+    ],
+    "checklist": [
+      "Product and inbound-shipment profile",
+      "Common sample orders and seasonal volumes",
+      "Integration testing and inventory ownership",
+      "Returns and exception responsibilities",
+      "Complete fee model and inventory exit plan"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-packaging-supplier-brief",
+    "title": "Pittsburgh Packaging Supplier Quotes: Specifications and Order Economics",
+    "description": "Compare packaging bids by dimensions, materials, artwork, testing, quantities and delivered cost.",
+    "intro": "Packaging suppliers may quote different materials, tolerances or order quantities for a request that uses the same short description. Pittsburgh-area buyers should prepare a specification that connects the packaging to the product and shipping process. This guide helps structure the purchase. It does not certify material suitability, make environmental-label claims or replace product-specific testing and regulatory review.",
+    "sections": [
+      {
+        "title": "Define the packaging function",
+        "text": "Describe the product, packing process, storage conditions and distribution route. Record dimensions and protective requirements with the responsible technical person. Distinguish primary, secondary and shipping packaging where relevant. A supplier needs to understand the job the package performs, not just reproduce the approximate appearance of a sample the business happens to have."
+      },
+      {
+        "title": "State measurable specifications",
+        "text": "Identify material, dimensions, tolerances, printing, closures and any required documentation. Ask the bidder to list substitutions and exceptions clearly. If an environmental or recycled-content claim matters to the purchase, request the evidence and have qualified staff review the claim. Avoid treating a familiar symbol or a sales description as independent confirmation of a specific attribute."
+      },
+      {
+        "title": "Compare samples and testing plans",
+        "text": "Ask what samples are available and how the business should evaluate them before production. For a fictional product shipped through several handling stages, a visual approval alone may not address protection or fit. Have the responsible team determine appropriate testing. Record the approved specification and sample reference so later production is compared with a known version."
+      },
+      {
+        "title": "Model quantities and inventory needs",
+        "text": "Compare minimum order, lead time, reorder requirements and storage volume. A lower unit price may require buying more packaging than the business expects to use. Separate the purchase commitment from an assumption about future sales. Ask how changes in artwork or product dimensions affect remaining stock and whether a staged-delivery arrangement is actually part of the offer."
+      },
+      {
+        "title": "Calculate the complete delivered proposal",
+        "text": "Request tooling, artwork preparation, setup, samples, production, freight and any other charges separately. Confirm payment terms, inspection process and treatment of nonconforming deliveries. Keep change approvals and supplier acknowledgements with the purchase order. A comparable delivered-cost calculation should use the same specification, quantity and destination rather than the lowest unit figure from each bid."
+      },
+      {
+        "title": "Set a version-control rule",
+        "text": "Put a version and approval date on drawings, artwork and specifications. Require the supplier acknowledgement to refer to that version. If a dimension or printed message changes, identify which open orders and remaining stock are affected before authorizing production. This is particularly useful when purchasing and marketing use different files. A clear reference reduces ambiguity without pretending that a purchase-order number alone proves which design was approved."
+      }
+    ],
+    "checklist": [
+      "Product and distribution requirements",
+      "Measurable material and size specification",
+      "Approved sample and evaluation plan",
+      "Order quantity, lead time and storage assumptions",
+      "Tooling, freight and acceptance terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-uniform-laundry-service-quotes",
+    "title": "Pittsburgh Uniform and Laundry Quotes: Inventory, Service and Replacement",
+    "description": "Compare uniform-rental and laundry proposals through wearer counts, garment ownership, delivery and replacement charges.",
+    "intro": "Uniform purchasing, rental and laundry service are different arrangements. A Pittsburgh-area employer should identify which responsibilities it wants a supplier to take on before comparing a weekly or per-person price. The garment inventory, service frequency and rules for changes can affect the overall cost. This guide does not select protective clothing or determine the requirements for a particular job.",
+    "sections": [
+      {
+        "title": "Describe users and garment needs",
+        "text": "List roles, approximate wearer counts, sizing needs and service locations. Identify appearance requirements separately from any protective or specialist function. Have the appropriate safety or technical adviser determine required clothing performance. A standard workwear catalog description does not establish that a garment is appropriate for a hazard or a regulated task."
+      },
+      {
+        "title": "Distinguish ownership and service model",
+        "text": "Ask whether the business buys garments, rents them or combines models. Define what cleaning, repairs, storage and delivery are included. Record how garments are identified and assigned. Two weekly prices may be based on different numbers of garments per wearer, so make the rotation and replacement assumptions explicit before comparing totals."
+      },
+      {
+        "title": "Review collection and delivery controls",
+        "text": "Identify the service days, site contact, access arrangements and process for checking counts. For a fictional employer with thirty wearers across two sites, ask how transfers, absences and new starters are recorded. A missing garment should be traceable through a defined process instead of automatically producing an unexplained replacement charge."
+      },
+      {
+        "title": "Clarify changes and exceptions",
+        "text": "Ask how sizing changes, staff departures, normal wear, damage and lost items affect charges. Identify who may order additional stock or approve replacements. Discuss failed pickups and extra collections. Do not assume that a price advertised per wearer includes every service needed during the year, especially when staffing levels or site schedules vary."
+      },
+      {
+        "title": "Compare the contract and exit costs",
+        "text": "Request setup, emblems, recurring service, special treatment, minimums and replacement rates. Confirm the term, renewal, inventory reconciliation and any end-of-contract purchase or return process. Have unclear provisions reviewed before signing. Keep a baseline garment register and compare supplier statements with actual changes so the service can be managed after the first delivery."
+      },
+      {
+        "title": "Review a complete service cycle",
+        "text": "For the first cycle, reconcile garments sent, garments returned, reported repairs and agreed replacements. Ask the supplier to explain differences before the next invoice review. Keep a site-level log when delivery goes to multiple departments, so staff changes do not break the count. This practical test shows whether the agreed inventory process works in the workplace and identifies responsibilities that were unclear during the sales discussion."
+      }
+    ],
+    "checklist": [
+      "Wearer and role inventory",
+      "Garment ownership and rotation model",
+      "Collection, delivery and count controls",
+      "Staff-change and replacement rules",
+      "All recurring, setup and exit charges"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-business-video-production-brief",
+    "title": "Pittsburgh Business Video Quotes: Story, Production and Usage",
+    "description": "Compare video-production bids using the audience, deliverables, shoot plan, review rounds and usage agreement.",
+    "intro": "A business video might be a short customer introduction, an instructional series or an event record. Those projects involve different planning, production and editing work. Pittsburgh-area buyers should describe the communication task and final outputs before asking for a price. This guide does not verify a producer’s rights clearances, promise marketing results or establish copyright ownership under a particular agreement.",
+    "sections": [
+      {
+        "title": "Define audience and intended action",
+        "text": "Describe who will watch, where the video will appear and what viewers should understand or do afterward. Identify the core messages and any claims requiring internal review. A general request for a promotional video leaves too much scope unspecified. Ask the producer how the proposed format serves the intended use rather than selecting from length alone."
+      },
+      {
+        "title": "Separate development and shooting",
+        "text": "State who develops the script, interviews participants, finds locations and arranges access. Identify supplied images, existing footage and other materials. Ask what pre-production approval is required before the shoot. For a fictional company filming at an operating site, schedule, sound and participant availability may drive the production plan as much as the number of final minutes."
+      },
+      {
+        "title": "List final outputs and editing rounds",
+        "text": "Specify approximate versions, aspect ratios, captions, graphics, voiceover and delivery formats. Distinguish a main film from short edits for other channels. Agree on review stages, authorized approvers and how conflicting feedback is resolved. A first-cut price does not necessarily include unlimited changes, re-shooting or every future export the business might request."
+      },
+      {
+        "title": "Clarify permissions and retained files",
+        "text": "Ask the producer to identify how music, footage, photography, participant permissions and other rights will be handled in the agreement. Have qualified advisers resolve ownership or licensing questions. State whether project files, raw footage and archive storage are included. Paying for production should not lead the business to assume unspecified rights or permanent access to every working file."
+      },
+      {
+        "title": "Compare schedule and full project cost",
+        "text": "Request development, crew, equipment, location, editing, licensing, travel and additional versions separately. Confirm cancellation, weather and rescheduling terms for the actual shoot plan. Keep the approved brief, script and change decisions together. Evaluate the completed work against the agreed deliverables, while measuring any marketing outcome separately rather than treating it as a guaranteed result."
+      },
+      {
+        "title": "Prepare the final approval packet",
+        "text": "Before signing off, collect the final viewing links or files, agreed captions, credits and the usage terms supplied with the project. Confirm the approved version for each channel and who stores it. Preserve source permissions and the written decisions on revisions alongside the deliverable. This helps future staff avoid using an old draft or assuming a new platform or campaign is covered by an agreement they have not read."
+      }
+    ],
+    "checklist": [
+      "Audience, channel and communication objective",
+      "Script, participant and location responsibilities",
+      "Final formats and review-round limits",
+      "Written usage rights and file handoff",
+      "Itemized production, editing and change costs"
+    ],
+    "sources": [
+      {
+        "url": "https://www.copyright.gov/engage/photographers/",
+        "label": "U.S. Copyright Office photography and creative-work background"
+      },
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/guides/business-service-planning/",
+        "label": "See all service-planning guides"
+      }
+    ],
+    "published": "2026-11-20"
   }
 ]
