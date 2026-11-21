@@ -288,3 +288,8 @@ p, blockquote { text-wrap: pretty; }
 #directory-pages a{display:inline-flex;align-items:center;justify-content:center;min-width:36px;min-height:40px;margin:2px;text-decoration:none;border:1px solid var(--rule)}
 #directory-pages a[aria-current="page"]{background:var(--ink);color:var(--paper);font-weight:700}
 @media(max-width:600px){.directory-browse-groups{grid-template-columns:1fr;gap:10px}.catalog-controls{padding:16px}.catalog-controls>div{min-width:0;flex-basis:100%}.profile-copy h2{font-size:25px;line-height:1.3}}
+
+/* Keep newsletter fields readable without focus zoom on narrow screens. */
+@media(max-width:600px){
+  input.hero-newsletter-input,input.newsletter-input,input.sticky-newsletter-input{font-size:16px;min-height:44px;min-width:0}
+}
