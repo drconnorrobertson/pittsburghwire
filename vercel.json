@@ -46,6 +46,16 @@
   ],
   "redirects": [
     {
+      "source": "/news/downtown-pittsburgh-pdp-vibrancy-small-business/",
+      "destination": "/news/pittsburgh-downtown-pdp-vibrancy-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/news/downtown-pittsburgh-pdp-vibrancy-small-business",
+      "destination": "/news/pittsburgh-downtown-pdp-vibrancy-small-business",
+      "permanent": true
+    },
+    {
       "source": "/news/market-square-15-million-redesign-complete/",
       "destination": "/news/market-square-reopens-15-million-redesign/",
       "permanent": true
