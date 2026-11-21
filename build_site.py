@@ -952,6 +952,9 @@ def main(repo):
     import search_pathways
     print(f"  search pathways ({search_pathways.write(repo)} articles)")
 
+    import service_buying_guides
+    print(f"  service planning ({service_buying_guides.write(repo, page_shell)} guides)")
+
     build_news_index(repo, articles)
     print("  news/index.html")
     for label, n in build_category_pages(repo, articles):
