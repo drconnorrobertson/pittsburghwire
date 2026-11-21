@@ -4638,5 +4638,473 @@
     ],
     "published": "2026-11-20",
     "checklistTitle": "Prepare a focused next step"
+  },
+  {
+    "slug": "pittsburgh-sbdc-vs-score-mentoring",
+    "title": "Pittsburgh SBDC vs SCORE: Choose the Next Business Conversation",
+    "description": "Compare advising and mentoring by the question, working relationship and follow-through you need.",
+    "intro": "A Pittsburgh owner can have access to more than one source of business advice without needing to choose a permanent winner. SBA describes SBDCs as providers of individualized business advising and SCORE as a network of volunteer business mentors. Their subject areas overlap. The useful comparison is the next assignment and the relationship you want, rather than an unsupported claim that one organization is better for every business.",
+    "sections": [
+      {
+        "title": "Start with a decision you can describe",
+        "text": "Write a sentence naming the decision, the date it matters and the evidence you already have. For example, an owner considering a second service area might need to organize market assumptions before discussing financing. A broad request to grow faster leaves both organizations guessing about the assignment. Bring a short question list and identify the parts you have not researched. Keep confidential customer details out of the first enquiry unless the recipient has explained the appropriate sharing process."
+      },
+      {
+        "title": "Compare how you want to work",
+        "text": "Ask the SBDC about its intake, service fit and next steps for the specific problem. Ask SCORE about available mentor experience and the way meetings will be arranged. Availability and relevant experience need direct confirmation. Do not equate a university location with a student assignment or assume a volunteer mentor will operate the company. Both conversations should establish the kind of help offered and the work you will be expected to do between meetings."
+      },
+      {
+        "title": "Keep advisory help distinct from execution",
+        "text": "A discussion about marketing does not automatically include producing a campaign. A financing review does not constitute a loan commitment. List the tangible output you need: a decision framework, feedback on assumptions, an introduction or a separately scoped implementation project. If you need someone to build software, file a return or review a contract, identify that professional assignment separately and ask who is responsible for it."
+      },
+      {
+        "title": "Prepare one consistent evidence packet",
+        "text": "Use the same business summary, dated questions and labeled estimates for both discussions if you contact both. This makes differing advice easier to understand. Record whether a recommendation depends on a fact that still needs checking. Avoid treating two general conversations as independent validation of a sales forecast. Your notes should distinguish facts supplied by you, suggestions offered by the adviser and subsequent work completed by the business."
+      },
+      {
+        "title": "Review the next action, not a score",
+        "text": "After the first meeting, ask whether the help addressed the decision, what remains unresolved and when to return. A mentoring relationship may complement a focused consulting assignment. If you use both, tell each adviser about relevant work already underway so you do not repeat requests or act on conflicting assumptions. Choose the next step that closes a real information gap and retain ownership of the eventual business decision."
+      }
+    ],
+    "checklist": [
+      "One decision and deadline",
+      "Known facts versus estimates",
+      "Meeting format and experience questions",
+      "Advisory output versus implementation work",
+      "Named follow-up owner"
+    ],
+    "sources": [
+      {
+        "label": "SBA resource-partner descriptions",
+        "url": "https://www.sba.gov/counseling/local-assistance/resource-partners/"
+      },
+      {
+        "label": "Duquesne SBDC services",
+        "url": "https://www.duq.edu/research/centers-and-institutes/small-business-development-center/index.php"
+      }
+    ],
+    "related": [
+      {
+        "label": "SCORE Pittsburgh Mentoring: Choose a Question and Prepare",
+        "url": "/guides/score-pittsburgh-mentoring-preparation/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-student-consulting-vs-professional-engagement",
+    "title": "Pittsburgh Student Consulting vs a Professional Engagement",
+    "description": "Match a university project or a paid assignment to timing, accountability and the output your business needs.",
+    "intro": "Duquesne describes its student consulting projects as faculty-guided coursework, with final deliverables typically including recommendations and an executive summary. That can suit a bounded business question. It should be compared with the actual terms of a professional proposal, rather than assumed to provide the same delivery schedule or continuing responsibility. A useful choice begins with what happens after the research is handed over.",
+    "sections": [
+      {
+        "title": "Define the result before comparing providers",
+        "text": "Separate learning about a market from launching a product into it. A research presentation, a tested operational process and an ongoing managed service have different completion criteria. Write down the business decision the work will support and the minimum evidence needed. If a decision cannot wait for an academic project cycle, state that constraint at the start instead of discovering it after a sponsor application is submitted."
+      },
+      {
+        "title": "Ask about the working calendar",
+        "text": "The university page describes semester-related application timing. Confirm the current schedule directly, including sponsor input, review meetings and final handoff. For a professional proposal, ask for milestones, dependencies and the consequences of delayed client information. Neither a student team nor a consultant can resolve a missing dataset by promising a date. Make your own staff availability part of the comparison."
+      },
+      {
+        "title": "Clarify information access and permission",
+        "text": "List the data needed and whether it contains personal, customer or commercially sensitive information. Ask how each arrangement handles access, storage, confidentiality and any later use in teaching or portfolios. Do not assume identical terms across university projects and commercial engagements. Share a minimal sample first when appropriate and obtain the necessary internal permission before releasing the underlying records."
+      },
+      {
+        "title": "Compare handoff and ongoing responsibility",
+        "text": "Ask who reviews the output, what editable files will be delivered and whether follow-up after completion is included. If the work produces recommendations, name the employee or separately retained provider who will implement them. A sponsor may learn a great deal from analysis while still needing an implementation budget. Conversely, a paid project should not be assumed to include unlimited revisions or indefinite maintenance when its written scope does not say so."
+      },
+      {
+        "title": "Use a two-column acceptance brief",
+        "text": "Put each option beside the same questions: output, due date, your time commitment, data permissions, review process and post-handoff support. Mark unanswered items rather than filling them with optimistic assumptions. A fictional retailer could use a student project to investigate customer segments while retaining a professional for a time-sensitive system change. That is a sequencing choice, not a claim that either kind of provider is universally superior."
+      }
+    ],
+    "checklist": [
+      "Decision supported by the work",
+      "Current project calendar",
+      "Data and confidentiality permission",
+      "Editable outputs and review process",
+      "Implementation and maintenance owner"
+    ],
+    "sources": [
+      {
+        "label": "Duquesne consulting project scope and application timing",
+        "url": "https://www.duq.edu/academics/colleges-and-schools/business/support/consulting-projects.php"
+      }
+    ],
+    "related": [
+      {
+        "label": "Duquesne Student Consulting: Frame a Sponsor Project",
+        "url": "/guides/duquesne-student-business-consulting-project/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-makerspace-vs-contract-fabrication",
+    "title": "Pittsburgh Makerspace Membership vs Contract Fabrication",
+    "description": "Decide who will make the part, manage equipment access and accept the finished work.",
+    "intro": "Protohaven describes membership as access to a learning and fabrication community, with equipment clearance and instruction forming part of the access process. A contract fabricator is a different arrangement: you request a defined output under an agreed scope. Before comparing monthly access with a project quote, identify whether your business wants to develop its own making capability or purchase a finished component.",
+    "sections": [
+      {
+        "title": "Name the person doing the work",
+        "text": "For a membership option, identify who on your team will learn the process, obtain the necessary clearance and perform the work. Confirm the equipment and permitted activity directly with the makerspace. For a fabrication quote, ask who interprets the design, selects the process and performs any subcontracted step. An access fee and a finished-part price do not cover the same responsibilities."
+      },
+      {
+        "title": "Describe the part and its purpose",
+        "text": "Prepare dimensions, material assumptions, quantity and intended use. Distinguish a visual model from a functional prototype or production component. Do not treat the availability of a tool as proof that a design is suitable for a regulated or safety-critical use. Identify engineering or other specialist review separately where the application requires it. A photograph alone rarely resolves tolerances, fit or acceptance criteria."
+      },
+      {
+        "title": "Build a realistic time comparison",
+        "text": "For self-directed work, include instruction, reservations, setup, iterations, cleanup and your own labor. Ask about access restrictions and equipment availability. For outsourced work, request lead time, revision windows and the effect of a design change. Use a dated estimate with uncertain items visible. Neither a membership page nor an initial quote guarantees that every machine, material or production slot will be available when needed."
+      },
+      {
+        "title": "Agree how completion will be judged",
+        "text": "For a contracted part, document measurable acceptance criteria and the process for discussing a defect or requested change. For an internal prototype, name the person who records test results and decides on the next iteration. Keep a learning experiment separate from a promised customer delivery. A prototype that teaches you why a design fails can be useful without being a saleable finished product."
+      },
+      {
+        "title": "Choose a path that matches the repeat need",
+        "text": "A business expecting repeated hands-on development may value learning and access; one needing a bounded deliverable may prefer an appropriately scoped supplier engagement. These are planning considerations, not a recommendation of a particular shop. Compare the full work required on each side and ask about intellectual property, files and storage. Retain the assumptions with the decision so a change in quantity or deadline can trigger a fresh review."
+      }
+    ],
+    "checklist": [
+      "Maker or supplier responsible for each step",
+      "Part purpose, materials and dimensions",
+      "Training and access questions",
+      "Time and revision assumptions",
+      "Acceptance criteria and file ownership"
+    ],
+    "sources": [
+      {
+        "label": "Protohaven membership overview",
+        "url": "https://protohaven.org/membership/"
+      },
+      {
+        "label": "Protohaven member equipment access guidance",
+        "url": "https://wiki.protohaven.org/books/members-handbook/page/equipment-and-getting-access"
+      }
+    ],
+    "related": [
+      {
+        "label": "Protohaven: Prepare a Prototype Project Conversation",
+        "url": "/guides/protohaven-prototype-project-planning/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-coworking-vs-business-incubation",
+    "title": "Pittsburgh Coworking vs Business Incubation: Compare the Actual Offer",
+    "description": "Separate workspace access from business-support commitments when reviewing a membership or program.",
+    "intro": "A desk, meeting room and useful community can solve a workspace problem. Business incubation may address a different set of company-development needs. Some organizations combine both, so the label alone is a poor basis for comparison. Riverside Center for Innovation publishes incubation support and office-space information separately. Use the written offer to determine which services, space and participation obligations apply to you.",
+    "sections": [
+      {
+        "title": "Separate the two decisions",
+        "text": "Write one list of workspace needs and another of business questions. The first might include quiet calls, meeting access, hours and storage. The second could include customer discovery, operating systems or finance preparation. Identify which list is urgent. A team that already has a functioning office should not assume a move is necessary to receive advice; a team needing a desk tomorrow should not assume program admission supplies immediate space."
+      },
+      {
+        "title": "Ask what is included in writing",
+        "text": "For workspace, request the current agreement and clarify access, guest use, booking limits and charges. For incubation, ask about eligibility, intake, support format and participation expectations. If a service is available by referral or separate fee, record that distinction. Avoid describing optional events as guaranteed one-to-one support or interpreting a shared address as acceptance into a development program."
+      },
+      {
+        "title": "Compare the commitment of your team",
+        "text": "Estimate travel, attendance, preparation and reporting time in addition to any quoted fees. Identify who will participate and how learning will reach the rest of the company. A support program only helps if the business can complete its own follow-through. A workspace can also create logistical work, such as equipment setup or changes to meeting routines, that should be included in the decision."
+      },
+      {
+        "title": "Define the business outcome you will review",
+        "text": "Choose a practical checkpoint, such as finishing a customer interview plan or establishing a repeatable monthly operating review. Do not substitute membership duration for evidence of progress. Ask what support is available when the first issue is resolved and the next one emerges. Keep any funding, investor access or procurement opportunity separate until its terms are confirmed directly."
+      },
+      {
+        "title": "Use a short trial decision where terms allow",
+        "text": "Before signing, summarize the offer, obligations, cancellation terms and unresolved questions. If you are comparing organizations, use the same workspace and support requirements for each. A hypothetical solo founder may need occasional meeting access and focused advising, while a growing team needs daily space. The right combination depends on those facts; it cannot be established by calling every shared office an incubator."
+      }
+    ],
+    "checklist": [
+      "Workspace requirements",
+      "Business-development questions",
+      "Written included and optional services",
+      "Team time and participation needs",
+      "Review checkpoint and exit terms"
+    ],
+    "sources": [
+      {
+        "label": "Riverside Center for Innovation incubation support",
+        "url": "https://riversidecenterforinnovation.com/incubation-support/"
+      },
+      {
+        "label": "Riverside Center for Innovation office space",
+        "url": "https://riversidecenterforinnovation.com/office-space/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Riverside Center for Innovation: Prepare a Business-Support Request",
+        "url": "/guides/riverside-center-incubation-support-request/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-vendor-registration-vs-bid-submission",
+    "title": "Pittsburgh Vendor Registration vs Bid Submission",
+    "description": "Keep your supplier profile and each solicitation response on separate completion checklists.",
+    "intro": "The City of Pittsburgh\u2019s Beacon FAQ treats vendor registration and responding to opportunities as separate tasks. Registration establishes a supplier profile; it is not a bid for every matching opportunity. An owner can receive useful alerts and still miss a response requirement. Use two records so account setup does not create false confidence that the company has submitted a compliant offer.",
+    "sections": [
+      {
+        "title": "Close the account-setup task first",
+        "text": "Record the legal supplier identity, responsible user and notification address. Verify that the person monitoring alerts can access the account and has a backup during absence. Keep credentials out of shared bid notes. Use the current City procurement page to reach the platform, since older procurement pages may be archives. Registration status should be recorded as an account fact, separate from any award or solicitation status."
+      },
+      {
+        "title": "Open a file for each opportunity",
+        "text": "Once an opportunity is identified, create a record for its identifier, scope, official documents and response deadline. Read the actual solicitation before deciding to proceed. A notification category can help discover work but does not show that your company meets every condition. Assign a person to track amendments and questions through the method specified in the current solicitation."
+      },
+      {
+        "title": "Build a requirement-to-evidence list",
+        "text": "For every requested response item, identify the document, responsible preparer and review status. Keep pricing, technical responses and other required information tied to the exact request. Avoid reusing a prior bid without checking differences. This is an organizational approach; the solicitation and official platform instructions govern what must be submitted and how. If an item is unclear, use the authorized question process rather than guessing."
+      },
+      {
+        "title": "Separate upload from final submission",
+        "text": "Ask the platform help resources how to recognize a completed submission and preserve the confirmation supplied. A document saved in a workspace may not have the same status as a submitted response. Allow time to review files and resolve account issues before the deadline. Do not interpret a local checklist tick or a sent internal email as proof that the buyer received the response."
+      },
+      {
+        "title": "Keep the post-submission record",
+        "text": "Retain the version submitted, the confirmation and subsequent official communication. Record any clarification request separately, including its due date and response owner. A submitted bid is not an award. If the company chooses not to bid, preserve the reason so future alerts can be evaluated more efficiently. Account maintenance continues independently, especially when staff or notification addresses change."
+      }
+    ],
+    "checklist": [
+      "Supplier profile access confirmed",
+      "Separate solicitation identifier and deadline",
+      "Requirement-to-document checklist",
+      "Official submission confirmation",
+      "Award status recorded separately"
+    ],
+    "sources": [
+      {
+        "label": "City of Pittsburgh Beacon FAQs",
+        "url": "https://www.pittsburghpa.gov/Business-Development/Procurement/Beacon-FAQs"
+      },
+      {
+        "label": "City current Beacon procurement information",
+        "url": "https://www.pittsburghpa.gov/Business-Development/Procurement/Beacon"
+      }
+    ],
+    "related": [
+      {
+        "label": "Pittsburgh Beacon: Prepare Your Vendor Profile and Bid Alerts",
+        "url": "/guides/pittsburgh-beacon-vendor-registration/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-site-selection-vs-property-review",
+    "title": "Pittsburgh Site Selection vs Property Review: Different Questions",
+    "description": "Separate a regional location search from property condition and address-specific approval work.",
+    "intro": "The Pittsburgh Regional Alliance offers resources for identifying regional commercial locations. Choosing candidate sites is only one stage of a move. The suitability of a particular building, the condition of its systems and the official permissions for a proposed use require their own review. Keeping those questions separate helps a business avoid treating an attractive listing as a complete readiness assessment.",
+    "sections": [
+      {
+        "title": "Give the regional search measurable criteria",
+        "text": "Describe the operation, preferred area, approximate space, transportation needs and timing. Distinguish essential requirements from preferences. A broad regional search can help identify possibilities; it does not establish that each address is ready for the planned activity. Keep a dated candidate list with the source of each fact, including whether a capacity or availability claim has been confirmed by the owner or representative."
+      },
+      {
+        "title": "Create a property-specific question file",
+        "text": "For each serious candidate, record the address and the exact portion of the property under discussion. List intended activities and any changes to the space. Ask appropriately qualified advisers what inspections, engineering review or other due diligence the assignment needs. Do not use a marketing description as a substitute for a written scope that explains what a reviewer will and will not examine."
+      },
+      {
+        "title": "Keep official process questions distinct",
+        "text": "The City publishes permit inspection information and occupancy records resources. Those processes serve specific purposes and should not be confused with a buyer\u2019s or tenant\u2019s privately commissioned condition review. Ask the relevant authority about the proposed address and activity. A prior record or an inspection of limited scope should not be represented as blanket approval for every future operation."
+      },
+      {
+        "title": "Track unresolved conditions before committing",
+        "text": "Build a list of open questions, the person responsible for answering each and the evidence expected. Examples might concern access arrangements, utility information or the timing of a proposed alteration. These are prompts for investigation, not findings about any particular property. Discuss decision deadlines and contractual protections with the appropriate professionals instead of treating an informal assurance as a resolved condition."
+      },
+      {
+        "title": "Keep the final decision file together",
+        "text": "Retain the selection criteria, dated listing material, commissioned reports and official responses in separate labeled sections. Note changes in the business plan that could make earlier answers incomplete. A location can be attractive for regional access while still needing further property work. The decision should explain both why the location fits and which address-specific questions have actually been resolved."
+      }
+    ],
+    "checklist": [
+      "Regional search criteria",
+      "Exact address and intended use",
+      "Commissioned review scope",
+      "Official questions and responses",
+      "Unresolved conditions before commitment"
+    ],
+    "sources": [
+      {
+        "label": "Pittsburgh Regional Alliance site resources",
+        "url": "https://pittsburghregion.org/pittsburgh-region/real-estate-and-site-id-support"
+      },
+      {
+        "label": "City permit inspection process",
+        "url": "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/OneStopPGH-Permit-Center/Permit-Process/Permit-Inspections"
+      },
+      {
+        "label": "City occupancy search information",
+        "url": "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/References-Resources-and-Forms/Online-Occupancy-Search"
+      }
+    ],
+    "related": [
+      {
+        "label": "Pittsburgh Regional Alliance: Prepare a Site-Selection Brief",
+        "url": "/guides/pittsburgh-regional-alliance-site-selection-brief/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-export-advising-vs-freight-forwarder",
+    "title": "Pittsburgh Export Advising vs a Freight Forwarder",
+    "description": "Match market-development questions and shipment arrangements to clearly assigned responsibilities.",
+    "intro": "The U.S. Commercial Service has a Pittsburgh office that helps businesses with international sales. Trade.gov separately describes freight forwarders as agents arranging shipment-related services for exporters. Those roles can complement each other. When an overseas enquiry arrives, distinguish the decision about serving the market from the assignment to move a particular shipment and manage its agreed documentation.",
+    "sections": [
+      {
+        "title": "Identify the stage of the question",
+        "text": "A company exploring a market may need help framing commercial opportunities and finding the right resources. A company preparing a shipment needs specific operational arrangements. Write down whether you have a hypothetical target market, a buyer conversation or an actual order. Do not describe an enquiry as a completed sale or a logistics estimate as proof that the transaction is ready."
+      },
+      {
+        "title": "Prepare a concise advising brief",
+        "text": "Describe the product or service, the market of interest, current sales experience and the decision to be made. Ask the Pittsburgh office which services fit and whether costs or eligibility conditions apply. A conversation can help identify next steps, but it should not be presented as government approval of the buyer, product or transaction. Keep each specialist question assigned to a suitable source of advice."
+      },
+      {
+        "title": "Prepare a separate shipment brief",
+        "text": "For a forwarder discussion, organize origin, destination, goods description, dimensions, weight, dates and the services requested. Mark uncertain information clearly. Ask what the proposal includes, who handles each document and which charges remain outside the quote. Trade.gov lists multiple possible forwarding services; do not assume every provider includes all of them or uses the same commercial terms."
+      },
+      {
+        "title": "Make the responsibility map visible",
+        "text": "Record the seller, buyer, forwarder and other relevant parties beside their agreed responsibilities. Ask qualified advisers about obligations that the team does not understand. Hiring an intermediary should not be treated as an automatic transfer of every exporter obligation. This guide organizes questions and records; it does not classify goods, determine license requirements or decide whether a transaction may proceed."
+      },
+      {
+        "title": "Reconcile the plan before dispatch",
+        "text": "Compare the commercial assumptions with the shipment proposal and resolve inconsistencies through the appropriate parties. Save the agreed version and contact details for exceptions. If the order, destination or goods change, ask whether the earlier arrangements remain suitable. Keep market advice, contractual terms and shipment evidence distinct so a later reviewer can see what was decided and by whom."
+      }
+    ],
+    "checklist": [
+      "Market enquiry or actual order identified",
+      "Advising question and current experience",
+      "Shipment facts and uncertainty labels",
+      "Written service and responsibility scope",
+      "Changed-order review before dispatch"
+    ],
+    "sources": [
+      {
+        "label": "U.S. Commercial Service Pittsburgh",
+        "url": "https://www.trade.gov/pennsylvania-pittsburgh"
+      },
+      {
+        "label": "Trade.gov customs broker and forwarder roles",
+        "url": "https://www.trade.gov/customs-brokers-and-freight-forwarders"
+      },
+      {
+        "label": "BIS freight forwarder guidance",
+        "url": "https://www.bis.gov/learn-support/export-compliance-programs/freight-forwarder-guidance"
+      }
+    ],
+    "related": [
+      {
+        "label": "U.S. Commercial Service Pittsburgh: Prepare an Export-Assistance Brief",
+        "url": "/guides/us-commercial-service-pittsburgh-export-brief/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
+  },
+  {
+    "slug": "pittsburgh-nonprofit-coaching-vs-project-consultant",
+    "title": "Pittsburgh Nonprofit Coaching vs a Project Consultant",
+    "description": "Decide whether the immediate need is leadership discussion, a defined deliverable or both.",
+    "intro": "The Forbes Funds describes its Executive-in-Residence program as coaching and advisory support for nonprofit leadership in Allegheny County. That is a different starting point from commissioning a consultant to deliver a defined project. A nonprofit considering help should identify the decision it owns, the output it needs and the work its staff can perform before comparing the two approaches.",
+    "sections": [
+      {
+        "title": "State the leadership question separately",
+        "text": "A leader may need a confidential sounding board to examine priorities, board relationships or organizational choices. Write a short question that can be discussed without assuming an external adviser will make the decision. Confirm program fit and the arrangements for sharing sensitive information directly. Coaching should not be described to the board as an outsourced management function unless an actual agreement establishes that role."
+      },
+      {
+        "title": "Name the project deliverable",
+        "text": "If the need is a completed analysis, facilitated process or implemented system, specify the output, audience and acceptance criteria. Ask a prospective consultant what is included and what remains the organization\u2019s responsibility. A broad subject such as strategy does not tell you whether the assignment ends with discussion, a written plan or implementation support. Request examples of the form of deliverable without asking for another client\u2019s confidential work."
+      },
+      {
+        "title": "Compare the demand on staff time",
+        "text": "Coaching often depends on leaders bringing questions and acting on what they learn. A project also requires staff input, access and review even when a consultant produces the deliverable. Assign an internal owner and estimate the time available. If the organization has no capacity to implement recommendations, surface that constraint before investing effort in either route."
+      },
+      {
+        "title": "Clarify authority and reporting",
+        "text": "Identify who approves the engagement, receives updates and accepts completion. Keep board decisions, management decisions and adviser suggestions distinguishable in the record. For a consultant, ask about scope changes, fees, confidentiality and ownership of work. For a coaching program, ask about participation and the limits of the support. Do not infer those terms from a program name or an introduction."
+      },
+      {
+        "title": "Choose the sequence that resolves the need",
+        "text": "A leadership conversation can help define a later project, while a completed project may reveal a question worth discussing with a coach. Neither sequence guarantees funding or improved organizational results. Review what changed in the decision, what output was received and what actions remain. The useful comparison is whether the organization now has the support and capacity needed for its next specific step."
+      }
+    ],
+    "checklist": [
+      "Leadership question",
+      "Defined project output",
+      "Internal owner and available time",
+      "Authority and confidentiality arrangements",
+      "Next action and review point"
+    ],
+    "sources": [
+      {
+        "label": "The Forbes Funds Executive-in-Residence program",
+        "url": "https://forbesfunds.org/innovate/eir/"
+      },
+      {
+        "label": "The Forbes Funds organizational information",
+        "url": "https://forbesfunds.org/about/"
+      }
+    ],
+    "related": [
+      {
+        "label": "The Forbes Funds EIR: Prepare a Nonprofit Leadership Coaching Brief",
+        "url": "/guides/forbes-funds-executive-coaching-brief/"
+      },
+      {
+        "label": "Explore Pittsburgh business resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-21",
+    "checked": "2026-11-21",
+    "checklistTitle": "Make the service choice explicit"
   }
 ]
