@@ -2,7 +2,7 @@
 
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urlsplit, urljoin
 import html
 import json
 import re
@@ -125,6 +125,50 @@ def check():
         page = pages.get(path)
         if not page or page.canonical != url or "noindex" in page.robots:
             errors.append(f"Sitemap URL mismatches page: {url}")
+
+    # Follow the actual static file graph, including non-sitemap intermediary
+    # pages and known aliases; exact sitemap URL matching falsely flags these.
+    route_files = {}
+    for file in pages:
+        route = "/" + file.relative_to(ROOT).as_posix()
+        aliases = {route}
+        if route.endswith("/index.html"):
+            aliases.update({route[:-10], route[:-11] or "/"})
+        else:
+            aliases.add(route[:-5])
+        for alias in aliases:
+            route_files[alias] = file
+    redirects = {r["source"]: r["destination"]
+                 for r in json.loads((ROOT / "vercel.json").read_text()).get("redirects", [])
+                 if "has" not in r and ":" not in r["source"] and "(" not in r["source"]}
+
+    def destination(url):
+        parsed = urlsplit(url)
+        if parsed.netloc and parsed.netloc != urlsplit(SITE).netloc:
+            return None
+        route = unquote(parsed.path) or "/"
+        visited = set()
+        while route in redirects and route not in visited:
+            visited.add(route)
+            route = redirects[route]
+        return route_files.get(route)
+
+    reached = set()
+    pending = [ROOT / "index.html"]
+    while pending:
+        file = pending.pop()
+        if file in reached or file not in pages:
+            continue
+        reached.add(file)
+        page = pages[file]
+        if "nofollow" in page.robots:
+            continue
+        base = page.canonical or SITE + "/" + file.relative_to(ROOT).as_posix()
+        pending.extend(target for href in page.links
+                       if (target := destination(urljoin(base, href))))
+    for url in sitemap:
+        if destination(url) not in reached:
+            errors.append("Sitemap owner has no internal path from home: " + url)
 
     news_root = ET.parse(ROOT / "news-sitemap.xml").getroot()
     recent = set()
