@@ -18,6 +18,7 @@ const nav=n=>`<!-- directory-pagination:start --><nav id="directory-pages" aria-
 for(let n=1;n<=total;n++){
  const rows=data.slice((n-1)*size,n*size),url=site+(n===1?'/directory':'/directory/page/'+n+'/');let page=template.replace('<!-- DIRECTORY_CARDS -->',rows.map(card).join('\n'));
  page=page.replace(/<!-- directory-pagination:start -->[^]*?<!-- directory-pagination:end -->/g,'');
+ page=page.replace(/<style id="directory-pagination-targets">[^]*?<\/style>/g,'').replace('</head>','<style id="directory-pagination-targets">#directory-pages a{min-width:44px;min-height:44px}</style></head>');
  page=page.replace('<p id="biz-count"',nav(n)+'<p id="biz-count"');
  page=page.replace(/<p id="biz-count"[^>]*>[^]*?<\/p>/,`<p id="biz-count" aria-live="polite">Showing ${(n-1)*size+1}–${Math.min(n*size,data.length)} of ${data.length.toLocaleString()} profiles</p>`);
  page=page.replace(/<noscript>[^]*?<\/noscript>/,'<noscript><p>Use the page links to browse all profiles without JavaScript.</p></noscript>');
