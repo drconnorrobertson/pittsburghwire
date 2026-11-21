@@ -3678,5 +3678,489 @@
     ],
     "published": "2026-11-20",
     "checklistTitle": "Prepare for your next step"
+  },
+  {
+    "slug": "carnegie-library-business-market-research",
+    "title": "Carnegie Library Business Research: Turn a Market Question into a Search Plan",
+    "description": "Prepare a focused research request using Carnegie Library of Pittsburgh business resources, with geography, dates and assumptions clearly defined.",
+    "intro": "Carnegie Library of Pittsburgh\u2019s business-resource guide points readers toward industry and market research, business planning, and help locating business information. For a Pittsburgh owner, the useful starting point is a precise research question. A database result can support a decision, but it does not establish customer demand for a particular shop, service or price. Use the library\u2019s current resource and contact pages to confirm access and assistance.",
+    "sections": [
+      {
+        "title": "Write a decision before collecting statistics",
+        "text": "Describe what the business needs to decide and when. A proposed service territory, a new customer segment and a possible storefront require different evidence. For example, an owner considering delivery from a South Side kitchen might ask how to describe the intended service area and compare available market information. Keep the question separate from the conclusion the owner hopes to reach. That makes it easier for a librarian or research helper to suggest useful sources."
+      },
+      {
+        "title": "Define the place and population",
+        "text": "Specify the geography and the people or organizations being counted. A city total, an Allegheny County figure and a small service radius cannot be substituted without explanation. Record whether a number describes residents, households, establishments or employees. If the resource cannot support the desired small-area detail, preserve that limitation rather than dividing a regional number into an invented neighborhood estimate. Ask which geographic definitions the source actually uses."
+      },
+      {
+        "title": "Keep a source-and-date ledger",
+        "text": "For each useful result, save the source name, measurement period, retrieval date, definition and any access limitations. Separate a forecast from an observed count. A recent download can contain older underlying data, so the download date alone does not describe freshness. Keep enough citation detail to reproduce the search. Follow the resource\u2019s permitted-use rules before redistributing extracts or placing licensed data in a public business plan."
+      },
+      {
+        "title": "Compare like measures before making a chart",
+        "text": "Check whether two figures use the same time period, categories and units. If one source counts employers and another counts locations, explain the difference. Do not describe a mismatch as market growth without evidence. A small comparison table with definitions often reveals more than a polished chart. The owner can then identify which apparent opportunity rests on comparable information and which still needs a customer interview or another source."
+      },
+      {
+        "title": "Separate desk research from customer evidence",
+        "text": "Library research can help frame a market, but it does not replace testing the actual offer. For the delivery example, broad population data would not establish willingness to order, acceptable prices or delivery economics. Record those as separate questions for appropriate research. Keep interview observations and transaction evidence labeled with their own limitations. Avoid turning a handful of enthusiastic comments into a statistical estimate of the whole neighborhood."
+      },
+      {
+        "title": "Bring back a concise unresolved question",
+        "text": "After reviewing the initial material, return with the specific gap rather than asking for every available business statistic. Identify what was searched, which definition caused difficulty and what decision remains open. Keep the research file with the planning version it informed. The result should be a transparent evidence trail that another person can inspect, not a claim that the library endorses the business or guarantees a successful launch."
+      }
+    ],
+    "checklist": [
+      "Decision and deadline",
+      "Geographic and customer definitions",
+      "Source, measurement period and retrieval date",
+      "Access and redistribution limitations",
+      "Unresolved question for further research"
+    ],
+    "sources": [
+      {
+        "label": "Carnegie Library business-resource introduction",
+        "url": "https://carnegielibrary.libguides.com/business-resources/introduction"
+      },
+      {
+        "label": "Carnegie Library market-analysis resources",
+        "url": "https://carnegielibrary.libguides.com/business-resources/market-analysis"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a Pitt Business Research Clinic question",
+        "url": "/guides/pitt-library-business-research-clinic/"
+      },
+      {
+        "label": "Explore the Pittsburgh business directory",
+        "url": "/directory/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "partner4work-employer-workforce-brief",
+    "title": "Partner4Work: Prepare an Employer Workforce Brief",
+    "description": "Frame a hiring, retention or training challenge before contacting Partner4Work\u2019s Business Engagement Office.",
+    "intro": "Partner4Work\u2019s Business Engagement Office describes support for employer hiring, retention, training and longer-term talent needs. Its current business page is a starting point for a conversation, not evidence that a particular company qualifies for funding. Prepare an account of the work, the workforce constraint and the result the business wants to understand. Keep recruitment, training and retention questions distinguishable.",
+    "sections": [
+      {
+        "title": "Describe the actual work and constraint",
+        "text": "List the roles involved, work location, schedule and tasks that are difficult to staff or develop. Explain whether the issue concerns too few applicants, a skills gap after hiring or employees leaving. These problems may coexist, but they need different evidence. A Pittsburgh manufacturer should identify the production task and supervision available rather than simply requesting more workers. Avoid including personal employee information that is unnecessary for the initial enquiry."
+      },
+      {
+        "title": "Bring a small baseline",
+        "text": "Summarize the information the business already tracks, such as open roles, time to fill positions or completion of internal training. Define each measure and its period. An estimate is useful if it is labeled and its basis is visible. Do not build a complicated dashboard simply to make the request appear sophisticated. The initial purpose is to explain the problem well enough to ask which service or next conversation may fit."
+      },
+      {
+        "title": "Separate training needs from immediate vacancies",
+        "text": "Describe what a person would need to learn, who could provide supervision and when training could occur. Identify work that must be covered while someone is learning. A course title alone does not establish that the training fits the job. If the business needs immediate coverage as well as development, show both timelines. Ask which options can be discussed rather than assuming one program solves every part of the staffing problem."
+      },
+      {
+        "title": "Treat funding as an unresolved eligibility question",
+        "text": "If financial support is relevant, ask what current programs, eligibility conditions, approvals and documentation would apply. Do not promise reimbursement to an internal manager before receiving an applicable answer. Keep proposed costs separate from approved support and payments actually received. A published program description or a past participant\u2019s experience does not establish this employer\u2019s eligibility, a current award amount or permission to begin spending."
+      },
+      {
+        "title": "Assign the employer\u2019s part of the work",
+        "text": "Name the person who can clarify duties, the supervisor who can discuss training and the person authorized to review costs. Record the response expected from each. For a fictional employer considering a new evening shift, the brief should distinguish its planned shift from a confirmed launch and identify who can resolve scheduling questions. The workforce conversation is more useful when the business\u2019s own commitments are explicit."
+      },
+      {
+        "title": "Record the agreed next step",
+        "text": "After contact, document the service discussed, information requested, responsible people and next review date. Preserve conditions and unanswered questions in the same note. If the organization refers the business elsewhere, record the referral without treating it as an approval. Compare subsequent results with the original baseline using the same definitions. The brief supports coordination; it does not certify job quality, approve a funding request or guarantee a hire."
+      }
+    ],
+    "checklist": [
+      "Role, location and schedule summary",
+      "Defined hiring or retention baseline",
+      "Training task and supervision needs",
+      "Unconfirmed funding questions",
+      "Named contact and next review date"
+    ],
+    "sources": [
+      {
+        "label": "Partner4Work Business Engagement Office",
+        "url": "https://www.partner4work.org/Business"
+      }
+    ],
+    "related": [
+      {
+        "label": "Compare recruiting agency scope",
+        "url": "/guides/pittsburgh-recruiting-agency-proposals/"
+      },
+      {
+        "label": "Explore local business profiles",
+        "url": "/directory/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "pa-careerlink-pittsburgh-employer-job-posting",
+    "title": "PA CareerLink Pittsburgh: Prepare an Employer Job-Posting File",
+    "description": "Organize a clear role description and application process before using PA CareerLink employer services.",
+    "intro": "PA CareerLink Pittsburgh\u2019s employer page links to online job posting and its Business Services Team. The Commonwealth also describes registration and employer resources through PA CareerLink. A local employer can prepare the role and application process before entering information. Posting a job is not a hiring guarantee, and this guide does not replace employment-law review of the employer\u2019s requirements or selection process.",
+    "sections": [
+      {
+        "title": "Confirm the employer identity and account owner",
+        "text": "Identify the employing organization and the person authorized to maintain its posting. Use the official portal\u2019s current registration instructions. The Commonwealth\u2019s employer guidance identifies the Federal Employer Identification Number as information needed for registration. Do not place identification numbers, passwords or candidate records in an unrestricted shared planning document. Keep the internal contact available when the posting or employer information needs a correction."
+      },
+      {
+        "title": "Describe duties in observable terms",
+        "text": "Explain the work the employee would perform, location, schedule and essential job-related requirements. Separate required qualifications from preferences so the posting does not imply that every desirable skill is mandatory. Avoid copying an old advertisement for a different position. A small retailer in Pittsburgh hiring for inventory work should describe receiving, record updates and the actual shift rather than relying on a vague label such as general assistant."
+      },
+      {
+        "title": "Clarify how people can apply",
+        "text": "Specify the application route, information requested and who reviews submissions. Check the links and contact details before publication. An applicant should not have to guess whether a portal submission, an email or another step completes the application. Keep sensitive information out of public instructions. Questions about permissible screening, accommodations or selection requirements belong with an appropriate employment professional rather than being resolved by the posting platform."
+      },
+      {
+        "title": "Align the posting with the review process",
+        "text": "Make sure the people reviewing applicants use the role and requirements actually advertised. Keep an internal record of the posting version and any material change. If the business changes the schedule or duties, update the public information rather than explaining a different role only after candidates apply. Ask the Business Services Team how to handle portal-specific updates or recruitment support instead of assuming every change follows the same workflow."
+      },
+      {
+        "title": "Track responses without inventing a success measure",
+        "text": "Choose a small set of useful counts, such as applications received and candidates moving to the next stage, using consistent definitions. Distinguish an incomplete submission from a completed application. Do not treat an applicant\u2019s presence in a system as proof that the person meets the role\u2019s requirements. Compare recruitment channels carefully because their audiences and application steps can differ. Retain candidate records according to the employer\u2019s applicable obligations."
+      },
+      {
+        "title": "Close or revise the vacancy deliberately",
+        "text": "When the role is filled or paused, make the corresponding portal update and preserve the final posting record. If recruitment produces few suitable responses, review the clarity of the duties and process before blaming the channel. Record advice received from the service team separately from the employer\u2019s hiring decision. This creates a useful handoff when someone else assumes responsibility for future vacancies."
+      }
+    ],
+    "checklist": [
+      "Authorized employer account owner",
+      "Current job duties and requirements",
+      "Application route checked",
+      "Posting version and update owner",
+      "Vacancy close or review date"
+    ],
+    "sources": [
+      {
+        "label": "PA CareerLink Pittsburgh employer online services",
+        "url": "https://careerlinkpittsburgh.org/employer-online-services"
+      },
+      {
+        "label": "Commonwealth PA CareerLink employer registration overview",
+        "url": "https://www.pa.gov/services/dli/explore-job-resources-on-pa-careerlink-"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a Partner4Work workforce brief",
+        "url": "/guides/partner4work-employer-workforce-brief/"
+      },
+      {
+        "label": "Compare temporary staffing scope",
+        "url": "/guides/pittsburgh-temporary-staffing-brief/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "riverside-center-incubation-support-request",
+    "title": "Riverside Center for Innovation: Prepare a Business-Support Request",
+    "description": "Define the business obstacle and the referral or consulting question before contacting RCI\u2019s incubation support.",
+    "intro": "Riverside Center for Innovation describes incubation support through its Diversity Business Resource Center, including consulting and referrals to business resources. Its Pittsburgh office is on River Avenue. An owner can use the official intake route to explain the next obstacle in the business, while asking RCI to confirm which services or partner referrals may fit. A referral is not a certification, loan commitment or professional engagement.",
+    "sections": [
+      {
+        "title": "Locate the business in its operating stage",
+        "text": "Explain whether the venture is still being planned, has begun operating or is trying to expand. Give a brief description of the product or service and the customers it intends to serve. A company with invoices and employees has different immediate questions from an idea-stage founder. Use facts and clearly marked estimates. A long promotional narrative can obscure the practical issue that the support team needs to understand first."
+      },
+      {
+        "title": "Choose the obstacle that needs attention now",
+        "text": "List the problem, the decision it affects and the date by which an answer would help. A contractor preparing a larger bid may need guidance about bonding resources, financial records or procurement readiness. Keep those questions separate rather than requesting a general business makeover. Explain what has already been tried and what remains unresolved. This helps a referral conversation start from the current situation instead of repeating completed work."
+      },
+      {
+        "title": "Bring only the initial evidence needed",
+        "text": "Prepare a short summary and identify supporting documents available for a later conversation. Ask about the appropriate way to share sensitive financial or business information. Do not send an unrestricted collection of customer records or credentials with an initial enquiry. A document list can show readiness without disclosing everything at once. When a partner professional requests information, confirm the scope and handling arrangement for that particular engagement."
+      },
+      {
+        "title": "Distinguish support from a specialist\u2019s decision",
+        "text": "RCI\u2019s page describes referrals in areas including certifications, legal services, accounting, taxes, insurance and bonding. The existence of a referral path does not establish the answer to an eligibility or coverage question. Record which organization is responsible for the next review. A business owner should know whether the next step is general education, a consulting conversation, an application or separately engaged professional work."
+      },
+      {
+        "title": "Build a referral follow-up map",
+        "text": "For each connection, record the question, the organization, information requested and next action. Avoid treating several referrals as several approvals. If two organizations need similar records, keep one current version and note any differences in requirements. For the contractor example, procurement advice and a bonding discussion may inform the same bid but remain separate processes with different reviewers and evidence needs."
+      },
+      {
+        "title": "Review progress against the original obstacle",
+        "text": "After the first conversations, identify what changed and what still prevents the decision. Update the request when the business stage or project changes. Keep advice, application status and completed actions distinguishable in the file. The value of an organized support request is clearer coordination with RCI and its partners, not a guarantee that a program will accept the business or deliver a particular financial result."
+      }
+    ],
+    "checklist": [
+      "Business stage and activity",
+      "Immediate decision and obstacle",
+      "Available-document list",
+      "Support versus specialist questions",
+      "Referral and follow-up map"
+    ],
+    "sources": [
+      {
+        "label": "RCI incubation support and DBRC overview",
+        "url": "https://riversidecenterforinnovation.com/incubation-support/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a Pitt SBDC conversation",
+        "url": "/guides/pitt-sbdc-consulting-preparation/"
+      },
+      {
+        "label": "Explore business-service planning guides",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "us-commercial-service-pittsburgh-export-brief",
+    "title": "U.S. Commercial Service Pittsburgh: Prepare an Export-Assistance Brief",
+    "description": "Describe the product, market question and current export stage before contacting the Pittsburgh Commercial Service office.",
+    "intro": "The U.S. Commercial Service\u2019s Pittsburgh page connects western Pennsylvania businesses with export-related information, events and local contacts. Its national services describe help with international strategy, market selection and potential business partners. Prepare the commercial question before requesting assistance. A service discussion does not establish export compliance, tax treatment, buyer reliability or a guaranteed sale; those issues need their appropriate separate review.",
+    "sections": [
+      {
+        "title": "Describe the offer and current capability",
+        "text": "Explain what the business sells, where it is made or delivered and what experience it has outside the United States. Identify which details are known and which are still being investigated. A Pittsburgh equipment supplier evaluating its first foreign distributor should distinguish an existing product from a proposed version. Keep technical specifications available for the appropriate conversation without placing confidential drawings or credentials into a general introductory email."
+      },
+      {
+        "title": "Choose a market question with boundaries",
+        "text": "Identify the country or market being considered and the decision the business needs to make. If several markets are candidates, explain the criteria rather than requesting an unexplained ranking of every destination. Useful questions may concern finding information, understanding a route to market or evaluating potential partner searches. Keep assumptions about demand separate from evidence already collected, including the date and source of any prior research."
+      },
+      {
+        "title": "Separate commercial help from compliance work",
+        "text": "List questions about the market alongside questions about export controls, contracts, tax, customs or payment risk, but do not treat them as one approval. Ask which service or professional should address each. A promising overseas inquiry does not establish that a transaction is permitted or commercially sound. Preserve the responsible reviewer and unresolved status for each topic so sales enthusiasm does not erase a required separate analysis."
+      },
+      {
+        "title": "Prepare a partner-search description",
+        "text": "If a potential distributor or other business partner is relevant, describe the role sought and the capabilities that matter. Explain who would handle sales, service, inventory or customer support under the proposed arrangement. A name on a list is a starting point for due diligence, not proof of suitability. Ask what a proposed service includes and what the business must independently verify before making commitments or sharing sensitive information."
+      },
+      {
+        "title": "Request current scope and costs",
+        "text": "Use the office\u2019s published contact route to ask which services fit the stage of the project and what eligibility, timing or fees apply. Do not infer current terms from an old event page or another exporter\u2019s story. Keep a written distinction between a requested service, an agreed scope and work completed. Include the business\u2019s own preparation and follow-up responsibilities when planning the time required."
+      },
+      {
+        "title": "Build an export decision record",
+        "text": "After the conversation, record the sources or services suggested, open questions and next action owners. For the equipment example, a market-research step may precede partner outreach, while a qualified compliance review follows its own timetable. Keep these dependencies visible. The brief should help the owner make a better-informed next decision without implying endorsement by the government or a promise of international revenue."
+      }
+    ],
+    "checklist": [
+      "Offer and current export stage",
+      "Defined market question",
+      "Commercial and compliance issues separated",
+      "Partner-role criteria",
+      "Current service scope and follow-up"
+    ],
+    "sources": [
+      {
+        "label": "U.S. Commercial Service Pittsburgh",
+        "url": "https://www.trade.gov/pennsylvania-pittsburgh"
+      },
+      {
+        "label": "U.S. Commercial Service services overview",
+        "url": "https://www.trade.gov/let-our-experts-help"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a business translation brief",
+        "url": "/guides/pittsburgh-business-translation-brief/"
+      },
+      {
+        "label": "Explore local business profiles",
+        "url": "/directory/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "pittsburgh-regional-alliance-site-selection-brief",
+    "title": "Pittsburgh Regional Alliance: Prepare a Site-Selection Brief",
+    "description": "Organize operational site criteria before requesting regional location and expansion assistance.",
+    "intro": "The Pittsburgh Regional Alliance describes regional assistance with business expansion and site selection, including real-estate and site-identification support. An owner considering Southwestern Pennsylvania can prepare the operational criteria behind a location decision before contacting the organization. A suggested property is not an assurance of zoning, utility capacity, environmental condition or suitability for a particular business.",
+    "sections": [
+      {
+        "title": "Start with the operating requirement",
+        "text": "Explain what will happen at the site, the activities involved and the expected scale. Distinguish office, storage, production and customer-facing space rather than using one total area figure. A company comparing a warehouse and a light-assembly location should describe loading, staffing and workflow needs separately. Keep present requirements distinct from possible future expansion so the initial search does not confuse mandatory features with desirable options."
+      },
+      {
+        "title": "Identify the geographic tradeoffs",
+        "text": "Define the region or corridor under consideration and explain why it matters. Delivery routes, access to employees and relationships with existing facilities may influence the search. Avoid assuming that a familiar neighborhood is the only workable option. Document the tradeoffs management is willing to consider and the constraints it cannot change. That gives a regional contact a more useful brief than a request for the cheapest available building."
+      },
+      {
+        "title": "Classify must-haves and matters to investigate",
+        "text": "Separate firm operating requirements from questions requiring technical verification. Utilities, access, permitting, physical condition and use restrictions may need specific authority or professional review. Do not treat an attractive listing description as that verification. Record the evidence required to resolve each issue and who can assess it. A simple criteria table should show confirmed facts, seller statements and unresolved assumptions in different columns."
+      },
+      {
+        "title": "Use one comparison basis for candidate sites",
+        "text": "Ask for enough consistent information to compare the shortlist without hiding differences. For each property, record the source date, stated space, available documents and major unknowns. A lower quoted occupancy cost may omit a necessary fit-out or infrastructure change. Keep financial estimates labeled and request the appropriate separate review. The first shortlist is a research stage, not a recommendation to sign a lease or purchase agreement."
+      },
+      {
+        "title": "Plan a purposeful site visit",
+        "text": "Before a visit, list the questions that can be observed and those that need documents or specialist input. Identify who should attend and which decision each person supports. For a warehouse example, the visit might clarify circulation while utility capacity remains a documented enquiry. Preserve photos and notes with permission and an identifiable date. Do not allow a visually appealing tour to substitute for required due diligence."
+      },
+      {
+        "title": "Keep commitments separate from exploration",
+        "text": "Record next steps after the regional conversation and assign responsibility for unresolved site questions. A referral, introduction or possible incentive should remain conditional until its applicable process is complete. Revisit the brief when the operating plan changes so old assumptions do not carry into a new decision. The resulting file should make the search more transparent while leaving property, financing and legal commitments to the appropriate reviewed process."
+      }
+    ],
+    "checklist": [
+      "Operating activity and space needs",
+      "Geographic constraints and tradeoffs",
+      "Must-haves versus unresolved checks",
+      "Comparable candidate evidence",
+      "Site-visit and follow-up owners"
+    ],
+    "sources": [
+      {
+        "label": "Pittsburgh Regional Alliance site-identification support",
+        "url": "https://pittsburghregion.org/pittsburgh-region/real-estate-and-site-id-support"
+      },
+      {
+        "label": "Pittsburgh Regional Alliance regional support overview",
+        "url": "https://pittsburghregion.org/pittsburgh-region"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a Pittsburgh zoning enquiry",
+        "url": "/guides/pittsburgh-zoning-question-brief/"
+      },
+      {
+        "label": "Explore business planning resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "sustainable-pittsburgh-recognition-evidence-plan",
+    "title": "Sustainable Pittsburgh Recognition: Build an Evidence Plan",
+    "description": "Organize a factual improvement and documentation file before pursuing a shop, restaurant or workplace recognition program.",
+    "intro": "Sustainable Pittsburgh describes recognition programs for shops, restaurants and workplaces, supported by tools for tracking progress. Its current program pages are the place to confirm the applicable category and participation process. A business should distinguish its documented actions from a designation actually awarded. This planning guide does not certify environmental performance or establish what public claims the business may make.",
+    "sections": [
+      {
+        "title": "Choose the relevant program and boundary",
+        "text": "Describe the organization, locations and operations that would be included. A single shop and a multi-location workplace can have different practical boundaries. Ask which program fits the actual organization before collecting evidence under assumed criteria. Use the current official guidance rather than an old participant\u2019s checklist. Record the version and date used so later reviewers can understand what the business was preparing against."
+      },
+      {
+        "title": "Inventory actions without claiming results prematurely",
+        "text": "List existing practices and identify the records that support them. Separate a planned action, an action implemented and an outcome measured. A restaurant switching a supply item, for example, should not infer a quantified environmental benefit without an appropriate basis. The evidence file can describe what changed, when and where while leaving unsupported claims out. Assign someone who can confirm the operational facts."
+      },
+      {
+        "title": "Build a practical record map",
+        "text": "For each relevant action, identify the document, location of the record, responsible person and period covered. Avoid collecting personal or confidential information that the process does not need. A supplier invoice, internal policy and measured usage record answer different questions; keep their purposes clear. If evidence is missing, record a follow-up task rather than replacing it with a confident sentence in an application."
+      },
+      {
+        "title": "Prioritize improvements the business can maintain",
+        "text": "Choose proposed actions with clear owners and a realistic way to check completion. Do not build a plan around a one-day change that ordinary operations cannot sustain. Consider training, purchasing and recordkeeping requirements as well as the visible action. Costs and expected benefits should remain estimates unless supported. The recognition process can organize effort, but it should not be presented as a guarantee of savings or commercial advantage."
+      },
+      {
+        "title": "Review public wording separately",
+        "text": "Keep statements about program participation, awarded designation and broader environmental performance distinct. Confirm the organization\u2019s current rules for using names, marks or recognition language. Do not display a status before it has been awarded or imply that it covers locations outside its actual scope. Questions about advertising claims or substantiation should receive appropriate professional review rather than being resolved by this checklist."
+      },
+      {
+        "title": "Maintain the evidence after the initial submission",
+        "text": "Preserve the submitted version, feedback, unresolved items and any final program decision. Identify which records need refreshing and who will do it. If the operation changes, reassess whether earlier descriptions remain accurate. A useful evidence plan supports an ongoing improvement process and a clearer conversation with the program. It does not turn recognition into a substitute for applicable legal duties or independent verification of every business claim."
+      }
+    ],
+    "checklist": [
+      "Program and operational boundary",
+      "Current criteria version",
+      "Action and evidence inventory",
+      "Ongoing record owners",
+      "Participation and awarded status kept distinct"
+    ],
+    "sources": [
+      {
+        "label": "Sustainable Pittsburgh recognition programs",
+        "url": "https://sustainablepittsburgh.org/take-action/recognition-programs/"
+      },
+      {
+        "label": "Sustainable Pittsburgh getting started",
+        "url": "https://sustainablepittsburgh.org/take-action/how-to-get-started/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare commercial recycling handoffs",
+        "url": "/guides/pittsburgh-commercial-recycling-hauler-reporting/"
+      },
+      {
+        "label": "Explore source-linked business profiles",
+        "url": "/directory/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
+  },
+  {
+    "slug": "pa-business-hub-state-and-city-records",
+    "title": "PA Business Hub and Pittsburgh OneStopPGH: Keep Their Records Separate",
+    "description": "Build an account-and-record map that distinguishes state business administration from Pittsburgh property and permit processes.",
+    "intro": "The PA Business Hub brings together state business tools and guidance, while Pittsburgh\u2019s OneStopPGH serves city processes for property-related projects and permits. Similar names do not mean the systems handle the same work. A Pittsburgh owner should identify the transaction, responsible agency and evidence of completion before assuming a task is finished. This guide organizes records; it does not determine every registration or permit the business needs.",
+    "sections": [
+      {
+        "title": "Name the transaction before choosing the portal",
+        "text": "Write down the action being considered, such as a state business filing or an enquiry about work at a Pittsburgh property. Identify which official agency is responsible and use its current instructions. Do not begin from a bookmark merely because the portal name looks familiar. If the business is unsure which agency handles the question, preserve that uncertainty and seek the correct official contact before submitting information or paying a fee."
+      },
+      {
+        "title": "Separate user access from business status",
+        "text": "An account used to enter a system is different from an agency record for a business or project. Keep the authorized account owner identifiable and follow current access procedures. Creating a login should not be recorded internally as completing a filing. Likewise, a business profile or saved document should not be treated as an approved permit. Record the actual transaction status and the official evidence supporting that status."
+      },
+      {
+        "title": "Map the state agency handoffs",
+        "text": "The Hub\u2019s official overview identifies state tools and support routes, including Business Filing Services, Revenue\u2019s myPATH and Labor and Industry services. Identify the tool relevant to the business\u2019s actual task rather than assuming one action updates every agency. Keep a list of unresolved related questions for the appropriate professionals or agencies. The map is a coordination aid; it does not establish that all legal obligations have been identified or met."
+      },
+      {
+        "title": "Keep the property project file distinct",
+        "text": "For a Pittsburgh location, retain the property or project identifier and the city process involved. A state business record does not establish that the intended use or proposed work at that address is approved. For a fictional shop moving premises, business-administration updates and property-project questions can proceed on different schedules. Give each its own responsible person, status and supporting documents so one completed step does not obscure another outstanding task."
+      },
+      {
+        "title": "Use a completion-evidence register",
+        "text": "For each action, record the official reference, submission date, payment evidence where relevant, requested follow-up and current status. Distinguish submitted, under review and completed according to the agency\u2019s actual terminology. Preserve notices and communications with the transaction they concern. If a correction is requested, record who is preparing it and when it was resubmitted. Avoid replacing this record with a generic task marked done."
+      },
+      {
+        "title": "Review the map when the business changes",
+        "text": "A move, ownership event or change in activities may raise new questions. Revisit the record map with the appropriate agency or professional rather than copying the prior project\u2019s assumptions. Keep access credentials secure and document an orderly handoff when the person maintaining the accounts changes. The aim is a transparent administrative history that helps the owner ask the right question and locate the supporting evidence."
+      }
+    ],
+    "checklist": [
+      "Transaction and responsible agency",
+      "Authorized account owner",
+      "Agency or project reference",
+      "Submission versus completion evidence",
+      "Outstanding questions and handoff owner"
+    ],
+    "sources": [
+      {
+        "label": "PA Business Hub official overview and support routes",
+        "url": "https://hub.business.pa.gov/Home/About"
+      },
+      {
+        "label": "PA Business One-Stop registration overview",
+        "url": "https://business.pa.gov/register/registering-with-pennsylvania/"
+      },
+      {
+        "label": "Pittsburgh OneStopPGH",
+        "url": "https://onestoppgh.pittsburghpa.gov/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepare a OneStopPGH project packet",
+        "url": "/guides/pittsburgh-onestop-business-project-packet/"
+      },
+      {
+        "label": "Explore business-service planning resources",
+        "url": "/guides/business-service-planning/"
+      }
+    ],
+    "published": "2026-11-20",
+    "checklistTitle": "Prepare your evidence and next question"
   }
 ]
