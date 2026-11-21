@@ -35,10 +35,15 @@ def write(repo,page_shell):
     base=Path(repo)/'directory'
     from directory_index import VERIFIED_CATEGORY, VERIFIED, profile_name
     names={s: (DATA[s]['name'] if s in DATA else profile_name(base/s/'index.html')) for s in VERIFIED}
+    legacy_data={s:r for s,r in DATA.items() if not r.get("official_profile")}
     for slug,r in DATA.items():
+        if r.get("official_profile"):
+            from official_business_profiles import write as write_official
+            write_official(repo,r,slug,page_shell,LABELS)
+            continue
         name=escape(r['name']);cat=r['category'];label=escape(LABELS[cat]);address=escape(r['address']);city=escape(r['city']);source=escape(r['source'],quote=True);website=escape(r['website'],quote=True)
         url=f'{SITE}/directory/{slug}/'
-        peers=sorted((s for s in VERIFIED if s!=slug and VERIFIED_CATEGORY[s]==cat),key=lambda s:(DATA.get(s,{}).get('city')!=r['city'],names[s].casefold()))[:4]
+        peers=sorted((s for s in VERIFIED if s!=slug and VERIFIED_CATEGORY[s]==cat and not DATA.get(s,{}).get("official_profile")),key=lambda s:(DATA.get(s,{}).get('city')!=r['city'],names[s].casefold()))[:4]
         if slug in FEATURES:
             linked=[link['url'].strip('/').split('/')[-1] for link in FEATURES[slug]['related'] if link['url'].startswith('/directory/')]
             peers=[s for s in linked if s in VERIFIED and s != slug][:4]
@@ -47,7 +52,7 @@ def write(repo,page_shell):
         excerpt_source=escape(r.get('source_excerpt_url',r['source']),quote=True)
         excerpt_name=escape(r.get('source_excerpt_name',r['source_name']))
         excerpt=(f'<h2>About {name}</h2><p><a href="{excerpt_source}" rel="noopener noreferrer">{excerpt_name}</a> describes the business this way:</p><blockquote class="source-quote">“{escape(r["source_excerpt"])}”</blockquote>' if r['source_excerpt'] else '')
-        depth=profile_depth(r,DATA)
+        depth=profile_depth(r,legacy_data)
         feature=FEATURES.get(slug)
         if feature:
             # Individually researched copy replaces the shared category guidance.

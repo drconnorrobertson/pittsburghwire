@@ -8,7 +8,7 @@ from business_catalog import DATA,AUTHOR,SITE,schema
 def write(repo):
  root=Path(repo);path=root/'data/original-businesses.json'
  if not path.exists():return 0
- rows=json.loads(path.read_text());allrows={**DATA,**rows}
+ rows=json.loads(path.read_text());allrows={**{s:r for s,r in DATA.items() if not r.get("official_profile")},**rows}
  for slug,row in rows.items():
   p=root/'directory'/slug/'index.html';markup=p.read_text()
   markup=re.sub(r'\s*<!-- ORIGINAL_DEPTH_START -->.*?<!-- ORIGINAL_DEPTH_END -->','',markup,flags=re.S)

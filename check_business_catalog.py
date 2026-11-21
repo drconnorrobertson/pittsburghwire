@@ -30,12 +30,14 @@ def check():
                 if link in research.get('topics',[]) and link['url'].replace('&','&amp;') not in page:errors.append(f'{slug}: sourced topic link missing from output')
             words=len(research.get('description_excerpt','').split())+sum(len(x['label'].split()) for x in research.get('topics',[]))
             if words>25:errors.append(f'{slug}: source excerpt budget exceeded')
-        qualifier='editorial category' if slug in FEATURES else 'source-directory classification'
+        qualifier='editorial category' if slug in FEATURES or r.get('official_profile') else 'source-directory classification'
         if qualifier not in page:errors.append(f'{slug}: missing category qualification')
         if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
         sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
-        if 'rel="author">Dr. Connor Robertson' not in page:errors.append(f'{slug}: missing visible byline')
+        if r.get('official_profile'):
+            if 'The Pittsburgh Wire editorial' not in page:errors.append(f'{slug}: missing editorial byline')
+        elif 'rel="author">Dr. Connor Robertson' not in page:errors.append(f'{slug}: missing visible byline')
         if 'name="robots" content="index, follow"' not in page:errors.append(f'{slug}: not indexable')
         if '<img' in page or 'og:image' in page:errors.append(f'{slug}: contains image')
         if len(r['source_excerpt'].split())>20:errors.append(f'{slug}: excessive source quotation')
@@ -43,7 +45,8 @@ def check():
         graphs=re.findall(r'<script type="application/ld\+json">(.*?)</script>',page,re.S)
         graph=json.loads(graphs[-1])['@graph']
         web=next(x for x in graph if x.get('@type')=='WebPage')
-        if web['author']['@id']!=SITE+'/#founder':errors.append(f'{slug}: invalid structured author')
+        expected_author=SITE+('/#editorial' if r.get('official_profile') else '/#founder')
+        if web['author']['@id']!=expected_author:errors.append(f'{slug}: invalid structured author')
     original_file=ROOT/'data/original-businesses.json'
     if original_file.exists():
         for slug in json.loads(original_file.read_text()):
