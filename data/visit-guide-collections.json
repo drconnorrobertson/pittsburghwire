@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Art and gallery visits",
+    "intro": "Choose a guide around the kind of looking you want to do: comparing works, reading labels, interpreting a space or using a museum\u2019s digital material.",
+    "slugs": [
+      "compare-westmoreland-art-digital-interpretation",
+      "plan-andy-warhol-museum-visit",
+      "plan-carnegie-art-gallery-comparison-visit",
+      "plan-mattress-factory-installation-art-visit",
+      "read-merrick-gallery-place-painting-interpretation"
+    ]
+  },
+  {
+    "title": "Science, nature and family observation",
+    "intro": "Use these planning guides to separate your own questions and proposed timetable from current admission, activity and access arrangements. Confirm arrangements with the operator before travelling.",
+    "slugs": [
+      "plan-carnegie-natural-history-visit",
+      "plan-childrens-museum-museumlab-play-day",
+      "plan-frick-environmental-center-observation",
+      "plan-kamin-science-center-visit",
+      "plan-national-aviary-visit",
+      "plan-pittsburgh-zoo-observation-visit"
+    ]
+  },
+  {
+    "title": "Historic places, objects and writing",
+    "intro": "Explore Pittsburgh-area and regional places through objects, interpretation and research questions. The guides distinguish published evidence from the fictional exercises used to practise planning.",
+    "slugs": [
+      "plan-bayernhof-music-machine-visit",
+      "plan-rachel-carson-homestead-reading-visit",
+      "plan-writers-landscape-place-reading-visit",
+      "prepare-clemente-museum-object-reading-visit",
+      "read-fort-mcintosh-site-digital-reconstruction",
+      "read-hartwood-estate-sculpture-interpretation",
+      "read-old-economy-village-shared-spaces",
+      "read-somerset-historical-center-farmstead-roles"
+    ]
+  },
+  {
+    "title": "Preparing for a performance",
+    "intro": "Read a programme, identify the work and credits, and prepare listening or viewing questions. A guide is preparation for checking a current event, not a reservation or an event-calendar listing.",
+    "slugs": [
+      "prepare-pittsburgh-opera-listening-reading",
+      "read-pittsburgh-ballet-program-credits",
+      "read-pittsburgh-early-music-programme-roles"
+    ]
+  },
+  {
+    "title": "Bicycles, transport and design",
+    "intro": "Keep a transport plan separate from a museum visit: one guide works through station and return questions, while the other uses bicycle objects to explore design and history.",
+    "slugs": [
+      "plan-bicycle-heaven-design-history-visit",
+      "plan-pogoh-station-trip"
+    ]
+  }
+]
