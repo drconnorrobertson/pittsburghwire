@@ -399,6 +399,16 @@
       "source": "/sitemap",
       "destination": "/sitemap.xml",
       "permanent": true
+    },
+    {
+      "source": "/news/mcandless-restaurant-week-five-specials-october-2026",
+      "destination": "/news/mccandless-restaurant-week-2026-specials-guide",
+      "permanent": true
+    },
+    {
+      "source": "/news/mcandless-restaurant-week-five-specials-october-2026/",
+      "destination": "/news/mccandless-restaurant-week-2026-specials-guide",
+      "permanent": true
     }
   ],
   "buildCommand": "node scripts/build-release.cjs",
