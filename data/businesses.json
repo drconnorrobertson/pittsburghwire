@@ -104018,5 +104018,741 @@
         "text": "Ask which delivery, installation, commissioning, training and maintenance services are included and which remain with the buyer. Confirm the relevant destination or appointment location directly; a published contact address does not establish factory-visit access. The directory does not specify a safe operating method or guarantee capacity, compliance or destruction results for any machine."
       }
     ]
+  },
+  "gai-consultants": {
+    "name": "GAI Consultants",
+    "website": "https://gaiconsultants.com/",
+    "source": "https://gaiconsultants.com/about-gai/locations/",
+    "source_name": "GAI Consultants official website",
+    "address": "385 East Waterfront Drive, Homestead, PA 15120-5005",
+    "phone": "412-476-2000",
+    "source_category": "Engineering, environmental and planning services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Homestead",
+    "source_excerpt": "",
+    "description": "GAI Consultants: published Homestead contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://gaiconsultants.com/",
+      "title": "GAI Consultants",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://gaiconsultants.com/about-gai/locations/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Engineering and planning from a Homestead office",
+        "text": "GAI Consultants lists its Pittsburgh office at 385 East Waterfront Drive in Homestead. The firm’s official site describes engineering, environmental and planning services across infrastructure and development work. A prospective client should identify the project and required disciplines rather than assume that every company-wide specialty is delivered by the same local team."
+      },
+      {
+        "heading": "Define the disciplines and their interfaces",
+        "text": "Describe the site, intended use, project stage and existing reports. Identify which civil, environmental, utility or planning decisions remain open. Ask which tasks the proposed team would lead and how it would coordinate with other advisers. Make the required deliverables explicit, including any drawings, studies or information needed by the owner’s wider project team."
+      },
+      {
+        "heading": "Confirm the local engagement",
+        "text": "Use the published Pittsburgh-office contact to discuss team availability and fit. Agree on assumptions, information supplied by the client and the process for additional work. A directory listing does not establish that a site has been investigated, that an approval will be obtained or that a particular project outcome is assured."
+      }
+    ]
+  },
+  "pennoni": {
+    "name": "Pennoni",
+    "website": "https://www.pennoni.com/",
+    "source": "https://www.pennoni.com/locations/",
+    "source_name": "Pennoni official website",
+    "address": "681 Andersen Drive, Suite 305, Pittsburgh, PA 15220",
+    "phone": "717-620-5923",
+    "source_category": "Engineering and consulting services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Pennoni: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.pennoni.com/",
+      "title": "Pennoni",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.pennoni.com/locations/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "A published Pittsburgh consulting office",
+        "text": "Pennoni’s official office directory lists its Pittsburgh location in Foster Plaza Building 6, at 681 Andersen Drive, Suite 305. The listed office contact telephone is 717-620-5923. The firm describes multidisciplinary engineering and consulting services; confirm which team and disciplines would apply to the work being considered."
+      },
+      {
+        "heading": "Prepare the information needed to scope the work",
+        "text": "Identify the property or infrastructure asset, project stage and decision that requires outside support. Summarize available surveys, drawings, reports and constraints. Ask the firm to distinguish the proposed investigation, analysis, design and construction-related tasks, rather than using a broad engineering label for all of them."
+      },
+      {
+        "heading": "Agree on coordination and deliverables",
+        "text": "Name the owner’s decision-maker and the other consultants or contractors involved. Clarify the records to be delivered, intended users and process for addressing new information. Use the telephone and office details in the official directory to establish the appropriate contact. Published capabilities do not guarantee local availability, approval or technical findings."
+      }
+    ]
+  },
+  "sai-consulting-engineers": {
+    "name": "SAI Consulting Engineers, Inc.",
+    "website": "https://saiengr.com/",
+    "source": "https://saiengr.com/contact/",
+    "source_name": "SAI Consulting Engineers, Inc. official website",
+    "address": "1350 Penn Avenue, Suite 300, Pittsburgh, PA 15222",
+    "phone": "412-392-8750",
+    "source_category": "Transportation design, bridge and construction inspection, contractor support",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "SAI Consulting Engineers, Inc.: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://saiengr.com/",
+      "title": "SAI Consulting Engineers, Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://saiengr.com/contact/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Transportation and construction-related consulting",
+        "text": "SAI Consulting Engineers, Inc. publishes its Pittsburgh headquarters at 1350 Penn Avenue, Suite 300. Its service menu includes transportation engineering, bridge work, construction management and inspection, contractor services and right-of-way acquisition support. These specialties are relevant to different stages of infrastructure work and should be scoped separately."
+      },
+      {
+        "heading": "Match the enquiry to the project role",
+        "text": "Explain whether the request comes from an owner, contractor or another project consultant. Identify the asset, contract stage and work product needed, such as design coordination, construction support or inspection services. Bring the relevant project requirements and existing documentation so the proposed role can be distinguished from responsibilities already assigned to others."
+      },
+      {
+        "heading": "Clarify reporting and authority",
+        "text": "Ask who receives reports, who can approve changes and how observations or unresolved issues will be escalated. Confirm deliverables, site-access arrangements and the period of involvement in writing. This profile describes published services; it does not determine infrastructure condition or promise acceptance by a public agency or project owner."
+      }
+    ]
+  },
+  "hdr": {
+    "name": "HDR",
+    "website": "https://www.hdrinc.com/",
+    "source": "https://www.hdrinc.com/locations/US/Pennsylvania/Pittsburgh",
+    "source_name": "HDR official website",
+    "address": "301 Grant Street, Suite 1700, Pittsburgh, PA 15219-1407",
+    "phone": "412-497-6000",
+    "source_category": "Architecture, engineering and advisory services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "HDR: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.hdrinc.com/",
+      "title": "HDR",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.hdrinc.com/locations/US/Pennsylvania/Pittsburgh"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "A Pittsburgh office within a broader practice",
+        "text": "HDR lists its Pittsburgh office in One Oxford Centre, at 301 Grant Street, Suite 1700. Its official website presents architecture, engineering and advisory services and identifies local infrastructure projects. For a new enquiry, confirm the relevant practice and team rather than assuming that a general office listing defines the full scope of an engagement."
+      },
+      {
+        "heading": "Frame the decision and required expertise",
+        "text": "Describe the asset, intended use and stage of work. Identify whether the immediate need is planning, analysis, design or support during implementation. Explain which reports and drawings already exist and which decisions depend on outside parties. Ask how the proposed scope will coordinate with the owner’s other consultants and operating staff."
+      },
+      {
+        "heading": "Establish the delivery record",
+        "text": "Agree on review stages, final deliverables and the assumptions that require client confirmation. Identify who is authorized to request changes or accept work. The published Pittsburgh contact is a starting point for discussing fit and availability; no design conclusion, project approval or delivery outcome is established by this directory profile."
+      }
+    ]
+  },
+  "geotechnics": {
+    "name": "Geotechnics",
+    "website": "https://www.geotechnics.net/",
+    "source": "https://www.geotechnics.net/",
+    "source_name": "Geotechnics official website",
+    "address": "544 Braddock Avenue, East Pittsburgh, PA 15112",
+    "phone": "412-823-7600",
+    "source_category": "Geotechnical laboratory and field testing services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "East Pittsburgh",
+    "source_excerpt": "",
+    "description": "Geotechnics: published East Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.geotechnics.net/",
+      "title": "Geotechnics",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.geotechnics.net/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Laboratory and field testing services",
+        "text": "Geotechnics publishes its Pittsburgh-area contact at 544 Braddock Avenue in East Pittsburgh. Its official website describes laboratory and field services, including testing of soils, aggregates, rock, concrete and geosynthetic materials. A test result is a defined measurement or observation; it should not be treated as a complete engineering conclusion about a site or design."
+      },
+      {
+        "heading": "Start with the test request and sample requirements",
+        "text": "Identify the project, material, intended use of the results and the professional responsible for specifying the work. Ask the laboratory to confirm the requested tests, sample quantities, identification and handling requirements before sending material. Record the sample source and the information that must accompany it. Do not choose a test solely because its name appears on a service list."
+      },
+      {
+        "heading": "Clarify the report and interpretation",
+        "text": "Confirm reporting units, required delivery format and how exceptions or unsuitable samples are handled. Ask who will interpret results for the project and whether that interpretation is part of a separate engagement. The directory does not certify sample quality, select a testing program or establish that a material is suitable for construction."
+      }
+    ]
+  },
+  "ecs-mid-atlantic": {
+    "name": "ECS Mid-Atlantic, LLC",
+    "website": "https://www.ecslimited.com/",
+    "source": "https://www.ecslimited.com/locations/ecs-mid-atlantic-llc-pittsburgh/",
+    "source_name": "ECS Mid-Atlantic, LLC official website",
+    "address": "100 East Kensinger Drive, Suite 300, Cranberry Township, PA 16066",
+    "phone": "412-206-1470",
+    "source_category": "Geotechnical, environmental, facilities and construction consulting",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "ECS Mid-Atlantic, LLC: published Cranberry Township contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.ecslimited.com/",
+      "title": "ECS Mid-Atlantic, LLC",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.ecslimited.com/locations/ecs-mid-atlantic-llc-pittsburgh/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Consulting services at the Pittsburgh-area office",
+        "text": "ECS Mid-Atlantic, LLC identifies its Pittsburgh office at 100 East Kensinger Drive, Suite 300, in Cranberry Township. Its local page describes environmental, facilities and geotechnical consulting, with services spanning planning, design, construction and operation. The office name and physical address should be kept distinct when arranging a visit or discussing a project."
+      },
+      {
+        "heading": "Choose the question before choosing the service",
+        "text": "Explain whether the decision concerns a potential acquisition, proposed construction, an existing facility or a specific observed issue. Identify available reports and the parties who will use the work. Ask which investigation or analysis the firm recommends for that question and which matters would remain outside the agreed scope."
+      },
+      {
+        "heading": "Document access and reliance",
+        "text": "Confirm site access, information supplied by the owner, report recipients and how additional findings affect the assignment. Where permits or other external requirements are involved, identify the responsible parties in the proposal. Published consulting capabilities do not establish site condition, regulatory compliance or an approval outcome."
+      }
+    ]
+  },
+  "rizzo-international": {
+    "name": "RIZZO International, Inc.",
+    "website": "https://www.rizzointl.com/",
+    "source": "https://www.rizzointl.com/",
+    "source_name": "RIZZO International, Inc. official website",
+    "address": "3424 William Penn Highway, Suite 250, Pittsburgh, PA 15235",
+    "phone": "412-856-9700",
+    "source_category": "Engineering analysis, consulting, testing and design for dams and critical infrastructure",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "RIZZO International, Inc.: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.rizzointl.com/",
+      "title": "RIZZO International, Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.rizzointl.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Engineering for critical infrastructure",
+        "text": "RIZZO International, Inc. publishes its contact at 3424 William Penn Highway, Suite 250, in Pittsburgh. Its official site describes engineering analysis, consulting, testing and design for dams, nuclear power plants and other critical infrastructure. This is a specialist engineering scope; a prospective client should identify the asset and required assignment before seeking a proposal."
+      },
+      {
+        "heading": "Organize the project basis",
+        "text": "Prepare the existing design and operating records, prior studies and the specific decision requiring support. Identify the owner’s technical lead and any external review requirements. Ask which analyses, investigations or design documents are included and how the work interfaces with other specialists. The project team should establish the applicable technical requirements, not infer them from a general service description."
+      },
+      {
+        "heading": "Agree on review and documentation",
+        "text": "Confirm assumptions, independent review responsibilities, report users and the process for resolving information gaps. Use the current RIZZO contact to discuss the appropriate team. This directory does not assess asset safety, independently verify specialized qualifications or guarantee acceptance of a technical conclusion."
+      }
+    ]
+  },
+  "ikm-architecture": {
+    "name": "IKM Architecture",
+    "website": "https://ikminc.com/",
+    "source": "https://ikminc.com/contact-us/",
+    "source_name": "IKM Architecture official website",
+    "address": "11 Stanwix Street, Suite 2200, Pittsburgh, PA 15222",
+    "phone": "412-281-1337",
+    "source_category": "Architecture and technically complex building projects",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "IKM Architecture: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://ikminc.com/",
+      "title": "IKM Architecture",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://ikminc.com/contact-us/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Architecture from the Pittsburgh office",
+        "text": "IKM Architecture lists its Pittsburgh office at 11 Stanwix Street, Suite 2200. Its website describes architectural work for technically complex projects and presents examples across several building sectors. For a prospective owner, the useful first step is to explain the program, users and operational constraints rather than begin with a preferred building solution."
+      },
+      {
+        "heading": "Prepare a clear program brief",
+        "text": "Describe what the facility must support, who will use it and which spaces or functions are changing. Identify existing drawings, site information and decisions already made. Ask how the proposed design process will develop and test the program, coordinate engineering input and involve the owner’s operating staff."
+      },
+      {
+        "heading": "Set review and change responsibilities",
+        "text": "Agree on the design stages, deliverables and people authorized to approve decisions. Clarify how changes to the brief, budget assumptions or schedule will be documented. The office contact provides a route to discuss fit and availability; a portfolio example does not establish suitability or approval for a different project."
+      }
+    ]
+  },
+  "draw-collective": {
+    "name": "DRAW Collective",
+    "website": "https://drawcollective.com/",
+    "source": "https://drawcollective.com/contact/",
+    "source_name": "DRAW Collective official website",
+    "address": "470 Washington Road, Pittsburgh, PA 15228",
+    "phone": "412-561-7117",
+    "source_category": "Architectural design for institutional and community buildings",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "DRAW Collective: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://drawcollective.com/",
+      "title": "DRAW Collective",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://drawcollective.com/contact/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Design for learning, health and community facilities",
+        "text": "DRAW Collective publishes its main office at 470 Washington Road in Pittsburgh. Its official description emphasizes learning, health and wellness, and community facilities. The firm previously operated as VEBH; this profile represents the current DRAW Collective practice rather than creating a separate listing under a former name."
+      },
+      {
+        "heading": "Bring users into the brief",
+        "text": "Identify the activities, users and operating requirements the project must support. For an occupied facility, explain which functions must continue during work. Ask how the design team proposes to gather input, resolve competing needs and document decisions. Clarify what information the owner will supply and which studies are part of the proposed engagement."
+      },
+      {
+        "heading": "Plan decisions across the project stages",
+        "text": "Set review points and identify who can approve changes to the program. Ask which records will support coordination, construction and future operation. Confirm the appropriate office and project team directly. Published experience does not guarantee the outcome, cost or performance of a new facility."
+      }
+    ]
+  },
+  "strada": {
+    "name": "Strada",
+    "website": "https://stradallc.com/",
+    "source": "https://stradallc.com/",
+    "source_name": "Strada official website",
+    "address": "11 Stanwix Street, Suite 110, Pittsburgh, PA 15222",
+    "phone": "412-263-3800",
+    "source_category": "Architecture, interiors and place design",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Strada: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://stradallc.com/",
+      "title": "Strada",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://stradallc.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Design from a Pittsburgh studio",
+        "text": "Strada lists its Pittsburgh studio at 11 Stanwix Street, Suite 110, and presents architectural and place-design work. Its website also identifies other studios. This profile uses the Pittsburgh contact and does not create separate listings for each location or imply that a particular project team is available."
+      },
+      {
+        "heading": "Describe the experience the place must support",
+        "text": "Explain the intended users, activities and relationship to the surrounding site or community. Identify what must be retained and what is open to change. Ask how the proposed work will connect the program, building and other design disciplines, and which decisions need the owner’s input at each stage."
+      },
+      {
+        "heading": "Agree on outputs and ownership",
+        "text": "Clarify which concepts, drawings and supporting documents the engagement will deliver. Establish how approvals, revisions and coordination with other consultants will be recorded. The studio’s published work can inform an enquiry, but it does not establish a design solution, permit result or construction outcome for another property."
+      }
+    ]
+  },
+  "dla-plus": {
+    "name": "DLA+ Architecture & Interior Design",
+    "website": "https://www.dlaplus.com/",
+    "source": "https://www.dlaplus.com/pages/contact",
+    "source_name": "DLA+ Architecture & Interior Design official website",
+    "address": "680 Andersen Drive, Suite 500, Pittsburgh, PA 15220",
+    "phone": "412-921-4300",
+    "source_category": "Architecture and interior design",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "DLA+ Architecture & Interior Design: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.dlaplus.com/",
+      "title": "DLA+ Architecture & Interior Design",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.dlaplus.com/pages/contact"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Architecture and interior design",
+        "text": "DLA+ Architecture & Interior Design lists its Pittsburgh office in Foster Plaza 10, at 680 Andersen Drive, Suite 500. Its official website describes architectural and interior-design services and presents work in several sectors. Confirm the scope and intended team for a new assignment rather than treating the office listing as a commitment to provide every service."
+      },
+      {
+        "heading": "Connect interiors to the building brief",
+        "text": "Describe the users, space requirements and existing building constraints. Identify whether the enquiry concerns a new facility, renovation or a defined interior scope. Ask which planning, architectural, interior and coordination tasks are included, and what must be supplied by the landlord, owner or other consultants."
+      },
+      {
+        "heading": "Make the design approvals explicit",
+        "text": "Agree on review stages, material or layout decisions and the records required for implementation. Identify who approves changes and how they affect the engagement. The published contact details provide a starting point; project suitability, code compliance and approvals require project-specific professional work."
+      }
+    ]
+  },
+  "drs-architects": {
+    "name": "DRS Architects",
+    "website": "https://drsarchitects.com/",
+    "source": "https://drsarchitects.com/#contact-us",
+    "source_name": "DRS Architects official website",
+    "address": "One Gateway Center, 17th Floor, Pittsburgh, PA 15222",
+    "phone": "412-391-4850",
+    "source_category": "Predesign, development documentation and architectural consulting",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "DRS Architects: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://drsarchitects.com/",
+      "title": "DRS Architects",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://drsarchitects.com/#contact-us"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Architectural planning and documentation",
+        "text": "DRS Architects publishes its Pittsburgh office at One Gateway Center, 17th Floor, with a current telephone contact. Its website describes predesign, development and documentation, and consulting services. It also identifies the Sixmo Companies family. This profile concerns DRS and its published Pittsburgh office rather than separate affiliate listings."
+      },
+      {
+        "heading": "Specify the immediate design task",
+        "text": "Explain whether the owner needs an initial study, development of an agreed concept or documentation for a defined project. Identify the intended use, available drawings and the other participants. Ask which decisions, investigations and coordination activities belong to the proposed stage and what information is needed from the client."
+      },
+      {
+        "heading": "Plan the handover between stages",
+        "text": "Confirm the deliverables and approvals that allow the work to progress. Establish how changes are recorded and how documents may be used by others involved in the project. Contact the firm directly for availability and engagement terms. The directory does not establish a building condition or a design’s suitability for a particular use."
+      }
+    ]
+  },
+  "donnelly-boland-associates": {
+    "name": "Donnelly-Boland and Associates",
+    "website": "https://www.donnelly-boland.com/",
+    "source": "https://www.donnelly-boland.com/contact",
+    "source_name": "Donnelly-Boland and Associates official website",
+    "address": "2801 Custer Avenue, Pittsburgh, PA 15227",
+    "phone": "412-882-5383",
+    "source_category": "Accounting, finance, HR, consulting and tax preparation",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Donnelly-Boland and Associates: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.donnelly-boland.com/",
+      "title": "Donnelly-Boland and Associates",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.donnelly-boland.com/contact"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Accounting and business support",
+        "text": "Donnelly-Boland and Associates lists its home office at 2801 Custer Avenue in Pittsburgh. Its official site describes accounting and finance, consulting, human resources, marketing and communications, and tax preparation. The contact page also lists a separate Brownsville Road office with its own phone. Use the contact appropriate to the intended engagement."
+      },
+      {
+        "heading": "Separate recurring work from a project",
+        "text": "For accounting support, identify the systems, reporting cycle and tasks your staff will retain. For a consulting or HR assignment, state the decision or deliverable required. Ask which services are included, who will coordinate them and how information passes between the provider and your team. Avoid assuming that one service automatically includes the others."
+      },
+      {
+        "heading": "Agree on access and approvals",
+        "text": "Identify who authorizes work, supplies records and approves changes. Ask for a written scope and an agreed method for transferring confidential information. Confirm current availability through the published home-office contact. A directory entry does not constitute tax advice or establish an employment, financial or compliance outcome."
+      }
+    ]
+  },
+  "sci-tek-consultants": {
+    "name": "Sci-Tek Consultants, Inc.",
+    "website": "https://scitekanswers.com/",
+    "source": "https://scitekanswers.com/contact/",
+    "source_name": "Sci-Tek Consultants, Inc. official website",
+    "address": "655 Rodi Road, Suite 303, Pittsburgh, PA 15235",
+    "phone": "412-371-4460",
+    "source_category": "Civil, environmental and geotechnical consulting",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Sci-Tek Consultants, Inc.: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://scitekanswers.com/",
+      "title": "Sci-Tek Consultants, Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://scitekanswers.com/contact/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Engineering, surveying and environmental services",
+        "text": "Sci-Tek Consultants, Inc. publishes its Pittsburgh headquarters at 655 Rodi Road, Suite 303. Its official website describes geotechnical and civil engineering, environmental consulting and surveying. Those disciplines can produce different kinds of information, so the client should identify the project decision and required work products before requesting a proposal."
+      },
+      {
+        "heading": "Map the required site information",
+        "text": "Summarize existing surveys, reports and known site constraints. Explain whether the project is at an early feasibility stage, active design or construction. Ask how the proposed team will coordinate field work, analysis and the records needed by other participants. Clarify which site access and background information the owner must provide."
+      },
+      {
+        "heading": "State the scope of the resulting documents",
+        "text": "Agree on report recipients, drawing formats and the assumptions or exclusions that must be understood. Identify how unexpected information changes the assignment. The published services do not independently establish site suitability, environmental condition or approval by an outside authority."
+      }
+    ]
+  },
+  "cosmos-technologies": {
+    "name": "Cosmos Technologies, Inc.",
+    "website": "https://www.cosmostechnologiesinc.com/",
+    "source": "https://www.cosmostechnologiesinc.com/",
+    "source_name": "Cosmos Technologies, Inc. official website",
+    "address": "700 River Avenue, Suite 100, Pittsburgh, PA 15212-5936",
+    "phone": "412-321-3951",
+    "source_category": "Civil/environmental engineering, construction management and surveying",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Cosmos Technologies, Inc.: published Pittsburgh contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.cosmostechnologiesinc.com/",
+      "title": "Cosmos Technologies, Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.cosmostechnologiesinc.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "A Pittsburgh office for civil and environmental work",
+        "text": "Cosmos Technologies, Inc. lists its Pittsburgh office at 700 River Avenue, Suite 100, in the Riverside Center for Innovation. Its current website identifies Cleveland as headquarters and describes civil engineering, environmental work, construction management and inspection, and related services. This profile preserves the Pittsburgh-office distinction."
+      },
+      {
+        "heading": "Define the work and interfaces",
+        "text": "Describe the site or infrastructure asset, the project phase and the information already available. Identify whether the enquiry concerns design, environmental support or activities during construction. Ask which deliverables the proposed team would own and how it would coordinate with the owner, contractors and other technical advisers."
+      },
+      {
+        "heading": "Confirm the reporting arrangements",
+        "text": "Agree who provides access, receives reports and resolves open questions. Where the engagement involves construction observations or inspections, clarify the exact scope and reporting process. The directory does not infer a certification, determine compliance or guarantee a project result from the company’s published capabilities."
+      }
+    ]
+  },
+  "ku-resources": {
+    "name": "KU Resources, Inc.",
+    "website": "https://kuresources.com/",
+    "source": "https://kuresources.com/",
+    "source_name": "KU Resources, Inc. official website",
+    "address": "22 South Linden Street, Duquesne, PA 15110",
+    "phone": "412-469-9331",
+    "source_category": "Environmental management, site development and geotechnical support",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "professional-services",
+    "city": "Duquesne",
+    "source_excerpt": "",
+    "description": "KU Resources, Inc.: published Duquesne contact details, service scope and questions to prepare for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://kuresources.com/",
+      "title": "KU Resources, Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://kuresources.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Environmental and site-development support",
+        "text": "KU Resources, Inc. publishes its headquarters at 22 South Linden Street in Duquesne. Its website describes environmental management and site-development work, including brownfield projects, civil and geotechnical services, surveying and related support. A prospective owner should start with the property question and project stage rather than assume a single standard package covers every site."
+      },
+      {
+        "heading": "Prepare the property and project record",
+        "text": "Identify the intended use, known site history and prior reports available to the team. Explain the decision requiring support, such as evaluating a development approach or understanding further investigation needs. Ask which records, site access and other consultants are necessary to define the assignment and its limits."
+      },
+      {
+        "heading": "Clarify deliverables and external dependencies",
+        "text": "Agree on the studies, drawings or other records to be supplied and who may use them. Identify any questions requiring further work or a decision by an outside authority. Confirm the Duquesne contact and engagement terms directly. Published services do not establish a property’s environmental condition or guarantee remediation approval."
+      }
+    ]
   }
 }
