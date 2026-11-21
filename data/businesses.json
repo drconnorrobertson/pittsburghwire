@@ -105954,5 +105954,1221 @@
         "text": "Verify the appropriate contact, supplied documentation and shipping origin directly. Keep prototype approval and recurring production quantities separate in the enquiry. The website’s general capabilities do not establish current stock, a delivery date or suitability for a particular assembly without review of the actual requirements."
       }
     ]
+  },
+  "alcoa": {
+    "name": "Alcoa",
+    "website": "https://www.alcoa.com/",
+    "source": "https://www.alcoa.com/global/en/who-we-are/locations/corporate-headquarters",
+    "source_name": "Alcoa official website",
+    "address": "201 Isabella Street, Suite 500, Pittsburgh, PA 15212-5858",
+    "phone": "4123152900",
+    "source_category": "Bauxite, alumina and aluminum products",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Alcoa: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.alcoa.com/",
+      "title": "Alcoa",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.alcoa.com/global/en/who-we-are/locations/corporate-headquarters"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://www.alcoa.com/global/en/who-we-are/locations/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.alcoa.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "An aluminum producer with a Pittsburgh headquarters",
+        "text": "Alcoa lists its global headquarters on Isabella Street in Pittsburgh. Its official website describes operations in bauxite, alumina and aluminum. The headquarters is a corporate contact, distinct from the company’s production locations and its technical center in New Kensington."
+      },
+      {
+        "heading": "Identify the product and commercial enquiry",
+        "text": "Describe the product form, specification and quantities being considered. Explain whether the request concerns an existing supply relationship, a new purchase or information for a project still being developed. Ask which commercial team handles the relevant product and region rather than assuming the headquarters receives product orders or shipments."
+      },
+      {
+        "heading": "Confirm the supply arrangement",
+        "text": "Clarify the contracting entity, required documentation and proposed delivery location. Record the specifications and approvals needed before accepting a substitution or change. Company-wide production descriptions do not establish current product availability, a shipment origin or a commitment to supply a particular quantity. Confirm those details through the appropriate business contact."
+      }
+    ]
+  },
+  "premier-automation": {
+    "name": "Premier Automation",
+    "website": "https://www.premierautomation.com/",
+    "source": "https://www.premierautomation.com/contact",
+    "source_name": "Premier Automation official website",
+    "address": "1050 Rico Road, Monroeville, PA 15146",
+    "phone": "4123733700",
+    "source_category": "Industrial automation, drives, robotics and control-panel production",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Monroeville",
+    "source_excerpt": "",
+    "description": "Premier Automation: published Monroeville contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.premierautomation.com/",
+      "title": "Premier Automation",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.premierautomation.com/contact"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://www.premierautomation.com/locations"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.premierautomation.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Industrial automation from a Monroeville campus",
+        "text": "Premier Automation’s current locations page identifies its Monroeville campus at 1050 Rico Road. Its website describes industrial automation, drive systems, robotics, contract manufacturing and control-panel production. The company also lists a separate Murrysville innovation hub and a Georgia location; confirm which team and facility would handle a proposed project."
+      },
+      {
+        "heading": "Document the existing system and desired change",
+        "text": "Describe the machine or process, installed controls and the business problem being addressed. Identify which drawings, programs and equipment records are available and who owns or maintains them. Distinguish a request for equipment or panel production from work integrating a larger operating system, with clear boundaries for the customer and other contractors."
+      },
+      {
+        "heading": "Plan the project handoff",
+        "text": "Ask for a scope that identifies deliverables, testing, documentation and support responsibilities. Agree who approves design changes and how access to the customer’s equipment or programs will be arranged. Confirm visit and receiving instructions directly. General capability descriptions do not guarantee compatibility, safe operation or production performance for an unspecified installation."
+      }
+    ]
+  },
+  "near-earth-autonomy": {
+    "name": "Near Earth Autonomy",
+    "website": "https://www.nearearth.aero/",
+    "source": "https://www.nearearth.aero/contact",
+    "source_name": "Near Earth Autonomy official website",
+    "address": "150 N Lexington Street, Pittsburgh, PA 15208",
+    "phone": "4126214300",
+    "source_category": "Autonomous flight systems and related engineering services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "tech",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Near Earth Autonomy: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "mailing",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.nearearth.aero/",
+      "title": "Near Earth Autonomy",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.nearearth.aero/contact"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.nearearth.aero/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Autonomous flight systems and a Pittsburgh contact",
+        "text": "Near Earth Autonomy describes autonomous flight systems and related aircraft-integration services. Its official contact page lists 150 N Lexington Street in Pittsburgh as the mailing address. For visitors, the company instead gives 7372 Meade Street for navigation and identifies an entrance through the Meade Street parking lot. Confirm arrangements before a site visit."
+      },
+      {
+        "heading": "Frame the proposed integration",
+        "text": "Describe the aircraft or platform, intended operational use and stage of development. Identify which hardware, software and test records already exist and which responsibilities would remain with the customer or another integrator. Ask what information the company needs to determine whether the proposed work fits its capabilities and to define a development or integration scope."
+      },
+      {
+        "heading": "Separate a commercial proposal from operational authority",
+        "text": "Agree on deliverables, interfaces, review milestones and the treatment of customer-supplied information. Identify which questions require specialist regulatory or airworthiness review through the appropriate process. A published system description or an integration proposal does not itself authorize aircraft operations or establish that a particular deployment has been approved."
+      }
+    ]
+  },
+  "aethon": {
+    "name": "Aethon",
+    "website": "https://aethon.com/",
+    "source": "https://aethon.com/index.php/contact/",
+    "source_name": "Aethon official website",
+    "address": "48 26th Street, Pittsburgh, PA 15222",
+    "phone": "4123222975",
+    "source_category": "Autonomous mobile robots for healthcare and hospitality logistics",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "tech",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Aethon: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://aethon.com/",
+      "title": "Aethon",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://aethon.com/index.php/contact/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://aethon.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Mobile robots for internal logistics",
+        "text": "Aethon publishes its contact on 26th Street in Pittsburgh and describes mobile robots for healthcare and hospitality logistics. Its website distinguishes the general information contact from technical support. A new purchasing enquiry should describe the transport task and building context, rather than treating a support number as a sales channel."
+      },
+      {
+        "heading": "Map the proposed workflow",
+        "text": "Identify the materials to be moved, origin and destination points and the people involved in the existing process. Explain the building interfaces and scheduling constraints that need evaluation. Ask what site information is needed to determine whether the proposed workflow fits a product and what integration tasks belong in the quotation."
+      },
+      {
+        "heading": "Clarify deployment and ongoing responsibilities",
+        "text": "Agree on the scope for implementation, training, maintenance and support before comparing prices. Identify which equipment and building changes remain the customer’s responsibility. The published product descriptions do not establish that a deployment meets clinical requirements, achieves a specific transport capacity or will be available on a chosen date."
+      }
+    ]
+  },
+  "chemdaq": {
+    "name": "ChemDAQ",
+    "website": "https://www.chemdaq.com/",
+    "source": "https://chemdaq.com/contact-us",
+    "source_name": "ChemDAQ official website",
+    "address": "300 Business Center Drive, Suite 330, Pittsburgh, PA 15205",
+    "phone": "8002453310",
+    "source_category": "Gas monitoring systems, sensors and related services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "ChemDAQ: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.chemdaq.com/",
+      "title": "ChemDAQ",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://chemdaq.com/contact-us"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.chemdaq.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Monitoring products and a Pittsburgh contact",
+        "text": "ChemDAQ publishes its business address at Business Center Drive in Pittsburgh. Its official website describes gas monitoring systems and sensors and provides separate contacts for sales and customer support. Buyers should identify whether they need product information, service for installed equipment or a discussion of a new monitoring application."
+      },
+      {
+        "heading": "Define the equipment request",
+        "text": "Provide the relevant equipment model or project specification and describe the setting in which the proposed system would be used. Ask what information the supplier needs to discuss product selection and what documentation accompanies the equipment. Distinguish the purchase of a monitor from a workplace assessment or a broader operating program."
+      },
+      {
+        "heading": "Confirm the support scope",
+        "text": "Clarify the proposed service arrangements, replacement components and records required by the customer’s own program. Appropriate qualified personnel should address application-specific exposure and compliance questions. A directory description of monitoring equipment does not establish a safe exposure condition or determine that a workplace meets regulatory requirements."
+      }
+    ]
+  },
+  "calgon-carbon": {
+    "name": "Calgon Carbon",
+    "website": "https://www.calgoncarbon.com/",
+    "source": "https://www.calgoncarbon.com/contact/",
+    "source_name": "Calgon Carbon official website",
+    "address": "3000 GSK Drive, Moon Township, PA 15108",
+    "phone": "4127876700",
+    "source_category": "Activated carbon, purification products and reactivation services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Moon Township",
+    "source_excerpt": "",
+    "description": "Calgon Carbon: published Moon Township contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.calgoncarbon.com/",
+      "title": "Calgon Carbon",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.calgoncarbon.com/contact/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.calgoncarbon.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Purification products and related services",
+        "text": "Calgon Carbon lists its headquarters and shipping contact at GSK Drive in Moon Township. Its website describes activated carbon, purification products and reactivation services. A prospective buyer should distinguish the supply of material from equipment, processing or service work included in a particular proposal."
+      },
+      {
+        "heading": "Prepare the application and purchasing requirements",
+        "text": "Identify the product or process under consideration, expected quantities and the specification or performance criteria supplied by the project team. Ask which information is needed to evaluate a request and whether samples or further technical discussion are appropriate. Keep assumptions about the customer’s existing equipment and operating conditions explicit."
+      },
+      {
+        "heading": "Agree on documentation and service boundaries",
+        "text": "Confirm the relevant commercial contact, product documentation and delivery arrangements. Where a proposal includes service work, clarify the items supplied by each party and the required acceptance record. The company’s published capabilities do not demonstrate a treatment result or establish that a particular material is suitable for an unspecified process."
+      }
+    ]
+  },
+  "swagelok-pittsburgh-tri-state-area": {
+    "name": "Swagelok Pittsburgh | Tri-State Area",
+    "website": "https://pittsburgh.swagelok.com/en",
+    "source": "https://pittsburgh.swagelok.com/en",
+    "source_name": "Swagelok Pittsburgh | Tri-State Area official website",
+    "address": "49 Meade Avenue, Pittsburgh, PA 15202",
+    "phone": "4127613212",
+    "source_category": "Fluid-system components, assemblies and support",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Swagelok Pittsburgh | Tri-State Area: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://pittsburgh.swagelok.com/en",
+      "title": "Swagelok Pittsburgh | Tri-State Area",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://pittsburgh.swagelok.com/en"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "A local fluid-systems sales and service contact",
+        "text": "Swagelok Pittsburgh | Tri-State Area identifies its operating company as Pittsburgh Fluid Systems LLC and publishes a Meade Avenue address in Pittsburgh. Its website describes fluid-system products and support. The physical contact is separate from the post-office box listed for remittances."
+      },
+      {
+        "heading": "Make the component or assembly enquiry precise",
+        "text": "Provide the available part identification, drawing or specification and explain whether the request concerns replacement components or a new assembly. Identify the relevant materials, interfaces and documentation requirements established by the customer’s project team. Ask which supply or assembly tasks the local business would include in a quotation."
+      },
+      {
+        "heading": "Confirm the order and handoff",
+        "text": "Agree on the exact product identification, quantities and treatment of any proposed substitution. Confirm delivery or collection arrangements through the local contact rather than using the remittance address. A supplier enquiry does not itself determine system compatibility, authorize an installation or establish that an assembly meets every requirement of its intended application."
+      }
+    ]
+  },
+  "rittertech-mce": {
+    "name": "RitterTech (MCE)",
+    "website": "https://mceautomation.com/",
+    "source": "https://mceautomation.com/about/locations/",
+    "source_name": "RitterTech (MCE) official website",
+    "address": "100 Williams Drive, Zelienople, PA 16063",
+    "phone": "7244526000",
+    "source_category": "Industrial fluid-power components, hose and fitting supply",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Zelienople",
+    "source_excerpt": "",
+    "description": "RitterTech (MCE): published Zelienople contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://mceautomation.com/",
+      "title": "RitterTech (MCE)",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://mceautomation.com/about/locations/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://mceautomation.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Industrial components and a Zelienople contact",
+        "text": "MCE’s current location directory lists RitterTech at Williams Drive in Zelienople, including a regional fulfillment center and a hose-and-fitting store. The broader business supplies industrial components and related solutions. This contact should be used to establish the appropriate product and service team for the enquiry."
+      },
+      {
+        "heading": "Separate a replacement request from a new design",
+        "text": "For an existing component, provide the manufacturer, identification and available equipment records. For a new requirement, supply the specification and explain which functions or connections have already been determined by the project team. Ask whether the request is for stock supply, an assembly or technical support, and clarify what is included."
+      },
+      {
+        "heading": "Confirm collection and service arrangements",
+        "text": "Verify the actual receiving or collection point before transporting equipment or arriving for an order. Agree on documentation, quantities and the approval process for substitutions. The directory’s description of a store and fulfillment center does not establish current stock or guarantee that a component is interchangeable with the item being replaced."
+      }
+    ]
+  },
+  "hanel-storage-systems": {
+    "name": "Hänel Storage Systems",
+    "website": "https://www.hanel.us/",
+    "source": "https://www.hanel.us/en/contact/",
+    "source_name": "Hänel Storage Systems official website",
+    "address": "195 Thorn Hill Road, Suite 100, Warrendale, PA 15086",
+    "phone": "4127873444",
+    "source_category": "Automated vertical storage and retrieval systems",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Warrendale",
+    "source_excerpt": "",
+    "description": "Hänel Storage Systems: published Warrendale contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.hanel.us/",
+      "title": "Hänel Storage Systems",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.hanel.us/en/contact/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.hanel.us/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Storage systems with a Warrendale contact",
+        "text": "Hänel Storage Systems publishes its United States contact at Thorn Hill Road in Warrendale. Its website presents automated storage and retrieval systems. A purchasing enquiry should connect the equipment to the inventory and workflow it would support rather than begin with an assumed capacity improvement."
+      },
+      {
+        "heading": "Describe the items and retrieval process",
+        "text": "Prepare information about the materials to be stored, package sizes and the way staff currently receive and retrieve them. Identify the available installation space and interfaces with other equipment or software. Ask what site review and inventory information are needed before a system can be specified."
+      },
+      {
+        "heading": "Define implementation and acceptance",
+        "text": "Clarify the proposed scope for installation, training, software interfaces and ongoing support. Establish which preparation work belongs to the customer and what documentation accompanies the system. Published equipment descriptions do not establish that a unit fits a particular building or promise a specific picking rate or staffing reduction."
+      }
+    ]
+  },
+  "veka-inc": {
+    "name": "VEKA Inc.",
+    "website": "https://www.vekainc.com/",
+    "source": "https://www.vekainc.com/our-company/local-contacts/",
+    "source_name": "VEKA Inc. official website",
+    "address": "100 Veka Drive, Fombell, PA 16123",
+    "phone": "8006545589",
+    "source_category": "Vinyl profile systems and related products for fabricators",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Fombell",
+    "source_excerpt": "",
+    "description": "VEKA Inc.: published Fombell contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.vekainc.com/",
+      "title": "VEKA Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.vekainc.com/our-company/local-contacts/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.vekainc.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Profile systems for fabricators",
+        "text": "VEKA Inc. publishes its contact on Veka Drive in Fombell and describes PVC profile systems for windows, doors and other building-product applications. Its official contact page expressly states that VEKA does not sell directly to consumers. A homeowner looking for a finished product should ask for the appropriate fabricator contact rather than assume the manufacturer offers retail sales or installation."
+      },
+      {
+        "heading": "Define the fabrication enquiry",
+        "text": "A business enquiry should identify the product system, intended fabrication process and expected quantities. Explain whether the discussion concerns an existing profile, a new product or supporting information for a fabricator. Ask which drawings, samples and system documentation are needed to evaluate the request and which services are included in the proposed relationship."
+      },
+      {
+        "heading": "Clarify the supply and support responsibilities",
+        "text": "Confirm the commercial contact, ordering arrangements and the information required to approve a specification or change. Keep profile supply separate from fabrication, installation and project-specific performance requirements. Published product descriptions do not establish the suitability or rating of a completed window or door assembled and installed by other parties."
+      }
+    ]
+  },
+  "starline": {
+    "name": "Starline",
+    "website": "https://starlinepower.com/",
+    "source": "https://starlinepower.com/contact-us",
+    "source_name": "Starline official website",
+    "address": "168 Georgetown Road, Canonsburg, PA 15317",
+    "phone": "7245977800",
+    "source_category": "Power distribution products including track busway",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Canonsburg",
+    "source_excerpt": "",
+    "description": "Starline: published Canonsburg contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://starlinepower.com/",
+      "title": "Starline",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://starlinepower.com/contact-us"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://starlinepower.com/sites/default/files/files/LGRP-02026-V01.01-EN.pdf"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://starlinepower.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Power-distribution products from a Canonsburg contact",
+        "text": "Starline publishes its contact on Georgetown Road in Canonsburg and identifies itself as a Legrand brand. Its official website presents power-distribution products, including track busway. A buyer should identify the product system and project requirements rather than infer that every component is compatible across installations."
+      },
+      {
+        "heading": "Prepare the system and component request",
+        "text": "Supply the relevant drawings, installed product identification or project specification. Explain whether the request concerns a new system, an addition or a replacement part. Ask which configuration information is required for a quotation and which drawings or product documents will be supplied for review."
+      },
+      {
+        "heading": "Keep selection and installation responsibilities clear",
+        "text": "Confirm the ordering contact and the scope of any proposed support. Identify the qualified parties responsible for project-specific design and installation decisions. The brand’s published product descriptions do not establish electrical suitability or compliance for an unspecified installation, and the Canonsburg contact should not be assumed to be a retail pickup location."
+      }
+    ]
+  },
+  "eci": {
+    "name": "ECI",
+    "website": "https://www.eci.us/",
+    "source": "https://www.eci.us/about-us/locations/",
+    "source_name": "ECI official website",
+    "address": "2 Park Drive, Lawrence, PA 15055",
+    "phone": "7247463700",
+    "source_category": "Industrial automation, process-control products and services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Lawrence",
+    "source_excerpt": "",
+    "description": "ECI: published Lawrence contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.eci.us/",
+      "title": "ECI",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.eci.us/about-us/locations/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.eci.us/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Process-control and automation services",
+        "text": "ECI identifies its headquarters on Park Drive in Lawrence and lists a separate operations center nearby. Its website presents industrial automation, process-control products and related services. A business should explain the operating problem and desired project scope before choosing between a product purchase and a wider service engagement."
+      },
+      {
+        "heading": "Collect the system information",
+        "text": "Identify the process or equipment, installed controls and documentation available for review. Explain whether the work is a replacement, expansion or modernization. Ask which investigation, configuration, supply and integration tasks the proposed team would perform, and which responsibilities remain with the owner or another contractor."
+      },
+      {
+        "heading": "Agree on access and deliverables",
+        "text": "Clarify the work products, test records and support arrangements to be included. Identify who approves changes and controls access to the customer’s systems. Use the ordinary business contact for a new project enquiry. Published capabilities do not diagnose a process problem or guarantee the performance of a specific installation."
+      }
+    ]
+  },
+  "american-textile-company": {
+    "name": "American Textile Company",
+    "website": "https://www.americantextile.com/",
+    "source": "https://www.americantextile.com/",
+    "source_name": "American Textile Company official website",
+    "address": "10 North Linden Street, Duquesne, PA 15110",
+    "phone": "8002892826",
+    "source_category": "Bedding products, hospitality supply and contract manufacturing",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Duquesne",
+    "source_excerpt": "",
+    "description": "American Textile Company: published Duquesne contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.americantextile.com/",
+      "title": "American Textile Company",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.americantextile.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Bedding products and business supply",
+        "text": "American Textile Company publishes its corporate headquarters on North Linden Street in Duquesne. Its website describes bedding products and capabilities serving retail, hospitality and contract-manufacturing customers. A business enquiry should identify the intended commercial channel rather than assume that a corporate contact operates a consumer outlet."
+      },
+      {
+        "heading": "Define the product and order requirements",
+        "text": "Prepare the product type, dimensions, materials and expected quantities. Explain whether the request concerns an existing product or a proposed private-label or manufacturing arrangement. Ask which specifications, samples and packaging information are needed to evaluate the enquiry and distinguish development work from recurring production."
+      },
+      {
+        "heading": "Confirm the supply relationship",
+        "text": "Clarify the relevant business team, order requirements and documentation supplied with the product. Agree on how sample approval and later specification changes will be handled. Published product categories do not establish current stock, delivery availability or a health benefit for a particular bedding product."
+      }
+    ]
+  },
+  "jennison-corporation": {
+    "name": "Jennison Corporation",
+    "website": "https://www.jennisoncorp.com/",
+    "source": "https://www.jennisoncorp.com/contact",
+    "source_name": "Jennison Corporation official website",
+    "address": "54 Arch Street Extension, Carnegie, PA 15106",
+    "phone": "4124290500",
+    "source_category": "Metal stamping, CNC machining, wire EDM and tooling",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Carnegie",
+    "source_excerpt": "",
+    "description": "Jennison Corporation: published Carnegie contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.jennisoncorp.com/",
+      "title": "Jennison Corporation",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.jennisoncorp.com/contact"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.jennisoncorp.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Metalworking and tooling in Carnegie",
+        "text": "Jennison Corporation publishes its contact on Arch Street Extension in Carnegie. Its official website describes precision metal stamping, CNC machining, wire EDM and tooling work. A prospective buyer should identify which operations belong in the requested part or assembly and which are already assigned to another supplier."
+      },
+      {
+        "heading": "Prepare a clear manufacturing package",
+        "text": "Provide the current drawing revision, required material and expected quantities. Identify tolerances or characteristics that require inspection records. Explain whether a sample or existing tool is available and whether the enquiry is for a prototype, a production run or recurring supply. Ask how tooling or setup costs will be separated in the quotation."
+      },
+      {
+        "heading": "Set the approval process",
+        "text": "Clarify responsibility for supplied materials, tooling and drawing changes. Agree on the inspection documents and packaging requirements for delivery. A general capability list is a starting point for discussing fit; it does not establish a particular qualification, available capacity or an agreed production schedule."
+      }
+    ]
+  },
+  "hennecke-inc": {
+    "name": "Hennecke Inc.",
+    "website": "https://www.hennecke.com/",
+    "source": "https://www.hennecke.com/en/about-us/kontakte-standorte",
+    "source_name": "Hennecke Inc. official website",
+    "address": "1000 Energy Drive, Bridgeville, PA 15017",
+    "phone": "7242713686",
+    "source_category": "Polyurethane processing machinery and lifecycle services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Bridgeville",
+    "source_excerpt": "",
+    "description": "Hennecke Inc.: published Bridgeville contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.hennecke.com/",
+      "title": "Hennecke Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.hennecke.com/en/about-us/kontakte-standorte"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.hennecke.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Polyurethane-processing equipment and support",
+        "text": "Hennecke’s current global locator publishes the Hennecke Inc. contact on Energy Drive in Bridgeville. The company website presents machinery and production systems for polyurethane processing, alongside lifecycle services. A buyer should distinguish a new production system from support for existing equipment when directing an enquiry."
+      },
+      {
+        "heading": "Describe the project and installed equipment",
+        "text": "Identify the intended product, production stage and equipment already in use. Provide the relevant machine identification, drawings and project requirements. Ask which engineering, equipment and service elements would be included in a proposal and what information is required before an application can be evaluated."
+      },
+      {
+        "heading": "Clarify implementation responsibilities",
+        "text": "Agree on the supplied documentation, installation interfaces and acceptance process. Identify which facility work and specialist reviews belong to the customer or other parties. The current Bridgeville contact should be confirmed before arranging a visit or shipment. Published machinery descriptions do not establish process suitability or guarantee production results for a particular material or product."
+      }
+    ]
+  },
+  "sms-group-inc": {
+    "name": "SMS group Inc.",
+    "website": "https://www.sms-group.com/",
+    "source": "https://www.sms-group.com/company/locations/our-global-setup/sms-group-in-usa/workshops",
+    "source_name": "SMS group Inc. official website",
+    "address": "100 Sandusky Street, Pittsburgh, PA 15212",
+    "phone": "4122311200",
+    "source_category": "Engineering, plant technology and services for metals production",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "SMS group Inc.: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.sms-group.com/",
+      "title": "SMS group Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.sms-group.com/company/locations/our-global-setup/sms-group-in-usa/workshops"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.sms-group.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Metals-industry engineering from Pittsburgh",
+        "text": "SMS group identifies its Pittsburgh location on Sandusky Street as the headquarters for SMS group Inc. Its official description includes engineering, project management and disciplines serving metals-production equipment and processes. The office listing should not be treated as confirmation that every product is manufactured at that address."
+      },
+      {
+        "heading": "Define the asset and project stage",
+        "text": "Describe the plant, equipment and intended change. Identify whether the enquiry concerns a new installation, an upgrade or support for an existing asset. Gather the available drawings and records, and ask which technical disciplines would lead the proposed assignment. Separate the owner’s required outcome from assumptions that need further evaluation."
+      },
+      {
+        "heading": "Document the project interfaces",
+        "text": "Clarify the proposed deliverables and the responsibilities of the owner, equipment suppliers and contractors. Agree on review milestones and the process for changes in scope. Published company capabilities do not establish site conditions, an accepted design or a commitment to a particular delivery or operating result."
+      }
+    ]
+  },
+  "danieli-corporation": {
+    "name": "Danieli Corporation",
+    "website": "https://www.danieli.com/",
+    "source": "https://www.danieli.com/en/_79_76.htm",
+    "source_name": "Danieli Corporation official website",
+    "address": "600 Cranberry Woods Drive, Suite 400, Cranberry Township, PA 16066",
+    "phone": "7247425186",
+    "source_category": "Metal-production plants, equipment and related services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Cranberry Township",
+    "source_excerpt": "",
+    "description": "Danieli Corporation: published Cranberry Township contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.danieli.com/",
+      "title": "Danieli Corporation",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.danieli.com/en/_79_76.htm"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.danieli.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Equipment and services for metals producers",
+        "text": "Danieli’s current official location directory lists Danieli Corporation in Cranberry Township at Cranberry Woods Drive, Suite 400. The company presents plants, equipment and services for metals production. A prospective customer should identify the applicable product or business area rather than assume that a general office enquiry defines a complete project scope."
+      },
+      {
+        "heading": "Prepare the equipment and project record",
+        "text": "Identify the production asset, existing equipment and stage of the proposed work. Explain whether the enquiry concerns new equipment, an upgrade, parts or a service assignment. Ask which drawings and operating records are needed to define the request and which team would be responsible for the proposed deliverables."
+      },
+      {
+        "heading": "Agree on the commercial and technical boundaries",
+        "text": "Confirm the contracting contact, project interfaces and documentation to be supplied. Establish how changes in requirements will be reviewed and approved. The current Cranberry Township listing is a contact point; it does not guarantee equipment availability, a project schedule or performance in an unspecified installation."
+      }
+    ]
+  },
+  "tenova-inc": {
+    "name": "Tenova Inc.",
+    "website": "https://tenova.com/",
+    "source": "https://tenova.com/about-us/global-presence",
+    "source_name": "Tenova Inc. official website",
+    "address": "100 Corporate Center Drive, Coraopolis, PA 15108",
+    "phone": "4122622240",
+    "source_category": "Metals-industry technologies, equipment and services",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Coraopolis",
+    "source_excerpt": "",
+    "description": "Tenova Inc.: published Coraopolis contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://tenova.com/",
+      "title": "Tenova Inc.",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://tenova.com/about-us/global-presence"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://tenova.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Metals-industry technology and a Coraopolis office",
+        "text": "Tenova’s official global directory lists Tenova Inc. at Corporate Center Drive in Coraopolis. The company presents technologies, equipment and services for metals producers. The directory also lists Pomini Tenova at the same address with a different telephone number, so a buyer should identify the relevant business rather than interchange the contacts."
+      },
+      {
+        "heading": "Direct the enquiry to the required scope",
+        "text": "Describe the plant, equipment and project stage. Identify whether the request concerns a new system, an upgrade or support for existing equipment. Provide the available asset identification and drawings, and ask which records are needed for the company to assess the proposed work."
+      },
+      {
+        "heading": "Clarify interfaces and deliverables",
+        "text": "Agree on what the proposal includes for equipment, engineering, documentation and support. Identify responsibilities that remain with the plant owner or other contractors. A published office and capability description does not establish that a particular technology fits an application or that a project will achieve an assumed operating result."
+      }
+    ]
+  },
+  "koppers": {
+    "name": "Koppers",
+    "website": "https://www.koppers.com/",
+    "source": "https://www.koppers.com/company/locations/koppers-global-headquarters",
+    "source_name": "Koppers official website",
+    "address": "436 Seventh Avenue, Pittsburgh, PA 15219",
+    "phone": "4122272025",
+    "source_category": "Treated wood products, wood-treatment chemicals and carbon compounds",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Koppers: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.koppers.com/",
+      "title": "Koppers",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.koppers.com/company/locations/koppers-global-headquarters"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.koppers.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "An industrial-products company headquartered in Pittsburgh",
+        "text": "Koppers lists its global headquarters on Seventh Avenue in Pittsburgh. Its official website describes treated wood products, wood-treatment chemicals and carbon compounds. The headquarters description identifies a corporate office; it should not be treated as a production plant or routine product collection point."
+      },
+      {
+        "heading": "Identify the product business and intended purchase",
+        "text": "Explain which product or service is being considered and the specification governing the request. Provide expected quantities and the intended supply arrangement. Ask for the appropriate business contact and clarify which documentation is needed to evaluate the enquiry. Distinguish a product order from an application question that requires further technical review."
+      },
+      {
+        "heading": "Confirm the order and delivery arrangement",
+        "text": "Agree on the contracting entity, required product records and the actual delivery or receiving location. Confirm availability and commercial terms directly with the relevant team. This profile does not infer a treatment result, suitability for an unspecified application or a supply commitment from the company’s published product categories."
+      }
+    ]
+  },
+  "carmeuse-americas": {
+    "name": "Carmeuse Americas",
+    "website": "https://www.carmeuse.com/na-en",
+    "source": "https://www.carmeuse.com/na-en/thank-you",
+    "source_name": "Carmeuse Americas official website",
+    "address": "11 Stanwix Street, Pittsburgh, PA 15222",
+    "phone": "4129955500",
+    "source_category": "Lime, limestone and mineral-based industrial products",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Pittsburgh",
+    "source_excerpt": "",
+    "description": "Carmeuse Americas: published Pittsburgh contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.carmeuse.com/na-en",
+      "title": "Carmeuse Americas",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.carmeuse.com/na-en/thank-you"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://www.carmeuse.com/eu-en/products-map/1467"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.carmeuse.com/na-en"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Mineral products and a Pittsburgh headquarters",
+        "text": "Carmeuse identifies its North American headquarters on Stanwix Street in Pittsburgh. Its official materials describe lime, limestone and related mineral-based products. The company provides different contacts for general questions and product pricing; a buyer should identify the purpose of the enquiry and the relevant product business."
+      },
+      {
+        "heading": "Prepare the product and supply requirements",
+        "text": "Specify the material requested, relevant product requirements, quantity and intended delivery form. Explain whether the enquiry concerns a new supply arrangement or an existing order. Ask which commercial team serves the application and what product documentation should accompany a quotation."
+      },
+      {
+        "heading": "Keep product supply separate from application approval",
+        "text": "Confirm the supply location, delivery arrangements and applicable product records directly. Project-specific handling, process and regulatory questions need review by the responsible qualified parties. The headquarters address is not a promise of local inventory, and a general product description does not establish suitability for an unspecified application."
+      }
+    ]
+  },
+  "pennsylvania-drilling-company": {
+    "name": "Pennsylvania Drilling Company",
+    "website": "https://penndrill.com/",
+    "source": "https://penndrill.com/contact/",
+    "source_name": "Pennsylvania Drilling Company official website",
+    "address": "281 Route 30, Imperial, PA 15126",
+    "phone": "7246952400",
+    "source_category": "Foundation and geotechnical drilling tooling and equipment",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Imperial",
+    "source_excerpt": "",
+    "description": "Pennsylvania Drilling Company: published Imperial contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://penndrill.com/",
+      "title": "Pennsylvania Drilling Company",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://penndrill.com/contact/"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://penndrill.com/mckees-rocks-division/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://penndrill.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Drilling equipment and tooling, with an Imperial contact",
+        "text": "Pennsylvania Drilling Company publishes its main contact on Route 30 in Imperial. Its official website describes equipment and tooling for foundation and geotechnical work and identifies a manufacturing division in McKees Rocks. The equipment business should not be confused with a commitment to perform drilling at a customer’s site."
+      },
+      {
+        "heading": "Match the enquiry to the equipment or part",
+        "text": "Provide the machine or tooling identification, available drawings and the required dimensions or interfaces. Explain whether the request is for a replacement, a custom item or a new equipment purchase. Ask which division should receive the enquiry and what information is needed to discuss compatibility and a quotation."
+      },
+      {
+        "heading": "Confirm production and shipment details",
+        "text": "Agree on the supplied items, documentation and approval steps for custom work. Confirm the correct receiving location before sending parts or arranging collection, since the company lists different division addresses. Published offerings do not establish that a particular tool is suitable for a site condition or that stock is available immediately."
+      }
+    ]
+  },
+  "sintermet": {
+    "name": "SinterMet",
+    "website": "https://www.sintermet.com/",
+    "source": "https://www.sintermet.com/contact.html",
+    "source_name": "SinterMet official website",
+    "address": "222 North Park Drive, Kittanning, PA 16201",
+    "phone": "7245487631",
+    "source_category": "Roll products, guide rolls and rotary knives for metalworking",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Kittanning",
+    "source_excerpt": "",
+    "description": "SinterMet: published Kittanning contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.sintermet.com/",
+      "title": "SinterMet",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.sintermet.com/contact.html"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.sintermet.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Roll products for metalworking applications",
+        "text": "SinterMet publishes its contact on North Park Drive in Kittanning’s West Hills Industrial Park. Its website describes roll products, guide rolls and rotary knives for metalworking. An enquiry should identify the mill application and the actual component requirements rather than rely only on a broad product label."
+      },
+      {
+        "heading": "Assemble the drawing and application record",
+        "text": "Provide the drawing revision, required dimensions and available information about the operating application. Identify the quantity and any inspection documentation required by the purchase specification. For replacement work, include the existing component identification and explain which requirements are unchanged and which are being reconsidered."
+      },
+      {
+        "heading": "Agree on supply and review steps",
+        "text": "Clarify any sample or drawing approval needed before production. Confirm packaging, delivery arrangements and how changes will be communicated. The company’s published product range does not establish a particular certification or guarantee operating life in an unspecified mill application."
+      }
+    ]
+  },
+  "ellwood": {
+    "name": "ELLWOOD",
+    "website": "https://www.ellwoodgroup.com/",
+    "source": "https://www.ellwoodgroup.com/locations",
+    "source_name": "ELLWOOD official website",
+    "address": "600 Commercial Avenue, Ellwood City, PA 16117",
+    "phone": "8663673811",
+    "source_category": "Specialty metals, forgings and related manufacturing",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Ellwood City",
+    "source_excerpt": "",
+    "description": "ELLWOOD: published Ellwood City contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.ellwoodgroup.com/",
+      "title": "ELLWOOD",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.ellwoodgroup.com/locations"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.ellwoodgroup.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "Specialty metals and manufacturing businesses",
+        "text": "ELLWOOD’s official location directory lists its corporate contact on Commercial Avenue in Ellwood City and identifies a network of manufacturing businesses. Its website presents specialty metals, forgings and related capabilities. A buyer should identify the product and process needed before selecting the relevant business contact."
+      },
+      {
+        "heading": "Define the material and work package",
+        "text": "Prepare the drawing, material specification, product form and expected quantities. Identify which processing and inspection records are required. Ask which ELLWOOD business would supply the work and whether the proposed quotation covers a finished component or material requiring further processing elsewhere."
+      },
+      {
+        "heading": "Confirm the correct facility",
+        "text": "Agree on the contracting contact, deliverables and production or receiving location. The corporate contact also lists a post-office box, which should remain separate from instructions for physical shipments. Published group capabilities do not imply that every process is performed at the Ellwood City office or that a particular order has been accepted."
+      }
+    ]
+  },
+  "universal-stainless": {
+    "name": "Universal Stainless",
+    "website": "https://www.univstainless.com/",
+    "source": "https://www.univstainless.com/contact/",
+    "source_name": "Universal Stainless official website",
+    "address": "600 Mayer Street, Bridgeville, PA 15017",
+    "phone": "4122577600",
+    "source_category": "Specialty steel products and processing",
+    "checked": "2026-11-21",
+    "published": "2026-11-21",
+    "category": "trades-and-services",
+    "city": "Bridgeville",
+    "source_excerpt": "",
+    "description": "Universal Stainless: published Bridgeville contact, service context and practical questions for a business enquiry.",
+    "official_profile": true,
+    "address_kind": "published contact",
+    "official_research": {
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://www.univstainless.com/",
+      "title": "Universal Stainless",
+      "description_excerpt": "",
+      "links": {},
+      "topics": []
+    },
+    "additional_sources": [
+      {
+        "label": "Official contact and company information",
+        "url": "https://www.univstainless.com/contact/"
+      },
+      {
+        "label": "Additional official location or service information",
+        "url": "https://www.univstainless.com/bridgeville-facility/"
+      },
+      {
+        "label": "Official company website",
+        "url": "https://www.univstainless.com/"
+      }
+    ],
+    "editorial_sections": [
+      {
+        "heading": "A Bridgeville specialty-steel facility",
+        "text": "Universal Stainless lists its Bridgeville facility at 600 Mayer Street. The facility page describes specialty-steel production, semi-finished long products, tool-steel plate, milled flat bars and conversion services. The current website identifies Aperam headquarters in Luxembourg; the Bridgeville address should be understood as the local facility contact rather than global headquarters."
+      },
+      {
+        "heading": "Specify the form and processing requirement",
+        "text": "Provide the required grade, dimensions, quantity and delivery condition. Identify whether the enquiry concerns material supply or conversion of material, and list the documentation required by the purchase specification. Ask which operations are included in the quotation and whether further processing would take place at another facility."
+      },
+      {
+        "heading": "Agree on the purchase record",
+        "text": "Confirm the sales contact, inspection documentation and arrangements for delivery before issuing an order. Record how substitutions or revised requirements will be reviewed. The company’s published product range does not establish material suitability for a particular design, current stock or approval under a customer-specific qualification system."
+      }
+    ]
   }
 }
