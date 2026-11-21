@@ -446,5 +446,441 @@
       }
     ],
     "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-commercial-printing-brief",
+    "title": "Pittsburgh Commercial Printing Quotes: Files, Proofs and Delivery",
+    "description": "Prepare a print specification that makes quantities, stock, finishing, proofs and delivery comparable across vendors.",
+    "intro": "A printing quote can change when the paper, finished size, quantity or finishing method changes. Before contacting Pittsburgh-area printers, write one specification and send the same version to each candidate. A familiar product name such as brochure or booklet is not enough to establish equivalent work. This guide helps organize the purchasing brief without recommending a printer or a production method.",
+    "sections": [
+      {
+        "title": "Specify the finished piece",
+        "text": "Record the finished dimensions, page count, quantity, paper or other material, color requirements and intended use. Identify folds, binding, trimming and packaging. If the piece must fit an existing envelope, display or fixture, supply that constraint. Ask the printer to identify any assumptions rather than choosing an unspecified stock silently."
+      },
+      {
+        "title": "Agree on the file handoff",
+        "text": "Ask what file format, bleed, image resolution and font handling the printer needs. Name the person responsible for preparing and approving the files. Identify supplied photos, logos and other materials whose permitted use should be confirmed. A printer accepting a file does not establish ownership of the content or permission for every use."
+      },
+      {
+        "title": "Define proofs and approval",
+        "text": "Separate a digital layout check from a physical sample or color proof. Ask what each proof can and cannot demonstrate and what it costs. Record who may approve production and how corrections affect price and timing. For a fictional event booklet, a late sponsor change after approval may require more than replacing a file."
+      },
+      {
+        "title": "Compare the complete production price",
+        "text": "Request itemized setup, printing, finishing, proofing, packaging, delivery and applicable taxes. Ask how quantity changes and additional revisions are priced. Compare the same approved specification rather than ranking quotes by a per-piece number with different inclusions. Confirm the treatment of overages or shortages in the proposed agreement."
+      },
+      {
+        "title": "Plan the delivery and inspection",
+        "text": "Provide the delivery address, access hours, contact and required arrival date. Identify whether the order goes to one office or multiple locations. Agree on a process for checking count and visible production issues after receipt. Keep the final specification, proof approval and delivery record together so any follow-up can use the same evidence."
+      }
+    ],
+    "checklist": [
+      "Finished size, quantity and material specification",
+      "Print-ready file requirements and content permissions",
+      "Proof type and named approver",
+      "Itemized finishing and delivery costs",
+      "Delivery deadline and receipt process"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      },
+      {
+        "url": "https://www.copyright.gov/engage/photographers/",
+        "label": "U.S. Copyright Office photography background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-office-furniture-installation-brief",
+    "title": "Pittsburgh Office Furniture Installation: Site and Scope Checklist",
+    "description": "Compare furniture installation proposals using inventory, layouts, access, assembly and closeout responsibilities.",
+    "intro": "Office furniture installation involves more than putting desks together. Delivery access, missing components, room layouts and disposal can affect both the schedule and the quote. Prepare a site-specific brief for Pittsburgh-area installers before requesting prices. This is an assignment checklist, not a certification of a provider or advice about structural, electrical or workplace requirements.",
+    "sections": [
+      {
+        "title": "Create the installation inventory",
+        "text": "List products, quantities, model references and whether items are new, used or being relocated. Attach assembly information available from the manufacturer. Identify parts supplied by the business and parts the installer must obtain. A count of workstations does not explain storage, screens, power accessories or other components."
+      },
+      {
+        "title": "Confirm the layout and site readiness",
+        "text": "Provide the approved layout, room dimensions and any access constraints. State which areas will be occupied during the work and who can authorize a placement change. Ask the installer to identify prerequisites and work outside its scope. Do not assume furniture assembly includes electrical connections, wall alterations or other specialist work."
+      },
+      {
+        "title": "Describe the delivery route",
+        "text": "Record loading access, elevator arrangements, permitted working hours and building contacts. Confirm the rules with the property manager rather than assuming every downtown or suburban building uses the same process. Identify storage space for cartons and protection needed for existing finishes. These details should be consistent across bidders."
+      },
+      {
+        "title": "Separate assembly from extra services",
+        "text": "Ask whether the proposal includes unloading, unpacking, assembly, placement, adjustments, packaging removal and removal of old furniture. For a fictional office adding ten desks, distinguish the ten installations from moving existing equipment or disposing of old units. Clarify how missing parts, damaged deliveries and return visits are charged."
+      },
+      {
+        "title": "Agree on completion evidence",
+        "text": "Use an item checklist and walkthrough to record completed work and unresolved issues. Name the business contact who can sign off, while preserving any remaining punch-list items. Keep manufacturer information and installer notes accessible. Directory presence does not verify insurance, availability or suitability; confirm those matters directly for the actual assignment."
+      }
+    ],
+    "checklist": [
+      "Product inventory and manufacturer references",
+      "Approved layout and site prerequisites",
+      "Loading, elevator and working-hour details",
+      "Assembly, disposal and return-visit boundaries",
+      "Walkthrough and unresolved-item process"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-meeting-av-proposal",
+    "title": "Pittsburgh Meeting AV Proposals: Build a Session-by-Session Brief",
+    "description": "Compare event audiovisual proposals by rooms, presenters, connections, support staffing and rehearsal needs.",
+    "intro": "A projector and microphone list does not fully describe meeting support. A Pittsburgh-area event may need several rooms, remote speakers, recordings and quick changes between sessions. Give audiovisual providers a session-by-session brief so their proposals cover the same experience. The guide does not select equipment or verify a venue’s technical capabilities.",
+    "sections": [
+      {
+        "title": "Map the meeting format",
+        "text": "Record the venue, rooms, audience size, schedule and session formats. Identify panels, presentations, remote participation and any simultaneous sessions. Specify what participants should be able to see and hear in each space. If attendance or room layout is uncertain, ask for clearly labeled scenarios rather than one unexplained equipment list."
+      },
+      {
+        "title": "List presenter and connection needs",
+        "text": "Collect information about presentation devices, video playback, remote-speaker platforms and required adapters. Decide who gathers files and tests them. Confirm the venue’s available connections and network arrangements directly. Do not assume a provider controls internet quality or every device a speaker may bring."
+      },
+      {
+        "title": "Define staffing and rehearsal",
+        "text": "Ask whether setup, sound checks, rehearsal, live operation and teardown are included. Identify the support available during parallel sessions and breaks. For a fictional conference with two rooms starting together, one technician may have competing responsibilities. Ask the bidder to explain the staffing plan instead of judging only the equipment quantity."
+      },
+      {
+        "title": "Compare contingencies and recording",
+        "text": "Discuss backup plans for failed presentation devices, remote connections or essential equipment. If the event will be recorded, specify the desired files, editing, delivery and permitted uses. Address participant and content permissions through the appropriate organizer process. A recording line item does not establish that all permissions or post-production work are included."
+      },
+      {
+        "title": "Check the full quote and handoff",
+        "text": "Separate equipment, labor, transport, setup time, overtime and venue-related charges where applicable. Confirm cancellation and schedule-change terms in the agreement. Keep a final run sheet with contacts, cues and the approved service plan. After the event, track promised recordings or other deliverables until received."
+      }
+    ],
+    "checklist": [
+      "Room and session schedule",
+      "Presenter devices and remote-participation needs",
+      "Staffing and rehearsal plan",
+      "Backup and recording responsibilities",
+      "Itemized quote and final run sheet"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      },
+      {
+        "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/building-your-team",
+        "label": "NIST background on outsourced technology responsibilities"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-business-website-project-brief",
+    "title": "Pittsburgh Business Website Quotes: Scope, Ownership and Handoff",
+    "description": "Prepare a website brief that separates design, content, functionality, hosting and ongoing support.",
+    "intro": "Website proposals are difficult to compare when one covers a small redesign and another includes content, integrations and continuing support. Pittsburgh-area businesses can improve the comparison by defining the visitor tasks and the work the business will supply. This guide is a project-planning checklist, not a promise about search rankings, accessibility conformance or security.",
+    "sections": [
+      {
+        "title": "Define the visitor tasks and page inventory",
+        "text": "List what visitors need to do, such as request a quote, find locations or understand services. Identify existing pages to retain, combine or retire and new pages required. Describe forms and integrations in concrete terms. A total page count alone does not explain booking workflows, data entry or content migration."
+      },
+      {
+        "title": "Assign content and design responsibilities",
+        "text": "State who writes, edits and approves text, gathers images and supplies brand materials. Ask how many review rounds are included and how changes are recorded. For a fictional professional office, staff biographies may be ready while service descriptions still need review. Make that difference visible before agreeing to a delivery date."
+      },
+      {
+        "title": "Clarify accounts and control",
+        "text": "Identify ownership and administrative access for the domain, hosting, site platform, analytics and connected services. NIST’s guidance can help frame responsibilities when outside technology providers are involved. Agree on approved access and who can authorize changes. Avoid relying on one person’s personal login as the business’s only route into an essential account."
+      },
+      {
+        "title": "Specify acceptance and ongoing work",
+        "text": "Ask how forms, links, mobile layouts and agreed visitor tasks will be checked before launch. Define what constitutes an accepted deliverable and how unresolved issues are tracked. Separate a one-time build from hosting, updates, content changes and incident support. General claims about a modern site should become reviewable requirements in the agreement."
+      },
+      {
+        "title": "Compare the total handoff",
+        "text": "Request setup, licenses, recurring services, migration and training costs separately. Confirm what source files, credentials and documentation the business receives. Ask how the provider supports an eventual transfer. Compare search-related deliverables explicitly; a new website does not by itself establish future keyword positions or traffic."
+      }
+    ],
+    "checklist": [
+      "Visitor tasks and page inventory",
+      "Content owners and approval rounds",
+      "Business-controlled accounts and access",
+      "Prelaunch checks and continuing support scope",
+      "Recurring fees and exit handoff"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      },
+      {
+        "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/building-your-team",
+        "label": "NIST guidance on technology-team responsibilities"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-business-translation-brief",
+    "title": "Pittsburgh Business Translation Quotes: Audience, Review and Format",
+    "description": "Compare translation proposals by language variant, purpose, terminology, review level and final deliverables.",
+    "intro": "A translation request needs more than a language pair and word count. The audience, purpose, technical vocabulary and final format affect the assignment. Prepare the same brief for Pittsburgh-area language providers so a low price does not hide a different review process or missing production work. This guide does not verify credentials or establish whether a translation meets an agency’s requirements.",
+    "sections": [
+      {
+        "title": "Identify the actual audience and use",
+        "text": "Record the source language, target language or regional variant, audience and purpose. Separate internal reference material from customer-facing or official submissions. If a recipient has specific requirements, obtain them directly and share them with candidates. Do not assume one format or credential is accepted by every organization."
+      },
+      {
+        "title": "Inventory the source material",
+        "text": "Provide the document types, approximate volume, file formats and any images or scanned pages requiring additional work. State whether the source is final. Mark sections that should remain unchanged. A later revision to the original document can create translation, review and layout work that was absent from the first estimate."
+      },
+      {
+        "title": "Clarify terminology and review",
+        "text": "Supply approved product names, a glossary and relevant reference material. Ask who translates, who reviews and how questions are resolved. Describe any specialist knowledge needed without assuming that a general language-service description proves it. For a fictional technical brochure, a terminology review may be as important as the initial translation."
+      },
+      {
+        "title": "Specify formatting and confidentiality",
+        "text": "Ask whether the quote includes layout, editable files, proofreading after layout and other production tasks. Agree on how confidential documents will be transferred and accessed. NIST’s small-business material offers background for discussing responsibility with external providers; it does not certify a particular provider’s controls."
+      },
+      {
+        "title": "Compare delivery and revision terms",
+        "text": "Confirm due dates, staged delivery, revision rounds and the treatment of source changes. Request the actual fee basis and minimum charges instead of assuming every quote uses the same word count. Name the internal reviewer and final approver. Keep the source version, glossary, questions and approved output together for future updates."
+      }
+    ],
+    "checklist": [
+      "Audience, purpose and language variant",
+      "Final source inventory and formats",
+      "Terminology and review process",
+      "Secure transfer and layout requirements",
+      "Delivery stages and revision terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      },
+      {
+        "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/building-your-team",
+        "label": "NIST background on external-provider responsibilities"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-document-digitization-quote",
+    "title": "Pittsburgh Document Digitization Quotes: Indexing, Quality and Custody",
+    "description": "Compare scanning proposals by document inventory, file naming, indexing, image checks and original-document handling.",
+    "intro": "Scanning a box of paper is only part of a digitization project. Staff must be able to find the resulting files, confirm their completeness and know where the originals are. Pittsburgh-area businesses should define those outcomes before comparing vendors. This guide does not determine retention periods, permission to destroy originals or the legal status of a digital copy.",
+    "sections": [
+      {
+        "title": "Define the inventory and exceptions",
+        "text": "List approximate volume, sizes, condition and document types. Identify staples, folders, bound material, mixed paper sizes and fragile items that may need extra preparation. Keep sensitive categories visible in the planning brief without circulating the contents unnecessarily. Ask how exceptions are logged and returned for a decision."
+      },
+      {
+        "title": "Design the retrieval structure",
+        "text": "Specify file naming, folder structure and index fields that staff need for retrieval. Decide how the vendor obtains that information and how uncertain entries are flagged. A searchable text layer is not the same as a correct customer or project index. Test the proposed structure on a representative sample before committing the whole collection."
+      },
+      {
+        "title": "Agree on quality checks",
+        "text": "Define checks for page completeness, orientation, legibility and index accuracy. Ask who resolves missing or unreadable pages and how rework is reported. For a fictional archive of project files, a sample should include handwritten notes and unusual page sizes, not just clean printed documents. Record approval of the sample and the full-batch review process."
+      },
+      {
+        "title": "Document custody and access",
+        "text": "Record collection, transport, storage, authorized access and return arrangements for originals and digital files. Ask how the provider handles exceptions and incidents. NIST guidance can support responsibility questions about external technology services. Confirm applicable requirements with your own advisers rather than treating a scanning quote as permission to disclose or discard records."
+      },
+      {
+        "title": "Price the complete handoff",
+        "text": "Separate preparation, scanning, indexing, storage, delivery media, rework and return costs. Identify recurring hosting charges if offered. Confirm how the business exports and receives the final files. Keep originals under the approved process until the responsible people have resolved retention and disposal decisions."
+      }
+    ],
+    "checklist": [
+      "Document inventory and unusual-item list",
+      "Naming and indexing specification",
+      "Representative sample and quality checks",
+      "Custody and authorized-access process",
+      "Final export, original return and full pricing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      },
+      {
+        "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/building-your-team",
+        "label": "NIST external technology responsibility guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-business-courier-quote",
+    "title": "Pittsburgh Business Courier Quotes: Pickup, Proof and Exceptions",
+    "description": "Prepare a courier brief covering service area, timing, item requirements, delivery evidence and failed-delivery handling.",
+    "intro": "Courier proposals can refer to scheduled routes, on-demand trips or specific delivery windows. A Pittsburgh-area business should define the items and service pattern before comparing charges. A quoted trip price may omit waiting, failed delivery or special handling. This guide does not confirm that a carrier can accept a particular item or meet every timing requirement.",
+    "sections": [
+      {
+        "title": "Describe the delivery pattern",
+        "text": "List pickup and delivery locations, expected frequency, usual package dimensions and approximate volume. Identify building access and contact arrangements. Separate recurring routes from occasional urgent requests. A regular office-to-office route may be quoted differently from variable destinations, even when both are described as local delivery."
+      },
+      {
+        "title": "Confirm item and handling requirements",
+        "text": "Tell the provider what it will carry and ask about restrictions, packaging and any required handling. Do not assume a general courier service accepts sensitive, regulated, fragile or temperature-dependent items. Obtain direct confirmation for the actual assignment and ask the appropriate adviser about requirements outside the provider’s quoted scope."
+      },
+      {
+        "title": "Define timing and delivery evidence",
+        "text": "Distinguish a pickup window, estimated arrival and any specifically agreed service commitment. Ask what tracking and proof of delivery are supplied and who may receive the item. For a fictional business delivering signed documents, a timestamp without a recipient record may not answer the business’s operational need."
+      },
+      {
+        "title": "Plan for exceptions",
+        "text": "Agree on the process for unavailable recipients, incorrect addresses, closed premises and access delays. Identify who may authorize a return or changed destination. Ask how waiting time, redelivery and cancellation are charged. A low initial trip fee can be difficult to compare if one proposal includes common exceptions and another prices each separately."
+      },
+      {
+        "title": "Review the complete service agreement",
+        "text": "Request service-area boundaries, coverage information relevant to the items and the process for reporting loss or damage. Confirm actual terms directly rather than inferring them from directory inclusion. Keep delivery references tied to invoices so the business can review recurring problems and reconcile charges against completed work."
+      }
+    ],
+    "checklist": [
+      "Locations, frequency and package details",
+      "Item acceptance and handling confirmation",
+      "Pickup windows and proof requirements",
+      "Failed-delivery and delay process",
+      "Complete charges and incident contacts"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
+  },
+  {
+    "slug": "pittsburgh-employee-training-vendor-brief",
+    "title": "Pittsburgh Employee Training Quotes: Outcomes, Practice and Follow-Up",
+    "description": "Compare training proposals using participant needs, learning activities, materials, delivery format and evaluation.",
+    "intro": "A training proposal can describe a presentation, a hands-on workshop or continuing coaching. Pittsburgh-area employers can compare the options more clearly by naming the work participants should be able to do afterward. This guide helps define an assignment; it does not certify a trainer, guarantee outcomes or determine whether a course satisfies a legal or licensing requirement.",
+    "sections": [
+      {
+        "title": "Define the operational outcome",
+        "text": "Describe the tasks or decisions the training should improve, the participant roles and their starting knowledge. Separate a general introduction from advanced practice. Avoid asking for a broad topic alone, such as communication or software training. State the situations staff face and the outputs the business wants them to produce."
+      },
+      {
+        "title": "Match the format to the audience",
+        "text": "Specify participant count, location, remote attendance and available time. Ask how the provider adapts examples and exercises to different roles. Identify accessibility or participation needs through the appropriate internal process. If staff use different systems or workflows, decide whether they need separate sessions rather than assuming one demonstration serves everyone."
+      },
+      {
+        "title": "Examine practice and feedback",
+        "text": "Ask for an agenda showing instruction, practice and feedback. Confirm the instructor’s relevant experience directly. For a fictional customer-service team, role practice with feedback may answer a different need from a lecture about service principles. Request examples of the activity format without asking the provider to share confidential client materials."
+      },
+      {
+        "title": "Clarify materials and measurement",
+        "text": "Identify participant materials, recordings, access periods and permitted internal reuse. Ask how learning is assessed and what information the employer receives. Attendance alone does not establish that a person can perform the task. If the business needs a particular credential or compliance outcome, verify the applicable requirements and acceptance of the course separately."
+      },
+      {
+        "title": "Compare the full engagement",
+        "text": "Separate design, customization, delivery, travel, materials, follow-up and additional sessions. Confirm rescheduling terms and the internal sponsor’s responsibilities. Plan how supervisors will support practice afterward and when the business will review results. A useful proposal connects a defined outcome to an observable activity rather than promising a universal productivity gain."
+      }
+    ],
+    "checklist": [
+      "Role-specific outcomes and participant needs",
+      "Format, location and scheduling",
+      "Practice and feedback agenda",
+      "Materials, reuse and assessment details",
+      "Customization, follow-up and complete fees"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sba.gov/counseling/manage-your-business/",
+        "label": "SBA business-management background"
+      }
+    ],
+    "related": [
+      {
+        "url": "/directory/",
+        "label": "Browse Pittsburgh-area business listings"
+      },
+      {
+        "url": "/best/business-services/",
+        "label": "Explore business-service comparisons"
+      }
+    ],
+    "published": "2026-11-20"
   }
 ]
