@@ -97277,14 +97277,14 @@
     "address": "501 East Ohio Street, Millvale, PA 15209",
     "phone": "",
     "source_category": "Restaurant Inside Brewery Taproom",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Millvale",
     "source_excerpt": "",
     "description": "Murph’s Kitchen operates at the Millvale Strange Roots taproom. Check the restaurant’s current menu and confirm kitchen last-order time separately from taproom hours. The New Kensington taproom has a different food partner and schedule.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://murphs-kitchen.com/",
       "title": "Murph’s Kitchen Millvale",
       "description_excerpt": "",
@@ -97295,7 +97295,15 @@
         },
         "contact": {
           "url": "https://www.strangerootsbeer.com/",
-          "label": "Strange Roots Millvale hours and events"
+          "label": "Strange Roots Millvale taproom hours and venue information",
+          "evidence": {
+            "relationship": "host_venue",
+            "source": "https://www.strangerootsbeer.com/",
+            "target": "https://www.strangerootsbeer.com/",
+            "business_url": "https://murphs-kitchen.com/",
+            "checked": "2026-11-21",
+            "note": "The restaurant and venue both list 501 East Ohio Street in Millvale and link to the same Murph’s Kitchen menu account. These are taproom hours, not a confirmed kitchen last-order schedule; New Kensington lists a different food partner."
+          }
         }
       },
       "topics": [],
@@ -97303,8 +97311,11 @@
         "murph",
         "kitchen",
         "millvale"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "iron-basil-west-view": {
     "name": "Iron & Basil",
