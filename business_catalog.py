@@ -5,6 +5,7 @@ from pathlib import Path
 from datetime import date
 from urllib.parse import quote
 from business_depth import profile_depth, collection_depth
+from catalog_locations import location_errors, display_location
 
 ROOT=Path(__file__).resolve().parent
 DATA=json.loads((ROOT/'data'/'businesses.json').read_text()) if (ROOT/'data'/'businesses.json').exists() else {}
@@ -37,6 +38,8 @@ def write(repo,page_shell):
     names={s: (DATA[s]['name'] if s in DATA else profile_name(base/s/'index.html')) for s in VERIFIED}
     legacy_data={s:r for s,r in DATA.items() if not r.get("official_profile")}
     for slug,r in DATA.items():
+        problems=location_errors(r)
+        if problems:raise ValueError(slug+': '+ '; '.join(problems))
         if r.get("official_profile"):
             from official_business_profiles import write as write_official
             write_official(repo,r,slug,page_shell,LABELS)
@@ -79,12 +82,22 @@ def write(repo,page_shell):
         if postal:entity['address']['postalCode']=postal.group()
         if r['phone']:entity['telephone']=r['phone']
         graph=[AUTHOR,entity,{'@type':'WebPage','@id':url+'#webpage','url':url,'name':r['name']+' | Pittsburgh Business Directory','description':r['description'],'datePublished':r.get('published',r['checked']),'dateModified':r['checked'],'author':{'@id':AUTHOR['@id']},'about':{'@id':entity['@id']},'isPartOf':{'@type':'WebSite','@id':SITE+'/#website','name':'The Pittsburgh Wire','url':SITE+'/','publisher':{'@type':'Organization','name':'The Pittsburgh Wire','founder':{'@id':AUTHOR['@id']}}}}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Business Directory','item':SITE+'/directory/'},{'@type':'ListItem','position':2,'name':LABELS[cat],'item':SITE+'/directory/'+cat+'/'},{'@type':'ListItem','position':3,'name':r['name'],'item':url}]}]
-        if feature and feature.get('editorial_author'):
+        if r.get('address_kind')=='service_area':
+            area=escape(r['area_served']);coverage_source=escape(r['area_served_source'],quote=True)
+            body=body.replace(f'{escape(r["source_category"])} · {city}, Pennsylvania',f'{escape(r["source_category"])} · Service area: {area}')
+            body=re.sub(r'<h2>'+re.escape(name)+r' in the Pittsburgh area</h2><p>[\s\S]*?</p>',f'<h2>{name}: published service coverage</h2><p>{escape(r["description"])}</p><p><strong>Service area:</strong> {area}. A street address was not published in the reviewed source. <a href="{coverage_source}" rel="noopener noreferrer">Check the provider’s published coverage</a>.</p>',body,count=1)
+            body=body.replace(f'<dt>Address</dt><dd>{address}</dd>',f'<dt>Service area</dt><dd>{area}</dd>')
+            body=re.sub(r'<h2>Location and contact</h2><p>[\s\S]*?</p>',f'<h2>Service coverage and contact</h2><p>Contact the provider about work at your location. The service area describes coverage, not a public storefront or a verified street address.</p>',body,count=1)
+            body=body.replace('Contact the business directly before making a trip or booking a service.','Confirm service coverage, access requirements and the work scope directly with the provider.')
+            entity.pop('address',None);entity['areaServed']=r['area_served']
+        if r.get('editorial_author') or feature and feature.get('editorial_author'):
             editorial={'@type':'Organization','@id':SITE+'/#editorial','name':'The Pittsburgh Wire editorial','url':SITE+'/about/'}
             graph[0]=editorial
             next(node for node in graph if node.get('@type')=='WebPage')['author']={'@id':editorial['@id']}
             body=body.replace('By <a href="/founder/" rel="author">Dr. Connor Robertson</a> · Updated','AI-assisted profile by The Pittsburgh Wire editorial · Updated')
-            if feature.get('profile_kind') == 'restaurant':
+            if r.get('editorial_author'):
+                body=body.replace('AI-assisted profile by The Pittsburgh Wire editorial · Updated','AI-assisted profile by <a href="/about">The Pittsburgh Wire editorial</a> · Updated')
+            if feature and feature.get('profile_kind') == 'restaurant':
                 body=body.replace('Related reporting and businesses','Plan your visit')
                 body=body.replace('The address is the location supplied by the source; an office address does not necessarily mean a walk-in storefront.','The published address is the Sixth Street restaurant location. Plan your route separately from checking a table booking.')
                 body=body.replace('For current services, availability, hours, and appointments,','For the current menu, booking route and date-specific arrangements,')
@@ -105,7 +118,7 @@ def browse(repo,page_shell):
         cards=''
         for s in slugs:
             r=DATA.get(s,{})
-            detail=r.get('address','Pittsburgh area')
+            detail=display_location(r)
             c=VERIFIED_CATEGORY[s]
             search=escape(' '.join([names[s],detail,LABELS[c],r.get('source_category','')]).casefold(),quote=True)
             cards+=f'<a class="biz-card" data-search="{search}" data-category="{c}" href="/directory/{s}/"><div class="biz-name">{escape(names[s])}</div><div class="biz-owner">{escape(LABELS[c])} · {escape(detail)}</div></a>\n'

@@ -1,4 +1,5 @@
 """Connect real businesses to specific services, listed cities, and relevant reporting."""
+from catalog_locations import display_location
 import re
 from datetime import date
 from html import escape, unescape
@@ -40,8 +41,8 @@ def write(repo,page_shell):
         slugs.sort(key=lambda s:DATA[s]['name'].casefold())
         url=f'{SITE}/{section}/{slug}/'
         desc=f'Explore {len(slugs)} source-checked business profiles. Compare listed categories, addresses, websites, and contact details in The Pittsburgh Wire directory.'
-        cards=''.join(f'<a class="biz-card" href="/directory/{s}/"><div class="biz-name">{escape(DATA[s]["name"])}</div><div class="biz-owner">{escape(DATA[s]["source_category"])}<br>{escape(DATA[s]["address"])}</div></a>' for s in slugs)
-        text=('These businesses share the listed service categories shown below. Categories come from their source listings; compare each provider’s services and contact the business directly about the work you need.' if section=='services' else 'These profiles use the city or community shown in the source address. A Pittsburgh mailing address can also cover nearby suburbs; check the map and full address for the actual location.')
+        cards=''.join(f'<a class="biz-card" href="/directory/{s}/"><div class="biz-name">{escape(DATA[s]["name"])}</div><div class="biz-owner">{escape(DATA[s]["source_category"])}<br>{escape(display_location(DATA[s]))}</div></a>' for s in slugs)
+        text=('These businesses share the listed service categories shown below. Categories come from their source listings; compare each provider’s services and contact the business directly about the work you need.' if section=='services' else ('These profiles group published locations and related service coverage by community. Service coverage does not identify a public storefront. Open each profile for its address or service-area information and source.' if any(DATA[s].get('address_kind')=='service_area'for s in slugs)else 'These profiles use the city or community shown in the source address. A Pittsburgh mailing address can also cover nearby suburbs; check the map and full address for the actual location.'))
         depth=collection_depth(section,slugs,DATA)
         body=f'<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><span>{escape(title)}</span></div><header class="page-head"><span class="page-eyebrow">Find a local business</span><h1 class="page-title">{escape(title)}</h1><p class="page-deck">{escape(desc)}</p><p class="profile-byline">By <a href="/founder/" rel="author">Dr. Connor Robertson</a></p></header><main class="archive"><p>{text}</p>{depth}<p class="catalog-note">Listings are alphabetical. Each profile links to its sources and business website.</p><div class="biz-grid">{cards}</div><a class="directory-back" href="/directory/">Search the complete Pittsburgh business directory →</a></main>'
         graph=[AUTHOR,{'@type':'CollectionPage','dateModified':max(DATA[s]['checked'] for s in slugs),'name':title,'url':url,'author':{'@id':AUTHOR['@id']},'mainEntity':{'@type':'ItemList','numberOfItems':len(slugs),'itemListElement':[{'@type':'ListItem','position':i+1,'name':DATA[s]['name'],'url':SITE+'/directory/'+s+'/'} for i,s in enumerate(slugs)]}}]
@@ -73,7 +74,7 @@ def link_news(repo,articles):
         if a['slug'] == 'homestead-waterfront-new-development-pittsburgh':
             slugs = [s for s in slugs if s != 'the-waterfront-apartments']
         if slugs:
-            links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(DATA[s]["address"])}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
+            links=''.join(f'<li><a href="/directory/{s}/">{escape(DATA[s]["name"])}</a> — listed as {escape(DATA[s]["source_category"])} at {escape(display_location(DATA[s]))}. <a href="{escape(DATA[s]["source"],quote=True)}" rel="noopener noreferrer">Directory source</a>.</li>' for s in slugs[:5])
             dates = sorted({DATA[s]['checked'] for s in slugs[:5]})
             formatted = [date.fromisoformat(d).strftime('%B %-d, %Y') for d in (dates[0], dates[-1])]
             checked = formatted[0] if len(dates) == 1 else 'between ' + ' and '.join(formatted)
