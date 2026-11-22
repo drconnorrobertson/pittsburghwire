@@ -5,7 +5,8 @@ from urllib.parse import urlsplit
 
 MODEL = 'reviewed_links_v1'
 RELATIONSHIPS = {'business_linked': 'Business-linked external provider',
-                 'host_venue': 'Host venue information'}
+                 'host_venue': 'Host venue information',
+                 'official_chain': 'Official chain information'}
 
 def evidence_errors(research, link):
     url = link.get('url', '')
@@ -24,8 +25,8 @@ def evidence_errors(research, link):
     if any(urlsplit(value).scheme != 'https' or not urlsplit(value).hostname
            for value in (url, source)):
         errors.append('external evidence requires HTTPS source and destination')
-    if evidence.get('relationship') == 'business_linked' and urlsplit(source).hostname != host:
-        errors.append('external provider evidence must originate on the business website')
+    if evidence.get('relationship') in {'business_linked', 'official_chain'} and urlsplit(source).hostname != host:
+        errors.append('linked-source evidence must originate on the business website')
     if evidence.get('relationship') == 'host_venue' and (source != url or evidence.get('business_url') != research.get('url')):
         errors.append('host venue evidence requires its exact page and reciprocal business URL')
     try:
@@ -55,7 +56,9 @@ def reviewed_links_markup(row):
                   escape(evidence['checked']) + '.') if evidence else ' — Business website.'
         items.append('<li><a href="' + escape(link['url'], quote=True) +
                      '" rel="noopener noreferrer">' + escape(link['label']) + '</a>' + detail + '</li>')
+    chain_only = all(link.get('evidence', {}).get('relationship') == 'official_chain' for kind, link in research.get('links', {}).items() if kind != 'careers')
+    scope = ('Use the local location page for stand-specific details; the chain resources below describe general information.' if chain_only else 'A booking or shopping provider operates separately from this directory; confirm current terms on that provider’s page.')
     return ('<h2>Useful sources for ' + escape(row['name']) + '</h2>'
             '<p>The links below identify the business website and separately reviewed external sources. '
-            'A booking or shopping provider operates separately from this directory; confirm current terms on that provider’s page.</p>'
+            + scope + '</p>'
             '<ul>' + ''.join(items) + '</ul>')
