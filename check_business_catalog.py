@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from business_catalog import DATA, SITE, LABELS, FEATURES
 from directory_index import VERIFIED
 from catalog_locations import location_errors
+from catalog_evidence import evidence_errors
 
 ROOT=Path(__file__).resolve().parent
 def check():
@@ -28,7 +29,7 @@ def check():
             host=urlsplit(research['url']).hostname
             links=list(research.get('links',{}).values())+research.get('topics',[])
             for link in links:
-                if urlsplit(link['url']).hostname!=host:errors.append(f'{slug}: official evidence link leaves corroborated host')
+                for problem in evidence_errors(research,link):errors.append(f'{slug}: {problem}')
                 if link in research.get('topics',[]) and link['url'].replace('&','&amp;') not in page:errors.append(f'{slug}: sourced topic link missing from output')
             words=len(research.get('description_excerpt','').split())+sum(len(x['label'].split()) for x in research.get('topics',[]))
             if words>25:errors.append(f'{slug}: source excerpt budget exceeded')

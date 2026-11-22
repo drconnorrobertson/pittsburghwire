@@ -94963,21 +94963,28 @@
     "address": "4745 Butler Street, Pittsburgh, PA 15201",
     "phone": "412-915-6001",
     "source_category": "Bookstore",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "retail",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "Romance-focused bookstore with official links to preorders, events, print shopping and audiobooks. Confirm the edition, format, stock and event registration directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.theshelflovesociety.com/",
       "title": "The Shelf Love Society",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://bookshop.org/shop/theshelflovesociety",
-          "label": "Store-linked print book selection"
+          "label": "Store-linked Bookshop.org selection",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.theshelflovesociety.com/",
+            "target": "https://bookshop.org/shop/theshelflovesociety",
+            "checked": "2026-11-21",
+            "note": "The store’s navigation links to this exact Bookshop.org shop."
+          }
         },
         "contact": {
           "url": "https://www.theshelflovesociety.com/",
@@ -94989,8 +94996,11 @@
         "shelf",
         "love",
         "society"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "foxhole-tavern-aspinwall": {
     "name": "Foxhole Tavern",
@@ -95685,14 +95695,14 @@
     "address": "2216 Penn Avenue, Pittsburgh, PA 15222",
     "phone": "412-471-1900",
     "source_category": "Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "Choose a regular dining table, bar seat or separately priced Wine Room booking. The current official sample-menu page and booking provider describe different party sizes and arrangements.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.barmarcopgh.com/",
       "title": "Bar Marco",
       "description_excerpt": "",
@@ -95703,15 +95713,25 @@
         },
         "contact": {
           "url": "https://www.exploretock.com/barmarcopgh",
-          "label": "Official booking or contact information"
+          "label": "Restaurant-linked Tock reservations",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.barmarcopgh.com/",
+            "target": "https://www.exploretock.com/barmarcopgh",
+            "checked": "2026-11-21",
+            "note": "The restaurant’s Book Now link points to this exact Tock listing."
+          }
         }
       },
       "topics": [],
       "identity_tokens": [
         "bar",
         "marco"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "dancing-gnome-beer": {
     "name": "Dancing Gnome",
@@ -96155,14 +96175,14 @@
     "address": "300 Cumberland Road, Pittsburgh, PA 15237",
     "phone": "412-514-6631",
     "source_category": "Coffee Shop",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "McCandless",
     "source_excerpt": "",
     "description": "Confirm café hours separately from the library schedule, and use the operator’s pickup route for current availability. This established café occupies the expanded lower level of Northland Public Library in McCandless.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://commonplacecoffee.com/pages/northland-public-library",
       "title": "Commonplace Coffee Northland Public Library",
       "description_excerpt": "",
@@ -96173,7 +96193,15 @@
         },
         "about": {
           "url": "https://www.northlandlibrary.org/commonplace-coffee-northland/",
-          "label": "Official library café information"
+          "label": "Host library’s café information",
+          "evidence": {
+            "relationship": "host_venue",
+            "source": "https://www.northlandlibrary.org/commonplace-coffee-northland/",
+            "target": "https://www.northlandlibrary.org/commonplace-coffee-northland/",
+            "checked": "2026-11-21",
+            "note": "The library describes the café in its building and links back to the operator’s Northland page.",
+            "business_url": "https://commonplacecoffee.com/pages/northland-public-library"
+          }
         }
       },
       "topics": [],
@@ -96181,8 +96209,11 @@
         "commonplace",
         "coffee",
         "northland"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "body-by-design-perry-highway": {
     "name": "Body By Design",

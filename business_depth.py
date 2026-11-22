@@ -31,7 +31,10 @@ def profile_depth(row,data):
    parts.append(f'<h2>Topics on the official website</h2><p>{name}’s website links to information on {links}. These links describe what the website covers; confirm the service, product, or program with the business for your particular needs.</p>')
   links=d.get('links',{})
   useful=[(typ,v) for typ,v in links.items() if typ!='careers'][:6]
-  if useful:
+  if useful and d.get('evidence_model')=='reviewed_links_v1':
+   from catalog_evidence import reviewed_links_markup
+   parts.append(reviewed_links_markup(row))
+  elif useful:
    items=''.join(f'<li><a href="{e(v["url"],quote=True)}" rel="noopener noreferrer">{NAV_LABELS[typ]}</a></li>' for typ,v in useful)
    parts.append(f'<h2>Useful pages from {name}</h2><p>Go directly to the business’s published information rather than relying on a directory category alone:</p><ul>{items}</ul><p>These official links were checked on {checked}. Details on the business’s website can change independently of this profile.</p>')
  heading,questions=QUESTIONS.get(row['category'],QUESTIONS['professional-services'])
