@@ -95608,21 +95608,28 @@
     "address": "2120 Penn Avenue, Pittsburgh, PA 15222",
     "phone": "412-281-7999",
     "source_category": "Vietnamese Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "The menu separates rice-noodle pho from an egg-noodle specialty. Confirm the chosen broth, toppings, complete price and ordering window for the Strip District location.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.phopittsburgh.com/",
       "title": "Pho Van",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://pos.chowbus.com/online-ordering/store/Pho-Van/23991",
-          "label": "Official menu or service information"
+          "label": "Pho Van menu and ordering on Chowbus",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.phopittsburgh.com/",
+            "target": "https://pos.chowbus.com/online-ordering/store/Pho-Van/23991",
+            "checked": "2026-11-21",
+            "note": "Pho Van’s website links this Chowbus store through its ordering and menu buttons. The store identifies 2120 Penn Avenue; confirm the selected order and collection time there."
+          }
         },
         "contact": {
           "url": "https://www.phopittsburgh.com/",
@@ -95633,8 +95640,11 @@
       "identity_tokens": [
         "pho",
         "van"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "energy-efficiency-empowerment": {
     "name": "Energy Efficiency Empowerment",
@@ -95797,14 +95807,14 @@
     "address": "6119 Penn Avenue, Pittsburgh, PA 15206",
     "phone": "646-982-9867",
     "source_category": "Coffee and Tea",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "Compare coffee, milk tea and bakery choices using the official menus. Drink sizes and separately priced toppings can differ by ordering channel; confirm the selected item and total directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.brewberrypgh.com/",
       "title": "Brewberry Pittsburgh",
       "description_excerpt": "",
@@ -95815,14 +95825,24 @@
         },
         "contact": {
           "url": "https://order.toasttab.com/online/brewberry-coffee-shop-6119-penn-ave",
-          "label": "Official linked ordering and contact page"
+          "label": "Brewberry ordering and store contact on Toast",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.brewberrypgh.com/",
+            "target": "https://order.toasttab.com/online/brewberry-coffee-shop-6119-penn-ave",
+            "checked": "2026-11-21",
+            "note": "Brewberry’s website links this Toast store through Order and Order Now. The destination identifies 6119 Penn Avenue. Confirm the selected pickup or delivery arrangement and complete order total."
+          }
         }
       },
       "topics": [],
       "identity_tokens": [
         "brewberry"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "texas-de-brazil-pittsburgh": {
     "name": "Texas de Brazil Pittsburgh",
@@ -96860,25 +96880,32 @@
     "address": "20111 Route 19, Space 103, Cranberry Township, PA 16066-6207",
     "phone": "724-591-5900",
     "source_category": "Sushi Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Cranberry Township",
     "source_excerpt": "",
     "description": "Compare the selected box or dish by its ingredients and contents. The official website’s dining hours and linked online ordering cutoffs differ; confirm the actual pickup window and complete price. Discuss the full preparation for dietary needs.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://shokunextdoor.com/index.html",
       "title": "Shoku Next Door",
       "description_excerpt": "",
       "links": {
         "services": {
-          "url": "https://shokunextdoor.com/shoku-next-door-menu-2026.pdf",
-          "label": "Official linked 2026 menu"
+          "url": "https://shokunextdoor.com/shoku-next-door-menu-oct-2026.pdf",
+          "label": "Current official-linked October 2026 menu PDF"
         },
         "contact": {
           "url": "https://pos.chowbus.com/online-ordering/store/Shoku-Next-Door/23833",
-          "label": "Operator-linked pickup menu and ordering windows"
+          "label": "Shoku Next Door pickup ordering on Chowbus",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://shokunextdoor.com/index.html",
+            "target": "https://pos.chowbus.com/online-ordering/store/Shoku-Next-Door/23833",
+            "checked": "2026-11-21",
+            "note": "Shoku’s homepage links this Chowbus store through Order. The destination identifies 20111 Route 19, Space 103. Its ordering cutoff is separate from the restaurant’s dining schedule."
+          }
         }
       },
       "topics": [],
@@ -96887,8 +96914,11 @@
         "next",
         "door",
         "cranberry"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "pittsburgh-paints-company-cranberry": {
     "name": "The Pittsburgh Paints Company",
