@@ -5,6 +5,7 @@ from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 from business_catalog import DATA, SITE, LABELS, FEATURES
 from directory_index import VERIFIED
+from catalog_locations import location_errors
 
 ROOT=Path(__file__).resolve().parent
 def check():
@@ -15,8 +16,9 @@ def check():
     for slug,r in DATA.items():
         page=(ROOT/'directory'/slug/'index.html').read_text()
         url=SITE+'/directory/'+slug+'/'
-        for key in ('name','address','city','website','source','source_category','category','checked'):
+        for key in ('name','city','website','source','source_category','category','checked'):
             if not r.get(key):errors.append(f'{slug}: empty {key}')
+        for problem in location_errors(r):errors.append(f'{slug}: {problem}')
         if r['category'] not in LABELS:errors.append(f'{slug}: invalid category')
         name=re.sub('[^a-z0-9]','',r['name'].lower())
         if name in names:errors.append(f'{slug}: duplicate business name')
@@ -35,7 +37,7 @@ def check():
         if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
         sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
-        if r.get('official_profile') or FEATURES.get(slug,{}).get('editorial_author'):
+        if r.get('official_profile') or r.get('editorial_author') or FEATURES.get(slug,{}).get('editorial_author'):
             if 'The Pittsburgh Wire editorial' not in page:errors.append(f'{slug}: missing editorial byline')
         elif 'rel="author">Dr. Connor Robertson' not in page:errors.append(f'{slug}: missing visible byline')
         if 'name="robots" content="index, follow"' not in page:errors.append(f'{slug}: not indexable')
@@ -45,7 +47,12 @@ def check():
         graphs=re.findall(r'<script type="application/ld\+json">(.*?)</script>',page,re.S)
         graph=json.loads(graphs[-1])['@graph']
         web=next(x for x in graph if x.get('@type')=='WebPage')
-        expected_author=SITE+('/#editorial' if r.get('official_profile') or FEATURES.get(slug,{}).get('editorial_author') else '/#founder')
+        if r.get('address_kind')=='service_area':
+            business=next(x for x in graph if x.get('@id')==url+'#business')
+            if 'address'in business or 'geo'in business:errors.append(f'{slug}: service area rendered as a street location')
+            if business.get('areaServed')!=r['area_served']:errors.append(f'{slug}: structured coverage differs from source record')
+            if 'google.com/maps/search/'in page:errors.append(f'{slug}: street map implied without a published address')
+        expected_author=SITE+('/#editorial' if r.get('official_profile') or r.get('editorial_author') or FEATURES.get(slug,{}).get('editorial_author') else '/#founder')
         if web['author']['@id']!=expected_author:errors.append(f'{slug}: invalid structured author')
     original_file=ROOT/'data/original-businesses.json'
     if original_file.exists():

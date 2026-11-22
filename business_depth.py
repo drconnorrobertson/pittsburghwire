@@ -38,7 +38,8 @@ def profile_depth(row,data):
  parts.append(f'<h2>{e(heading)} with {name}</h2><p>Use the listed category, <strong>{e(row["source_category"])}</strong>, as a starting point for your enquiry. It is a source-directory classification, so it does not establish every service offered at this address.</p><ul>'+''.join('<li>'+e(q)+'</li>' for q in questions)+'</ul>')
  same=[x for x in data.values() if x['city']==row['city'] and x['category']==row['category']]
  if len(same)>1:
-  parts.append(f'<h2>Compare businesses in {city}</h2><p>This profile is one of {len(same)} listings in this broad category with a {city} source address. The related profiles below provide other names and contact details to explore. Compare the actual services, location, and suitability of each business; listings are not ranked by quality or price.</p>')
+  location_basis=(f'with a published {city} location or related service coverage' if any(x.get('address_kind')=='service_area'for x in same) else f'with a {city} source address')
+  parts.append(f'<h2>Compare businesses in {city}</h2><p>This profile is one of {len(same)} listings in this broad category {location_basis}. The related profiles below provide other names and contact details to explore. Compare the actual services, location, and suitability of each business; listings are not ranked by quality or price.</p>')
  return '\n'.join(parts)
 
 def collection_depth(section,slugs,data):
