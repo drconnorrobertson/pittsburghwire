@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from business_catalog import DATA, SITE, LABELS, FEATURES
 from directory_index import VERIFIED
 from catalog_locations import location_errors
+from catalog_identity import duplicate_identities
 from catalog_evidence import evidence_errors
 
 ROOT=Path(__file__).resolve().parent
@@ -13,7 +14,7 @@ def check():
     errors=[]
     urls={x.text for x in ET.parse(ROOT/'directory-sitemap.xml').findall('.//{*}loc')}
     if len(urls)!=len(VERIFIED):errors.append('Directory sitemap count differs from published profiles')
-    names=set();sources=set()
+    for older,newer in duplicate_identities(DATA):errors.append(f'{newer}: duplicate business identity with {older}')
     for slug,r in DATA.items():
         page=(ROOT/'directory'/slug/'index.html').read_text()
         url=SITE+'/directory/'+slug+'/'
@@ -21,9 +22,6 @@ def check():
             if not r.get(key):errors.append(f'{slug}: empty {key}')
         for problem in location_errors(r):errors.append(f'{slug}: {problem}')
         if r['category'] not in LABELS:errors.append(f'{slug}: invalid category')
-        name=re.sub('[^a-z0-9]','',r['name'].lower())
-        if name in names:errors.append(f'{slug}: duplicate business name')
-        names.add(name)
         research=r.get('official_research',{})
         if research.get('status')=='corroborated':
             host=urlsplit(research['url']).hostname
@@ -35,8 +33,6 @@ def check():
             if words>25:errors.append(f'{slug}: source excerpt budget exceeded')
         qualifier='editorial category' if slug in FEATURES or r.get('official_profile') else 'source-directory classification'
         if qualifier not in page:errors.append(f'{slug}: missing category qualification')
-        if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
-        sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
         if r.get('official_profile') or r.get('editorial_author') or FEATURES.get(slug,{}).get('editorial_author'):
             if 'The Pittsburgh Wire editorial' not in page:errors.append(f'{slug}: missing editorial byline')

@@ -5074,5 +5074,68 @@
       }
     ],
     "profile_kind": "restaurant"
+  },
+  "the-roaming-bean": {
+    "editorial_author": true,
+    "profile_kind": "cafe_and_mobile",
+    "sections": [
+      {
+        "heading": "Choose the café visit or mobile-service enquiry",
+        "paragraphs": [
+          "The Roaming Bean operates a café and mobile coffee service under the same name. VisitPITTSBURGH identifies the café at 1455 Smallman Street in Pittsburgh’s Strip District. The operator’s website describes mobile coffee catering and says hours vary by location and week. A café address therefore does not establish where a truck will be on a particular day.",
+          "For a café visit, confirm the Smallman Street location and current hours. For a mobile stop, check the operator’s weekly schedule. For a private event, start with the catering information and confirm the date, location, guest count, service duration and access arrangements directly."
+        ],
+        "source_url": "https://www.visitpittsburgh.com/directory/the-roaming-bean/",
+        "source_label": "VisitPITTSBURGH café and mobile-service listing"
+      },
+      {
+        "heading": "Use the contact for the service you need",
+        "paragraphs": [
+          "VisitPITTSBURGH lists 412-427-8822 with the Smallman Street café address. The operator’s About page separately gives 412-337-0769 for catering information. These are different published contact routes; this profile does not treat one as a replacement for the other.",
+          "The operator describes espresso drinks, specialty lattes and bakery items in its mobile-service information. Confirm the available menu, dietary requirements and complete event quote with the provider. Published examples do not establish availability for a particular stop or event."
+        ],
+        "source_url": "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
+        "source_label": "Operator’s mobile coffee and catering information"
+      },
+      {
+        "heading": "Check the mobile menu and seasonal selections",
+        "paragraphs": [
+          "The operator’s services page separates its classic espresso and tea drinks from seasonal specialty selections. Use that page as a starting point, then confirm the actual menu for the café, mobile stop or event you intend to use."
+        ],
+        "source_url": "https://theroamingbean.coffee/venetia-the-roaming-bean-services",
+        "source_label": "Operator’s mobile espresso menu"
+      },
+      {
+        "heading": "Check the weekly schedule before travelling",
+        "paragraphs": [
+          "The operator publishes a weekly schedule and says hours differ by location. Check the relevant location and date before setting out; a listed café address does not confirm a mobile unit’s position."
+        ],
+        "source_url": "https://theroamingbean.coffee/venetia-the-roaming-bean-weekly-schedule",
+        "source_label": "Operator’s weekly schedule"
+      }
+    ],
+    "related": [
+      {
+        "url": "/news/roaming-bean-strip-district-cafe-mobile-coffee-guide",
+        "label": "Roaming Bean café and mobile coffee guide"
+      },
+      {
+        "url": "/directory/1930-cigar-bar/",
+        "label": "1930 Cigar Bar"
+      },
+      {
+        "url": "/directory/3-rivers-lounge/",
+        "label": "3 Rivers Lounge"
+      },
+      {
+        "url": "/directory/3-rivers-restaurant/",
+        "label": "3 Rivers Restaurant"
+      },
+      {
+        "url": "/directory/alihan-s-coffee-breakfast/",
+        "label": "Alihan’s Coffee & Breakfast"
+      }
+    ],
+    "scope_note": "The editorial category groups related published activities. Confirm café hours, mobile appearances and event arrangements with the provider. Inclusion is not an independent rating or a guarantee of service quality."
   }
 }

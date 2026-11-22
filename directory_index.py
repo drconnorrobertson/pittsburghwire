@@ -14,6 +14,7 @@ CATEGORIES = (
 
 # Old profile URLs stay available through permanent redirects in vercel.json.
 ALIASES = {
+    "roaming-bean-strip-district": "the-roaming-bean",
     "construction-junction-retail": "construction-junction",
     "gaucho-parrilla-argentina": "gaucho-parrilla",
     "s-and-w-randall-toyes-downtown": "sw-randall-toyes",

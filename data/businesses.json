@@ -16683,31 +16683,31 @@
   },
   "the-roaming-bean": {
     "name": "The Roaming Bean",
-    "website": "https://theroamingbean.coffee",
+    "website": "https://theroamingbean.coffee/",
     "source": "https://www.visitpittsburgh.com/directory/the-roaming-bean/",
     "source_name": "VisitPITTSBURGH",
-    "address": "1455 Smallman St. Pittsburgh, Pennsylvania 15222",
+    "address": "1455 Smallman Street, Pittsburgh, PA 15222",
     "phone": "+1-412-427-8822",
-    "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "source_category": "Coffee Shop",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
-    "source_excerpt": "Creative lattes and thoughtfully made coffee using high-quality ingredients, served from a rotating weekly schedule.",
-    "description": "The Roaming Bean: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "source_excerpt": "",
+    "description": "The Smallman Street café and mobile coffee service share one operator. Check the weekly schedule for a visit and use the separate catering contact for an event enquiry.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-07",
-      "url": "https://theroamingbean.coffee",
-      "title": "Best Coffee Shop in Venetia, PA | The Roaming Bean",
-      "description_excerpt": "Creative lattes and thoughtfully made coffee using high-quality ingredients, served from a rotating weekly schedule.",
+      "checked": "2026-11-21",
+      "url": "https://theroamingbean.coffee/",
+      "title": "The Roaming Bean",
+      "description_excerpt": "",
       "links": {
+        "services": {
+          "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-weekly-schedule",
+          "label": "Operator’s weekly schedule"
+        },
         "about": {
           "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
-          "label": "about"
-        },
-        "services": {
-          "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-services",
-          "label": "services"
+          "label": "Operator’s mobile coffee and catering information"
         }
       },
       "topics": [],
@@ -16716,8 +16716,8 @@
         "bean"
       ]
     },
-    "source_excerpt_url": "https://theroamingbean.coffee",
-    "source_excerpt_name": "the business’s official website"
+    "published": "2026-10-07",
+    "editorial_author": true
   },
   "the-runner-stone-mill-house-restaurant-bar": {
     "name": "The Runner Stone Mill House Restaurant & Bar",
@@ -95691,7 +95691,7 @@
     "name": "Bar Marco",
     "website": "https://www.barmarcopgh.com/",
     "source": "https://www.barmarcopgh.com/",
-    "source_name": "Official restaurant and brewery information",
+    "source_name": "Bar Marco restaurant website and sample menu information",
     "address": "2216 Penn Avenue, Pittsburgh, PA 15222",
     "phone": "412-471-1900",
     "source_category": "Restaurant",
@@ -95908,42 +95908,6 @@
       "identity_tokens": [
         "polly",
         "esther"
-      ]
-    }
-  },
-  "roaming-bean-strip-district": {
-    "name": "The Roaming Bean",
-    "website": "https://theroamingbean.coffee/",
-    "source": "https://theroamingbean.coffee/",
-    "source_name": "Official business website; café address corroborated by opening coverage",
-    "address": "1455 Smallman Street, Pittsburgh, PA 15222",
-    "phone": "412-337-0769",
-    "source_category": "Coffee Shop",
-    "checked": "2026-10-13",
-    "category": "food-and-drink",
-    "city": "Pittsburgh",
-    "source_excerpt": "",
-    "description": "Ask specifically about the Smallman Street café or the desired mobile stop. The official site lists weekly location-based schedules and separate event-service enquiries; confirm the current visit arrangements directly.",
-    "official_research": {
-      "status": "corroborated",
-      "checked": "2026-10-13",
-      "url": "https://theroamingbean.coffee/",
-      "title": "The Roaming Bean",
-      "description_excerpt": "",
-      "links": {
-        "services": {
-          "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
-          "label": "Official service and business information"
-        },
-        "contact": {
-          "url": "https://theroamingbean.coffee/",
-          "label": "Official contact or location information"
-        }
-      },
-      "topics": [],
-      "identity_tokens": [
-        "roaming",
-        "bean"
       ]
     }
   },

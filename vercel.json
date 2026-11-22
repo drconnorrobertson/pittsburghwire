@@ -46,6 +46,16 @@
   ],
   "redirects": [
     {
+      "source": "/directory/roaming-bean-strip-district/",
+      "destination": "/directory/the-roaming-bean/",
+      "permanent": true
+    },
+    {
+      "source": "/directory/roaming-bean-strip-district",
+      "destination": "/directory/the-roaming-bean/",
+      "permanent": true
+    },
+    {
       "source": "/news/downtown-pittsburgh-pdp-vibrancy-small-business/",
       "destination": "/news/pittsburgh-downtown-pdp-vibrancy-small-business",
       "permanent": true

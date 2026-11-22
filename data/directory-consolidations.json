@@ -1,0 +1,24 @@
+[
+  {
+    "retired": "roaming-bean-strip-district",
+    "canonical": "the-roaming-bean",
+    "checked": "2026-11-21",
+    "identity": "Same business name, official website, and 1455 Smallman Street address. Café and mobile service are complementary offerings, not separate directory businesses.",
+    "sources": [
+      {
+        "url": "https://www.visitpittsburgh.com/directory/the-roaming-bean/",
+        "supports": "Café address and café phone 412-427-8822; same operator official website and social identity."
+      },
+      {
+        "url": "https://theroamingbean.coffee/venetia-the-roaming-bean-about-us",
+        "supports": "Mobile coffee service and separate catering contact 412-337-0769."
+      },
+      {
+        "url": "https://theroamingbean.coffee/",
+        "supports": "Operator says hours vary by location and week, with a weekly schedule link."
+      }
+    ],
+    "publicationPreserved": "2026-10-07",
+    "redirect": "Permanent, both slash forms, to canonical profile; old fallback is noindex and links to owner."
+  }
+]
