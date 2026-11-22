@@ -6,7 +6,8 @@ from urllib.parse import urlsplit
 MODEL = 'reviewed_links_v1'
 RELATIONSHIPS = {'business_linked': 'Business-linked external provider',
                  'host_venue': 'Host venue information',
-                 'official_chain': 'Official chain information'}
+                 'official_chain': 'Official chain information',
+                 'matched_listing': 'Separately matched provider listing'}
 
 def evidence_errors(research, link):
     url = link.get('url', '')
@@ -27,8 +28,8 @@ def evidence_errors(research, link):
         errors.append('external evidence requires HTTPS source and destination')
     if evidence.get('relationship') in {'business_linked', 'official_chain'} and urlsplit(source).hostname != host:
         errors.append('linked-source evidence must originate on the business website')
-    if evidence.get('relationship') == 'host_venue' and (source != url or evidence.get('business_url') != research.get('url')):
-        errors.append('host venue evidence requires its exact page and reciprocal business URL')
+    if evidence.get('relationship') in {'host_venue', 'matched_listing'} and (source != url or evidence.get('business_url') != research.get('url')):
+        errors.append('venue or matched-listing evidence requires its exact page and business URL')
     try:
         checked = date.fromisoformat(evidence.get('checked', ''))
         if checked > date.today():
