@@ -48,6 +48,7 @@ def write(repo,page_shell):
             linked=[link['url'].strip('/').split('/')[-1] for link in FEATURES[slug]['related'] if link['url'].startswith('/directory/')]
             peers=[s for s in linked if s in VERIFIED and s != slug][:4]
         related=''.join(f'<a class="biz-card" href="/directory/{s}/"><div class="biz-name">{escape(names[s])}</div></a>' for s in peers)
+        related_section=(f'<h2 class="month-head">More {label} in the Pittsburgh Area</h2><div class="biz-grid">{related}</div>' if related else '')
         phone=(f'<dt>Phone</dt><dd><a href="tel:{escape(r["phone"],quote=True)}">{escape(r["phone"])}</a></dd>' if r['phone'] else '')
         excerpt_source=escape(r.get('source_excerpt_url',r['source']),quote=True)
         excerpt_name=escape(r.get('source_excerpt_name',r['source_name']))
@@ -72,7 +73,7 @@ def write(repo,page_shell):
 <h2>Profile sources</h2><p>Listing details checked {date.fromisoformat(r['checked']).strftime('%B %d, %Y').replace(' 0', ' ')} against <a href="{source}" rel="noopener noreferrer">{escape(r['source_name'])}’s business listing</a>. Inclusion documents a published business listing and does not imply a rating, affiliation, or personal visit. <a href="/contact">Send a correction</a> if details change.</p>
 <a class="directory-back" href="/directory/">Explore the Pittsburgh Wire business directory →</a></div>
 <aside class="profile-facts" aria-label="Business details"><h2>Business details</h2><dl><dt>Business</dt><dd>{name}</dd><dt>Listed category</dt><dd>{escape(r['source_category'])}</dd><dt>Address</dt><dd>{address}</dd>{phone}<dt>Website</dt><dd><a href="{website}" rel="noopener noreferrer">{escape(r['website'])}</a></dd><dt>Explore</dt><dd><a href="/directory/{cat}/">More {label.lower()} businesses</a></dd></dl></aside></div>
-<h2 class="month-head">More {label} in the Pittsburgh Area</h2><div class="biz-grid">{related}</div></main>'''
+{related_section}</main>'''
         postal=re.search(r'\b\d{5}(?:-\d{4})?\b',r['address'])
         entity={'@type':'Organization','@id':url+'#business','name':r['name'],'url':r['website'],'address':{'@type':'PostalAddress','streetAddress':r['address'].split(', '+r['city'])[0].split(' '+r['city']+',')[0],'addressLocality':r['city'],'addressRegion':'PA','addressCountry':'US'},'sameAs':[r['source']]}
         if postal:entity['address']['postalCode']=postal.group()

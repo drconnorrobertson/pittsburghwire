@@ -20,6 +20,7 @@ class P(HTMLParser):
 page=P();page.feed((ROOT/'directory/gi-jin/index.html').read_text());assert page.h1==1 and page.canonical==[URL] and 'noindex'not in page.meta['robots']
 for link in['https://gi-jin.com/','https://gi-jin.com/menu/','https://gi-jin.com/contact-us/','https://www.visitpittsburgh.com/directory/gi-jin/','tel:+1-412-332-6939','/directory/food-and-drink/','/neighborhoods/downtown/']:assert link in page.links,link
 assert 'http://www.richarddeshantz.com'not in page.links
+assert 'More Food &amp; Drink in the Pittsburgh Area'not in (ROOT/'directory/gi-jin/index.html').read_text()
 nodes=[n for obj in page.schemas for n in obj.get('@graph',[obj])];web=next(n for n in nodes if n.get('@type')=='WebPage');biz=next(n for n in nodes if n.get('@id')==URL+'#business')
 assert web['datePublished']=='2026-10-07'and web['dateModified']=='2026-11-21'and web['author']['@id']=='https://www.thepittsburghwire.com/#editorial'
 assert biz['url']=='https://gi-jin.com/'and biz['telephone']=='+1-412-332-6939'
