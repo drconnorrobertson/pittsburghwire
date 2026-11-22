@@ -96605,21 +96605,28 @@
     "address": "4906 William Flinn Highway, Suite 101, Allison Park, PA 15101",
     "phone": "724-931-3319",
     "source_category": "Dessert Shop",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Allison Park",
     "source_excerpt": "",
-    "description": "The local page currently lists Friday through Sunday hours. Confirm weekday service, current weekly specials and order availability directly; the linked menu image has no date for its weekly promotions. Consult staff about ingredients and cross-contact.",
+    "description": "The live Allison Park page lists Monday–Thursday closed, Friday 3–10 p.m., Saturday noon–10 p.m. and Sunday noon–9 p.m. Confirm the intended visit and current menu availability directly; a weekly-special image is a source snapshot, not a promise of stock. Ask staff about ingredients and cross-contact.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://crispycones.com/allisonpark-pa",
       "title": "Crispy Cones Allison Park",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://cdn-prod.thecrispycones.com/Menu/CC-menu.png",
-          "label": "Menu linked by the official local page"
+          "label": "Menu linked by the official local page",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://crispycones.com/allisonpark-pa",
+            "target": "https://cdn-prod.thecrispycones.com/Menu/CC-menu.png",
+            "checked": "2026-11-21",
+            "note": "The live Allison Park location page links this exact menu image. It was reviewed as a current source snapshot; the weekly graphic itself supplies no calendar date, and current stock is not established."
+          }
         },
         "about": {
           "url": "https://crispycones.com/allergen",
@@ -96632,8 +96639,11 @@
         "cones",
         "allison",
         "park"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "compass-point-coffee-millvale": {
     "name": "Compass Point Coffee — Millvale",
