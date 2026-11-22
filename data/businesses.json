@@ -96516,25 +96516,40 @@
     "address": "2516 East Carson Street, Pittsburgh, PA 15203",
     "phone": "412-230-4480",
     "source_category": "Italian Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
-    "description": "Confirm current seating, menu availability and BYOB charges directly. The official-linked menu and Toast listing display different corkage amounts; the online checkout status does not establish dining-room availability.",
+    "description": "Use the restaurant-linked menu and separately matched Toast listing, then confirm seating, dish availability and applicable charges directly. Both reviewed sources display $10 corkage; published prices and online ordering status do not establish the final bill or dining-room availability.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://capozolis.com/",
       "title": "Capozoli’s",
       "description_excerpt": "",
       "links": {
         "services": {
-          "url": "https://drive.google.com/file/d/1VbmOAWVLqKduxlAigsKcqspyhx7cppQo/view",
-          "label": "Menu linked by the official restaurant website"
+          "url": "https://drive.google.com/file/d/1VbmOAWVLqKduxlAigsKcqspyhx7cppQo/view?usp=sharing",
+          "label": "Menu linked by the official restaurant website",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://capozolis.com/",
+            "target": "https://drive.google.com/file/d/1VbmOAWVLqKduxlAigsKcqspyhx7cppQo/view?usp=sharing",
+            "checked": "2026-11-21",
+            "note": "The restaurant homepage links this September 2026 menu document. The reviewed footnote lists $10 corkage per bottle and a $5 split-entrée charge; confirm applicable charges before a visit."
+          }
         },
         "about": {
-          "url": "https://www.toasttab.com/local/order/capozolis-2516-east-carson-street/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef",
-          "label": "Operator-managed Toast listing"
+          "url": "https://toast.app/r/capozolis-2516-east-carson-street/order/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef?utm_medium=redirect",
+          "label": "Toast listing matched by website, street address and phone",
+          "evidence": {
+            "relationship": "matched_listing",
+            "source": "https://toast.app/r/capozolis-2516-east-carson-street/order/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef?utm_medium=redirect",
+            "target": "https://toast.app/r/capozolis-2516-east-carson-street/order/item-corkage-fee_94046e7a-6dd6-4cb8-82b8-9012526758ef?utm_medium=redirect",
+            "business_url": "https://capozolis.com/",
+            "checked": "2026-11-21",
+            "note": "This provider page links capozolis.com and displays 2516 East Carson Street and 412-230-4480, matching the restaurant website. Its corkage item displayed $10 during this review; this is a published-price snapshot, not a confirmed charge or service availability."
+          }
         }
       },
       "topics": [],
@@ -96542,8 +96557,11 @@
         "capozolis",
         "south",
         "side"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "avalon-exchange-squirrel-hill": {
     "name": "Avalon Exchange — Squirrel Hill",
