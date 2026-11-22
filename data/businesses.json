@@ -96440,25 +96440,21 @@
     "address": "916 Merchant Street, Ambridge, PA 15003",
     "phone": "724-293-4111",
     "source_category": "Pizza Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Ambridge",
     "source_excerpt": "",
-    "description": "Confirm the Ambridge restaurant pickup order separately from a private food-truck event. Ask for current availability and a written event quote because published catering service-time descriptions differ.",
+    "description": "Use the 916 Merchant Street pickup menu and confirm the intended pickup time, selected items and total directly. This reviewed ordering record does not establish current food-truck event bookings or catering terms; ask the restaurant to identify the correct event contact before booking.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
       "title": "Black Dog Wood Fired Ambridge",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://order.toasttab.com/online/black-dog-wood-fired-916-merchant-street",
-          "label": "Official local menu or service information"
-        },
-        "contact": {
-          "url": "https://blackdogwoodfired.com/contact-us/",
-          "label": "Official enquiry route"
+          "label": "Ambridge restaurant pickup menu and contact information"
         }
       },
       "topics": [],
@@ -96468,8 +96464,12 @@
         "wood",
         "fired",
         "ambridge"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1",
+      "scope_note": "This review confirms the 916 Merchant Street restaurant ordering record. It does not establish a current catering booking route; confirm any event arrangements with the restaurant directly."
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "tekton-innovations-brookline": {
     "name": "Tekton Innovations Brookline",
@@ -96762,7 +96762,8 @@
         "spot",
         "garfield"
       ],
-      "evidence_model": "reviewed_links_v1"
+      "evidence_model": "reviewed_links_v1",
+      "scope_note": "The café website supplies operator information. The separately identified festival publisher supplies third-party venue background; confirm current access and event arrangements with the café directly."
     },
     "published": "2026-10-13",
     "editorial_author": "The Pittsburgh Wire editorial"
