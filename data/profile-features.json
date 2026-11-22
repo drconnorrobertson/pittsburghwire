@@ -5021,5 +5021,58 @@
         "label": "Plant workshop booking"
       }
     ]
+  },
+  "gi-jin": {
+    "checked": "2026-11-21",
+    "editorial_author": true,
+    "scope_note": "The editorial category groups dining businesses. Published menus, opening arrangements and charges can change independently of this profile.",
+    "sections": [
+      {
+        "heading": "A direct starting point for a Downtown dinner",
+        "paragraphs": [
+          "Gi-Jin’s own website describes a focus on sushi, hand rolls and gin. It lists the restaurant at 208 Sixth Street in Downtown Pittsburgh and publishes the telephone number 412-332-6939. These details match the location and telephone in VisitPITTSBURGH’s listing. Use the dedicated restaurant site below instead of starting from a general restaurant-group homepage.",
+          "For a first visit, keep three tasks separate: review the menu, find an available booking, and plan the trip to the address. A directory description can orient you, but it is not a reservation or a confirmation that a particular item will be available."
+        ],
+        "source_url": "https://gi-jin.com/",
+        "source_label": "Gi-Jin official restaurant information"
+      },
+      {
+        "heading": "Menu and the posted operational fee",
+        "paragraphs": [
+          "The restaurant’s menu page is the direct route for its current menu information. When checked on November 21, 2026, that page posted a 3% operational fee and described it as separate from gratuity. Read the current notice when planning the meal rather than treating a copied menu or an older directory entry as the final bill.",
+          "Before booking for someone else, share the direct menu link and collect the questions that matter for the group. Ask the restaurant about dietary needs and current arrangements. This profile does not establish allergen handling, a quoted total, or a particular seating option."
+        ],
+        "source_url": "https://gi-jin.com/menu/",
+        "source_label": "Gi-Jin menu and current fee notice"
+      },
+      {
+        "heading": "Published hours and a date-specific plan",
+        "paragraphs": [
+          "Gi-Jin’s homepage listed Tuesday through Saturday, 5–10 p.m., when checked November 21, 2026. Use the restaurant’s own booking and contact routes for the date you want, including any holiday changes. The published weekly schedule does not confirm that a table is available.",
+          "Have the date, desired time and party size ready when checking the restaurant’s booking route. If your plans need a specific arrangement, resolve that with the restaurant before organizing the rest of the outing. No booking, meal purchase or personal visit was made for this editorial profile."
+        ],
+        "source_url": "https://gi-jin.com/",
+        "source_label": "Gi-Jin published hours and booking links"
+      }
+    ],
+    "related": [
+      {
+        "url": "https://gi-jin.com/menu/",
+        "label": "Official menu"
+      },
+      {
+        "url": "https://gi-jin.com/contact-us/",
+        "label": "Restaurant contact page"
+      },
+      {
+        "url": "/directory/food-and-drink/",
+        "label": "More food and drink listings"
+      },
+      {
+        "url": "/neighborhoods/downtown/",
+        "label": "Downtown Pittsburgh guide"
+      }
+    ],
+    "profile_kind": "restaurant"
   }
 }

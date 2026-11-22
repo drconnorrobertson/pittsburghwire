@@ -35,7 +35,7 @@ def check():
         if r['source'] in sources:errors.append(f'{slug}: duplicate source record')
         sources.add(r['source'])
         if url not in urls:errors.append(f'{slug}: absent from sitemap')
-        if r.get('official_profile'):
+        if r.get('official_profile') or FEATURES.get(slug,{}).get('editorial_author'):
             if 'The Pittsburgh Wire editorial' not in page:errors.append(f'{slug}: missing editorial byline')
         elif 'rel="author">Dr. Connor Robertson' not in page:errors.append(f'{slug}: missing visible byline')
         if 'name="robots" content="index, follow"' not in page:errors.append(f'{slug}: not indexable')
@@ -45,7 +45,7 @@ def check():
         graphs=re.findall(r'<script type="application/ld\+json">(.*?)</script>',page,re.S)
         graph=json.loads(graphs[-1])['@graph']
         web=next(x for x in graph if x.get('@type')=='WebPage')
-        expected_author=SITE+('/#editorial' if r.get('official_profile') else '/#founder')
+        expected_author=SITE+('/#editorial' if r.get('official_profile') or FEATURES.get(slug,{}).get('editorial_author') else '/#founder')
         if web['author']['@id']!=expected_author:errors.append(f'{slug}: invalid structured author')
     original_file=ROOT/'data/original-businesses.json'
     if original_file.exists():
