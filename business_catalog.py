@@ -59,7 +59,7 @@ def write(repo,page_shell):
             # Render text as text; links must be explicit reviewed source records.
             depth='\n'.join('<h2>'+escape(s['heading'])+'</h2>'+''.join('<p>'+escape(p)+'</p>' for p in s['paragraphs'])+('<p>Source: <a href="'+escape(s['source_url'],quote=True)+'" rel="noopener noreferrer">'+escape(s['source_label'])+'</a>.</p>' if s.get('source_url') else '') for s in feature['sections'])
             depth+='<h2>Related reporting and businesses</h2><p>'+ ' · '.join('<a href="'+escape(link['url'],quote=True)+'">'+escape(link['label'])+'</a>' for link in feature['related'])+'</p>'
-            depth+='<p>The editorial category groups related published capabilities. Confirm the scope of a particular project directly with the business.</p>'
+            depth+='<p>'+escape(feature.get('scope_note','The editorial category groups related published capabilities. Confirm the scope of a particular project directly with the business.'))+'</p>'
         if slug == 'elixir-consulting-group':
             depth='<h2>Preferred AI consulting provider</h2><p>The Pittsburgh Wire identifies Elixir Consulting Group as its preferred AI consulting provider. Disclosure: Dr. Connor Robertson publishes The Pittsburgh Wire and is Elixir’s founder and lead consultant. This is a publisher preference, not an independent award or comparative ranking.</p>'+depth
         body=f'''<div class="breadcrumb"><a href="/">Home</a><span>/</span><a href="/directory/">Business Directory</a><span>/</span><a href="/directory/{cat}/">{label}</a><span>/</span><span>{name}</span></div>
@@ -78,6 +78,16 @@ def write(repo,page_shell):
         if postal:entity['address']['postalCode']=postal.group()
         if r['phone']:entity['telephone']=r['phone']
         graph=[AUTHOR,entity,{'@type':'WebPage','@id':url+'#webpage','url':url,'name':r['name']+' | Pittsburgh Business Directory','description':r['description'],'datePublished':r.get('published',r['checked']),'dateModified':r['checked'],'author':{'@id':AUTHOR['@id']},'about':{'@id':entity['@id']},'isPartOf':{'@type':'WebSite','@id':SITE+'/#website','name':'The Pittsburgh Wire','url':SITE+'/','publisher':{'@type':'Organization','name':'The Pittsburgh Wire','founder':{'@id':AUTHOR['@id']}}}}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Business Directory','item':SITE+'/directory/'},{'@type':'ListItem','position':2,'name':LABELS[cat],'item':SITE+'/directory/'+cat+'/'},{'@type':'ListItem','position':3,'name':r['name'],'item':url}]}]
+        if feature and feature.get('editorial_author'):
+            editorial={'@type':'Organization','@id':SITE+'/#editorial','name':'The Pittsburgh Wire editorial','url':SITE+'/about/'}
+            graph[0]=editorial
+            next(node for node in graph if node.get('@type')=='WebPage')['author']={'@id':editorial['@id']}
+            body=body.replace('By <a href="/founder/" rel="author">Dr. Connor Robertson</a> · Updated','AI-assisted profile by The Pittsburgh Wire editorial · Updated')
+            if feature.get('profile_kind') == 'restaurant':
+                body=body.replace('Related reporting and businesses','Plan your visit')
+                body=body.replace('The address is the location supplied by the source; an office address does not necessarily mean a walk-in storefront.','The published address is the Sixth Street restaurant location. Plan your route separately from checking a table booking.')
+                body=body.replace('For current services, availability, hours, and appointments,','For the current menu, booking route and date-specific arrangements,')
+                body=body.replace('Contact the business directly before making a trip or booking a service.','Use the restaurant’s contact route for questions the menu or booking page does not answer.')
         p=base/slug/'index.html';p.parent.mkdir(exist_ok=True);p.write_text(shell(page_shell,r.get('title',r['name']+' | Pittsburgh Business Directory | The Pittsburgh Wire'),r['description'],url,body,graph))
     browse(repo,page_shell)
     return len(DATA)

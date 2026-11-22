@@ -6527,21 +6527,42 @@
   },
   "gi-jin": {
     "name": "Gi-Jin",
-    "website": "http://www.richarddeshantz.com",
+    "website": "https://gi-jin.com/",
     "source": "https://www.visitpittsburgh.com/directory/gi-jin/",
     "source_name": "VisitPITTSBURGH",
     "address": "208 6th St. Pittsburgh, Pennsylvania 15222",
     "phone": "+1-412-332-6939",
     "source_category": "Dining & Nightlife",
-    "checked": "2026-10-07",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "Gi-Jin is an intimate sushi and spirits destination in the heart of Pittsburgh, celebrating the artistry of Japanese cuisine and…",
-    "description": "Gi-Jin: Dining & Nightlife in the Pittsburgh area. Find the listed address, contact details, website, and related businesses.",
+    "description": "Find Gi-Jin’s official menu, published hours and contact details for its Sixth Street restaurant in Downtown Pittsburgh. Check current booking and fee information.",
     "official_research": {
-      "status": "identity-unconfirmed",
-      "checked": "2026-10-07"
-    }
+      "status": "corroborated",
+      "checked": "2026-11-21",
+      "url": "https://gi-jin.com/",
+      "title": "Gi-Jin official restaurant website",
+      "description_excerpt": "",
+      "links": {
+        "menu": {
+          "url": "https://gi-jin.com/menu/",
+          "label": "menu"
+        },
+        "contact": {
+          "url": "https://gi-jin.com/contact-us/",
+          "label": "contact"
+        }
+      },
+      "topics": [],
+      "identity_tokens": [
+        "gi-jin",
+        "208 6th",
+        "4123326939"
+      ]
+    },
+    "published": "2026-10-07",
+    "title": "Gi-Jin in Downtown Pittsburgh: Menu, Hours & Contact | The Pittsburgh Wire"
   },
   "giovanni-s-pizza-and-pasta": {
     "name": "Giovanni's Pizza and Pasta",
