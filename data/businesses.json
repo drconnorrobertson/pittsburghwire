@@ -97600,28 +97600,42 @@
     "address": "110 South Pike Road, Suite 207, Sarver, PA 16055",
     "phone": "724-524-1179",
     "source_category": "Archery Lessons and Range Options",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "arts-and-culture",
     "city": "Sarver",
     "source_excerpt": "",
-    "description": "Indoor 10-yard and 20-yard lanes and private or group instruction by appointment. Confirm the duration covered by the posted lane fee and whether equipment or instruction costs extra.",
+    "description": "Cabot Archery announces plans to close at the end of 2026 and says it will continue serving customers in the meantime. Confirm current appointments, lane availability and any final service dates directly; the notice does not give an exact last operating day.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://cabotarchery.com/",
       "title": "Cabot Archery",
       "description_excerpt": "",
       "links": {
         "services": {
+          "url": "https://cabotarchery.com/",
+          "label": "Official year-end closing announcement and service information"
+        },
+        "contact": {
           "url": "https://www.facebook.com/cabotarchery/",
-          "label": "Official services and current visitor information"
+          "label": "Facebook page linked by the operator website",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://cabotarchery.com/",
+            "target": "https://www.facebook.com/cabotarchery/",
+            "checked": "2026-11-21",
+            "note": "The current operator homepage links this exact Facebook page. Read the year-end 2026 closing announcement on the operator website and confirm remaining service dates directly."
+          }
         }
       },
       "topics": [],
       "identity_tokens": [
         "cabot-archery"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "llbean-north-park-archery": {
     "name": "L.L.Bean North Park Archery Lessons",
