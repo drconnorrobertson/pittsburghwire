@@ -97158,31 +97158,50 @@
   },
   "opafe-bakery-southside-works": {
     "name": "Opafe Bakery — SouthSide Works",
-    "website": "https://www.instagram.com/opafebakery/",
-    "source": "https://www.instagram.com/p/Ddg6Yrgia-7/",
-    "source_name": "Official public bakery posts; address corroborated by September 28 Patch report updated October 1",
+    "website": "https://www.opafe.com/",
+    "source": "https://www.opafe.com/",
+    "source_name": "Opafe Bakery website",
     "address": "2720 Sidney Street, Pittsburgh, PA 15203",
-    "phone": "",
+    "phone": "412-440-8888",
     "source_category": "Bakery and Café",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
-    "description": "South Side operation is supported by the bakery’s September soft-opening and October service posts, with 2720 Sidney Street identified in dated local reporting. Check the operator’s current hours and menu; the property directory retains an older coming-soon label. A separate 800 Penn Avenue proposal does not establish Downtown operations.",
+    "description": "Use the operator website for 2720 Sidney Street, its published daily 7 a.m.–9 p.m. hours and 412-440-8888 contact. Pickup ordering has its own available times; confirm selected items and the intended visit directly. Dated South Side opening reports do not establish current Downtown operations.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
-      "url": "https://www.instagram.com/p/Ddg6Yrgia-7/",
-      "title": "Opafe Bakery South Side Opening Updates",
+      "checked": "2026-11-21",
+      "url": "https://www.opafe.com/",
+      "title": "Opafe Bakery SouthSide Works",
       "description_excerpt": "",
       "links": {
         "services": {
-          "url": "https://www.instagram.com/opafebakery/p/Dd9U1fLCzqq/",
-          "label": "October 1 operator service update"
+          "url": "https://www.opafe.com/menu/",
+          "label": "Bakery website menu"
+        },
+        "contact": {
+          "url": "https://pos.chowbus.com/online-ordering/store/OPA-FE/50278",
+          "label": "Pickup ordering linked by the bakery website",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.opafe.com/",
+            "target": "https://pos.chowbus.com/online-ordering/store/OPA-FE/50278",
+            "checked": "2026-11-21",
+            "note": "The operator website links this exact OPA FE store, which displays 2720 Sidney Street. Ordering times can differ from café hours; review the available pickup window and total before ordering."
+          }
         },
         "about": {
           "url": "https://patch.com/pennsylvania/pittsburgh/artisan-bakery-cafe-opens-pittsburgh",
-          "label": "Dated South Side opening and address report"
+          "label": "Patch opening report — September 28, updated October 1, 2026",
+          "evidence": {
+            "relationship": "matched_listing",
+            "source": "https://patch.com/pennsylvania/pittsburgh/artisan-bakery-cafe-opens-pittsburgh",
+            "target": "https://patch.com/pennsylvania/pittsburgh/artisan-bakery-cafe-opens-pittsburgh",
+            "business_url": "https://www.opafe.com/",
+            "checked": "2026-11-21",
+            "note": "Dated local reporting identifies Opafe Bakery at 2720 Sidney Street, matching the operator website. This is third-party historical opening coverage, not an operator statement of current hours or a Downtown opening confirmation."
+          }
         }
       },
       "topics": [],
@@ -97190,8 +97209,12 @@
         "opafe",
         "bakery",
         "southside"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1",
+      "scope_note": "The bakery website supplies current published visit details and links the pickup provider. Patch is dated third-party opening coverage, not the operator’s current menu or schedule."
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "three-rivers-auto-glass-warrendale": {
     "name": "Three Rivers Auto Glass — Warrendale",
