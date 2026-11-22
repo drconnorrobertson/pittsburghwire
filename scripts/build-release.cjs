@@ -13,4 +13,5 @@ for (const [program, args] of [
   ['node', ['scripts/practical-homepage.cjs', '.']],
   ['python3', ['service_buying_guides.py']],
   ['python3', ['scripts/connect-visit-guides.py']],
+  ['python3', ['scripts/category-directory-search.py']],
 ]) execFileSync(program, args, {cwd, stdio:'inherit'});
