@@ -94532,28 +94532,38 @@
     "address": "3495 Butler Street, Pittsburgh, PA 15201",
     "phone": "",
     "source_category": "Barbershop",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "health-and-wellness",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "Circa’s Pittsburgh booking menu separates standard haircuts, skin fades, scissor or transformation cuts and beard services. Confirm the selected service, provider and appointment terms.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.circabarbershop.com/barbers",
       "title": "Circa Pittsburgh team and booking",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://getsquire.com/discover/barbershop/circa-pittsburgh-pittsburgh",
-          "label": "Pittsburgh services and booking"
+          "label": "Pittsburgh services and booking on SQUIRE",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.circabarbershop.com/barbers",
+            "target": "https://getsquire.com/discover/barbershop/circa-pittsburgh-pittsburgh",
+            "checked": "2026-11-21",
+            "note": "The Pittsburgh section of Circa’s team page links this SQUIRE shop; the destination identifies 3495 Butler Street. Choose the service and barber in that booking flow."
+          }
         }
       },
       "topics": [],
       "identity_tokens": [
         "circa"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "gaynors-school-of-cooking": {
     "name": "Gaynor’s School of Cooking",
@@ -95407,21 +95417,28 @@
     "address": "936 Sheraton Drive, Mars, PA 16046",
     "phone": "412-899-8888",
     "source_category": "Sichuan Restaurant",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Mars",
     "source_excerpt": "",
     "description": "Use the local linked menu to compare explicitly labelled shared and individual portions. Confirm current hours and the complete food order directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.laoszechuanpgh.com/",
       "title": "Lao Sze Chuan Pittsburgh",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://pos.chowbus.com/online-ordering/store/Lao-Sze-Chuan-Pittsburgh/22755",
-          "label": "Official-linked menu"
+          "label": "Lao Sze Chuan Pittsburgh ordering on Chowbus",
+          "evidence": {
+            "relationship": "business_linked",
+            "source": "https://www.laoszechuanpgh.com/",
+            "target": "https://pos.chowbus.com/online-ordering/store/Lao-Sze-Chuan-Pittsburgh/22755",
+            "checked": "2026-11-21",
+            "note": "The restaurant’s Online Ordering and Order Now links lead to this Chowbus store for 936 Sheraton Drive. Confirm the selected order and collection time with the restaurant."
+          }
         },
         "contact": {
           "url": "https://www.laoszechuanpgh.com/",
@@ -95433,8 +95450,11 @@
         "lao",
         "sze",
         "chuan"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "ruckus-cafe-downtown": {
     "name": "Ruckus Café Downtown",
@@ -96260,31 +96280,45 @@
   },
   "7-brew-natrona-heights": {
     "name": "7 Brew Natrona Heights",
-    "website": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
-    "source": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+    "website": "https://locations.7brew.com/pa/natrona-heights/1425-freeport-road",
+    "source": "https://locations.7brew.com/pa/natrona-heights/1425-freeport-road",
     "source_name": "Official local stand and chain support information",
-    "address": "1421 Freeport Road, Natrona Heights, PA 15065",
+    "address": "1425 Freeport Road, Natrona Heights, PA 15065",
     "phone": "479-358-9274",
     "source_category": "Drive-Thru Coffee",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Natrona Heights",
     "source_excerpt": "",
     "description": "Confirm the Freeport Road stand’s current hours and selected drink price directly. App ordering is offered at participating locations, with payment and check-in completed at the drive-thru under the chain’s published process.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
-      "url": "https://locations.7brew.com/pa/natrona-heights/1421-freeport-road",
+      "checked": "2026-11-21",
+      "url": "https://locations.7brew.com/pa/natrona-heights/1425-freeport-road",
       "title": "7 Brew Coffee Natrona Heights",
       "description_excerpt": "",
       "links": {
         "services": {
           "url": "https://7brew.com/menu",
-          "label": "Official drink menu"
+          "label": "7 Brew chain drink menu",
+          "evidence": {
+            "relationship": "official_chain",
+            "source": "https://locations.7brew.com/pa/natrona-heights/1425-freeport-road",
+            "target": "https://7brew.com/menu",
+            "checked": "2026-11-21",
+            "note": "The Natrona Heights location page links the chain menu. It describes drink choices; ask the stand for current local prices."
+          }
         },
         "contact": {
           "url": "https://7brew.com/support",
-          "label": "Official ordering and ingredient information"
+          "label": "7 Brew chain support and ordering process",
+          "evidence": {
+            "relationship": "official_chain",
+            "source": "https://locations.7brew.com/pa/natrona-heights/1425-freeport-road",
+            "target": "https://7brew.com/support",
+            "checked": "2026-11-21",
+            "note": "The Natrona Heights location page links the chain support page. App ordering is described for participating locations; confirm the selected stand in the app."
+          }
         }
       },
       "topics": [],
@@ -96293,8 +96327,11 @@
         "brew",
         "natrona",
         "heights"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": true
   },
   "rally-house-forbes-avenue": {
     "name": "Rally House Forbes Avenue",
