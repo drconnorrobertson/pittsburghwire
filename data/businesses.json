@@ -96727,14 +96727,14 @@
     "address": "5407 Penn Avenue, Pittsburgh, PA 15206",
     "phone": "412-888-7420",
     "source_category": "Cafe and Community Space",
-    "checked": "2026-10-13",
+    "checked": "2026-11-21",
     "category": "food-and-drink",
     "city": "Pittsburgh",
     "source_excerpt": "",
     "description": "The operator says hours vary by week; check its embedded calendar for the intended date and event terms. The sober, sapphic-centered café welcomes the wider community and allies. Confirm current food choices, event reservations and specific access arrangements directly.",
     "official_research": {
       "status": "corroborated",
-      "checked": "2026-10-13",
+      "checked": "2026-11-21",
       "url": "https://www.thesoftspotpgh.com/",
       "title": "The Soft Spot PGH",
       "description_excerpt": "",
@@ -96745,7 +96745,15 @@
         },
         "services": {
           "url": "https://pittsburghfringe.org/venues/the-soft-spot/",
-          "label": "Festival venue and access information"
+          "label": "Pittsburgh Fringe third-party venue and access description",
+          "evidence": {
+            "relationship": "matched_listing",
+            "source": "https://pittsburghfringe.org/venues/the-soft-spot/",
+            "target": "https://pittsburghfringe.org/venues/the-soft-spot/",
+            "business_url": "https://www.thesoftspotpgh.com/",
+            "checked": "2026-11-21",
+            "note": "The festival page displays The Soft Spot name, 5407 Penn Avenue and the café website text, matching the operator site. This is third-party festival background, not the café’s own access assessment or confirmation of a current event layout. Confirm specific access needs directly with the café."
+          }
         }
       },
       "topics": [],
@@ -96753,8 +96761,11 @@
         "soft",
         "spot",
         "garfield"
-      ]
-    }
+      ],
+      "evidence_model": "reviewed_links_v1"
+    },
+    "published": "2026-10-13",
+    "editorial_author": "The Pittsburgh Wire editorial"
   },
   "foundations-property-inspection-jefferson-hills": {
     "name": "Foundations Property Inspection",
