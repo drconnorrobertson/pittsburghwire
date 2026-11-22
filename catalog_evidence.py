@@ -57,7 +57,9 @@ def reviewed_links_markup(row):
         items.append('<li><a href="' + escape(link['url'], quote=True) +
                      '" rel="noopener noreferrer">' + escape(link['label']) + '</a>' + detail + '</li>')
     chain_only = all(link.get('evidence', {}).get('relationship') == 'official_chain' for kind, link in research.get('links', {}).items() if kind != 'careers')
-    scope = ('Use the local location page for stand-specific details; the chain resources below describe general information.' if chain_only else 'A booking or shopping provider operates separately from this directory; confirm current terms on that provider’s page.')
+    external = [link['evidence'] for kind, link in research.get('links', {}).items() if kind != 'careers' and link.get('evidence')]
+    venue_only = bool(external) and all(e['relationship'] == 'host_venue' for e in external)
+    scope = ('Venue information describes the host location; confirm business service availability separately.' if venue_only and not chain_only else 'Use the local location page for stand-specific details; the chain resources below describe general information.' if chain_only else 'A booking or shopping provider operates separately from this directory; confirm current terms on that provider’s page.')
     return ('<h2>Useful sources for ' + escape(row['name']) + '</h2>'
             '<p>The links below identify the business website and separately reviewed external sources. '
             + scope + '</p>'
