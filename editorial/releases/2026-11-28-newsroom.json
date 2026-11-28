@@ -4,14 +4,22 @@
     {
       "slug": "pittsburgh-prt-bus-line-refresh-2027",
       "status": "published_verified",
-      "pull_request": 137,
-      "follow_up": "Check official rider education materials, route maps, and final schedules before the planned August 2027 rollout."
+      "follow_up": "Check official rider education materials, route maps, and final schedules before the planned August 2027 rollout.",
+      "pull_requests": [
+        137,
+        154,
+        155
+      ]
     },
     {
       "slug": "pittsburgh-2027-budget-hearing-december-10",
       "status": "published_verified",
-      "pull_request": 139,
-      "follow_up": "Check the December 10 hearing and December 15 scheduled line-item vote. Compare proposed and adopted bills."
+      "follow_up": "Check the December 10 hearing and December 15 scheduled line-item vote. Compare proposed and adopted bills.",
+      "pull_requests": [
+        139,
+        151,
+        156
+      ]
     },
     {
       "slug": "wabash-tunnel-closure-proposal-prt-board-october-23-2026",
@@ -45,10 +53,20 @@
       "status": "published_verified",
       "pull_requests": [
         147,
-        148
+        148,
+        150
       ],
       "follow_up": "Recheck the organizer’s rotating vendor roster and final-week hours before December 18. Remove seasonal promotion after the December 24 closing."
+    },
+    {
+      "slug": "1070-banksville-avenue-rezoning-hearing-november-30-2026",
+      "status": "published_verified",
+      "pull_requests": [
+        152,
+        153
+      ],
+      "follow_up": "After the November 30 hearing, check file 2026-1011 for a committee recommendation and subsequent final action. Update the story with the official record."
     }
   ],
-  "verification": "Verified all six entries on the public site. The three new stories appeared in both public sitemaps. The Downtown guide links to the Market Square story. Google indexing and comparative ranking movement remain unverified."
+  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified."
 }
