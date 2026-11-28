@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "oakland-museum-day",
+    "title": "A Pittsburgh Museum Day in Oakland",
+    "description": "Compare art and natural history in one Oakland outing, with an optional garden stop if time allows.",
+    "stops": [
+      [
+        "plan-carnegie-art-gallery-comparison-visit",
+        "Start with two galleries and compare how their labels explain objects. Let the art museum be your only stop if your group wants time to look closely."
+      ],
+      [
+        "plan-carnegie-natural-history-visit",
+        "Make natural history the lead stop when your group wants dinosaurs, specimens or geology. Pick one priority exhibit before adding more rooms."
+      ],
+      [
+        "plan-phipps-conservatory-visit",
+        "Add a conservatory stop only after checking its own entry window. Leave time to get there and make the most of the visit."
+      ]
+    ]
+  },
+  {
+    "slug": "north-side-family-day",
+    "title": "A North Side Pittsburgh Day With Kids",
+    "description": "Choose among hands-on play, birds and science for a family outing on Pittsburgh’s North Side.",
+    "stops": [
+      [
+        "plan-childrens-museum-museumlab-play-day",
+        "Start here when your group wants to make things. Use the museum’s current age and program guidance to decide whether to include MuseumLab."
+      ],
+      [
+        "plan-national-aviary-visit",
+        "Pick one bird or scheduled program to build around. Confirm whether your chosen experience needs a separate reservation."
+      ],
+      [
+        "plan-kamin-science-center-visit",
+        "Make the science center the anchor if you want to combine hands-on exhibits with a show. Choose the show time before planning the rest."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-north-side-art-day",
+    "title": "A North Side Pittsburgh Art Itinerary",
+    "description": "Compare Warhol’s work with room-scale installation art on a Pittsburgh North Side outing.",
+    "stops": [
+      [
+        "plan-andy-warhol-museum-visit",
+        "Start by choosing a medium such as film, screenprinting or photographs. A film screening changes how much time you have for other work."
+      ],
+      [
+        "plan-mattress-factory-installation-art-visit",
+        "Set aside time to experience a few installations slowly. Read current access information first because the works occupy different spaces."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-history-museum-day",
+    "title": "A Pittsburgh History Museum Day Downtown and in the Strip",
+    "description": "Pair a regional history museum with a focused look at the Forks of the Ohio.",
+    "stops": [
+      [
+        "plan-heinz-history-center-museum-visit",
+        "Start in the Strip District if your group wants a broad regional story. Pick one shared theme such as immigration, industry or sport."
+      ],
+      [
+        "plan-fort-pitt-museum-model-history-visit",
+        "Continue to Point State Park for a tighter look at one place and period. Compare what the museum’s maps and models show with what you can see outside today."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-east-end-art-and-gardens",
+    "title": "An East End Pittsburgh Art and Gardens Day",
+    "description": "Combine art, architecture and outdoor time around the Frick and Point Breeze.",
+    "stops": [
+      [
+        "plan-frick-pittsburgh-campus-visit",
+        "Choose the art museum, the grounds or a tour as your main reason to go. Check the schedule separately for any experience that needs its own booking."
+      ],
+      [
+        "plan-frick-environmental-center-observation",
+        "Use the park for a second stop if the weather and path conditions work for your group. Choose a short observation walk instead of trying to cover the whole park."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-gardens-day-trip",
+    "title": "Phipps or Pittsburgh Botanic Garden? How to Choose",
+    "description": "Compare a conservatory outing in Oakland with a path-based garden visit in the Pittsburgh area.",
+    "stops": [
+      [
+        "plan-phipps-conservatory-visit",
+        "Choose the conservatory if you want to plan around indoor plant displays. Check what is on view and how much time your group can comfortably spend upright."
+      ],
+      [
+        "plan-pittsburgh-botanic-garden-visit",
+        "Choose the Botanic Garden when paths and outdoor landscapes are the draw. Ask about the route surface and grade if your group needs a shorter or more accessible loop."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-industrial-history-outings",
+    "title": "Pittsburgh Industrial History Outings and Tours",
+    "description": "Choose a furnace tour, a regional museum visit or a riverfront outing to explore Pittsburgh’s industrial history.",
+    "stops": [
+      [
+        "choose-carrie-furnaces-heritage-tour",
+        "Make the furnaces the main outing if you want to understand how a steelmaking site worked. Compare the operator’s industrial tour and other current offerings before booking."
+      ],
+      [
+        "plan-heinz-history-center-museum-visit",
+        "Use a museum visit if your group wants a fuller regional picture or needs an indoor plan. Focus on how work, manufacturing and everyday life connect."
+      ],
+      [
+        "plan-three-rivers-heritage-trail-outing",
+        "Use a riverfront segment for a self-paced follow-up. Pick a turnaround point and check trail notices before relying on a through route."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-bird-and-animal-outings",
+    "title": "National Aviary or Pittsburgh Zoo? How to Choose",
+    "description": "Compare a bird-focused visit with a wider Pittsburgh animal outing.",
+    "stops": [
+      [
+        "plan-national-aviary-visit",
+        "Choose the Aviary if you want to focus on bird habitats or build your visit around a specific program. Verify the current program requirements."
+      ],
+      [
+        "plan-pittsburgh-zoo-observation-visit",
+        "Choose the zoo for a broader animal itinerary. Set priorities for the group and use the current map to avoid promising every exhibit in a single visit."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-bicycle-day",
+    "title": "A Pittsburgh Day for Bike Riders and Bicycle Design Fans",
+    "description": "Plan a riverfront ride, a bike-share trip or a visit to Bicycle Heaven.",
+    "stops": [
+      [
+        "plan-three-rivers-heritage-trail-outing",
+        "Choose a segment that fits the group’s slowest rider and plan the return before leaving. A turnaround point protects the rest of the itinerary if a connection is closed."
+      ],
+      [
+        "plan-pogoh-station-trip",
+        "With bike share, identify both the starting dock and a backup return dock. Check availability close to departure."
+      ],
+      [
+        "plan-bicycle-heaven-design-history-visit",
+        "Use Bicycle Heaven as the indoor anchor when your interest is design. Pick a component or bicycle style to compare while you are there."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-strip-district-cultural-day",
+    "title": "A Strip District Day Beyond the Food Shops",
+    "description": "Pair Strip District food stops with Pittsburgh history and contemporary craft.",
+    "stops": [
+      [
+        "plan-heinz-history-center-museum-visit",
+        "Start with the History Center when you have a shared topic in mind. Keep the museum as the main stop if the group wants time on more than one floor."
+      ],
+      [
+        "plan-contemporary-craft-material-looking-visit",
+        "Use Contemporary Craft in nearby Lawrenceville as a second stop. Check the current exhibition and what your group can learn from how a work is made."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-oakland-architecture-day",
+    "title": "An Oakland Pittsburgh Architecture and History Outing",
+    "description": "Explore Oakland through museum buildings, a library stop and military history.",
+    "stops": [
+      [
+        "plan-soldiers-sailors-artifact-story-visit",
+        "Use Soldiers & Sailors for the history stop. Choose one artifact story to put the scale of the memorial in context."
+      ],
+      [
+        "plan-carnegie-library-visit",
+        "Use current Carnegie Library listings to select the Main branch and verify access to the space or collection you want."
+      ],
+      [
+        "plan-carnegie-art-gallery-comparison-visit",
+        "Add the art museum if the group wants a longer indoor visit. Compare how a gallery frames a work with how a memorial frames an object or story."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-archaeology-day-trip",
+    "title": "A Pittsburgh-Area Archaeology and Early History Day Trip",
+    "description": "Compare a Meadowcroft outing with early Pittsburgh history at Fort Pitt.",
+    "stops": [
+      [
+        "plan-meadowcroft-archaeology-interpretation-visit",
+        "Make Meadowcroft the anchor when you want to see how an archaeological site interprets evidence. Confirm which parts of the site are open and allow time for the drive."
+      ],
+      [
+        "plan-fort-pitt-museum-model-history-visit",
+        "Use Fort Pitt for a separate city outing or an indoor alternative. Focus on maps and models that explain how people used one strategic site."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-music-history-outings",
+    "title": "Pittsburgh Music History and Live Performance Outings",
+    "description": "Choose between mechanical music at Bayernhof and preparation for a live Pittsburgh performance.",
+    "stops": [
+      [
+        "plan-bayernhof-music-machine-visit",
+        "Pick the museum when you want to see how machines made and reproduced music. Confirm tour access before planning around it."
+      ],
+      [
+        "prepare-pittsburgh-opera-listening-reading",
+        "Pick opera when the performance is the centerpiece. Read the synopsis and choose a short listening excerpt before choosing your seats."
+      ],
+      [
+        "read-pittsburgh-early-music-programme-roles",
+        "For an early music concert, read the program for instruments and roles so you have something specific to listen for."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-writers-outings",
+    "title": "Pittsburgh-Area Outings for Readers and Writers",
+    "description": "Plan an outing around a writer’s relationship to place, with a library stop or an author-centered visit.",
+    "stops": [
+      [
+        "plan-writers-landscape-place-reading-visit",
+        "Choose the Writers’ Landscape if you want an exhibition that connects writing to place. Bring a short passage or question rather than trying to cover every writer."
+      ],
+      [
+        "plan-rachel-carson-homestead-reading-visit",
+        "Use the Rachel Carson Homestead for a separate excursion centered on one author. Confirm current visit access and choose a passage to read before you go."
+      ],
+      [
+        "plan-carnegie-library-visit",
+        "Choose a library visit if your priority is research. Check the branch, collection availability and any reading-room requirements ahead of time."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-rainy-day-with-kids",
+    "title": "Rainy-Day Things to Do With Kids in Pittsburgh",
+    "description": "Compare hands-on play, science shows and natural history for an indoor family outing.",
+    "stops": [
+      [
+        "plan-childrens-museum-museumlab-play-day",
+        "Choose this when play and making are the priority. Decide which space to start in and allow a break before adding another."
+      ],
+      [
+        "plan-kamin-science-center-visit",
+        "Choose this when your group wants an indoor show or a specific science topic. Build the visit around the show if it needs a separate time."
+      ],
+      [
+        "plan-carnegie-natural-history-visit",
+        "Use natural history for a shorter visit with a clear focus such as dinosaurs or gems. Agree on one must-see exhibit before arrival."
+      ]
+    ]
+  },
+  {
+    "slug": "pittsburgh-lawrenceville-day",
+    "title": "A Lawrenceville Pittsburgh Day of Craft, Coffee and Local History",
+    "description": "Build a Lawrenceville outing around a gallery, a historical walk and a coffee stop.",
+    "stops": [
+      [
+        "plan-contemporary-craft-material-looking-visit",
+        "Check the exhibition first and choose one material or technique to look for. Leave room in the day to browse nearby rather than booking stops back to back."
+      ],
+      [
+        "plan-allegheny-cemetery-history-walk",
+        "Use the official cemetery map for a respectful walk. Confirm gates and current access, stay out of the way of services, and allow an indoor alternative."
+      ],
+      [
+        "/best/coffee-shops-in-lawrenceville/",
+        "Choose your coffee stop based on the time of day and the type of visit you want, from a quick espresso to somewhere to linger."
+      ]
+    ]
+  }
+]
