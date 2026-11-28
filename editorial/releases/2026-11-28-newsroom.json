@@ -136,7 +136,26 @@
         199
       ],
       "follow_up": "Check the city project page for a dated construction schedule and confirmed scope of the first package. Verify remaining utility coordination, the planned connections at McCartney and Wabash streets, and any temporary access restrictions."
+    },
+    {
+      "slug": "lincoln-avenue-safety-project-atwell-verona",
+      "status": "published_verified",
+      "pull_requests": [
+        201,
+        202,
+        203
+      ],
+      "follow_up": "Check the next DOMI drawings for intersection-level crossing, sidewalk and transit stop changes and any installation schedule. Recheck Google URL Inspection for a recorded crawl and indexing."
+    },
+    {
+      "slug": "crane-avenue-traffic-calming-brashear-high-school",
+      "status": "published_verified",
+      "pull_requests": [
+        204,
+        205
+      ],
+      "follow_up": "Verify installed speed tables and school-zone crossings against a dated notice or field observation, then confirm the direction and effective date of the Tropical Avenue one-way slip lane."
     }
   ],
-  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified. The Carnegie Station report was verified live, in both sitemaps, and linked from the Carnegie Borough guide. Its Google indexing status remains unverified. The Negley Avenue safety project report and East Liberty guide link were verified live. The report appeared in both sitemaps; Google indexing remains unverified. The school budget hearing report appeared in both sitemaps, and reciprocal links to the city budget story were verified live. The county budget article appeared in both public sitemaps, and all six links connecting the city, county and school budget articles were verified live. The rental assistance guide, its resident FAQ link and its main sitemap entry were verified live. Google indexing remains unverified. The Faison transition story returned HTTP 200 with a self-referencing canonical and appeared in the news archive, neighborhood news section and both public sitemaps. The Housing Opportunity Fund report was verified live in the Development archive and both public sitemaps. The West End Trolley Trail story was verified live in the news archive, Development section, both public sitemaps, RSS feed, and neighborhood and street safety coverage. Google indexing remains unverified."
+  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified. The Carnegie Station report was verified live, in both sitemaps, and linked from the Carnegie Borough guide. Its Google indexing status remains unverified. The Negley Avenue safety project report and East Liberty guide link were verified live. The report appeared in both sitemaps; Google indexing remains unverified. The school budget hearing report appeared in both sitemaps, and reciprocal links to the city budget story were verified live. The county budget article appeared in both public sitemaps, and all six links connecting the city, county and school budget articles were verified live. The rental assistance guide, its resident FAQ link and its main sitemap entry were verified live. Google indexing remains unverified. The Faison transition story returned HTTP 200 with a self-referencing canonical and appeared in the news archive, neighborhood news section and both public sitemaps. The Housing Opportunity Fund report was verified live in the Development archive and both public sitemaps. The West End Trolley Trail story was verified live in the news archive, Development section, both public sitemaps, RSS feed, and neighborhood and street safety coverage. Google indexing remains unverified. The Lincoln Avenue and Crane Avenue reports appeared in both live sitemaps, the RSS feed and their respective neighborhood guides. Lincoln Avenue URL Inspection showed discovered through the news sitemap with no crawl recorded. Crane Avenue indexing remains unverified."
 }
