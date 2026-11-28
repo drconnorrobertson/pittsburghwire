@@ -69,6 +69,8 @@ def publish():
             boundaries += '<p>Allegheny County municipalities that share a mapped border include ' + ", ".join(edges) + '.</p>'
         boundaries += f'<p>{link(BOUNDARIES, "Open the county’s municipal GIS dataset")}.</p></section>'
         details = f'<section><h2>Find the right local office</h2><p>Start with the {profile}. For a property or service question, confirm the municipality by street address before contacting a local office. A postal city name can cover addresses in multiple municipalities.</p>{municipal_note}<p>{link(ADDRESS, "County address and municipality resources")}</p></section>'
+        if slug == "carnegie-borough":
+            details += '<p>Transit coverage: <a href="/news/carnegie-station-prt-public-meeting-december-1-2026">PRT’s Carnegie Station and park-and-ride plans</a>.</p>'
         if slug in EXISTING:
             details += f'<p>{link(EXISTING[slug], f"Explore the Wire’s local coverage of {name}")}.</p>'
         write(route, f"{name}, Pennsylvania", f"Find the Allegheny County profile for {name}, see bordering municipalities, and check jurisdiction by address.", details + boundaries)
