@@ -93,7 +93,16 @@
         167
       ],
       "follow_up": "Check Pittsburgh Public Schools’ December 9 hearing and expected December 23 legislative vote. Use district records to compare adopted spending, revenues and fund balance with the preliminary budget."
+    },
+    {
+      "slug": "allegheny-county-2027-budget-december-1-council",
+      "status": "published_verified",
+      "pull_requests": [
+        169,
+        170
+      ],
+      "follow_up": "After December 1, verify the recorded action and version separately for county measures 14093-26 through 14096-26. Compare any adopted levy and appropriations with the executive proposal."
     }
   ],
-  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified. The Carnegie Station report was verified live, in both sitemaps, and linked from the Carnegie Borough guide. Its Google indexing status remains unverified. The Negley Avenue safety project report and East Liberty guide link were verified live. The report appeared in both sitemaps; Google indexing remains unverified. The school budget hearing report appeared in both sitemaps, and reciprocal links to the city budget story were verified live."
+  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified. The Carnegie Station report was verified live, in both sitemaps, and linked from the Carnegie Borough guide. Its Google indexing status remains unverified. The Negley Avenue safety project report and East Liberty guide link were verified live. The report appeared in both sitemaps; Google indexing remains unverified. The school budget hearing report appeared in both sitemaps, and reciprocal links to the city budget story were verified live. The county budget article appeared in both public sitemaps, and all six links connecting the city, county and school budget articles were verified live."
 }
