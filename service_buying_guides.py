@@ -11,7 +11,9 @@ def write(repo,page_shell=None):
  root=Path(repo)
  if page_shell is None:
   from build_site import page_shell
- guides=json.loads((root/'data/service-buying-guides.json').read_text());routes=[];route_dates={}
+ guides=json.loads((root/'data/service-buying-guides.json').read_text())
+ catering=json.loads((root/'data/catering-buying-guides.json').read_text())
+ guides.extend(catering);routes=[];route_dates={}
  latest=max(g.get('modified',g.get('published',DATE)) for g in guides)
  def display_date(value):
   d=date.fromisoformat(value);return d.strftime('%B')+' '+str(d.day)+', '+str(d.year)
@@ -42,6 +44,11 @@ def write(repo,page_shell=None):
  path=root/'directory/index.html';s=path.read_text();s=re.sub(r'<!-- service-planning:start -->.*?<!-- service-planning:end -->','',s,flags=re.S)
  block='<!-- service-planning:start --><section class="service-guide-nav"><h2 class="month-head">Prepare before choosing a provider</h2><p>Compare the assignment, responsibilities and quote details with our <a href="'+HUB+'">business-service planning guides</a>.</p></section><!-- service-planning:end -->'
  if s.count('</main>')!=1:raise ValueError('Expected one directory main element')
+ path.write_text(s.replace('</main>',block+'</main>'))
+ path=root/'services/caterers/index.html'
+ s=re.sub(r'<!-- catering-guides:start -->.*?<!-- catering-guides:end -->','',path.read_text(),flags=re.S)
+ block='<!-- catering-guides:start --><section aria-labelledby="catering-guides"><h2 id="catering-guides">Plan your catering service</h2><ul>'+''.join('<li><a href="/guides/'+g['slug']+'/">'+e(g['title'])+'</a></li>' for g in catering)+'</ul></section><!-- catering-guides:end -->'
+ if s.count('</main>')!=1:raise ValueError('Expected one catering directory main element')
  path.write_text(s.replace('</main>',block+'</main>'))
  sm=root/'sitemap.xml'
  if sm.exists():
