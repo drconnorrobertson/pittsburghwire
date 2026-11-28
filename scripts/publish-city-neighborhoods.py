@@ -36,6 +36,7 @@ STYLE = """<style>
 </style>"""
 REGIONAL_GUIDES = {
     "East Liberty": ("/news/negley-avenue-safety-project-east-liberty", "Negley Avenue safety project"),
+    "West End": ("/news/wabash-tunnel-closure-proposal-prt-board-october-23-2026", "Wabash Tunnel closure and park-and-ride access"),
     "Banksville": ("/news/1070-banksville-avenue-rezoning-hearing-november-30-2026", "1070 Banksville Avenue rezoning"),
     "Larimer": ("/news/larimer-housing-initiative-pittsburgh-2026", "Larimer housing and Mayflower Street"),
     "Central Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
