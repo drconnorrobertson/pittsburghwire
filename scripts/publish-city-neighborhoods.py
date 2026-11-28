@@ -101,6 +101,9 @@ def reference(item, by_slug, city):
         sources.append(link(SNAPSHOTS, "City neighborhood snapshots"))
     related = REGIONAL_GUIDES.get(item["name"])
     reporting = f'<p>Read the Wire’s broader {link(*related)} coverage.</p>' if related else ""
+    if item["name"] == "West End":
+        trail = link("/news/west-end-trolley-trail-pittsburgh-utility-delay", "West End Trolley Trail delay and route")
+        reporting += f"<p>See the {trail} for the planned path and street connections.</p>"
     boundary = f'<p>City neighborhoods sharing a boundary on this map include {neighbors}.</p>'
     return f'''<section class="city-reference" aria-labelledby="boundary-details">
 <h2 id="boundary-details">{name} map and boundaries</h2>
