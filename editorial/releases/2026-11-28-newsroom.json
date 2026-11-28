@@ -39,7 +39,16 @@
       "section": "guides",
       "status": "update_verified",
       "follow_up": "Check for a new city notice before the December 25–26 collection shift."
+    },
+    {
+      "slug": "pittsburgh-market-square-holiday-market-december-2026",
+      "status": "published_verified",
+      "pull_requests": [
+        147,
+        148
+      ],
+      "follow_up": "Recheck the organizer’s rotating vendor roster and final-week hours before December 18. Remove seasonal promotion after the December 24 closing."
     }
   ],
-  "verification": "Verified live public pages. Both newly published articles appeared in the main and news sitemaps. The Wabash and Larimer stories showed November 28 revision dates in the main sitemap. Google indexing and comparative ranking movement remain unverified."
+  "verification": "Verified all six entries on the public site. The three new stories appeared in both public sitemaps. The Downtown guide links to the Market Square story. Google indexing and comparative ranking movement remain unverified."
 }
