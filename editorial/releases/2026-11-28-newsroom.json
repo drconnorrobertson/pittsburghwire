@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-28",
+  "entries": [
+    {
+      "slug": "pittsburgh-prt-bus-line-refresh-2027",
+      "status": "published_verified",
+      "pull_request": 137,
+      "follow_up": "Check official rider education materials, route maps, and final schedules before the planned August 2027 rollout."
+    },
+    {
+      "slug": "pittsburgh-2027-budget-hearing-december-10",
+      "status": "published_verified",
+      "pull_request": 139,
+      "follow_up": "Check the December 10 hearing and December 15 scheduled line-item vote. Compare proposed and adopted bills."
+    },
+    {
+      "slug": "wabash-tunnel-closure-proposal-prt-board-october-23-2026",
+      "status": "update_verified",
+      "pull_requests": [
+        136,
+        138,
+        140,
+        144
+      ],
+      "follow_up": "Check December 1 closure implementation and ongoing park-and-ride access."
+    },
+    {
+      "slug": "larimer-housing-initiative-pittsburgh-2026",
+      "status": "update_verified",
+      "pull_requests": [
+        142,
+        143,
+        144
+      ],
+      "follow_up": "Check for buyer applications, eligibility, and delivery schedules for the Mayflower Street homes."
+    },
+    {
+      "slug": "pittsburgh-trash-recycling-schedule",
+      "section": "guides",
+      "status": "update_verified",
+      "follow_up": "Check for a new city notice before the December 25–26 collection shift."
+    }
+  ],
+  "verification": "Verified live public pages. Both newly published articles appeared in the main and news sitemaps. The Wabash and Larimer stories showed November 28 revision dates in the main sitemap. Google indexing and comparative ranking movement remain unverified."
+}
