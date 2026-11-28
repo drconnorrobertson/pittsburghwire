@@ -4,6 +4,8 @@ const {execFileSync} = require('node:child_process');
 const path = require('node:path');
 const cwd = path.resolve(__dirname, '..');
 for (const [program, args] of [
+  ['python3', ['scripts/refresh-news.py']],
+
   ['node', ['scripts/buyer-intent-release.cjs', '.']],
   ['node', ['scripts/consolidate-stories.cjs']],
   ['python3', ['scripts/format-directory.py']],
