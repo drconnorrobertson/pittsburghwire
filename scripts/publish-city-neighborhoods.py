@@ -35,6 +35,7 @@ STYLE = """<style>
 .city-neighborhood-list li{break-inside:avoid}
 </style>"""
 REGIONAL_GUIDES = {
+    "East Liberty": ("/news/negley-avenue-safety-project-east-liberty", "Negley Avenue safety project"),
     "Banksville": ("/news/1070-banksville-avenue-rezoning-hearing-november-30-2026", "1070 Banksville Avenue rezoning"),
     "Larimer": ("/news/larimer-housing-initiative-pittsburgh-2026", "Larimer housing and Mayflower Street"),
     "Central Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
