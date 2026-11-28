@@ -15,5 +15,6 @@ for (const [program, args] of [
   ['python3', ['scripts/connect-visit-guides.py']],
   ['python3', ['scripts/publish-outings.py']],
   ['python3', ['scripts/publish-city-neighborhoods.py']],
+  ['python3', ['scripts/publish-municipalities.py']],
   ['python3', ['scripts/category-directory-search.py']],
 ]) execFileSync(program, args, {cwd, stdio:'inherit'});
