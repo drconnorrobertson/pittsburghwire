@@ -35,6 +35,7 @@ STYLE = """<style>
 .city-neighborhood-list li{break-inside:avoid}
 </style>"""
 REGIONAL_GUIDES = {
+    "Larimer": ("/news/larimer-housing-initiative-pittsburgh-2026", "Larimer housing and Mayflower Street"),
     "Central Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
     "Lower Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
     "Upper Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
