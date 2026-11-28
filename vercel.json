@@ -421,6 +421,13 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {"source": "/parks", "destination": "/api/park-directory?page=index"},
+    {"source": "/parks/", "destination": "/api/park-directory?page=index"},
+    {"source": "/parks-sitemap.xml", "destination": "/api/park-directory?page=sitemap"},
+    {"source": "/parks/:page", "destination": "/api/park-directory?page=:page"},
+    {"source": "/parks/:page/", "destination": "/api/park-directory?page=:page"}
+  ],
   "buildCommand": "node scripts/build-release.cjs",
   "outputDirectory": "."
 }
