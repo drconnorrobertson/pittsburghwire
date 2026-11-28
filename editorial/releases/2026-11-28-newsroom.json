@@ -66,7 +66,16 @@
         153
       ],
       "follow_up": "After the November 30 hearing, check file 2026-1011 for a committee recommendation and subsequent final action. Update the story with the official record."
+    },
+    {
+      "slug": "carnegie-station-prt-public-meeting-december-1-2026",
+      "status": "published_verified",
+      "pull_requests": [
+        158,
+        159
+      ],
+      "follow_up": "After the December 1 PRT meeting, check the project page for updated station plans and documented changes to boarding, parking, and construction access."
     }
   ],
-  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified."
+  "verification": "Verified four new URLs on the public site and in both sitemaps. Verified links from Banksville and Downtown guides, the public comment and transit alert cross-links, and the budget hearing speaker deadline. Search Console reported the news sitemap successfully processed and confirmed the PRT and budget hearing URLs indexed. The Market Square and Banksville URLs were unknown at last inspection. Comparative ranking changes remain unverified. The Carnegie Station report was verified live, in both sitemaps, and linked from the Carnegie Borough guide. Its Google indexing status remains unverified."
 }
