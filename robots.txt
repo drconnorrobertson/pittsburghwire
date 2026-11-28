@@ -9,6 +9,7 @@ Allow: /
 Sitemap: https://www.thepittsburghwire.com/sitemap.xml
 Sitemap: https://www.thepittsburghwire.com/news-sitemap.xml
 Sitemap: https://www.thepittsburghwire.com/directory-sitemap.xml
+Sitemap: https://www.thepittsburghwire.com/parks-sitemap.xml
 
 # LLMs
 # https://www.thepittsburghwire.com/llms.txt
