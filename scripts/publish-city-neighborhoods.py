@@ -38,6 +38,7 @@ REGIONAL_GUIDES = {
     "Lincoln-Lemington-Belmar": ("/news/lincoln-avenue-safety-project-atwell-verona", "Lincoln Avenue safety project"),
     "East Liberty": ("/news/negley-avenue-safety-project-east-liberty", "Negley Avenue safety project"),
     "West End": ("/news/wabash-tunnel-closure-proposal-prt-board-october-23-2026", "Wabash Tunnel closure and park-and-ride access"),
+    "Beechview": ("/news/crane-avenue-traffic-calming-brashear-high-school", "Crane Avenue safety near Brashear High School"),
     "Banksville": ("/news/1070-banksville-avenue-rezoning-hearing-november-30-2026", "1070 Banksville Avenue rezoning"),
     "Larimer": ("/news/larimer-housing-initiative-pittsburgh-2026", "Larimer housing and Mayflower Street"),
     "Central Lawrenceville": ("/neighborhoods/lawrenceville/", "Lawrenceville"),
