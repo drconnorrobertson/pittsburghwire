@@ -14,6 +14,7 @@ HELP = "/guides/pittsburgh-resident-faq/"
 REQUEST = "/guides/pittsburgh-311-service-request/"
 TRASH = "/guides/pittsburgh-trash-recycling-schedule/"
 SNOW = "/guides/pittsburgh-snow-plow-map/"
+RENT = "/guides/pittsburgh-rental-assistance/"
 
 def link(url, text):
     return f'<a href="{escape(url, quote=True)}">{escape(text)}</a>'
@@ -37,6 +38,7 @@ def write(route, title, deck, sections):
 write(HELP, "Pittsburgh Resident FAQ and City Services",
       "Find your collection day, report a city service issue, or check which streets snow crews have treated.", [
     section("Who handles services at my address?", f"<p>Start with the street address. A Pittsburgh mailing address can fall outside City of Pittsburgh limits. Check the municipality before using the city’s collection calendar or service form. If you live in another borough or township, use its local office or hauler for instructions.</p><p>{link('/municipalities/', 'Find your Allegheny County municipality')} · {link(CITY, 'City of Pittsburgh resident services')}</p>"),
+    section("Where can I ask for help with rent?", f"<p>ACTION-Housing screens renters for assistance by phone and email. {link(RENT, 'Find rental assistance and eviction prevention contacts')}.</p>"),
     section("Where do I report a pothole or broken streetlight?", f"<p>Use Pittsburgh 311 for non-emergency city concerns. A street address, cross street and clear description help staff identify the location. {link(REQUEST, 'How to file and track a 311 request')}.</p>"),
     section("When will my trash or recycling be picked up?", f"<p>Use your address to find your normal route, then check the city’s latest holiday or service notice. Trash and recycling can have different calendars. {link(TRASH, 'Find your collection day and report a missed pickup')}.</p>"),
     section("How can I follow proposed changes to city services?", f"<p>The city’s operating budget covers ongoing services. The capital plan lists projects such as street and park improvements. {link('/news/pittsburgh-2027-budget-hearing-december-10', 'Follow Pittsburgh’s 2027 budget hearing and scheduled vote')}.</p>"),
@@ -64,7 +66,14 @@ write(SNOW, "Pittsburgh Snow Plow Map and Street Treatment",
     section("Does a blank street mean it was skipped?", "<p>A blank line can reflect missing dashboard data. Check the coverage map and the timestamp, then compare nearby blocks. A route line records vehicle travel and cannot confirm the current condition of the road surface.</p>"),
     section("When can I report a street that still needs treatment?", f"<p>The city asks residents to wait until 24 hours after snowfall ends before reporting a street that still has not been plowed or salted. If you submit a request, include the street, cross streets and affected stretch. {link(CITY + '/Snow-Removal/Snow-Ice', 'Read the city’s snow and ice guidance')} · {link(REQUEST, 'File a Pittsburgh 311 request')}.</p>"),
 ])
-routes = (HELP, REQUEST, TRASH, SNOW)
+write(RENT, "Pittsburgh Rental Assistance and Eviction Prevention",
+      "Find the ACTION-Housing intake number, check city and county options, and gather documents for screening.", [
+    section("Where should I start?", "<p>Call ACTION-Housing at <a href='tel:+14122480021'>412-248-0021</a> or email <a href='mailto:rentalassistance@actionhousing.org'>rentalassistance@actionhousing.org</a>. ACTION-Housing says its drop-in center closed June 30, 2026, and intake continues by phone and email. Ask which programs cover your address and what documentation they need. Assistance depends on eligibility and available funding.</p>"),
+    section("What does the City of Pittsburgh program cover?", "<p>The URA’s Housing Stabilization Program lists up to $6,000 in short-term help for eligible renters within city limits. Its published income limit is 50% of area median income, and households can apply once every three years. Confirm your municipality by street address and ask the intake team which income limit applies to your household size.</p><p><a href='https://www.ura.org/pages/housing-stabilization-program'>Read the URA program requirements</a> · <a href='/municipalities/'>Check your municipality</a></p>"),
+    section("What if I live elsewhere in Allegheny County?", "<p>The Allegheny Housing Stabilization Collaborative uses the same ACTION-Housing intake contacts and lists rental assistance, mediation and legal support. It applies its own screening criteria. Tell intake your municipality and whether you have a filed eviction case or a completed mediation agreement so the team can direct you to applicable services.</p><p><a href='https://actionhousing.org/our-services/allegheny-housing-stabilization-collaborative/'>Check the collaborative’s intake and eligibility information</a>.</p>"),
+    section("What should I gather before screening?", "<p>Gather a signed lease, proof of income such as pay stubs or benefits letters, and any eviction notice, docket information or completed mediation agreement you have. Keep the intake reply and respond promptly if the provider asks for another document. Free interpretation is available through the city program’s screening process.</p>"),
+])
+routes = (HELP, REQUEST, TRASH, SNOW, RENT)
 sitemap = ROOT / "sitemap.xml"
 xml = sitemap.read_text(encoding="utf-8")
 entries = ''.join(f"  <url><loc>{SITE}{route}</loc></url>\n" for route in routes if f"<loc>{SITE}{route}</loc>" not in xml)
